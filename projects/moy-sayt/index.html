@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Айту Тiлеубаев</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0a090f;
+      --surface:   #110f1a;
+      --border:    #1e1a2e;
+      --purple-lo: #2d1f4e;
+      --purple:    #7c5cbf;
+      --purple-hi: #b89de8;
+      --glow:      #9b77e820;
+      --text:      #e8e3f2;
+      --muted:     #7a7090;
+      --line:      1px solid var(--border);
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.02em;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      background-image:
+        radial-gradient(ellipse 60% 40% at 50% 0%, #1a0f3020 0%, transparent 70%),
+        radial-gradient(ellipse 40% 30% at 80% 80%, #0d0a2010 0%, transparent 60%);
+    }
+
+    /* ── Card ── */
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: var(--surface);
+      border: var(--line);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow:
+        0 0 0 1px #ffffff04,
+        0 24px 64px #00000060,
+        0 0 80px var(--glow);
+      animation: fadeUp .7s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Header band ── */
+    .card-header {
+      position: relative;
+      background: linear-gradient(160deg, #1a1030 0%, #0e0b1c 100%);
+      padding: 48px 36px 36px;
+      border-bottom: var(--line);
+      text-align: center;
+    }
+
+    .card-header::before {
+      content: '';
+      position: absolute;
+      top: -60px; left: 50%;
+      transform: translateX(-50%);
+      width: 260px; height: 200px;
+      background: radial-gradient(ellipse, #7c5cbf18 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    /* ── Avatar ── */
+    .avatar-wrap {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    .avatar {
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2d1f4e 0%, #1a1030 100%);
+      border: 2px solid var(--purple);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 0 32px #7c5cbf30;
+    }
+
+    .avatar svg {
+      width: 64px;
+      height: 64px;
+      opacity: .55;
+    }
+
+    .avatar-ring {
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background:
+        linear-gradient(var(--surface), var(--surface)) padding-box,
+        linear-gradient(135deg, var(--purple) 0%, transparent 60%) border-box;
+      animation: spin 8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Name & title ── */
+    .name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text);
+      line-height: 1.15;
+    }
+
+    .tagline {
+      margin-top: 6px;
+      font-size: 0.72rem;
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--purple-hi);
+    }
+
+    /* ── Divider ── */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 36px;
+      margin: 28px 0;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border));
+    }
+    .divider::after { background: linear-gradient(to left, transparent, var(--border)); }
+    .divider span {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ── Body ── */
+    .card-body { padding: 0 36px 36px; }
+
+    /* ── Skills ── */
+    .section-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .skill {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 18px;
+      background: #ffffff03;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: border-color .25s, background .25s;
+    }
+
+    .skill:hover {
+      border-color: var(--purple);
+      background: #7c5cbf08;
+    }
+
+    .skill-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: var(--purple-lo);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .skill-icon svg { width: 18px; height: 18px; color: var(--purple-hi); }
+
+    .skill-name {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--text);
+    }
+
+    .skill-dot {
+      margin-left: auto;
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--purple);
+      opacity: .6;
+    }
+
+    /* ── Contact ── */
+    .contact-block {
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #ffffff03;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      transition: border-color .25s, background .25s;
+    }
+
+    .contact-block:hover {
+      border-color: var(--purple);
+      background: #7c5cbf08;
+    }
+
+    .contact-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: var(--purple-lo);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .contact-icon svg { width: 18px; height: 18px; color: var(--purple-hi); }
+
+    .contact-info { display: flex; flex-direction: column; gap: 2px; }
+    .contact-label { font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
+    .contact-value { font-size: 0.95rem; font-weight: 400; color: var(--text); }
+
+    /* ── Footer ── */
+    .card-footer {
+      border-top: var(--line);
+      padding: 16px 36px;
+      text-align: center;
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<article class="card">
+
+  <!-- Header -->
+  <div class="card-header">
+    <div class="avatar-wrap">
+      <div class="avatar-ring"></div>
+      <div class="avatar">
+        <!-- Person silhouette placeholder -->
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="22" r="12" fill="#b89de8"/>
+          <path d="M8 58c0-13.255 10.745-24 24-24s24 10.745 24 24" fill="#b89de8"/>
+        </svg>
+      </div>
+    </div>
+    <h1 class="name">Айту Тiлеубаев</h1>
+    <p class="tagline">Профессионал &amp; Эксперт</p>
+  </div>
+
+  <!-- Body -->
+  <div class="card-body">
+
+    <div class="divider"><span>Навыки</span></div>
+
+    <p class="section-label">Специализация</p>
+    <div class="skills">
+
+      <div class="skill">
+        <div class="skill-icon">
+          <!-- Home / real estate icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9.5L12 3l9 6.5V21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/>
+            <path d="M9 22V12h6v10"/>
+          </svg>
+        </div>
+        <span class="skill-name">Риэлтор</span>
+        <div class="skill-dot"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          <!-- Camera / mobilograph icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="15" rx="2"/>
+            <path d="M16 7l-2-4H10L8 7"/>
+            <circle cx="12" cy="14.5" r="3.5"/>
+          </svg>
+        </div>
+        <span class="skill-name">Мобилограф</span>
+        <div class="skill-dot"></div>
+      </div>
+
+    </div>
+
+    <div class="divider"><span>Контакт</span></div>
+
+    <a class="contact-block" href="tel:+77776688819">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+      </div>
+      <div class="contact-info">
+        <span class="contact-label">Телефон</span>
+        <span class="contact-value">+7 777 668 88 19</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="card-footer">Айту Тiлеубаев &nbsp;·&nbsp; 2026</div>
+
+</article>
+
+</body>
+</html>

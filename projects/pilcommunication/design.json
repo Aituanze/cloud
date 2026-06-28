@@ -1,0 +1,332 @@
+{
+  "_meta": {
+    "source": "pilcommunication.com",
+    "analyzed": "2026-06-27",
+    "style": "Italian editorial brutalism — bold grotesque typography as hero, red as singular signal, white space as power"
+  },
+
+  "designPrinciples": [
+    "Typography IS the design — text at extreme scale replaces decoration",
+    "Three-colour discipline: black, white, red only — no deviation",
+    "Red means action — used exclusively for CTAs, active states, and accent sparks",
+    "White space is intentional power, not empty filler",
+    "Full-bleed over contained — sections span the full viewport width",
+    "Dot ( . ) as a graphic separator motif between paired concepts",
+    "Motion earns its place — only for client marquee and hero transitions",
+    "Editorial hierarchy: one massive idea per section, everything else is secondary"
+  ],
+
+  "colors": {
+    "red": {
+      "primary": "#E8251A",
+      "usage": "CTA buttons, active nav states, hover fills, accent dots, language switcher active"
+    },
+    "black": {
+      "primary": "#000000",
+      "usage": "Hero typography, body text, logo, footer background pixel pattern"
+    },
+    "white": {
+      "primary": "#FFFFFF",
+      "usage": "Page background, reversed text on dark/red, nav background"
+    },
+    "dark": {
+      "primary": "#111111",
+      "usage": "Upper footer background"
+    },
+    "gray": {
+      "primary": "#6B6B6B",
+      "usage": "Secondary body text, fine print, meta info"
+    }
+  },
+
+  "typography": {
+    "philosophy": "Grotesque sans-serif family throughout. Weight and scale do all the work — no serifs, no decorative fonts.",
+    "fontFamily": {
+      "primary": "Neue Haas Grotesk, Aktiv Grotesk, or Helvetica Neue — ultra-bold condensed for display, regular for body",
+      "fallback": "Arial Black for display, Arial for body",
+      "googleFontsAlternative": "Barlow Condensed ExtraBold for display, Barlow Regular for body"
+    },
+    "scales": {
+      "hero": {
+        "size": "clamp(80px, 12vw, 160px)",
+        "weight": "900",
+        "lineHeight": "0.9",
+        "letterSpacing": "-0.02em",
+        "transform": "uppercase",
+        "usage": "Main page headline — fills 70-100% of viewport width"
+      },
+      "display": {
+        "size": "clamp(48px, 7vw, 100px)",
+        "weight": "800",
+        "lineHeight": "0.95",
+        "letterSpacing": "-0.01em",
+        "transform": "uppercase",
+        "usage": "Section service rows, large numbers, annual markers"
+      },
+      "sectionLabel": {
+        "size": "12px",
+        "weight": "400",
+        "lineHeight": "1",
+        "letterSpacing": "0.2em",
+        "transform": "uppercase",
+        "usage": "Section category labels above headings (e.g. 'SERVIZI')"
+      },
+      "navLink": {
+        "size": "13px",
+        "weight": "400",
+        "lineHeight": "1",
+        "letterSpacing": "0.12em",
+        "transform": "uppercase",
+        "usage": "Top navigation items"
+      },
+      "body": {
+        "size": "16px",
+        "weight": "400",
+        "lineHeight": "1.6",
+        "letterSpacing": "0",
+        "transform": "none",
+        "usage": "Paragraph text, descriptions, footer addresses"
+      },
+      "bodySmall": {
+        "size": "13px",
+        "weight": "400",
+        "lineHeight": "1.5",
+        "letterSpacing": "0",
+        "usage": "Captions, copyright, fine print, service sub-items in footer"
+      },
+      "subHeadline": {
+        "size": "clamp(14px, 1.4vw, 20px)",
+        "weight": "700",
+        "lineHeight": "1.2",
+        "letterSpacing": "0.05em",
+        "transform": "uppercase",
+        "usage": "Sub-sections under hero (e.g. 'LO FACCIAMO DA 20 ANNI')"
+      }
+    }
+  },
+
+  "spacing": {
+    "philosophy": "Generous breathing room. Sections need vertical air. No cramped layouts.",
+    "sectionPaddingY": "clamp(80px, 10vw, 160px)",
+    "containerMaxWidth": "1440px",
+    "containerPaddingX": "clamp(24px, 5vw, 80px)",
+    "navHeight": "72px",
+    "rowGap": {
+      "small": "8px",
+      "medium": "24px",
+      "large": "48px",
+      "xlarge": "80px"
+    },
+    "columnGap": "24px",
+    "footerColumnGap": "40px"
+  },
+
+  "layout": {
+    "gridColumns": 12,
+    "breakpoints": {
+      "mobile": "< 768px",
+      "tablet": "768px – 1024px",
+      "desktop": "> 1024px"
+    },
+    "patterns": {
+      "fullBleed": "Most hero and service sections span 100vw with no side margins",
+      "heroText": "Text left-aligned, takes up ~65% of viewport width on desktop",
+      "centeredBody": "Body paragraphs centred with max-width ~600px for client sections",
+      "footerGrid": "4-6 column grid on dark footer, service links across 5 columns on light footer"
+    }
+  },
+
+  "components": {
+
+    "navbar": {
+      "background": "#FFFFFF",
+      "height": "72px",
+      "borderBottom": "none",
+      "logo": {
+        "position": "left",
+        "style": "Logotype 'pil.' in bold lowercase with a red dot, sub-label '20 YEARS OF PEOPLE.' tiny below"
+      },
+      "navLinks": {
+        "position": "center",
+        "style": "uppercase, letter-spaced, 13px, no underline, black",
+        "hoverStyle": "no background, underline or color change — understated"
+      },
+      "languageSwitcher": {
+        "position": "right",
+        "activeState": "red filled square button, white text",
+        "inactiveState": "white/transparent button, black text",
+        "shape": "square pill, ~28x28px"
+      }
+    },
+
+    "heroSection": {
+      "background": "#FFFFFF",
+      "layout": "Left-aligned, full-width text block",
+      "headline": "Ultra-bold condensed uppercase at extreme scale — fills the screen",
+      "subHeadline": "Small uppercase bold label below headline",
+      "body": "Regular weight paragraph, max-width ~480px, left-aligned below subheadline",
+      "accentDot": "Small red square (~10x10px) placed asymmetrically near headline as graphic spark"
+    },
+
+    "ctaButton": {
+      "style": "INLINE — red filled square icon box + uppercase spaced text beside it",
+      "iconBox": {
+        "size": "48x48px",
+        "background": "#E8251A",
+        "icon": "→ white arrow",
+        "borderRadius": "0"
+      },
+      "label": {
+        "color": "#000000",
+        "size": "13px",
+        "weight": "600",
+        "letterSpacing": "0.15em",
+        "transform": "uppercase"
+      },
+      "gap": "16px between icon box and label",
+      "hover": "icon box darkens slightly, no border or shadow"
+    },
+
+    "serviceRow": {
+      "layout": "Full-width horizontal rows, separated by 1px hairline rules",
+      "text": "Display size uppercase bold, center-aligned or left-aligned",
+      "defaultState": {
+        "background": "#FFFFFF",
+        "textColor": "#000000"
+      },
+      "activeOrHoverState": {
+        "background": "#E8251A",
+        "textColor": "#FFFFFF"
+      },
+      "separator": "1px solid #000000 or #E5E5E5",
+      "dotMotif": "Categories separated by ' . ' (space-dot-space) within the row label"
+    },
+
+    "logoMarquee": {
+      "layout": "Horizontally scrolling, 3 rows, auto-play",
+      "logoStyle": "Black/dark monochrome only — no colour logos",
+      "background": "#FFFFFF",
+      "gap": "40px to 80px between logos",
+      "speed": "slow continuous scroll"
+    },
+
+    "sectionLabel": {
+      "style": "Tiny uppercase letter-spaced text, placed above a divider line or as an eyebrow",
+      "color": "#000000",
+      "letterSpacing": "0.2em",
+      "marginBottom": "24px"
+    },
+
+    "pixelPattern": {
+      "description": "Decorative band of black squares at varying heights — like a cityscape silhouette",
+      "usage": "Transition between main content area and dark footer",
+      "implementation": "CSS grid or SVG with randomly-sized black rectangles on white",
+      "height": "~60px band"
+    },
+
+    "footerDark": {
+      "background": "#111111",
+      "textColor": "#FFFFFF",
+      "logo": "White version of pil. logotype, large, left column",
+      "address": "White body text below logo",
+      "navColumns": "Uppercase spaced links, white, multi-column grid",
+      "accentDot": "Small red square (~10x10px) accent appears floating"
+    },
+
+    "footerLight": {
+      "background": "#FFFFFF",
+      "layout": "Newsletter input left, 5 service category columns right",
+      "newsletter": {
+        "label": "Small italic or regular text",
+        "input": "Underline-only border (no box), placeholder 'Email*', arrow submit button",
+        "inputBorder": "1px solid #000000 bottom only"
+      },
+      "serviceLinks": {
+        "categoryLabel": "Small uppercase bold, black",
+        "links": "Small regular weight, black, no bullet"
+      }
+    },
+
+    "emailInput": {
+      "border": "none none 1px none — bottom border only",
+      "borderColor": "#000000",
+      "background": "transparent",
+      "placeholder": "color: #999999",
+      "padding": "8px 0",
+      "submitButton": "inline arrow icon, black"
+    },
+
+    "languageSwitcher": {
+      "activeButton": {
+        "background": "#E8251A",
+        "textColor": "#FFFFFF",
+        "borderRadius": "0",
+        "size": "28x28px"
+      },
+      "inactiveButton": {
+        "background": "transparent",
+        "textColor": "#000000",
+        "border": "none"
+      }
+    },
+
+    "accentSquare": {
+      "description": "Small floating red square used as a graphic punctuation mark",
+      "size": "8-12px",
+      "color": "#E8251A",
+      "borderRadius": "0",
+      "positioning": "absolute, placed asymmetrically near key text or at section ends"
+    },
+
+    "dataWidget": {
+      "description": "Live contextual data displayed inline in header (e.g. weather, time)",
+      "style": "Tiny monospace or sans-serif, right-aligned, subtle gray",
+      "usage": "Brand personality — agency aware of the real world in real time"
+    },
+
+    "socialIcons": {
+      "style": "Outline or flat icons, black on white / white on dark",
+      "size": "20-24px",
+      "gap": "16px"
+    }
+  },
+
+  "motionAndInteraction": {
+    "philosophy": "Animation is intentional and editorial. Nothing decorative for its own sake.",
+    "marquee": "Slow horizontal auto-scroll for logos — CSS animation, no easing",
+    "heroText": "May animate in on load — simple opacity or slide, fast (300-400ms)",
+    "serviceRowHover": "Instant background fill on hover — no transition delay, 100ms max",
+    "ctaHover": "Icon box darkens — 150ms ease",
+    "scrollTriggers": "Large text sections may appear as page scrolls (intersection observer)"
+  },
+
+  "iconography": {
+    "style": "Minimal line icons — arrow (→) is the primary icon",
+    "primaryIcon": "Right-pointing arrow (→) used in CTA boxes and submit buttons",
+    "socialIcons": "Standard platform icons only (Instagram, LinkedIn, Facebook)"
+  },
+
+  "photography": {
+    "note": "No photography visible on main site — design relies entirely on typography and color",
+    "clientLogos": "Black/monochrome treatment of all client brand logos"
+  },
+
+  "doAndDont": {
+    "do": [
+      "Make typography fill the screen — if it feels too big, it's probably right",
+      "Use red for ONE thing per section, never two",
+      "Keep dot ( . ) separator for paired category labels",
+      "Use full-width for all major section containers",
+      "Uppercase for all display text, navigation, labels",
+      "Maintain strict three-color palette: black, white, red only"
+    ],
+    "dont": [
+      "Don't add gradients, shadows, or rounded corners — zero border-radius on structural elements",
+      "Don't use decorative illustration or photography as background",
+      "Don't add more than one accent color — red is the only color",
+      "Don't center hero headlines — they are left-aligned",
+      "Don't use light gray backgrounds — sections are either white or #111111",
+      "Don't add transition animations longer than 200ms"
+    ]
+  }
+}

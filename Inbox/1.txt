@@ -1,0 +1,248 @@
+Готовый проект для Cursor / Claude Code
+Скопируйте файлы ниже в свою папку проекта и следуйте инструкции в README.md.
+
+Структура проекта
+text
+/мой_бот
+├── bot.py               # основной код бота
+├── config.py            # настройки (токен, имя таблицы)
+├── requirements.txt     # зависимости
+├── credentials.json     # ваш файл от Google API (скачайте сами)
+└── README.md            # инструкция по запуску
+Файл config.py
+python
+# Настройки проекта
+TELEGRAM_TOKEN = "ВАШ_ТОКЕН_БОТА"          # получите у @BotFather
+GOOGLE_SHEET_NAME = "Лидогенератор"        # имя вашей Google таблицы
+TELEGRAM_GROUP_ID = "@ваша_группа"         # ID группы для уведомлений (или @username)
+Файл bot.py
+python
+# -*- coding: utf-8 -*-
+"""
+Telegram-бот для сбора лидов по недвижимости.
+Данные сохраняются в Google Sheets.
+Уведомления отправляются в Telegram-группу.
+"""
+
+import logging
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import config
+
+# Настройка логирования
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+)
+logger = logging.getLogger(__name__)
+
+# Подключение к Google Sheets
+def get_google_sheet():
+    scope = ["https://spreadsheets.google.com/feeds",
+             "https://www.googleapis.com/auth/drive"]
+    try:
+        creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+        client = gspread.authorize(creds)
+        sheet = client.open(config.GOOGLE_SHEET_NAME).sheet1
+        logger.info("Подключение к Google Sheets успешно")
+        return sheet
+    except Exception as e:
+        logger.error(f"Ошибка подключения к Google Sheets: {e}")
+        return None
+
+sheet = get_google_sheet()
+
+# Функция для отправки уведомления в группу
+def notify_group(context: CallbackContext, lead_info: str):
+    try:
+        context.bot.send_message(
+            chat_id=config.TELEGRAM_GROUP_ID,
+            text=f"🔥 Новый лид!\n{lead_info}\nНазначить риэлтора: /assign_<ID>"
+        )
+    except Exception as e:
+        logger.error(f"Не удалось отправить уведомление в группу: {e}")
+
+# Команда /start
+def start(update: Update, context: CallbackContext):
+    update.message.reply_text(
+        "🏠 Добро пожаловать!\n"
+        "Опишите, какую недвижимость ищете, например:\n"
+        "'3-комнатная квартира в Бостандыкском районе до 60 млн. Телефон: +7 777 123 45 67'"
+    )
+
+# Обработчик текстовых сообщений
+def handle_message(update: Update, context: CallbackContext):
+    user = update.message.from_user
+    user_text = update.message.text
+    date = update.message.date.strftime("%Y-%m-%d %H:%M:%S")
+
+    if sheet is None:
+        update.message.reply_text("❌ Ошибка подключения к базе данных. Свяжитесь с администратором.")
+        return
+
+    # Сохраняем лид в Google Sheets
+    try:
+        sheet.append_row([
+            date,
+            user.id,
+            user.first_name,
+            user.last_name or "",
+            user.username or "",
+            user_text,
+            "Новый"
+        ])
+        update.message.reply_text("✅ Ваш запрос принят! Мы свяжемся с вами в ближайшее время.")
+
+        # Отправка уведомления в группу
+        lead_info = (
+            f"Имя: {user.first_name}\n"
+            f"Телефон: {user.username or 'не указан'}\n"
+            f"Запрос: {user_text}"
+        )
+        notify_group(context, lead_info)
+
+    except Exception as e:
+        logger.error(f"Ошибка сохранения в Google Sheets: {e}")
+        update.message.reply_text("⚠️ Произошла ошибка. Попробуйте позже.")
+
+# Обработчик ошибок
+def error_handler(update: Update, context: CallbackContext):
+    logger.error(f"Ошибка: {context.error}")
+
+def main():
+    if not config.TELEGRAM_TOKEN:
+        logger.error("TELEGRAM_TOKEN не задан в config.py")
+        return
+
+    updater = Updater(config.TELEGRAM_TOKEN, use_context=True)
+    dp = updater.dispatcher
+
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_message))
+    dp.add_error_handler(error_handler)
+
+    updater.start_polling()
+    logger.info("Бот запущен и ожидает сообщения...")
+    updater.idle()
+
+if __name__ == "__main__":
+    main()
+Файл requirements.txt
+text
+python-telegram-bot==13.11
+gspread==5.7.1
+oauth2client==4.1.3
+Файл README.md (инструкция)
+markdown
+# Бот для сбора лидов по недвижимости (Almaty)
+
+Этот бот принимает запросы от клиентов, сохраняет их в Google Таблицу и уведомляет группу риэлторов в Telegram.
+
+## 1. Установка на компьютере (Windows/Mac/Linux)
+
+1. Установите Python 3.8+ с [официального сайта](https://www.python.org/downloads/).
+2. Скачайте этот проект или скопируйте файлы.
+3. Откройте терминал в папке проекта и выполните:
+   ```bash
+   pip install -r requirements.txt
+2. Настройка Google Sheets
+Перейдите в Google Cloud Console.
+
+Создайте проект → включите Google Sheets API.
+
+Создайте сервисный аккаунт → скачайте ключ в формате JSON.
+
+Переименуйте скачанный файл в credentials.json и поместите в папку проекта.
+
+Создайте Google Таблицу с именем, указанным в config.py (по умолчанию "Лидогенератор").
+
+Добавьте колонки: Дата, ID, Имя, Фамилия, Username, Запрос, Статус.
+
+Поделитесь таблицей с email-адресом сервисного аккаунта (он указан в credentials.json).
+
+3. Настройка Telegram-бота
+Напишите @BotFather → команда /newbot → создайте бота.
+
+Скопируйте токен и вставьте его в config.py в переменную TELEGRAM_TOKEN.
+
+Создайте Telegram-группу, добавьте туда бота как администратора.
+
+Получите ID группы:
+
+Добавьте в группу бота @getidsbot.
+
+Напишите /id → скопируйте ID группы (например, -123456789).
+
+Вставьте его в config.py в переменную TELEGRAM_GROUP_ID.
+
+4. Запуск
+В терминале в папке проекта выполните:
+
+bash
+python bot.py
+Бот запустится и будет работать.
+
+5. Работа с лидами
+Клиент пишет боту → запрос сохраняется в Google Таблицу.
+
+В группу приходит уведомление с данными клиента.
+
+Риэлтор вручную ищет объекты на krisha.kz и связывается с клиентом.
+
+6. Запуск на Android (Termux)
+Установите Termux из F-Droid.
+
+Обновите пакеты:
+
+bash
+pkg update && pkg upgrade
+Установите Python и pip:
+
+bash
+pkg install python python-pip
+Скопируйте все файлы проекта в папку Termux (например, через termux-setup-storage).
+
+Установите зависимости:
+
+bash
+pip install -r requirements.txt
+Запустите бота:
+
+bash
+python bot.py
+Примечание: Termux должен быть открыт постоянно. Используйте Termux:Boot для автозапуска.
+
+7. Важные замечания
+Проект не использует парсинг krisha.kz – все объекты подбираются вручную, что полностью легально.
+
+Файл credentials.json является секретным – не публикуйте его в открытом доступе.
+
+При возникновении ошибок проверьте логи в терминале.
+
+8. Дальнейшее развитие
+Добавьте команду /assign в группе для назначения риэлтора на лид.
+
+Интегрируйте голосовые сообщения через Telegram API (опционально).
+
+Подключите API krisha.kz при появлении официального доступа.
+
+Удачи в использовании! 🏠
+
+text
+
+---
+
+### Файл `credentials.json` (пустой)
+(Вы скачиваете его сами, поэтому он не включён в проект, но его наличие обязательно)
+
+---
+
+### Как использовать в Cursor / Claude Code
+1. Создайте новую папку проекта.
+2. Создайте в ней все перечисленные файлы (скопируйте содержимое).
+3. Подставьте свои значения в `config.py`.
+4. Положите скачанный `credentials.json` в ту же папку.
+5. Установите зависимости через терминал: `pip install -r requirements.txt`.
+6. Запустите: `python bot.py`.

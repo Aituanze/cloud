@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aituanze — Риэлтор · Мобилограф · Алматы</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* ─── VARIABLES ─── */
+    :root {
+      --cyan:   #00F5FF;
+      --pink:   #FF006E;
+      --green:  #39FF14;
+      --black:  #060608;
+      --dark:   #0E0E12;
+      --white:  #FFFFFF;
+      --muted:  rgba(255,255,255,0.45);
+      --line:   rgba(255,255,255,0.08);
+      --glow-c: 0 0 18px rgba(0,245,255,0.55), 0 0 55px rgba(0,245,255,0.25);
+      --glow-p: 0 0 18px rgba(255,0,110,0.55),  0 0 55px rgba(255,0,110,0.25);
+      --glow-g: 0 0 14px rgba(57,255,20,0.5),   0 0 40px rgba(57,255,20,0.2);
+    }
+
+    /* ─── RESET ─── */
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--black);
+      color: var(--white);
+      overflow-x: hidden;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes glow-pulse {
+      0%,100% { opacity:1; filter:brightness(1); }
+      50%      { opacity:.75; filter:brightness(1.4); }
+    }
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(-18px); }
+    }
+    @keyframes slide-up {
+      from { opacity:0; transform:translateY(60px); }
+      to   { opacity:1; transform:translateY(0); }
+    }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    @keyframes scan {
+      0%   { top: -2px; }
+      100% { top: 100%; }
+    }
+    @keyframes border-cycle {
+      0%,100% { border-color:var(--cyan); box-shadow:var(--glow-c); }
+      50%      { border-color:var(--pink); box-shadow:var(--glow-p); }
+    }
+
+    /* ─── SCROLL REVEAL ─── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(48px);
+      transition: opacity .75s ease, transform .75s ease;
+    }
+    .reveal.in { opacity:1; transform:translateY(0); }
+
+    /* ═══════════════════════════════
+       NAVBAR
+    ═══════════════════════════════ */
+    .nav {
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: 68px;
+      background: rgba(6,6,8,.88);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+      border-bottom: 1px solid rgba(0,245,255,.12);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(20px,5vw,64px);
+      z-index: 1000;
+    }
+
+    .nav-logo {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      letter-spacing: -.02em;
+      text-transform: uppercase;
+    }
+    .nav-logo em { font-style:normal; color:var(--cyan); text-shadow:var(--glow-c); }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--cyan); }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      background: var(--cyan);
+      color: var(--black);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      transition: background .18s, box-shadow .18s;
+    }
+    .nav-cta:hover { background:var(--white); box-shadow:var(--glow-c); }
+    .nav-cta .cta-icon {
+      width: 44px; height: 44px;
+      display: flex; align-items:center; justify-content:center;
+      background: rgba(0,0,0,.12);
+      flex-shrink: 0;
+    }
+    .nav-cta .cta-label { padding: 0 18px; }
+
+    .burger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+    .burger span {
+      display: block; width:24px; height:2px;
+      background:var(--white); transition:.3s;
+    }
+
+    /* ═══════════════════════════════
+       HERO
+    ═══════════════════════════════ */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: 48px;
+      padding: 110px clamp(20px,5vw,80px) 64px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* subtle grid */
+    .hero::before {
+      content:'';
+      position:absolute; inset:0;
+      background-image:
+        linear-gradient(rgba(0,245,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,245,255,.035) 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events:none;
+    }
+    /* glow blobs */
+    .hero::after {
+      content:'';
+      position:absolute; inset:0;
+      background:
+        radial-gradient(ellipse 55% 55% at 80% 50%, rgba(0,245,255,.06) 0%, transparent 70%),
+        radial-gradient(ellipse 35% 55% at 15% 85%, rgba(255,0,110,.05) 0%, transparent 70%);
+      pointer-events:none;
+    }
+
+    .hero-left { position:relative; z-index:1; }
+
+    .eyebrow {
+      display:flex; align-items:center; gap:12px;
+      margin-bottom: 28px;
+      opacity:0;
+      animation: slide-up .7s ease .1s forwards;
+    }
+    .eyebrow-dot {
+      width:8px; height:8px;
+      background:var(--cyan);
+      box-shadow:var(--glow-c);
+      flex-shrink:0;
+      animation: glow-pulse 2s ease infinite;
+    }
+    .eyebrow span {
+      font-size:11px; font-weight:500;
+      letter-spacing:.22em; text-transform:uppercase;
+      color:var(--cyan);
+    }
+
+    .hero-title { opacity:0; animation: slide-up .7s ease .25s forwards; }
+
+    .ht-line {
+      font-family:'Barlow Condensed', sans-serif;
+      font-weight:900;
+      font-size: clamp(72px, 11vw, 148px);
+      line-height:.88;
+      letter-spacing:-.025em;
+      text-transform:uppercase;
+      display:block;
+    }
+    .ht-white  { color:var(--white); }
+    .ht-cyan   { color:var(--cyan); text-shadow:var(--glow-c); animation:glow-pulse 3s ease infinite; }
+    .ht-dot    { color:var(--pink); text-shadow:var(--glow-p); }
+
+    .hero-sub {
+      margin-top:32px;
+      font-size: clamp(14px,1.15vw,17px);
+      line-height:1.75;
+      color:var(--muted);
+      max-width:420px;
+      opacity:0;
+      animation: slide-up .7s ease .45s forwards;
+    }
+
+    .hero-ctas {
+      display:flex; flex-wrap:wrap; gap:14px;
+      margin-top:40px;
+      opacity:0;
+      animation: slide-up .7s ease .6s forwards;
+    }
+
+    .btn {
+      display:inline-flex; align-items:center; gap:0;
+      font-size:11px; font-weight:700;
+      letter-spacing:.15em; text-transform:uppercase;
+      transition: background .18s, box-shadow .18s, border-color .18s, color .18s;
+    }
+    .btn-icon {
+      width:52px; height:52px;
+      display:flex; align-items:center; justify-content:center;
+      flex-shrink:0;
+    }
+    .btn-text { padding:0 20px; }
+
+    .btn-cyan { background:var(--cyan); color:var(--black); }
+    .btn-cyan .btn-icon { background:rgba(0,0,0,.12); }
+    .btn-cyan:hover { background:var(--white); box-shadow:var(--glow-c); }
+
+    .btn-ghost {
+      border:1px solid rgba(255,255,255,.18);
+      color:var(--white);
+    }
+    .btn-ghost .btn-icon { background:rgba(255,255,255,.05); }
+    .btn-ghost:hover { border-color:var(--pink); color:var(--pink); box-shadow:var(--glow-p); }
+
+    /* Photo card */
+    .hero-right {
+      position:relative; z-index:1;
+      display:flex; justify-content:center; align-items:center;
+    }
+
+    .photo-card {
+      position:relative;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .photo-frame {
+      width: clamp(260px,32vw,420px);
+      aspect-ratio: 3/4;
+      border: 2px solid var(--cyan);
+      box-shadow: var(--glow-c);
+      animation: border-cycle 5s ease-in-out infinite;
+      overflow:hidden;
+      position:relative;
+    }
+
+    /* ── Замените содержимое .photo-frame на:
+          <img src="ваше-фото.jpg" alt="Айтуанзе"
+               style="width:100%;height:100%;object-fit:cover;display:block">
+    ── */
+    .photo-ph {
+      width:100%; height:100%;
+      background: linear-gradient(155deg,#0d1520 0%,#080f14 55%,#120a1a 100%);
+      display:flex; flex-direction:column;
+      align-items:center; justify-content:center;
+      gap:14px;
+      position:relative;
+    }
+    .photo-ph::after {
+      content:'';
+      position:absolute; top:-2px; left:0; right:0; height:2px;
+      background:linear-gradient(90deg,transparent,var(--cyan),transparent);
+      animation: scan 2.5s linear infinite;
+    }
+    .photo-initials {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; font-size:88px;
+      color:var(--cyan); text-shadow:var(--glow-c);
+      letter-spacing:-.02em; opacity:.55;
+      line-height:1;
+    }
+    .photo-hint {
+      font-size:9px; letter-spacing:.3em;
+      text-transform:uppercase;
+      color:rgba(0,245,255,.35);
+    }
+
+    .corner {
+      position:absolute; width:16px; height:16px;
+    }
+    .corner.tl { top:-5px;    left:-5px;  border-top:2px solid var(--pink); border-left:2px solid var(--pink); }
+    .corner.tr { top:-5px;    right:-5px; border-top:2px solid var(--pink); border-right:2px solid var(--pink); }
+    .corner.bl { bottom:-5px; left:-5px;  border-bottom:2px solid var(--pink); border-left:2px solid var(--pink); }
+    .corner.br { bottom:-5px; right:-5px; border-bottom:2px solid var(--pink); border-right:2px solid var(--pink); }
+
+    .photo-badge {
+      position:absolute; bottom:-18px; right:-18px;
+      background:var(--black);
+      border:1px solid rgba(0,245,255,.25);
+      padding:14px 18px;
+    }
+    .badge-label {
+      display:block;
+      font-size:9px; letter-spacing:.22em;
+      text-transform:uppercase; color:var(--muted);
+      margin-bottom:4px;
+    }
+    .badge-val {
+      display:block;
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; font-size:30px;
+      color:var(--cyan); text-shadow:var(--glow-c); line-height:1;
+    }
+
+    /* ═══════════════════════════════
+       TICKER
+    ═══════════════════════════════ */
+    .ticker {
+      background:var(--cyan);
+      padding:13px 0;
+      overflow:hidden;
+      white-space:nowrap;
+    }
+    .ticker-track {
+      display:inline-flex;
+      animation: marquee 22s linear infinite;
+    }
+    .ticker-item {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:800; font-size:13px;
+      letter-spacing:.2em; text-transform:uppercase;
+      color:var(--black);
+      padding:0 28px;
+    }
+    .ticker-sep { opacity:.35; }
+
+    /* ═══════════════════════════════
+       SERVICES
+    ═══════════════════════════════ */
+    .services { padding: clamp(80px,10vw,140px) 0; }
+
+    .sec-head {
+      padding: 0 clamp(20px,5vw,80px);
+      margin-bottom: 40px;
+    }
+    .sec-label {
+      font-size:11px; font-weight:500;
+      letter-spacing:.3em; text-transform:uppercase;
+      color:var(--cyan);
+      display:flex; align-items:center; gap:12px;
+    }
+    .sec-label::after {
+      content:''; height:1px; width:48px; background:var(--cyan);
+    }
+
+    .svc-rows { border-top:1px solid var(--line); }
+
+    .svc-row {
+      display:flex; align-items:center;
+      justify-content:space-between;
+      padding: clamp(22px,3vw,36px) clamp(20px,5vw,80px);
+      border-bottom:1px solid var(--line);
+      position:relative; overflow:hidden;
+      cursor:default;
+    }
+    .svc-row::before {
+      content:''; position:absolute; inset:0;
+      opacity:0; transition:opacity .13s;
+    }
+    .svc-row.s1::before { background:var(--cyan); }
+    .svc-row.s2::before { background:var(--pink); }
+    .svc-row.s3::before { background:var(--green); }
+
+    .svc-row:hover::before { opacity:1; }
+    .svc-row:hover .svc-name,
+    .svc-row:hover .svc-desc,
+    .svc-row:hover .svc-arr { color:var(--black) !important; text-shadow:none !important; }
+    .svc-row:hover .svc-arr { transform:translateX(10px); }
+
+    .svc-body  { position:relative; z-index:1; }
+    .svc-name  {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; text-transform:uppercase;
+      font-size: clamp(32px,5vw,68px);
+      line-height:.95; letter-spacing:-.01em;
+      color:var(--white); transition:color .13s, text-shadow .13s;
+    }
+    .dot-sep { color:rgba(255,255,255,.2); }
+    .svc-desc {
+      font-size:13px; color:rgba(255,255,255,.38);
+      margin-top:6px; letter-spacing:.04em;
+      transition:color .13s; position:relative; z-index:1;
+    }
+    .svc-arr {
+      font-size:30px; position:relative; z-index:1;
+      color:rgba(255,255,255,.2);
+      transition:color .13s, transform .18s;
+      font-family:'Barlow Condensed',sans-serif; font-weight:700;
+    }
+
+    /* ═══════════════════════════════
+       ABOUT / STATS
+    ═══════════════════════════════ */
+    .about {
+      padding: clamp(80px,10vw,140px) clamp(20px,5vw,80px);
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:72px; align-items:center;
+    }
+
+    .stats-grid {
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:2px;
+    }
+    .stat {
+      background:var(--dark);
+      padding: clamp(28px,3vw,44px) clamp(20px,3vw,32px);
+    }
+    .stat:nth-child(1) { border-top:2px solid var(--cyan); }
+    .stat:nth-child(2) { border-top:2px solid var(--pink); }
+    .stat:nth-child(3) { border-top:2px solid var(--green); }
+    .stat:nth-child(4) { border-top:2px solid rgba(255,255,255,.3); }
+
+    .stat-n {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; line-height:1;
+      font-size: clamp(44px,5vw,68px);
+      margin-bottom:8px;
+    }
+    .stat:nth-child(1) .stat-n { color:var(--cyan);  text-shadow:var(--glow-c); }
+    .stat:nth-child(2) .stat-n { color:var(--pink);  text-shadow:var(--glow-p); }
+    .stat:nth-child(3) .stat-n { color:var(--green); text-shadow:var(--glow-g); }
+    .stat:nth-child(4) .stat-n { color:var(--white); }
+
+    .stat-l {
+      font-size:10px; font-weight:500;
+      letter-spacing:.18em; text-transform:uppercase;
+      color:rgba(255,255,255,.35);
+    }
+
+    .about-copy h2 {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; text-transform:uppercase;
+      font-size: clamp(40px,4vw,66px);
+      line-height:.9; letter-spacing:-.025em;
+      margin-bottom:28px;
+    }
+    .about-copy h2 em {
+      font-style:normal;
+      color:var(--cyan); text-shadow:var(--glow-c);
+    }
+    .about-copy p {
+      font-size:16px; line-height:1.78;
+      color:var(--muted); margin-bottom:16px;
+    }
+    .tags {
+      display:flex; flex-wrap:wrap; gap:8px;
+      margin-top:24px;
+    }
+    .tag {
+      border:1px solid rgba(0,245,255,.28);
+      padding:6px 14px;
+      font-size:10px; font-weight:500;
+      letter-spacing:.18em; text-transform:uppercase;
+      color:var(--cyan);
+    }
+
+    /* ═══════════════════════════════
+       CONTACT
+    ═══════════════════════════════ */
+    .contact {
+      background:var(--dark);
+      padding: clamp(80px,10vw,140px) clamp(20px,5vw,80px);
+      position:relative; overflow:hidden;
+    }
+    .contact::before {
+      content:'';
+      position:absolute; top:-120px; right:-120px;
+      width:520px; height:520px; border-radius:50%;
+      background:radial-gradient(circle, rgba(0,245,255,.05) 0%, transparent 70%);
+      pointer-events:none;
+    }
+    .contact::after {
+      content:'';
+      position:absolute; bottom:-80px; left:10%;
+      width:400px; height:400px; border-radius:50%;
+      background:radial-gradient(circle, rgba(255,0,110,.04) 0%, transparent 70%);
+      pointer-events:none;
+    }
+
+    .contact-hl {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; text-transform:uppercase;
+      font-size: clamp(56px,8.5vw,128px);
+      line-height:.88; letter-spacing:-.025em;
+      margin:24px 0 14px;
+    }
+    .contact-hl em {
+      font-style:normal;
+      color:var(--cyan); text-shadow:var(--glow-c);
+    }
+    .contact-sub {
+      font-size:16px; color:var(--muted);
+      margin-bottom:56px; letter-spacing:.02em;
+    }
+
+    .contact-cards {
+      display:flex; flex-wrap:wrap; gap:16px;
+    }
+
+    .cc {
+      flex:1; min-width:260px; max-width:360px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.02);
+      padding:32px;
+      display:block; color:var(--white);
+      transition:border-color .2s, background .2s, box-shadow .2s;
+    }
+    .cc.tg:hover { border-color:var(--cyan); background:rgba(0,245,255,.05); box-shadow:var(--glow-c); }
+    .cc.ph:hover { border-color:var(--pink); background:rgba(255,0,110,.05); box-shadow:var(--glow-p); }
+
+    .cc-icon { width:44px; height:44px; margin-bottom:22px; }
+    .cc.tg .cc-icon { color:var(--cyan); }
+    .cc.ph .cc-icon { color:var(--pink); }
+
+    .cc-lbl {
+      font-size:9px; letter-spacing:.25em; text-transform:uppercase;
+      color:var(--muted); display:block; margin-bottom:8px;
+    }
+    .cc-val {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:800; font-size:26px; letter-spacing:.02em;
+      display:block;
+    }
+    .cc.tg .cc-val { color:var(--cyan); }
+    .cc.ph .cc-val { color:var(--white); }
+
+    .cc-act {
+      display:flex; align-items:center; gap:8px;
+      margin-top:22px;
+      font-size:10px; font-weight:600;
+      letter-spacing:.15em; text-transform:uppercase;
+      color:rgba(255,255,255,.25);
+      transition:color .2s;
+    }
+    .cc:hover .cc-act { color:var(--white); }
+
+    /* ═══════════════════════════════
+       FOOTER
+    ═══════════════════════════════ */
+    footer {
+      background:#030305;
+      border-top:1px solid rgba(0,245,255,.08);
+      padding:36px clamp(20px,5vw,64px);
+      display:flex; align-items:center;
+      justify-content:space-between; flex-wrap:wrap; gap:16px;
+    }
+    .foot-logo {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; font-size:20px;
+      letter-spacing:-.01em; text-transform:uppercase;
+    }
+    .foot-logo em { font-style:normal; color:var(--cyan); }
+    .foot-copy {
+      font-size:11px; color:rgba(255,255,255,.22);
+      letter-spacing:.06em;
+    }
+    .foot-links { display:flex; gap:24px; }
+    .foot-links a {
+      font-size:10px; font-weight:500;
+      letter-spacing:.18em; text-transform:uppercase;
+      color:rgba(255,255,255,.3);
+      transition:color .2s;
+    }
+    .foot-links a:hover { color:var(--cyan); }
+
+    /* ═══════════════════════════════
+       RESPONSIVE
+    ═══════════════════════════════ */
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top:120px;
+      }
+      .hero-right { order:-1; }
+      .photo-frame { width: min(270px,72vw); }
+      .about { grid-template-columns:1fr; gap:48px; }
+      .nav-links { display:none; }
+      .burger { display:flex; }
+    }
+    @media (max-width: 900px) {
+      .nav-links.open {
+        display:flex; flex-direction:column;
+        position:absolute; top:68px; left:0; right:0;
+        background:rgba(6,6,8,.97);
+        border-bottom:1px solid rgba(0,245,255,.12);
+        padding:20px clamp(20px,5vw,64px) 24px;
+        gap:20px;
+      }
+    }
+    @media (max-width:600px) {
+      .stats-grid { grid-template-columns:1fr 1fr; }
+      footer { flex-direction:column; align-items:flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="nav" id="nav">
+  <a href="#home" class="nav-logo">AITUANZE<em>.</em></a>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#services">Услуги</a></li>
+    <li><a href="#about">Обо мне</a></li>
+    <li><a href="#contact">Контакты</a></li>
+  </ul>
+
+  <a href="https://t.me/Aituanze" class="nav-cta" target="_blank" rel="noopener">
+    <span class="cta-icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M21.7 4.3 18.3 19.7c-.2 1-.9 1.3-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.2 9.6-8.7c.4-.4-.1-.6-.6-.2L6.1 15.2l-4.9-1.5c-1-.3-1-.8.3-1.3L20.3 3c.8-.3 1.6.2 1.4 1.3z"/>
+      </svg>
+    </span>
+    <span class="cta-label">Написать</span>
+  </a>
+
+  <button class="burger" id="burger" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <div class="eyebrow">
+      <div class="eyebrow-dot"></div>
+      <span>Алматы · Риэлтор · Мобилограф</span>
+    </div>
+
+    <div class="hero-title">
+      <span class="ht-line ht-white">ПРОДАМ</span>
+      <span class="ht-line ht-cyan">В СРОК<span class="ht-dot">.</span></span>
+      <span class="ht-line ht-white">КРАСИВО.</span>
+    </div>
+
+    <p class="hero-sub">
+      Риэлтор с 6-летним опытом в Алматы и мобилограф в одном лице.
+      Продам вашу недвижимость быстро — и покажу её так,
+      чтобы покупатели захотели её сразу.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="https://t.me/Aituanze" class="btn btn-cyan" target="_blank" rel="noopener">
+        <span class="btn-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21.7 4.3 18.3 19.7c-.2 1-.9 1.3-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.2 9.6-8.7c.4-.4-.1-.6-.6-.2L6.1 15.2l-4.9-1.5c-1-.3-1-.8.3-1.3L20.3 3c.8-.3 1.6.2 1.4 1.3z"/>
+          </svg>
+        </span>
+        <span class="btn-text">@Aituanze</span>
+      </a>
+
+      <a href="tel:+77776688819" class="btn btn-ghost">
+        <span class="btn-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C8.6 21 3 15.4 3 8.5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+          </svg>
+        </span>
+        <span class="btn-text">+7 777 668 88 19</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="photo-card">
+      <div class="photo-frame">
+        <!--
+          ┌─────────────────────────────────┐
+          │  ЗАМЕНИТЬ НА СВОЁ ФОТО:         │
+          │  <img src="photo.jpg"           │
+          │       alt="Aituanze"            │
+          │       style="width:100%;        │
+          │              height:100%;       │
+          │              object-fit:cover;  │
+          │              display:block">    │
+          └─────────────────────────────────┘
+        -->
+        <div class="photo-ph">
+          <div class="photo-initials">АТ</div>
+          <div class="photo-hint">Добавьте фото</div>
+        </div>
+      </div>
+
+      <div class="corner tl"></div>
+      <div class="corner tr"></div>
+      <div class="corner bl"></div>
+      <div class="corner br"></div>
+
+      <div class="photo-badge">
+        <span class="badge-label">Опыт</span>
+        <span class="badge-val">6 ЛЕТ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TICKER ═══ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">Риэлтор в Алматы <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Продам в нужные сроки <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Мобилограф <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Съёмка недвижимости <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">6 лет опыта <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Алматы <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Риэлтор в Алматы <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Продам в нужные сроки <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Мобилограф <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Съёмка недвижимости <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">6 лет опыта <span class="ticker-sep">·</span></span>
+    <span class="ticker-item">Алматы <span class="ticker-sep">·</span></span>
+  </div>
+</div>
+
+<!-- ═══ SERVICES ═══ -->
+<section class="services" id="services">
+  <div class="sec-head reveal">
+    <div class="sec-label">Что я делаю</div>
+  </div>
+
+  <div class="svc-rows">
+    <div class="svc-row s1 reveal">
+      <div class="svc-body">
+        <div class="svc-name">РИЭЛТОР<span class="dot-sep"> · </span>ПРОДАЖА</div>
+        <div class="svc-desc">Подбор покупателей · Юридическое сопровождение · Сделка под ключ</div>
+      </div>
+      <div class="svc-arr">→</div>
+    </div>
+
+    <div class="svc-row s2 reveal">
+      <div class="svc-body">
+        <div class="svc-name">МОБИЛОГРАФ<span class="dot-sep"> · </span>СЪЁМКА</div>
+        <div class="svc-desc">Фото и видео недвижимости · Контент для соцсетей · Быстро и красиво</div>
+      </div>
+      <div class="svc-arr">→</div>
+    </div>
+
+    <div class="svc-row s3 reveal">
+      <div class="svc-body">
+        <div class="svc-name">ПОЛНЫЙ ЦИКЛ</div>
+        <div class="svc-desc">Снять объект · Показать выгодно · Продать в срок — один специалист</div>
+      </div>
+      <div class="svc-arr">→</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT / STATS ═══ -->
+<section class="about" id="about">
+  <div class="stats-grid reveal">
+    <div class="stat">
+      <div class="stat-n">6+</div>
+      <div class="stat-l">Лет в профессии</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n">100+</div>
+      <div class="stat-l">Сделок закрыто</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n">АЛА</div>
+      <div class="stat-l">Работаю в Алматы</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n">2В1</div>
+      <div class="stat-l">Риэлтор + Мобилограф</div>
+    </div>
+  </div>
+
+  <div class="about-copy reveal">
+    <h2>ПРОДАМ.<br><em>КАК НАДО.</em></h2>
+    <p>
+      Меня зовут Айтуанзе. Я риэлтор в Алматы с 6-летним опытом
+      и мобилограф — снимаю недвижимость так,
+      что покупатели хотят её купить ещё до просмотра вживую.
+    </p>
+    <p>
+      Работаю честно, соблюдаю сроки.
+      «Продам в нужные сроки» — это не лозунг,
+      это моя репутация за 6 лет работы.
+    </p>
+    <div class="tags">
+      <span class="tag">Алматы</span>
+      <span class="tag">Квартиры</span>
+      <span class="tag">Дома</span>
+      <span class="tag">Новостройки</span>
+      <span class="tag">Мобилография</span>
+      <span class="tag">Срочная продажа</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section class="contact" id="contact">
+  <div class="reveal">
+    <div class="sec-label">Связаться</div>
+    <div class="contact-hl">НАПИШИТЕ<br><em>СЕЙЧАС.</em></div>
+    <p class="contact-sub">Отвечаю быстро. Консультация бесплатно.</p>
+  </div>
+
+  <div class="contact-cards reveal">
+    <a href="https://t.me/Aituanze" class="cc tg" target="_blank" rel="noopener">
+      <div class="cc-icon">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M21.7 4.3 18.3 19.7c-.2 1-.9 1.3-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.2 9.6-8.7c.4-.4-.1-.6-.6-.2L6.1 15.2l-4.9-1.5c-1-.3-1-.8.3-1.3L20.3 3c.8-.3 1.6.2 1.4 1.3z"/>
+        </svg>
+      </div>
+      <span class="cc-lbl">Telegram</span>
+      <span class="cc-val">@Aituanze</span>
+      <div class="cc-act">
+        Написать сейчас
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/>
+        </svg>
+      </div>
+    </a>
+
+    <a href="tel:+77776688819" class="cc ph">
+      <div class="cc-icon">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C8.6 21 3 15.4 3 8.5c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+        </svg>
+      </div>
+      <span class="cc-lbl">Позвонить</span>
+      <span class="cc-val">+7 777 668 88 19</span>
+      <div class="cc-act">
+        Звонок сейчас
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/>
+        </svg>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="foot-logo">AITUANZE<em>.</em></div>
+  <div class="foot-copy">© 2026 · Риэлтор и мобилограф · Алматы</div>
+  <div class="foot-links">
+    <a href="https://t.me/Aituanze" target="_blank" rel="noopener">Telegram</a>
+    <a href="tel:+77776688819">Позвонить</a>
+  </div>
+</footer>
+
+<script>
+  /* ─── Burger menu ─── */
+  const burger = document.getElementById('burger');
+  const links  = document.getElementById('nav-links');
+  burger.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => links.classList.remove('open'))
+  );
+
+  /* ─── Scroll reveal ─── */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = `${(i % 4) * 0.1}s`;
+    io.observe(el);
+  });
+
+  /* ─── Navbar shadow on scroll ─── */
+  window.addEventListener('scroll', () => {
+    document.getElementById('nav').style.borderBottomColor =
+      window.scrollY > 40
+        ? 'rgba(0,245,255,.22)'
+        : 'rgba(0,245,255,.12)';
+  }, { passive: true });
+</script>
+</body>
+</html>

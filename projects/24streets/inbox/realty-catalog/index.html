@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог недвижимости — новинки за 24 часа</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand__logo">🏠</span>
+      <div>
+        <h1>Каталог недвижимости</h1>
+        <p class="muted" id="meta">Загрузка…</p>
+      </div>
+    </div>
+    <div class="topbar__search">
+      <input type="search" id="search" placeholder="Поиск по адресу, району, ЖК…" autocomplete="off" />
+    </div>
+    <label class="switch">
+      <input type="checkbox" id="only24" checked />
+      <span>Только новинки за 24 часа</span>
+    </label>
+  </header>
+
+  <!-- Подменю категорий с количеством новинок за 24ч -->
+  <nav class="cats" id="cats" aria-label="Категории"></nav>
+
+  <main class="content">
+    <div class="toolbar">
+      <div class="toolbar__crumbs" id="crumbs"></div>
+      <div class="toolbar__controls">
+        <label>Группировать
+          <select id="groupBy">
+            <option value="building_type">по типам</option>
+            <option value="district">по районам</option>
+            <option value="rooms">по комнатности</option>
+          </select>
+        </label>
+        <label>Сортировка
+          <select id="sortBy">
+            <option value="new">сначала новинки</option>
+            <option value="price_asc">цена ↑</option>
+            <option value="price_desc">цена ↓</option>
+            <option value="area_desc">площадь ↓</option>
+          </select>
+        </label>
+        <label>Район
+          <select id="districtSel"><option value="">все</option></select>
+        </label>
+        <div class="price">
+          <input type="number" id="priceMin" placeholder="цена от" step="500000" />
+          <input type="number" id="priceMax" placeholder="до" step="500000" />
+        </div>
+        <button id="reset" class="btn btn--ghost">Сбросить</button>
+      </div>
+    </div>
+
+    <div id="groups" class="groups"></div>
+    <div id="empty" class="empty" hidden>
+      <p>Новинок по выбранным условиям пока нет.</p>
+    </div>
+  </main>
+
+  <script src="data/listings.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

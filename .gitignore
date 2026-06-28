@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keys & certs
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+
+# Build output
+dist/
+build/
+.vercel/
+
+# Databases & data exports
+*.db
+*.sqlite
+*.csv
+
+# Claude Code internal (не нужно в репо)
+.claude/
