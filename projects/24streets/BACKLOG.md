@@ -5,12 +5,6 @@
 
 ## TODO
 
-### Фаза 1 — Деплой инфраструктуры
-- [ ] Создать GitHub-репозиторий и запушить `inbox/realty-lead-bot/`
-- [ ] Создать проект на Railway → подключить репо → добавить env vars (TELEGRAM_TOKEN, TELEGRAM_GROUP_ID)
-- [ ] Создать `.env` из `.env.example` на сервере
-- [ ] Проверить: бот отвечает на `/start` в Telegram
-
 ### Фаза 1 — Автопайплайн
 - [ ] Настроить автозапуск через cron или Task Scheduler: `python pipeline.py --cron`
 
@@ -44,3 +38,4 @@
 | Railway deployment files | 2026-06-28 | `Procfile` + `runtime.txt` в `realty-lead-bot/` |
 | Тест pipeline.py локально | 2026-06-28 | 811 объявлений спарсено, оба build_data.py прошли ✅ |
 | Создать inbox/.env + venv | 2026-06-28 | `.venv` в `inbox/`, все зависимости установлены |
+| Деплой бота на Railway | 2026-06-28 | @Aituanzesbot запущен, /start работает, уведомления в группу 24streets приходят ✅ |
