@@ -12,8 +12,6 @@
 - [ ] Проверить: бот отвечает на `/start` в Telegram
 
 ### Фаза 1 — Автопайплайн
-- [ ] Установить зависимости pipeline: `pip install -r requirements.txt` (в `inbox/`)
-- [ ] Тестовый запуск: `python pipeline.py`
 - [ ] Настроить автозапуск через cron или Task Scheduler: `python pipeline.py --cron`
 
 ### Фаза 2 — Деплой каталогов
@@ -44,3 +42,5 @@
 | Добавить LISTINGS_DB_PATH в config | 2026-06-28 | `config.py` + `.env.example` обновлены |
 | Создать reporter.py | 2026-06-28 | `inbox/reporter.py` — еженедельный Telegram-отчёт по лидам и объектам |
 | Railway deployment files | 2026-06-28 | `Procfile` + `runtime.txt` в `realty-lead-bot/` |
+| Тест pipeline.py локально | 2026-06-28 | 811 объявлений спарсено, оба build_data.py прошли ✅ |
+| Создать inbox/.env + venv | 2026-06-28 | `.venv` в `inbox/`, все зависимости установлены |
