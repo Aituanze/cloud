@@ -4,16 +4,19 @@
 
 const App = {
   state: {
-    mode: 'sale',
-    district: null,
-    type: 'apt',
+    mode:      'sale',
+    district:  null,
+    type:      'apt',
+    timeFilter: '24h',
+    btFilter:  [],
+    roomsFilter: [],
     priceFrom: 0,
-    priceTo: 200000000,
+    priceTo:   200000000,
+    feedPrev:  'screen-map',
     claimed: JSON.parse(localStorage.getItem('24s_claimed') || '{}'),
     saved:   JSON.parse(localStorage.getItem('24s_saved')   || '{}'),
-    revealed: {},
-    activeSeg: 'claimed', // 'claimed' | 'saved'
-    currentTab: 'map',    // 'map' | 'base' | 'profile'
+    activeSeg:  'claimed',
+    currentTab: 'map',
   },
 
   init() {
@@ -24,20 +27,43 @@ const App = {
     this.bindPriceModal();
     this.bindTabBar();
     this.bindBaseSeg();
+    this.bindDistrictBack();
+    this.bindFilterBack();
+    this.bindFilterApply();
+    this.bindFeedBack();
     this.updateFindCount();
+    this.precomputeAvgPrices();
+  },
+
+  // ──────────────────────────────────────
+  // PRECOMPUTE MARKET AVERAGES
+  // ──────────────────────────────────────
+  precomputeAvgPrices() {
+    this._avgPm2 = {};
+    LISTINGS.forEach(l => {
+      if (l.mode === 'archive' || !l.area || !l.price) return;
+      const k = `${l.district}-${l.type}`;
+      if (!this._avgPm2[k]) this._avgPm2[k] = { sum: 0, n: 0 };
+      this._avgPm2[k].sum += l.price / l.area;
+      this._avgPm2[k].n++;
+    });
+    Object.values(this._avgPm2).forEach(v => { v.avg = v.sum / v.n; });
+  },
+
+  marketDiff(l) {
+    if (!l.area || !l.price) return null;
+    const k = `${l.district}-${l.type}`;
+    const a = this._avgPm2[k];
+    if (!a) return null;
+    return Math.round((l.price / l.area - a.avg) / a.avg * 100);
   },
 
   // ──────────────────────────────────────
   // TAB BAR
   // ──────────────────────────────────────
-
   bindTabBar() {
     document.querySelectorAll('.tab-item').forEach(item => {
-      item.addEventListener('click', () => {
-        const tab = item.dataset.tab;
-        if (tab === 'feed') this.openFeed();
-        else this.switchTab(tab);
-      });
+      item.addEventListener('click', () => this.switchTab(item.dataset.tab));
     });
   },
 
@@ -55,14 +81,19 @@ const App = {
     if (prevEl) { prevEl.classList.remove('active'); prevEl.classList.add('slide-below'); }
     if (nextEl) { nextEl.classList.remove('slide-below','slide-above'); nextEl.classList.add('active'); }
 
-    if (tab === 'base') this.renderBase();
+    if (tab === 'base')    this.renderBase();
     if (tab === 'profile') this.renderProfile();
+
+    setTimeout(() => {
+      document.querySelectorAll('.screen').forEach(s => {
+        if (s !== nextEl) s.classList.remove('slide-above','slide-below');
+      });
+    }, 420);
   },
 
   // ──────────────────────────────────────
   // MAP
   // ──────────────────────────────────────
-
   renderMap() {
     const svg = document.getElementById('mapSvg');
     const isArch = this.state.mode === 'archive';
@@ -76,7 +107,6 @@ const App = {
       const isSelected = this.state.district === d.id;
 
       if (isArch) {
-        // Archive: hollow circles
         mainCircle.setAttribute('fill', 'white');
         mainCircle.setAttribute('stroke', d.color);
         mainCircle.setAttribute('stroke-width', '2.5');
@@ -84,8 +114,7 @@ const App = {
         g.querySelector('.bubble-count').setAttribute('fill', d.color);
         g.querySelector('.bubble-name').setAttribute('fill', '#9fa6b2');
       } else {
-        // Active: solid circles
-        mainCircle.setAttribute('fill', isSelected ? d.color : d.color);
+        mainCircle.setAttribute('fill', d.color);
         mainCircle.setAttribute('stroke', isSelected ? 'white' : 'none');
         mainCircle.setAttribute('stroke-width', isSelected ? '2.5' : '0');
         mainCircle.removeAttribute('stroke-dasharray');
@@ -95,7 +124,6 @@ const App = {
 
       if (countText) countText.textContent = count;
 
-      // Selection glow ring
       let ring = g.querySelector('.sel-ring');
       if (isSelected && !isArch) {
         if (!ring) {
@@ -107,28 +135,19 @@ const App = {
           ring.setAttribute('opacity','.35');
           g.insertBefore(ring, g.firstChild);
         }
-        ring.setAttribute('cx', d.cx);
-        ring.setAttribute('cy', d.cy);
-        ring.setAttribute('r', d.r + 7);
-      } else if (ring) {
-        ring.remove();
-      }
+        ring.setAttribute('cx', d.cx); ring.setAttribute('cy', d.cy); ring.setAttribute('r', d.r + 7);
+      } else if (ring) { ring.remove(); }
     });
 
-    // Live dot
     const liveDot = document.querySelector('.live-dot');
     if (liveDot) liveDot.classList.toggle('muted', isArch);
 
-    // Live counter
     const counter = document.getElementById('liveCount');
     if (counter) {
       const total = DISTRICTS.reduce((s,d) => s + (isArch ? d.arch : d.count), 0);
-      counter.textContent = isArch
-        ? `${total.toLocaleString('ru')} архив.`
-        : `${total} сейчас`;
+      counter.textContent = isArch ? `${total.toLocaleString('ru')} архив.` : `${total} сейчас`;
     }
 
-    // Archive date strip
     const strip = document.getElementById('archDateStrip');
     if (strip) strip.classList.toggle('visible', isArch);
   },
@@ -139,15 +158,16 @@ const App = {
       g.addEventListener('click', () => {
         const id = g.dataset.district;
         this.state.district = id;
+        this.state.btFilter  = [];
+        this.state.roomsFilter = [];
         this.renderMap();
         this.updateFindCount();
-        setTimeout(() => this.openFeed(), 140);
+        setTimeout(() => this.openDistrict(id), 140);
       });
     });
   },
 
   bindBottomPanel() {
-    // Type chips
     document.querySelectorAll('.type-chip').forEach(chip => {
       chip.addEventListener('click', () => {
         document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('on'));
@@ -157,9 +177,9 @@ const App = {
       });
     });
 
-    // Find button
     document.getElementById('findBtn').addEventListener('click', () => {
-      this.openFeed();
+      if (this.state.district) this.openDistrict(this.state.district);
+      else this.openFeed('screen-map');
     });
   },
 
@@ -169,9 +189,7 @@ const App = {
         document.querySelectorAll('.trio-btn').forEach(b => b.classList.remove('on'));
         btn.classList.add('on');
         this.state.mode = btn.dataset.mode;
-        if (this.state.mode === 'archive') {
-          this.state.district = null; // reset selection
-        }
+        if (this.state.mode === 'archive') this.state.district = null;
         this.renderMap();
         this.updateFindCount();
       });
@@ -192,6 +210,12 @@ const App = {
       if (this.state.district && l.district !== this.state.district) return false;
       if (l.type !== this.state.type) return false;
       if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return false;
+      if (this.state.btFilter.length && !this.state.btFilter.includes(l.buildingType)) return false;
+      if (this.state.roomsFilter.length && l.type === 'apt') {
+        const r = l.rooms === 0 ? 'studio' : String(l.rooms || '');
+        const rKey = l.rooms >= 5 ? '5+' : r;
+        if (!this.state.roomsFilter.includes(rKey) && !(l.rooms >= 5 && this.state.roomsFilter.includes('5+'))) return false;
+      }
       return true;
     });
   },
@@ -199,7 +223,6 @@ const App = {
   // ──────────────────────────────────────
   // PRICE MODAL
   // ──────────────────────────────────────
-
   bindPriceModal() {
     const overlay = document.getElementById('priceModal');
     const fromInput = document.getElementById('priceFrom');
@@ -232,255 +255,398 @@ const App = {
   updatePricePill() {
     const fromEl = document.getElementById('ppFromVal');
     const toEl   = document.getElementById('ppToVal');
-    const from = this.state.priceFrom;
-    const to   = this.state.priceTo;
-    fromEl.textContent = from > 0   ? `${Math.round(from/1000000)} млн` : 'любая';
-    toEl.textContent   = to < 200e6 ? `${Math.round(to/1000000)} млн`  : 'любая';
+    fromEl.textContent = this.state.priceFrom > 0   ? `${Math.round(this.state.priceFrom/1000000)} млн` : 'любая';
+    toEl.textContent   = this.state.priceTo < 200e6 ? `${Math.round(this.state.priceTo/1000000)} млн`  : 'любая';
   },
 
   // ──────────────────────────────────────
-  // FEED
+  // SCREEN 2 — DISTRICT DETAIL
   // ──────────────────────────────────────
+  bindDistrictBack() {
+    document.getElementById('dsBack').addEventListener('click', () => {
+      slideBack('screen-district', 'screen-map');
+      document.getElementById('tabBar').classList.remove('hidden');
+    });
+  },
 
-  openFeed() {
+  openDistrict(districtId) {
+    this.state.district = districtId;
+    const d = DISTRICTS.find(x => x.id === districtId);
+    const total = this.state.mode === 'archive' ? d.arch : d.count;
+
+    document.getElementById('dsName').textContent = d.name;
+    this.renderDistrictGrid();
+    slideForward('screen-map', 'screen-district');
+    document.getElementById('tabBar').classList.add('hidden');
+
+    // time tabs
+    document.querySelectorAll('#districtTimeTabs .ttab').forEach(t => {
+      t.classList.toggle('on', t.dataset.time === this.state.timeFilter);
+      t.onclick = () => {
+        this.state.timeFilter = t.dataset.time;
+        document.querySelectorAll('#districtTimeTabs .ttab').forEach(x => x.classList.toggle('on', x === t));
+        this.renderDistrictGrid();
+      };
+    });
+  },
+
+  renderDistrictGrid() {
+    const grid = document.getElementById('typeGrid');
+    const d = DISTRICTS.find(x => x.id === this.state.district);
+    const hoursMap = { '24h': 24, '3d': 72, 'week': 168 };
+    const cutoffMs = Date.now() - hoursMap[this.state.timeFilter] * 3600000;
+    const mode = this.state.mode;
+
+    // Count by type
+    const counts = {}, newCounts = {};
+    LISTINGS.forEach(l => {
+      if (l.district !== this.state.district) return;
+      if (mode === 'archive' && l.mode !== 'archive') return;
+      if (mode !== 'archive' && l.mode === 'archive') return;
+      counts[l.type] = (counts[l.type] || 0) + 1;
+      if (l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs) {
+        newCounts[l.type] = (newCounts[l.type] || 0) + 1;
+      }
+    });
+
+    // Update subtitle
+    const total = Object.values(counts).reduce((s,v)=>s+v,0);
+    const newTotal = Object.values(newCounts).reduce((s,v)=>s+v,0);
+    const timeLabel = { '24h': 'сегодня', '3d': 'за 3 дня', 'week': 'за неделю' }[this.state.timeFilter];
+    document.getElementById('dsSub').textContent = `${total} ${pluralObj(total)} · ${newTotal} новых ${timeLabel}`;
+
+    grid.innerHTML = TYPES.map(t => {
+      const cnt = counts[t.id] || 0;
+      if (!cnt) return '';
+      const hasNew = (newCounts[t.id] || 0) > 0;
+      return `
+      <div class="type-card" data-type="${t.id}">
+        ${hasNew ? `<div class="tc-new">Новые</div>` : ''}
+        <div class="tc-icon">${typeIcon(t.id)}</div>
+        <div>
+          <div class="tc-count">${cnt}</div>
+          <div class="tc-label">${t.label}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    grid.querySelectorAll('.type-card').forEach(card => {
+      card.addEventListener('click', () => {
+        this.state.type = card.dataset.type;
+        this.state.btFilter = [];
+        this.state.roomsFilter = [];
+        this.openFilter();
+      });
+    });
+  },
+
+  // ──────────────────────────────────────
+  // SCREEN 2.5 — FILTERS
+  // ──────────────────────────────────────
+  bindFilterBack() {
+    document.getElementById('filtBack').addEventListener('click', () => {
+      slideBack('screen-filter', 'screen-district');
+    });
+  },
+
+  bindFilterApply() {
+    document.getElementById('filtApply').addEventListener('click', () => {
+      this.openFeed();
+    });
+  },
+
+  openFilter() {
+    const typeLabel = TYPES.find(t => t.id === this.state.type)?.label || '';
+    const d = DISTRICTS.find(x => x.id === this.state.district);
+    const distShort = d ? d.name.replace(/ский$/, '').replace(/ская$/, '') : '';
+    document.getElementById('filtTitle').textContent = `${typeLabel} · ${distShort}.`;
+
+    this.renderFilterContent();
+    slideForward('screen-district', 'screen-filter');
+
+    document.querySelectorAll('#filterTimeTabs .ttab').forEach(t => {
+      t.classList.toggle('on', t.dataset.time === this.state.timeFilter);
+      t.onclick = () => {
+        this.state.timeFilter = t.dataset.time;
+        document.querySelectorAll('#filterTimeTabs .ttab').forEach(x => x.classList.toggle('on', x === t));
+        this.renderFilterContent();
+      };
+    });
+  },
+
+  renderFilterContent() {
+    const base = LISTINGS.filter(l => {
+      if (l.district !== this.state.district) return false;
+      if (l.type !== this.state.type) return false;
+      const isArch = this.state.mode === 'archive';
+      if (isArch && l.mode !== 'archive') return false;
+      if (!isArch && l.mode === 'archive') return false;
+      return true;
+    });
+
+    // Building types
+    const btCounts = {};
+    base.forEach(l => {
+      if (l.buildingType) btCounts[l.buildingType] = (btCounts[l.buildingType] || 0) + 1;
+    });
+
+    // Rooms (only for apt)
+    const roomCounts = {};
+    if (this.state.type === 'apt') {
+      base.forEach(l => {
+        const r = l.rooms === 0 ? 'studio' : (l.rooms >= 5 ? '5+' : String(l.rooms || ''));
+        if (r) roomCounts[r] = (roomCounts[r] || 0) + 1;
+      });
+    }
+
+    let html = '';
+
+    if (Object.keys(btCounts).length) {
+      html += `<div class="filt-section">
+        <div class="filt-section-label">Тип дома</div>
+        <div class="filt-chips" data-group="bt">
+          ${Object.entries(btCounts).map(([bt, n]) =>
+            `<div class="filt-chip${this.state.btFilter.includes(bt) ? ' on':''}" data-val="${bt}">
+              ${bt}<span class="fc-sub">${n} ${pluralObj(n)}</span>
+            </div>`
+          ).join('')}
+        </div>
+      </div>`;
+    }
+
+    if (Object.keys(roomCounts).length) {
+      const roomOrder = ['1','2','3','4','5+','studio'];
+      const roomLabels = { studio: 'Студия' };
+      html += `<div class="filt-section">
+        <div class="filt-section-label">Комнатность</div>
+        <div class="filt-chips" data-group="rooms">
+          ${roomOrder.filter(r => roomCounts[r]).map(r =>
+            `<div class="filt-chip${this.state.roomsFilter.includes(r) ? ' on':''}" data-val="${r}">
+              ${roomLabels[r] || r}<span class="fc-sub">${roomCounts[r]}</span>
+            </div>`
+          ).join('')}
+        </div>
+      </div>`;
+    }
+
+    document.getElementById('filtScroll').innerHTML = html;
+    this.updateFilterCount();
+
+    // Bind chips
+    document.querySelectorAll('#filtScroll .filt-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const group = chip.closest('[data-group]').dataset.group;
+        const val   = chip.dataset.val;
+        if (group === 'bt') {
+          const i = this.state.btFilter.indexOf(val);
+          if (i >= 0) this.state.btFilter.splice(i,1); else this.state.btFilter.push(val);
+        } else {
+          const i = this.state.roomsFilter.indexOf(val);
+          if (i >= 0) this.state.roomsFilter.splice(i,1); else this.state.roomsFilter.push(val);
+        }
+        chip.classList.toggle('on');
+        this.updateFilterCount();
+      });
+    });
+  },
+
+  updateFilterCount() {
+    const n = this.getFilteredListings().length;
+    document.getElementById('filtCount').textContent = `${n} ${pluralObj(n)}`;
+    document.getElementById('filtSub').textContent = `${n} ${pluralObj(n)}`;
+  },
+
+  // ──────────────────────────────────────
+  // SCREEN 3 — FEED
+  // ──────────────────────────────────────
+  bindFeedBack() {
+    document.getElementById('feedBack').addEventListener('click', () => {
+      slideBack('screen-feed', this.state.feedPrev);
+      if (this.state.feedPrev === 'screen-map') {
+        document.getElementById('tabBar').classList.remove('hidden');
+      }
+    });
+  },
+
+  openFeed(fromScreen) {
     const listings = this.getFilteredListings();
     if (!listings.length) return;
 
-    const districtName = this.state.district
-      ? DISTRICTS.find(d => d.id === this.state.district)?.name
-      : 'Все районы';
+    this.state.feedPrev = fromScreen || (this.state.district ? 'screen-filter' : 'screen-map');
 
-    this.renderFeed(listings, districtName);
-    transitionTo('screen-feed');
-    document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === 'feed'));
-    this.state.currentTab = 'feed';
+    const typeLabel = TYPES.find(t => t.id === this.state.type)?.label || '';
+    const d = DISTRICTS.find(x => x.id === this.state.district);
+    const distShort = d ? d.name.replace(/ский$/, '').replace(/ская$/, '') : 'Все районы';
+    const timeLabel = { '24h': '24ч', '3d': '3 дня', 'week': 'Неделя' }[this.state.timeFilter];
+
+    document.getElementById('feedCrumb').textContent   = `${typeLabel} · ${distShort}.`;
+    document.getElementById('feedTimeChip').textContent = timeLabel;
+
+    this.renderFeed(listings);
+    slideForward(this.state.feedPrev, 'screen-feed');
   },
 
-  renderFeed(listings, districtName) {
+  renderFeed(listings) {
     const wrapper = document.getElementById('feedWrapper');
     wrapper.innerHTML = '';
+    wrapper.scrollTop = 0;
 
     listings.forEach((l, i) => {
-      const card = this.buildCard(l, i, listings.length, districtName, i === 0);
-      wrapper.insertAdjacentHTML('beforeend', card);
+      wrapper.insertAdjacentHTML('beforeend', this.buildCard(l, i, listings.length));
     });
 
-    // Bind card interactions
-    wrapper.querySelectorAll('.back-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        wrapper.scrollTop = 0;
-        transitionTo('screen-map');
-        document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === 'map'));
-        App.state.currentTab = 'map';
+    // Phone reveal
+    wrapper.querySelectorAll('.fc-phone-row').forEach(el => {
+      el.addEventListener('click', () => {
+        const num = el.querySelector('.fc-ph-num');
+        if (!num) return;
+        const phone = num.dataset.phone;
+        if (num.classList.contains('hidden-num')) {
+          num.textContent = phone;
+          num.classList.remove('hidden-num');
+          el.querySelector('.fc-ph-lbl').textContent = 'Собственник · Казахстан';
+        }
       });
     });
 
-    wrapper.querySelectorAll('.fix-btn[data-listing]').forEach(btn => {
-      btn.addEventListener('click', () => this.toggleClaim(btn));
-    });
-
-    wrapper.querySelectorAll('.phone-reveal').forEach(el => {
-      el.addEventListener('click', () => this.revealPhone(el));
-    });
-
-    wrapper.querySelectorAll('.act-save').forEach(btn => {
-      const circle = btn.querySelector('.act-circle');
-      const card = btn.closest('.feed-card');
-      const id = card?.dataset.listing;
-      // Restore saved state
-      if (id && this.state.saved[id]) circle.classList.add('saved');
+    // Fix / claim
+    wrapper.querySelectorAll('.fc-fix-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        if (!id) return;
-        circle.classList.toggle('saved');
-        if (circle.classList.contains('saved')) this.state.saved[id] = true;
-        else delete this.state.saved[id];
-        localStorage.setItem('24s_saved', JSON.stringify(this.state.saved));
+        const id = btn.dataset.listing;
+        if (!id || btn.classList.contains('taken')) return;
+        const isMine = this.state.claimed[id] === 'mine';
+        if (isMine) {
+          delete this.state.claimed[id];
+          btn.className = 'fc-fix-btn free';
+          btn.textContent = 'В базу';
+        } else {
+          this.state.claimed[id] = 'mine';
+          btn.className = 'fc-fix-btn mine';
+          btn.textContent = '✓ Вы взяли в работу';
+        }
+        localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
       });
     });
 
-    // Update counter on scroll
+    // Counter sync on scroll
     wrapper.addEventListener('scroll', () => {
-      const cardH = wrapper.clientHeight;
-      const idx = Math.round(wrapper.scrollTop / cardH);
-      wrapper.querySelectorAll('.card-counter').forEach((el, i) => {
+      const h = wrapper.clientHeight;
+      const idx = Math.round(wrapper.scrollTop / h);
+      wrapper.querySelectorAll('.fc-counter').forEach((el, i) => {
         el.textContent = `${i+1} / ${listings.length}`;
-        el.style.opacity = i === idx ? '1' : '0';
-        el.style.pointerEvents = i === idx ? 'auto' : 'none';
       });
     }, { passive: true });
   },
 
-  buildCard(l, index, total, districtName, isFirst) {
+  buildCard(l, index, total) {
     const isArch = l.mode === 'archive';
     const isMine = this.state.claimed[l.id] === 'mine';
     const isTaken = l.claimedBy && !isMine;
-    const progress = ((index + 1) / total * 100).toFixed(1);
-    const typeLabel = { sale:'Продажа', rent:'Аренда', archive:'Архив' }[l.mode] || '';
-    const typeChip  = TYPES.find(t => t.id === l.type)?.label || '';
 
-    let photoClass = isArch ? 'card-photo arch-filter' : 'card-photo';
-    let roomSvg = roomScene(l.scene);
+    const pm2 = l.area ? Math.round(l.price / l.area) : null;
+    const diff = this.marketDiff(l);
+    const diffLabel = diff !== null ? `${diff > 0 ? '+' : ''}${diff}% рынка` : '';
+    const diffClass = diff !== null ? (diff <= 0 ? 'below' : 'above') : '';
 
-    let bottomContent = '';
-    if (!isArch) {
-      bottomContent = `
-        <div class="realtor-row">
-          <div class="rl-left">
-            <div class="avatar" style="background:${l.realtor.color}">${l.realtor.initial}</div>
+    const firstSeen = l.firstSeen ? new Date(l.firstSeen) : null;
+    const minsAgo = firstSeen ? Math.round((Date.now() - firstSeen.getTime()) / 60000) : null;
+    const timeAgoStr = minsAgo === null ? '' :
+      minsAgo < 60   ? `${minsAgo} мин назад` :
+      minsAgo < 1440 ? `${Math.round(minsAgo/60)} ч назад` :
+                       `${Math.round(minsAgo/1440)} дн назад`;
+    const isNew = minsAgo !== null && minsAgo < 4320; // 3 days
+
+    const sellerText = isArch ? 'Собственник' : 'Агент';
+    const d = DISTRICTS.find(x => x.id === l.district);
+    const metaText = [d?.name, l.buildingType, l.floor && l.floors ? `${l.floor}/${l.floors} эт` : null, sellerText].filter(Boolean).join(' · ');
+
+    // Archive bottom
+    let archiveBottom = '';
+    if (isArch) {
+      if (isTaken) {
+        const c = l.claimedBy;
+        archiveBottom = `
+          <div class="fc-realtor-row" style="background:#f7f5f1;padding:10px;border-radius:14px;border:1px solid #e8e5de;">
+            <div class="fc-avatar" style="background:${c.color};width:30px;height:30px;font-size:11px">${c.initial}</div>
+            <div><div class="fc-rl-name" style="font-size:12px">Взяла ${c.date}</div><div class="fc-rl-sub">${c.name}</div></div>
+          </div>
+          <button class="fc-fix-btn taken" data-listing="${l.id}" disabled>В базу — занято коллегой</button>`;
+      } else {
+        archiveBottom = `
+          <div class="fc-phone-row" data-listing="${l.id}">
             <div>
-              <div class="rl-name">${l.realtor.name}</div>
-              <div class="rl-meta">
-                <span class="star" style="color:#ffd93d">★</span>
-                ${l.realtor.rating} · ${l.realtor.deals} сделок
-              </div>
+              <div class="fc-ph-lbl">Собственник · нажмите чтобы узнать номер</div>
+              <div class="fc-ph-num hidden-num" data-phone="${l.ownerPhone}"></div>
             </div>
+            <div class="fc-call">${iconPhone()}</div>
           </div>
-          <div class="contact-btn">Связаться</div>
-        </div>`;
-    } else if (isTaken) {
-      const c = l.claimedBy;
-      bottomContent = `
-        <div class="colleague-row">
-          <div class="avatar" style="background:${c.color}">${c.initial}</div>
-          <div class="col-info">
-            <div class="col-lbl">Взяла в работу ${c.date}</div>
-            <div class="col-name">${c.name}</div>
-          </div>
-          <div class="call-circle orange">
-            ${iconPhone()}
-          </div>
-        </div>
-        <button class="fix-btn taken" data-listing="${l.id}" disabled>В базу — занято коллегой</button>`;
-    } else {
-      const claimState = isMine ? 'mine' : 'free';
-      const claimLabel = isMine ? '✓ Вы взяли в работу' : 'В базу';
-      bottomContent = `
-        <div class="phone-row phone-reveal" data-listing="${l.id}">
-          <div>
-            <div class="ph-lbl">Собственник · нажмите чтобы узнать номер</div>
-            <div class="ph-num hidden" data-phone="${l.ownerPhone}">+7 ··· ··· ·· ··</div>
-          </div>
-          <div class="call-circle">${iconPhone()}</div>
-        </div>
-        <button class="fix-btn ${claimState}" data-listing="${l.id}">${claimLabel}</button>`;
+          <button class="fc-fix-btn ${isMine ? 'mine' : 'free'}" data-listing="${l.id}">${isMine ? '✓ Вы взяли в работу' : 'В базу'}</button>`;
+      }
     }
 
-    const sellerBadge = isArch
-      ? `<div class="badge seller-own">👤 Хозяин</div>`
-      : `<div class="badge seller-agent">🏢 Агент</div>`;
+    // Active bottom (realtor)
+    let activeBottom = '';
+    if (!isArch && l.realtor) {
+      activeBottom = `
+        <div class="fc-realtor-row">
+          <div class="fc-avatar" style="background:${l.realtor.color}">${l.realtor.initial}</div>
+          <div>
+            <div class="fc-rl-name">${l.realtor.name}</div>
+            <div class="fc-rl-sub">Закреплен за риэлтором</div>
+          </div>
+          <div class="fc-rl-right"><span class="fc-star">★</span>${l.realtor.rating}</div>
+        </div>`;
+    }
 
-    const buildingBadge = l.buildingType
-      ? `<div class="badge btype">${l.buildingType}</div>`
-      : '';
-
-    const statusDot = isArch
-      ? `<div class="sdot ${isTaken ? 'taken' : 'free'}"></div>`
-      : `<div class="badge inbase"><div class="dot"></div>В базе</div>`;
-
-    const priceSection = isArch
-      ? `<div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">
-           <div class="card-price" style="color:rgba(210,200,185,.82);font-size:22px;">${l.priceLabel} <span class="cur">₸</span></div>
-           <span class="price-was">была цена</span>
-         </div>`
-      : `<div class="card-price">${l.priceLabel} <span class="cur">₸</span></div>`;
+    const inbaseBadge = isArch
+      ? `<div class="fc-badge arch-tag">Архив · снято ${l.removedDate}</div>`
+      : `<div class="fc-badge inbase">В базе</div>`;
 
     return `
-    <div class="feed-card" data-listing="${l.id}">
-      <div class="${photoClass}" style="background:${l.photoBg}">
-        ${roomSvg}
-      </div>
-      <div class="card-progress"><div class="card-progress-fill" style="width:${progress}%"></div></div>
-      <div class="card-sb">
-        <span class="time">9:41</span>
-        <div class="icons">
-          <svg width="13" height="9" viewBox="0 0 20 14" fill="white" opacity=".8"><rect x="0" y="4" width="3" height="10" rx="1"/><rect x="4.5" y="2.5" width="3" height="11.5" rx="1"/><rect x="9" y="0.5" width="3" height="13.5" rx="1"/></svg>
+    <div class="feed-card" data-listing="${l.id}" style="position:relative;">
+      <!-- Price section -->
+      <div class="fc-price-section">
+        <div class="fc-price-row">
+          <div class="fc-price">${l.priceLabel} <span class="fc-cur">₸</span></div>
+          ${pm2 ? `<div class="fc-pm2">${pm2.toLocaleString('ru')} ₸/м²</div>` : ''}
+          ${diff !== null ? `<div class="fc-market ${diffClass}">${diffLabel}</div>` : ''}
+        </div>
+        <div class="fc-status-row">
+          ${isNew ? `<div class="fc-chip-new">НОВОЕ</div>` : ''}
+          ${timeAgoStr ? `<div class="fc-time-ago">${timeAgoStr}</div>` : ''}
         </div>
       </div>
-      ${isArch ? `<div class="arch-banner"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>АРХИВ · снято ${l.removedDate}</div>` : ''}
-      <div class="card-top-left" style="${isArch ? 'top:calc(var(--safe-top) + 52px)' : ''}">
-        <div class="back-btn">
-          <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      <!-- Photo -->
+      <div class="fc-photo" style="background:${l.photoBg}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
+        ${roomScene(l.scene)}
+      </div>
+      <!-- Content -->
+      <div class="fc-content">
+        <div class="fc-badges-row">
+          ${inbaseBadge}
+          <div class="fc-badge id">${l.id}</div>
+          <div class="fc-counter">${index+1} / ${total}</div>
         </div>
-        <div>
-          <div class="card-title">${districtName}</div>
-          <div class="card-subtitle">${typeChip} · ${typeLabel}</div>
+        <div class="fc-address">${l.address}</div>
+        <div class="fc-meta">${metaText}</div>
+        ${activeBottom}
+        ${archiveBottom}
+        <div class="fc-stats-row">
+          ${l.rooms !== null && l.rooms !== undefined ? `<div class="fc-stat"><div class="fc-stat-num">${l.rooms || 'С'}</div><div class="fc-stat-lbl">${l.rooms === 0 ? 'студ.' : 'комн.'}</div></div>` : ''}
+          ${l.area  ? `<div class="fc-stat"><div class="fc-stat-num">${l.area}</div><div class="fc-stat-lbl">м²</div></div>` : ''}
+          ${l.floor && l.floors ? `<div class="fc-stat"><div class="fc-stat-num">${l.floor}/${l.floors}</div><div class="fc-stat-lbl">этаж</div></div>` : ''}
         </div>
       </div>
-      <div class="card-counter" style="${isArch ? 'top:calc(var(--safe-top) + 54px)' : ''}">${index+1} / ${total}</div>
-      ${!isArch ? `
-      <div class="card-actions">
-        <div class="act-item act-save">
-          <div class="act-circle">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round"><path d="M17 3H7a2 2 0 00-2 2v16l7-3 7 3V5a2 2 0 00-2-2z"/></svg>
-          </div>
-          <span class="act-lbl">Сохранить</span>
-        </div>
-        <div class="act-item">
-          <div class="act-circle">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round"><path d="M4 12v8a2 2 0 002 2h12a2 2 0 002-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
-          </div>
-          <span class="act-lbl">Поделиться</span>
-        </div>
-      </div>` : ''}
-      <div class="card-btm">
-        <div class="badges-row">
-          ${statusDot}
-          ${sellerBadge}
-          ${buildingBadge}
-          <div class="badge id-badge">${l.id}</div>
-        </div>
-        ${priceSection}
-        <div class="card-address">${l.address}</div>
-        <div class="meta-row">
-          ${l.rooms ? `<div class="meta-chip">${l.rooms} комн.</div>` : ''}
-          ${l.area  ? `<div class="meta-chip">${l.area} м²</div>` : ''}
-          ${l.material ? `<div class="meta-chip">${l.material}</div>` : ''}
-          ${l.floor ? `<div class="meta-chip">${l.floor}/${l.floors} эт.</div>` : ''}
-          ${l.year  ? `<div class="meta-chip">${l.year} г.</div>` : ''}
-        </div>
-        ${bottomContent}
-      </div>
-      <div class="swipe-hint">
-        <svg class="swipe-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
-        <span class="swipe-txt">листать</span>
+      <div class="fc-swipe-hint">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+        <span style="font-size:9px;font-weight:600">листать</span>
       </div>
     </div>`;
-  },
-
-  toggleClaim(btn) {
-    const id = btn.dataset.listing;
-    if (!id) return;
-    const isMine = this.state.claimed[id] === 'mine';
-    if (isMine) {
-      delete this.state.claimed[id];
-      btn.className = 'fix-btn free';
-      btn.textContent = 'В базу';
-    } else {
-      this.state.claimed[id] = 'mine';
-      btn.className = 'fix-btn mine';
-      btn.textContent = '✓ Вы взяли в работу';
-    }
-    localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
-  },
-
-  revealPhone(el) {
-    const numEl = el.querySelector('.ph-num');
-    if (!numEl) return;
-    const phone = numEl.dataset.phone;
-    if (!phone) return;
-    if (numEl.classList.contains('hidden')) {
-      numEl.textContent = phone;
-      numEl.classList.remove('hidden');
-      // Auto-update label
-      const lbl = el.querySelector('.ph-lbl');
-      if (lbl) lbl.textContent = 'Собственник · Казахстан';
-    }
   },
 
   // ──────────────────────────────────────
   // MY BASE
   // ──────────────────────────────────────
-
   bindBaseSeg() {
     document.querySelectorAll('.seg-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -495,17 +661,7 @@ const App = {
   renderBase() {
     const scroll = document.getElementById('baseScroll');
     const seg = this.state.activeSeg;
-    let ids, emptyTitle, emptySub;
-
-    if (seg === 'claimed') {
-      ids = Object.keys(this.state.claimed);
-      emptyTitle = 'Нет объектов в работе';
-      emptySub = 'Перейдите в Архив и нажмите\n«В базу» на объекте';
-    } else {
-      ids = Object.keys(this.state.saved);
-      emptyTitle = 'Нет сохранённых объектов';
-      emptySub = 'В ленте нажмите иконку закладки\nчтобы сохранить объект';
-    }
+    const ids = seg === 'claimed' ? Object.keys(this.state.claimed) : Object.keys(this.state.saved);
 
     const sub = document.getElementById('baseSubtitle');
     if (sub) sub.textContent = `${ids.length} ${pluralObj(ids.length)}`;
@@ -514,55 +670,38 @@ const App = {
     document.getElementById('statSaved').textContent   = Object.keys(this.state.saved).length;
 
     if (!ids.length) {
-      scroll.innerHTML = `
-        <div class="base-empty">
-          <div class="base-empty-ico">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9fa6b2" stroke-width="2" stroke-linecap="round">
-              ${seg === 'claimed'
-                ? '<path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>'
-                : '<path d="M17 3H7a2 2 0 00-2 2v16l7-3 7 3V5a2 2 0 00-2-2z"/>'}
-            </svg>
-          </div>
-          <div class="base-empty-title">${emptyTitle}</div>
-          <div class="base-empty-sub">${emptySub}</div>
-        </div>`;
+      const title = seg === 'claimed' ? 'Нет объектов в работе' : 'Нет сохранённых объектов';
+      const sub   = seg === 'claimed' ? 'Перейдите в Архив и нажмите «В базу»' : 'В ленте нажмите закладку';
+      scroll.innerHTML = `<div class="base-empty">
+        <div class="base-empty-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9fa6b2" stroke-width="2" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <div class="base-empty-title">${title}</div>
+        <div class="base-empty-sub">${sub}</div>
+      </div>`;
       return;
     }
 
-    const cards = ids.map(id => {
+    scroll.innerHTML = ids.map(id => {
       const l = LISTINGS.find(x => x.id === id);
       if (!l) return '';
       const isArch = l.mode === 'archive';
-      const statusLabel = seg === 'claimed'
-        ? (isArch ? 'Архивный' : 'Активный')
-        : 'Сохранён';
-      const statusClass = seg === 'claimed'
-        ? (isArch ? 'arch' : 'taken')
-        : 'saved';
-      return `
-        <div class="base-card" data-listing="${l.id}">
-          <div class="base-card-photo" style="background:${l.photoBg};">
-            ${isArch ? '<div class="arch-overlay"></div>' : ''}
-          </div>
-          <div class="base-card-body">
-            <div>
-              <div class="bc-top">
-                <span class="bc-price">${l.priceLabel} ₸</span>
-                <span class="bc-id">${l.id}</span>
-              </div>
-              <div class="bc-addr">${l.address}</div>
-              <div class="bc-meta">
-                ${l.rooms ? `<span class="bc-chip">${l.rooms} комн.</span>` : ''}
-                ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
-                ${l.material ? `<span class="bc-chip">${l.material}</span>` : ''}
-              </div>
+      const statusLabel = isArch ? 'Архивный' : 'Активный';
+      const statusClass = isArch ? 'arch' : 'taken';
+      return `<div class="base-card" data-listing="${l.id}">
+        <div class="base-card-photo" style="background:${l.photoBg};"></div>
+        <div class="base-card-body">
+          <div>
+            <div class="bc-top"><span class="bc-price">${l.priceLabel} ₸</span><span class="bc-id">${l.id}</span></div>
+            <div class="bc-addr">${l.address}</div>
+            <div class="bc-meta">
+              ${l.rooms !== null ? `<span class="bc-chip">${l.rooms || 'С'} комн.</span>` : ''}
+              ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
+              ${l.buildingType ? `<span class="bc-chip">${l.buildingType}</span>` : ''}
             </div>
-            <div class="bc-status ${statusClass}">${statusLabel}</div>
           </div>
-        </div>`;
+          <div class="bc-status ${statusClass}">${statusLabel}</div>
+        </div>
+      </div>`;
     }).join('');
-
-    scroll.innerHTML = cards || '<div class="base-empty"><div class="base-empty-title">Объекты не найдены</div></div>';
   },
 
   renderProfile() {
@@ -574,29 +713,30 @@ const App = {
   },
 };
 
-// ── HELPERS ──────────────────────────────
-
-function transitionTo(screenId) {
-  const screens = document.querySelectorAll('.screen');
-  const target  = document.getElementById(screenId);
-  const current = document.querySelector('.screen.active');
-
-  if (!target || target === current) return;
-
-  const forward = screenId === 'screen-feed';
-  screens.forEach(s => {
-    if (s === current) s.classList.add(forward ? 'slide-above' : 'slide-below');
-    else if (s === target) { s.classList.remove('slide-below','slide-above'); }
-    s.classList.remove('active');
-  });
-  target.classList.add('active');
-
-  // cleanup
-  setTimeout(() => {
-    screens.forEach(s => { if (s !== target) s.classList.remove('slide-above','slide-below'); });
-  }, 420);
+// ── NAVIGATION HELPERS ──────────────────
+function slideForward(fromId, toId) {
+  const from = document.getElementById(fromId);
+  const to   = document.getElementById(toId);
+  if (!from || !to) return;
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  from.classList.add('slide-above');
+  to.classList.remove('slide-below','slide-above');
+  to.classList.add('active');
+  setTimeout(() => from.classList.remove('slide-above'), 420);
 }
 
+function slideBack(fromId, toId) {
+  const from = document.getElementById(fromId);
+  const to   = document.getElementById(toId);
+  if (!from || !to) return;
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  from.classList.add('slide-below');
+  to.classList.remove('slide-below','slide-above');
+  to.classList.add('active');
+  setTimeout(() => from.classList.remove('slide-below'), 420);
+}
+
+// ── HELPERS ──────────────────────────────
 function pluralObj(n) {
   const m = n % 100;
   if (m >= 11 && m <= 19) return 'объектов';
@@ -607,74 +747,55 @@ function pluralObj(n) {
 }
 
 function iconPhone() {
-  return `<svg width="12" height="12" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>`;
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>`;
+}
+
+function typeIcon(typeId) {
+  const icons = {
+    apt:   `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="9"/></svg>`,
+    house: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>`,
+    land:  `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+    comm:  `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>`,
+    dacha: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><line x1="12" y1="2" x2="12" y2="5"/></svg>`,
+  };
+  return icons[typeId] || icons.apt;
 }
 
 function roomScene(scene) {
-  const warm = `
-    <svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <rect x="60" y="80" width="310" height="210" rx="6" fill="rgba(200,230,255,0.3)"/>
-      <polygon points="65,260 130,160 185,200 235,140 285,180 340,120 365,160 365,285 65,285" fill="rgba(100,160,200,0.4)"/>
-      <polygon points="65,275 120,230 170,255 220,210 270,240 320,195 365,220 365,285 65,285" fill="rgba(80,140,180,0.5)"/>
-      <rect x="0" y="420" width="430" height="280" fill="rgba(120,85,50,0.4)"/>
-      <g stroke="rgba(90,60,30,0.3)" stroke-width="1.5">
-        <line x1="0" y1="450" x2="430" y2="450"/><line x1="0" y1="490" x2="430" y2="490"/>
-        <line x1="0" y1="530" x2="430" y2="530"/>
-        <line x1="70" y1="420" x2="70" y2="560"/><line x1="150" y1="420" x2="150" y2="560"/>
-        <line x1="230" y1="420" x2="230" y2="560"/><line x1="310" y1="420" x2="310" y2="560"/>
-      </g>
-      <rect x="40" y="365" width="250" height="70" rx="12" fill="rgba(70,50,35,0.7)"/>
-      <rect x="40" y="350" width="250" height="26" rx="10" fill="rgba(80,58,40,0.75)"/>
-      <rect x="50" y="352" width="68" height="55" rx="8" fill="rgba(100,72,50,0.5)"/>
-      <rect x="128" y="352" width="68" height="55" rx="8" fill="rgba(100,72,50,0.5)"/>
-      <rect x="206" y="352" width="76" height="55" rx="8" fill="rgba(100,72,50,0.5)"/>
-      <rect x="90" y="428" width="145" height="40" rx="8" fill="rgba(90,65,38,0.5)"/>
-      <rect x="340" y="300" width="88" height="140" rx="6" fill="rgba(40,28,18,0.65)"/>
-      <rect x="347" y="312" width="74" height="96" rx="4" fill="rgba(20,25,40,0.8)"/>
-    </svg>`;
-  const cool = `
-    <svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <rect x="40" y="60" width="350" height="240" rx="5" fill="rgba(180,210,235,0.25)"/>
-      <polygon points="45,270 100,190 160,220 220,160 290,195 350,140 385,175 385,298 45,298" fill="rgba(120,175,215,0.35)"/>
-      <polygon points="45,285 90,250 150,270 210,230 270,258 330,215 385,240 385,300 45,300" fill="rgba(95,155,200,0.45)"/>
-      <rect x="0" y="430" width="430" height="270" fill="rgba(55,75,100,0.35)"/>
-      <rect x="0" y="320" width="430" height="30" fill="rgba(180,200,220,0.15)"/>
-      <rect x="30" y="350" width="160" height="100" rx="5" fill="rgba(30,55,80,0.7)"/>
-      <rect x="32" y="358" width="156" height="60" rx="3" fill="rgba(15,30,55,0.85)"/>
-      <rect x="205" y="340" width="220" height="120" rx="10" fill="rgba(40,60,80,0.6)"/>
-      <rect x="215" y="352" width="200" height="96" rx="8" fill="rgba(45,68,95,0.7)"/>
-      <line x1="315" y1="340" x2="315" y2="460" stroke="rgba(100,140,175,0.3)" stroke-width="1.5"/>
-    </svg>`;
-  const green = `
-    <svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <rect x="80" y="50" width="270" height="200" rx="5" fill="rgba(190,225,195,0.25)"/>
-      <polygon points="85,225 140,160 200,188 265,140 330,170 345,185 345,248 85,248" fill="rgba(110,175,120,0.38)"/>
-      <polygon points="85,238 125,210 190,232 250,198 310,225 345,208 345,250 85,250" fill="rgba(90,155,100,0.48)"/>
-      <rect x="0" y="420" width="430" height="280" fill="rgba(60,85,60,0.4)"/>
-      <rect x="0" y="300" width="430" height="28" fill="rgba(60,80,60,0.5)"/>
-      <rect x="20" y="328" width="130" height="90" rx="4" fill="rgba(35,55,35,0.65)"/>
-      <rect x="165" y="310" width="80" height="108" rx="8" fill="rgba(45,65,45,0.6)"/>
-      <rect x="258" y="295" width="160" height="125" rx="5" fill="rgba(30,50,30,0.7)"/>
-    </svg>`;
-
-  const archWarm = `
-    <svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <rect x="60" y="80" width="310" height="210" rx="6" fill="rgba(170,190,205,0.22)"/>
-      <polygon points="65,260 130,160 185,200 235,140 285,180 340,120 365,160 365,285 65,285" fill="rgba(130,155,170,0.35)"/>
-      <rect x="0" y="420" width="430" height="280" fill="rgba(75,68,60,0.4)"/>
-      <rect x="40" y="365" width="250" height="70" rx="12" fill="rgba(50,46,40,0.65)"/>
-      <rect x="50" y="352" width="68" height="55" rx="8" fill="rgba(65,60,52,0.5)"/>
-      <rect x="128" y="352" width="68" height="55" rx="8" fill="rgba(65,60,52,0.5)"/>
-      <rect x="206" y="352" width="76" height="55" rx="8" fill="rgba(65,60,52,0.5)"/>
-    </svg>`;
-  const archCool = `
-    <svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-      <rect x="40" y="60" width="350" height="240" rx="5" fill="rgba(150,170,185,0.2)"/>
-      <polygon points="45,270 100,190 160,220 220,160 290,195 350,140 385,175 385,298 45,298" fill="rgba(105,130,148,0.3)"/>
-      <rect x="0" y="430" width="430" height="270" fill="rgba(45,55,70,0.35)"/>
-      <rect x="30" y="350" width="160" height="100" rx="5" fill="rgba(28,40,58,0.65)"/>
-      <rect x="205" y="340" width="220" height="120" rx="10" fill="rgba(35,48,65,0.55)"/>
-    </svg>`;
+  const warm = `<svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect x="60" y="80" width="310" height="210" rx="6" fill="rgba(200,230,255,0.3)"/>
+    <polygon points="65,260 130,160 185,200 235,140 285,180 340,120 365,160 365,285 65,285" fill="rgba(100,160,200,0.4)"/>
+    <polygon points="65,275 120,230 170,255 220,210 270,240 320,195 365,220 365,285 65,285" fill="rgba(80,140,180,0.5)"/>
+    <rect x="0" y="420" width="430" height="280" fill="rgba(120,85,50,0.4)"/>
+    <g stroke="rgba(90,60,30,0.3)" stroke-width="1.5"><line x1="0" y1="450" x2="430" y2="450"/><line x1="0" y1="490" x2="430" y2="490"/><line x1="70" y1="420" x2="70" y2="560"/><line x1="150" y1="420" x2="150" y2="560"/><line x1="230" y1="420" x2="230" y2="560"/><line x1="310" y1="420" x2="310" y2="560"/></g>
+    <rect x="40" y="365" width="250" height="70" rx="12" fill="rgba(70,50,35,0.7)"/>
+    <rect x="340" y="300" width="88" height="140" rx="6" fill="rgba(40,28,18,0.65)"/>
+    <rect x="347" y="312" width="74" height="96" rx="4" fill="rgba(20,25,40,0.8)"/>
+  </svg>`;
+  const cool = `<svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect x="40" y="60" width="350" height="240" rx="5" fill="rgba(180,210,235,0.25)"/>
+    <polygon points="45,270 100,190 160,220 220,160 290,195 350,140 385,175 385,298 45,298" fill="rgba(120,175,215,0.35)"/>
+    <rect x="0" y="430" width="430" height="270" fill="rgba(55,75,100,0.35)"/>
+    <rect x="30" y="350" width="160" height="100" rx="5" fill="rgba(30,55,80,0.7)"/>
+    <rect x="205" y="340" width="220" height="120" rx="10" fill="rgba(40,60,80,0.6)"/>
+  </svg>`;
+  const green = `<svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect x="80" y="50" width="270" height="200" rx="5" fill="rgba(190,225,195,0.25)"/>
+    <polygon points="85,225 140,160 200,188 265,140 330,170 345,185 345,248 85,248" fill="rgba(110,175,120,0.38)"/>
+    <rect x="0" y="420" width="430" height="280" fill="rgba(60,85,60,0.4)"/>
+    <rect x="20" y="328" width="130" height="90" rx="4" fill="rgba(35,55,35,0.65)"/>
+    <rect x="258" y="295" width="160" height="125" rx="5" fill="rgba(30,50,30,0.7)"/>
+  </svg>`;
+  const archWarm = `<svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect x="60" y="80" width="310" height="210" rx="6" fill="rgba(170,190,205,0.22)"/>
+    <polygon points="65,260 130,160 185,200 235,140 285,180 340,120 365,160 365,285 65,285" fill="rgba(130,155,170,0.35)"/>
+    <rect x="0" y="420" width="430" height="280" fill="rgba(75,68,60,0.4)"/>
+  </svg>`;
+  const archCool = `<svg class="room-svg" viewBox="0 0 430 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect x="40" y="60" width="350" height="240" rx="5" fill="rgba(150,170,185,0.2)"/>
+    <polygon points="45,270 100,190 160,220 220,160 290,195 350,140 385,175 385,298 45,298" fill="rgba(105,130,148,0.3)"/>
+    <rect x="0" y="430" width="430" height="270" fill="rgba(45,55,70,0.35)"/>
+  </svg>`;
 
   const map = { warm, cool, green, 'arch-warm': archWarm, 'arch-cool': archCool };
   return map[scene] || warm;

@@ -107,7 +107,7 @@ db.row_factory = sqlite3.Row
 cur = db.cursor()
 cur.execute("""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
-           district, building_type, price_text, price_value, address, first_seen
+           district, building_type, price_text, price_value, address, url, first_seen
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
@@ -159,6 +159,8 @@ for i, row in enumerate(rows):
         'realtor':      realtor,
         'photoBg':      bg,
         'scene':        scene,
+        'firstSeen':    row['first_seen'],
+        'url':          row['url'],
     }
     active.append(entry)
 

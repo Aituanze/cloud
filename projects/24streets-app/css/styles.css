@@ -212,15 +212,150 @@ html, body {
 }
 
 /* ══════════════════════════════════════════
-   SCREEN 2 — FEED
+   DARK SCREEN BASE (Screen 2 + 2.5)
 ══════════════════════════════════════════ */
-#screen-feed { background: #000; overflow: hidden; }
+.dark-screen { background: #1a1831; color: white; }
 
-/* Feed scroll wrapper with snap */
+.ds-status-bar {
+  padding: calc(var(--safe-top) + 4px) 14px 0;
+  min-height: calc(var(--safe-top) + 16px);
+}
+
+.ds-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 16px 0;
+}
+.ds-back {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; flex-shrink: 0;
+}
+.ds-name { font-size: 18px; font-weight: 800; color: white; letter-spacing: -.3px; }
+.ds-sub  { font-size: 11px; color: rgba(255,255,255,.5); margin-top: 2px; font-weight: 500; }
+
+/* Time tabs */
+.time-tabs {
+  display: flex; gap: 6px; padding: 14px 16px 10px;
+}
+.ttab {
+  flex: 1; text-align: center;
+  padding: 8px 0; border-radius: 10px;
+  font-size: 12px; font-weight: 600; cursor: pointer;
+  color: rgba(255,255,255,.45);
+  background: rgba(255,255,255,.06);
+  transition: all .18s;
+}
+.ttab.on {
+  background: white; color: #1a1831;
+}
+
+/* ══════════════════════════════════════════
+   SCREEN 2 — DISTRICT TYPE GRID
+══════════════════════════════════════════ */
+.type-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 10px; padding: 4px 16px 24px;
+  overflow-y: auto;
+}
+.type-card {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px; padding: 18px 14px 14px;
+  cursor: pointer; position: relative;
+  transition: background .15s;
+  display: flex; flex-direction: column; gap: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+.type-card:active { background: rgba(255,255,255,.13); }
+.tc-icon {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+}
+.tc-icon svg { color: white; }
+.tc-count { font-size: 32px; font-weight: 900; color: white; letter-spacing: -1px; line-height: 1; }
+.tc-label { font-size: 11px; font-weight: 600; color: rgba(255,255,255,.55); }
+.tc-new {
+  position: absolute; top: 10px; right: 10px;
+  background: #dc4446; color: white;
+  font-size: 8px; font-weight: 700;
+  padding: 2px 7px; border-radius: 20px;
+  letter-spacing: .03em;
+}
+
+/* ══════════════════════════════════════════
+   SCREEN 2.5 — FILTERS
+══════════════════════════════════════════ */
+.filt-scroll {
+  flex: 1; overflow-y: auto; padding: 4px 16px 0;
+}
+.filt-section { margin-bottom: 20px; }
+.filt-section-label {
+  font-size: 9px; font-weight: 700; letter-spacing: .12em;
+  color: rgba(255,255,255,.35); text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.filt-chips {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.filt-chip {
+  padding: 10px 14px; border-radius: 12px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.1);
+  color: rgba(255,255,255,.7); font-size: 12px; font-weight: 600;
+  cursor: pointer; transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.filt-chip .fc-sub { font-size: 9px; font-weight: 400; color: rgba(255,255,255,.4); display: block; margin-top: 1px; }
+.filt-chip.on {
+  background: var(--blue); border-color: var(--blue); color: white;
+}
+.filt-chip.on .fc-sub { color: rgba(255,255,255,.7); }
+.filt-apply-wrap {
+  padding: 12px 16px calc(16px + var(--safe-bot));
+  background: #1a1831;
+}
+.filt-apply {
+  background: var(--blue); color: white;
+  border-radius: 14px; padding: 16px;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  font-size: 15px; font-weight: 700; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ══════════════════════════════════════════
+   SCREEN 3 — FEED (light theme)
+══════════════════════════════════════════ */
+#screen-feed { background: #f2f0eb; }
+
+/* Fixed header */
+.feed-hdr {
+  position: absolute; top: 0; left: 0; right: 0; z-index: 200;
+  height: calc(48px + var(--safe-top));
+  padding: calc(var(--safe-top) + 10px) 14px 0;
+  background: #f2f0eb;
+  display: flex; align-items: center; gap: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.fh-back {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(0,0,0,.07);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; flex-shrink: 0; color: var(--ink);
+}
+.fh-crumb { flex: 1; font-size: 13px; font-weight: 700; color: var(--ink); }
+.fh-time {
+  padding: 5px 10px; border-radius: 8px;
+  background: rgba(0,0,0,.07); font-size: 11px; font-weight: 700;
+  color: var(--ink2); cursor: pointer;
+}
+
+/* Feed scroll wrapper */
 .feed-wrapper {
   position: absolute;
-  top: 0; left: 0; right: 0;
-  bottom: calc(54px + max(env(safe-area-inset-bottom), 8px));
+  top: calc(48px + var(--safe-top));
+  left: 0; right: 0; bottom: 0;
   overflow-y: scroll; overflow-x: hidden;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
@@ -228,19 +363,125 @@ html, body {
 }
 .feed-wrapper::-webkit-scrollbar { display: none; }
 
-/* Individual card — height set by JS via --card-h for cross-device accuracy */
+/* Individual card */
 .feed-card {
-  height: var(--card-h, calc(100dvh - 64px));
+  height: var(--feed-card-h, calc(100dvh - 52px));
   scroll-snap-align: start;
-  position: relative; overflow: hidden;
+  background: white;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  display: flex; flex-direction: column;
   flex-shrink: 0;
 }
 
-/* Photo background */
-.card-photo {
-  position: absolute; inset: 0;
+/* ── Price section (top of card) ── */
+.fc-price-section {
+  padding: 16px 16px 10px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #f0ece5;
 }
-.card-photo.arch-filter { filter: saturate(.18) brightness(.82); }
+.fc-price-row {
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.fc-price    { font-size: 28px; font-weight: 900; color: var(--ink); letter-spacing: -1px; }
+.fc-cur      { font-size: 16px; font-weight: 700; color: var(--ink); }
+.fc-pm2      { font-size: 12px; font-weight: 500; color: var(--ink2); }
+.fc-market   {
+  padding: 3px 8px; border-radius: 8px;
+  font-size: 11px; font-weight: 700; margin-left: auto;
+}
+.fc-market.below { background: rgba(21,150,107,.12); color: #15966b; }
+.fc-market.above { background: rgba(220,68,70,.1);   color: #dc4446; }
+.fc-status-row   { display: flex; align-items: center; gap: 8px; }
+.fc-chip-new {
+  background: #1a1831; color: white;
+  font-size: 9px; font-weight: 800; letter-spacing: .08em;
+  padding: 4px 9px; border-radius: 6px;
+}
+.fc-time-ago { font-size: 11px; color: var(--ink3); font-weight: 500; }
+
+/* ── Photo ── */
+.fc-photo {
+  flex: 0 0 34%;
+  position: relative; overflow: hidden;
+}
+.fc-photo svg { position: absolute; inset: 0; }
+
+/* ── Content section ── */
+.fc-content {
+  flex: 1; padding: 12px 16px;
+  display: flex; flex-direction: column; gap: 0;
+  overflow: hidden;
+}
+.fc-badges-row {
+  display: flex; align-items: center; gap: 6px; margin-bottom: 10px;
+}
+.fc-badge {
+  padding: 4px 10px; border-radius: 8px;
+  font-size: 10px; font-weight: 700;
+}
+.fc-badge.inbase  { background: rgba(21,150,107,.15); color: #15966b; border: 1px solid rgba(21,150,107,.3); }
+.fc-badge.id      { background: #f2f0eb; color: var(--ink3); font-size: 9px; border: 1px solid #e8e5de; }
+.fc-badge.arch-tag { background: rgba(220,68,70,.1); color: #dc4446; border: 1px solid rgba(220,68,70,.25); }
+.fc-counter       { margin-left: auto; font-size: 11px; font-weight: 600; color: var(--ink3); }
+.fc-address { font-size: 18px; font-weight: 800; color: var(--ink); letter-spacing: -.3px; margin-bottom: 4px; }
+.fc-meta    { font-size: 11px; color: var(--ink3); font-weight: 500; margin-bottom: 12px; }
+.fc-realtor-row {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 12px;
+}
+.fc-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 800; color: white; flex-shrink: 0;
+}
+.fc-rl-name  { font-size: 13px; font-weight: 700; color: var(--ink); }
+.fc-rl-sub   { font-size: 10px; color: var(--ink3); margin-top: 1px; }
+.fc-rl-right { margin-left: auto; display: flex; align-items: center; gap: 3px;
+               font-size: 12px; font-weight: 700; color: #1a1831; }
+.fc-star     { color: #ffd93d; }
+.fc-stats-row {
+  display: flex; gap: 8px;
+}
+.fc-stat {
+  flex: 1; background: #f7f5f1; border-radius: 12px;
+  padding: 10px 8px; text-align: center;
+  border: 1px solid #ede9e0;
+}
+.fc-stat-num { font-size: 17px; font-weight: 900; color: var(--ink); letter-spacing: -.5px; }
+.fc-stat-lbl { font-size: 9px; color: var(--ink3); font-weight: 500; margin-top: 2px; }
+
+/* Archive phone reveal (in feed) */
+.fc-phone-row {
+  background: #f7f5f1; border-radius: 14px;
+  padding: 12px 14px; margin-top: auto;
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer; border: 1px solid #e8e5de;
+}
+.fc-ph-lbl   { font-size: 11px; color: var(--ink3); }
+.fc-ph-num   { font-size: 15px; font-weight: 700; color: var(--ink); margin-top: 2px; }
+.fc-ph-num.hidden-num::after { content: '+7 ··· ··· ·· ··'; }
+.fc-ph-num.hidden-num { color: var(--ink3); font-size: 13px; font-weight: 500; }
+.fc-call     {
+  margin-left: auto; width: 36px; height: 36px; border-radius: 50%;
+  background: var(--green); display: flex; align-items: center; justify-content: center;
+}
+.fc-fix-btn {
+  margin-top: 10px; padding: 14px; border-radius: 14px;
+  text-align: center; font-size: 14px; font-weight: 700;
+  cursor: pointer; border: none; width: 100%;
+}
+.fc-fix-btn.free  { background: #1a1831; color: white; }
+.fc-fix-btn.mine  { background: rgba(21,150,107,.15); color: #15966b; border: 1px solid rgba(21,150,107,.3); }
+.fc-fix-btn.taken { background: #f2f0eb; color: var(--ink3); border: 1px solid #e8e5de; }
+
+/* Swipe hint */
+.fc-swipe-hint {
+  position: absolute; bottom: 10px; right: 16px;
+  display: flex; align-items: center; gap: 4px;
+  opacity: .35; pointer-events: none;
+}
+.fc-swipe-hint svg { color: var(--ink); }
 
 /* Progress bar */
 .card-progress {
