@@ -1,252 +1,294 @@
 (function () {
-  "use strict";
+'use strict';
 
-  var DAY_MS = 24 * 60 * 60 * 1000;
-  var FS_KEY = "realty_first_seen"; // { url: ISO } — когда объявление впервые попало в каталог
+// ── Данные ──
+var DISTRICTS = [
+  { name:'Медеуский',     cls:'cg', pos:{top:'5%',    left:'38%'} },
+  { name:'Алмалинский',   cls:'cb', pos:{top:'20%',   left:'3%'}  },
+  { name:'Бостандыкский', cls:'cp', pos:{top:'20%',   right:'2%'} },
+  { name:'Жетысуский',    cls:'co', pos:{bottom:'22%',left:'2%'}  },
+  { name:'Наурызбайский', cls:'ck', pos:{bottom:'22%',right:'2%'} },
+  { name:'Турксибский',   cls:'ca', pos:{bottom:'6%', left:'36%'} },
+  { name:'Ауэзовский',    cls:'ct', pos:null },
+  { name:'Алатауский',    cls:'cr', pos:null },
+];
 
-  // --- дедупликация по URL: оставляем только первое вхождение ---
-  var DATA = (function () {
-    var seenUrl = {}, out = [];
-    (window.LISTINGS || []).forEach(function (it) {
-      if (it && it.url && !seenUrl[it.url]) { seenUrl[it.url] = 1; out.push(it); }
+var CATS = [
+  { key:'квартиры',     label:'Квартиры',     icon:'img/icon-kvartiry.png' },
+  { key:'дома',         label:'Дома',         icon:'img/icon-doma.png'     },
+  { key:'участки',      label:'Участки',      icon:'img/icon-uchastki.png' },
+  { key:'коммерческая', label:'Коммерческая', icon:'img/icon-komm.png'     },
+  { key:'дачи',         label:'Дачи',         icon:'img/icon-dachi.png'    },
+];
+
+var CATS_WITH_ROOMS = ['квартиры','дома'];
+
+var ROOMS = [
+  { key:0,    label:'Студия',      badge:'С',   bg:'#f3f0ff', color:'#7c3aed' },
+  { key:1,    label:'1-комнатные', badge:'1к',  bg:'#eff6ff', color:'#1d4ed8' },
+  { key:2,    label:'2-комнатные', badge:'2к',  bg:'#f0fdf4', color:'#15803d' },
+  { key:3,    label:'3-комнатные', badge:'3к',  bg:'#fff7ed', color:'#c2410c' },
+  { key:'4+', label:'4 и более',   badge:'4к+', bg:'#fdf4ff', color:'#9333ea' },
+];
+
+// ── Состояние ──
+var state = { deal:'продажа', district:null, category:null, rooms:null };
+
+// ── Объявления ──
+var ALL = (function () {
+  var seen = {}, out = [];
+  (window.LISTINGS || []).forEach(function (l) {
+    if (l && l.url && !seen[l.url]) { seen[l.url] = 1; out.push(l); }
+  });
+  return out;
+}());
+
+function filtered() {
+  return ALL.filter(function (l) { return l.deal_type === state.deal; });
+}
+function countDistrict(name) {
+  return filtered().filter(function (l) { return l.district === name; }).length;
+}
+function countCat(dn, ck) {
+  return filtered().filter(function (l) { return l.district === dn && l.category === ck; }).length;
+}
+function countRoom(dn, ck, rk) {
+  return filtered().filter(function (l) {
+    if (l.district !== dn || l.category !== ck) return false;
+    if (rk === '4+') return l.rooms >= 4;
+    return l.rooms === rk;
+  }).length;
+}
+function getListings(dn, ck, rk) {
+  return filtered().filter(function (l) {
+    if (l.district !== dn || l.category !== ck) return false;
+    if (rk === null || rk === undefined) return true;
+    if (rk === '4+') return l.rooms >= 4;
+    return l.rooms === rk;
+  });
+}
+function isNew(l) {
+  return l.first_seen && (Date.now() - Date.parse(l.first_seen) <= 86400000);
+}
+
+// ── Навигация ──
+var history = [];
+
+function show(id) {
+  document.querySelectorAll('.screen').forEach(function (s) {
+    s.style.display = 'none';
+  });
+  var el = document.getElementById(id);
+  if (el) {
+    el.style.display = 'flex';
+    el.scrollTop = 0;
+  }
+}
+
+function goTo(id) {
+  history.push(id);
+  show(id);
+}
+
+function goBack() {
+  if (history.length > 1) history.pop();
+  show(history[history.length - 1] || 'screen-hero');
+}
+
+// ── ЭКРАН: Hero ──
+function renderHero() {
+  var total = filtered().length;
+  var bw = document.getElementById('bubbles');
+  bw.innerHTML = '';
+
+  DISTRICTS.forEach(function (d) {
+    if (!d.pos) return;
+    var cnt = countDistrict(d.name);
+    if (!cnt) return;
+    var el = document.createElement('div');
+    el.className = 'bubble';
+    Object.keys(d.pos).forEach(function (k) { el.style[k] = d.pos[k]; });
+    el.innerHTML = '<div class="bn">' + cnt + '</div><div class="bd">' + d.name + '</div>';
+    el.addEventListener('click', function () {
+      state.district = d.name;
+      renderCats();
+      goTo('screen-cats');
     });
-    return out;
-  })();
+    bw.appendChild(el);
+  });
 
-  // --- индекс «первого появления» (для новинок за 24 часа) ---
-  var firstSeen = loadFS();
-  (function ensureFirstSeen() {
-    var now = new Date().toISOString(), changed = false;
-    DATA.forEach(function (it) {
-      // приоритет — дата из данных парсера; иначе фиксируем момент первого показа
-      if (it.first_seen && !firstSeen[it.url]) { firstSeen[it.url] = it.first_seen; changed = true; }
-      else if (!firstSeen[it.url]) { firstSeen[it.url] = now; changed = true; }
-    });
-    if (changed) saveFS();
-  })();
-
-  function loadFS() { try { return JSON.parse(localStorage.getItem(FS_KEY) || "{}"); } catch (e) { return {}; } }
-  function saveFS() { localStorage.setItem(FS_KEY, JSON.stringify(firstSeen)); }
-  function firstSeenMs(it) { var t = Date.parse(it.first_seen || firstSeen[it.url] || ""); return isNaN(t) ? 0 : t; }
-  function isNew24(it) { return Date.now() - firstSeenMs(it) <= DAY_MS; }
-
-  var state = {
-    only24: true,
-    category: null,
-    search: "",
-    district: "",
-    priceMin: null,
-    priceMax: null,
-    groupBy: "building_type",
-    sortBy: "new",
-    collapsed: {},
-  };
-
-  // ---------- утилиты ----------
-  function roomsLabel(r) {
-    if (r === 0) return "Студия";
-    if (r === null || r === undefined || r === "") return "—";
-    return r + "-комн.";
-  }
-  function groupLabel(field, value) {
-    if (field === "rooms") return roomsLabel(value);
-    if (value === null || value === undefined || value === "") return "Прочее";
-    return String(value);
-  }
-  function fmtPrice(v) { return v ? new Intl.NumberFormat("ru-RU").format(v) + " ₸" : "—"; }
-  function el(tag, cls, html) {
-    var n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (html !== undefined) n.innerHTML = html;
-    return n;
-  }
-  function esc(s) {
-    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
-    });
-  }
-  function count24ByCategory(key) {
-    var n = 0;
-    for (var i = 0; i < DATA.length; i++)
-      if (DATA[i].category === key && isNew24(DATA[i])) n++;
-    return n;
-  }
-  function totalByCategory(key) {
-    var n = 0;
-    for (var i = 0; i < DATA.length; i++) if (DATA[i].category === key) n++;
-    return n;
-  }
-
-  // ---------- подменю категорий ----------
-  function renderCats() {
-    var nav = document.getElementById("cats");
-    nav.innerHTML = "";
-
-    (window.CATEGORIES || []).forEach(function (c) {
-      var total = totalByCategory(c.key);
-      var fresh = count24ByCategory(c.key);
-      var btn = el("button", "cat" + (state.category === c.key ? " cat--active" : "") + (total ? "" : " cat--empty"));
-      btn.innerHTML =
-        '<span class="cat__badge' + (fresh ? " cat__badge--hot" : "") + '">' + fresh + "</span>" +
-        '<span class="cat__icon">' + (window.CATEGORY_ICONS[c.key] || "") + "</span>" +
-        '<span class="cat__label">' + esc(c.label) + "</span>" +
-        '<span class="cat__sub">' + (total ? total + " всего" : "нет данных") + "</span>";
-      btn.title = c.label + ": новинок за 24ч — " + fresh + ", всего — " + total;
-      btn.addEventListener("click", function () {
-        state.category = state.category === c.key ? null : c.key;
-        renderCats();
-        render();
-      });
-      nav.appendChild(btn);
-    });
-  }
-
-  // ---------- фильтрация ----------
-  function filtered() {
-    var q = state.search.trim().toLowerCase();
-    return DATA.filter(function (it) {
-      if (state.category && it.category !== state.category) return false;
-      if (state.only24 && !isNew24(it)) return false;
-      if (state.district && it.district !== state.district) return false;
-      if (state.priceMin && (it.price_value || 0) < state.priceMin) return false;
-      if (state.priceMax && (it.price_value || 0) > state.priceMax) return false;
-      if (q) {
-        var hay = [it.title, it.address, it.district, it.category].join(" ").toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
-      }
-      return true;
-    });
-  }
-
-  function sortItems(items) {
-    var by = state.sortBy;
-    return items.sort(function (a, b) {
-      if (by === "price_asc") return (a.price_value || 0) - (b.price_value || 0);
-      if (by === "price_desc") return (b.price_value || 0) - (a.price_value || 0);
-      if (by === "area_desc") return (b.area || 0) - (a.area || 0);
-      return firstSeenMs(b) - firstSeenMs(a); // new
-    });
-  }
-
-  function groupItems(items) {
-    var map = new Map();
-    items.forEach(function (it) {
-      var key = groupLabel(state.groupBy, it[state.groupBy]);
-      if (!map.has(key)) map.set(key, []);
-      map.get(key).push(it);
-    });
-    return Array.from(map.entries()).sort(function (a, b) { return b[1].length - a[1].length; });
-  }
-
-  // ---------- карточка ----------
-  function cardNode(it) {
-    var fresh = isNew24(it);
-    var card = el("article", "card" + (fresh ? " card--new" : ""));
-    if (fresh) card.appendChild(el("span", "ribbon", "новинка"));
-    card.appendChild(el("div", "card__price", fmtPrice(it.price_value)));
-    card.appendChild(el("div", "card__title", esc(it.title)));
-
-    var meta = el("div", "card__meta");
-    if (it.rooms !== null && it.rooms !== undefined && it.rooms !== "")
-      meta.appendChild(el("span", "tag", esc(roomsLabel(it.rooms))));
-    if (it.area) meta.appendChild(el("span", "tag", esc(it.area) + " м²"));
-    if (it.floor) meta.appendChild(el("span", "tag", "эт. " + it.floor + (it.total_floors ? "/" + it.total_floors : "")));
-    if (it.building_type) meta.appendChild(el("span", "tag tag--accent", esc(it.building_type)));
-    card.appendChild(meta);
-
-    card.appendChild(el("div", "card__addr", "📍 " + esc(it.address || it.district)));
-
-    var foot = el("div", "card__foot");
-    foot.appendChild(el("span", "tag tag--soft", esc(it.district || "")));
-    var link = el("a", "card__link", "Открыть →");
-    link.href = it.url; link.target = "_blank"; link.rel = "noopener";
-    foot.appendChild(link);
-    card.appendChild(foot);
-    return card;
-  }
-
-  // ---------- рендер ----------
-  function render() {
-    // хлебные крошки
-    var cat = state.category
-      ? (window.CATEGORIES.filter(function (c) { return c.key === state.category; })[0] || {}).label
-      : null;
-    document.getElementById("crumbs").innerHTML = cat
-      ? 'Категория: <b>' + esc(cat) + "</b> — разбивка " +
-        (state.groupBy === "building_type" ? "по типам" : state.groupBy === "district" ? "по районам" : "по комнатности")
-      : "<b>Все категории</b>";
-
-    var items = sortItems(filtered());
-    document.getElementById("empty").hidden = items.length !== 0;
-
-    var container = document.getElementById("groups");
-    container.innerHTML = "";
-    groupItems(items).forEach(function (pair) {
-      var title = pair[0], list = pair[1];
-      var fresh = list.filter(isNew24).length;
-      var collapsed = !!state.collapsed[title];
-      var group = el("section", "group" + (collapsed ? " group--collapsed" : ""));
-
-      var head = el("div", "group__head");
-      head.appendChild(el("span", "group__title", esc(title)));
-      head.appendChild(el("span", "group__count", list.length + " объект." +
-        (fresh ? ' · <span class="hl">' + fresh + " новых</span>" : "")));
-      head.appendChild(el("span", "group__chevron", "▾"));
-      head.addEventListener("click", function () { state.collapsed[title] = !state.collapsed[title]; render(); });
-      group.appendChild(head);
-
-      var cards = el("div", "cards");
-      list.forEach(function (it) { cards.appendChild(cardNode(it)); });
-      group.appendChild(cards);
-      container.appendChild(group);
-    });
-  }
-
-  // ---------- инициализация контролов ----------
-  function fillDistricts() {
-    var sel = document.getElementById("districtSel");
-    var set = {};
-    DATA.forEach(function (it) { if (it.district) set[it.district] = (set[it.district] || 0) + 1; });
-    Object.keys(set).sort(function (a, b) { return set[b] - set[a]; }).forEach(function (d) {
-      var o = document.createElement("option");
-      o.value = d; o.textContent = d + " (" + set[d] + ")";
-      sel.appendChild(o);
-    });
-  }
-
-  function bind() {
-    document.getElementById("search").addEventListener("input", function (e) { state.search = e.target.value; render(); });
-    document.getElementById("only24").addEventListener("change", function (e) { state.only24 = e.target.checked; render(); });
-    document.getElementById("groupBy").addEventListener("change", function (e) { state.groupBy = e.target.value; render(); });
-    document.getElementById("sortBy").addEventListener("change", function (e) { state.sortBy = e.target.value; render(); });
-    document.getElementById("districtSel").addEventListener("change", function (e) { state.district = e.target.value; render(); });
-    document.getElementById("priceMin").addEventListener("input", function (e) { state.priceMin = e.target.value ? Number(e.target.value) : null; render(); });
-    document.getElementById("priceMax").addEventListener("input", function (e) { state.priceMax = e.target.value ? Number(e.target.value) : null; render(); });
-    document.getElementById("reset").addEventListener("click", function () {
-      state.category = null; state.search = ""; state.district = ""; state.priceMin = state.priceMax = null;
-      document.getElementById("search").value = "";
-      document.getElementById("districtSel").value = "";
-      document.getElementById("priceMin").value = "";
-      document.getElementById("priceMax").value = "";
-      renderCats(); render();
-    });
-  }
-
-  function init() {
-    var meta = document.getElementById("meta");
-    if (!DATA.length) {
-      meta.textContent = "Данные не найдены. Запустите парсер и build_data.py.";
-      document.getElementById("empty").hidden = false;
-      return;
+  // Переключатель
+  document.querySelectorAll('.dt-btn').forEach(function (btn) {
+    btn.classList.remove('active-sale', 'active-rent');
+    if (btn.dataset.deal === state.deal) {
+      btn.classList.add(state.deal === 'продажа' ? 'active-sale' : 'active-rent');
     }
-    var fresh = DATA.filter(isNew24).length;
-    meta.textContent = "Всего: " + DATA.length + " · новинок за 24ч: " + fresh +
-      (window.LISTINGS_BUILT_AT ? " · обновлено " + window.LISTINGS_BUILT_AT : "");
-    fillDistricts();
-    renderCats();
-    bind();
-    render();
+  });
+}
+
+// ── ЭКРАН: Категории ──
+function renderCats() {
+  var badge = document.getElementById('cats-deal-badge');
+  badge.textContent = state.deal === 'продажа' ? 'Продажа' : 'Аренда';
+  badge.className = 'nb-badge' + (state.deal === 'аренда' ? ' rent' : '');
+
+  var body = document.getElementById('cats-body');
+  body.innerHTML = '';
+
+  var ordered = DISTRICTS.slice().sort(function (a, b) {
+    return (a.name === state.district ? -1 : b.name === state.district ? 1 : 0);
+  });
+
+  ordered.forEach(function (d) {
+    var total = countDistrict(d.name);
+    if (!total) return;
+
+    var card = document.createElement('div');
+    card.className = 'd-card ' + d.cls;
+
+    var row = '<div class="cat-row">';
+    CATS.forEach(function (c) {
+      var cnt = countCat(d.name, c.key);
+      row +=
+        '<div class="cat-col' + (!cnt ? ' disabled' : '') + '" data-d="' + d.name + '" data-c="' + c.key + '">' +
+          '<div class="cat-num">' + cnt + '</div>' +
+          '<img class="cat-icon" src="' + c.icon + '">' +
+          '<div class="cat-lbl">' + c.label + '</div>' +
+        '</div>';
+    });
+    row += '</div>';
+
+    card.innerHTML = row +
+      '<div class="d-name"><span class="d-arr">→</span>' + d.name + '<span class="d-arr">←</span></div>' +
+      '<div class="d-line"></div>';
+
+    card.querySelectorAll('.cat-col:not(.disabled)').forEach(function (col) {
+      col.addEventListener('click', function () {
+        state.district = col.dataset.d;
+        state.category = col.dataset.c;
+        if (CATS_WITH_ROOMS.indexOf(state.category) >= 0) {
+          renderRooms();
+          goTo('screen-rooms');
+        } else {
+          state.rooms = null;
+          renderListings();
+          goTo('screen-list');
+        }
+      });
+    });
+
+    body.appendChild(card);
+  });
+
+  if (window.LISTINGS_BUILT_AT) {
+    var info = document.createElement('div');
+    info.className = 'd-built';
+    info.textContent = 'Обновлено: ' + window.LISTINGS_BUILT_AT;
+    body.appendChild(info);
+  }
+}
+
+// ── ЭКРАН: Комнатность ──
+function renderRooms() {
+  var cat = CATS.filter(function (c) { return c.key === state.category; })[0];
+  var catLabel = cat ? cat.label : state.category;
+  var total = countCat(state.district, state.category);
+
+  document.getElementById('rooms-title').textContent = catLabel + ' · ' + state.district;
+  document.getElementById('rooms-badge').textContent = total;
+
+  var grid = document.getElementById('rooms-grid');
+  grid.innerHTML = '';
+
+  ROOMS.forEach(function (r, i) {
+    var cnt = countRoom(state.district, state.category, r.key);
+    var card = document.createElement('div');
+    card.className = 'rm-card' + (i === ROOMS.length - 1 ? ' wide' : '') + (!cnt ? ' disabled' : '');
+    card.innerHTML =
+      '<div class="rm-badge" style="background:' + r.bg + ';color:' + r.color + '">' + r.badge + '</div>' +
+      '<div><div class="rm-cnt">' + cnt + '</div><div class="rm-nm">' + r.label + '</div></div>';
+    if (cnt) {
+      card.addEventListener('click', (function (rk) {
+        return function () {
+          state.rooms = rk;
+          renderListings();
+          goTo('screen-list');
+        };
+      }(r.key)));
+    }
+    grid.appendChild(card);
+  });
+}
+
+// ── ЭКРАН: Объявления ──
+function renderListings() {
+  var cat = CATS.filter(function (c) { return c.key === state.category; })[0];
+  var catLabel = cat ? cat.label : state.category;
+  var roomLabel = '';
+  if (state.rooms !== null && state.rooms !== undefined) {
+    var rm = ROOMS.filter(function (x) { return x.key === state.rooms; })[0];
+    roomLabel = rm ? ' · ' + rm.badge : '';
   }
 
-  init();
-})();
+  document.getElementById('list-title').textContent = catLabel + roomLabel + ' · ' + state.district;
+
+  var items = getListings(state.district, state.category, state.rooms);
+  items.sort(function (a, b) { return (b.price_value || 0) - (a.price_value || 0); });
+  document.getElementById('list-badge').textContent = items.length + ' шт';
+
+  var body = document.getElementById('list-body');
+  body.innerHTML = '';
+
+  if (!items.length) {
+    body.innerHTML = '<div class="empty-msg">Объявлений не найдено</div>';
+    return;
+  }
+
+  var fb = '<div class="filter-bar"><div class="fchip on">Все</div><div class="fchip">Новостройка</div><div class="fchip">Вторичка</div></div>';
+  var cards = '<div class="listings-inner">';
+  items.forEach(function (l) {
+    var nt = isNew(l) ? '<div class="tag tag-new">Новинка</div>' : '';
+    var tt = l.building_type ? '<div class="tag tag-type">' + l.building_type + '</div>' : '';
+    var a = l.area ? l.area + ' м²' : '';
+    var f = (l.floor && l.total_floors) ? l.floor + '/' + l.total_floors + ' эт' : '';
+    var p = (l.price_value && l.area) ? Math.round(l.price_value / l.area / 1000) + 'к ₸/м²' : '';
+    var chips = [a, f, p].filter(Boolean).map(function (t) { return '<span class="lc">' + t + '</span>'; }).join('');
+    cards +=
+      '<div class="lst-card">' +
+        '<div class="lst-photo">🏢' + nt + tt + '</div>' +
+        '<div class="lst-body">' +
+          '<div class="lst-price">' + (l.price_text || '—') + '</div>' +
+          '<div class="lst-info">' + (l.title || l.address || '') + '</div>' +
+          '<div class="lst-chips">' + chips + '</div>' +
+          '<a class="lst-cta" href="' + (l.url || '#') + '" target="_blank">Смотреть на Krisha.kz →</a>' +
+        '</div>' +
+      '</div>';
+  });
+  cards += '</div>';
+  body.innerHTML = fb + cards;
+}
+
+// ── Обработчики ──
+document.getElementById('deal-toggle').addEventListener('click', function (e) {
+  var btn = e.target.closest('.dt-btn');
+  if (!btn || btn.dataset.deal === state.deal) return;
+  state.deal = btn.dataset.deal;
+  renderHero();
+  renderCats();
+  // Если уже на экране категорий — перерисовываем; иначе hero
+  var cur = history[history.length - 1];
+  if (cur === 'screen-cats') renderCats();
+});
+
+document.getElementById('btn-back-cats').addEventListener('click', goBack);
+document.getElementById('btn-back-rooms').addEventListener('click', goBack);
+document.getElementById('btn-back-list').addEventListener('click', goBack);
+
+// ── Старт ──
+history.push('screen-hero');
+renderHero();
+renderCats();
+document.querySelectorAll('.screen').forEach(function (s) { s.style.display = 'none'; });
+document.getElementById('screen-hero').style.display = 'flex';
+
+}());
