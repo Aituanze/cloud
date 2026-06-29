@@ -588,7 +588,9 @@ html, body {
 .stat-card {
   flex: 1; background: white; border-radius: 14px; padding: 14px 12px;
   border: 1px solid var(--border); text-align: center;
+  cursor: pointer; transition: opacity .15s;
 }
+.stat-card:active { opacity: .65; }
 .stat-num  { font-size: 26px; font-weight: 900; color: var(--ink); letter-spacing: -.5px; line-height: 1; }
 .stat-lbl  { font-size: 9px; color: var(--ink3); margin-top: 3px; font-weight: 500; }
 

@@ -35,7 +35,8 @@ const App = {
     document.querySelectorAll('.tab-item').forEach(item => {
       item.addEventListener('click', () => {
         const tab = item.dataset.tab;
-        this.switchTab(tab);
+        if (tab === 'feed') this.openFeed();
+        else this.switchTab(tab);
       });
     });
   },
@@ -137,9 +138,10 @@ const App = {
     svg.querySelectorAll('.bubble-g').forEach(g => {
       g.addEventListener('click', () => {
         const id = g.dataset.district;
-        this.state.district = this.state.district === id ? null : id;
+        this.state.district = id;
         this.renderMap();
         this.updateFindCount();
+        setTimeout(() => this.openFeed(), 140);
       });
     });
   },
@@ -250,7 +252,8 @@ const App = {
 
     this.renderFeed(listings, districtName);
     transitionTo('screen-feed');
-    document.getElementById('tabBar')?.classList.add('hidden');
+    document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === 'feed'));
+    this.state.currentTab = 'feed';
   },
 
   renderFeed(listings, districtName) {
@@ -267,7 +270,8 @@ const App = {
       btn.addEventListener('click', () => {
         wrapper.scrollTop = 0;
         transitionTo('screen-map');
-        document.getElementById('tabBar')?.classList.remove('hidden');
+        document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === 'map'));
+        App.state.currentTab = 'map';
       });
     });
 
@@ -554,6 +558,9 @@ const App = {
   renderProfile() {
     document.getElementById('statClaimed').textContent = Object.keys(this.state.claimed).length;
     document.getElementById('statSaved').textContent   = Object.keys(this.state.saved).length;
+    const cards = document.querySelectorAll('.stat-card');
+    if (cards[0]) cards[0].onclick = () => { this.state.activeSeg = 'claimed'; this.switchTab('base'); };
+    if (cards[1]) cards[1].onclick = () => { this.state.activeSeg = 'saved';   this.switchTab('base'); };
   },
 };
 
