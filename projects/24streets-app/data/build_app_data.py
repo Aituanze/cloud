@@ -138,23 +138,27 @@ for i, row in enumerate(rows):
 
     district_counts[dist_id] = district_counts.get(dist_id, 0) + 1
 
+    building = row['building_type'] or ''
+
     entry = {
-        'id':         make_id(row['id']),
-        'district':   dist_id,
-        'mode':       mode,
-        'type':       type_id,
-        'price':      row['price_value'],
-        'priceLabel': price_label(row['price_value']),
-        'address':    addr,
-        'rooms':      row['rooms'],
-        'area':       float(row['area']) if row['area'] else None,
-        'material':   mat,
-        'floor':      row['floor'],
-        'floors':     row['total_floors'],
-        'status':     'active',
-        'realtor':    realtor,
-        'photoBg':    bg,
-        'scene':      scene,
+        'id':           make_id(row['id']),
+        'district':     dist_id,
+        'mode':         mode,
+        'type':         type_id,
+        'price':        row['price_value'],
+        'priceLabel':   price_label(row['price_value']),
+        'address':      addr,
+        'rooms':        row['rooms'],
+        'area':         float(row['area']) if row['area'] else None,
+        'material':     mat,
+        'floor':        row['floor'],
+        'floors':       row['total_floors'],
+        'buildingType': building,
+        'sellerType':   'agent',
+        'status':       'active',
+        'realtor':      realtor,
+        'photoBg':      bg,
+        'scene':        scene,
     }
     active.append(entry)
 
@@ -171,6 +175,7 @@ for i, base in enumerate(archive_sample):
     a['id']          = a['id'].replace('#24S-', '#24A-')
     a['ownerPhone']  = ARCHIVE_PHONES[i % len(ARCHIVE_PHONES)]
     a['removedDate'] = REMOVED_DATES[i % len(REMOVED_DATES)]
+    a['sellerType']  = 'owner'
     a['claimedBy']   = None
     # Каждый 4-й объект уже зафиксирован кем-то
     if i % 4 == 3:
@@ -223,6 +228,6 @@ const LISTINGS={json.dumps(all_listings, ensure_ascii=False, separators=sep)};
 '''
 
 OUT.write_text(js, encoding='utf-8')
-print(f'✅  Готово: {len(active)} активных + {len(archive)} архивных = {len(all_listings)} объектов')
+print(f'OK: {len(active)} aktiv + {len(archive)} archive = {len(all_listings)} total')
 print(f'   Файл: {OUT}')
 print(f'   Районы: { {d: district_counts.get(d, 0) for d in DISTRICT_META} }')

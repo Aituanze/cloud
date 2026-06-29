@@ -365,6 +365,14 @@ const App = {
         <button class="fix-btn ${claimState}" data-listing="${l.id}">${claimLabel}</button>`;
     }
 
+    const sellerBadge = isArch
+      ? `<div class="badge seller-own">👤 Хозяин</div>`
+      : `<div class="badge seller-agent">🏢 Агент</div>`;
+
+    const buildingBadge = l.buildingType
+      ? `<div class="badge btype">${l.buildingType}</div>`
+      : '';
+
     const statusDot = isArch
       ? `<div class="sdot ${isTaken ? 'taken' : 'free'}"></div>`
       : `<div class="badge inbase"><div class="dot"></div>В базе</div>`;
@@ -417,6 +425,8 @@ const App = {
       <div class="card-btm">
         <div class="badges-row">
           ${statusDot}
+          ${sellerBadge}
+          ${buildingBadge}
           <div class="badge id-badge">${l.id}</div>
         </div>
         ${priceSection}

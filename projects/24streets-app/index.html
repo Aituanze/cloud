@@ -8,6 +8,20 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>24Streets</title>
 <link rel="stylesheet" href="css/styles.css">
+<script>
+(function(){
+  var TAB_H = 64;
+  function setH(){
+    var h = window.innerHeight;
+    var s = document.documentElement.style;
+    s.setProperty('--app-h', h + 'px');
+    s.setProperty('--card-h', (h - TAB_H) + 'px');
+  }
+  setH();
+  window.addEventListener('resize', setH);
+  window.addEventListener('orientationchange', function(){ setTimeout(setH, 200); });
+})();
+</script>
 </head>
 <body>
 <div id="app">
