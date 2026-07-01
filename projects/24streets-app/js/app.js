@@ -167,7 +167,10 @@ const App = {
           ring.setAttribute('opacity','.35');
           g.insertBefore(ring, g.firstChild);
         }
-        ring.setAttribute('cx', d.cx); ring.setAttribute('cy', d.cy); ring.setAttribute('r', d.r + 7);
+        const cx = mainCircle.getAttribute('cx');
+        const cy = mainCircle.getAttribute('cy');
+        const r  = parseFloat(mainCircle.getAttribute('r'));
+        ring.setAttribute('cx', cx); ring.setAttribute('cy', cy); ring.setAttribute('r', r + 7);
       } else if (ring) { ring.remove(); }
     });
 
