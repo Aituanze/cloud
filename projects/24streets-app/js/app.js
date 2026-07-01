@@ -77,6 +77,12 @@ const App = {
     };
     if (tab === this.state.currentTab) return;
 
+    // Защита: агентские вкладки требуют авторизации
+    if ((tab === 'properties' || tab === 'crm') && !window._agentProfile) {
+      Auth.showAgentLogin();
+      return;
+    }
+
     document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
     const prev = tabScreens[this.state.currentTab];
     const next = tabScreens[tab];
@@ -725,23 +731,21 @@ const App = {
 
 // ── NAVIGATION HELPERS ──────────────────
 const _navStack = []; // { fromId, tabBarVisible }
+let _suppressPop = false;
 
-// Перехватываем кнопку "Назад" Android
+// Android back button — никогда не выходить из приложения
 history.replaceState({ idx: 0 }, '');
 window.addEventListener('popstate', () => {
-  if (_navStack.length === 0) {
-    // Некуда идти — оставаться в приложении
-    history.pushState({ idx: 0 }, '');
-    return;
-  }
+  if (_suppressPop) { _suppressPop = false; return; }
+  history.pushState({ idx: _navStack.length }, ''); // не выходить
+  if (_navStack.length === 0) return;
   const { fromId, tabBarVisible } = _navStack.pop();
   const active = document.querySelector('.screen.active');
   if (active) { active.classList.remove('active'); active.classList.add('slide-below'); }
   const prev = document.getElementById(fromId);
   if (prev) { prev.classList.remove('slide-below', 'slide-above'); prev.classList.add('active'); }
   const tb = document.getElementById('tabBar');
-  if (tabBarVisible) tb.classList.remove('hidden');
-  else tb.classList.add('hidden');
+  if (tabBarVisible) tb.classList.remove('hidden'); else tb.classList.add('hidden');
 });
 
 function slideForward(fromId, toId) {
@@ -758,8 +762,17 @@ function slideForward(fromId, toId) {
   setTimeout(() => from.classList.remove('slide-above'), 420);
 }
 
-function slideBack() {
-  // Всегда через popstate — стек сам знает куда идти
+function slideBack(fromId, toId) {
+  const from = document.getElementById(fromId || (document.querySelector('.screen.active') || {}).id);
+  const last = _navStack.length > 0 ? _navStack.pop() : null;
+  const toScreen = toId || last?.fromId;
+  const to = document.getElementById(toScreen);
+  if (!to) return;
+  if (from) { from.classList.remove('active'); from.classList.add('slide-below'); }
+  to.classList.remove('slide-below', 'slide-above'); to.classList.add('active');
+  const tb = document.getElementById('tabBar');
+  if (last?.tabBarVisible) tb.classList.remove('hidden'); else if (toId) {} // manual caller handles tabBar
+  _suppressPop = true;
   history.back();
 }
 
@@ -831,25 +844,19 @@ function roomScene(scene) {
 // ── BOOT ─────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
   Auth.bind();
+  App.init(); // Карта всегда работает без авторизации
 
+  // Авторизация проверяется в фоне и не блокирует UI
   const session = await Sb.getSession();
+  if (!session) return; // анонимный пользователь — карта работает
 
-  if (!session) {
-    Auth.showAgentLogin();
-    return;
-  }
-
-  // Определяем роль
   const agentProfile = await Sb.getProfile(session.user.id);
-
   if (agentProfile) {
     window._agentProfile = agentProfile;
-    App.init();
     AgentProperties.init(agentProfile);
     AgentCrm.init(agentProfile);
   } else {
     const buyerProfile = await Sb.getBuyerProfile(session.user.id);
     window._buyerProfile = buyerProfile;
-    BuyerFeed.show();
   }
 });

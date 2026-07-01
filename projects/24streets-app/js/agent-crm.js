@@ -106,7 +106,8 @@ const AgentCrm = {
       });
     });
 
-    document.getElementById('tabBar').classList.add('hidden');
+    // slideForward записывает tabBarVisible ДО скрытия
     slideForward('screen-crm', 'screen-lead-detail');
+    document.getElementById('tabBar').classList.add('hidden');
   },
 };

@@ -78,8 +78,9 @@ const AgentProperties = {
 
     this._renderPhotos();
 
-    document.getElementById('tabBar').classList.add('hidden');
+    // slideForward записывает tabBarVisible ДО скрытия — чтобы при возврате tab bar появился
     slideForward('screen-properties', 'screen-prop-editor');
+    document.getElementById('tabBar').classList.add('hidden');
   },
 
   _renderPhotos() {
