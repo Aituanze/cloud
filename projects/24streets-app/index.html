@@ -411,6 +411,129 @@
     </div>
   </div>
 
+  <!-- ══════════════ SCREEN: EDIT LISTING ══════════════ -->
+  <div id="screen-edit-listing" class="screen slide-below">
+    <div class="ed-header">
+      <button class="ed-back" id="edBackBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1a1a2e" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="ed-serial" id="edSerial">МО-0001</div>
+      <div style="width:40px"></div>
+    </div>
+
+    <div class="ed-scroll" id="edScroll">
+
+      <!-- ФОТО -->
+      <div class="ed-photos">
+        <div class="ed-photo-add" id="edPhotoAdd">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9fa6b2" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          <span>Добавить фото</span>
+        </div>
+      </div>
+
+      <!-- КАТЕГОРИЯ -->
+      <div class="ed-section">
+        <div class="ed-label">Категория</div>
+        <div class="ed-chips" id="edCategory">
+          <div class="ed-chip on" data-val="apt">Квартира</div>
+          <div class="ed-chip" data-val="house">Дом</div>
+          <div class="ed-chip" data-val="land">Участок</div>
+          <div class="ed-chip" data-val="comm">Коммерч.</div>
+          <div class="ed-chip" data-val="dacha">Дача</div>
+        </div>
+      </div>
+
+      <!-- ЦЕНА -->
+      <div class="ed-section">
+        <div class="ed-label">Цена, ₸</div>
+        <input class="ed-input" id="edPrice" type="number" inputmode="numeric" placeholder="0">
+      </div>
+
+      <!-- КОМНАТ -->
+      <div class="ed-section">
+        <div class="ed-label">Комнат</div>
+        <div class="ed-chips" id="edRooms">
+          <div class="ed-chip" data-val="0">Студия</div>
+          <div class="ed-chip" data-val="1">1</div>
+          <div class="ed-chip" data-val="2">2</div>
+          <div class="ed-chip" data-val="3">3</div>
+          <div class="ed-chip" data-val="4">4</div>
+          <div class="ed-chip" data-val="5">5+</div>
+        </div>
+      </div>
+
+      <!-- ПЛОЩАДЬ + ЭТАЖ -->
+      <div class="ed-row2">
+        <div class="ed-section">
+          <div class="ed-label">Площадь, м²</div>
+          <input class="ed-input" id="edArea" type="number" inputmode="decimal" placeholder="0">
+        </div>
+        <div class="ed-section">
+          <div class="ed-label">Этаж / Этажей</div>
+          <div class="ed-floor-row">
+            <input class="ed-input" id="edFloor" type="number" inputmode="numeric" placeholder="1">
+            <span class="ed-slash">/</span>
+            <input class="ed-input" id="edFloors" type="number" inputmode="numeric" placeholder="9">
+          </div>
+        </div>
+      </div>
+
+      <!-- ТИП ДОМА -->
+      <div class="ed-section">
+        <div class="ed-label">Тип дома</div>
+        <div class="ed-chips" id="edBuildType">
+          <div class="ed-chip" data-val="монолит">Монолит</div>
+          <div class="ed-chip" data-val="кирпич">Кирпич</div>
+          <div class="ed-chip" data-val="панель">Панель</div>
+          <div class="ed-chip" data-val="вторичка">Вторичка</div>
+        </div>
+      </div>
+
+      <!-- СОСТОЯНИЕ -->
+      <div class="ed-section">
+        <div class="ed-label">Состояние</div>
+        <div class="ed-chips" id="edCondition">
+          <div class="ed-chip" data-val="отличное">Отличное</div>
+          <div class="ed-chip" data-val="хорошее">Хорошее</div>
+          <div class="ed-chip" data-val="среднее">Среднее</div>
+          <div class="ed-chip" data-val="ремонт">Требует ремонта</div>
+        </div>
+      </div>
+
+      <!-- АДРЕС -->
+      <div class="ed-section">
+        <div class="ed-label">Адрес</div>
+        <input class="ed-input" id="edAddress" type="text" placeholder="ул. Абая, 10">
+      </div>
+
+      <!-- ОПИСАНИЕ -->
+      <div class="ed-section">
+        <div class="ed-label">Описание объекта</div>
+        <textarea class="ed-textarea" id="edDesc" placeholder="Расскажите об объекте, особенности, инфраструктура..."></textarea>
+      </div>
+
+      <!-- КОНТАКТ ХОЗЯИНА -->
+      <div class="ed-section">
+        <div class="ed-label">Контакт хозяина</div>
+        <input class="ed-input" id="edOwnerName" type="text" placeholder="Имя хозяина">
+        <input class="ed-input ed-input-mt" id="edOwnerPhone" type="tel" placeholder="+7 777 000 00 00">
+      </div>
+
+      <!-- ЗАМЕТКА МОП -->
+      <div class="ed-mop-note">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2d6be4" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Объект закреплён за вами в рамках агентства. Для передачи другому риэлтору обратитесь к МОП.
+      </div>
+
+      <!-- КНОПКИ -->
+      <div class="ed-actions">
+        <button class="ed-save-btn" id="edSaveBtn">Сохранить изменения</button>
+        <button class="ed-remove-btn" id="edRemoveBtn">Снять с работы</button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- ══════════════ TAB BAR ══════════════ -->
   <div class="tab-bar" id="tabBar">
     <div class="tab-item on" data-tab="map">

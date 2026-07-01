@@ -33,6 +33,7 @@ const App = {
     this.bindFeedBack();
     this.updateFindCount();
     this.precomputeAvgPrices();
+    this.initEditScreen();
   },
 
   // ──────────────────────────────────────
@@ -565,13 +566,20 @@ const App = {
       btn.addEventListener('click', () => {
         const id = btn.dataset.listing;
         if (!id || btn.classList.contains('taken')) return;
-        const isMine = this.state.claimed[id] === 'mine';
+        const isMine = !!this.state.claimed[id];
         if (isMine) {
           delete this.state.claimed[id];
           btn.className = 'fc-fix-btn free';
           btn.textContent = 'В базу';
         } else {
-          this.state.claimed[id] = 'mine';
+          const counter = parseInt(localStorage.getItem('24s_serial') || '0') + 1;
+          localStorage.setItem('24s_serial', String(counter));
+          const serial = `МО-${String(counter).padStart(4, '0')}`;
+          this.state.claimed[id] = {
+            serial,
+            claimedAt: new Date().toLocaleDateString('ru'),
+            editData: {},
+          };
           btn.className = 'fc-fix-btn mine';
           btn.textContent = '✓ Вы взяли в работу';
         }
@@ -591,7 +599,7 @@ const App = {
 
   buildCard(l, index, total) {
     const isArch = l.mode === 'archive';
-    const isMine = this.state.claimed[l.id] === 'mine';
+    const isMine = !!this.state.claimed[l.id];
     const isTaken = l.claimedBy && !isMine;
 
     const pm2 = l.area ? Math.round(l.price / l.area) : null;
@@ -713,11 +721,11 @@ const App = {
 
     if (!ids.length) {
       const title = seg === 'claimed' ? 'Нет объектов в работе' : 'Нет сохранённых объектов';
-      const sub   = seg === 'claimed' ? 'Перейдите в Архив и нажмите «В базу»' : 'В ленте нажмите закладку';
+      const hint  = seg === 'claimed' ? 'Нажмите «В базу» на карточке объекта' : 'В ленте нажмите закладку';
       scroll.innerHTML = `<div class="base-empty">
         <div class="base-empty-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9fa6b2" stroke-width="2" stroke-linecap="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
         <div class="base-empty-title">${title}</div>
-        <div class="base-empty-sub">${sub}</div>
+        <div class="base-empty-sub">${hint}</div>
       </div>`;
       return;
     }
@@ -725,25 +733,136 @@ const App = {
     scroll.innerHTML = ids.map(id => {
       const l = LISTINGS.find(x => x.id === id);
       if (!l) return '';
+      const claim = this.state.claimed[id];
+      const serial    = (claim && typeof claim === 'object' && claim.serial) ? claim.serial : '—';
+      const claimedAt = (claim && typeof claim === 'object' && claim.claimedAt) ? claim.claimedAt : '';
       const isArch = l.mode === 'archive';
       const statusLabel = isArch ? 'Архивный' : 'Активный';
       const statusClass = isArch ? 'arch' : 'taken';
       return `<div class="base-card" data-listing="${l.id}">
         <div class="base-card-photo" style="background:${l.photoBg};"></div>
         <div class="base-card-body">
-          <div>
-            <div class="bc-top"><span class="bc-price">${l.priceLabel} ₸</span><span class="bc-id">${l.id}</span></div>
-            <div class="bc-addr">${l.address}</div>
-            <div class="bc-meta">
-              ${l.rooms !== null ? `<span class="bc-chip">${l.rooms || 'С'} комн.</span>` : ''}
-              ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
-              ${l.buildingType ? `<span class="bc-chip">${l.buildingType}</span>` : ''}
-            </div>
+          <div class="bc-top">
+            <span class="bc-serial">${serial}</span>
+            <span class="bc-date">${claimedAt}</span>
           </div>
-          <div class="bc-status ${statusClass}">${statusLabel}</div>
+          <div class="bc-price-row">
+            <span class="bc-price">${l.priceLabel} ₸</span>
+            <span class="bc-status ${statusClass}">${statusLabel}</span>
+          </div>
+          <div class="bc-addr">${l.address}</div>
+          <div class="bc-meta">
+            ${l.rooms !== null && l.rooms !== undefined ? `<span class="bc-chip">${l.rooms || 'С'} комн.</span>` : ''}
+            ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
+            ${l.buildingType ? `<span class="bc-chip">${l.buildingType}</span>` : ''}
+          </div>
+          <button class="bc-edit-btn" data-listing="${l.id}">Редактировать →</button>
         </div>
       </div>`;
     }).join('');
+
+    scroll.querySelectorAll('.bc-edit-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        this.openEditListing(btn.dataset.listing);
+      });
+    });
+  },
+
+  openEditListing(listingId) {
+    const l = LISTINGS.find(x => x.id === listingId);
+    if (!l) return;
+    const claim = this.state.claimed[listingId];
+    const ed = (claim && typeof claim === 'object' && claim.editData) ? claim.editData : {};
+    const serial = (claim && typeof claim === 'object') ? (claim.serial || l.id) : l.id;
+
+    document.getElementById('edSerial').textContent = serial;
+
+    document.getElementById('edPrice').value      = ed.price    ?? (l.price    ?? '');
+    document.getElementById('edArea').value       = ed.area     ?? (l.area     ?? '');
+    document.getElementById('edFloor').value      = ed.floor    ?? (l.floor    ?? '');
+    document.getElementById('edFloors').value     = ed.floors   ?? (l.floors   ?? '');
+    document.getElementById('edAddress').value    = ed.address  ?? (l.address  ?? '');
+    document.getElementById('edOwnerPhone').value = ed.ownerPhone ?? (l.ownerPhone ?? '');
+    document.getElementById('edDesc').value       = ed.desc     ?? '';
+    document.getElementById('edOwnerName').value  = ed.ownerName ?? '';
+
+    this._setChip('edCategory',  ed.type      || l.type  || 'apt');
+    this._setChip('edRooms',     String(ed.rooms !== undefined && ed.rooms !== null ? ed.rooms : (l.rooms ?? '')));
+    this._setChip('edBuildType', ed.buildType || l.material || '');
+    this._setChip('edCondition', ed.condition || '');
+
+    const scr = document.getElementById('edScroll');
+    if (scr) scr.scrollTop = 0;
+
+    document.getElementById('edSaveBtn').onclick = () => this.saveEditListing(listingId);
+    document.getElementById('edRemoveBtn').onclick = () => {
+      delete this.state.claimed[listingId];
+      localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+      slideBack();
+      this.renderBase();
+    };
+
+    slideForward('screen-base', 'screen-edit-listing');
+  },
+
+  saveEditListing(listingId) {
+    const claim = this.state.claimed[listingId];
+    if (!claim || typeof claim !== 'object') return;
+    claim.editData = {
+      type:       document.querySelector('#edCategory .ed-chip.on')?.dataset.val  || null,
+      rooms:      document.querySelector('#edRooms .ed-chip.on')?.dataset.val     || null,
+      buildType:  document.querySelector('#edBuildType .ed-chip.on')?.dataset.val || null,
+      condition:  document.querySelector('#edCondition .ed-chip.on')?.dataset.val || null,
+      price:      Number(document.getElementById('edPrice').value)  || null,
+      area:       Number(document.getElementById('edArea').value)   || null,
+      floor:      Number(document.getElementById('edFloor').value)  || null,
+      floors:     Number(document.getElementById('edFloors').value) || null,
+      address:    document.getElementById('edAddress').value.trim(),
+      desc:       document.getElementById('edDesc').value.trim(),
+      ownerName:  document.getElementById('edOwnerName').value.trim(),
+      ownerPhone: document.getElementById('edOwnerPhone').value.trim(),
+    };
+    localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+    this._toast('Сохранено ✓');
+  },
+
+  _setChip(groupId, val) {
+    const grp = document.getElementById(groupId);
+    if (!grp) return;
+    grp.querySelectorAll('.ed-chip').forEach(c => c.classList.toggle('on', c.dataset.val === val));
+  },
+
+  _toast(msg) {
+    let t = document.getElementById('appToast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'appToast';
+      Object.assign(t.style, {
+        position: 'fixed', bottom: '90px', left: '50%', transform: 'translateX(-50%)',
+        background: '#1a1a2e', color: '#fff', padding: '10px 22px',
+        borderRadius: '20px', fontSize: '13px', fontWeight: '700',
+        zIndex: '9999', transition: 'opacity .3s', pointerEvents: 'none',
+        whiteSpace: 'nowrap',
+      });
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    t.style.opacity = '1';
+    clearTimeout(t._timer);
+    t._timer = setTimeout(() => { t.style.opacity = '0'; }, 2000);
+  },
+
+  initEditScreen() {
+    document.querySelectorAll('#screen-edit-listing .ed-chips').forEach(group => {
+      group.addEventListener('click', e => {
+        const chip = e.target.closest('.ed-chip');
+        if (!chip) return;
+        group.querySelectorAll('.ed-chip').forEach(c => c.classList.remove('on'));
+        chip.classList.add('on');
+      });
+    });
+    document.getElementById('edBackBtn').addEventListener('click', () => slideBack());
   },
 
   renderProfile() {
