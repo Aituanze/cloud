@@ -155,9 +155,10 @@ for i, row in enumerate(rows):
         'floor':        row['floor'],
         'floors':       row['total_floors'],
         'buildingType': building,
-        'sellerType':   'agent',
+        'sellerType':   'owner',
         'status':       'active',
-        'realtor':      realtor,
+        'ownerPhone':   ARCHIVE_PHONES[i % len(ARCHIVE_PHONES)],
+        'claimedBy':    None,
         'photoBg':      bg,
         'scene':        scene,
         'firstSeen':    row['first_seen'],
@@ -186,7 +187,6 @@ for i, base in enumerate(archive_sample):
     # Архивные фото — приглушённые
     a['photoBg'] = a['photoBg'].replace('#c4956a', '#a8a09a').replace('#4a7fa5', '#8a909a').replace('#7a9e7e', '#8a9890')
     a['scene'] = 'arch-warm' if 'warm' in a['scene'] or 'green' in a['scene'] else 'arch-cool'
-    del a['realtor']
     archive.append(a)
 
 all_listings = active + archive

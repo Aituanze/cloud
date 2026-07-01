@@ -607,23 +607,23 @@ const App = {
                        `${Math.round(minsAgo/1440)} дн назад`;
     const isNew = minsAgo !== null && minsAgo < 4320; // 3 days
 
-    const sellerText = isArch ? 'Собственник' : 'Агент';
+    const sellerText = 'Собственник';
     const d = DISTRICTS.find(x => x.id === l.district);
     const metaText = [d?.name, l.buildingType, l.floor && l.floors ? `${l.floor}/${l.floors} эт` : null, sellerText].filter(Boolean).join(' · ');
 
-    // Archive bottom
-    let archiveBottom = '';
-    if (isArch) {
-      if (isTaken) {
+    // Owner contact bottom — для всех объектов от Хозяина
+    let ownerBottom = '';
+    if (l.ownerPhone) {
+      if (isArch && isTaken) {
         const c = l.claimedBy;
-        archiveBottom = `
+        ownerBottom = `
           <div class="fc-realtor-row" style="background:#f7f5f1;padding:10px;border-radius:14px;border:1px solid #e8e5de;">
             <div class="fc-avatar" style="background:${c.color};width:30px;height:30px;font-size:11px">${c.initial}</div>
             <div><div class="fc-rl-name" style="font-size:12px">Взяла ${c.date}</div><div class="fc-rl-sub">${c.name}</div></div>
           </div>
           <button class="fc-fix-btn taken" data-listing="${l.id}" disabled>В базу — занято коллегой</button>`;
       } else {
-        archiveBottom = `
+        ownerBottom = `
           <div class="fc-phone-row" data-listing="${l.id}">
             <div>
               <div class="fc-ph-lbl">Собственник · нажмите чтобы узнать номер</div>
@@ -635,23 +635,9 @@ const App = {
       }
     }
 
-    // Active bottom (realtor)
-    let activeBottom = '';
-    if (!isArch && l.realtor) {
-      activeBottom = `
-        <div class="fc-realtor-row">
-          <div class="fc-avatar" style="background:${l.realtor.color}">${l.realtor.initial}</div>
-          <div>
-            <div class="fc-rl-name">${l.realtor.name}</div>
-            <div class="fc-rl-sub">Закреплен за риэлтором</div>
-          </div>
-          <div class="fc-rl-right"><span class="fc-star">★</span>${l.realtor.rating}</div>
-        </div>`;
-    }
-
     const inbaseBadge = isArch
       ? `<div class="fc-badge arch-tag">Архив · снято ${l.removedDate}</div>`
-      : `<div class="fc-badge inbase">В базе</div>`;
+      : `<div class="fc-badge owner-tag">Хозяин</div>`;
 
     return `
     <div class="feed-card" data-listing="${l.id}" style="position:relative;">
@@ -680,8 +666,7 @@ const App = {
         </div>
         <div class="fc-address">${l.address}</div>
         <div class="fc-meta">${metaText}</div>
-        ${activeBottom}
-        ${archiveBottom}
+        ${ownerBottom}
         <div class="fc-stats-row">
           ${l.rooms !== null && l.rooms !== undefined ? `<div class="fc-stat"><div class="fc-stat-num">${l.rooms || 'С'}</div><div class="fc-stat-lbl">${l.rooms === 0 ? 'студ.' : 'комн.'}</div></div>` : ''}
           ${l.area  ? `<div class="fc-stat"><div class="fc-stat-num">${l.area}</div><div class="fc-stat-lbl">м²</div></div>` : ''}

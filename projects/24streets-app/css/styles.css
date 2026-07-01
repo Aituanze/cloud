@@ -442,7 +442,8 @@ html, body {
 }
 .fc-badge.inbase  { background: rgba(21,150,107,.15); color: #15966b; border: 1px solid rgba(21,150,107,.3); }
 .fc-badge.id      { background: #f2f0eb; color: var(--ink3); font-size: 9px; border: 1px solid #e8e5de; }
-.fc-badge.arch-tag { background: rgba(220,68,70,.1); color: #dc4446; border: 1px solid rgba(220,68,70,.25); }
+.fc-badge.arch-tag  { background: rgba(220,68,70,.1); color: #dc4446; border: 1px solid rgba(220,68,70,.25); }
+.fc-badge.owner-tag { background: rgba(45,107,228,.1); color: #2d6be4; border: 1px solid rgba(45,107,228,.25); }
 .fc-counter       { margin-left: auto; font-size: 11px; font-weight: 600; color: var(--ink3); }
 .fc-address { font-size: 18px; font-weight: 800; color: var(--ink); letter-spacing: -.3px; margin-bottom: 4px; }
 .fc-meta    { font-size: 11px; color: var(--ink3); font-weight: 500; margin-bottom: 12px; }
