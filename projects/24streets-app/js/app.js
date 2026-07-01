@@ -4,7 +4,7 @@
 
 const App = {
   state: {
-    mode:      'sale',
+    mode:      'archive',
     district:  null,
     type:      'apt',
     timeFilter: '24h',
@@ -177,7 +177,7 @@ const App = {
     const counter = document.getElementById('liveCount');
     if (counter) {
       const total = Object.values(distCounts).reduce((s, v) => s + v, 0);
-      counter.textContent = isArch ? `${total.toLocaleString('ru')} архив.` : `${total} сейчас`;
+      counter.textContent = isArch ? `${total.toLocaleString('ru')} хозяев` : `${total} сейчас`;
     }
 
     const strip = document.getElementById('archDateStrip');
@@ -326,8 +326,10 @@ const App = {
     const cutoffMs = Date.now() - hoursMap[this.state.timeFilter] * 3600000;
     const mode = this.state.mode;
 
+    const isOwner = mode === 'archive';
+
     // Count by type
-    const counts = {}, newCounts = {};
+    const counts = {}, newCounts = {}, claimedCounts = {};
     LISTINGS.forEach(l => {
       if (l.district !== this.state.district) return;
       if (mode === 'archive' && l.mode !== 'archive') return;
@@ -335,6 +337,9 @@ const App = {
       counts[l.type] = (counts[l.type] || 0) + 1;
       if (l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs) {
         newCounts[l.type] = (newCounts[l.type] || 0) + 1;
+      }
+      if (isOwner && this.state.claimed[l.id]) {
+        claimedCounts[l.type] = (claimedCounts[l.type] || 0) + 1;
       }
     });
 
@@ -348,6 +353,15 @@ const App = {
       const cnt = counts[t.id] || 0;
       if (!cnt) return '';
       const hasNew = (newCounts[t.id] || 0) > 0;
+      let lampHtml = '';
+      if (isOwner) {
+        const claimed = claimedCounts[t.id] || 0;
+        const green = claimed > 0;
+        lampHtml = `<div class="tc-lamp-row">
+          <div class="tc-lamp"><span class="lamp-dot ${green ? 'lamp-green' : 'lamp-red'}"></span><span class="lamp-lbl">${green ? `${claimed} в базе` : 'не в базе'}</span></div>
+          <button class="tc-base-btn" data-type="${t.id}">В базу →</button>
+        </div>`;
+      }
       return `
       <div class="type-card" data-type="${t.id}">
         ${hasNew ? `<div class="tc-new">Новые</div>` : ''}
@@ -356,6 +370,7 @@ const App = {
           <div class="tc-count">${cnt}</div>
           <div class="tc-label">${t.label}</div>
         </div>
+        ${lampHtml}
       </div>`;
     }).join('');
 
@@ -365,6 +380,17 @@ const App = {
         this.state.btFilter = [];
         this.state.roomsFilter = [];
         this.openFilter();
+      });
+    });
+
+    // "В базу" button — opens feed directly (skip filter screen)
+    grid.querySelectorAll('.tc-base-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        this.state.type = btn.dataset.type;
+        this.state.btFilter = [];
+        this.state.roomsFilter = [];
+        this.openFeed('screen-district');
       });
     });
   },
