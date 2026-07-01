@@ -126,85 +126,85 @@
           fill="none" stroke="rgba(175,168,155,0.16)" stroke-width="1.2" stroke-dasharray="5,7"/>
 
         <!-- ── DISTRICT BUBBLES — 3D SPHERES ── -->
-        <!-- Ориентация: юг=верх, север=низ, запад=лево, восток=право -->
-        <!-- Порядок З→В: наур → ауэз → бост → алма(центр) → меде → жет → турк -->
+        <!-- Ориентация жителя Алматы: Горы=верх(юг) · Восток=лево · Запад=право · Север=низ -->
+        <!-- Порядок В→З (лево→право): меде → жет/турк → алма(центр) → ауэз/бост → наур → алат -->
 
-        <!-- НАУРЫЗБАЙСКИЙ (юго-запад) -->
-        <g class="bubble-g" data-district="naur" cursor="pointer">
-          <circle cx="22" cy="96" r="18" fill="#E8453C" fill-opacity="0.1" class="sel-pulse"/>
-          <circle cx="22" cy="96" r="18" fill="#E8453C" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="22" cy="96" r="18" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="22" y="92.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">41</text>
-          <text x="22" y="102" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Наурызбайский</text>
-        </g>
-
-        <!-- БОСТАНДЫКСКИЙ (юг, центр-лево) -->
-        <g class="bubble-g" data-district="bost" cursor="pointer">
-          <circle cx="62" cy="78" r="22" fill="#10B981" fill-opacity="0.1"/>
-          <circle cx="62" cy="78" r="22" fill="#10B981" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="62" cy="78" r="22" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="62" y="74" text-anchor="middle" font-size="14" font-weight="900" fill="white" class="bubble-count">59</text>
-          <text x="62" y="83.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Бостандыкский</text>
-        </g>
-
-        <!-- МЕДЕУСКИЙ (юго-восток, у гор) -->
+        <!-- МЕДЕУСКИЙ (юго-восток = верх-лево) -->
         <g class="bubble-g" data-district="mede" cursor="pointer">
-          <circle cx="114" cy="70" r="18" fill="#3B82F6" fill-opacity="0.1"/>
-          <circle cx="114" cy="70" r="18" fill="#3B82F6" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="114" cy="70" r="18" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="114" y="66.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">37</text>
-          <text x="114" y="76" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Медеуский</text>
+          <circle cx="38" cy="70" r="18" fill="#3B82F6" fill-opacity="0.1"/>
+          <circle cx="38" cy="70" r="18" fill="#3B82F6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="38" cy="70" r="18" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="38" y="66.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">37</text>
+          <text x="38" y="76" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Медеуский</text>
         </g>
 
-        <!-- АУЭЗОВСКИЙ (запад, центр) -->
-        <g class="bubble-g" data-district="auez" cursor="pointer">
-          <circle cx="46" cy="118" r="14" fill="#EC4899" fill-opacity="0.1" class="sel-pulse"/>
-          <circle cx="46" cy="118" r="14" fill="#EC4899" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="46" cy="118" r="14" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="46" y="115" text-anchor="middle" font-size="9" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="46" y="122.5" text-anchor="middle" font-size="3.6" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Ауэзовский</text>
+        <!-- БОСТАНДЫКСКИЙ (юг, центр-право) -->
+        <g class="bubble-g" data-district="bost" cursor="pointer">
+          <circle cx="90" cy="78" r="22" fill="#10B981" fill-opacity="0.1"/>
+          <circle cx="90" cy="78" r="22" fill="#10B981" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="90" cy="78" r="22" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="90" y="74" text-anchor="middle" font-size="14" font-weight="900" fill="white" class="bubble-count">59</text>
+          <text x="90" y="83.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Бостандыкский</text>
+        </g>
+
+        <!-- НАУРЫЗБАЙСКИЙ (юго-запад = верх-право) -->
+        <g class="bubble-g" data-district="naur" cursor="pointer">
+          <circle cx="130" cy="94" r="18" fill="#E8453C" fill-opacity="0.1" class="sel-pulse"/>
+          <circle cx="130" cy="94" r="18" fill="#E8453C" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="130" cy="94" r="18" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="130" y="90.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">41</text>
+          <text x="130" y="100" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Наурызбайский</text>
+        </g>
+
+        <!-- ЖЕТЫСУСКИЙ (восток = лево) -->
+        <g class="bubble-g" data-district="zhet" cursor="pointer">
+          <circle cx="22" cy="128" r="21" fill="#8B5CF6" fill-opacity="0.1"/>
+          <circle cx="22" cy="128" r="21" fill="#8B5CF6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="22" cy="128" r="21" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="22" y="124.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">48</text>
+          <text x="22" y="133.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Жетысуский</text>
         </g>
 
         <!-- АЛМАЛИНСКИЙ (исторический центр) -->
         <g class="bubble-g" data-district="alma" cursor="pointer">
-          <circle cx="85" cy="118" r="24" fill="#F59E0B" fill-opacity="0.1"/>
-          <circle cx="85" cy="118" r="24" fill="#F59E0B" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="85" cy="118" r="24" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="85" y="114" text-anchor="middle" font-size="16" font-weight="900" fill="white" class="bubble-count">63</text>
-          <text x="85" y="124" text-anchor="middle" font-size="4.2" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алмалинский</text>
+          <circle cx="68" cy="118" r="24" fill="#F59E0B" fill-opacity="0.1"/>
+          <circle cx="68" cy="118" r="24" fill="#F59E0B" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="68" cy="118" r="24" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="68" y="114" text-anchor="middle" font-size="16" font-weight="900" fill="white" class="bubble-count">63</text>
+          <text x="68" y="124" text-anchor="middle" font-size="4.2" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алмалинский</text>
         </g>
 
-        <!-- ЖЕТЫСУСКИЙ (восток) -->
-        <g class="bubble-g" data-district="zhet" cursor="pointer">
-          <circle cx="128" cy="126" r="21" fill="#8B5CF6" fill-opacity="0.1"/>
-          <circle cx="128" cy="126" r="21" fill="#8B5CF6" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="128" cy="126" r="21" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="128" y="122.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="128" y="131.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Жетысуский</text>
+        <!-- АУЭЗОВСКИЙ (запад = право) -->
+        <g class="bubble-g" data-district="auez" cursor="pointer">
+          <circle cx="106" cy="118" r="14" fill="#EC4899" fill-opacity="0.1" class="sel-pulse"/>
+          <circle cx="106" cy="118" r="14" fill="#EC4899" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="106" cy="118" r="14" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="106" y="115" text-anchor="middle" font-size="9" font-weight="900" fill="white" class="bubble-count">48</text>
+          <text x="106" y="122.5" text-anchor="middle" font-size="3.6" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Ауэзовский</text>
         </g>
 
-        <!-- АЛАТАУСКИЙ (северо-запад) -->
+        <!-- АЛАТАУСКИЙ (северо-запад = низ-право) -->
         <g class="bubble-g" data-district="alat" cursor="pointer">
-          <circle cx="52" cy="162" r="20" fill="#0EA5E9" fill-opacity="0.1"/>
-          <circle cx="52" cy="162" r="20" fill="#0EA5E9" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="52" cy="162" r="20" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="52" y="158.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">45</text>
-          <text x="52" y="168" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алатауский</text>
+          <circle cx="100" cy="162" r="20" fill="#0EA5E9" fill-opacity="0.1"/>
+          <circle cx="100" cy="162" r="20" fill="#0EA5E9" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="100" cy="162" r="20" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="100" y="158.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">45</text>
+          <text x="100" y="168" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алатауский</text>
         </g>
 
-        <!-- ТУРКСИБСКИЙ (северо-восток) -->
+        <!-- ТУРКСИБСКИЙ (северо-восток = низ-лево) -->
         <g class="bubble-g" data-district="turk" cursor="pointer">
-          <circle cx="120" cy="162" r="15" fill="#14B8A6" fill-opacity="0.1"/>
-          <circle cx="120" cy="162" r="15" fill="#14B8A6" class="bubble-main" filter="url(#bub-shadow)"/>
-          <circle cx="120" cy="162" r="15" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
-          <text x="120" y="158.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
-          <text x="120" y="167" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Турксибский</text>
+          <circle cx="42" cy="162" r="15" fill="#14B8A6" fill-opacity="0.1"/>
+          <circle cx="42" cy="162" r="15" fill="#14B8A6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="42" cy="162" r="15" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="42" y="158.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
+          <text x="42" y="167" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Турксибский</text>
         </g>
 
-        <!-- South compass (↑S = юг наверху) -->
-        <g transform="translate(8,62)">
-          <circle r="7.5" fill="rgba(255,255,255,.8)" stroke="rgba(175,168,155,.3)" stroke-width=".8"/>
-          <text y="3.5" text-anchor="middle" font-size="6.5" font-weight="700" fill="#9fa6b2">↑S</text>
+        <!-- Compass: горы=верх(Ю), восток=лево(←), запад=право(→) -->
+        <g transform="translate(76,62)">
+          <text x="-13" y="3" text-anchor="end" font-size="4.5" font-weight="700" fill="#9fa6b2">←В</text>
+          <text x="13" y="3" text-anchor="start" font-size="4.5" font-weight="700" fill="#9fa6b2">З→</text>
         </g>
 
         <text x="76" y="186" text-anchor="middle" font-size="5.5" fill="#b0a898" letter-spacing=".04em">Нажми район · размер = количество</text>
