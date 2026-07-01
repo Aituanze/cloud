@@ -127,8 +127,11 @@ const Auth = {
         return;
       }
 
-      const { data: agency, error: agencyError } = await Sb.db
-        .from('agencies').insert({ name: agencyName }).select().single();
+      // id генерируем на клиенте, чтобы не читать строку обратно через .select()
+      // (RLS-политика чтения agencies ещё не пропустит новую строку — профиль-связка появится ниже)
+      const agencyId = crypto.randomUUID();
+      const { error: agencyError } = await Sb.db
+        .from('agencies').insert({ id: agencyId, name: agencyName });
       if (agencyError) {
         this._showError('setupError', 'Ошибка БД: ' + agencyError.message);
         btn.textContent = 'Создать агентство'; btn.disabled = false;
@@ -136,7 +139,7 @@ const Auth = {
       }
 
       const { error: profErr } = await Sb.db.from('profiles').insert({
-        id: uid, agency_id: agency.id, role: 'admin', name: adminName,
+        id: uid, agency_id: agencyId, role: 'admin', name: adminName,
       });
       if (profErr) {
         this._showError('setupError', 'Ошибка профиля: ' + profErr.message);

@@ -9,13 +9,34 @@ ALTER TABLE buyer_profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE leads          ENABLE ROW LEVEL SECURITY;
 ALTER TABLE lead_events    ENABLE ROW LEVEL SECURITY;
 
--- ── agencies: только участники своего агентства ──────────────────────────
-CREATE POLICY "Agency members read" ON agencies FOR SELECT
-  USING (id IN (SELECT agency_id FROM profiles WHERE id = auth.uid()));
+-- ── helper: agency_id текущего пользователя в обход RLS ───────────────────
+-- SECURITY DEFINER читает profiles без применения RLS → нет бесконечной
+-- рекурсии в политиках, которые фильтруют по agency_id.
+CREATE OR REPLACE FUNCTION public.current_agency_id()
+RETURNS uuid
+LANGUAGE sql
+SECURITY DEFINER
+STABLE
+SET search_path = public
+AS $$
+  SELECT agency_id FROM public.profiles WHERE id = auth.uid();
+$$;
 
--- ── profiles: коллеги по агентству ───────────────────────────────────────
+-- ── agencies: участники своего агентства ─────────────────────────────────
+CREATE POLICY "Agency members read" ON agencies FOR SELECT
+  USING (id = public.current_agency_id());
+
+-- Любой авторизованный может создать агентство (при регистрации)
+CREATE POLICY "Auth user insert agency" ON agencies FOR INSERT
+  WITH CHECK (auth.uid() IS NOT NULL);
+
+-- Админ обновляет своё агентство
+CREATE POLICY "Agency admin update" ON agencies FOR UPDATE
+  USING (id = public.current_agency_id());
+
+-- ── profiles: коллеги по агентству (без self-select → без рекурсии) ───────
 CREATE POLICY "Same agency profiles read" ON profiles FOR SELECT
-  USING (agency_id IN (SELECT agency_id FROM profiles WHERE id = auth.uid()));
+  USING (id = auth.uid() OR agency_id = public.current_agency_id());
 
 CREATE POLICY "Own profile insert" ON profiles FOR INSERT
   WITH CHECK (id = auth.uid());
@@ -30,7 +51,7 @@ CREATE POLICY "Public read active" ON properties FOR SELECT
 
 -- Все объекты своего агентства — читают агенты
 CREATE POLICY "Agent read own agency" ON properties FOR SELECT
-  USING (agency_id IN (SELECT agency_id FROM profiles WHERE id = auth.uid()));
+  USING (agency_id = public.current_agency_id());
 
 -- Добавить объект — только агент
 CREATE POLICY "Agent insert" ON properties FOR INSERT
