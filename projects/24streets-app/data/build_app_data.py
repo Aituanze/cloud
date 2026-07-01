@@ -3,7 +3,8 @@ build_app_data.py
 Читает krisha-parser/listings.db → генерирует listings.js для 24streets-app
 Запускать: python data/build_app_data.py
 """
-import sqlite3, json, random, re, os
+import sqlite3, json, random, re, os, sys
+sys.stdout.reconfigure(encoding='utf-8')
 from datetime import datetime, timedelta
 from pathlib import Path
 

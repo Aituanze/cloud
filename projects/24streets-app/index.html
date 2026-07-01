@@ -384,7 +384,7 @@
       </div>
 
       <div class="settings-section">
-        <div class="settings-row" style="color:#dc4446;">
+        <div class="settings-row sr-signout" style="color:#dc4446;cursor:pointer">
           <div class="sr-left">
             <div class="sr-ico" style="background:#fef0f0;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc4446" stroke-width="2.5" stroke-linecap="round"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></div>
             <span class="sr-label" style="color:#dc4446;">Выйти</span>
@@ -408,12 +408,161 @@
       </div>
       <span class="tab-lbl">База</span>
     </div>
+    <div class="tab-item" data-tab="properties">
+      <div class="tab-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <span class="tab-lbl">Объекты</span>
+    </div>
+    <div class="tab-item" data-tab="crm">
+      <div class="tab-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="3" y="3" width="4" height="18" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="5" width="4" height="16" rx="1"/></svg>
+      </div>
+      <span class="tab-lbl">Сделки</span>
+    </div>
     <div class="tab-item" data-tab="profile">
       <div class="tab-ico">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 10-16 0"/></svg>
       </div>
       <span class="tab-lbl">Профиль</span>
     </div>
+  </div>
+
+
+  <!-- ══════ SCREEN AUTH (агент) ══════ -->
+  <div id="screen-auth" class="screen slide-below auth-screen">
+    <div class="auth-logo">24<span>Streets</span></div>
+    <div class="auth-tagline">Платформа для риэлторов Алматы</div>
+    <div class="auth-card">
+      <div class="auth-title">Вход для агентов</div>
+      <div id="authError" class="auth-error" style="display:none"></div>
+      <input id="authEmail" class="auth-input" type="email" placeholder="Email" autocomplete="email">
+      <input id="authPassword" class="auth-input" type="password" placeholder="Пароль" autocomplete="current-password">
+      <button id="authSubmit" class="auth-btn">Войти</button>
+      <div class="auth-divider">Покупаете квартиру?</div>
+      <button id="authBuyerBtn" class="auth-btn-secondary">Смотреть объекты →</button>
+      <button id="authToSetup" class="auth-btn-secondary" style="margin-top:6px">Зарегистрировать агентство</button>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN AGENCY SETUP ══════ -->
+  <div id="screen-agency-setup" class="screen slide-below auth-screen">
+    <div class="auth-logo">24<span>Streets</span></div>
+    <div class="auth-tagline">Регистрация агентства</div>
+    <div class="auth-card">
+      <div class="auth-title">Новое агентство</div>
+      <div id="setupError" class="auth-error" style="display:none"></div>
+      <input id="setupAgencyName" class="auth-input" type="text" placeholder="Название агентства">
+      <input id="setupAdminName"  class="auth-input" type="text" placeholder="Ваше имя">
+      <input id="setupEmail"      class="auth-input" type="email" placeholder="Email">
+      <input id="setupPassword"   class="auth-input" type="password" placeholder="Пароль (мин. 6 символов)">
+      <button id="setupSubmit" class="auth-btn">Создать агентство</button>
+      <div class="auth-divider">Уже есть аккаунт?</div>
+      <button id="setupToLogin" class="auth-btn-secondary">← Войти</button>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN PHONE OTP (покупатель) ══════ -->
+  <div id="screen-phone-otp" class="screen slide-below auth-screen">
+    <div class="auth-logo">24<span>Streets</span></div>
+    <div class="auth-card">
+      <div id="otpTitle" class="auth-title">Введите номер телефона</div>
+      <div id="otpSub" class="auth-sub">Чтобы увидеть контакт агента</div>
+      <div id="otpError" class="auth-error" style="display:none"></div>
+      <div id="otpPhoneStep">
+        <input id="otpPhone" class="auth-input" type="tel" placeholder="+7 777 000 00 00" autocomplete="tel">
+        <button id="otpSendBtn" class="auth-btn">Получить код</button>
+        <button id="otpSkipBtn" class="auth-btn-secondary" style="margin-top:8px">← Назад</button>
+      </div>
+      <div id="otpCodeStep" style="display:none">
+        <input id="otpCode" class="auth-input" type="number" placeholder="Код из SMS">
+        <button id="otpVerifyBtn" class="auth-btn">Подтвердить</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN: МОИ ОБЪЕКТЫ (агент) ══════ -->
+  <div id="screen-properties" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div class="agent-screen-title">Мои объекты</div>
+      <button id="propAddBtn" class="prop-add-btn">+ Добавить</button>
+    </div>
+    <div id="propList" class="prop-list"></div>
+  </div>
+
+  <!-- ══════ SCREEN: РЕДАКТОР ОБЪЕКТА ══════ -->
+  <div id="screen-prop-editor" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="propEditorBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div id="propEditorTitle" class="agent-screen-title" style="margin-left:10px">Новый объект</div>
+      <button id="propSaveBtn" class="prop-draft-btn">Черновик</button>
+      <button id="propPublishBtn" class="prop-publish-btn">Опубликовать</button>
+    </div>
+    <div class="prop-editor-scroll">
+      <div class="pe-section-label">Фото (до 10)</div>
+      <div id="pePhotosRow" class="pe-photos-row">
+        <label class="pe-photo-add">
+          <input id="pePhotoInput" type="file" accept="image/*" multiple style="display:none">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--ink3)" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </label>
+      </div>
+      <div class="pe-section-label">Тип объекта</div>
+      <div class="pe-chips-row" id="peTypeChips">
+        <div class="pe-chip on" data-val="apt">Квартира</div>
+        <div class="pe-chip" data-val="house">Дом</div>
+        <div class="pe-chip" data-val="land">Участок</div>
+        <div class="pe-chip" data-val="commercial">Коммерч.</div>
+      </div>
+      <div class="pe-section-label">Адрес</div>
+      <input id="peAddress" class="pe-input" placeholder="пр. Достык, 180" type="text">
+      <div class="pe-row">
+        <div class="pe-field"><div class="pe-section-label">Цена (₸)</div><input id="pePrice" class="pe-input" placeholder="45000000" type="number"></div>
+        <div class="pe-field"><div class="pe-section-label">Площадь (м²)</div><input id="peArea" class="pe-input" placeholder="65" type="number"></div>
+      </div>
+      <div class="pe-row">
+        <div class="pe-field"><div class="pe-section-label">Комнат</div><input id="peRooms" class="pe-input" placeholder="2" type="number"></div>
+        <div class="pe-field"><div class="pe-section-label">Этаж / Всего</div><input id="peFloor" class="pe-input" placeholder="4 / 9" type="text"></div>
+      </div>
+      <div class="pe-section-label">Описание</div>
+      <textarea id="peDesc" class="pe-input" rows="3" placeholder="Описание объекта..."></textarea>
+      <div class="pe-section-label" style="margin-top:16px">Собственник (только агент видит)</div>
+      <input id="peOwnerName"  class="pe-input" placeholder="Имя собственника" type="text">
+      <input id="peOwnerPhone" class="pe-input" placeholder="+7 777 000 00 00" type="tel">
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN CRM (агент) ══════ -->
+  <div id="screen-crm" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div class="agent-screen-title">Сделки</div>
+    </div>
+    <div id="crmBoard" class="crm-board"></div>
+  </div>
+
+  <!-- ══════ SCREEN LEAD DETAIL ══════ -->
+  <div id="screen-lead-detail" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="leadDetailBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div id="leadDetailTitle" class="agent-screen-title" style="margin-left:10px">Лид</div>
+    </div>
+    <div id="leadDetailContent" class="lead-detail-scroll"></div>
+  </div>
+
+  <!-- ══════ SCREEN BUYER FEED ══════ -->
+  <div id="screen-buyer-feed" class="screen slide-below">
+    <div class="buyer-feed-hdr">
+      <div class="logo">24<span>Streets</span></div>
+      <div style="font-size:11px;color:var(--ink2);font-weight:500">Алматы</div>
+    </div>
+    <div id="buyerFeedWrapper" class="buyer-feed-wrapper"></div>
   </div>
 
 </div><!-- /app -->
@@ -437,6 +586,16 @@
 </div>
 
 <script src="data/listings.js"></script>
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/supabase-client.js"></script>
+<!-- Layer 2 -->
+<script src="js/auth.js"></script>
+<script src="js/agent-properties.js"></script>
+<script src="js/agent-crm.js"></script>
+<script src="js/buyer-feed.js"></script>
+<!-- App -->
 <script src="js/app.js"></script>
 </body>
 </html>

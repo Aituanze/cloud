@@ -68,7 +68,13 @@ const App = {
   },
 
   switchTab(tab) {
-    const tabScreens = { map: 'screen-map', base: 'screen-base', profile: 'screen-profile' };
+    const tabScreens = {
+      map:        'screen-map',
+      base:       'screen-base',
+      profile:    'screen-profile',
+      properties: 'screen-properties',
+      crm:        'screen-crm',
+    };
     if (tab === this.state.currentTab) return;
 
     document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
@@ -81,8 +87,10 @@ const App = {
     if (prevEl) { prevEl.classList.remove('active'); prevEl.classList.add('slide-below'); }
     if (nextEl) { nextEl.classList.remove('slide-below','slide-above'); nextEl.classList.add('active'); }
 
-    if (tab === 'base')    this.renderBase();
-    if (tab === 'profile') this.renderProfile();
+    if (tab === 'base')       this.renderBase();
+    if (tab === 'profile')    this.renderProfile();
+    if (tab === 'properties') AgentProperties.show();
+    if (tab === 'crm')        AgentCrm.show();
 
     setTimeout(() => {
       document.querySelectorAll('.screen').forEach(s => {
@@ -802,4 +810,27 @@ function roomScene(scene) {
 }
 
 // ── BOOT ─────────────────────────────────
-document.addEventListener('DOMContentLoaded', () => App.init());
+document.addEventListener('DOMContentLoaded', async () => {
+  Auth.bind();
+
+  const session = await Sb.getSession();
+
+  if (!session) {
+    Auth.showAgentLogin();
+    return;
+  }
+
+  // Определяем роль
+  const agentProfile = await Sb.getProfile(session.user.id);
+
+  if (agentProfile) {
+    window._agentProfile = agentProfile;
+    App.init();
+    AgentProperties.init(agentProfile);
+    AgentCrm.init(agentProfile);
+  } else {
+    const buyerProfile = await Sb.getBuyerProfile(session.user.id);
+    window._buyerProfile = buyerProfile;
+    BuyerFeed.show();
+  }
+});

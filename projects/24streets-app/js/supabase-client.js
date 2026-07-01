@@ -1,0 +1,128 @@
+// Supabase client + helpers
+const { createClient } = supabase;
+const _db = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+const Sb = {
+  auth: _db.auth,
+  db:   _db,
+
+  async getSession() {
+    const { data: { session } } = await _db.auth.getSession();
+    return session;
+  },
+
+  async getProfile(uid) {
+    const { data } = await _db
+      .from('profiles')
+      .select('*, agencies(*)')
+      .eq('id', uid)
+      .single();
+    return data;
+  },
+
+  async getBuyerProfile(uid) {
+    const { data } = await _db
+      .from('buyer_profiles')
+      .select('*')
+      .eq('id', uid)
+      .single();
+    return data;
+  },
+
+  async getPublishedProperties(limit = 100) {
+    const { data } = await _db
+      .from('properties')
+      .select('id,type,district,address,price,price_label,area,rooms,floor,floors,building_type,photos,description,published_at,agent_id')
+      .eq('status', 'active')
+      .order('published_at', { ascending: false })
+      .limit(limit);
+    return data || [];
+  },
+
+  async getAgentProperties(agentId) {
+    const { data } = await _db
+      .from('properties')
+      .select('*')
+      .eq('agent_id', agentId)
+      .order('created_at', { ascending: false });
+    return data || [];
+  },
+
+  async upsertProperty(obj) {
+    const { data, error } = await _db
+      .from('properties')
+      .upsert(obj)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async uploadPhoto(file, propertyId) {
+    const ext  = file.name.split('.').pop().toLowerCase();
+    const path = `${propertyId}/${Date.now()}.${ext}`;
+
+    // Сжать через Canvas перед загрузкой
+    const compressed = await this._compressImage(file, 1200, 0.82);
+
+    const { error } = await _db.storage
+      .from('property-photos')
+      .upload(path, compressed, { upsert: true, contentType: 'image/jpeg' });
+    if (error) throw error;
+
+    const { data: { publicUrl } } = _db.storage
+      .from('property-photos')
+      .getPublicUrl(path);
+    return publicUrl;
+  },
+
+  _compressImage(file, maxDim, quality) {
+    return new Promise(resolve => {
+      const img = new Image();
+      const url = URL.createObjectURL(file);
+      img.onload = () => {
+        const scale = Math.min(1, maxDim / Math.max(img.width, img.height));
+        const w = Math.round(img.width  * scale);
+        const h = Math.round(img.height * scale);
+        const canvas = document.createElement('canvas');
+        canvas.width = w; canvas.height = h;
+        canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+        URL.revokeObjectURL(url);
+        canvas.toBlob(resolve, 'image/jpeg', quality);
+      };
+      img.src = url;
+    });
+  },
+
+  async createLead(propertyId, agentId, buyerId, buyerPhone) {
+    const { data, error } = await _db
+      .from('leads')
+      .insert({ property_id: propertyId, agent_id: agentId, buyer_id: buyerId || null, buyer_phone: buyerPhone, stage: 'new' })
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async getAgentLeads(agentId) {
+    const { data } = await _db
+      .from('leads')
+      .select('*, properties(address,price_label,photos), buyer_profiles(phone,name)')
+      .eq('agent_id', agentId)
+      .order('created_at', { ascending: false });
+    return data || [];
+  },
+
+  async updateLeadStage(leadId, stageTo, note) {
+    const { data: lead } = await _db.from('leads').select('stage').eq('id', leadId).single();
+    await _db.from('leads')
+      .update({ stage: stageTo, updated_at: new Date().toISOString() })
+      .eq('id', leadId);
+    await _db.from('lead_events').insert({
+      lead_id:    leadId,
+      stage_from: lead?.stage || null,
+      stage_to:   stageTo,
+      note:       note || null,
+    });
+  },
+};
