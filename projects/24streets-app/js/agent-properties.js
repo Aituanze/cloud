@@ -10,7 +10,7 @@ const AgentProperties = {
     document.getElementById('propAddBtn')
       .addEventListener('click', () => this.openEditor(null));
     document.getElementById('propEditorBack')
-      .addEventListener('click', () => slideBack('screen-prop-editor', 'screen-properties'));
+      .addEventListener('click', () => slideBack());
     document.getElementById('propSaveBtn')
       .addEventListener('click', () => this._save(false));
     document.getElementById('propPublishBtn')
@@ -24,39 +24,38 @@ const AgentProperties = {
       }));
   },
 
-  async show() {
+  // Вызывается из switchTab — только рендер, без навигации
+  async renderList() {
     this._props = await Sb.getAgentProperties(this._profile.id);
     const list = document.getElementById('propList');
 
     if (!this._props.length) {
       list.innerHTML = '<div class="prop-empty">Нет объектов.<br>Нажмите + Добавить</div>';
-    } else {
-      list.innerHTML = this._props.map(p => {
-        const thumb = p.photos?.[0]
-          ? `<img class="prop-card-thumb" src="${p.photos[0]}" alt="">`
-          : `<div class="prop-card-thumb prop-card-thumb-empty"></div>`;
-        const statusLabel = { draft: 'Черновик', active: 'Опубликован', archived: 'Архив' }[p.status] || p.status;
-        const price = p.price_label ? `${p.price_label} ₸` : '—';
-        return `<div class="prop-card" data-id="${p.id}">
-          ${thumb}
-          <div class="prop-card-body">
-            <div class="prop-card-price">${price}</div>
-            <div class="prop-card-addr">${p.address || '—'}</div>
-            <div class="prop-card-status ${p.status}">${statusLabel}</div>
-          </div>
-        </div>`;
-      }).join('');
-
-      list.querySelectorAll('.prop-card').forEach(card => {
-        card.addEventListener('click', () => {
-          const p = this._props.find(x => x.id === card.dataset.id);
-          if (p) this.openEditor(p);
-        });
-      });
+      return;
     }
 
-    slideForward('screen-map', 'screen-properties');
-    document.getElementById('tabBar').classList.add('hidden');
+    list.innerHTML = this._props.map(p => {
+      const thumb = p.photos?.[0]
+        ? `<img class="prop-card-thumb" src="${p.photos[0]}" alt="">`
+        : `<div class="prop-card-thumb prop-card-thumb-empty"></div>`;
+      const statusLabel = { draft: 'Черновик', active: 'Опубликован', archived: 'Архив' }[p.status] || p.status;
+      const price = p.price_label ? `${p.price_label} ₸` : '—';
+      return `<div class="prop-card" data-id="${p.id}">
+        ${thumb}
+        <div class="prop-card-body">
+          <div class="prop-card-price">${price}</div>
+          <div class="prop-card-addr">${p.address || '—'}</div>
+          <div class="prop-card-status ${p.status}">${statusLabel}</div>
+        </div>
+      </div>`;
+    }).join('');
+
+    list.querySelectorAll('.prop-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const p = this._props.find(x => x.id === card.dataset.id);
+        if (p) this.openEditor(p);
+      });
+    });
   },
 
   openEditor(prop) {
@@ -79,12 +78,8 @@ const AgentProperties = {
 
     this._renderPhotos();
 
-    if (prop) {
-      slideForward('screen-properties', 'screen-prop-editor');
-    } else {
-      slideForward('screen-map', 'screen-prop-editor');
-      document.getElementById('tabBar').classList.add('hidden');
-    }
+    document.getElementById('tabBar').classList.add('hidden');
+    slideForward('screen-properties', 'screen-prop-editor');
   },
 
   _renderPhotos() {
@@ -157,8 +152,8 @@ const AgentProperties = {
       };
 
       await Sb.upsertProperty(payload);
-      slideBack('screen-prop-editor', 'screen-properties');
-      await this.show();
+      slideBack();
+      await this.renderList();
     } finally {
       pubBtn.textContent = 'Опубликовать'; pubBtn.disabled = false;
       saveBtn.disabled = false;

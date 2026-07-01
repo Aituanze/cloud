@@ -89,8 +89,8 @@ const App = {
 
     if (tab === 'base')       this.renderBase();
     if (tab === 'profile')    this.renderProfile();
-    if (tab === 'properties') AgentProperties.show();
-    if (tab === 'crm')        AgentCrm.show();
+    if (tab === 'properties') AgentProperties.renderList();
+    if (tab === 'crm')        AgentCrm.renderBoard();
 
     setTimeout(() => {
       document.querySelectorAll('.screen').forEach(s => {
@@ -104,12 +104,24 @@ const App = {
   // ──────────────────────────────────────
   renderMap() {
     const svg = document.getElementById('mapSvg');
-    const isArch = this.state.mode === 'archive';
+    const mode   = this.state.mode;
+    const isArch = mode === 'archive';
+
+    // Считаем объекты по районам динамически из LISTINGS
+    const distCounts = {};
+    LISTINGS.forEach(l => {
+      const lIsArch = l.mode === 'archive';
+      if (isArch && !lIsArch) return;
+      if (!isArch && lIsArch) return;
+      if (mode === 'rent' && l.dealType !== 'rent') return;
+      if (mode === 'sale' && l.dealType === 'rent') return;
+      distCounts[l.district] = (distCounts[l.district] || 0) + 1;
+    });
 
     DISTRICTS.forEach(d => {
       const g = svg.querySelector(`[data-district="${d.id}"]`);
       if (!g) return;
-      const count = isArch ? d.arch : d.count;
+      const count = distCounts[d.id] || 0;
       const mainCircle = g.querySelector('.bubble-main');
       const countText  = g.querySelector('.bubble-count');
       const isSelected = this.state.district === d.id;
@@ -152,7 +164,7 @@ const App = {
 
     const counter = document.getElementById('liveCount');
     if (counter) {
-      const total = DISTRICTS.reduce((s,d) => s + (isArch ? d.arch : d.count), 0);
+      const total = Object.values(distCounts).reduce((s, v) => s + v, 0);
       counter.textContent = isArch ? `${total.toLocaleString('ru')} архив.` : `${total} сейчас`;
     }
 
@@ -271,10 +283,7 @@ const App = {
   // SCREEN 2 — DISTRICT DETAIL
   // ──────────────────────────────────────
   bindDistrictBack() {
-    document.getElementById('dsBack').addEventListener('click', () => {
-      slideBack('screen-district', 'screen-map');
-      document.getElementById('tabBar').classList.remove('hidden');
-    });
+    document.getElementById('dsBack').addEventListener('click', () => slideBack());
   },
 
   openDistrict(districtId) {
@@ -352,9 +361,7 @@ const App = {
   // SCREEN 2.5 — FILTERS
   // ──────────────────────────────────────
   bindFilterBack() {
-    document.getElementById('filtBack').addEventListener('click', () => {
-      slideBack('screen-filter', 'screen-district');
-    });
+    document.getElementById('filtBack').addEventListener('click', () => slideBack());
   },
 
   bindFilterApply() {
@@ -468,12 +475,7 @@ const App = {
   // SCREEN 3 — FEED
   // ──────────────────────────────────────
   bindFeedBack() {
-    document.getElementById('feedBack').addEventListener('click', () => {
-      slideBack('screen-feed', this.state.feedPrev);
-      if (this.state.feedPrev === 'screen-map') {
-        document.getElementById('tabBar').classList.remove('hidden');
-      }
-    });
+    document.getElementById('feedBack').addEventListener('click', () => slideBack());
   },
 
   openFeed(fromScreen) {
@@ -722,26 +724,43 @@ const App = {
 };
 
 // ── NAVIGATION HELPERS ──────────────────
+const _navStack = []; // { fromId, tabBarVisible }
+
+// Перехватываем кнопку "Назад" Android
+history.replaceState({ idx: 0 }, '');
+window.addEventListener('popstate', () => {
+  if (_navStack.length === 0) {
+    // Некуда идти — оставаться в приложении
+    history.pushState({ idx: 0 }, '');
+    return;
+  }
+  const { fromId, tabBarVisible } = _navStack.pop();
+  const active = document.querySelector('.screen.active');
+  if (active) { active.classList.remove('active'); active.classList.add('slide-below'); }
+  const prev = document.getElementById(fromId);
+  if (prev) { prev.classList.remove('slide-below', 'slide-above'); prev.classList.add('active'); }
+  const tb = document.getElementById('tabBar');
+  if (tabBarVisible) tb.classList.remove('hidden');
+  else tb.classList.add('hidden');
+});
+
 function slideForward(fromId, toId) {
   const from = document.getElementById(fromId);
   const to   = document.getElementById(toId);
   if (!from || !to) return;
+  const tb = document.getElementById('tabBar');
+  _navStack.push({ fromId, tabBarVisible: !tb.classList.contains('hidden') });
+  history.pushState({ idx: _navStack.length }, '');
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   from.classList.add('slide-above');
-  to.classList.remove('slide-below','slide-above');
+  to.classList.remove('slide-below', 'slide-above');
   to.classList.add('active');
   setTimeout(() => from.classList.remove('slide-above'), 420);
 }
 
-function slideBack(fromId, toId) {
-  const from = document.getElementById(fromId);
-  const to   = document.getElementById(toId);
-  if (!from || !to) return;
-  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-  from.classList.add('slide-below');
-  to.classList.remove('slide-below','slide-above');
-  to.classList.add('active');
-  setTimeout(() => from.classList.remove('slide-below'), 420);
+function slideBack() {
+  // Всегда через popstate — стек сам знает куда идти
+  history.back();
 }
 
 // ── HELPERS ──────────────────────────────

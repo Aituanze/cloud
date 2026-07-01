@@ -15,14 +15,13 @@ const AgentCrm = {
   init(profile) {
     this._profile = profile;
     document.getElementById('leadDetailBack')
-      .addEventListener('click', () => slideBack('screen-lead-detail', 'screen-crm'));
+      .addEventListener('click', () => slideBack());
   },
 
-  async show() {
+  // Вызывается из switchTab — только загрузка данных, без навигации
+  async renderBoard() {
     this._leads = await Sb.getAgentLeads(this._profile.id);
     this._renderBoard();
-    slideForward('screen-map', 'screen-crm');
-    document.getElementById('tabBar').classList.add('hidden');
   },
 
   _renderBoard() {
@@ -107,6 +106,7 @@ const AgentCrm = {
       });
     });
 
+    document.getElementById('tabBar').classList.add('hidden');
     slideForward('screen-crm', 'screen-lead-detail');
   },
 };
