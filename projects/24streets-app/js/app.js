@@ -734,7 +734,9 @@ const _navStack = []; // { fromId, tabBarVisible }
 let _suppressPop = false;
 
 // Android back button — никогда не выходить из приложения
+// Два entry в истории: replaceState + pushState — чтобы было куда вернуться
 history.replaceState({ idx: 0 }, '');
+history.pushState({ idx: 0 }, '');
 window.addEventListener('popstate', () => {
   if (_suppressPop) { _suppressPop = false; return; }
   history.pushState({ idx: _navStack.length }, ''); // не выходить

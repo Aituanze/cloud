@@ -40,6 +40,7 @@ html, body {
   transition: transform .38s cubic-bezier(.4,0,.2,1);
   background: var(--s2);
   will-change: transform;
+  transform: translateY(100%); /* скрыт по умолчанию */
 }
 .screen.slide-below  { transform: translateY(100%); }
 .screen.slide-above  { transform: translateY(-100%); }
