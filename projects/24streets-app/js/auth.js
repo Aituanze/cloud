@@ -94,25 +94,55 @@ const Auth = {
       const btn = document.getElementById('setupSubmit');
       btn.textContent = 'Создаём...'; btn.disabled = true;
 
-      const { data: signUpData, error: signUpError } = await Sb.auth.signUp({ email, password });
-      if (signUpError) {
-        this._showError('setupError', signUpError.message);
-        btn.textContent = 'Создать агентство'; btn.disabled = false;
+      // Попробуем войти — вдруг аккаунт уже есть
+      let uid;
+      const { data: tryLogin } = await Sb.auth.signInWithPassword({ email, password });
+      if (tryLogin?.user) {
+        uid = tryLogin.user.id;
+      } else {
+        const { data: signUpData, error: signUpError } = await Sb.auth.signUp({ email, password });
+        if (signUpError) {
+          this._showError('setupError', signUpError.message);
+          btn.textContent = 'Создать агентство'; btn.disabled = false;
+          return;
+        }
+        uid = signUpData.user?.id;
+        // Если сессии нет — email-подтверждение ещё не выключено, логинимся вручную
+        if (!signUpData.session) {
+          const { data: si, error: siErr } = await Sb.auth.signInWithPassword({ email, password });
+          if (siErr || !si?.user) {
+            this._showError('setupError', 'Включи «Confirm email» OFF в Supabase → Auth → Providers → Email');
+            btn.textContent = 'Создать агентство'; btn.disabled = false;
+            return;
+          }
+          uid = si.user.id;
+        }
+      }
+
+      // Проверим — нет ли уже профиля у этого пользователя
+      const existing = await Sb.getProfile(uid);
+      if (existing) {
+        // Уже есть профиль — просто входим
+        location.reload();
         return;
       }
 
-      const uid = signUpData.user.id;
       const { data: agency, error: agencyError } = await Sb.db
         .from('agencies').insert({ name: agencyName }).select().single();
       if (agencyError) {
-        this._showError('setupError', 'Ошибка создания агентства');
+        this._showError('setupError', 'Ошибка БД: ' + agencyError.message);
         btn.textContent = 'Создать агентство'; btn.disabled = false;
         return;
       }
 
-      await Sb.db.from('profiles').insert({
+      const { error: profErr } = await Sb.db.from('profiles').insert({
         id: uid, agency_id: agency.id, role: 'admin', name: adminName,
       });
+      if (profErr) {
+        this._showError('setupError', 'Ошибка профиля: ' + profErr.message);
+        btn.textContent = 'Создать агентство'; btn.disabled = false;
+        return;
+      }
 
       location.reload();
     });
