@@ -12,6 +12,17 @@ const AgentCrm = {
   _profile: null,
   _leads:   [],
 
+  // ── localStorage helpers ─────────────────
+  _getNotes(id)  {
+    try { return JSON.parse(localStorage.getItem(`24s_notes_${id}`) || '[]'); } catch { return []; }
+  },
+  _saveNotes(id, notes) { localStorage.setItem(`24s_notes_${id}`, JSON.stringify(notes)); },
+  _getFollowUp(id) { return localStorage.getItem(`24s_fu_${id}`); },
+  _saveFollowUp(id, days) {
+    const d = new Date(); d.setDate(d.getDate() + days);
+    localStorage.setItem(`24s_fu_${id}`, d.toISOString()); return d;
+  },
+
   init(profile) {
     this._profile = profile;
     document.getElementById('leadDetailBack')
@@ -22,6 +33,15 @@ const AgentCrm = {
   async renderBoard() {
     this._leads = await Sb.getAgentLeads(this._profile.id);
     this._renderBoard();
+    this._updateBadge();
+  },
+
+  _updateBadge() {
+    const newCount = this._leads.filter(l => l.stage === 'new').length;
+    const badge = document.getElementById('crmBadge');
+    if (!badge) return;
+    badge.textContent = newCount > 0 ? newCount : '';
+    badge.style.display = newCount > 0 ? 'flex' : 'none';
   },
 
   _renderBoard() {
@@ -73,6 +93,12 @@ const AgentCrm = {
       ? `<img src="${photo}" style="width:100%;height:140px;object-fit:cover;border-radius:14px;margin-bottom:16px">`
       : '';
 
+    const fuDate = this._getFollowUp(lead.id);
+    const fuLabel = fuDate ? (() => {
+      const diff = Math.ceil((new Date(fuDate) - Date.now()) / 86400000);
+      return diff <= 0 ? '⚠️ Просрочено' : `📅 ${new Date(fuDate).toLocaleDateString('ru', {day:'numeric',month:'short'})}`;
+    })() : '';
+
     document.getElementById('leadDetailContent').innerHTML = `
       ${photoHtml}
       <div style="font-size:26px;font-weight:700;color:var(--ink);letter-spacing:-0.5px;margin-bottom:2px">${price} <span style="font-size:16px;font-weight:600">₸</span></div>
@@ -82,9 +108,9 @@ const AgentCrm = {
       <div class="lead-stage-row">${stageButtons}</div>
 
       <div class="lead-section-label">Покупатель</div>
-      <div style="font-size:17px;font-weight:700;color:var(--ink);margin-bottom:16px">${phone}</div>
+      <div style="font-size:17px;font-weight:700;color:var(--ink);margin-bottom:12px">${phone}</div>
 
-      <div style="display:flex;gap:10px">
+      <div style="display:flex;gap:10px;margin-bottom:20px">
         <a href="tel:${phone.replace(/\D/g,'')}"
            style="flex:1;display:block;text-align:center;padding:14px;background:var(--ink);color:white;border-radius:14px;font-weight:700;text-decoration:none;font-size:14px">
           Позвонить
@@ -94,7 +120,24 @@ const AgentCrm = {
           WhatsApp
         </a>
       </div>
+
+      <div class="lead-section-label">Напомнить</div>
+      <div class="fu-row">
+        <button class="fu-btn" data-days="1">Завтра</button>
+        <button class="fu-btn" data-days="3">3 дня</button>
+        <button class="fu-btn" data-days="7">Неделю</button>
+      </div>
+      <div class="fu-status" id="fuStatus">${fuLabel}</div>
+
+      <div class="lead-section-label">Заметки</div>
+      <div class="lead-notes-list" id="notesList"></div>
+      <div class="lead-note-input-row">
+        <textarea id="noteInput" placeholder="Добавить заметку..." rows="2"></textarea>
+        <button class="note-save-btn" id="noteSaveBtn">Сохранить</button>
+      </div>
     `;
+
+    this._renderNotes(lead.id);
 
     document.querySelectorAll('.stage-btn').forEach(btn => {
       btn.addEventListener('click', async () => {
@@ -106,8 +149,46 @@ const AgentCrm = {
       });
     });
 
+    document.querySelectorAll('.fu-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const days = parseInt(btn.dataset.days);
+        const d = this._saveFollowUp(lead.id, days);
+        document.getElementById('fuStatus').textContent =
+          `📅 ${d.toLocaleDateString('ru', {day:'numeric',month:'short'})}`;
+        document.querySelectorAll('.fu-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        this._updateBadge();
+      });
+    });
+
+    document.getElementById('noteSaveBtn').addEventListener('click', () => {
+      const input = document.getElementById('noteInput');
+      const text = input.value.trim();
+      if (!text) return;
+      this._addNote(lead.id, text);
+      input.value = '';
+      this._renderNotes(lead.id);
+    });
+
     // slideForward записывает tabBarVisible ДО скрытия
     slideForward('screen-crm', 'screen-lead-detail');
     document.getElementById('tabBar').classList.add('hidden');
+  },
+
+  _addNote(id, text) {
+    const notes = this._getNotes(id);
+    notes.unshift({ text, ts: new Date().toISOString() });
+    this._saveNotes(id, notes);
+  },
+
+  _renderNotes(id) {
+    const notes = this._getNotes(id);
+    const el = document.getElementById('notesList');
+    if (!el) return;
+    if (!notes.length) { el.innerHTML = '<div class="note-empty">Нет заметок</div>'; return; }
+    el.innerHTML = notes.map(n => {
+      const d = new Date(n.ts).toLocaleDateString('ru', {day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+      return `<div class="note-item"><div class="note-text">${n.text}</div><div class="note-ts">${d}</div></div>`;
+    }).join('');
   },
 };

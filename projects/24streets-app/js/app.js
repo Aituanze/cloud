@@ -658,6 +658,12 @@ const App = {
           ${l.area  ? `<div class="fc-stat"><div class="fc-stat-num">${l.area}</div><div class="fc-stat-lbl">м²</div></div>` : ''}
           ${l.floor && l.floors ? `<div class="fc-stat"><div class="fc-stat-num">${l.floor}/${l.floors}</div><div class="fc-stat-lbl">этаж</div></div>` : ''}
         </div>
+        <div class="fc-share-row">
+          <a href="https://wa.me/?text=${encodeURIComponent(`${l.priceLabel} ₸${l.rooms != null ? ` · ${l.rooms || 'С'} комн.` : ''}${l.area ? ` · ${l.area} м²` : ''}\n${l.address}\nhttps://aituanze.github.io/cloud/`)}" target="_blank" class="fc-share-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.099.546 4.07 1.5 5.789L0 24l6.335-1.477A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.6a9.6 9.6 0 01-4.896-1.344l-.352-.21-3.624.845.895-3.52-.23-.367A9.6 9.6 0 012.4 12 9.6 9.6 0 0112 2.4 9.6 9.6 0 0121.6 12 9.6 9.6 0 0112 21.6z"/></svg>
+            Отправить клиенту
+          </a>
+        </div>
       </div>
       <div class="fc-swipe-hint">
         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
@@ -732,6 +738,15 @@ const App = {
     const cards = document.querySelectorAll('.stat-card');
     if (cards[0]) cards[0].onclick = () => { this.state.activeSeg = 'claimed'; this.switchTab('base'); };
     if (cards[1]) cards[1].onclick = () => { this.state.activeSeg = 'saved';   this.switchTab('base'); };
+
+    if (window._agentProfile) {
+      const p = window._agentProfile;
+      const initial = (p.name || 'А')[0].toUpperCase();
+      const avatarEl = document.querySelector('.profile-avatar');
+      const nameEl   = document.querySelector('.profile-name');
+      if (avatarEl) avatarEl.textContent = initial;
+      if (nameEl)   nameEl.textContent   = p.name || 'Агент';
+    }
   },
 };
 

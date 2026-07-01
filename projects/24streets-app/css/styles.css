@@ -696,7 +696,7 @@ html, body {
 .tab-item {
   flex: 1; display: flex; flex-direction: column;
   align-items: center; gap: 3px; cursor: pointer;
-  padding: 4px 0; user-select: none;
+  padding: 4px 0; user-select: none; position: relative;
 }
 .tab-ico {
   width: 28px; height: 28px; border-radius: 9px;
@@ -708,6 +708,49 @@ html, body {
 .tab-item svg { color: var(--ink3); transition: color .18s; }
 .tab-lbl { font-size: 9px; font-weight: 600; color: var(--ink3); transition: color .18s; }
 .tab-item.on .tab-lbl { color: var(--blue); }
+.tab-badge {
+  position: absolute; top: 2px; left: 50%; transform: translateX(4px);
+  min-width: 15px; height: 15px; background: #E8453C; color: white;
+  font-size: 9px; font-weight: 700; border-radius: 8px;
+  display: none; align-items: center; justify-content: center; padding: 0 4px;
+  border: 1.5px solid white;
+}
+
+/* ── Заметки и follow-up в CRM ─────────── */
+.lead-notes-list { margin-bottom: 8px; }
+.note-item { background: var(--bg); border-radius: 10px; padding: 10px 12px; margin-bottom: 6px; }
+.note-text { font-size: 14px; color: var(--ink); line-height: 1.4; margin-bottom: 4px; }
+.note-ts { font-size: 10px; color: var(--ink3); font-weight: 500; }
+.note-empty { font-size: 13px; color: var(--ink3); padding: 6px 0; }
+.lead-note-input-row { display: flex; gap: 8px; margin-top: 4px; margin-bottom: 20px; }
+.lead-note-input-row textarea {
+  flex: 1; padding: 10px 12px; border: 1.5px solid var(--border);
+  border-radius: 12px; font-size: 14px; font-family: inherit;
+  resize: none; outline: none; background: var(--bg); color: var(--ink);
+}
+.lead-note-input-row textarea:focus { border-color: var(--blue); }
+.note-save-btn {
+  padding: 0 14px; background: var(--ink); color: white;
+  border: none; border-radius: 12px; font-size: 13px; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+}
+.fu-row { display: flex; gap: 8px; margin-bottom: 6px; }
+.fu-btn {
+  flex: 1; padding: 9px 0; background: var(--bg); border: 1.5px solid var(--border);
+  border-radius: 10px; font-size: 12px; font-weight: 600; color: var(--ink2);
+  cursor: pointer; text-align: center;
+}
+.fu-btn.active { background: #edf3fc; border-color: var(--blue); color: var(--blue); }
+.fu-status { font-size: 12px; font-weight: 600; margin-bottom: 16px; min-height: 16px; }
+
+/* ── Share кнопка в фиде ─────────────── */
+.fc-share-row { margin-top: 10px; }
+.fc-share-btn {
+  display: flex; align-items: center; gap: 6px; justify-content: center;
+  width: 100%; padding: 11px;
+  background: #25D366; color: white; border-radius: 14px;
+  font-size: 13px; font-weight: 700; text-decoration: none;
+}
 
 /* Screens with tab bar need bottom padding */
 .screen.with-tabs { padding-bottom: calc(54px + var(--safe-bot)); }
