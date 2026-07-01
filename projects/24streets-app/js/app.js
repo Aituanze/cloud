@@ -647,6 +647,16 @@ const App = {
       ? `<div class="fc-badge arch-tag">Архив · снято ${l.removedDate}</div>`
       : `<div class="fc-badge owner-tag">Хозяин</div>`;
 
+    // editData: фото и описание от агента
+    const claimData = this.state.claimed[l.id];
+    const ed = (claimData && typeof claimData === 'object' && claimData.editData) ? claimData.editData : {};
+    const firstPhoto = ed.photos && ed.photos.length > 0 ? ed.photos[0] : null;
+    const desc = ed.desc || '';
+
+    const photoStyle = firstPhoto
+      ? `background: url('${firstPhoto}') center/cover no-repeat`
+      : `background:${l.photoBg}`;
+
     return `
     <div class="feed-card" data-listing="${l.id}" style="position:relative;">
       <!-- Price section -->
@@ -662,8 +672,8 @@ const App = {
         </div>
       </div>
       <!-- Photo -->
-      <div class="fc-photo" style="background:${l.photoBg}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
-        ${roomScene(l.scene)}
+      <div class="fc-photo" style="${photoStyle}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
+        ${firstPhoto ? '' : roomScene(l.scene)}
       </div>
       <!-- Content -->
       <div class="fc-content">
@@ -674,6 +684,7 @@ const App = {
         </div>
         <div class="fc-address">${l.address}</div>
         <div class="fc-meta">${metaText}</div>
+        ${desc ? `<div class="fc-desc">${desc.length > 110 ? desc.slice(0, 110) + '…' : desc}</div>` : ''}
         ${ownerBottom}
         <div class="fc-stats-row">
           ${l.rooms !== null && l.rooms !== undefined ? `<div class="fc-stat"><div class="fc-stat-num">${l.rooms || 'С'}</div><div class="fc-stat-lbl">${l.rooms === 0 ? 'студ.' : 'комн.'}</div></div>` : ''}
@@ -736,11 +747,17 @@ const App = {
       const claim = this.state.claimed[id];
       const serial    = (claim && typeof claim === 'object' && claim.serial) ? claim.serial : '—';
       const claimedAt = (claim && typeof claim === 'object' && claim.claimedAt) ? claim.claimedAt : '';
+      const ed = (claim && typeof claim === 'object' && claim.editData) ? claim.editData : {};
+      const firstPhoto = ed.photos && ed.photos.length > 0 ? ed.photos[0] : null;
+      const descSnip = ed.desc ? (ed.desc.length > 65 ? ed.desc.slice(0, 65) + '…' : ed.desc) : '';
       const isArch = l.mode === 'archive';
       const statusLabel = isArch ? 'Архивный' : 'Активный';
       const statusClass = isArch ? 'arch' : 'taken';
+      const photoStyle = firstPhoto
+        ? `background: url('${firstPhoto}') center/cover no-repeat`
+        : `background:${l.photoBg}`;
       return `<div class="base-card" data-listing="${l.id}">
-        <div class="base-card-photo" style="background:${l.photoBg};"></div>
+        <div class="base-card-photo" style="${photoStyle};"></div>
         <div class="base-card-body">
           <div class="bc-top">
             <span class="bc-serial">${serial}</span>
@@ -755,7 +772,9 @@ const App = {
             ${l.rooms !== null && l.rooms !== undefined ? `<span class="bc-chip">${l.rooms || 'С'} комн.</span>` : ''}
             ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
             ${l.buildingType ? `<span class="bc-chip">${l.buildingType}</span>` : ''}
+            ${firstPhoto ? `<span class="bc-chip bc-chip-photo">📷 ${(ed.photos||[]).length} фото</span>` : ''}
           </div>
+          ${descSnip ? `<div class="bc-desc">${descSnip}</div>` : ''}
           <button class="bc-edit-btn" data-listing="${l.id}">Редактировать →</button>
         </div>
       </div>`;
@@ -772,6 +791,7 @@ const App = {
   openEditListing(listingId) {
     const l = LISTINGS.find(x => x.id === listingId);
     if (!l) return;
+    this._editingId = listingId;
     const claim = this.state.claimed[listingId];
     const ed = (claim && typeof claim === 'object' && claim.editData) ? claim.editData : {};
     const serial = (claim && typeof claim === 'object') ? (claim.serial || l.id) : l.id;
@@ -792,6 +812,8 @@ const App = {
     this._setChip('edBuildType', ed.buildType || l.material || '');
     this._setChip('edCondition', ed.condition || '');
 
+    this._renderEditPhotos(ed.photos || [], listingId);
+
     const scr = document.getElementById('edScroll');
     if (scr) scr.scrollTop = 0;
 
@@ -809,6 +831,7 @@ const App = {
   saveEditListing(listingId) {
     const claim = this.state.claimed[listingId];
     if (!claim || typeof claim !== 'object') return;
+    const existingPhotos = (claim.editData && claim.editData.photos) ? claim.editData.photos : [];
     claim.editData = {
       type:       document.querySelector('#edCategory .ed-chip.on')?.dataset.val  || null,
       rooms:      document.querySelector('#edRooms .ed-chip.on')?.dataset.val     || null,
@@ -822,6 +845,7 @@ const App = {
       desc:       document.getElementById('edDesc').value.trim(),
       ownerName:  document.getElementById('edOwnerName').value.trim(),
       ownerPhone: document.getElementById('edOwnerPhone').value.trim(),
+      photos:     existingPhotos,
     };
     localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
     this._toast('Сохранено ✓');
@@ -863,6 +887,76 @@ const App = {
       });
     });
     document.getElementById('edBackBtn').addEventListener('click', () => slideBack());
+
+    document.getElementById('edFileInput').addEventListener('change', async e => {
+      const files = Array.from(e.target.files);
+      e.target.value = '';
+      if (!files.length || !this._editingId) return;
+      const claim = this.state.claimed[this._editingId];
+      if (!claim || typeof claim !== 'object') return;
+      if (!claim.editData) claim.editData = {};
+      if (!claim.editData.photos) claim.editData.photos = [];
+      for (const file of files) {
+        if (claim.editData.photos.length >= 5) break;
+        const compressed = await this.compressImage(file);
+        claim.editData.photos.push(compressed);
+      }
+      localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+      this._renderEditPhotos(claim.editData.photos, this._editingId);
+    });
+  },
+
+  compressImage(file) {
+    return new Promise(resolve => {
+      const reader = new FileReader();
+      reader.onload = e => {
+        const img = new Image();
+        img.onload = () => {
+          const MAX = 900;
+          const ratio = Math.min(MAX / img.width, MAX / img.height, 1);
+          const w = Math.round(img.width * ratio);
+          const h = Math.round(img.height * ratio);
+          const canvas = document.createElement('canvas');
+          canvas.width = w; canvas.height = h;
+          canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+          resolve(canvas.toDataURL('image/jpeg', 0.72));
+        };
+        img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  },
+
+  _renderEditPhotos(photos, listingId) {
+    const container = document.getElementById('edPhotos');
+    if (!container) return;
+    const addTile = photos.length < 5 ? `
+      <div class="ed-photo-add" id="edPhotoAdd">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9fa6b2" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        <span>Добавить фото</span>
+      </div>` : '';
+    container.innerHTML = photos.map((src, i) =>
+      `<div class="ed-thumb">
+        <img src="${src}" class="ed-thumb-img" loading="lazy">
+        <button class="ed-thumb-rm" data-idx="${i}">×</button>
+      </div>`
+    ).join('') + addTile;
+
+    container.querySelectorAll('.ed-thumb-rm').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const idx = parseInt(btn.dataset.idx);
+        const claim = this.state.claimed[listingId];
+        if (claim && claim.editData && claim.editData.photos) {
+          claim.editData.photos.splice(idx, 1);
+          localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+          this._renderEditPhotos(claim.editData.photos, listingId);
+        }
+      });
+    });
+
+    const addBtn = container.querySelector('#edPhotoAdd');
+    if (addBtn) addBtn.addEventListener('click', () => document.getElementById('edFileInput').click());
   },
 
   renderProfile() {
