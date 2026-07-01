@@ -67,9 +67,24 @@
       <svg id="mapSvg" viewBox="0 0 152 190" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif" preserveAspectRatio="xMidYMid meet">
         <defs>
           <linearGradient id="skyg" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#ddeaf5"/>
-            <stop offset="100%" stop-color="#eef5fa" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#c8dff0"/>
+            <stop offset="100%" stop-color="#e8f3f9" stop-opacity="0"/>
           </linearGradient>
+          <!-- 3D sphere highlight — shared, objectBoundingBox = works for all sizes -->
+          <radialGradient id="sphere-shine" cx="36%" cy="26%" r="64%" gradientUnits="objectBoundingBox">
+            <stop offset="0%"   stop-color="rgba(255,255,255,0.72)"/>
+            <stop offset="26%"  stop-color="rgba(255,255,255,0.14)"/>
+            <stop offset="100%" stop-color="rgba(0,0,0,0.30)"/>
+          </radialGradient>
+          <!-- Archive mode — muted -->
+          <radialGradient id="sphere-arch" cx="36%" cy="26%" r="64%" gradientUnits="objectBoundingBox">
+            <stop offset="0%"   stop-color="rgba(255,255,255,0.38)"/>
+            <stop offset="100%" stop-color="rgba(0,0,0,0.06)"/>
+          </radialGradient>
+          <!-- Drop shadow for active bubbles -->
+          <filter id="bub-shadow" x="-45%" y="-45%" width="190%" height="210%">
+            <feDropShadow dx="0" dy="3.5" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.22"/>
+          </filter>
         </defs>
 
         <!-- Background -->
@@ -110,78 +125,78 @@
         <path d="M8,58 Q38,55 76,57 Q115,55 142,63 Q150,82 148,115 Q150,145 144,165 Q128,185 76,186 Q28,185 10,165 Q4,142 5,112 Q4,80 8,58 Z"
           fill="none" stroke="rgba(175,168,155,0.16)" stroke-width="1.2" stroke-dasharray="5,7"/>
 
-        <!-- ── DISTRICT BUBBLES (south-up orientation) ── -->
+        <!-- ── DISTRICT BUBBLES — 3D SPHERES ── -->
 
-        <!-- НАУРЫЗБАЙСКИЙ (top-left, near mountains) -->
+        <!-- НАУРЫЗБАЙСКИЙ -->
         <g class="bubble-g" data-district="naur" cursor="pointer">
-          <circle cx="28" cy="75" r="19" fill="#dc4446" fill-opacity="0.08" class="sel-pulse"/>
-          <circle cx="28" cy="75" r="19" fill="#dc4446" class="bubble-main"/>
-          <circle cx="28" cy="75" r="19" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-          <text x="28" y="71" text-anchor="middle" font-size="12" font-weight="900" fill="white" class="bubble-count">41</text>
-          <text x="28" y="81" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.82)" font-weight="500" class="bubble-name">Наурызбайский</text>
+          <circle cx="28" cy="75" r="19" fill="#E8453C" fill-opacity="0.1" class="sel-pulse"/>
+          <circle cx="28" cy="75" r="19" fill="#E8453C" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="28" cy="75" r="19" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="28" y="71.5" text-anchor="middle" font-size="12" font-weight="900" fill="white" class="bubble-count">41</text>
+          <text x="28" y="81" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Наурызбайский</text>
         </g>
 
-        <!-- БОСТАНДЫКСКИЙ (top-center, near mountains) -->
+        <!-- БОСТАНДЫКСКИЙ -->
         <g class="bubble-g" data-district="bost" cursor="pointer">
-          <circle cx="74" cy="71" r="23" fill="#15966b" fill-opacity="0.08"/>
-          <circle cx="74" cy="71" r="23" fill="#15966b" class="bubble-main"/>
-          <circle cx="74" cy="71" r="23" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-          <text x="74" y="67" text-anchor="middle" font-size="15" font-weight="900" fill="white" class="bubble-count">59</text>
-          <text x="74" y="77" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.85)" font-weight="500" class="bubble-name">Бостандыкский</text>
+          <circle cx="74" cy="71" r="23" fill="#10B981" fill-opacity="0.1"/>
+          <circle cx="74" cy="71" r="23" fill="#10B981" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="74" cy="71" r="23" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="74" y="67.5" text-anchor="middle" font-size="15" font-weight="900" fill="white" class="bubble-count">59</text>
+          <text x="74" y="77" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Бостандыкский</text>
         </g>
 
-        <!-- МЕДЕУСКИЙ (top-right, near mountains) -->
+        <!-- МЕДЕУСКИЙ -->
         <g class="bubble-g" data-district="mede" cursor="pointer">
-          <circle cx="126" cy="73" r="18" fill="#2d6be4" fill-opacity="0.08"/>
-          <circle cx="126" cy="73" r="18" fill="#2d6be4" class="bubble-main"/>
-          <circle cx="126" cy="73" r="18" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-          <text x="126" y="69" text-anchor="middle" font-size="12" font-weight="900" fill="white" class="bubble-count">37</text>
-          <text x="126" y="79" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.82)" class="bubble-name">Медеуский</text>
+          <circle cx="126" cy="73" r="18" fill="#3B82F6" fill-opacity="0.1"/>
+          <circle cx="126" cy="73" r="18" fill="#3B82F6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="126" cy="73" r="18" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="126" y="69.5" text-anchor="middle" font-size="12" font-weight="900" fill="white" class="bubble-count">37</text>
+          <text x="126" y="79" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Медеуский</text>
         </g>
 
-        <!-- АЛМАЛИНСКИЙ (center, larger) -->
+        <!-- АЛМАЛИНСКИЙ -->
         <g class="bubble-g" data-district="alma" cursor="pointer">
-          <circle cx="57" cy="116" r="24" fill="#e07b2a" fill-opacity="0.08"/>
-          <circle cx="57" cy="116" r="24" fill="#e07b2a" class="bubble-main"/>
-          <circle cx="57" cy="116" r="24" fill="none" stroke="rgba(255,255,255,.28)" stroke-width="1"/>
-          <text x="57" y="111" text-anchor="middle" font-size="17" font-weight="900" fill="white" class="bubble-count">63</text>
-          <text x="57" y="123" text-anchor="middle" font-size="4.2" fill="rgba(255,255,255,.9)" font-weight="600" class="bubble-name">Алмалинский</text>
+          <circle cx="57" cy="116" r="24" fill="#F59E0B" fill-opacity="0.1"/>
+          <circle cx="57" cy="116" r="24" fill="#F59E0B" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="57" cy="116" r="24" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="57" y="112" text-anchor="middle" font-size="17" font-weight="900" fill="white" class="bubble-count">63</text>
+          <text x="57" y="123" text-anchor="middle" font-size="4.2" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алмалинский</text>
         </g>
 
-        <!-- ЖЕТЫСУСКИЙ (center-right) -->
+        <!-- ЖЕТЫСУСКИЙ -->
         <g class="bubble-g" data-district="zhet" cursor="pointer">
-          <circle cx="122" cy="113" r="21" fill="#7055c0" fill-opacity="0.08"/>
-          <circle cx="122" cy="113" r="21" fill="#7055c0" class="bubble-main"/>
-          <circle cx="122" cy="113" r="21" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="1"/>
-          <text x="122" y="109" text-anchor="middle" font-size="14" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="122" y="119" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.82)" class="bubble-name">Жетысуский</text>
+          <circle cx="122" cy="113" r="21" fill="#8B5CF6" fill-opacity="0.1"/>
+          <circle cx="122" cy="113" r="21" fill="#8B5CF6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="122" cy="113" r="21" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="122" y="109.5" text-anchor="middle" font-size="14" font-weight="900" fill="white" class="bubble-count">48</text>
+          <text x="122" y="119" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Жетысуский</text>
         </g>
 
-        <!-- АУЭЗОВСКИЙ (center-left, between naur and alat) -->
+        <!-- АУЭЗОВСКИЙ -->
         <g class="bubble-g" data-district="auez" cursor="pointer">
-          <circle cx="20" cy="126" r="14" fill="#c060a0" fill-opacity="0.08" class="sel-pulse"/>
-          <circle cx="20" cy="126" r="14" fill="#c060a0" class="bubble-main"/>
-          <circle cx="20" cy="126" r="14" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="1"/>
+          <circle cx="20" cy="126" r="14" fill="#EC4899" fill-opacity="0.1" class="sel-pulse"/>
+          <circle cx="20" cy="126" r="14" fill="#EC4899" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="20" cy="126" r="14" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
           <text x="20" y="123" text-anchor="middle" font-size="9" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="20" y="132" text-anchor="middle" font-size="3.6" fill="rgba(255,255,255,.82)" class="bubble-name">Ауэзовский</text>
+          <text x="20" y="131.5" text-anchor="middle" font-size="3.6" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Ауэзовский</text>
         </g>
 
-        <!-- АЛАТАУСКИЙ (bottom-left) -->
+        <!-- АЛАТАУСКИЙ -->
         <g class="bubble-g" data-district="alat" cursor="pointer">
-          <circle cx="28" cy="163" r="20" fill="#3b7dd8" fill-opacity="0.08"/>
-          <circle cx="28" cy="163" r="20" fill="#3b7dd8" class="bubble-main"/>
-          <circle cx="28" cy="163" r="20" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="1"/>
-          <text x="28" y="159" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">45</text>
-          <text x="28" y="169" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.82)" class="bubble-name">Алатауский</text>
+          <circle cx="28" cy="163" r="20" fill="#0EA5E9" fill-opacity="0.1"/>
+          <circle cx="28" cy="163" r="20" fill="#0EA5E9" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="28" cy="163" r="20" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="28" y="159.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">45</text>
+          <text x="28" y="169" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алатауский</text>
         </g>
 
-        <!-- ТУРКСИБСКИЙ (bottom-right) -->
+        <!-- ТУРКСИБСКИЙ -->
         <g class="bubble-g" data-district="turk" cursor="pointer">
-          <circle cx="127" cy="158" r="15" fill="#14b89c" fill-opacity="0.08"/>
-          <circle cx="127" cy="158" r="15" fill="#14b89c" class="bubble-main"/>
-          <circle cx="127" cy="158" r="15" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1"/>
-          <text x="127" y="154" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
-          <text x="127" y="162" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.78)" class="bubble-name">Турксибский</text>
+          <circle cx="127" cy="158" r="15" fill="#14B8A6" fill-opacity="0.1"/>
+          <circle cx="127" cy="158" r="15" fill="#14B8A6" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="127" cy="158" r="15" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="127" y="154.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
+          <text x="127" y="163" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Турксибский</text>
         </g>
 
         <!-- South compass (↑S = юг наверху) -->

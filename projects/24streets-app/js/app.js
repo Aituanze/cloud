@@ -132,20 +132,26 @@ const App = {
       const countText  = g.querySelector('.bubble-count');
       const isSelected = this.state.district === d.id;
 
+      const shineCircle = g.querySelector('.bubble-shine');
+
       if (isArch) {
-        mainCircle.setAttribute('fill', 'white');
+        mainCircle.setAttribute('fill', 'rgba(255,255,255,0.9)');
         mainCircle.setAttribute('stroke', d.color);
         mainCircle.setAttribute('stroke-width', '2.5');
         mainCircle.setAttribute('stroke-dasharray', '4,3');
+        mainCircle.removeAttribute('filter');
+        if (shineCircle) shineCircle.setAttribute('fill', 'url(#sphere-arch)');
         g.querySelector('.bubble-count').setAttribute('fill', d.color);
         g.querySelector('.bubble-name').setAttribute('fill', '#9fa6b2');
       } else {
         mainCircle.setAttribute('fill', d.color);
+        mainCircle.setAttribute('filter', isSelected ? 'none' : 'url(#bub-shadow)');
         mainCircle.setAttribute('stroke', isSelected ? 'white' : 'none');
-        mainCircle.setAttribute('stroke-width', isSelected ? '2.5' : '0');
+        mainCircle.setAttribute('stroke-width', isSelected ? '3' : '0');
         mainCircle.removeAttribute('stroke-dasharray');
+        if (shineCircle) shineCircle.setAttribute('fill', 'url(#sphere-shine)');
         g.querySelector('.bubble-count').setAttribute('fill', 'white');
-        g.querySelector('.bubble-name').setAttribute('fill', 'rgba(255,255,255,0.85)');
+        g.querySelector('.bubble-name').setAttribute('fill', 'rgba(255,255,255,0.92)');
       }
 
       if (countText) countText.textContent = count;
