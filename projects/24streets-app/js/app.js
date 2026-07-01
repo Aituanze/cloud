@@ -4,7 +4,7 @@
 
 const App = {
   state: {
-    mode:      'archive',
+    mode:      'sale',
     district:  null,
     type:      'apt',
     timeFilter: '24h',
@@ -180,7 +180,7 @@ const App = {
     const counter = document.getElementById('liveCount');
     if (counter) {
       const total = Object.values(distCounts).reduce((s, v) => s + v, 0);
-      counter.textContent = isArch ? `${total.toLocaleString('ru')} хозяев` : `${total} сейчас`;
+      counter.textContent = isArch ? `${total.toLocaleString('ru')} архив.` : `${total} сейчас`;
     }
 
     const strip = document.getElementById('archDateStrip');
