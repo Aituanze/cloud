@@ -106,12 +106,13 @@ def make_id(db_id):
 db = sqlite3.connect(DB_PATH)
 db.row_factory = sqlite3.Row
 cur = db.cursor()
-has_condition = 'condition' in [r[1] for r in db.execute("PRAGMA table_info(listings)")]
-cond_col = 'condition' if has_condition else "NULL as condition"
+cols_now = [r[1] for r in db.execute("PRAGMA table_info(listings)")]
+cond_col   = 'condition' if 'condition' in cols_now else "NULL as condition"
+photos_col = 'photos'    if 'photos'    in cols_now else "NULL as photos"
 cur.execute(f"""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
            district, building_type, price_text, price_value, address, url, first_seen,
-           {cond_col}
+           {cond_col}, {photos_col}
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
@@ -143,6 +144,10 @@ for i, row in enumerate(rows):
     district_counts[dist_id] = district_counts.get(dist_id, 0) + 1
 
     building = row['building_type'] or ''
+    try:
+        photos = json.loads(row['photos']) if row['photos'] else []
+    except (TypeError, ValueError):
+        photos = []
 
     entry = {
         'id':           make_id(row['id']),
@@ -156,6 +161,7 @@ for i, row in enumerate(rows):
         'area':         float(row['area']) if row['area'] else None,
         'material':     mat,
         'condition':    row['condition'] or None,
+        'photos':       photos,
         'floor':        row['floor'],
         'floors':       row['total_floors'],
         'buildingType': building,

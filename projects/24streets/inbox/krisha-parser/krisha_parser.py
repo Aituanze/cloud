@@ -20,6 +20,7 @@
 """
 
 import csv
+import json
 import logging
 import re
 import sqlite3
@@ -153,6 +154,8 @@ def init_db(db_path: str = DB_PATH) -> None:
         cols_now = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
         if "condition" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN condition TEXT")
+        if "photos" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN photos TEXT")
 
 
 def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
@@ -283,6 +286,33 @@ def parse_condition(html: str) -> Optional[str]:
     return None
 
 
+# --- Фото — только ссылки на CDN krisha, без скачивания и хранения у себя ---
+# krisha раздаёт фото объявлений через krisha-photos.kcdn.online в нескольких
+# готовых размерах (никакой защиты от хотлинка, cache-control: max-age=7 дней).
+# ВАЖНО: не все размеры есть у всех фото галереи — только у "главного" фото
+# генерируются все варианты (120x90…750x470). Остальные фото галереи имеют
+# только 120x90/200x150/280x175/750x470. Берём 280x175 — присутствует везде.
+PHOTO_SIZE = "280x175"
+PHOTO_RE_TEMPLATE = (
+    r"(https://krisha-photos\.kcdn\.online/webp/[0-9a-f]{2}/[0-9a-f-]{36}/(\d+)-%s\.jpg)"
+)
+
+
+def parse_photos(html: str, max_photos: int = 5, size: str = PHOTO_SIZE) -> list[str]:
+    """Собирает до max_photos ссылок на фото объявления (CDN krisha, фиксированный размер)."""
+    pattern = re.compile(PHOTO_RE_TEMPLATE % re.escape(size))
+    seen_idx = set()
+    found: list[tuple[int, str]] = []
+    for m in pattern.finditer(html):
+        url, idx = m.group(1), int(m.group(2))
+        if idx in seen_idx:
+            continue
+        seen_idx.add(idx)
+        found.append((idx, url))
+    found.sort(key=lambda x: x[0])
+    return [u for _, u in found[:max_photos]]
+
+
 def fetch_with_status(url: str) -> tuple[Optional[str], Optional[int]]:
     """Как fetch(), но также возвращает HTTP-статус, чтобы отличать
     404 (объявление снято — ожидаемо для старых записей) от реальной
@@ -299,25 +329,27 @@ def fetch_with_status(url: str) -> tuple[Optional[str], Optional[int]]:
         return None, status
 
 
-def enrich_conditions(db_path: str = DB_PATH, limit: Optional[int] = None,
-                       delay: float = REQUEST_DELAY_SEC) -> dict:
-    """Догружает поле condition, заходя на detail-страницы объявлений.
+def enrich_details(db_path: str = DB_PATH, limit: Optional[int] = None,
+                    delay: float = REQUEST_DELAY_SEC) -> dict:
+    """Догружает condition и photos с detail-страниц — один запрос на объявление
+    закрывает оба поля, т.к. оба берутся с одной и той же страницы.
 
     Отдельный шаг от run(): по запросу на каждое объявление, поэтому
     дороже и рискованнее по капче — запускать вручную, не в общем cron.
-    Уже проверенные объявления (condition IS NOT NULL, включая '') не
-    запрашиваются повторно. 404 (объявление снято) — это ожидаемо для
-    старых объявлений и не считается признаком блокировки.
+    Строки, где photos уже заполнены (включая '[]'), повторно не трогаем.
+    404 (объявление снято) — это ожидаемо для старых объявлений и не
+    считается признаком блокировки.
     """
     init_db(db_path)
     with sqlite3.connect(db_path) as conn:
-        q = "SELECT id, url FROM listings WHERE condition IS NULL AND url IS NOT NULL"
+        q = "SELECT id, url FROM listings WHERE photos IS NULL AND url IS NOT NULL"
         if limit:
             q += f" LIMIT {int(limit)}"
         rows = conn.execute(q).fetchall()
 
     processed = 0
-    updated = 0
+    updated_cond = 0
+    updated_photos = 0
     gone = 0
     blocks = 0
     for row_id, url in rows:
@@ -326,25 +358,33 @@ def enrich_conditions(db_path: str = DB_PATH, limit: Optional[int] = None,
             gone += 1
             processed += 1
             with sqlite3.connect(db_path) as conn:
-                conn.execute("UPDATE listings SET condition = ? WHERE id = ?", ("", row_id))
+                conn.execute("UPDATE listings SET condition = ?, photos = ? WHERE id = ?", ("", "[]", row_id))
             time.sleep(delay)
             continue
         if not html:
             blocks += 1
             if blocks >= 3:
-                logger.warning("Похоже на блокировку (не 404) — останавливаю enrich_conditions досрочно.")
+                logger.warning("Похоже на блокировку (не 404) — останавливаю enrich_details досрочно.")
                 break
             continue
         cond = parse_condition(html)
+        photos = parse_photos(html)
         with sqlite3.connect(db_path) as conn:
-            conn.execute("UPDATE listings SET condition = ? WHERE id = ?", (cond or "", row_id))
+            conn.execute(
+                "UPDATE listings SET condition = ?, photos = ? WHERE id = ?",
+                (cond or "", json.dumps(photos, ensure_ascii=False), row_id),
+            )
         processed += 1
         if cond:
-            updated += 1
+            updated_cond += 1
+        if photos:
+            updated_photos += 1
         time.sleep(delay)
 
-    logger.info("Состояние: найдено у %s из %s проверенных (%s снято с публикации).", updated, processed, gone)
-    return {"checked": processed, "updated": updated, "gone": gone}
+    logger.info("Детали: condition у %s, фото у %s из %s проверенных (%s снято с публикации).",
+                updated_cond, updated_photos, processed, gone)
+    return {"checked": processed, "updated_condition": updated_cond,
+            "updated_photos": updated_photos, "gone": gone}
 
 
 def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
@@ -463,13 +503,17 @@ def run() -> dict:
 if __name__ == "__main__":
     import sys
 
-    if "--enrich-condition" in sys.argv:
+    flag = "--enrich-details" if "--enrich-details" in sys.argv else (
+        "--enrich-condition" if "--enrich-condition" in sys.argv else None
+    )
+    if flag:
         limit = None
-        idx = sys.argv.index("--enrich-condition")
+        idx = sys.argv.index(flag)
         if idx + 1 < len(sys.argv) and sys.argv[idx + 1].isdigit():
             limit = int(sys.argv[idx + 1])
-        stats = enrich_conditions(limit=limit)
-        print(f"Состояние: найдено у {stats['updated']} из {stats['checked']} объявлений")
+        stats = enrich_details(limit=limit)
+        print(f"Детали: condition у {stats['updated_condition']}, "
+              f"фото у {stats['updated_photos']} из {stats['checked']} объявлений")
     else:
         stats = run()
         print(f"Итог: +{stats['total_new']} новых объявлений")

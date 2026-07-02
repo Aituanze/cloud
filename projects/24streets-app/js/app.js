@@ -599,10 +599,14 @@ const App = {
           const counter = parseInt(localStorage.getItem('24s_serial') || '0') + 1;
           localStorage.setItem('24s_serial', String(counter));
           const serial = `МО-${String(counter).padStart(4, '0')}`;
+          const l = LISTINGS.find(x => x.id === id);
+          // Стартуем с фото krisha (как у ilvo.pro — импорт по объекту, не по всему рынку).
+          // Агент может дозаменить/добавить свои — это просто стартовые данные.
+          const startPhotos = (l && l.photos && l.photos.length) ? l.photos.slice(0, 5) : [];
           this.state.claimed[id] = {
             serial,
             claimedAt: new Date().toLocaleDateString('ru'),
-            editData: {},
+            editData: { photos: startPhotos },
           };
           btn.className = 'fc-fix-btn mine';
           btn.textContent = '✓ Вы взяли в работу';
@@ -671,15 +675,14 @@ const App = {
       ? `<div class="fc-badge arch-tag">Архив · снято ${l.removedDate}</div>`
       : `<div class="fc-badge owner-tag">Хозяин</div>`;
 
-    // editData: фото и описание от агента
+    // editData: фото и описание от агента; если агент ещё не грузил своё —
+    // показываем фото с krisha (хотлинк на их CDN, у нас ничего не хранится)
     const claimData = this.state.claimed[l.id];
     const ed = (claimData && typeof claimData === 'object' && claimData.editData) ? claimData.editData : {};
-    const firstPhoto = ed.photos && ed.photos.length > 0 ? ed.photos[0] : null;
+    const firstPhoto = (ed.photos && ed.photos.length > 0) ? ed.photos[0]
+                      : (l.photos && l.photos.length > 0) ? l.photos[0]
+                      : null;
     const desc = ed.desc || '';
-
-    const photoStyle = firstPhoto
-      ? `background: url('${firstPhoto}') center/cover no-repeat`
-      : `background:${l.photoBg}`;
 
     return `
     <div class="feed-card" data-listing="${l.id}" style="position:relative;">
@@ -696,8 +699,8 @@ const App = {
         </div>
       </div>
       <!-- Photo -->
-      <div class="fc-photo" style="${photoStyle}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
-        ${firstPhoto ? '' : roomScene(l.scene)}
+      <div class="fc-photo" style="${firstPhoto ? '' : `background:${l.photoBg}`}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
+        ${firstPhoto ? `<img class="fc-photo-img" src="${firstPhoto}" loading="lazy" alt="">` : roomScene(l.scene)}
       </div>
       <!-- Content -->
       <div class="fc-content">
@@ -772,7 +775,9 @@ const App = {
       const serial    = (claim && typeof claim === 'object' && claim.serial) ? claim.serial : '—';
       const claimedAt = (claim && typeof claim === 'object' && claim.claimedAt) ? claim.claimedAt : '';
       const ed = (claim && typeof claim === 'object' && claim.editData) ? claim.editData : {};
-      const firstPhoto = ed.photos && ed.photos.length > 0 ? ed.photos[0] : null;
+      const firstPhoto = (ed.photos && ed.photos.length > 0) ? ed.photos[0]
+                        : (l.photos && l.photos.length > 0) ? l.photos[0]
+                        : null;
       const descSnip = ed.desc ? (ed.desc.length > 65 ? ed.desc.slice(0, 65) + '…' : ed.desc) : '';
       const isArch = l.mode === 'archive';
       const statusLabel = isArch ? 'Архивный' : 'Активный';
@@ -796,7 +801,7 @@ const App = {
             ${l.rooms !== null && l.rooms !== undefined ? `<span class="bc-chip">${l.rooms || 'С'} комн.</span>` : ''}
             ${l.area ? `<span class="bc-chip">${l.area} м²</span>` : ''}
             ${l.buildingType ? `<span class="bc-chip">${l.buildingType}</span>` : ''}
-            ${firstPhoto ? `<span class="bc-chip bc-chip-photo">📷 ${(ed.photos||[]).length} фото</span>` : ''}
+            ${firstPhoto ? `<span class="bc-chip bc-chip-photo">📷 ${((ed.photos && ed.photos.length) ? ed.photos : (l.photos || [])).length} фото</span>` : ''}
           </div>
           ${descSnip ? `<div class="bc-desc">${descSnip}</div>` : ''}
           <button class="bc-edit-btn" data-listing="${l.id}">Редактировать →</button>
