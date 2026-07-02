@@ -2,15 +2,9 @@
 
 ## IN PROGRESS
 
-- [ ] **Layer 2 — Имплементация** (план: `docs/superpowers/plans/2026-07-01-layer2-crm.md`)
-  - Task 1: Supabase проект + схема БД → выполни через Dashboard
-  - Tasks 2-9: интеграция клиента, auth, agent window, buyer window
+_(пусто)_
 
 ## TODO
-
-### Дизайн — Screen 2.5 «Фильтры»
-- [ ] Добавить секцию «Состояние» (чистовая/черновая/требует ремонта) — сначала нужно поле в парсере
-- [ ] Добавить поле `condition` в `krisha_parser` → `build_app_data.py` → `listings.js`
 
 ### Фаза 1 — Автопайплайн
 - [ ] Настроить автозапуск через cron или Task Scheduler: `python pipeline.py --cron`
@@ -42,6 +36,8 @@
 
 | Задача | Дата | Результат |
 |--------|------|-----------|
+| Screen 2.5 — фильтр «Состояние» | 2026-07-03 | `condition` из detail-страниц krisha (`flat.renovation`/`house.renewal`) → `enrich_conditions()` в парсере → `build_app_data.py` → фильтр-чипы в `app.js`. Обогащено 811/811 объявлений (76 с заполненным состоянием: 53 черновая, 23 ремонт). Проверено в браузере (Playwright): секция рендерится, клик по чипу сузил список 46→4, ошибок в консоли нет ✅ |
+| Фикс: `init_db()` больше не дропает `listings.db` при добавлении колонки | 2026-07-03 | Убрана деструктивная логика пересоздания таблицы при несовпадении схемы — миграции теперь только аддитивные (ALTER TABLE). Инцидент: старая логика случайно стёрла 829 объявлений, восстановлено из `listings.csv` ✅ |
 | Создать pipeline.py (мастер-скрипт) | 2026-06-28 | `inbox/pipeline.py` — цепочка парсер → build_data × 2 → Telegram |
 | Добавить APScheduler в krisha_parser | 2026-06-28 | `run()` возвращает stats dict, `pipeline.py --cron` запускает по расписанию |
 | Создать match_lead.py | 2026-06-28 | `realty-lead-bot/match_lead.py` — автоподбор объектов под текст лида |
@@ -63,3 +59,4 @@
 | Фикс кодировки build_app_data.py | 2026-07-01 | `sys.stdout.reconfigure(encoding='utf-8')` добавлен ✅ |
 | Layer 2 — дизайн-документ написан | 2026-07-01 | `docs/superpowers/specs/2026-07-01-layer2-crm-design.md` — одна база, два окна, Supabase, RLS, роли ✅ |
 | Layer 2 — план имплементации написан | 2026-07-01 | `docs/superpowers/plans/2026-07-01-layer2-crm.md` — 9 задач с полным кодом, без плейсхолдеров ✅ |
+| Layer 2 — имплементация завершена | 2026-07-02 | Auth + агентское окно + CRM Kanban + лента покупателя + Supabase ✅ |

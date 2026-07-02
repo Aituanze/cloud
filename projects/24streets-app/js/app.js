@@ -10,6 +10,7 @@ const App = {
     timeFilter: '24h',
     btFilter:  [],
     roomsFilter: [],
+    conditionFilter: [],
     priceFrom: 0,
     priceTo:   200000000,
     feedPrev:  'screen-map',
@@ -196,6 +197,7 @@ const App = {
         this.state.district = id;
         this.state.btFilter  = [];
         this.state.roomsFilter = [];
+        this.state.conditionFilter = [];
         this.renderMap();
         this.updateFindCount();
         setTimeout(() => this.openDistrict(id), 140);
@@ -252,6 +254,7 @@ const App = {
         const rKey = l.rooms >= 5 ? '5+' : r;
         if (!this.state.roomsFilter.includes(rKey) && !(l.rooms >= 5 && this.state.roomsFilter.includes('5+'))) return false;
       }
+      if (this.state.conditionFilter.length && !this.state.conditionFilter.includes(l.condition)) return false;
       return true;
     });
   },
@@ -383,6 +386,7 @@ const App = {
         this.state.type = card.dataset.type;
         this.state.btFilter = [];
         this.state.roomsFilter = [];
+        this.state.conditionFilter = [];
         this.openFilter();
       });
     });
@@ -394,6 +398,7 @@ const App = {
         this.state.type = btn.dataset.type;
         this.state.btFilter = [];
         this.state.roomsFilter = [];
+        this.state.conditionFilter = [];
         this.openFeed('screen-district');
       });
     });
@@ -456,6 +461,12 @@ const App = {
       });
     }
 
+    // Condition (состояние)
+    const condCounts = {};
+    base.forEach(l => {
+      if (l.condition) condCounts[l.condition] = (condCounts[l.condition] || 0) + 1;
+    });
+
     let html = '';
 
     if (Object.keys(btCounts).length) {
@@ -486,6 +497,21 @@ const App = {
       </div>`;
     }
 
+    if (Object.keys(condCounts).length) {
+      const condOrder = ['чистовая', 'черновая', 'ремонт'];
+      const condLabels = { 'чистовая': 'Чистовая', 'черновая': 'Черновая', 'ремонт': 'Требует ремонта' };
+      html += `<div class="filt-section">
+        <div class="filt-section-label">Состояние</div>
+        <div class="filt-chips" data-group="cond">
+          ${condOrder.filter(c => condCounts[c]).map(c =>
+            `<div class="filt-chip${this.state.conditionFilter.includes(c) ? ' on':''}" data-val="${c}">
+              ${condLabels[c]}<span class="fc-sub">${condCounts[c]}</span>
+            </div>`
+          ).join('')}
+        </div>
+      </div>`;
+    }
+
     document.getElementById('filtScroll').innerHTML = html;
     this.updateFilterCount();
 
@@ -494,13 +520,11 @@ const App = {
       chip.addEventListener('click', () => {
         const group = chip.closest('[data-group]').dataset.group;
         const val   = chip.dataset.val;
-        if (group === 'bt') {
-          const i = this.state.btFilter.indexOf(val);
-          if (i >= 0) this.state.btFilter.splice(i,1); else this.state.btFilter.push(val);
-        } else {
-          const i = this.state.roomsFilter.indexOf(val);
-          if (i >= 0) this.state.roomsFilter.splice(i,1); else this.state.roomsFilter.push(val);
-        }
+        const targetFilter = group === 'bt' ? this.state.btFilter
+                            : group === 'cond' ? this.state.conditionFilter
+                            : this.state.roomsFilter;
+        const i = targetFilter.indexOf(val);
+        if (i >= 0) targetFilter.splice(i,1); else targetFilter.push(val);
         chip.classList.toggle('on');
         this.updateFilterCount();
       });

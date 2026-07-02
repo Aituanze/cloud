@@ -122,17 +122,13 @@ class Listing:
 
 
 def init_db(db_path: str = DB_PATH) -> None:
-    expected = [
-        "id", "deal_type", "category", "rooms", "area", "floor", "total_floors",
-        "district", "building_type", "title", "price_text", "price_value",
-        "address", "url", "first_seen",
-    ]
+    """Создаёт таблицу listings, если её нет, и аддитивно доводит схему до актуальной.
+
+    ВАЖНО: никогда не удаляет и не пересоздаёт таблицу — там живые собранные
+    данные (не воспроизводятся бесплатно). Новые поля добавляются только
+    через ALTER TABLE ADD COLUMN.
+    """
     with sqlite3.connect(db_path) as conn:
-        cols = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
-        if cols and cols != expected:
-            # Старая схема — пересоздаём (данные парсинга воспроизводимы).
-            logger.info("Обнаружена старая схема таблицы — пересоздаю listings.")
-            conn.execute("DROP TABLE listings")
         conn.execute(
             """
             CREATE TABLE IF NOT EXISTS listings (
@@ -154,6 +150,9 @@ def init_db(db_path: str = DB_PATH) -> None:
             )
             """
         )
+        cols_now = [r[1] for r in conn.execute("PRAGMA table_info(listings)")]
+        if "condition" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN condition TEXT")
 
 
 def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
@@ -249,6 +248,103 @@ def parse_building_type(address: str, price_text: str) -> str:
     if "жк" in text or "от застройщик" in text or price_text.strip().startswith("от"):
         return "новостройка"
     return "вторичка"
+
+
+# --- Состояние (ремонт) — только с detail-страницы объявления ---
+# На карточках списка этого поля нет: krisha.kz показывает его в блоке
+# характеристик объявления как data-name="flat.renovation" (квартиры)
+# или data-name="house.renewal" (дома).
+COND_DATA_NAMES = ("flat.renovation", "house.renewal")
+
+
+def normalize_condition(raw: str) -> Optional[str]:
+    """Сводит текст krisha.kz к одной из 3 категорий фильтра."""
+    if not raw:
+        return None
+    t = raw.lower()
+    if "черновая" in t or "без отделки" in t:
+        return "черновая"
+    if "ремонт" in t and ("нужен" in t or "требуе" in t):
+        return "ремонт"
+    if "чистовая" in t or "хорош" in t or "евроремонт" in t or "отличн" in t or "сред" in t:
+        return "чистовая"
+    return None
+
+
+def parse_condition(html: str) -> Optional[str]:
+    """Извлекает состояние объекта со страницы объявления (не со страницы списка)."""
+    for name in COND_DATA_NAMES:
+        m = re.search(
+            r'data-name="%s"[\s\S]{0,300}?offer__advert-short-info">([^<]+)<' % re.escape(name),
+            html,
+        )
+        if m:
+            return normalize_condition(m.group(1).strip())
+    return None
+
+
+def fetch_with_status(url: str) -> tuple[Optional[str], Optional[int]]:
+    """Как fetch(), но также возвращает HTTP-статус, чтобы отличать
+    404 (объявление снято — ожидаемо для старых записей) от реальной
+    блокировки (403/429/сетевые обрывы)."""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        if resp.status_code == 404:
+            return None, 404
+        resp.raise_for_status()
+        return resp.text, resp.status_code
+    except requests.RequestException as exc:
+        logger.error("Ошибка запроса %s: %s", url, exc)
+        status = getattr(getattr(exc, "response", None), "status_code", None)
+        return None, status
+
+
+def enrich_conditions(db_path: str = DB_PATH, limit: Optional[int] = None,
+                       delay: float = REQUEST_DELAY_SEC) -> dict:
+    """Догружает поле condition, заходя на detail-страницы объявлений.
+
+    Отдельный шаг от run(): по запросу на каждое объявление, поэтому
+    дороже и рискованнее по капче — запускать вручную, не в общем cron.
+    Уже проверенные объявления (condition IS NOT NULL, включая '') не
+    запрашиваются повторно. 404 (объявление снято) — это ожидаемо для
+    старых объявлений и не считается признаком блокировки.
+    """
+    init_db(db_path)
+    with sqlite3.connect(db_path) as conn:
+        q = "SELECT id, url FROM listings WHERE condition IS NULL AND url IS NOT NULL"
+        if limit:
+            q += f" LIMIT {int(limit)}"
+        rows = conn.execute(q).fetchall()
+
+    processed = 0
+    updated = 0
+    gone = 0
+    blocks = 0
+    for row_id, url in rows:
+        html, status = fetch_with_status(url)
+        if status == 404:
+            gone += 1
+            processed += 1
+            with sqlite3.connect(db_path) as conn:
+                conn.execute("UPDATE listings SET condition = ? WHERE id = ?", ("", row_id))
+            time.sleep(delay)
+            continue
+        if not html:
+            blocks += 1
+            if blocks >= 3:
+                logger.warning("Похоже на блокировку (не 404) — останавливаю enrich_conditions досрочно.")
+                break
+            continue
+        cond = parse_condition(html)
+        with sqlite3.connect(db_path) as conn:
+            conn.execute("UPDATE listings SET condition = ? WHERE id = ?", (cond or "", row_id))
+        processed += 1
+        if cond:
+            updated += 1
+        time.sleep(delay)
+
+    logger.info("Состояние: найдено у %s из %s проверенных (%s снято с публикации).", updated, processed, gone)
+    return {"checked": processed, "updated": updated, "gone": gone}
 
 
 def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
@@ -365,5 +461,15 @@ def run() -> dict:
 
 
 if __name__ == "__main__":
-    stats = run()
-    print(f"Итог: +{stats['total_new']} новых объявлений")
+    import sys
+
+    if "--enrich-condition" in sys.argv:
+        limit = None
+        idx = sys.argv.index("--enrich-condition")
+        if idx + 1 < len(sys.argv) and sys.argv[idx + 1].isdigit():
+            limit = int(sys.argv[idx + 1])
+        stats = enrich_conditions(limit=limit)
+        print(f"Состояние: найдено у {stats['updated']} из {stats['checked']} объявлений")
+    else:
+        stats = run()
+        print(f"Итог: +{stats['total_new']} новых объявлений")

@@ -106,9 +106,12 @@ def make_id(db_id):
 db = sqlite3.connect(DB_PATH)
 db.row_factory = sqlite3.Row
 cur = db.cursor()
-cur.execute("""
+has_condition = 'condition' in [r[1] for r in db.execute("PRAGMA table_info(listings)")]
+cond_col = 'condition' if has_condition else "NULL as condition"
+cur.execute(f"""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
-           district, building_type, price_text, price_value, address, url, first_seen
+           district, building_type, price_text, price_value, address, url, first_seen,
+           {cond_col}
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
@@ -152,6 +155,7 @@ for i, row in enumerate(rows):
         'rooms':        row['rooms'],
         'area':         float(row['area']) if row['area'] else None,
         'material':     mat,
+        'condition':    row['condition'] or None,
         'floor':        row['floor'],
         'floors':       row['total_floors'],
         'buildingType': building,
