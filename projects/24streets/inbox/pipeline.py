@@ -35,6 +35,13 @@ SCRIPTS = [
     HERE.parent.parent / "24streets-app" / "data" / "build_app_data.py",
 ]
 
+REPO_ROOT = HERE.parent.parent.parent
+DATA_FILES = [
+    "projects/24streets/inbox/realty-catalog/data/listings.js",
+    "projects/24streets/inbox/realty-quick-match/data/listings.js",
+    "projects/24streets-app/data/listings.js",
+]
+
 
 def _send_telegram(text: str) -> None:
     if not TELEGRAM_TOKEN or not TELEGRAM_GROUP_ID:
@@ -70,6 +77,27 @@ def _run_script(script: Path) -> tuple[bool, str]:
     return True, last_line
 
 
+def _git_commit_push() -> tuple[bool, str]:
+    log.info("▶ git commit+push data/listings.js")
+    try:
+        subprocess.run(["git", "add", *DATA_FILES], cwd=REPO_ROOT, check=True, capture_output=True)
+        staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=REPO_ROOT)
+        if staged.returncode == 0:
+            log.info("✓ git: нет изменений в данных")
+            return True, "нет изменений"
+        subprocess.run(
+            ["git", "commit", "-m", "data: автообновление listings.js (pipeline)"],
+            cwd=REPO_ROOT, check=True, capture_output=True,
+        )
+        subprocess.run(["git", "push"], cwd=REPO_ROOT, check=True, capture_output=True)
+        log.info("✓ git: закоммичено и запушено")
+        return True, "закоммичено и запушено"
+    except subprocess.CalledProcessError as exc:
+        err = (exc.stderr or b"").decode("utf-8", errors="replace")[-300:]
+        log.error("✗ git commit+push: %s", err)
+        return False, err
+
+
 def run_pipeline() -> None:
     started = datetime.now().strftime("%Y-%m-%d %H:%M")
     log.info("=== Pipeline запущен %s ===", started)
@@ -78,6 +106,9 @@ def run_pipeline() -> None:
     for script in SCRIPTS:
         ok, last_line = _run_script(script)
         results.append((script.name, ok, last_line))
+
+    git_ok, git_msg = _git_commit_push()
+    results.append(("git commit+push", git_ok, git_msg))
 
     ok_count = sum(1 for _, ok, _ in results if ok)
     lines = [f"🏠 24streets pipeline — {started}", f"Скриптов выполнено: {ok_count}/{len(results)}", ""]

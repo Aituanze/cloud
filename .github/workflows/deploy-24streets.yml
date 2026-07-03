@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'projects/24streets-app/**'
+      - 'projects/24streets/inbox/realty-catalog/**'
+      - 'projects/24streets/inbox/realty-quick-match/**'
   workflow_dispatch:
 
 permissions:
@@ -28,10 +30,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload 24streets-app
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r projects/24streets-app/. _site/
+          mkdir -p _site/catalog
+          cp -r projects/24streets/inbox/realty-catalog/. _site/catalog/
+          mkdir -p _site/quick-match
+          cp -r projects/24streets/inbox/realty-quick-match/. _site/quick-match/
+
+      - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: projects/24streets-app
+          path: _site
 
       - name: Deploy
         id: deployment
