@@ -31,10 +31,9 @@ _(готово — см. DONE)_
 - [ ] Раз воркфлоу обкатан на krisha.kz — расширить на другие источники (olx.kz и т.п.)
 
 ### МОП: подтверждение переноса объектов (UI)
-- [ ] Экран у роли 'mop'/'admin' — список pending заявок (`Sb.getPendingTransfers()`)
-- [ ] Кнопки Подтвердить/Отклонить → `Sb.decideTransfer(id, true/false)`
-- [ ] У агента — кнопка "Передать коллеге" на объекте → `Sb.requestTransfer(...)`
-      (бэкенд/RLS уже готовы — `supabase/mop_transfers.sql`, не хватает только экрана)
+_(готово — см. DONE)_
+- [ ] Та же кнопка «Передать коллеге» в редакторе «Мои объекты» (agent-properties.js) —
+      пока есть только в редакторе «База» (screen-edit-listing)
 
 ### Возможности из исследования (2026-07-01)
 - [ ] **Нативные push-уведомления** — ilvo работает только в браузере, это незакрытая ниша
@@ -47,6 +46,7 @@ _(готово — см. DONE)_
 
 | Задача | Дата | Результат |
 |--------|------|-----------|
+| МОП: экран подтверждения переноса объекта | 2026-07-04 | Кнопка «Передать коллеге» в редакторе объекта («База») → список агентов агентства (`Sb.getAgencyAgents`) → заявка (`Sb.requestTransfer`). На Профиле у роли mop/admin — карточка «Заявки на перенос» со счётчиком → список с Подтвердить/Отклонить (`Sb.decideTransfer` → RPC `approve_transfer` из `mop_transfers.sql`, применённой в Supabase). Попутно нашёл и исправил баг предыдущего коммита ребрендинга: `git add -A` был ограничен путями и не подхватил удаление старых `projects/24streets*` — они задвоились в истории; удалены. Проверено: деплой success, `edTransferBtn`/`mopTransfersCard` есть в проде ✅ |
 | Ребрендинг 24streets → agnt.24 | 2026-07-04 | Название "24streets" оказалось занято другим продуктом на рынке. Переименовано everywhere: `projects/24streets`→`projects/agnt-24`, `projects/24streets-app`→`projects/agnt-24-app`, workflow `deploy-24streets.yml`→`deploy-agnt-24.yml` (+ пути внутри), все внутренние пути в `pipeline.py`/`build_app_data.py`, тайтлы/README/лого → `agnt.24`. Windows Task Scheduler: задача `24streetsPipeline`→`agnt24Pipeline` с обновлённым путём (иначе автозапуск 07:00 сломался бы). Попутно устранена бомба замедленного действия: осиротевший `.git` внутри `realty-lead-bot` (не был подключён как submodule) чуть не превратился в битую gitlink-ссылку при коммите — удалён локально, репозиторий на GitHub не затронут. Проверено: деплой прошёл автоматически по новым путям (success), все 3 URL живые, `<title>agnt.24</title>` ✅ |
 | Только хозяева в парсере + закрепление объектов за агентом/агентством + разрешение МОП на перенос | 2026-07-04 | `das[who]=1` во всех SEARCH_URLS парсера — агентские объявления больше не попадают в базу. Фикс критичного бага удаления фото без подтверждения (и в «Базе», и в «Мои объекты»). «В базу» теперь синхронизируется в Supabase `properties` (agency_id+agent_id) через `_syncClaimToSupabase` — раньше жило только в localStorage. Экран «Мои объекты» сгруппирован по району → категории. `supabase/mop_transfers.sql`: роль 'mop', `transfer_requests`, RPC `approve_transfer()`, закрыта дыра в RLS (агент раньше мог сам сменить `agent_id`). Требует ручного запуска в Supabase Dashboard + экрана UI (см. «МОП: подтверждение переноса» выше) ✅ |
 | Деплой realty-catalog и realty-quick-match на GitHub Pages + автопуш listings.js | 2026-07-04 | `deploy-agnt-24.yml` расширен: собирает `_site` из `agnt-24-app` (корень), `realty-catalog` (`/catalog`), `realty-quick-match` (`/quick-match`), триггер на изменения во всех трёх папках + `workflow_dispatch`. `pipeline.py` теперь коммитит и пушит обновлённые `listings.js` после каждого прогона (это и запускает деплой). Проверено: ручной запуск workflow — success, все 3 URL отдают 200 — https://aituanze.github.io/cloud/ , /catalog/ , /quick-match/ ✅ |
