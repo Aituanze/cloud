@@ -41,9 +41,9 @@ REALTORS = [
     {'name': 'Айгуль Т.', 'initial': 'А', 'color': '#14b89c', 'rating': 5.0, 'deals': 312},
 ]
 ARCHIVE_CLAIMED = [
-    {'name': 'Аружан К.', 'initial': 'А', 'color': '#e07b2a', 'date': '29 июня'},
-    {'name': 'Нурлан М.', 'initial': 'Н', 'color': '#2d6be4', 'date': '28 июня'},
-    {'name': 'Дина С.',   'initial': 'Д', 'color': '#15966b', 'date': '27 июня'},
+    {'name': 'Аружан К.', 'initial': 'А', 'color': '#e07b2a', 'date': '29 июня', 'rating': 4.9},
+    {'name': 'Нурлан М.', 'initial': 'Н', 'color': '#2d6be4', 'date': '28 июня', 'rating': 4.7},
+    {'name': 'Дина С.',   'initial': 'Д', 'color': '#15966b', 'date': '27 июня', 'rating': 4.8},
 ]
 
 ARCHIVE_PHONES = [

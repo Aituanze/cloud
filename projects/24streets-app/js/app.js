@@ -625,6 +625,7 @@ const App = {
         const isMine = !!this.state.claimed[id];
         if (isMine) {
           delete this.state.claimed[id];
+          AgentRating.recordAbandon();
           btn.className = 'fc-fix-btn free';
           btn.textContent = 'В базу';
         } else {
@@ -640,6 +641,7 @@ const App = {
             claimedAt: new Date().toISOString(),
             editData: { photos: startPhotos },
           };
+          AgentRating.recordClaim();
           btn.className = 'fc-fix-btn mine';
           btn.textContent = '✓ Вы взяли в работу';
         }
@@ -684,10 +686,11 @@ const App = {
     if (l.ownerPhone) {
       if (isArch && isTaken) {
         const c = l.claimedBy;
+        const ratingStr = c.rating ? ` <span class="fc-rl-rating">★ ${c.rating.toFixed(1)}</span>` : '';
         ownerBottom = `
           <div class="fc-realtor-row" style="background:#f7f5f1;padding:10px;border-radius:14px;border:1px solid #e8e5de;">
             <div class="fc-avatar" style="background:${c.color};width:30px;height:30px;font-size:11px">${c.initial}</div>
-            <div><div class="fc-rl-name" style="font-size:12px">Взяла ${c.date}</div><div class="fc-rl-sub">${c.name}</div></div>
+            <div><div class="fc-rl-name" style="font-size:12px">${c.name}${ratingStr}</div><div class="fc-rl-sub">Закреплено за риэлтором · ${c.date}</div></div>
           </div>
           <button class="fc-fix-btn taken" data-listing="${l.id}" disabled>В базу — занято коллегой</button>`;
       } else {
@@ -891,6 +894,7 @@ const App = {
     document.getElementById('edSaveBtn').onclick = () => this.saveEditListing(listingId);
     document.getElementById('edRemoveBtn').onclick = () => {
       delete this.state.claimed[listingId];
+      AgentRating.recordAbandon();
       localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
       slideBack();
       this.renderBase();
@@ -919,6 +923,10 @@ const App = {
       photos:     existingPhotos,
     };
     localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+    const ed = claim.editData;
+    if (ed.photos.length >= 3 && ed.desc && ed.desc.length > 20 && ed.price) {
+      AgentRating.recordCompletedListing(listingId);
+    }
     this._toast('Сохранено ✓');
   },
 
@@ -1045,6 +1053,41 @@ const App = {
       if (avatarEl) avatarEl.textContent = initial;
       if (nameEl)   nameEl.textContent   = p.name || 'Агент';
     }
+
+    this.renderRatingCard();
+  },
+
+  renderRatingCard() {
+    const r = AgentRating.compute();
+    document.getElementById('ratingValue').textContent = r.stars.toFixed(1);
+
+    const badge = document.getElementById('ratingTierBadge');
+    badge.textContent = r.tier.label;
+    badge.className = `rating-tier-badge tier-${r.tier.id}`;
+
+    document.getElementById('ratingSub').textContent =
+      `${r.dealsCount} ${pluralObj(r.dealsCount)} в работе · дисциплина ${r.discipline}%`;
+
+    const fill = document.getElementById('ratingProgressFill');
+    fill.style.width = `${Math.round(r.progress * 100)}%`;
+
+    const lbl = document.getElementById('ratingProgressLbl');
+    if (r.nextTier) {
+      const parts = [];
+      if (r.dealsToNext > 0)  parts.push(`${r.dealsToNext} ${pluralObj(r.dealsToNext)}`);
+      if (r.ratingToNext > 0) parts.push(`рейтинг +${r.ratingToNext.toFixed(1)}`);
+      lbl.textContent = parts.length
+        ? `До «${r.nextTier.label}»: ${parts.join(' · ')}`
+        : `Уровень «${r.nextTier.label}» открыт — обновится при следующей сделке`;
+    } else {
+      lbl.textContent = 'Максимальный уровень достигнут';
+    }
+
+    document.getElementById('ratingPerks').innerHTML = r.tier.perks.map(p => `
+      <div class="rating-perk">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+        ${p}
+      </div>`).join('');
   },
 };
 
