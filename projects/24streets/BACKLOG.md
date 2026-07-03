@@ -10,9 +10,7 @@ _(пусто)_
 _(готово — см. DONE)_
 
 ### Фаза 2 — Деплой каталогов
-- [ ] Создать GitHub Pages / Netlify для `realty-catalog/`
-- [ ] Создать GitHub Pages / Netlify для `realty-quick-match/`
-- [ ] Добавить GitHub Action для авто-пуша обновлённых `data/listings.js`
+_(готово — см. DONE)_
 
 ### Фаза 3 — CRM
 - [ ] Создать сервисный аккаунт Google Cloud → скачать `credentials.json`
@@ -36,6 +34,7 @@ _(готово — см. DONE)_
 
 | Задача | Дата | Результат |
 |--------|------|-----------|
+| Деплой realty-catalog и realty-quick-match на GitHub Pages + автопуш listings.js | 2026-07-04 | `deploy-24streets.yml` расширен: собирает `_site` из `24streets-app` (корень), `realty-catalog` (`/catalog`), `realty-quick-match` (`/quick-match`), триггер на изменения во всех трёх папках + `workflow_dispatch`. `pipeline.py` теперь коммитит и пушит обновлённые `listings.js` после каждого прогона (это и запускает деплой). Проверено: ручной запуск workflow — success, все 3 URL отдают 200 — https://aituanze.github.io/cloud/ , /catalog/ , /quick-match/ ✅ |
 | Автозапуск pipeline.py через Windows Task Scheduler ежедневно | 2026-07-03 | Задача `24streetsPipeline` в Task Scheduler, триггер daily 07:00 (Asia/Almaty, до начала рабочего дня в 8–9 утра), действие — `inbox/run_pipeline_daily.bat` (лог в `inbox/pipeline_log.txt`, гитигнорится). В `pipeline.py` добавлен 4-й шаг — `24streets-app/data/build_app_data.py` (раньше пайплайн обновлял только realty-catalog и realty-quick-match, НЕ 24streets-app!). `enrich_details()` (фото/состояние) сознательно не включён в cron — дорогой по капче, как и было закомментировано в самом парсере, запускать вручную. Проверено: 2 прогона (вручную + через сам Task Scheduler, `LastTaskResult=0`) — 811→1219→1243 объявления, firstSeen теперь реально разный (06-28 старые / 07-03 новые), т.е. тайм-фильтры 24ч/3д/неделя в приложении получат реальные данные с завтрашнего дня ✅ |
 | Фикс: тип объекта не влиял на пузыри карты | 2026-07-03 | `renderMap()` теперь фильтрует `distCounts` по `state.type` — клик по Дома/Участки/Коммерч./Дачи меняет числа в пузырях. Проверено Playwright: apt→house counts различаются ✅ |
 | Фикс: вкладки 3 дня/Неделя не меняли данные | 2026-07-03 | Общий `App.timeCutoffMs()`; «24 часа» = с 8:00 текущих/предыдущих суток (не скользящее окно). Экран района и фильтра теперь показывают реальное число «новых» за период при переключении вкладок ✅ |
