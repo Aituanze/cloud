@@ -1,4 +1,6 @@
 // Управление объектами агента
+const TYPE_LABELS = { apt: 'Квартира', house: 'Дом', land: 'Участок', commercial: 'Коммерч.', dacha: 'Дача' };
+
 const AgentProperties = {
   _profile: null,
   _props:   [],
@@ -7,6 +9,10 @@ const AgentProperties = {
 
   init(profile) {
     this._profile = profile;
+    const distSel = document.getElementById('peDistrict');
+    if (distSel && !distSel.options.length) {
+      distSel.innerHTML = DISTRICTS.map(d => `<option value="${d.id}">${d.name}</option>`).join('');
+    }
     document.getElementById('propAddBtn')
       .addEventListener('click', () => this.openEditor(null));
     document.getElementById('propEditorBack')
@@ -26,7 +32,8 @@ const AgentProperties = {
 
   // Вызывается из switchTab — только рендер, без навигации
   async renderList() {
-    this._props = await Sb.getAgentProperties(this._profile.id);
+    const all = await Sb.getAgentProperties(this._profile.id);
+    this._props = all.filter(p => p.status !== 'archived');
     const list = document.getElementById('propList');
 
     if (!this._props.length) {
@@ -34,21 +41,7 @@ const AgentProperties = {
       return;
     }
 
-    list.innerHTML = this._props.map(p => {
-      const thumb = p.photos?.[0]
-        ? `<img class="prop-card-thumb" src="${p.photos[0]}" alt="">`
-        : `<div class="prop-card-thumb prop-card-thumb-empty"></div>`;
-      const statusLabel = { draft: 'Черновик', active: 'Опубликован', archived: 'Архив' }[p.status] || p.status;
-      const price = p.price_label ? `${p.price_label} ₸` : '—';
-      return `<div class="prop-card" data-id="${p.id}">
-        ${thumb}
-        <div class="prop-card-body">
-          <div class="prop-card-price">${price}</div>
-          <div class="prop-card-addr">${p.address || '—'}</div>
-          <div class="prop-card-status ${p.status}">${statusLabel}</div>
-        </div>
-      </div>`;
-    }).join('');
+    list.innerHTML = this._groupedHtml(this._props);
 
     list.querySelectorAll('.prop-card').forEach(card => {
       card.addEventListener('click', () => {
@@ -58,12 +51,57 @@ const AgentProperties = {
     });
   },
 
+  _groupedHtml(props) {
+    const districtName = id => DISTRICTS.find(d => d.id === id)?.name || 'Без района';
+    const byDistrict = {};
+    props.forEach(p => {
+      const key = p.district || '__none';
+      (byDistrict[key] ||= []).push(p);
+    });
+
+    return Object.keys(byDistrict)
+      .sort((a, b) => districtName(a).localeCompare(districtName(b), 'ru'))
+      .map(distKey => {
+        const byType = {};
+        byDistrict[distKey].forEach(p => {
+          const t = p.type || 'apt';
+          (byType[t] ||= []).push(p);
+        });
+        const typeBlocks = Object.keys(byType).map(t => `
+          <div class="prop-type-label">${TYPE_LABELS[t] || t} · ${byType[t].length}</div>
+          ${byType[t].map(p => this._cardHtml(p)).join('')}
+        `).join('');
+        return `<div class="prop-district-group">
+          <div class="prop-district-label">${districtName(distKey)}</div>
+          ${typeBlocks}
+        </div>`;
+      }).join('');
+  },
+
+  _cardHtml(p) {
+    const thumb = p.photos?.[0]
+      ? `<img class="prop-card-thumb" src="${p.photos[0]}" alt="">`
+      : `<div class="prop-card-thumb prop-card-thumb-empty"></div>`;
+    const statusLabel = { draft: 'Черновик', active: 'Опубликован', archived: 'Архив' }[p.status] || p.status;
+    const price = p.price_label ? `${p.price_label} ₸` : '—';
+    return `<div class="prop-card" data-id="${p.id}">
+      ${thumb}
+      <div class="prop-card-body">
+        <div class="prop-card-price">${price}</div>
+        <div class="prop-card-addr">${p.address || '—'}</div>
+        <div class="prop-card-status ${p.status}">${statusLabel}</div>
+      </div>
+    </div>`;
+  },
+
   openEditor(prop) {
     this._editing = prop;
     this._photos  = (prop?.photos || []).map(url => ({ url }));
 
     document.getElementById('propEditorTitle').textContent = prop ? 'Редактировать' : 'Новый объект';
     document.getElementById('peAddress').value    = prop?.address || '';
+    const distSel = document.getElementById('peDistrict');
+    if (distSel) distSel.value = prop?.district || DISTRICTS[0]?.id || '';
     document.getElementById('pePrice').value      = prop?.price   || '';
     document.getElementById('peArea').value       = prop?.area    || '';
     document.getElementById('peRooms').value      = prop?.rooms ?? '';
@@ -86,15 +124,21 @@ const AgentProperties = {
   _renderPhotos() {
     const row    = document.getElementById('pePhotosRow');
     const addBtn = row.querySelector('.pe-photo-add');
-    row.querySelectorAll('.pe-photo-thumb').forEach(el => el.remove());
+    row.querySelectorAll('.pe-photo-tile').forEach(el => el.remove());
 
     this._photos.forEach((p, i) => {
-      const img = document.createElement('img');
-      img.className = 'pe-photo-thumb';
-      img.src = p.url;
-      img.title = 'Нажми чтобы удалить';
-      img.addEventListener('click', () => { this._photos.splice(i, 1); this._renderPhotos(); });
-      row.insertBefore(img, addBtn);
+      const tile = document.createElement('div');
+      tile.className = 'pe-photo-tile';
+      tile.innerHTML = `
+        <img class="pe-photo-thumb" src="${p.url}">
+        <button class="pe-photo-rm" type="button">×</button>`;
+      tile.querySelector('.pe-photo-rm').addEventListener('click', e => {
+        e.stopPropagation();
+        if (!confirm('Удалить это фото?')) return;
+        this._photos.splice(i, 1);
+        this._renderPhotos();
+      });
+      row.insertBefore(tile, addBtn);
     });
   },
 
@@ -136,6 +180,7 @@ const AgentProperties = {
         agency_id:   this._profile.agency_id,
         agent_id:    this._profile.id,
         type,
+        district:    document.getElementById('peDistrict')?.value || null,
         address:     document.getElementById('peAddress').value.trim(),
         price,
         price_label: priceLabel,

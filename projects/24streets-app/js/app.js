@@ -624,10 +624,14 @@ const App = {
         if (!id || btn.classList.contains('taken')) return;
         const isMine = !!this.state.claimed[id];
         if (isMine) {
+          const removed = this.state.claimed[id];
           delete this.state.claimed[id];
           AgentRating.recordAbandon();
           btn.className = 'fc-fix-btn free';
           btn.textContent = 'В базу';
+          if (removed?.supabaseId && window._agentProfile) {
+            Sb.upsertProperty({ id: removed.supabaseId, status: 'archived' }).catch(console.error);
+          }
         } else {
           const counter = parseInt(localStorage.getItem('24s_serial') || '0') + 1;
           localStorage.setItem('24s_serial', String(counter));
@@ -644,6 +648,7 @@ const App = {
           AgentRating.recordClaim();
           btn.className = 'fc-fix-btn mine';
           btn.textContent = '✓ Вы взяли в работу';
+          this._syncClaimToSupabase(id);
         }
         localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
       });
@@ -893,9 +898,14 @@ const App = {
 
     document.getElementById('edSaveBtn').onclick = () => this.saveEditListing(listingId);
     document.getElementById('edRemoveBtn').onclick = () => {
+      if (!confirm('Снять объект с работы?')) return;
+      const removed = this.state.claimed[listingId];
       delete this.state.claimed[listingId];
       AgentRating.recordAbandon();
       localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+      if (removed?.supabaseId && window._agentProfile) {
+        Sb.upsertProperty({ id: removed.supabaseId, status: 'archived' }).catch(console.error);
+      }
       slideBack();
       this.renderBase();
     };
@@ -927,7 +937,54 @@ const App = {
     if (ed.photos.length >= 3 && ed.desc && ed.desc.length > 20 && ed.price) {
       AgentRating.recordCompletedListing(listingId);
     }
+    this._syncClaimToSupabase(listingId);
     this._toast('Сохранено ✓');
+  },
+
+  // Отражает объект «В базе» в общей таблице Supabase properties, чтобы он
+  // был закреплён за агентом+агентством по-настоящему, а не только в
+  // localStorage телефона, и появлялся сгруппированным на экране «Мои объекты».
+  async _syncClaimToSupabase(listingId) {
+    if (!window._agentProfile) return; // не авторизован в Supabase — работаем локально
+    const claim = this.state.claimed[listingId];
+    const l = LISTINGS.find(x => x.id === listingId);
+    if (!claim || !l) return;
+    const ed = claim.editData || {};
+    // l.type использует коды парсера (apt/house/land/comm/dacha) — Supabase
+    // ждёт 'commercial' вместо 'comm' (см. supabase/mop_transfers.sql про dacha).
+    const TYPE_DB_MAP = { comm: 'commercial' };
+    const rawType = ed.type ?? l.type;
+    const payload = {
+      id:               claim.supabaseId || crypto.randomUUID(),
+      agency_id:        window._agentProfile.agency_id,
+      agent_id:         window._agentProfile.id,
+      source_krisha_id: l.id,
+      type:             TYPE_DB_MAP[rawType] || rawType,
+      district:         l.district,
+      address:          ed.address   || l.address,
+      price:            ed.price     ?? l.price,
+      price_label:      l.priceLabel || null,
+      area:             ed.area      ?? l.area,
+      rooms:            ed.rooms     ?? l.rooms,
+      floor:            ed.floor     ?? l.floor,
+      floors:           ed.floors    ?? l.floors,
+      building_type:    ed.buildType || l.buildingType,
+      description:      ed.desc      || null,
+      owner_name:       ed.ownerName || null,
+      owner_phone:      ed.ownerPhone || l.ownerPhone || null,
+      photos:           ed.photos && ed.photos.length ? ed.photos : l.photos || [],
+      status:           'draft',
+      updated_at:       new Date().toISOString(),
+    };
+    try {
+      const saved = await Sb.upsertProperty(payload);
+      if (saved?.id && !claim.supabaseId) {
+        claim.supabaseId = saved.id;
+        localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+      }
+    } catch (err) {
+      console.error('Sync claim → Supabase failed', err);
+    }
   },
 
   _setChip(groupId, val) {
@@ -1024,6 +1081,7 @@ const App = {
     container.querySelectorAll('.ed-thumb-rm').forEach(btn => {
       btn.addEventListener('click', e => {
         e.stopPropagation();
+        if (!confirm('Удалить это фото?')) return;
         const idx = parseInt(btn.dataset.idx);
         const claim = this.state.claimed[listingId];
         if (claim && claim.editData && claim.editData.photos) {

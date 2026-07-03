@@ -116,6 +116,30 @@ const Sb = {
     return data || [];
   },
 
+  async requestTransfer(propertyId, fromAgentId, toAgentId, note) {
+    const { data, error } = await _db
+      .from('transfer_requests')
+      .insert({ property_id: propertyId, from_agent_id: fromAgentId, to_agent_id: toAgentId, requested_by: fromAgentId, note: note || null })
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async getPendingTransfers() {
+    const { data } = await _db
+      .from('transfer_requests')
+      .select('*, properties(address, price_label), from:profiles!transfer_requests_from_agent_id_fkey(name), to:profiles!transfer_requests_to_agent_id_fkey(name)')
+      .eq('status', 'pending')
+      .order('created_at', { ascending: false });
+    return data || [];
+  },
+
+  async decideTransfer(requestId, approve) {
+    const { error } = await _db.rpc('approve_transfer', { request_id: requestId, approve });
+    if (error) throw error;
+  },
+
   async updateLeadStage(leadId, stageTo, note) {
     const { data: lead } = await _db.from('leads').select('stage').eq('id', leadId).single();
     await _db.from('leads')
