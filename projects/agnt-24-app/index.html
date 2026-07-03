@@ -676,6 +676,7 @@
         <div class="pe-chip" data-val="house">Дом</div>
         <div class="pe-chip" data-val="land">Участок</div>
         <div class="pe-chip" data-val="commercial">Коммерч.</div>
+        <div class="pe-chip" data-val="dacha">Дача</div>
       </div>
       <div class="pe-section-label">Район</div>
       <select id="peDistrict" class="pe-input"></select>
@@ -694,6 +695,7 @@
       <div class="pe-section-label" style="margin-top:16px">Собственник (только агент видит)</div>
       <input id="peOwnerName"  class="pe-input" placeholder="Имя собственника" type="text">
       <input id="peOwnerPhone" class="pe-input" placeholder="+7 777 000 00 00" type="tel">
+      <button id="peTransferBtn" class="ed-transfer-btn" style="display:none;margin-top:16px">Передать коллеге</button>
     </div>
   </div>
 
@@ -710,10 +712,13 @@
   </div>
 
   <!-- ══════ SCREEN: ЗАЯВКИ НА ПЕРЕНОС (МОП/админ) ══════ -->
-  <div id="screen-transfers" class="screen slide-below with-tabs">
+  <div id="screen-transfers" class="screen slide-below">
     <div class="ds-status-bar"></div>
     <div class="agent-screen-hdr">
-      <div class="agent-screen-title">Заявки на перенос</div>
+      <div id="transfersBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div class="agent-screen-title" style="margin-left:10px">Заявки на перенос</div>
     </div>
     <div id="transfersList" class="prop-list"></div>
   </div>

@@ -13,7 +13,14 @@ const TransferUI = {
       this.openPicker(claim.supabaseId, 'screen-edit-listing');
     });
 
+    document.getElementById('peTransferBtn')?.addEventListener('click', () => {
+      const prop = AgentProperties._editing;
+      if (!prop?.id) return; // на новом черновике кнопка скрыта, но подстрахуемся
+      this.openPicker(prop.id, 'screen-prop-editor');
+    });
+
     document.getElementById('transferPickerBack')?.addEventListener('click', () => slideBack());
+    document.getElementById('transfersBack')?.addEventListener('click', () => slideBack());
 
     document.getElementById('mopTransfersCard')?.addEventListener('click', () => {
       slideForward('screen-profile', 'screen-transfers');

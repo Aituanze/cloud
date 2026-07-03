@@ -114,6 +114,9 @@ const AgentProperties = {
     document.querySelectorAll('.pe-chip').forEach(c =>
       c.classList.toggle('on', c.dataset.val === currentType));
 
+    const transferBtn = document.getElementById('peTransferBtn');
+    if (transferBtn) transferBtn.style.display = prop ? '' : 'none';
+
     this._renderPhotos();
 
     // slideForward записывает tabBarVisible ДО скрытия — чтобы при возврате tab bar появился
