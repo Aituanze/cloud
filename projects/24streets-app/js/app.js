@@ -61,6 +61,23 @@ const App = {
   },
 
   // ──────────────────────────────────────
+  // TIME FILTER — 24ч / 3 дня / Неделя
+  // ──────────────────────────────────────
+  // "24 часа" = рабочие сутки риэлтора: с 8:00 текущего (или предыдущего) дня,
+  // а не скользящее окно "последние 24 часа" — ночью новых объектов почти нет.
+  timeCutoffMs(filter) {
+    if (filter === '24h') {
+      const now = new Date();
+      const today8 = new Date(now);
+      today8.setHours(8, 0, 0, 0);
+      const anchor = now >= today8 ? today8 : new Date(today8.getTime() - 86400000);
+      return anchor.getTime();
+    }
+    const hoursMap = { '3d': 72, 'week': 168 };
+    return Date.now() - (hoursMap[filter] || 24) * 3600000;
+  },
+
+  // ──────────────────────────────────────
   // TAB BAR
   // ──────────────────────────────────────
   bindTabBar() {
@@ -77,7 +94,6 @@ const App = {
       properties: 'screen-properties',
       crm:        'screen-crm',
     };
-    if (tab === this.state.currentTab) return;
 
     // Защита: агентские вкладки требуют авторизации
     if ((tab === 'properties' || tab === 'crm') && !window._agentProfile) {
@@ -85,15 +101,23 @@ const App = {
       return;
     }
 
-    document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
-    const prev = tabScreens[this.state.currentTab];
+    // Таб-бар виден на всех экранах, поэтому переход может случиться из вложенного
+    // экрана (район/фильтр/лента), а не только с "текущей" вкладки — скрываем ВСЕ
+    // экраны кроме целевого, а не только тот, что записан как currentTab.
     const next = tabScreens[tab];
-    this.state.currentTab = tab;
-
-    const prevEl = document.getElementById(prev);
     const nextEl = document.getElementById(next);
-    if (prevEl) { prevEl.classList.remove('active'); prevEl.classList.add('slide-below'); }
-    if (nextEl) { nextEl.classList.remove('slide-below','slide-above'); nextEl.classList.add('active'); }
+    const alreadyThere = tab === this.state.currentTab && nextEl && nextEl.classList.contains('active');
+
+    document.querySelectorAll('.tab-item').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
+    this.state.currentTab = tab;
+    _navStack.length = 0; // явный переход по табам сбрасывает стек вложенной навигации
+
+    if (!alreadyThere) {
+      document.querySelectorAll('.screen').forEach(s => {
+        if (s !== nextEl) { s.classList.remove('active'); s.classList.add('slide-below'); }
+      });
+      if (nextEl) { nextEl.classList.remove('slide-below','slide-above'); nextEl.classList.add('active'); }
+    }
 
     if (tab === 'base')       this.renderBase();
     if (tab === 'profile')    this.renderProfile();
@@ -123,6 +147,7 @@ const App = {
       if (!isArch && lIsArch) return;
       if (mode === 'rent' && l.dealType !== 'rent') return;
       if (mode === 'sale' && l.dealType === 'rent') return;
+      if (l.type !== this.state.type) return;
       distCounts[l.district] = (distCounts[l.district] || 0) + 1;
     });
 
@@ -211,6 +236,7 @@ const App = {
         document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('on'));
         chip.classList.add('on');
         this.state.type = chip.dataset.type;
+        this.renderMap();
         this.updateFindCount();
       });
     });
@@ -313,7 +339,6 @@ const App = {
     document.getElementById('dsName').textContent = d.name;
     this.renderDistrictGrid();
     slideForward('screen-map', 'screen-district');
-    document.getElementById('tabBar').classList.add('hidden');
 
     // time tabs
     document.querySelectorAll('#districtTimeTabs .ttab').forEach(t => {
@@ -329,8 +354,7 @@ const App = {
   renderDistrictGrid() {
     const grid = document.getElementById('typeGrid');
     const d = DISTRICTS.find(x => x.id === this.state.district);
-    const hoursMap = { '24h': 24, '3d': 72, 'week': 168 };
-    const cutoffMs = Date.now() - hoursMap[this.state.timeFilter] * 3600000;
+    const cutoffMs = this.timeCutoffMs(this.state.timeFilter);
     const mode = this.state.mode;
 
     const isOwner = mode === 'archive';
@@ -359,7 +383,7 @@ const App = {
     grid.innerHTML = TYPES.map(t => {
       const cnt = counts[t.id] || 0;
       if (!cnt) return '';
-      const hasNew = (newCounts[t.id] || 0) > 0;
+      const newCnt = newCounts[t.id] || 0;
       let lampHtml = '';
       if (isOwner) {
         const claimed = claimedCounts[t.id] || 0;
@@ -371,7 +395,7 @@ const App = {
       }
       return `
       <div class="type-card" data-type="${t.id}">
-        ${hasNew ? `<div class="tc-new">Новые</div>` : ''}
+        ${newCnt > 0 ? `<div class="tc-new">+${newCnt} нов.</div>` : ''}
         <div class="tc-icon">${typeIcon(t.id)}</div>
         <div>
           <div class="tc-count">${cnt}</div>
@@ -445,6 +469,10 @@ const App = {
       if (!isArch && l.mode === 'archive') return false;
       return true;
     });
+
+    // Новых за выбранный период (24ч с 8 утра / 3 дня / неделя)
+    const cutoffMs = this.timeCutoffMs(this.state.timeFilter);
+    this._filterNewCount = base.filter(l => l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs).length;
 
     // Building types
     const btCounts = {};
@@ -534,7 +562,11 @@ const App = {
   updateFilterCount() {
     const n = this.getFilteredListings().length;
     document.getElementById('filtCount').textContent = `${n} ${pluralObj(n)}`;
-    document.getElementById('filtSub').textContent = `${n} ${pluralObj(n)}`;
+    const newCnt = this._filterNewCount || 0;
+    const timeLabel = { '24h': 'сегодня', '3d': 'за 3 дня', 'week': 'за неделю' }[this.state.timeFilter];
+    document.getElementById('filtSub').textContent = newCnt > 0
+      ? `${n} ${pluralObj(n)} · ${newCnt} новых ${timeLabel}`
+      : `${n} ${pluralObj(n)}`;
   },
 
   // ──────────────────────────────────────

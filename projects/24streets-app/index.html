@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="css/styles.css">
 <script>
 (function(){
-  var TAB_H = 64;   // tab bar
+  var TAB_H = 64;   // tab bar (виден на всех экранах)
   var FEED_HDR = 52; // feed header
   function setH(){
     var h = window.innerHeight;
     var s = document.documentElement.style;
     s.setProperty('--app-h', h + 'px');
-    s.setProperty('--card-h', (h - TAB_H) + 'px');        // map/base screens
-    s.setProperty('--feed-card-h', (h - FEED_HDR) + 'px'); // feed cards (no tab bar)
+    s.setProperty('--card-h', (h - TAB_H) + 'px');            // map/base screens
+    s.setProperty('--feed-card-h', (h - FEED_HDR - TAB_H) + 'px'); // feed cards (над таб-баром)
   }
   setH();
   window.addEventListener('resize', setH);
@@ -261,7 +261,7 @@
   </div>
 
   <!-- ══════════════ SCREEN 2: DISTRICT DETAIL ══════════════ -->
-  <div id="screen-district" class="screen slide-below dark-screen">
+  <div id="screen-district" class="screen slide-below dark-screen with-tabs">
     <div class="ds-status-bar">
       <span class="time" style="color:rgba(255,255,255,.8)">9:41</span>
     </div>
@@ -283,7 +283,7 @@
   </div>
 
   <!-- ══════════════ SCREEN 2.5: FILTERS ══════════════ -->
-  <div id="screen-filter" class="screen slide-below dark-screen">
+  <div id="screen-filter" class="screen slide-below dark-screen with-tabs">
     <div class="ds-status-bar">
       <span class="time" style="color:rgba(255,255,255,.8)">9:41</span>
     </div>
@@ -311,7 +311,7 @@
   </div>
 
   <!-- ══════════════ SCREEN 3: FEED ══════════════ -->
-  <div id="screen-feed" class="screen slide-below">
+  <div id="screen-feed" class="screen slide-below with-tabs">
     <div class="feed-hdr" id="feedHdr">
       <div class="fh-back" id="feedBack">
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
