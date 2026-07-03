@@ -1113,6 +1113,7 @@ const App = {
     }
 
     this.renderRatingCard();
+    TransferUI.refreshMopCard();
   },
 
   renderRatingCard() {
@@ -1333,6 +1334,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     window._agentProfile = agentProfile;
     AgentProperties.init(agentProfile);
     AgentCrm.init(agentProfile);
+    TransferUI.init();
   } else {
     const buyerProfile = await Sb.getBuyerProfile(session.user.id);
     window._buyerProfile = buyerProfile;

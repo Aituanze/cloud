@@ -376,6 +376,14 @@
         </div>
       </div>
 
+      <div class="mop-transfers-card" id="mopTransfersCard" style="display:none">
+        <div>
+          <div class="mtc-title">Заявки на перенос</div>
+          <div class="mtc-count" id="mopTransfersCount">0 ожидают</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+
       <div class="rating-card" id="ratingCard">
         <div class="rating-top">
           <div class="rating-stars-row">
@@ -532,12 +540,13 @@
       <!-- ЗАМЕТКА МОП -->
       <div class="ed-mop-note">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2d6be4" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-        Объект закреплён за вами в рамках агентства. Для передачи другому риэлтору обратитесь к МОП.
+        Объект закреплён за вами в рамках агентства. Передача другому риэлтору требует подтверждения МОП.
       </div>
 
       <!-- КНОПКИ -->
       <div class="ed-actions">
         <button class="ed-save-btn" id="edSaveBtn">Сохранить изменения</button>
+        <button class="ed-transfer-btn" id="edTransferBtn">Передать коллеге</button>
         <button class="ed-remove-btn" id="edRemoveBtn">Снять с работы</button>
       </div>
 
@@ -688,6 +697,27 @@
     </div>
   </div>
 
+  <!-- ══════ SCREEN: ВЫБОР КОЛЛЕГИ (передача объекта) ══════ -->
+  <div id="screen-transfer-picker" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="transferPickerBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div class="agent-screen-title" style="margin-left:10px">Передать коллеге</div>
+    </div>
+    <div id="transferPickerList" class="prop-list"></div>
+  </div>
+
+  <!-- ══════ SCREEN: ЗАЯВКИ НА ПЕРЕНОС (МОП/админ) ══════ -->
+  <div id="screen-transfers" class="screen slide-below with-tabs">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div class="agent-screen-title">Заявки на перенос</div>
+    </div>
+    <div id="transfersList" class="prop-list"></div>
+  </div>
+
   <!-- ══════ SCREEN CRM (агент) ══════ -->
   <div id="screen-crm" class="screen slide-below with-tabs">
     <div class="ds-status-bar"></div>
@@ -747,6 +777,7 @@
 <script src="js/agent-properties.js"></script>
 <script src="js/agent-crm.js"></script>
 <script src="js/agent-rating.js"></script>
+<script src="js/transfer-ui.js"></script>
 <script src="js/buyer-feed.js"></script>
 <!-- App -->
 <script src="js/app.js"></script>

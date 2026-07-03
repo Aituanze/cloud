@@ -116,6 +116,15 @@ const Sb = {
     return data || [];
   },
 
+  async getAgencyAgents(agencyId, excludeId) {
+    const { data } = await _db
+      .from('profiles')
+      .select('id, name, role')
+      .eq('agency_id', agencyId)
+      .neq('id', excludeId);
+    return data || [];
+  },
+
   async requestTransfer(propertyId, fromAgentId, toAgentId, note) {
     const { data, error } = await _db
       .from('transfer_requests')

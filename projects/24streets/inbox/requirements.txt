@@ -1,4 +1,0 @@
-# Зависимости для pipeline.py и reporter.py
-apscheduler==3.10.4
-requests==2.32.3
-python-dotenv==1.0.1

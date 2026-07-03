@@ -1366,3 +1366,43 @@ html, body {
   font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent;
 }
 .ed-remove-btn:active { background: rgba(220,68,70,.14); }
+.ed-transfer-btn {
+  width: 100%; padding: 14px; border-radius: 14px;
+  border: 1.5px solid var(--border); background: white;
+  color: var(--ink2); font-size: 14px; font-weight: 600; cursor: pointer;
+  font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent;
+}
+.ed-transfer-btn:active { background: var(--s2); }
+
+/* МОП: заявки на перенос + выбор коллеги */
+.mop-transfers-card {
+  display: flex; align-items: center; justify-content: space-between;
+  background: rgba(45,107,228,.07); border-radius: 16px;
+  padding: 14px 16px; margin: 0 0 14px; cursor: pointer;
+}
+.mop-transfers-card .mtc-title { font-size: 14px; font-weight: 700; color: var(--ink); }
+.mop-transfers-card .mtc-count { font-size: 12px; color: var(--blue); font-weight: 600; margin-top: 2px; }
+.transfer-req-card {
+  background: white; border: 1px solid var(--border); border-radius: 14px;
+  padding: 14px; margin-bottom: 10px;
+}
+.transfer-req-addr { font-size: 14px; font-weight: 700; color: var(--ink); }
+.transfer-req-sub { font-size: 12px; color: var(--ink2); margin: 4px 0 10px; }
+.transfer-req-actions { display: flex; gap: 8px; }
+.transfer-req-actions button {
+  flex: 1; padding: 10px; border-radius: 10px; border: none;
+  font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif;
+}
+.tr-approve { background: rgba(21,150,107,.12); color: var(--green); }
+.tr-reject  { background: rgba(220,68,70,.1); color: #dc4446; }
+.colleague-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px; border-bottom: 1px solid var(--border); cursor: pointer;
+}
+.colleague-row:active { background: var(--s2); }
+.colleague-avatar {
+  width: 36px; height: 36px; border-radius: 50%; background: var(--blue);
+  color: white; display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; flex-shrink: 0;
+}
+.colleague-name { font-size: 14px; font-weight: 600; color: var(--ink); }
