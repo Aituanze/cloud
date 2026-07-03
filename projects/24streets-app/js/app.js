@@ -637,7 +637,7 @@ const App = {
           const startPhotos = (l && l.photos && l.photos.length) ? l.photos.slice(0, 5) : [];
           this.state.claimed[id] = {
             serial,
-            claimedAt: new Date().toLocaleDateString('ru'),
+            claimedAt: new Date().toISOString(),
             editData: { photos: startPhotos },
           };
           btn.className = 'fc-fix-btn mine';
@@ -817,12 +817,19 @@ const App = {
       const photoStyle = firstPhoto
         ? `background: url('${firstPhoto}') center/cover no-repeat`
         : `background:${l.photoBg}`;
+      const agentName = currentAgentName();
+      const agentInitial = agentName[0].toUpperCase();
       return `<div class="base-card" data-listing="${l.id}">
         <div class="base-card-photo" style="${photoStyle};"></div>
         <div class="base-card-body">
           <div class="bc-top">
             <span class="bc-serial">${serial}</span>
-            <span class="bc-date">${claimedAt}</span>
+            <span class="bc-date">${formatClaimedAt(claimedAt)}</span>
+          </div>
+          <div class="bc-agent-row">
+            <span class="bc-agent-avatar">${agentInitial}</span>
+            <span class="bc-agent-name">${agentName}</span>
+            <span class="bc-agent-lbl">· МОП</span>
           </div>
           <div class="bc-price-row">
             <span class="bc-price">${l.priceLabel} ₸</span>
@@ -836,7 +843,10 @@ const App = {
             ${firstPhoto ? `<span class="bc-chip bc-chip-photo">📷 ${((ed.photos && ed.photos.length) ? ed.photos : (l.photos || [])).length} фото</span>` : ''}
           </div>
           ${descSnip ? `<div class="bc-desc">${descSnip}</div>` : ''}
-          <button class="bc-edit-btn" data-listing="${l.id}">Редактировать →</button>
+          <div class="bc-actions-row">
+            <button class="bc-edit-btn" data-listing="${l.id}">Редактировать →</button>
+            ${l.url ? `<a href="${l.url}" target="_blank" rel="noopener" class="bc-source-btn" onclick="event.stopPropagation()">Источник ↗</a>` : ''}
+          </div>
         </div>
       </div>`;
     }).join('');
@@ -1088,6 +1098,19 @@ function slideBack(fromId, toId) {
 }
 
 // ── HELPERS ──────────────────────────────
+function formatClaimedAt(raw) {
+  if (!raw) return '';
+  const d = new Date(raw);
+  if (isNaN(d.getTime())) return raw; // старые записи — просто дата строкой (без времени)
+  const datePart = d.toLocaleDateString('ru');
+  const timePart = d.toLocaleTimeString('ru', { hour: '2-digit', minute: '2-digit' });
+  return `${datePart}, ${timePart}`;
+}
+
+function currentAgentName() {
+  return (window._agentProfile && window._agentProfile.name) || 'Вы';
+}
+
 function pluralObj(n) {
   const m = n % 100;
   if (m >= 11 && m <= 19) return 'объектов';
@@ -1152,10 +1175,53 @@ function roomScene(scene) {
   return map[scene] || warm;
 }
 
+// ── LIVE SYNC ────────────────────────────
+// Новые объекты с krisha.kz попадают в data/listings.js через pipeline.py
+// (парсер → build_app_data.py). Периодически перечитываем файл, чтобы числа
+// на карте/в районе обновлялись без ручной перезагрузки приложения —
+// «появился новый объект в Бостандыкском, было 10, стало 11».
+const LIVE_SYNC_INTERVAL_MS = 120000; // 2 минуты
+
+async function pollForFreshListings() {
+  try {
+    const res = await fetch('data/listings.js?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) return;
+    const text = await res.text();
+    const listingsMatch  = text.match(/const LISTINGS=(\[.*\]);/s);
+    const districtsMatch = text.match(/const DISTRICTS=(\[.*?\]);/s);
+    if (!listingsMatch) return;
+
+    const freshListings  = JSON.parse(listingsMatch[1]);
+    const freshDistricts = districtsMatch ? JSON.parse(districtsMatch[1]) : null;
+    if (freshListings.length === LISTINGS.length) return; // ничего не изменилось
+
+    // Мутируем массивы на месте — они объявлены const в listings.js,
+    // переприсвоить биндинг нельзя, но содержимое можно.
+    LISTINGS.length = 0;
+    LISTINGS.push(...freshListings);
+    if (freshDistricts) {
+      DISTRICTS.length = 0;
+      DISTRICTS.push(...freshDistricts);
+    }
+
+    App.precomputeAvgPrices();
+    App.renderMap();
+    if (document.getElementById('screen-district').classList.contains('active')) {
+      App.renderDistrictGrid();
+    }
+    if (document.getElementById('screen-filter').classList.contains('active')) {
+      App.renderFilterContent();
+    }
+  } catch (e) {
+    // тихо игнорируем — обновим на следующем тике
+  }
+}
+
 // ── BOOT ─────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
   Auth.bind();
   App.init(); // Карта всегда работает без авторизации
+  setInterval(pollForFreshListings, LIVE_SYNC_INTERVAL_MS);
 
   // Авторизация проверяется в фоне и не блокирует UI
   const session = await Sb.getSession();
