@@ -1,12 +1,12 @@
-name: Deploy 24Streets
+name: Deploy agnt.24
 
 on:
   push:
     branches: [main]
     paths:
-      - 'projects/24streets-app/**'
-      - 'projects/24streets/inbox/realty-catalog/**'
-      - 'projects/24streets/inbox/realty-quick-match/**'
+      - 'projects/agnt-24-app/**'
+      - 'projects/agnt-24/inbox/realty-catalog/**'
+      - 'projects/agnt-24/inbox/realty-quick-match/**'
   workflow_dispatch:
 
 permissions:
@@ -33,11 +33,11 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site
-          cp -r projects/24streets-app/. _site/
+          cp -r projects/agnt-24-app/. _site/
           mkdir -p _site/catalog
-          cp -r projects/24streets/inbox/realty-catalog/. _site/catalog/
+          cp -r projects/agnt-24/inbox/realty-catalog/. _site/catalog/
           mkdir -p _site/quick-match
-          cp -r projects/24streets/inbox/realty-quick-match/. _site/quick-match/
+          cp -r projects/agnt-24/inbox/realty-quick-match/. _site/quick-match/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
