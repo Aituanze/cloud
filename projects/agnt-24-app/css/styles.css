@@ -1406,3 +1406,38 @@ html, body {
   font-size: 14px; font-weight: 700; flex-shrink: 0;
 }
 .colleague-name { font-size: 14px; font-weight: 600; color: var(--ink); }
+
+/* Иерархия агентств / KPI команды */
+.agency-card {
+  background: white; border: 1px solid var(--border); border-radius: 14px;
+  padding: 14px; margin-bottom: 10px; cursor: pointer;
+}
+.agency-card-name { font-size: 15px; font-weight: 700; color: var(--ink); }
+.agency-card-sub { font-size: 12px; color: var(--ink2); margin-top: 4px; }
+.agency-badge {
+  display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px;
+  border-radius: 8px; margin-top: 6px;
+}
+.agency-badge.test   { background: rgba(245,180,0,.15); color: #a67600; }
+.agency-badge.active  { background: rgba(21,150,107,.12); color: var(--green); }
+.agency-badge.suspended { background: rgba(220,68,70,.1); color: #dc4446; }
+
+.kpi-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.kpi-tile {
+  flex: 1; min-width: 90px; background: var(--s2); border-radius: 12px;
+  padding: 10px 12px; text-align: center;
+}
+.kpi-tile-num { font-size: 18px; font-weight: 800; color: var(--ink); }
+.kpi-tile-lbl { font-size: 10px; color: var(--ink2); font-weight: 600; margin-top: 2px; }
+.kpi-section-title {
+  font-size: 12px; font-weight: 700; color: var(--ink3); text-transform: uppercase;
+  letter-spacing: .02em; margin: 16px 0 8px;
+}
+.team-member-row {
+  display: flex; align-items: center; gap: 12px;
+  background: white; border: 1px solid var(--border); border-radius: 14px;
+  padding: 12px 14px; margin-bottom: 8px; cursor: pointer;
+}
+.team-member-body { flex: 1; min-width: 0; }
+.team-member-name { font-size: 14px; font-weight: 700; color: var(--ink); }
+.team-member-sub { font-size: 11px; color: var(--ink2); margin-top: 2px; }

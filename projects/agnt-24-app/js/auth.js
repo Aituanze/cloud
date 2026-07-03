@@ -77,9 +77,8 @@ const Auth = {
       BuyerFeed.show();
     });
 
-    // ── Регистрация агентства ─────────────────
-    document.getElementById('authToSetup').addEventListener('click', () => this.showAgencySetup());
-    document.getElementById('setupToLogin').addEventListener('click', () => this.showAgentLogin());
+    // ── Регистрация агентства теперь только через superadmin (create_agency + invite) ──
+    document.getElementById('setupToLogin')?.addEventListener('click', () => this.showAgentLogin());
 
     document.getElementById('setupSubmit').addEventListener('click', async () => {
       const agencyName = document.getElementById('setupAgencyName').value.trim();

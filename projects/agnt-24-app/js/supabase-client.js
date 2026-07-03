@@ -149,6 +149,82 @@ const Sb = {
     if (error) throw error;
   },
 
+  // ── Иерархия агентств / приглашения ────────────────────────────────
+
+  async getInviteByToken(token) {
+    const { data, error } = await _db.rpc('get_invite_by_token', { p_token: token }).single();
+    if (error) throw error;
+    return data;
+  },
+
+  async acceptInvite(token, name, phone) {
+    const { error } = await _db.rpc('accept_invite', { p_token: token, p_name: name, p_phone: phone });
+    if (error) throw error;
+  },
+
+  async createAgency(name, subscriptionStatus, directorEmail, directorName) {
+    const { data, error } = await _db.rpc('create_agency', {
+      p_name: name, p_subscription: subscriptionStatus,
+      p_director_email: directorEmail, p_director_name: directorName,
+    });
+    if (error) throw error;
+    return data;
+  },
+
+  async getAllAgencies() {
+    const { data } = await _db.from('agencies').select('*').order('created_at', { ascending: false });
+    return data || [];
+  },
+
+  async getAllProfiles() {
+    // Для superadmin — вся иерархия сразу, дальше группируем на клиенте
+    const { data } = await _db.from('profiles').select('id, agency_id, role, mop_id, name, hired_at, deposits_manual, volume_manual');
+    return data || [];
+  },
+
+  async createInvite(agencyId, email, role, invitedBy) {
+    const { data, error } = await _db
+      .from('invites')
+      .insert({ agency_id: agencyId, email, role, invited_by: invitedBy })
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async getAgencyInvites(agencyId) {
+    const { data } = await _db
+      .from('invites')
+      .select('*')
+      .eq('agency_id', agencyId)
+      .order('created_at', { ascending: false });
+    return data || [];
+  },
+
+  async getAgencyProfiles(agencyId) {
+    const { data } = await _db
+      .from('profiles')
+      .select('id, role, mop_id, name, hired_at, deposits_manual, volume_manual')
+      .eq('agency_id', agencyId);
+    return data || [];
+  },
+
+  async getAgencyProperties(agencyId) {
+    const { data } = await _db
+      .from('properties')
+      .select('id, type, exclusivity, status, created_at')
+      .eq('agency_id', agencyId);
+    return data || [];
+  },
+
+  async updateAgentStats(agentId, { hired_at, deposits_manual, volume_manual }) {
+    const { error } = await _db
+      .from('profiles')
+      .update({ hired_at, deposits_manual, volume_manual })
+      .eq('id', agentId);
+    if (error) throw error;
+  },
+
   async updateLeadStage(leadId, stageTo, note) {
     const { data: lead } = await _db.from('leads').select('stage').eq('id', leadId).single();
     await _db.from('leads')

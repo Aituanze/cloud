@@ -1114,6 +1114,7 @@ const App = {
 
     this.renderRatingCard();
     TransferUI.refreshMopCard();
+    HierarchyUI.refreshCards();
   },
 
   renderRatingCard() {
@@ -1322,8 +1323,13 @@ async function pollForFreshListings() {
 // ── BOOT ─────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
   Auth.bind();
+  InviteFlow.bind();
+  HierarchyUI.init();
   App.init(); // Карта всегда работает без авторизации
   setInterval(pollForFreshListings, LIVE_SYNC_INTERVAL_MS);
+
+  // Приглашение по ссылке (?invite=) — показываем форму регистрации до всего остального
+  if (await InviteFlow.checkUrl()) return;
 
   // Авторизация проверяется в фоне и не блокирует UI
   const session = await Sb.getSession();

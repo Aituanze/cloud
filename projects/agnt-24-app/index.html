@@ -384,6 +384,22 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
 
+      <div class="mop-transfers-card" id="superAgenciesCard" style="display:none">
+        <div>
+          <div class="mtc-title">Мои агентства</div>
+          <div class="mtc-count" id="superAgenciesCount">0 агентств</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+
+      <div class="mop-transfers-card" id="teamCard" style="display:none">
+        <div>
+          <div class="mtc-title">Моя команда</div>
+          <div class="mtc-count" id="teamCount">0 человек</div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+
       <div class="rating-card" id="ratingCard">
         <div class="rating-top">
           <div class="rating-stars-row">
@@ -601,7 +617,6 @@
       <button id="authSubmit" class="auth-btn">Войти</button>
       <div class="auth-divider">Покупаете квартиру?</div>
       <button id="authBuyerBtn" class="auth-btn-secondary">Смотреть объекты →</button>
-      <button id="authToSetup" class="auth-btn-secondary" style="margin-top:6px">Зарегистрировать агентство</button>
     </div>
   </div>
 
@@ -619,6 +634,22 @@
       <button id="setupSubmit" class="auth-btn">Создать агентство</button>
       <div class="auth-divider">Уже есть аккаунт?</div>
       <button id="setupToLogin" class="auth-btn-secondary">← Войти</button>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN: ПРИНЯТЬ ПРИГЛАШЕНИЕ ══════ -->
+  <div id="screen-invite-accept" class="screen slide-below auth-screen">
+    <div class="auth-logo">agnt<span>.24</span></div>
+    <div id="inviteTagline" class="auth-tagline">Приглашение в агентство</div>
+    <div class="auth-card">
+      <div id="inviteTitle" class="auth-title">Загрузка приглашения…</div>
+      <div id="inviteError" class="auth-error" style="display:none"></div>
+      <div id="inviteForm" style="display:none">
+        <input id="inviteName"  class="auth-input" type="text" placeholder="Ваше имя">
+        <input id="invitePhone" class="auth-input" type="tel" placeholder="+7 777 000 00 00">
+        <input id="invitePassword" class="auth-input" type="password" placeholder="Придумайте пароль (мин. 6 символов)">
+        <button id="inviteSubmit" class="auth-btn">Зарегистрироваться</button>
+      </div>
     </div>
   </div>
 
@@ -723,6 +754,108 @@
     <div id="transfersList" class="prop-list"></div>
   </div>
 
+  <!-- ══════ SCREEN: МОИ АГЕНТСТВА (superadmin) ══════ -->
+  <div id="screen-agencies" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="agenciesBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div class="agent-screen-title" style="margin-left:10px">Мои агентства</div>
+      <button id="agencyAddBtn" class="prop-add-btn">+ Создать</button>
+    </div>
+    <div id="agenciesList" class="prop-list"></div>
+  </div>
+
+  <!-- ══════ SCREEN: НОВОЕ АГЕНТСТВО (superadmin) ══════ -->
+  <div id="screen-agency-new" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="agencyNewBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div class="agent-screen-title" style="margin-left:10px">Новое агентство</div>
+    </div>
+    <div class="prop-editor-scroll">
+      <div class="pe-section-label">Название агентства</div>
+      <input id="anName" class="pe-input" type="text" placeholder="ООО Риэлт Алматы">
+      <div class="pe-section-label">Подписка</div>
+      <div class="pe-chips-row" id="anSubChips">
+        <div class="pe-chip on" data-val="test">Тестовая</div>
+        <div class="pe-chip" data-val="active">Официальная</div>
+      </div>
+      <div class="pe-section-label">Email руководителя</div>
+      <input id="anDirectorEmail" class="pe-input" type="email" placeholder="director@agency.kz">
+      <div class="pe-section-label">Имя руководителя</div>
+      <input id="anDirectorName" class="pe-input" type="text" placeholder="Имя Фамилия">
+      <div id="anError" class="auth-error" style="display:none;margin-top:8px"></div>
+      <button id="anSubmit" class="ed-save-btn" style="margin-top:16px">Создать и получить ссылку-приглашение</button>
+      <div id="anInviteResult" style="display:none;margin-top:16px">
+        <div class="pe-section-label">Ссылка для руководителя</div>
+        <input id="anInviteLink" class="pe-input" type="text" readonly>
+        <button id="anCopyLink" class="ed-transfer-btn" style="margin-top:8px">Скопировать ссылку</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN: МОЯ КОМАНДА (admin/mop) ══════ -->
+  <div id="screen-team" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="teamBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div class="agent-screen-title" style="margin-left:10px">Моя команда</div>
+      <button id="teamInviteBtn" class="prop-add-btn">+ Пригласить</button>
+    </div>
+    <div class="prop-editor-scroll">
+      <div id="teamKpi"></div>
+      <div id="teamList"></div>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN: ПРИГЛАСИТЬ В КОМАНДУ ══════ -->
+  <div id="screen-invite-new" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="inviteNewBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div id="inviteNewTitle" class="agent-screen-title" style="margin-left:10px">Пригласить</div>
+    </div>
+    <div class="prop-editor-scroll">
+      <div class="pe-section-label">Email</div>
+      <input id="inNewEmail" class="pe-input" type="email" placeholder="agent@example.com">
+      <div id="inNewError" class="auth-error" style="display:none;margin-top:8px"></div>
+      <button id="inNewSubmit" class="ed-save-btn" style="margin-top:16px">Создать приглашение</button>
+      <div id="inNewResult" style="display:none;margin-top:16px">
+        <div class="pe-section-label">Ссылка-приглашение</div>
+        <input id="inNewLink" class="pe-input" type="text" readonly>
+        <button id="inNewCopy" class="ed-transfer-btn" style="margin-top:8px">Скопировать ссылку</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ SCREEN: ПОКАЗАТЕЛИ АГЕНТА (ручной ввод/бэкфилл) ══════ -->
+  <div id="screen-agent-stats" class="screen slide-below">
+    <div class="ds-status-bar"></div>
+    <div class="agent-screen-hdr">
+      <div id="agentStatsBack" class="ds-back" style="color:var(--ink)">
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </div>
+      <div id="agentStatsTitle" class="agent-screen-title" style="margin-left:10px">Показатели</div>
+    </div>
+    <div class="prop-editor-scroll">
+      <div class="pe-section-label">Дата начала работы (стаж)</div>
+      <input id="asHiredAt" class="pe-input" type="date">
+      <div class="pe-section-label">Задатков за всё время (до приложения)</div>
+      <input id="asDeposits" class="pe-input" type="number" placeholder="0">
+      <div class="pe-section-label">Вал ₸ за всё время (до приложения)</div>
+      <input id="asVolume" class="pe-input" type="number" placeholder="0">
+      <button id="asSaveBtn" class="ed-save-btn" style="margin-top:16px">Сохранить</button>
+    </div>
+  </div>
+
   <!-- ══════ SCREEN CRM (агент) ══════ -->
   <div id="screen-crm" class="screen slide-below with-tabs">
     <div class="ds-status-bar"></div>
@@ -783,6 +916,7 @@
 <script src="js/agent-crm.js"></script>
 <script src="js/agent-rating.js"></script>
 <script src="js/transfer-ui.js"></script>
+<script src="js/hierarchy-ui.js"></script>
 <script src="js/buyer-feed.js"></script>
 <!-- App -->
 <script src="js/app.js"></script>
