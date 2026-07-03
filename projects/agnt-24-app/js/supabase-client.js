@@ -15,11 +15,16 @@ const Sb = {
   },
 
   async getProfile(uid) {
-    const { data } = await _db
+    // Явно указываем FK (agencies!profiles_agency_id_fkey) — после того как в
+    // agencies появилась вторая связь с profiles (created_by), связку
+    // "agencies(*)" без уточнения PostgREST разрешить не может (ошибка,
+    // будто профиль не найден вообще).
+    const { data, error } = await _db
       .from('profiles')
-      .select('*, agencies(*)')
+      .select('*, agencies!profiles_agency_id_fkey(*)')
       .eq('id', uid)
       .single();
+    if (error) console.error('getProfile', error);
     return data;
   },
 
