@@ -43,14 +43,16 @@ BASE_URL = "https://krisha.kz"
 # Список поисковых ссылок. Категория и тип сделки определяются из самого URL
 # (по пути /prodazha|arenda/ и /kvartiry|doma|.../). Добавляйте свои ссылки —
 # с нужными фильтрами по району, цене, комнатам.
+OWNER_ONLY_FILTER = "das[who]=1"  # только объявления от хозяина, без агентских
+
 SEARCH_URLS = [
     # Все основные категории по Алматы (продажа). При необходимости поправьте
     # пути под актуальные ссылки krisha.kz и добавьте фильтры (район, цена, комнаты).
-    "https://krisha.kz/prodazha/kvartiry/almaty/",                  # квартиры
-    "https://krisha.kz/prodazha/doma/almaty/",                      # дома
-    "https://krisha.kz/prodazha/uchastkov/almaty/",                 # участки
-    "https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/almaty/",  # коммерческая
-    "https://krisha.kz/prodazha/dachi/almaty/",                     # дачи
+    f"https://krisha.kz/prodazha/kvartiry/almaty/?{OWNER_ONLY_FILTER}",                  # квартиры
+    f"https://krisha.kz/prodazha/doma/almaty/?{OWNER_ONLY_FILTER}",                      # дома
+    f"https://krisha.kz/prodazha/uchastkov/almaty/?{OWNER_ONLY_FILTER}",                 # участки
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/almaty/?{OWNER_ONLY_FILTER}",  # коммерческая
+    f"https://krisha.kz/prodazha/dachi/almaty/?{OWNER_ONLY_FILTER}",                     # дачи
 ]
 
 MAX_PAGES = 5
