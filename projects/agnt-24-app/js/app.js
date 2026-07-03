@@ -1346,11 +1346,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (buyerProfile) {
       window._buyerProfile = buyerProfile;
     } else {
-      // Сессия есть, но ни агента, ни покупателя с таким id нет в базе —
-      // битая/устаревшая сессия (например, аккаунт был пересоздан в Supabase).
-      // Без этого пользователь молча зависает: вкладки "Объекты"/"Сделки"
-      // будут кидать на экран входа без объяснения причины.
-      await Sb.auth.signOut();
+      console.warn('Сессия есть (uid=' + session.user.id + '), но профиль не найден ни в profiles, ни в buyer_profiles.');
     }
   }
 });
