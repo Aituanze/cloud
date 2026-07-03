@@ -32,6 +32,7 @@ SCRIPTS = [
     HERE / "krisha-parser" / "krisha_parser.py",
     HERE / "realty-catalog" / "build_data.py",
     HERE / "realty-quick-match" / "build_data.py",
+    HERE.parent.parent / "24streets-app" / "data" / "build_app_data.py",
 ]
 
 

@@ -16,7 +16,9 @@ window.LISTINGS = [
     "price_value": 49900000,
     "address": "Бостандыкский р-н, Утепова 31 — Розыбакиева- между Утепова и Жандосова",
     "url": "https://krisha.kz/a/show/1006975306",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e3/e36f4246-fd66-40ab-9013-61e6a0e390d0/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e36f4246-fd66-40ab-9013-61e6a0e390d0/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e36f4246-fd66-40ab-9013-61e6a0e390d0/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e36f4246-fd66-40ab-9013-61e6a0e390d0/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e36f4246-fd66-40ab-9013-61e6a0e390d0/15-280x175.jpg\"]"
   },
   {
     "id": 2,
@@ -33,7 +35,9 @@ window.LISTINGS = [
     "price_value": 87847200,
     "address": "Наурызбайский р-н, мкр Рахат, мкр. Рахат, ул. Култобе 1/2",
     "url": "https://krisha.kz/a/show/697335394",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1f/1f088bdc-c662-46fa-abd5-d14a4b899826/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f088bdc-c662-46fa-abd5-d14a4b899826/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f088bdc-c662-46fa-abd5-d14a4b899826/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f088bdc-c662-46fa-abd5-d14a4b899826/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f088bdc-c662-46fa-abd5-d14a4b899826/6-280x175.jpg\"]"
   },
   {
     "id": 3,
@@ -50,7 +54,9 @@ window.LISTINGS = [
     "price_value": 78000000,
     "address": "Бостандыкский р-н, Абая 164 — Брусиловского",
     "url": "https://krisha.kz/a/show/692648769",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1b/1b5af6a1-5617-4a56-9a5a-fc721b2ecac0/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b5af6a1-5617-4a56-9a5a-fc721b2ecac0/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b5af6a1-5617-4a56-9a5a-fc721b2ecac0/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b5af6a1-5617-4a56-9a5a-fc721b2ecac0/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b5af6a1-5617-4a56-9a5a-fc721b2ecac0/44-280x175.jpg\"]"
   },
   {
     "id": 4,
@@ -67,7 +73,9 @@ window.LISTINGS = [
     "price_value": 79205400,
     "address": "Медеуский р-н, ​Приканальная БАК 99а",
     "url": "https://krisha.kz/a/show/1009995076",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b1/b1aa8383-f58b-4bef-be2f-e66aafdd109f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b1/b1aa8383-f58b-4bef-be2f-e66aafdd109f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b1/b1aa8383-f58b-4bef-be2f-e66aafdd109f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b1/b1aa8383-f58b-4bef-be2f-e66aafdd109f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b1/b1aa8383-f58b-4bef-be2f-e66aafdd109f/6-280x175.jpg\"]"
   },
   {
     "id": 5,
@@ -84,7 +92,9 @@ window.LISTINGS = [
     "price_value": 105021000,
     "address": "Бостандыкский р-н, Кожабекова 17/2",
     "url": "https://krisha.kz/a/show/1003765400",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/41/41659c13-a90f-492c-8286-fd10573e2963/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41659c13-a90f-492c-8286-fd10573e2963/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41659c13-a90f-492c-8286-fd10573e2963/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41659c13-a90f-492c-8286-fd10573e2963/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41659c13-a90f-492c-8286-fd10573e2963/21-280x175.jpg\"]"
   },
   {
     "id": 6,
@@ -101,7 +111,9 @@ window.LISTINGS = [
     "price_value": 21000000,
     "address": "Алатауский р-н, мкр Саялы 49 — КВ В ЗАЛОГЕ, 2 остановки от ЦОНа",
     "url": "https://krisha.kz/a/show/1010285353",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3a2deb5e-0e39-4d8b-8c3f-48d7bd4980aa/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a2deb5e-0e39-4d8b-8c3f-48d7bd4980aa/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a2deb5e-0e39-4d8b-8c3f-48d7bd4980aa/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a2deb5e-0e39-4d8b-8c3f-48d7bd4980aa/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a2deb5e-0e39-4d8b-8c3f-48d7bd4980aa/13-280x175.jpg\"]"
   },
   {
     "id": 7,
@@ -118,7 +130,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Алатауский р-н, мкр Алгабас, Омарова 1",
     "url": "https://krisha.kz/a/show/1009518367",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/06/06d8212b-2230-4e6e-b1c2-d7f1a208f826/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06d8212b-2230-4e6e-b1c2-d7f1a208f826/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06d8212b-2230-4e6e-b1c2-d7f1a208f826/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06d8212b-2230-4e6e-b1c2-d7f1a208f826/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06d8212b-2230-4e6e-b1c2-d7f1a208f826/24-280x175.jpg\"]"
   },
   {
     "id": 8,
@@ -135,7 +149,9 @@ window.LISTINGS = [
     "price_value": 34000000,
     "address": "Алатауский р-н, ул. Фадеева, 38г 3",
     "url": "https://krisha.kz/a/show/1008903785",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/82/8206d354-5ea6-4a42-9a8d-b59f1ea7ca74/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8206d354-5ea6-4a42-9a8d-b59f1ea7ca74/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8206d354-5ea6-4a42-9a8d-b59f1ea7ca74/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8206d354-5ea6-4a42-9a8d-b59f1ea7ca74/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8206d354-5ea6-4a42-9a8d-b59f1ea7ca74/18-280x175.jpg\"]"
   },
   {
     "id": 9,
@@ -152,7 +168,9 @@ window.LISTINGS = [
     "price_value": 36500000,
     "address": "Алатауский р-н, мкр Акбулак, Момышулы 100",
     "url": "https://krisha.kz/a/show/1005898421",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/06/0632c617-c0d5-4b46-a1c1-dfb5b8117eb0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/0632c617-c0d5-4b46-a1c1-dfb5b8117eb0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/0632c617-c0d5-4b46-a1c1-dfb5b8117eb0/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/0632c617-c0d5-4b46-a1c1-dfb5b8117eb0/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/0632c617-c0d5-4b46-a1c1-dfb5b8117eb0/7-280x175.jpg\"]"
   },
   {
     "id": 10,
@@ -169,7 +187,9 @@ window.LISTINGS = [
     "price_value": 48000000,
     "address": "Наурызбайский р-н, Акбата 46/3",
     "url": "https://krisha.kz/a/show/693275666",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a7/a7998f24-f9cc-4e77-b562-7c3e9976c20f/80-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7998f24-f9cc-4e77-b562-7c3e9976c20f/81-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7998f24-f9cc-4e77-b562-7c3e9976c20f/82-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7998f24-f9cc-4e77-b562-7c3e9976c20f/83-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7998f24-f9cc-4e77-b562-7c3e9976c20f/84-280x175.jpg\"]"
   },
   {
     "id": 11,
@@ -186,7 +206,9 @@ window.LISTINGS = [
     "price_value": 34000000,
     "address": "Алатауский р-н, мкр Алгабас, ул. Омарова — Рядом с мкр. Аккент. рядом с ул. Рыскулова",
     "url": "https://krisha.kz/a/show/1013187630",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f2/f2d3a72f-c649-42cb-9a58-85ba197e315b/63-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d3a72f-c649-42cb-9a58-85ba197e315b/64-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d3a72f-c649-42cb-9a58-85ba197e315b/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d3a72f-c649-42cb-9a58-85ba197e315b/66-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d3a72f-c649-42cb-9a58-85ba197e315b/67-280x175.jpg\"]"
   },
   {
     "id": 12,
@@ -203,7 +225,9 @@ window.LISTINGS = [
     "price_value": 37600000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жунисова",
     "url": "https://krisha.kz/a/show/1012794036",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/31832c9b-feb4-4458-ae5a-f41651c7dee6/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31832c9b-feb4-4458-ae5a-f41651c7dee6/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31832c9b-feb4-4458-ae5a-f41651c7dee6/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31832c9b-feb4-4458-ae5a-f41651c7dee6/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31832c9b-feb4-4458-ae5a-f41651c7dee6/33-280x175.jpg\"]"
   },
   {
     "id": 13,
@@ -220,7 +244,9 @@ window.LISTINGS = [
     "price_value": 38500000,
     "address": "Алатауский р-н, мкр 6-й градокомплекс, Жапсарбаева 68  б 5 — Рядом  с базаром  Кенжехан 5 мин",
     "url": "https://krisha.kz/a/show/1012610622",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ac/acc7603d-4858-4ac2-9fe2-46d2703d5d72/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/acc7603d-4858-4ac2-9fe2-46d2703d5d72/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/acc7603d-4858-4ac2-9fe2-46d2703d5d72/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/acc7603d-4858-4ac2-9fe2-46d2703d5d72/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/acc7603d-4858-4ac2-9fe2-46d2703d5d72/15-280x175.jpg\"]"
   },
   {
     "id": 14,
@@ -237,7 +263,9 @@ window.LISTINGS = [
     "price_value": 23500000,
     "address": "Алмалинский р-н, Желтоксана 79А — Айтеке би",
     "url": "https://krisha.kz/a/show/1012444588",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/86/865506ad-9370-40d8-b0ac-b2178c6ff692/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/86/865506ad-9370-40d8-b0ac-b2178c6ff692/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/86/865506ad-9370-40d8-b0ac-b2178c6ff692/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/86/865506ad-9370-40d8-b0ac-b2178c6ff692/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/86/865506ad-9370-40d8-b0ac-b2178c6ff692/5-280x175.jpg\"]"
   },
   {
     "id": 15,
@@ -254,7 +282,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Алмалинский р-н, Курмангазы 97 — Срочная продажа",
     "url": "https://krisha.kz/a/show/1011981376",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/43/434f3f62-e6d9-4184-8f4b-5e210ee0bc17/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/434f3f62-e6d9-4184-8f4b-5e210ee0bc17/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/434f3f62-e6d9-4184-8f4b-5e210ee0bc17/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/434f3f62-e6d9-4184-8f4b-5e210ee0bc17/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/434f3f62-e6d9-4184-8f4b-5e210ee0bc17/5-280x175.jpg\"]"
   },
   {
     "id": 16,
@@ -271,7 +301,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жунисова 4/14",
     "url": "https://krisha.kz/a/show/1010436995",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e4/e43a8e46-71e7-4284-b2ef-0601c819378c/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e43a8e46-71e7-4284-b2ef-0601c819378c/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e43a8e46-71e7-4284-b2ef-0601c819378c/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e43a8e46-71e7-4284-b2ef-0601c819378c/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e43a8e46-71e7-4284-b2ef-0601c819378c/18-280x175.jpg\"]"
   },
   {
     "id": 17,
@@ -288,7 +320,9 @@ window.LISTINGS = [
     "price_value": 17500000,
     "address": "Алатауский р-н, мкр Алгабас, Омарова 73 — Рыскулова",
     "url": "https://krisha.kz/a/show/1007654959",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2bd9505c-1291-4513-b660-17667208f5ce/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2bd9505c-1291-4513-b660-17667208f5ce/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2bd9505c-1291-4513-b660-17667208f5ce/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2bd9505c-1291-4513-b660-17667208f5ce/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2bd9505c-1291-4513-b660-17667208f5ce/14-280x175.jpg\"]"
   },
   {
     "id": 18,
@@ -305,7 +339,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Бостандыкский р-н, Сатпаева 9б — Сейфуллина",
     "url": "https://krisha.kz/a/show/1006053013",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/2560bd0d-a4bf-43ff-a158-6e6454490cbc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/2560bd0d-a4bf-43ff-a158-6e6454490cbc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/2560bd0d-a4bf-43ff-a158-6e6454490cbc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/2560bd0d-a4bf-43ff-a158-6e6454490cbc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/2560bd0d-a4bf-43ff-a158-6e6454490cbc/5-280x175.jpg\"]"
   },
   {
     "id": 19,
@@ -322,7 +358,9 @@ window.LISTINGS = [
     "price_value": 27000000,
     "address": "Турксибский р-н, Сарыарка 1/2,3 — Рысқұлов Айша бибі",
     "url": "https://krisha.kz/a/show/1004350283",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1d/1d14195e-fe91-4d32-b907-7a079166b455/69-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d14195e-fe91-4d32-b907-7a079166b455/70-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d14195e-fe91-4d32-b907-7a079166b455/71-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d14195e-fe91-4d32-b907-7a079166b455/72-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d14195e-fe91-4d32-b907-7a079166b455/73-280x175.jpg\"]"
   },
   {
     "id": 20,
@@ -339,7 +377,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Ауэзовский р-н, мкр Таугуль-2 1",
     "url": "https://krisha.kz/a/show/1011504012",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a3/a3833bb9-6ffc-4cf1-a2de-d410edb92ffa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3833bb9-6ffc-4cf1-a2de-d410edb92ffa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3833bb9-6ffc-4cf1-a2de-d410edb92ffa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3833bb9-6ffc-4cf1-a2de-d410edb92ffa/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3833bb9-6ffc-4cf1-a2de-d410edb92ffa/8-280x175.jpg\"]"
   },
   {
     "id": 21,
@@ -356,7 +396,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Алатауский р-н, мкр Нуркент — Рыскулова Момышулы",
     "url": "https://krisha.kz/a/show/1010879001",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/6592d964-a505-4578-a450-405259bd3fef/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/6592d964-a505-4578-a450-405259bd3fef/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/6592d964-a505-4578-a450-405259bd3fef/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/6592d964-a505-4578-a450-405259bd3fef/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/6592d964-a505-4578-a450-405259bd3fef/55-280x175.jpg\"]"
   },
   {
     "id": 22,
@@ -373,7 +415,9 @@ window.LISTINGS = [
     "price_value": 32500000,
     "address": "Жетысуский р-н, мкр Кокжиек, Геологов 3 — Геологов камаз центр",
     "url": "https://krisha.kz/a/show/688649923",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6d/6d781d5b-87b9-4a94-9809-4616f72b22b6/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d781d5b-87b9-4a94-9809-4616f72b22b6/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d781d5b-87b9-4a94-9809-4616f72b22b6/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d781d5b-87b9-4a94-9809-4616f72b22b6/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d781d5b-87b9-4a94-9809-4616f72b22b6/44-280x175.jpg\"]"
   },
   {
     "id": 23,
@@ -390,7 +434,9 @@ window.LISTINGS = [
     "price_value": 41500000,
     "address": "Алатауский р-н, Доспанова 7",
     "url": "https://krisha.kz/a/show/1005741386",
-    "first_seen": "2026-06-28T12:48:13"
+    "first_seen": "2026-06-28T12:48:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/09/0919bd2a-17a8-40ce-912e-1c97c8ca28c6/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/0919bd2a-17a8-40ce-912e-1c97c8ca28c6/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/0919bd2a-17a8-40ce-912e-1c97c8ca28c6/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/0919bd2a-17a8-40ce-912e-1c97c8ca28c6/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/0919bd2a-17a8-40ce-912e-1c97c8ca28c6/48-280x175.jpg\"]"
   },
   {
     "id": 24,
@@ -407,7 +453,9 @@ window.LISTINGS = [
     "price_value": 51000000,
     "address": "Алмалинский р-н, Жибек жоллы 153 — Байтурсынова",
     "url": "https://krisha.kz/a/show/672635867",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b59b7b29-8f10-4d62-a7a9-c80ae95c653f/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b59b7b29-8f10-4d62-a7a9-c80ae95c653f/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b59b7b29-8f10-4d62-a7a9-c80ae95c653f/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b59b7b29-8f10-4d62-a7a9-c80ae95c653f/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b59b7b29-8f10-4d62-a7a9-c80ae95c653f/19-280x175.jpg\"]"
   },
   {
     "id": 25,
@@ -424,7 +472,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Ауэзовский р-н, Сулейменова 40/1",
     "url": "https://krisha.kz/a/show/1012406030",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/63d26378-3cc4-40d1-ba0f-1f427e811e10/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d26378-3cc4-40d1-ba0f-1f427e811e10/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d26378-3cc4-40d1-ba0f-1f427e811e10/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d26378-3cc4-40d1-ba0f-1f427e811e10/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d26378-3cc4-40d1-ba0f-1f427e811e10/5-280x175.jpg\"]"
   },
   {
     "id": 26,
@@ -441,7 +491,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Бостандыкский р-н, Аль-фараби — Нурлы Тау",
     "url": "https://krisha.kz/a/show/1011583511",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1f/1f2e0543-89bd-4bd5-9571-1ad70ddfbf37/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f2e0543-89bd-4bd5-9571-1ad70ddfbf37/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f2e0543-89bd-4bd5-9571-1ad70ddfbf37/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f2e0543-89bd-4bd5-9571-1ad70ddfbf37/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1f2e0543-89bd-4bd5-9571-1ad70ddfbf37/17-280x175.jpg\"]"
   },
   {
     "id": 27,
@@ -458,7 +510,9 @@ window.LISTINGS = [
     "price_value": 44000000,
     "address": "Тараз 8/1",
     "url": "https://krisha.kz/a/show/1010486156",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bc/bcf87dc7-17b5-49dd-95ff-04d619b511e5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcf87dc7-17b5-49dd-95ff-04d619b511e5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcf87dc7-17b5-49dd-95ff-04d619b511e5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcf87dc7-17b5-49dd-95ff-04d619b511e5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcf87dc7-17b5-49dd-95ff-04d619b511e5/5-280x175.jpg\"]"
   },
   {
     "id": 28,
@@ -475,7 +529,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Турксибский р-н, Кульджинский тракт 153/47 — Бухтарминская",
     "url": "https://krisha.kz/a/show/1009069589",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e1566da8-e246-4bc3-8164-c0ae3f2e424e/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1566da8-e246-4bc3-8164-c0ae3f2e424e/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1566da8-e246-4bc3-8164-c0ae3f2e424e/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1566da8-e246-4bc3-8164-c0ae3f2e424e/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1566da8-e246-4bc3-8164-c0ae3f2e424e/19-280x175.jpg\"]"
   },
   {
     "id": 29,
@@ -492,7 +548,9 @@ window.LISTINGS = [
     "price_value": 19500000,
     "address": "Алатауский р-н, мкр Дарабоз, Момышулы — Рядом с Алматы арена",
     "url": "https://krisha.kz/a/show/1006550837",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/44/44136a7a-c7fc-41ac-9cee-4c7b56031303/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44136a7a-c7fc-41ac-9cee-4c7b56031303/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44136a7a-c7fc-41ac-9cee-4c7b56031303/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44136a7a-c7fc-41ac-9cee-4c7b56031303/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44136a7a-c7fc-41ac-9cee-4c7b56031303/20-280x175.jpg\"]"
   },
   {
     "id": 30,
@@ -509,7 +567,9 @@ window.LISTINGS = [
     "price_value": 20211900,
     "address": "пос. Гульдала",
     "url": "https://krisha.kz/a/show/1000459788",
-    "first_seen": "2026-06-28T12:48:19"
+    "first_seen": "2026-06-28T12:48:19",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/3943a3eb-9f63-4679-9b59-cccf680b0882/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3943a3eb-9f63-4679-9b59-cccf680b0882/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3943a3eb-9f63-4679-9b59-cccf680b0882/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3943a3eb-9f63-4679-9b59-cccf680b0882/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3943a3eb-9f63-4679-9b59-cccf680b0882/11-280x175.jpg\"]"
   },
   {
     "id": 31,
@@ -526,7 +586,9 @@ window.LISTINGS = [
     "price_value": 33492400,
     "address": "Алатауский р-н, Бауыржана Момышулы 11/14а",
     "url": "https://krisha.kz/a/show/693826796",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6a/6a8966d2-f1f6-4442-81c9-2eb1919196f6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a8966d2-f1f6-4442-81c9-2eb1919196f6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a8966d2-f1f6-4442-81c9-2eb1919196f6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a8966d2-f1f6-4442-81c9-2eb1919196f6/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a8966d2-f1f6-4442-81c9-2eb1919196f6/6-280x175.jpg\"]"
   },
   {
     "id": 32,
@@ -543,7 +605,9 @@ window.LISTINGS = [
     "price_value": 24500000,
     "address": "Наурызбайский р-н, Райымбек",
     "url": "https://krisha.kz/a/show/1013292524",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e3/e3a1ab54-94fa-40bf-aec6-6c55e65f80c5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3a1ab54-94fa-40bf-aec6-6c55e65f80c5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3a1ab54-94fa-40bf-aec6-6c55e65f80c5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3a1ab54-94fa-40bf-aec6-6c55e65f80c5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3a1ab54-94fa-40bf-aec6-6c55e65f80c5/5-280x175.jpg\"]"
   },
   {
     "id": 33,
@@ -560,7 +624,9 @@ window.LISTINGS = [
     "price_value": 52900000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Жандосова 70Б БЕЗ КОМИССИИ. Я ХОЗЯЙКА",
     "url": "https://krisha.kz/a/show/1012257432",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e5/e542f8dd-e42d-436f-b00b-7ebb52e7a180/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e542f8dd-e42d-436f-b00b-7ebb52e7a180/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e542f8dd-e42d-436f-b00b-7ebb52e7a180/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e542f8dd-e42d-436f-b00b-7ebb52e7a180/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e542f8dd-e42d-436f-b00b-7ebb52e7a180/5-280x175.jpg\"]"
   },
   {
     "id": 34,
@@ -577,7 +643,9 @@ window.LISTINGS = [
     "price_value": 29200000,
     "address": "Наурызбайский р-н, мкр Шугыла, Алатау 12а/1 — проспект Алатау",
     "url": "https://krisha.kz/a/show/1013376902",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/8900cfd6-cdfc-4604-8643-c7b33a432ba4/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8900cfd6-cdfc-4604-8643-c7b33a432ba4/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8900cfd6-cdfc-4604-8643-c7b33a432ba4/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8900cfd6-cdfc-4604-8643-c7b33a432ba4/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8900cfd6-cdfc-4604-8643-c7b33a432ba4/19-280x175.jpg\"]"
   },
   {
     "id": 35,
@@ -594,7 +662,9 @@ window.LISTINGS = [
     "price_value": 101000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Мкр. Ерменсай, 31/8 31/2",
     "url": "https://krisha.kz/a/show/695395290",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6f/6ffdfdb9-27ba-4ccf-95a5-e3206f4660f6/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6ffdfdb9-27ba-4ccf-95a5-e3206f4660f6/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6ffdfdb9-27ba-4ccf-95a5-e3206f4660f6/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6ffdfdb9-27ba-4ccf-95a5-e3206f4660f6/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6ffdfdb9-27ba-4ccf-95a5-e3206f4660f6/32-280x175.jpg\"]"
   },
   {
     "id": 36,
@@ -611,7 +681,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Райымбек 590/15",
     "url": "https://krisha.kz/a/show/1012901451",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0b/0bd24d1b-b910-495d-9fe7-ebbc1671e49c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bd24d1b-b910-495d-9fe7-ebbc1671e49c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bd24d1b-b910-495d-9fe7-ebbc1671e49c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bd24d1b-b910-495d-9fe7-ebbc1671e49c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bd24d1b-b910-495d-9fe7-ebbc1671e49c/5-280x175.jpg\"]"
   },
   {
     "id": 37,
@@ -628,7 +700,9 @@ window.LISTINGS = [
     "price_value": 93300000,
     "address": "Бостандыкский р-н, Сатпаева",
     "url": "https://krisha.kz/a/show/673032933",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6e/6e229b96-a6c8-46db-94a2-7cbde14e8fb2/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e229b96-a6c8-46db-94a2-7cbde14e8fb2/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e229b96-a6c8-46db-94a2-7cbde14e8fb2/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e229b96-a6c8-46db-94a2-7cbde14e8fb2/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e229b96-a6c8-46db-94a2-7cbde14e8fb2/54-280x175.jpg\"]"
   },
   {
     "id": 38,
@@ -645,7 +719,9 @@ window.LISTINGS = [
     "price_value": 58990000,
     "address": "Бостандыкский р-н, ул. Малика Габдуллина 28",
     "url": "https://krisha.kz/a/show/1012311542",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cf/cf3b7a1c-63d3-4575-a922-c4137b9e9ced/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf3b7a1c-63d3-4575-a922-c4137b9e9ced/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf3b7a1c-63d3-4575-a922-c4137b9e9ced/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf3b7a1c-63d3-4575-a922-c4137b9e9ced/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf3b7a1c-63d3-4575-a922-c4137b9e9ced/5-280x175.jpg\"]"
   },
   {
     "id": 39,
@@ -662,7 +738,9 @@ window.LISTINGS = [
     "price_value": 35300000,
     "address": "Ауэзовский р-н, мкр №10 А 20",
     "url": "https://krisha.kz/a/show/1011404118",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 40,
@@ -679,7 +757,9 @@ window.LISTINGS = [
     "price_value": 36000000,
     "address": "Алатауский р-н, мкр Аккент 55",
     "url": "https://krisha.kz/a/show/1013036027",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e6/e60fb70b-0835-4897-8fcb-8240d09e98fa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e60fb70b-0835-4897-8fcb-8240d09e98fa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e60fb70b-0835-4897-8fcb-8240d09e98fa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e60fb70b-0835-4897-8fcb-8240d09e98fa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e60fb70b-0835-4897-8fcb-8240d09e98fa/5-280x175.jpg\"]"
   },
   {
     "id": 41,
@@ -696,7 +776,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Жетысуский р-н, мкр Кокжиек",
     "url": "https://krisha.kz/a/show/1013355472",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9d/9d632740-0f1b-4204-b890-8e57d741e7f8/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d632740-0f1b-4204-b890-8e57d741e7f8/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d632740-0f1b-4204-b890-8e57d741e7f8/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d632740-0f1b-4204-b890-8e57d741e7f8/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d632740-0f1b-4204-b890-8e57d741e7f8/19-280x175.jpg\"]"
   },
   {
     "id": 42,
@@ -713,7 +795,9 @@ window.LISTINGS = [
     "price_value": 31500000,
     "address": "Алатауский р-н, мкр Гажайып 11/21а",
     "url": "https://krisha.kz/a/show/1011164988",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/35/358d56d4-2c8a-4150-a9ae-24b632c03b4a/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/358d56d4-2c8a-4150-a9ae-24b632c03b4a/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/358d56d4-2c8a-4150-a9ae-24b632c03b4a/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/358d56d4-2c8a-4150-a9ae-24b632c03b4a/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/358d56d4-2c8a-4150-a9ae-24b632c03b4a/11-280x175.jpg\"]"
   },
   {
     "id": 43,
@@ -730,7 +814,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Талды",
     "url": "https://krisha.kz/a/show/688834164",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e1d6e724-7913-4e57-bd22-1a888dd4462b/87-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1d6e724-7913-4e57-bd22-1a888dd4462b/88-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1d6e724-7913-4e57-bd22-1a888dd4462b/89-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1d6e724-7913-4e57-bd22-1a888dd4462b/90-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1d6e724-7913-4e57-bd22-1a888dd4462b/91-280x175.jpg\"]"
   },
   {
     "id": 44,
@@ -747,7 +833,9 @@ window.LISTINGS = [
     "price_value": 33500000,
     "address": "Наурызбайский р-н, мкр Шугыла, Мкр Шугыла, улица Жунисова 2/23 к11 — Пр Алатау",
     "url": "https://krisha.kz/a/show/1013433256",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/31e89969-3a8e-4c18-a22a-55b5e7b1b61f/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31e89969-3a8e-4c18-a22a-55b5e7b1b61f/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31e89969-3a8e-4c18-a22a-55b5e7b1b61f/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31e89969-3a8e-4c18-a22a-55b5e7b1b61f/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31e89969-3a8e-4c18-a22a-55b5e7b1b61f/20-280x175.jpg\"]"
   },
   {
     "id": 45,
@@ -764,7 +852,9 @@ window.LISTINGS = [
     "price_value": 33000000,
     "address": "Алмалинский р-н, Варламова 345 — Толе би",
     "url": "https://krisha.kz/a/show/1011797456",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f7498e3f-8322-42ad-bd81-be314fb62ba6/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7498e3f-8322-42ad-bd81-be314fb62ba6/49-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7498e3f-8322-42ad-bd81-be314fb62ba6/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7498e3f-8322-42ad-bd81-be314fb62ba6/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7498e3f-8322-42ad-bd81-be314fb62ba6/52-280x175.jpg\"]"
   },
   {
     "id": 46,
@@ -781,7 +871,9 @@ window.LISTINGS = [
     "price_value": 22900000,
     "address": "Алатауский р-н, мкр Ожет, Өжет ш/а.",
     "url": "https://krisha.kz/a/show/1011511845",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c5/c56299e2-5ea3-4637-8ba2-da56a33f0b33/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c56299e2-5ea3-4637-8ba2-da56a33f0b33/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c56299e2-5ea3-4637-8ba2-da56a33f0b33/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c56299e2-5ea3-4637-8ba2-da56a33f0b33/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c56299e2-5ea3-4637-8ba2-da56a33f0b33/19-280x175.jpg\"]"
   },
   {
     "id": 47,
@@ -798,7 +890,9 @@ window.LISTINGS = [
     "price_value": 28990000,
     "address": "Алатауский р-н, Шоссе Северное кольцо 92/10",
     "url": "https://krisha.kz/a/show/1011123285",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/08/088f100b-98dc-4df3-bf7f-96373e31f93e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/088f100b-98dc-4df3-bf7f-96373e31f93e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/088f100b-98dc-4df3-bf7f-96373e31f93e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/088f100b-98dc-4df3-bf7f-96373e31f93e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/088f100b-98dc-4df3-bf7f-96373e31f93e/5-280x175.jpg\"]"
   },
   {
     "id": 48,
@@ -815,7 +909,9 @@ window.LISTINGS = [
     "price_value": 19000000,
     "address": "Кошкарбаева 39а",
     "url": "https://krisha.kz/a/show/1010086596",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3e/3e7debb5-5b0e-4aa8-9f53-cee607d88a96/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e7debb5-5b0e-4aa8-9f53-cee607d88a96/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e7debb5-5b0e-4aa8-9f53-cee607d88a96/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e7debb5-5b0e-4aa8-9f53-cee607d88a96/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e7debb5-5b0e-4aa8-9f53-cee607d88a96/19-280x175.jpg\"]"
   },
   {
     "id": 49,
@@ -832,7 +928,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Алатауский р-н, Головацкого — С зади рынка Болашақ Алатау",
     "url": "https://krisha.kz/a/show/1009841766",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ae/ae9dba56-4fdc-48bd-bb0b-c95ed5e6dc50/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/ae9dba56-4fdc-48bd-bb0b-c95ed5e6dc50/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/ae9dba56-4fdc-48bd-bb0b-c95ed5e6dc50/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/ae9dba56-4fdc-48bd-bb0b-c95ed5e6dc50/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/ae9dba56-4fdc-48bd-bb0b-c95ed5e6dc50/27-280x175.jpg\"]"
   },
   {
     "id": 50,
@@ -849,7 +947,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Бостандыкский р-н, Утепова 31",
     "url": "https://krisha.kz/a/show/1009138174",
-    "first_seen": "2026-06-28T12:48:24"
+    "first_seen": "2026-06-28T12:48:24",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/34/34bf9001-fb7c-49d3-a9de-e76238e6f0d7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34bf9001-fb7c-49d3-a9de-e76238e6f0d7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34bf9001-fb7c-49d3-a9de-e76238e6f0d7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34bf9001-fb7c-49d3-a9de-e76238e6f0d7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34bf9001-fb7c-49d3-a9de-e76238e6f0d7/5-280x175.jpg\"]"
   },
   {
     "id": 51,
@@ -866,7 +966,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Наурызбайский р-н, Нажимеденова",
     "url": "https://krisha.kz/a/show/1009047583",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9b/9ba15d68-e9da-4770-ab94-b13de72bdd01/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9ba15d68-e9da-4770-ab94-b13de72bdd01/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9ba15d68-e9da-4770-ab94-b13de72bdd01/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9ba15d68-e9da-4770-ab94-b13de72bdd01/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9ba15d68-e9da-4770-ab94-b13de72bdd01/34-280x175.jpg\"]"
   },
   {
     "id": 52,
@@ -883,7 +985,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Бостандыкский р-н, Абая — ЖК Abay 130",
     "url": "https://krisha.kz/a/show/1008685609",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d9/d97cf4cb-f02e-4fc8-a83c-1162e7924abe/139-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d97cf4cb-f02e-4fc8-a83c-1162e7924abe/140-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d97cf4cb-f02e-4fc8-a83c-1162e7924abe/141-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d97cf4cb-f02e-4fc8-a83c-1162e7924abe/142-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d97cf4cb-f02e-4fc8-a83c-1162e7924abe/143-280x175.jpg\"]"
   },
   {
     "id": 53,
@@ -900,7 +1004,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Алатауский р-н, 20-й микрорайон",
     "url": "https://krisha.kz/a/show/1008602220",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b6/b6d2c7d4-01f9-4db8-a33f-7364be56e9da/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b6d2c7d4-01f9-4db8-a33f-7364be56e9da/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b6d2c7d4-01f9-4db8-a33f-7364be56e9da/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b6d2c7d4-01f9-4db8-a33f-7364be56e9da/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b6d2c7d4-01f9-4db8-a33f-7364be56e9da/43-280x175.jpg\"]"
   },
   {
     "id": 54,
@@ -917,7 +1023,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Наурызбайский р-н, мкр Шугыла — Пр Алатау уг Абая /Наурызбайский  Акимат",
     "url": "https://krisha.kz/a/show/1008543692",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b548af75-de0e-46d4-910c-a5c86e213451/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b548af75-de0e-46d4-910c-a5c86e213451/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b548af75-de0e-46d4-910c-a5c86e213451/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b548af75-de0e-46d4-910c-a5c86e213451/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b548af75-de0e-46d4-910c-a5c86e213451/49-280x175.jpg\"]"
   },
   {
     "id": 55,
@@ -934,7 +1042,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Медеуский р-н, ​Приканальная БАК",
     "url": "https://krisha.kz/a/show/1008058627",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/47/472465da-3324-4888-87bf-ceb4d03a1c26/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/472465da-3324-4888-87bf-ceb4d03a1c26/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/472465da-3324-4888-87bf-ceb4d03a1c26/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/472465da-3324-4888-87bf-ceb4d03a1c26/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/472465da-3324-4888-87bf-ceb4d03a1c26/20-280x175.jpg\"]"
   },
   {
     "id": 56,
@@ -951,7 +1061,9 @@ window.LISTINGS = [
     "price_value": 47500000,
     "address": "Ауэзовский р-н, Райымбека 348/1 — ЖАКСЫ САПА",
     "url": "https://krisha.kz/a/show/1006643675",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/63d2c484-49df-4cb9-bfae-f95c39ea2668/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d2c484-49df-4cb9-bfae-f95c39ea2668/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d2c484-49df-4cb9-bfae-f95c39ea2668/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d2c484-49df-4cb9-bfae-f95c39ea2668/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63d2c484-49df-4cb9-bfae-f95c39ea2668/24-280x175.jpg\"]"
   },
   {
     "id": 57,
@@ -968,7 +1080,9 @@ window.LISTINGS = [
     "price_value": 111000000,
     "address": "Бостандыкский р-н, Сатпаева 90/58 — Сатпаева",
     "url": "https://krisha.kz/a/show/1012263110",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fe/fe359ea8-cbc4-430c-8e59-ab96bc1b6aa9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe359ea8-cbc4-430c-8e59-ab96bc1b6aa9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe359ea8-cbc4-430c-8e59-ab96bc1b6aa9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe359ea8-cbc4-430c-8e59-ab96bc1b6aa9/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe359ea8-cbc4-430c-8e59-ab96bc1b6aa9/6-280x175.jpg\"]"
   },
   {
     "id": 58,
@@ -985,7 +1099,9 @@ window.LISTINGS = [
     "price_value": 21500000,
     "address": "Ауэзовский р-н, мкр Аксай-3",
     "url": "https://krisha.kz/a/show/1013237935",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/6090c067-bcdb-44d4-8191-573dd147b5ad/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6090c067-bcdb-44d4-8191-573dd147b5ad/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6090c067-bcdb-44d4-8191-573dd147b5ad/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6090c067-bcdb-44d4-8191-573dd147b5ad/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6090c067-bcdb-44d4-8191-573dd147b5ad/5-280x175.jpg\"]"
   },
   {
     "id": 59,
@@ -1002,7 +1118,9 @@ window.LISTINGS = [
     "price_value": 318321990,
     "address": "Бостандыкский р-н, мкр Мирас, Саина 1а/1",
     "url": "https://krisha.kz/a/show/760760729",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/54/54d94fcb-365c-4b85-81a2-24cf38324681/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54d94fcb-365c-4b85-81a2-24cf38324681/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54d94fcb-365c-4b85-81a2-24cf38324681/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54d94fcb-365c-4b85-81a2-24cf38324681/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54d94fcb-365c-4b85-81a2-24cf38324681/6-280x175.jpg\"]"
   },
   {
     "id": 60,
@@ -1019,7 +1137,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Кенесары хана 54/22",
     "url": "https://krisha.kz/a/show/1009321715",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/73/734980a7-85d3-479a-baaa-51ca84a3a49a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/734980a7-85d3-479a-baaa-51ca84a3a49a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/734980a7-85d3-479a-baaa-51ca84a3a49a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/734980a7-85d3-479a-baaa-51ca84a3a49a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/734980a7-85d3-479a-baaa-51ca84a3a49a/5-280x175.jpg\"]"
   },
   {
     "id": 61,
@@ -1036,7 +1156,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алатауский р-н, Бауыржана Момышулы 11/14а",
     "url": "https://krisha.kz/a/show/1006882936",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7b/7bcae030-9402-45ea-8400-f4f3fbe0464d/120-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bcae030-9402-45ea-8400-f4f3fbe0464d/121-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bcae030-9402-45ea-8400-f4f3fbe0464d/122-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bcae030-9402-45ea-8400-f4f3fbe0464d/123-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bcae030-9402-45ea-8400-f4f3fbe0464d/124-280x175.jpg\"]"
   },
   {
     "id": 62,
@@ -1053,7 +1175,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Алатауский р-н, Микр 20 46 кв 13",
     "url": "https://krisha.kz/a/show/761534248",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/71/71332c2a-76c4-4ac3-9ee1-2162f49835d1/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71332c2a-76c4-4ac3-9ee1-2162f49835d1/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71332c2a-76c4-4ac3-9ee1-2162f49835d1/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71332c2a-76c4-4ac3-9ee1-2162f49835d1/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71332c2a-76c4-4ac3-9ee1-2162f49835d1/14-280x175.jpg\"]"
   },
   {
     "id": 63,
@@ -1070,7 +1194,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Алатауский р-н, мкр Акбулак — Б.Момышұлы көшесі Раиымбек пен Рыскулов көшелерінің ортасында",
     "url": "https://krisha.kz/a/show/761126085",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/46/46e1cbb9-1c54-401d-9f6f-7b9a57d7c941/64-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e1cbb9-1c54-401d-9f6f-7b9a57d7c941/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e1cbb9-1c54-401d-9f6f-7b9a57d7c941/66-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e1cbb9-1c54-401d-9f6f-7b9a57d7c941/67-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e1cbb9-1c54-401d-9f6f-7b9a57d7c941/68-280x175.jpg\"]"
   },
   {
     "id": 64,
@@ -1087,7 +1213,9 @@ window.LISTINGS = [
     "price_value": 56000000,
     "address": "Турксибский р-н, Гетте 311",
     "url": "https://krisha.kz/a/show/760682639",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/30/304cf328-235d-4e60-87c2-18c814788c4d/89-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/304cf328-235d-4e60-87c2-18c814788c4d/90-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/304cf328-235d-4e60-87c2-18c814788c4d/91-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/304cf328-235d-4e60-87c2-18c814788c4d/92-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/304cf328-235d-4e60-87c2-18c814788c4d/93-280x175.jpg\"]"
   },
   {
     "id": 65,
@@ -1104,7 +1232,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Турксибский р-н, мкр Жулдыз-2, Дунентаева",
     "url": "https://krisha.kz/a/show/678532011",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0b/0bb8d22f-b2da-47ff-a2ee-cccd0c9179db/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb8d22f-b2da-47ff-a2ee-cccd0c9179db/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb8d22f-b2da-47ff-a2ee-cccd0c9179db/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb8d22f-b2da-47ff-a2ee-cccd0c9179db/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb8d22f-b2da-47ff-a2ee-cccd0c9179db/48-280x175.jpg\"]"
   },
   {
     "id": 66,
@@ -1121,7 +1251,9 @@ window.LISTINGS = [
     "price_value": 22000000,
     "address": "Турксибский р-н, Бухтарминская 153 — Бухтарминская",
     "url": "https://krisha.kz/a/show/1012569072",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3acd86dc-523f-48d2-9c7c-cb7c0edae360/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3acd86dc-523f-48d2-9c7c-cb7c0edae360/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3acd86dc-523f-48d2-9c7c-cb7c0edae360/9-280x175.jpg\"]"
   },
   {
     "id": 67,
@@ -1138,7 +1270,9 @@ window.LISTINGS = [
     "price_value": 28500000,
     "address": "Наурызбайский р-н, мкр Шугыла, ул Абая - Алатау — Цона",
     "url": "https://krisha.kz/a/show/1010970708",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5cbcfeaa-9c10-4228-8c45-c6b48f2aa115/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cbcfeaa-9c10-4228-8c45-c6b48f2aa115/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cbcfeaa-9c10-4228-8c45-c6b48f2aa115/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cbcfeaa-9c10-4228-8c45-c6b48f2aa115/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cbcfeaa-9c10-4228-8c45-c6b48f2aa115/19-280x175.jpg\"]"
   },
   {
     "id": 68,
@@ -1155,7 +1289,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Бостандыкский р-н, Володарского 40",
     "url": "https://krisha.kz/a/show/1010702254",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d0/d05a46b6-3847-4108-82af-23e3d13616a9/83-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d05a46b6-3847-4108-82af-23e3d13616a9/84-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d05a46b6-3847-4108-82af-23e3d13616a9/85-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d05a46b6-3847-4108-82af-23e3d13616a9/86-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d05a46b6-3847-4108-82af-23e3d13616a9/87-280x175.jpg\"]"
   },
   {
     "id": 69,
@@ -1172,7 +1308,9 @@ window.LISTINGS = [
     "price_value": 26900000,
     "address": "Алатауский р-н, мкр Ожет, Северное Кольцо",
     "url": "https://krisha.kz/a/show/1007632370",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/59/59ce591d-cba3-411c-bc75-d48f4cc91670/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59ce591d-cba3-411c-bc75-d48f4cc91670/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59ce591d-cba3-411c-bc75-d48f4cc91670/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59ce591d-cba3-411c-bc75-d48f4cc91670/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59ce591d-cba3-411c-bc75-d48f4cc91670/19-280x175.jpg\"]"
   },
   {
     "id": 70,
@@ -1189,7 +1327,9 @@ window.LISTINGS = [
     "price_value": 37500000,
     "address": "Алатауский р-н, Касыма Шарипова",
     "url": "https://krisha.kz/a/show/1001656209",
-    "first_seen": "2026-06-28T12:48:30"
+    "first_seen": "2026-06-28T12:48:30",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4e/4e367a81-0bc3-47bd-a27b-136efeede4c5/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e367a81-0bc3-47bd-a27b-136efeede4c5/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e367a81-0bc3-47bd-a27b-136efeede4c5/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e367a81-0bc3-47bd-a27b-136efeede4c5/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e367a81-0bc3-47bd-a27b-136efeede4c5/9-280x175.jpg\"]"
   },
   {
     "id": 71,
@@ -1206,7 +1346,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Ауэзовский р-н, мкр №5 21А",
     "url": "https://krisha.kz/a/show/1013494453",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fd/fd6c4dad-a956-4732-82a2-ce747adff38c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd6c4dad-a956-4732-82a2-ce747adff38c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd6c4dad-a956-4732-82a2-ce747adff38c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd6c4dad-a956-4732-82a2-ce747adff38c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd6c4dad-a956-4732-82a2-ce747adff38c/5-280x175.jpg\"]"
   },
   {
     "id": 72,
@@ -1223,7 +1365,9 @@ window.LISTINGS = [
     "price_value": 96185870,
     "address": "Наурызбайский р-н, мкр Акжар, Белжайлау 47а",
     "url": "https://krisha.kz/a/show/1000286589",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e0b1752e-a7be-42d9-b5c4-ca65517b9850/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0b1752e-a7be-42d9-b5c4-ca65517b9850/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0b1752e-a7be-42d9-b5c4-ca65517b9850/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0b1752e-a7be-42d9-b5c4-ca65517b9850/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0b1752e-a7be-42d9-b5c4-ca65517b9850/5-280x175.jpg\"]"
   },
   {
     "id": 73,
@@ -1240,7 +1384,9 @@ window.LISTINGS = [
     "price_value": 68893500,
     "address": "Турксибский р-н, Кайрат микрорайон 716/16",
     "url": "https://krisha.kz/a/show/694706349",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/72/7299c54e-cc1a-468b-981f-f082efe3c27e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/7299c54e-cc1a-468b-981f-f082efe3c27e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/7299c54e-cc1a-468b-981f-f082efe3c27e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/7299c54e-cc1a-468b-981f-f082efe3c27e/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/7299c54e-cc1a-468b-981f-f082efe3c27e/6-280x175.jpg\"]"
   },
   {
     "id": 74,
@@ -1257,7 +1403,9 @@ window.LISTINGS = [
     "price_value": 50438710,
     "address": "Турксибский р-н, Кайрат микрорайон 716/16",
     "url": "https://krisha.kz/a/show/694706345",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cb/cbfe8449-b6fa-4171-b835-0d5cafd683b7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cbfe8449-b6fa-4171-b835-0d5cafd683b7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cbfe8449-b6fa-4171-b835-0d5cafd683b7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cbfe8449-b6fa-4171-b835-0d5cafd683b7/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cbfe8449-b6fa-4171-b835-0d5cafd683b7/6-280x175.jpg\"]"
   },
   {
     "id": 75,
@@ -1274,7 +1422,9 @@ window.LISTINGS = [
     "price_value": 22080000,
     "address": "Алатауский р-н, 20-й микрорайон 22",
     "url": "https://krisha.kz/a/show/1013234024",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bc/bc8905c0-1429-49bc-aa68-ed6f0d35c997/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc8905c0-1429-49bc-aa68-ed6f0d35c997/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc8905c0-1429-49bc-aa68-ed6f0d35c997/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc8905c0-1429-49bc-aa68-ed6f0d35c997/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc8905c0-1429-49bc-aa68-ed6f0d35c997/5-280x175.jpg\"]"
   },
   {
     "id": 76,
@@ -1291,7 +1441,9 @@ window.LISTINGS = [
     "price_value": 42253560,
     "address": "Турксибский р-н, мкр Нуршашкан (Колхозши), Алатау 36",
     "url": "https://krisha.kz/a/show/1011902278",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1a/1a023d78-6c1a-44dc-a3c8-d8ce5c10a2ec/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a023d78-6c1a-44dc-a3c8-d8ce5c10a2ec/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a023d78-6c1a-44dc-a3c8-d8ce5c10a2ec/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a023d78-6c1a-44dc-a3c8-d8ce5c10a2ec/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a023d78-6c1a-44dc-a3c8-d8ce5c10a2ec/5-280x175.jpg\"]"
   },
   {
     "id": 77,
@@ -1308,7 +1460,9 @@ window.LISTINGS = [
     "price_value": 27500000,
     "address": "Наурызбайский р-н, Алтын орда 6/64",
     "url": "https://krisha.kz/a/show/1012607661",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/18/180b42aa-c21b-436f-ab6d-640c8c6eb534/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/180b42aa-c21b-436f-ab6d-640c8c6eb534/73-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/180b42aa-c21b-436f-ab6d-640c8c6eb534/74-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/180b42aa-c21b-436f-ab6d-640c8c6eb534/75-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/180b42aa-c21b-436f-ab6d-640c8c6eb534/76-280x175.jpg\"]"
   },
   {
     "id": 78,
@@ -1325,7 +1479,9 @@ window.LISTINGS = [
     "price_value": 21500000,
     "address": "Наурызбайский р-н, Алатау — Алатау - Толе би",
     "url": "https://krisha.kz/a/show/1003820247",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/38b66e31-2b2e-4464-b10a-e9b22a3425e6/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38b66e31-2b2e-4464-b10a-e9b22a3425e6/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38b66e31-2b2e-4464-b10a-e9b22a3425e6/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38b66e31-2b2e-4464-b10a-e9b22a3425e6/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38b66e31-2b2e-4464-b10a-e9b22a3425e6/30-280x175.jpg\"]"
   },
   {
     "id": 79,
@@ -1342,7 +1498,9 @@ window.LISTINGS = [
     "price_value": 24940000,
     "address": "Наурызбайский р-н, мкр Шугыла, Микрорайон «Шугыла» — Шугыла",
     "url": "https://krisha.kz/a/show/1010980343",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/df/dfcbf54a-52dd-4ffd-a262-cc33792fb02e/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcbf54a-52dd-4ffd-a262-cc33792fb02e/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcbf54a-52dd-4ffd-a262-cc33792fb02e/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcbf54a-52dd-4ffd-a262-cc33792fb02e/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcbf54a-52dd-4ffd-a262-cc33792fb02e/27-280x175.jpg\"]"
   },
   {
     "id": 80,
@@ -1359,7 +1517,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Алтын Орда",
     "url": "https://krisha.kz/a/show/699795671",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8f/8ff2d432-ebfa-4c57-8528-13755a89efee/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8ff2d432-ebfa-4c57-8528-13755a89efee/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8ff2d432-ebfa-4c57-8528-13755a89efee/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8ff2d432-ebfa-4c57-8528-13755a89efee/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8ff2d432-ebfa-4c57-8528-13755a89efee/17-280x175.jpg\"]"
   },
   {
     "id": 81,
@@ -1376,7 +1536,9 @@ window.LISTINGS = [
     "price_value": 47000000,
     "address": "Алатауский р-н, мкр Самгау, ЖК Ырысты — Пр. Рыскулова уг.ул Емцова",
     "url": "https://krisha.kz/a/show/693657118",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/49/4990f074-f584-40dd-9132-83bf3d71de1f/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4990f074-f584-40dd-9132-83bf3d71de1f/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4990f074-f584-40dd-9132-83bf3d71de1f/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4990f074-f584-40dd-9132-83bf3d71de1f/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4990f074-f584-40dd-9132-83bf3d71de1f/47-280x175.jpg\"]"
   },
   {
     "id": 82,
@@ -1393,7 +1555,9 @@ window.LISTINGS = [
     "price_value": 31000000,
     "address": "Наурызбайский р-н, мкр Калкаман-1, Ашимова — Райымбека",
     "url": "https://krisha.kz/a/show/685819397",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3f/3fd057fe-6c75-4420-a78c-4efb34317911/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fd057fe-6c75-4420-a78c-4efb34317911/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fd057fe-6c75-4420-a78c-4efb34317911/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fd057fe-6c75-4420-a78c-4efb34317911/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fd057fe-6c75-4420-a78c-4efb34317911/11-280x175.jpg\"]"
   },
   {
     "id": 83,
@@ -1410,7 +1574,9 @@ window.LISTINGS = [
     "price_value": 138500000,
     "address": "Медеуский р-н, мкр Самал-1 9/2 — Жолдасбекова",
     "url": "https://krisha.kz/a/show/1013329594",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fd/fd126d5b-ec17-4db1-a6a7-11be2635cd07/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd126d5b-ec17-4db1-a6a7-11be2635cd07/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd126d5b-ec17-4db1-a6a7-11be2635cd07/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd126d5b-ec17-4db1-a6a7-11be2635cd07/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fd/fd126d5b-ec17-4db1-a6a7-11be2635cd07/5-280x175.jpg\"]"
   },
   {
     "id": 84,
@@ -1427,7 +1593,9 @@ window.LISTINGS = [
     "price_value": 42500000,
     "address": "Бостандыкский р-н, 20 Линия 29Б — Тимирязева-20 Линия",
     "url": "https://krisha.kz/a/show/1013114969",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e1432ebc-d238-41a4-b061-b600eadfb1de/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1432ebc-d238-41a4-b061-b600eadfb1de/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1432ebc-d238-41a4-b061-b600eadfb1de/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1432ebc-d238-41a4-b061-b600eadfb1de/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1432ebc-d238-41a4-b061-b600eadfb1de/34-280x175.jpg\"]"
   },
   {
     "id": 85,
@@ -1444,7 +1612,9 @@ window.LISTINGS = [
     "price_value": 30700000,
     "address": "Алатауский р-н, мкр 20-й, Мкр 20-й 6 — Сайна Монке би",
     "url": "https://krisha.kz/a/show/1012779080",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/aa/aab86423-4331-41cb-92e2-576c223cc497/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aab86423-4331-41cb-92e2-576c223cc497/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aab86423-4331-41cb-92e2-576c223cc497/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aab86423-4331-41cb-92e2-576c223cc497/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aab86423-4331-41cb-92e2-576c223cc497/5-280x175.jpg\"]"
   },
   {
     "id": 86,
@@ -1461,7 +1631,9 @@ window.LISTINGS = [
     "price_value": 22000000,
     "address": "Жетысуский р-н, ул. Ю. Ратушного 94/3",
     "url": "https://krisha.kz/a/show/1011795593",
-    "first_seen": "2026-06-28T12:48:35"
+    "first_seen": "2026-06-28T12:48:35",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/92/92f877e5-68d5-4f63-aef3-04f3d61a7fcf/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92f877e5-68d5-4f63-aef3-04f3d61a7fcf/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92f877e5-68d5-4f63-aef3-04f3d61a7fcf/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92f877e5-68d5-4f63-aef3-04f3d61a7fcf/12-280x175.jpg\"]"
   },
   {
     "id": 87,
@@ -1478,7 +1650,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Ауэзовский р-н, мкр Аксай-1А — Раймбека Момышулы",
     "url": "https://krisha.kz/a/show/1009559306",
-    "first_seen": "2026-06-28T12:48:36"
+    "first_seen": "2026-06-28T12:48:36",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/69f1ae6d-9dbc-4eb9-8734-86abad05d8d2/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69f1ae6d-9dbc-4eb9-8734-86abad05d8d2/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69f1ae6d-9dbc-4eb9-8734-86abad05d8d2/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69f1ae6d-9dbc-4eb9-8734-86abad05d8d2/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69f1ae6d-9dbc-4eb9-8734-86abad05d8d2/19-280x175.jpg\"]"
   },
   {
     "id": 88,
@@ -1495,7 +1669,9 @@ window.LISTINGS = [
     "price_value": 47000000,
     "address": "Наурызбайский р-н, мкр Акжар, Береке — Баня Сказка",
     "url": "https://krisha.kz/a/show/1008925848",
-    "first_seen": "2026-06-28T12:48:36"
+    "first_seen": "2026-06-28T12:48:36",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4730225-b032-4864-8115-bdeebe4aaf51/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4730225-b032-4864-8115-bdeebe4aaf51/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4730225-b032-4864-8115-bdeebe4aaf51/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4730225-b032-4864-8115-bdeebe4aaf51/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4730225-b032-4864-8115-bdeebe4aaf51/14-280x175.jpg\"]"
   },
   {
     "id": 89,
@@ -1512,7 +1688,9 @@ window.LISTINGS = [
     "price_value": 42500000,
     "address": "Ауэзовский р-н, мкр №12",
     "url": "https://krisha.kz/a/show/1004675214",
-    "first_seen": "2026-06-28T12:48:36"
+    "first_seen": "2026-06-28T12:48:36",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/04/04262c4b-8e72-481d-8785-2699a8b41fc6/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/04262c4b-8e72-481d-8785-2699a8b41fc6/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/04262c4b-8e72-481d-8785-2699a8b41fc6/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/04262c4b-8e72-481d-8785-2699a8b41fc6/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/04262c4b-8e72-481d-8785-2699a8b41fc6/17-280x175.jpg\"]"
   },
   {
     "id": 90,
@@ -1529,7 +1707,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Алатауский р-н, мкр Алгабас, ЖК Теректі парк",
     "url": "https://krisha.kz/a/show/1004053771",
-    "first_seen": "2026-06-28T12:48:36"
+    "first_seen": "2026-06-28T12:48:36",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c8/c8fbb7ea-8085-48fe-87cc-6395fe4ea369/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8fbb7ea-8085-48fe-87cc-6395fe4ea369/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8fbb7ea-8085-48fe-87cc-6395fe4ea369/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8fbb7ea-8085-48fe-87cc-6395fe4ea369/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8fbb7ea-8085-48fe-87cc-6395fe4ea369/17-280x175.jpg\"]"
   },
   {
     "id": 91,
@@ -1546,7 +1726,9 @@ window.LISTINGS = [
     "price_value": 39000000,
     "address": "Турксибский р-н, Сарымолдаева 31",
     "url": "https://krisha.kz/a/show/1011729389",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a9/a9b978e4-d3d7-4ee4-8f32-e9540cbe0794/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9b978e4-d3d7-4ee4-8f32-e9540cbe0794/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9b978e4-d3d7-4ee4-8f32-e9540cbe0794/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9b978e4-d3d7-4ee4-8f32-e9540cbe0794/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9b978e4-d3d7-4ee4-8f32-e9540cbe0794/5-280x175.jpg\"]"
   },
   {
     "id": 92,
@@ -1563,7 +1745,9 @@ window.LISTINGS = [
     "price_value": 170000000,
     "address": "Бостандыкский р-н, мкр Баганашыл, Мкр Баганашыл Тан 118 — Тан",
     "url": "https://krisha.kz/a/show/1006929059",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/15/151efc01-4857-493f-b9c0-b17bde83ea34/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/151efc01-4857-493f-b9c0-b17bde83ea34/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/151efc01-4857-493f-b9c0-b17bde83ea34/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/151efc01-4857-493f-b9c0-b17bde83ea34/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/151efc01-4857-493f-b9c0-b17bde83ea34/27-280x175.jpg\"]"
   },
   {
     "id": 93,
@@ -1580,7 +1764,9 @@ window.LISTINGS = [
     "price_value": 295999999,
     "address": "Бостандыкский р-н, Каргалы 2 — Выше по Дулати",
     "url": "https://krisha.kz/a/show/1013099037",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/89568058-8181-42de-86f4-7f1741f60308/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89568058-8181-42de-86f4-7f1741f60308/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89568058-8181-42de-86f4-7f1741f60308/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89568058-8181-42de-86f4-7f1741f60308/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89568058-8181-42de-86f4-7f1741f60308/5-280x175.jpg\"]"
   },
   {
     "id": 94,
@@ -1597,7 +1783,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Жетысуский р-н, мкр Кулагер — Ратушного-Серикова",
     "url": "https://krisha.kz/a/show/1012308038",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f7eccaad-59a6-4e8f-a68f-7f79f91a2215/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7eccaad-59a6-4e8f-a68f-7f79f91a2215/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7eccaad-59a6-4e8f-a68f-7f79f91a2215/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7eccaad-59a6-4e8f-a68f-7f79f91a2215/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f7eccaad-59a6-4e8f-a68f-7f79f91a2215/5-280x175.jpg\"]"
   },
   {
     "id": 95,
@@ -1614,7 +1802,9 @@ window.LISTINGS = [
     "price_value": 24900000,
     "address": "Турксибский р-н, Токтагула",
     "url": "https://krisha.kz/a/show/1011203247",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e0771574-0d97-4c6b-8f2b-6e2ba3c7110f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0771574-0d97-4c6b-8f2b-6e2ba3c7110f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0771574-0d97-4c6b-8f2b-6e2ba3c7110f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0771574-0d97-4c6b-8f2b-6e2ba3c7110f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0771574-0d97-4c6b-8f2b-6e2ba3c7110f/5-280x175.jpg\"]"
   },
   {
     "id": 96,
@@ -1631,7 +1821,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Алатауский р-н, мкр Мадениет, Салбурын 4",
     "url": "https://krisha.kz/a/show/1013205957",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/03bdff26-4921-469b-b097-bae536b16536/55-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03bdff26-4921-469b-b097-bae536b16536/63-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03bdff26-4921-469b-b097-bae536b16536/64-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03bdff26-4921-469b-b097-bae536b16536/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03bdff26-4921-469b-b097-bae536b16536/66-280x175.jpg\"]"
   },
   {
     "id": 97,
@@ -1648,7 +1840,9 @@ window.LISTINGS = [
     "price_value": 98000000,
     "address": "Алатауский р-н, мкр Улжан-1 Бескарагай 4/2",
     "url": "https://krisha.kz/a/show/1011254236",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4a2369f-2919-4187-95e9-598ed5e1f7c9/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2369f-2919-4187-95e9-598ed5e1f7c9/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2369f-2919-4187-95e9-598ed5e1f7c9/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2369f-2919-4187-95e9-598ed5e1f7c9/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2369f-2919-4187-95e9-598ed5e1f7c9/35-280x175.jpg\"]"
   },
   {
     "id": 98,
@@ -1665,7 +1859,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Наурызбайский р-н, мкр Акжар 35 — Ақ орда 35-немесе  Саттилик 35.",
     "url": "https://krisha.kz/a/show/1009295813",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/df/df936e00-c236-4d11-9ec9-9c294fc5784d/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/df936e00-c236-4d11-9ec9-9c294fc5784d/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/df936e00-c236-4d11-9ec9-9c294fc5784d/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/df936e00-c236-4d11-9ec9-9c294fc5784d/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/df936e00-c236-4d11-9ec9-9c294fc5784d/38-280x175.jpg\"]"
   },
   {
     "id": 99,
@@ -1682,7 +1878,9 @@ window.LISTINGS = [
     "price_value": 190000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Цветочная 12 — ул. Центральная/Алатау",
     "url": "https://krisha.kz/a/show/1012001110",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fb889857-9a24-452e-9d60-6cde5c735a6c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb889857-9a24-452e-9d60-6cde5c735a6c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb889857-9a24-452e-9d60-6cde5c735a6c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb889857-9a24-452e-9d60-6cde5c735a6c/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb889857-9a24-452e-9d60-6cde5c735a6c/6-280x175.jpg\"]"
   },
   {
     "id": 100,
@@ -1699,7 +1897,9 @@ window.LISTINGS = [
     "price_value": 300000000,
     "address": "Турксибский р-н, Айша Биби",
     "url": "https://krisha.kz/a/show/698330823",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/62/62eae3fb-9067-4b91-9d1e-1895a4361dd6/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/62/62eae3fb-9067-4b91-9d1e-1895a4361dd6/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/62/62eae3fb-9067-4b91-9d1e-1895a4361dd6/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/62/62eae3fb-9067-4b91-9d1e-1895a4361dd6/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/62/62eae3fb-9067-4b91-9d1e-1895a4361dd6/19-280x175.jpg\"]"
   },
   {
     "id": 101,
@@ -1716,7 +1916,9 @@ window.LISTINGS = [
     "price_value": 90000000,
     "address": "Алатауский р-н, мкр Карасу, Центральная",
     "url": "https://krisha.kz/a/show/1006369055",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/db/dbd31e9a-4a0c-4059-94d5-a41f98f2ac43/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbd31e9a-4a0c-4059-94d5-a41f98f2ac43/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbd31e9a-4a0c-4059-94d5-a41f98f2ac43/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbd31e9a-4a0c-4059-94d5-a41f98f2ac43/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbd31e9a-4a0c-4059-94d5-a41f98f2ac43/5-280x175.jpg\"]"
   },
   {
     "id": 102,
@@ -1733,7 +1935,9 @@ window.LISTINGS = [
     "price_value": 230000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2 — Абая Яссауи, Ашимова",
     "url": "https://krisha.kz/a/show/1004879287",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/47/47e7c0f4-2a83-4273-94f5-9b1df7ef9006/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47e7c0f4-2a83-4273-94f5-9b1df7ef9006/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47e7c0f4-2a83-4273-94f5-9b1df7ef9006/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47e7c0f4-2a83-4273-94f5-9b1df7ef9006/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47e7c0f4-2a83-4273-94f5-9b1df7ef9006/5-280x175.jpg\"]"
   },
   {
     "id": 103,
@@ -1750,7 +1954,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Алатауский р-н, мкр Мадениет 16 — Талдыбулак 16",
     "url": "https://krisha.kz/a/show/1005233178",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/41/41bbe75d-00d3-426c-b1e8-8364dc88b8f2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41bbe75d-00d3-426c-b1e8-8364dc88b8f2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41bbe75d-00d3-426c-b1e8-8364dc88b8f2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41bbe75d-00d3-426c-b1e8-8364dc88b8f2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41bbe75d-00d3-426c-b1e8-8364dc88b8f2/5-280x175.jpg\"]"
   },
   {
     "id": 104,
@@ -1767,7 +1973,9 @@ window.LISTINGS = [
     "price_value": 122000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Кыдырбекова 20 — Школа - №157",
     "url": "https://krisha.kz/a/show/1013355599",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c0/c0287d16-cf53-4816-a4cf-e3558cf18bb1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0287d16-cf53-4816-a4cf-e3558cf18bb1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0287d16-cf53-4816-a4cf-e3558cf18bb1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0287d16-cf53-4816-a4cf-e3558cf18bb1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0287d16-cf53-4816-a4cf-e3558cf18bb1/5-280x175.jpg\"]"
   },
   {
     "id": 105,
@@ -1784,7 +1992,9 @@ window.LISTINGS = [
     "price_value": 95000000,
     "address": "Алатауский р-н, мкр Алгабас, Домалак Ана 1",
     "url": "https://krisha.kz/a/show/692515790",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/68/68288880-9292-4879-93bb-5facec485e28/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/68/68288880-9292-4879-93bb-5facec485e28/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/68/68288880-9292-4879-93bb-5facec485e28/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/68/68288880-9292-4879-93bb-5facec485e28/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/68/68288880-9292-4879-93bb-5facec485e28/23-280x175.jpg\"]"
   },
   {
     "id": 106,
@@ -1801,7 +2011,9 @@ window.LISTINGS = [
     "price_value": 19500000,
     "address": "Алатауский р-н, мкр Алгабас, Теплоэнергетик 114 — Тец2",
     "url": "https://krisha.kz/a/show/1011208649",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3c102469-3516-4483-9b75-7b4c2b194ab8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c102469-3516-4483-9b75-7b4c2b194ab8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c102469-3516-4483-9b75-7b4c2b194ab8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c102469-3516-4483-9b75-7b4c2b194ab8/4-280x175.jpg\"]"
   },
   {
     "id": 107,
@@ -1818,7 +2030,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Алатауский р-н, Магаданский переулок 19",
     "url": "https://krisha.kz/a/show/1011521013",
-    "first_seen": "2026-06-28T12:48:41"
+    "first_seen": "2026-06-28T12:48:41",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d1/d124b92c-80cd-4472-a652-cb54e03cf5a4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d124b92c-80cd-4472-a652-cb54e03cf5a4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d124b92c-80cd-4472-a652-cb54e03cf5a4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d124b92c-80cd-4472-a652-cb54e03cf5a4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d124b92c-80cd-4472-a652-cb54e03cf5a4/5-280x175.jpg\"]"
   },
   {
     "id": 108,
@@ -1835,7 +2049,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Наурызбайский р-н, Болашак",
     "url": "https://krisha.kz/a/show/1013442905",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/07/07421824-c001-4916-bd9d-4fd4543465ea/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07421824-c001-4916-bd9d-4fd4543465ea/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07421824-c001-4916-bd9d-4fd4543465ea/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07421824-c001-4916-bd9d-4fd4543465ea/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07421824-c001-4916-bd9d-4fd4543465ea/8-280x175.jpg\"]"
   },
   {
     "id": 109,
@@ -1852,7 +2068,9 @@ window.LISTINGS = [
     "price_value": 245000000,
     "address": "Наурызбайский р-н, мкр Карагайлы",
     "url": "https://krisha.kz/a/show/1012737571",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f3/f315f03d-b40d-4c71-a46e-9c2b33c2cc1d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f315f03d-b40d-4c71-a46e-9c2b33c2cc1d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f315f03d-b40d-4c71-a46e-9c2b33c2cc1d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f315f03d-b40d-4c71-a46e-9c2b33c2cc1d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f315f03d-b40d-4c71-a46e-9c2b33c2cc1d/5-280x175.jpg\"]"
   },
   {
     "id": 110,
@@ -1869,7 +2087,9 @@ window.LISTINGS = [
     "price_value": 245000000,
     "address": "Медеуский р-н, Казанская 80",
     "url": "https://krisha.kz/a/show/1007894854",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e6/e6e0dc65-e116-43af-ac49-3077ef5ba2a1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6e0dc65-e116-43af-ac49-3077ef5ba2a1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6e0dc65-e116-43af-ac49-3077ef5ba2a1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6e0dc65-e116-43af-ac49-3077ef5ba2a1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6e0dc65-e116-43af-ac49-3077ef5ba2a1/5-280x175.jpg\"]"
   },
   {
     "id": 111,
@@ -1886,7 +2106,9 @@ window.LISTINGS = [
     "price_value": 158000000,
     "address": "Медеуский р-н, Кыдырбекулы 97",
     "url": "https://krisha.kz/a/show/1009221812",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c7/c7d0852d-2dc1-41c7-9d63-3cddf6d8a4a5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7d0852d-2dc1-41c7-9d63-3cddf6d8a4a5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7d0852d-2dc1-41c7-9d63-3cddf6d8a4a5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7d0852d-2dc1-41c7-9d63-3cddf6d8a4a5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7d0852d-2dc1-41c7-9d63-3cddf6d8a4a5/5-280x175.jpg\"]"
   },
   {
     "id": 112,
@@ -1903,7 +2125,9 @@ window.LISTINGS = [
     "price_value": 245000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау, Мамыр 8 — КазахФильм",
     "url": "https://krisha.kz/a/show/1012536912",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/83/83962beb-51cc-40c2-aa9d-e91799123458/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83962beb-51cc-40c2-aa9d-e91799123458/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83962beb-51cc-40c2-aa9d-e91799123458/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83962beb-51cc-40c2-aa9d-e91799123458/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83962beb-51cc-40c2-aa9d-e91799123458/5-280x175.jpg\"]"
   },
   {
     "id": 113,
@@ -1920,7 +2144,9 @@ window.LISTINGS = [
     "price_value": 366000000,
     "address": "Медеуский р-н, Дружба спорт — Вельвет Спорт Вилла, Есентай Молл",
     "url": "https://krisha.kz/a/show/1010796879",
-    "first_seen": "2026-06-28T12:48:42"
+    "first_seen": "2026-06-28T12:48:42",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/25d02b17-92fb-43c3-8535-c9b6fd0b9a61/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25d02b17-92fb-43c3-8535-c9b6fd0b9a61/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25d02b17-92fb-43c3-8535-c9b6fd0b9a61/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25d02b17-92fb-43c3-8535-c9b6fd0b9a61/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25d02b17-92fb-43c3-8535-c9b6fd0b9a61/8-280x175.jpg\"]"
   },
   {
     "id": 114,
@@ -1937,7 +2163,9 @@ window.LISTINGS = [
     "price_value": 152000000,
     "address": "Наурызбайский р-н, мкр Таусамалы — Дрозда 128",
     "url": "https://krisha.kz/a/show/1013107015",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/aa/aaa4666d-01b8-4831-87a7-d4811770e237/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aaa4666d-01b8-4831-87a7-d4811770e237/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aaa4666d-01b8-4831-87a7-d4811770e237/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aaa4666d-01b8-4831-87a7-d4811770e237/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aaa4666d-01b8-4831-87a7-d4811770e237/5-280x175.jpg\"]"
   },
   {
     "id": 115,
@@ -1954,7 +2182,9 @@ window.LISTINGS = [
     "price_value": 240000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау",
     "url": "https://krisha.kz/a/show/1002697868",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f9/f94fcb69-c68d-4030-bc60-0009de806657/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f94fcb69-c68d-4030-bc60-0009de806657/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f94fcb69-c68d-4030-bc60-0009de806657/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f94fcb69-c68d-4030-bc60-0009de806657/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f94fcb69-c68d-4030-bc60-0009de806657/5-280x175.jpg\"]"
   },
   {
     "id": 116,
@@ -1971,7 +2201,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Турксибский р-н, мкр Кайрат, Коктас 10",
     "url": "https://krisha.kz/a/show/695668786",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fbecce33-a109-4052-9fa4-ebd30cf1e47b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fbecce33-a109-4052-9fa4-ebd30cf1e47b/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fbecce33-a109-4052-9fa4-ebd30cf1e47b/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fbecce33-a109-4052-9fa4-ebd30cf1e47b/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fbecce33-a109-4052-9fa4-ebd30cf1e47b/9-280x175.jpg\"]"
   },
   {
     "id": 117,
@@ -1988,7 +2220,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Турксибский р-н, ул. Алексея Остроумова 10",
     "url": "https://krisha.kz/a/show/1011965369",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 118,
@@ -2005,7 +2239,9 @@ window.LISTINGS = [
     "price_value": 1680000,
     "address": "Бостандыкский р-н, Жандосова 67",
     "url": "https://krisha.kz/a/show/1013449398",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 119,
@@ -2022,7 +2258,9 @@ window.LISTINGS = [
     "price_value": 60000000,
     "address": "Медеуский р-н, Сырымбет 18",
     "url": "https://krisha.kz/a/show/1013142676",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d3/d3c18294-c4e4-46a2-ae68-0b4a79092f20/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c18294-c4e4-46a2-ae68-0b4a79092f20/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c18294-c4e4-46a2-ae68-0b4a79092f20/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c18294-c4e4-46a2-ae68-0b4a79092f20/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c18294-c4e4-46a2-ae68-0b4a79092f20/5-280x175.jpg\"]"
   },
   {
     "id": 120,
@@ -2039,7 +2277,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Бостандыкский р-н, мкр Баганашыл, 3 Алма — Рядом Garden villa",
     "url": "https://krisha.kz/a/show/674944446",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d0/d0df3c31-ae8e-4a21-a86f-076737789356/81-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d0df3c31-ae8e-4a21-a86f-076737789356/82-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d0df3c31-ae8e-4a21-a86f-076737789356/83-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d0df3c31-ae8e-4a21-a86f-076737789356/84-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d0/d0df3c31-ae8e-4a21-a86f-076737789356/85-280x175.jpg\"]"
   },
   {
     "id": 121,
@@ -2056,7 +2296,9 @@ window.LISTINGS = [
     "price_value": 2100000000,
     "address": "Медеуский р-н, мкр Горный Гигант, Жамакаева 256а",
     "url": "https://krisha.kz/a/show/1012764471",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5f/5f490ba8-b920-4312-961d-83a679a4e4d1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5f/5f490ba8-b920-4312-961d-83a679a4e4d1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5f/5f490ba8-b920-4312-961d-83a679a4e4d1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5f/5f490ba8-b920-4312-961d-83a679a4e4d1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5f/5f490ba8-b920-4312-961d-83a679a4e4d1/5-280x175.jpg\"]"
   },
   {
     "id": 122,
@@ -2073,7 +2315,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Алатауский р-н, мкр Айгерим-2",
     "url": "https://krisha.kz/a/show/761801664",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2f/2f8e4bc9-1e60-4ddc-81c9-814ae810181a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f8e4bc9-1e60-4ddc-81c9-814ae810181a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f8e4bc9-1e60-4ddc-81c9-814ae810181a/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f8e4bc9-1e60-4ddc-81c9-814ae810181a/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f8e4bc9-1e60-4ddc-81c9-814ae810181a/8-280x175.jpg\"]"
   },
   {
     "id": 123,
@@ -2090,7 +2334,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Турксибский р-н, мкр Альмерек",
     "url": "https://krisha.kz/a/show/1012667786",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a82c286e-c7f3-4380-9689-2183dd6de745/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a82c286e-c7f3-4380-9689-2183dd6de745/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a82c286e-c7f3-4380-9689-2183dd6de745/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a82c286e-c7f3-4380-9689-2183dd6de745/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a82c286e-c7f3-4380-9689-2183dd6de745/7-280x175.jpg\"]"
   },
   {
     "id": 124,
@@ -2107,7 +2353,9 @@ window.LISTINGS = [
     "price_value": 170000000,
     "address": "Медеуский р-н, мкр Думан-2 — Даркенбаева",
     "url": "https://krisha.kz/a/show/1008179542",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3c7446a2-08bb-4b72-847f-9e8be24a7150/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c7446a2-08bb-4b72-847f-9e8be24a7150/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c7446a2-08bb-4b72-847f-9e8be24a7150/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c7446a2-08bb-4b72-847f-9e8be24a7150/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c7446a2-08bb-4b72-847f-9e8be24a7150/9-280x175.jpg\"]"
   },
   {
     "id": 125,
@@ -2124,7 +2372,9 @@ window.LISTINGS = [
     "price_value": 89800000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Бегалиева — Сабденова",
     "url": "https://krisha.kz/a/show/1009981341",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bb/bbcfff72-35c1-43f8-81ee-e7fabe27421c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bbcfff72-35c1-43f8-81ee-e7fabe27421c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bbcfff72-35c1-43f8-81ee-e7fabe27421c/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bbcfff72-35c1-43f8-81ee-e7fabe27421c/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bbcfff72-35c1-43f8-81ee-e7fabe27421c/7-280x175.jpg\"]"
   },
   {
     "id": 126,
@@ -2141,7 +2391,9 @@ window.LISTINGS = [
     "price_value": 72000000,
     "address": "Бостандыкский р-н, мкр Хан Тенгри 300 — Алмаарасан",
     "url": "https://krisha.kz/a/show/1013147393",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 127,
@@ -2158,7 +2410,9 @@ window.LISTINGS = [
     "price_value": 79000000,
     "address": "Алатауский р-н, мкр Шапагат — Головоцкий 49",
     "url": "https://krisha.kz/a/show/1002682011",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d2/d2d09d60-a3a1-44c5-9bc0-a4d272dcb343/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2d09d60-a3a1-44c5-9bc0-a4d272dcb343/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2d09d60-a3a1-44c5-9bc0-a4d272dcb343/3-280x175.jpg\"]"
   },
   {
     "id": 128,
@@ -2175,7 +2429,9 @@ window.LISTINGS = [
     "price_value": 370000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау",
     "url": "https://krisha.kz/a/show/1011537910",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9c/9c8eb077-fea0-437d-b017-4037e23bc26e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c8eb077-fea0-437d-b017-4037e23bc26e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c8eb077-fea0-437d-b017-4037e23bc26e/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c8eb077-fea0-437d-b017-4037e23bc26e/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c8eb077-fea0-437d-b017-4037e23bc26e/7-280x175.jpg\"]"
   },
   {
     "id": 129,
@@ -2192,7 +2448,9 @@ window.LISTINGS = [
     "price_value": 79000000,
     "address": "Ак Жазык 8 — Бакат",
     "url": "https://krisha.kz/a/show/1012341224",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c6/c6ee9259-99db-4214-91dc-75f6418501fa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6ee9259-99db-4214-91dc-75f6418501fa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6ee9259-99db-4214-91dc-75f6418501fa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6ee9259-99db-4214-91dc-75f6418501fa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6ee9259-99db-4214-91dc-75f6418501fa/5-280x175.jpg\"]"
   },
   {
     "id": 130,
@@ -2209,7 +2467,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ) 14 — Аубакирова 14",
     "url": "https://krisha.kz/a/show/1012503741",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1e/1ea2ebe3-bcc9-42d3-bd51-3c0f57a69d65/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1ea2ebe3-bcc9-42d3-bd51-3c0f57a69d65/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1ea2ebe3-bcc9-42d3-bd51-3c0f57a69d65/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1ea2ebe3-bcc9-42d3-bd51-3c0f57a69d65/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1ea2ebe3-bcc9-42d3-bd51-3c0f57a69d65/7-280x175.jpg\"]"
   },
   {
     "id": 131,
@@ -2226,7 +2486,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Турксибский р-н, Ержанова 29",
     "url": "https://krisha.kz/a/show/1009554708",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/659b71f4-80fb-49f2-b8af-2cdeb881d63f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/659b71f4-80fb-49f2-b8af-2cdeb881d63f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/659b71f4-80fb-49f2-b8af-2cdeb881d63f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/659b71f4-80fb-49f2-b8af-2cdeb881d63f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/659b71f4-80fb-49f2-b8af-2cdeb881d63f/5-280x175.jpg\"]"
   },
   {
     "id": 132,
@@ -2243,7 +2505,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Жетысуский р-н, Никольская 56 — Жангельдина",
     "url": "https://krisha.kz/a/show/1003568341",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/85/8547e243-41bf-42f0-8b88-c005c8b2a656/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8547e243-41bf-42f0-8b88-c005c8b2a656/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8547e243-41bf-42f0-8b88-c005c8b2a656/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8547e243-41bf-42f0-8b88-c005c8b2a656/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8547e243-41bf-42f0-8b88-c005c8b2a656/7-280x175.jpg\"]"
   },
   {
     "id": 133,
@@ -2260,7 +2524,9 @@ window.LISTINGS = [
     "price_value": 105000000,
     "address": "Турксибский р-н, мкр Кайрат, Аркар 20",
     "url": "https://krisha.kz/a/show/1011964211",
-    "first_seen": "2026-06-28T12:48:47"
+    "first_seen": "2026-06-28T12:48:47",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/65168035-b2c8-4810-ab4f-54bcf8c2bd96/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65168035-b2c8-4810-ab4f-54bcf8c2bd96/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65168035-b2c8-4810-ab4f-54bcf8c2bd96/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65168035-b2c8-4810-ab4f-54bcf8c2bd96/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65168035-b2c8-4810-ab4f-54bcf8c2bd96/5-280x175.jpg\"]"
   },
   {
     "id": 134,
@@ -2277,7 +2543,9 @@ window.LISTINGS = [
     "price_value": 9500000,
     "address": "Медеуский р-н, мкр Кенсай 32 — СТ энергетик",
     "url": "https://krisha.kz/a/show/694630735",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7f/7f3c1071-f14f-4847-add9-13f2a8616fee/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f3c1071-f14f-4847-add9-13f2a8616fee/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f3c1071-f14f-4847-add9-13f2a8616fee/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f3c1071-f14f-4847-add9-13f2a8616fee/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f3c1071-f14f-4847-add9-13f2a8616fee/21-280x175.jpg\"]"
   },
   {
     "id": 135,
@@ -2294,7 +2562,9 @@ window.LISTINGS = [
     "price_value": 89990000,
     "address": "Алатауский р-н, мкр Карасу, Каламбаева 9",
     "url": "https://krisha.kz/a/show/1012783464",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/73/730b41ce-d938-40df-904d-88f46bab3176/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/730b41ce-d938-40df-904d-88f46bab3176/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/730b41ce-d938-40df-904d-88f46bab3176/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/730b41ce-d938-40df-904d-88f46bab3176/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/730b41ce-d938-40df-904d-88f46bab3176/5-280x175.jpg\"]"
   },
   {
     "id": 136,
@@ -2311,7 +2581,9 @@ window.LISTINGS = [
     "price_value": 145000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Ашимова 343 — Алимова - Жигер",
     "url": "https://krisha.kz/a/show/692375945",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a52a5305-6593-4b75-8073-f95b0bbe495d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a52a5305-6593-4b75-8073-f95b0bbe495d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a52a5305-6593-4b75-8073-f95b0bbe495d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a52a5305-6593-4b75-8073-f95b0bbe495d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a52a5305-6593-4b75-8073-f95b0bbe495d/5-280x175.jpg\"]"
   },
   {
     "id": 137,
@@ -2328,7 +2600,9 @@ window.LISTINGS = [
     "price_value": 199000000,
     "address": "Бостандыкский р-н, мкр Хан Тенгри 51 — Дулати утегенова",
     "url": "https://krisha.kz/a/show/1006099037",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/11/11cb6a29-a91e-4c0e-afee-0bfd6c58ff9a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/11cb6a29-a91e-4c0e-afee-0bfd6c58ff9a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/11cb6a29-a91e-4c0e-afee-0bfd6c58ff9a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/11cb6a29-a91e-4c0e-afee-0bfd6c58ff9a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/11cb6a29-a91e-4c0e-afee-0bfd6c58ff9a/5-280x175.jpg\"]"
   },
   {
     "id": 138,
@@ -2345,7 +2619,9 @@ window.LISTINGS = [
     "price_value": 180000000,
     "address": "Алатауский р-н, мкр Мадениет 145",
     "url": "https://krisha.kz/a/show/1008650158",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d4/d490e737-bb03-4685-a1db-54bb528950bf/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d490e737-bb03-4685-a1db-54bb528950bf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d490e737-bb03-4685-a1db-54bb528950bf/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d490e737-bb03-4685-a1db-54bb528950bf/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d490e737-bb03-4685-a1db-54bb528950bf/5-280x175.jpg\"]"
   },
   {
     "id": 139,
@@ -2362,7 +2638,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик) 179 — Выше парка Президента",
     "url": "https://krisha.kz/a/show/1013263208",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b8/b80151f1-6fea-4ceb-a2b1-c710932eb27a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b80151f1-6fea-4ceb-a2b1-c710932eb27a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b80151f1-6fea-4ceb-a2b1-c710932eb27a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b80151f1-6fea-4ceb-a2b1-c710932eb27a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b80151f1-6fea-4ceb-a2b1-c710932eb27a/5-280x175.jpg\"]"
   },
   {
     "id": 140,
@@ -2379,7 +2657,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Наурызбайский р-н, мкр Шугыла Дала 3",
     "url": "https://krisha.kz/a/show/1011437667",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4f/4f87ee11-e4b4-4c33-9e31-0aa72f2104b1/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f87ee11-e4b4-4c33-9e31-0aa72f2104b1/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f87ee11-e4b4-4c33-9e31-0aa72f2104b1/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f87ee11-e4b4-4c33-9e31-0aa72f2104b1/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f87ee11-e4b4-4c33-9e31-0aa72f2104b1/44-280x175.jpg\"]"
   },
   {
     "id": 141,
@@ -2396,7 +2676,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Турксибский р-н, мкр Жас Канат 186",
     "url": "https://krisha.kz/a/show/1012304385",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fba22068-c2a7-4fc8-a57a-01ed0345a5e2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fba22068-c2a7-4fc8-a57a-01ed0345a5e2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fba22068-c2a7-4fc8-a57a-01ed0345a5e2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fba22068-c2a7-4fc8-a57a-01ed0345a5e2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fba22068-c2a7-4fc8-a57a-01ed0345a5e2/5-280x175.jpg\"]"
   },
   {
     "id": 142,
@@ -2413,7 +2695,9 @@ window.LISTINGS = [
     "price_value": 47500000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Алатау 29",
     "url": "https://krisha.kz/a/show/1009088518",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/01/0183fde2-63ef-496c-9fa7-62901459e851/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0183fde2-63ef-496c-9fa7-62901459e851/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0183fde2-63ef-496c-9fa7-62901459e851/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0183fde2-63ef-496c-9fa7-62901459e851/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0183fde2-63ef-496c-9fa7-62901459e851/25-280x175.jpg\"]"
   },
   {
     "id": 143,
@@ -2430,7 +2714,9 @@ window.LISTINGS = [
     "price_value": 110000000,
     "address": "Ауэзовский р-н, мкр Достык, Акжунис 57 — Абая-Ясауи",
     "url": "https://krisha.kz/a/show/692905968",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/46/46ae6392-c402-4ea7-9910-241cb7f53055/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46ae6392-c402-4ea7-9910-241cb7f53055/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46ae6392-c402-4ea7-9910-241cb7f53055/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46ae6392-c402-4ea7-9910-241cb7f53055/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46ae6392-c402-4ea7-9910-241cb7f53055/5-280x175.jpg\"]"
   },
   {
     "id": 144,
@@ -2447,7 +2733,9 @@ window.LISTINGS = [
     "price_value": 155000000,
     "address": "Наурызбайский р-н, мкр Карагайлы — Ер Косай",
     "url": "https://krisha.kz/a/show/1013030304",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a5655510-772f-4d14-badc-31c3e75023bb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5655510-772f-4d14-badc-31c3e75023bb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5655510-772f-4d14-badc-31c3e75023bb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5655510-772f-4d14-badc-31c3e75023bb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5655510-772f-4d14-badc-31c3e75023bb/5-280x175.jpg\"]"
   },
   {
     "id": 145,
@@ -2464,7 +2752,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Алатауский р-н, мкр Акбулак 8 — Ташкентская",
     "url": "https://krisha.kz/a/show/1012664557",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e7/e799ecec-202c-4474-ad7b-a8dc569f1395/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e799ecec-202c-4474-ad7b-a8dc569f1395/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e799ecec-202c-4474-ad7b-a8dc569f1395/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e799ecec-202c-4474-ad7b-a8dc569f1395/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e799ecec-202c-4474-ad7b-a8dc569f1395/5-280x175.jpg\"]"
   },
   {
     "id": 146,
@@ -2481,7 +2771,9 @@ window.LISTINGS = [
     "price_value": 23800000,
     "address": "Жетысуский р-н, Шерхана Муртаза 68",
     "url": "https://krisha.kz/a/show/1002823887",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/54/545b8b73-9b44-41db-a785-f6c4c37b462d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/545b8b73-9b44-41db-a785-f6c4c37b462d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/545b8b73-9b44-41db-a785-f6c4c37b462d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/545b8b73-9b44-41db-a785-f6c4c37b462d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/545b8b73-9b44-41db-a785-f6c4c37b462d/5-280x175.jpg\"]"
   },
   {
     "id": 147,
@@ -2498,7 +2790,9 @@ window.LISTINGS = [
     "price_value": 69000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Хадиша Бокеева 22",
     "url": "https://krisha.kz/a/show/699018225",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/29/29204723-4330-4859-b9ce-e851e7ec746d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/29204723-4330-4859-b9ce-e851e7ec746d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/29204723-4330-4859-b9ce-e851e7ec746d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/29204723-4330-4859-b9ce-e851e7ec746d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/29204723-4330-4859-b9ce-e851e7ec746d/5-280x175.jpg\"]"
   },
   {
     "id": 148,
@@ -2515,7 +2809,9 @@ window.LISTINGS = [
     "price_value": 94000000,
     "address": "Алатауский р-н, мкр Алгабас, Мкр Алгабас, ул.Бегазы 1г — Ул.Бегазы - Ф.Онгарсыновой",
     "url": "https://krisha.kz/a/show/1009582255",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/99/99c4db3f-ee6d-4097-8812-fa08923f76e8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/99c4db3f-ee6d-4097-8812-fa08923f76e8/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/99c4db3f-ee6d-4097-8812-fa08923f76e8/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/99c4db3f-ee6d-4097-8812-fa08923f76e8/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/99c4db3f-ee6d-4097-8812-fa08923f76e8/21-280x175.jpg\"]"
   },
   {
     "id": 149,
@@ -2532,7 +2828,9 @@ window.LISTINGS = [
     "price_value": 74000000,
     "address": "Наурызбайский р-н, мкр Таусамалы 5 — Приречная 5",
     "url": "https://krisha.kz/a/show/1012147598",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c7/c7663c9c-a6e8-446d-ba5a-dc9114048be8/92-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7663c9c-a6e8-446d-ba5a-dc9114048be8/93-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7663c9c-a6e8-446d-ba5a-dc9114048be8/94-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7663c9c-a6e8-446d-ba5a-dc9114048be8/95-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7663c9c-a6e8-446d-ba5a-dc9114048be8/96-280x175.jpg\"]"
   },
   {
     "id": 150,
@@ -2549,7 +2847,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Наурызбайский р-н, мкр Рахат, Жасыл Жер 56 — Аскарова/Жандосова",
     "url": "https://krisha.kz/a/show/1005540410",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e5/e521c089-4e3e-40fc-8403-74a1ffb5b4b2/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e521c089-4e3e-40fc-8403-74a1ffb5b4b2/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e521c089-4e3e-40fc-8403-74a1ffb5b4b2/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e521c089-4e3e-40fc-8403-74a1ffb5b4b2/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e521c089-4e3e-40fc-8403-74a1ffb5b4b2/25-280x175.jpg\"]"
   },
   {
     "id": 151,
@@ -2566,7 +2866,9 @@ window.LISTINGS = [
     "price_value": 210000000,
     "address": "Медеуский р-н, Аврора 87",
     "url": "https://krisha.kz/a/show/1010190172",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e093dc4b-47ac-409c-b3e7-29dd5a03413e/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e093dc4b-47ac-409c-b3e7-29dd5a03413e/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e093dc4b-47ac-409c-b3e7-29dd5a03413e/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e093dc4b-47ac-409c-b3e7-29dd5a03413e/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e093dc4b-47ac-409c-b3e7-29dd5a03413e/66-280x175.jpg\"]"
   },
   {
     "id": 152,
@@ -2583,7 +2885,9 @@ window.LISTINGS = [
     "price_value": 399000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Ашимова  Шаляпина 23",
     "url": "https://krisha.kz/a/show/1013092360",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1a/1a761458-60d9-4177-a97a-905f63318c46/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a761458-60d9-4177-a97a-905f63318c46/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a761458-60d9-4177-a97a-905f63318c46/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a761458-60d9-4177-a97a-905f63318c46/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1a/1a761458-60d9-4177-a97a-905f63318c46/5-280x175.jpg\"]"
   },
   {
     "id": 153,
@@ -2600,7 +2904,9 @@ window.LISTINGS = [
     "price_value": 99900000,
     "address": "Алатауский р-н, мкр Ожет, Садуакасова 59 — Напротив школы",
     "url": "https://krisha.kz/a/show/1012417931",
-    "first_seen": "2026-06-28T12:48:53"
+    "first_seen": "2026-06-28T12:48:53",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8c/8ccc8598-5f7f-49da-a720-86fc351a4996/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ccc8598-5f7f-49da-a720-86fc351a4996/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ccc8598-5f7f-49da-a720-86fc351a4996/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ccc8598-5f7f-49da-a720-86fc351a4996/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ccc8598-5f7f-49da-a720-86fc351a4996/33-280x175.jpg\"]"
   },
   {
     "id": 154,
@@ -2617,7 +2923,9 @@ window.LISTINGS = [
     "price_value": 520000000,
     "address": "Медеуский р-н, мкр Коктобе",
     "url": "https://krisha.kz/a/show/1008110024",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d8/d88db41d-6208-4f6e-97d3-c0fc7df12715/107-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d88db41d-6208-4f6e-97d3-c0fc7df12715/108-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d88db41d-6208-4f6e-97d3-c0fc7df12715/109-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d88db41d-6208-4f6e-97d3-c0fc7df12715/110-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d88db41d-6208-4f6e-97d3-c0fc7df12715/111-280x175.jpg\"]"
   },
   {
     "id": 155,
@@ -2634,7 +2942,9 @@ window.LISTINGS = [
     "price_value": 550000000,
     "address": "Бостандыкский р-н, мкр Ерменсай",
     "url": "https://krisha.kz/a/show/1011075129",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/65bdd636-eefb-4465-999b-6ce0e39f328d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65bdd636-eefb-4465-999b-6ce0e39f328d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65bdd636-eefb-4465-999b-6ce0e39f328d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65bdd636-eefb-4465-999b-6ce0e39f328d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65bdd636-eefb-4465-999b-6ce0e39f328d/5-280x175.jpg\"]"
   },
   {
     "id": 156,
@@ -2651,7 +2961,9 @@ window.LISTINGS = [
     "price_value": 145000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Жанат 43А — Жандосова",
     "url": "https://krisha.kz/a/show/662100745",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/33/335b6bc2-c828-43b8-984c-5be18dd336a3/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/335b6bc2-c828-43b8-984c-5be18dd336a3/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/335b6bc2-c828-43b8-984c-5be18dd336a3/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/335b6bc2-c828-43b8-984c-5be18dd336a3/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/335b6bc2-c828-43b8-984c-5be18dd336a3/17-280x175.jpg\"]"
   },
   {
     "id": 157,
@@ -2668,7 +2980,9 @@ window.LISTINGS = [
     "price_value": 105000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Жанжигитова 11/1",
     "url": "https://krisha.kz/a/show/689025382",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e059228c-ebe0-438f-8ada-18c9900f023c/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e059228c-ebe0-438f-8ada-18c9900f023c/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e059228c-ebe0-438f-8ada-18c9900f023c/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e059228c-ebe0-438f-8ada-18c9900f023c/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e059228c-ebe0-438f-8ada-18c9900f023c/36-280x175.jpg\"]"
   },
   {
     "id": 158,
@@ -2685,7 +2999,9 @@ window.LISTINGS = [
     "price_value": 239000000,
     "address": "Бостандыкский р-н, Сапарлы жол 1 б",
     "url": "https://krisha.kz/a/show/1011303199",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/61/61a36afd-1561-4cb4-8552-b48272682fe7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61a36afd-1561-4cb4-8552-b48272682fe7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61a36afd-1561-4cb4-8552-b48272682fe7/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61a36afd-1561-4cb4-8552-b48272682fe7/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61a36afd-1561-4cb4-8552-b48272682fe7/9-280x175.jpg\"]"
   },
   {
     "id": 159,
@@ -2702,7 +3018,9 @@ window.LISTINGS = [
     "price_value": 110000000,
     "address": "Алатауский р-н, мкр Улжан-1 — Ұлан Такежанова",
     "url": "https://krisha.kz/a/show/1006267900",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c8/c8c0b174-cee2-457d-abf6-b09ec22c42f4/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8c0b174-cee2-457d-abf6-b09ec22c42f4/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8c0b174-cee2-457d-abf6-b09ec22c42f4/55-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8c0b174-cee2-457d-abf6-b09ec22c42f4/56-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8c0b174-cee2-457d-abf6-b09ec22c42f4/57-280x175.jpg\"]"
   },
   {
     "id": 160,
@@ -2719,7 +3037,9 @@ window.LISTINGS = [
     "price_value": 250000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Кырмызы",
     "url": "https://krisha.kz/a/show/1012034706",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4e/4e731894-ed83-4d4c-90fc-249e9ec714d7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e731894-ed83-4d4c-90fc-249e9ec714d7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e731894-ed83-4d4c-90fc-249e9ec714d7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e731894-ed83-4d4c-90fc-249e9ec714d7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e731894-ed83-4d4c-90fc-249e9ec714d7/5-280x175.jpg\"]"
   },
   {
     "id": 161,
@@ -2736,7 +3056,9 @@ window.LISTINGS = [
     "price_value": 290000000,
     "address": "Медеуский р-н, мкр Горный Гигант — Ул.Затаевича/ул.Искандерова",
     "url": "https://krisha.kz/a/show/1013140803",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/77/775f6f15-03d7-49ee-9549-938e79fc6ec1/1-280x175.jpg\"]"
   },
   {
     "id": 162,
@@ -2753,7 +3075,9 @@ window.LISTINGS = [
     "price_value": 211000000,
     "address": "Медеуский р-н, Кастеева 33",
     "url": "https://krisha.kz/a/show/682962312",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8a/8adefaef-9aa8-425a-8b59-2ca27f3b4e89/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8adefaef-9aa8-425a-8b59-2ca27f3b4e89/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8adefaef-9aa8-425a-8b59-2ca27f3b4e89/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8adefaef-9aa8-425a-8b59-2ca27f3b4e89/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8adefaef-9aa8-425a-8b59-2ca27f3b4e89/47-280x175.jpg\"]"
   },
   {
     "id": 163,
@@ -2770,7 +3094,9 @@ window.LISTINGS = [
     "price_value": 520000000,
     "address": "Медеуский р-н, мкр Каменское плато — Коргауши",
     "url": "https://krisha.kz/a/show/1010697318",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/24/2448f49c-6c00-4fa9-9506-c0287ac90184/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/2448f49c-6c00-4fa9-9506-c0287ac90184/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/2448f49c-6c00-4fa9-9506-c0287ac90184/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/2448f49c-6c00-4fa9-9506-c0287ac90184/8-280x175.jpg\"]"
   },
   {
     "id": 164,
@@ -2787,7 +3113,9 @@ window.LISTINGS = [
     "price_value": 72000000,
     "address": "Турксибский р-н, Буденного",
     "url": "https://krisha.kz/a/show/1010457702",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/77/77782acb-9cb4-40f2-888e-6239c133c3ef/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77782acb-9cb4-40f2-888e-6239c133c3ef/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77782acb-9cb4-40f2-888e-6239c133c3ef/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77782acb-9cb4-40f2-888e-6239c133c3ef/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77782acb-9cb4-40f2-888e-6239c133c3ef/14-280x175.jpg\"]"
   },
   {
     "id": 165,
@@ -2804,7 +3132,9 @@ window.LISTINGS = [
     "price_value": 520000000,
     "address": "Бостандыкский р-н, мкр Баганашыл, Мкр Баганашыл, СТ Мамыр 94",
     "url": "https://krisha.kz/a/show/1002090960",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d2/d2800b21-502c-4565-a561-8716ca91d75e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2800b21-502c-4565-a561-8716ca91d75e/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2800b21-502c-4565-a561-8716ca91d75e/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2800b21-502c-4565-a561-8716ca91d75e/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d2800b21-502c-4565-a561-8716ca91d75e/22-280x175.jpg\"]"
   },
   {
     "id": 166,
@@ -2821,7 +3151,9 @@ window.LISTINGS = [
     "price_value": 100000000,
     "address": "Алатауский р-н, мкр Акбулак 116В — улица Касыма Шарипова",
     "url": "https://krisha.kz/a/show/1012487174",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/08/08f9efb6-5fd6-47d2-a604-921cc7c69876/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08f9efb6-5fd6-47d2-a604-921cc7c69876/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08f9efb6-5fd6-47d2-a604-921cc7c69876/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08f9efb6-5fd6-47d2-a604-921cc7c69876/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08f9efb6-5fd6-47d2-a604-921cc7c69876/5-280x175.jpg\"]"
   },
   {
     "id": 167,
@@ -2838,7 +3170,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Наурызбайский р-н, мкр Акжар, Маканшы 35",
     "url": "https://krisha.kz/a/show/1013070187",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4e/4e827d70-ff4e-4d34-9981-65f2b8fae2a7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e827d70-ff4e-4d34-9981-65f2b8fae2a7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e827d70-ff4e-4d34-9981-65f2b8fae2a7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e827d70-ff4e-4d34-9981-65f2b8fae2a7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4e827d70-ff4e-4d34-9981-65f2b8fae2a7/5-280x175.jpg\"]"
   },
   {
     "id": 168,
@@ -2855,7 +3189,9 @@ window.LISTINGS = [
     "price_value": 650000000,
     "address": "Бостандыкский р-н, мкр Мирас, Аскарова 7",
     "url": "https://krisha.kz/a/show/664981634",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/de/de37979b-6b78-4ff4-915c-70f8215220af/250-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de37979b-6b78-4ff4-915c-70f8215220af/254-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de37979b-6b78-4ff4-915c-70f8215220af/255-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de37979b-6b78-4ff4-915c-70f8215220af/256-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de37979b-6b78-4ff4-915c-70f8215220af/258-280x175.jpg\"]"
   },
   {
     "id": 169,
@@ -2872,7 +3208,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алатауский р-н, мкр Саялы, Акшагыл 38",
     "url": "https://krisha.kz/a/show/697596344",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b7/b7ffef47-8ab7-4138-8ee2-0a4f40127d3d/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b7/b7ffef47-8ab7-4138-8ee2-0a4f40127d3d/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b7/b7ffef47-8ab7-4138-8ee2-0a4f40127d3d/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b7/b7ffef47-8ab7-4138-8ee2-0a4f40127d3d/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b7/b7ffef47-8ab7-4138-8ee2-0a4f40127d3d/27-280x175.jpg\"]"
   },
   {
     "id": 170,
@@ -2889,7 +3227,9 @@ window.LISTINGS = [
     "price_value": 280000000,
     "address": "Медеуский р-н, мкр Юбилейный, Кайсенова 105/5",
     "url": "https://krisha.kz/a/show/1012690306",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/02/02938593-2d27-4db3-882c-cc1edc559172/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02938593-2d27-4db3-882c-cc1edc559172/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02938593-2d27-4db3-882c-cc1edc559172/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02938593-2d27-4db3-882c-cc1edc559172/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02938593-2d27-4db3-882c-cc1edc559172/5-280x175.jpg\"]"
   },
   {
     "id": 171,
@@ -2906,7 +3246,9 @@ window.LISTINGS = [
     "price_value": 54999999,
     "address": "Медеуский р-н, мкр Каменское плато, Байконурская",
     "url": "https://krisha.kz/a/show/1013237362",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8d/8d6df6ea-4f99-471e-bfc9-54a1eaec1ad0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d6df6ea-4f99-471e-bfc9-54a1eaec1ad0/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d6df6ea-4f99-471e-bfc9-54a1eaec1ad0/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d6df6ea-4f99-471e-bfc9-54a1eaec1ad0/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d6df6ea-4f99-471e-bfc9-54a1eaec1ad0/8-280x175.jpg\"]"
   },
   {
     "id": 172,
@@ -2923,7 +3265,9 @@ window.LISTINGS = [
     "price_value": 290000000,
     "address": "Бостандыкский р-н, Курортная",
     "url": "https://krisha.kz/a/show/1013492920",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b2/b21473f2-c671-4e09-ad60-12a161024675/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21473f2-c671-4e09-ad60-12a161024675/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21473f2-c671-4e09-ad60-12a161024675/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21473f2-c671-4e09-ad60-12a161024675/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21473f2-c671-4e09-ad60-12a161024675/5-280x175.jpg\"]"
   },
   {
     "id": 173,
@@ -2940,7 +3284,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Алатауский р-н, мкр Айгерим-2",
     "url": "https://krisha.kz/a/show/1013082985",
-    "first_seen": "2026-06-28T12:48:58"
+    "first_seen": "2026-06-28T12:48:58",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f799a90f-38b6-452d-99dd-089a1f7f7257/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f799a90f-38b6-452d-99dd-089a1f7f7257/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f799a90f-38b6-452d-99dd-089a1f7f7257/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f799a90f-38b6-452d-99dd-089a1f7f7257/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f799a90f-38b6-452d-99dd-089a1f7f7257/5-280x175.jpg\"]"
   },
   {
     "id": 174,
@@ -2957,7 +3303,9 @@ window.LISTINGS = [
     "price_value": 72000000,
     "address": "Ауэзовский р-н, Солнечная — АДК Сатпаева-Шепеткова",
     "url": "https://krisha.kz/a/show/1005329334",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4d/4d6857c9-5041-426d-9852-73653403241b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4d6857c9-5041-426d-9852-73653403241b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4d6857c9-5041-426d-9852-73653403241b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4d6857c9-5041-426d-9852-73653403241b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4d6857c9-5041-426d-9852-73653403241b/5-280x175.jpg\"]"
   },
   {
     "id": 175,
@@ -2974,7 +3322,9 @@ window.LISTINGS = [
     "price_value": 42900000,
     "address": "Алатауский р-н, мкр Шанырак-2, Аубакирова 146",
     "url": "https://krisha.kz/a/show/1012617693",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b3/b33bdb69-db22-4901-a3e1-e333eb893755/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33bdb69-db22-4901-a3e1-e333eb893755/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33bdb69-db22-4901-a3e1-e333eb893755/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33bdb69-db22-4901-a3e1-e333eb893755/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33bdb69-db22-4901-a3e1-e333eb893755/10-280x175.jpg\"]"
   },
   {
     "id": 176,
@@ -2991,7 +3341,9 @@ window.LISTINGS = [
     "price_value": 480000000,
     "address": "Бостандыкский р-н, мкр Баганашыл 116",
     "url": "https://krisha.kz/a/show/4099203",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 177,
@@ -3008,7 +3360,9 @@ window.LISTINGS = [
     "price_value": 118000000,
     "address": "Наурызбайский р-н, мкр Калкаман-1, Қалқаман-1 ш/а.жуалы көшесы 45",
     "url": "https://krisha.kz/a/show/1012367132",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/44/44cd7b1e-9f9c-4e0f-af4f-16f98169282c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44cd7b1e-9f9c-4e0f-af4f-16f98169282c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44cd7b1e-9f9c-4e0f-af4f-16f98169282c/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44cd7b1e-9f9c-4e0f-af4f-16f98169282c/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44cd7b1e-9f9c-4e0f-af4f-16f98169282c/7-280x175.jpg\"]"
   },
   {
     "id": 178,
@@ -3025,7 +3379,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Алатауский р-н, мкр Улжан-1 1/4",
     "url": "https://krisha.kz/a/show/1013105356",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bd/bd576cfa-1af5-48d6-8071-96085a867135/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd576cfa-1af5-48d6-8071-96085a867135/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd576cfa-1af5-48d6-8071-96085a867135/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd576cfa-1af5-48d6-8071-96085a867135/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd576cfa-1af5-48d6-8071-96085a867135/5-280x175.jpg\"]"
   },
   {
     "id": 179,
@@ -3042,7 +3398,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ), Орталык — С/т Радуга",
     "url": "https://krisha.kz/a/show/1010223110",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/09/09462b11-51c2-4b56-969d-88ac1aeeff31/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09462b11-51c2-4b56-969d-88ac1aeeff31/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09462b11-51c2-4b56-969d-88ac1aeeff31/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09462b11-51c2-4b56-969d-88ac1aeeff31/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09462b11-51c2-4b56-969d-88ac1aeeff31/5-280x175.jpg\"]"
   },
   {
     "id": 180,
@@ -3059,7 +3417,9 @@ window.LISTINGS = [
     "price_value": 95000000,
     "address": "Медеуский р-н, Орынтай Жетису 731 — Бухтарминская",
     "url": "https://krisha.kz/a/show/1012434593",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f6/f6a3855e-4f3f-4d4c-b3f3-a0ed5ee3f0fa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6a3855e-4f3f-4d4c-b3f3-a0ed5ee3f0fa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6a3855e-4f3f-4d4c-b3f3-a0ed5ee3f0fa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6a3855e-4f3f-4d4c-b3f3-a0ed5ee3f0fa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6a3855e-4f3f-4d4c-b3f3-a0ed5ee3f0fa/5-280x175.jpg\"]"
   },
   {
     "id": 181,
@@ -3076,7 +3436,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Кали-Надырова 85/5",
     "url": "https://krisha.kz/a/show/1013428605",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bd/bd3bd762-96bc-40e4-a83e-d3fd2af5862e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd3bd762-96bc-40e4-a83e-d3fd2af5862e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd3bd762-96bc-40e4-a83e-d3fd2af5862e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd3bd762-96bc-40e4-a83e-d3fd2af5862e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd3bd762-96bc-40e4-a83e-d3fd2af5862e/5-280x175.jpg\"]"
   },
   {
     "id": 182,
@@ -3093,7 +3455,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Турксибский р-н, мкр Альмерек — Мангилик ел",
     "url": "https://krisha.kz/a/show/1011830952",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/11/1105dfcc-d8f5-46f7-ad7f-c9d39cdab8a1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/1105dfcc-d8f5-46f7-ad7f-c9d39cdab8a1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/1105dfcc-d8f5-46f7-ad7f-c9d39cdab8a1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/1105dfcc-d8f5-46f7-ad7f-c9d39cdab8a1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/11/1105dfcc-d8f5-46f7-ad7f-c9d39cdab8a1/5-280x175.jpg\"]"
   },
   {
     "id": 183,
@@ -3110,7 +3474,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Медеуский р-н, Кок Тобе",
     "url": "https://krisha.kz/a/show/1012594731",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/85/85ca1b85-4cb8-4428-8c6b-cc5e229543f4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/85ca1b85-4cb8-4428-8c6b-cc5e229543f4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/85ca1b85-4cb8-4428-8c6b-cc5e229543f4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/85ca1b85-4cb8-4428-8c6b-cc5e229543f4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/85ca1b85-4cb8-4428-8c6b-cc5e229543f4/5-280x175.jpg\"]"
   },
   {
     "id": 184,
@@ -3127,7 +3493,9 @@ window.LISTINGS = [
     "price_value": 260000000,
     "address": "Яблочная 15",
     "url": "https://krisha.kz/a/show/1012977159",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7d/7d1cdc5d-3b0d-42bd-944a-d865c3a4da8f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1cdc5d-3b0d-42bd-944a-d865c3a4da8f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1cdc5d-3b0d-42bd-944a-d865c3a4da8f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1cdc5d-3b0d-42bd-944a-d865c3a4da8f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1cdc5d-3b0d-42bd-944a-d865c3a4da8f/5-280x175.jpg\"]"
   },
   {
     "id": 185,
@@ -3144,7 +3512,9 @@ window.LISTINGS = [
     "price_value": 135000000,
     "address": "Турксибский р-н, Закарпатская — Майлина",
     "url": "https://krisha.kz/a/show/1013367150",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/42/4290381f-2474-4eef-8e94-d739d205dbc1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4290381f-2474-4eef-8e94-d739d205dbc1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4290381f-2474-4eef-8e94-d739d205dbc1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4290381f-2474-4eef-8e94-d739d205dbc1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4290381f-2474-4eef-8e94-d739d205dbc1/5-280x175.jpg\"]"
   },
   {
     "id": 186,
@@ -3161,7 +3531,9 @@ window.LISTINGS = [
     "price_value": 155000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Арал",
     "url": "https://krisha.kz/a/show/1009976161",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/db/dba44dac-cce7-4576-88e5-42e4e88e747b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dba44dac-cce7-4576-88e5-42e4e88e747b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dba44dac-cce7-4576-88e5-42e4e88e747b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dba44dac-cce7-4576-88e5-42e4e88e747b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dba44dac-cce7-4576-88e5-42e4e88e747b/5-280x175.jpg\"]"
   },
   {
     "id": 187,
@@ -3178,7 +3550,9 @@ window.LISTINGS = [
     "price_value": 149000000,
     "address": "Алатауский р-н, мкр Акбулак, Мкр Акбулак. Дауренбекова 23 — проспект Райымбека / Момышулы",
     "url": "https://krisha.kz/a/show/760096752",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/66/6636003f-7c62-48e1-8af8-ed715355f7ab/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/6636003f-7c62-48e1-8af8-ed715355f7ab/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/6636003f-7c62-48e1-8af8-ed715355f7ab/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/6636003f-7c62-48e1-8af8-ed715355f7ab/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/6636003f-7c62-48e1-8af8-ed715355f7ab/5-280x175.jpg\"]"
   },
   {
     "id": 188,
@@ -3195,7 +3569,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Медеуский р-н, Жаркент 111",
     "url": "https://krisha.kz/a/show/1012529717",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/96/96b8165b-eeaa-4450-8ca6-2b02ca3380da/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96b8165b-eeaa-4450-8ca6-2b02ca3380da/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96b8165b-eeaa-4450-8ca6-2b02ca3380da/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96b8165b-eeaa-4450-8ca6-2b02ca3380da/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96b8165b-eeaa-4450-8ca6-2b02ca3380da/5-280x175.jpg\"]"
   },
   {
     "id": 189,
@@ -3212,7 +3588,9 @@ window.LISTINGS = [
     "price_value": 310000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Абилова 31 — Шаляпина",
     "url": "https://krisha.kz/a/show/1004265836",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e8/e8076d8b-339a-4ada-8fdf-eb855b7d2f75/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8076d8b-339a-4ada-8fdf-eb855b7d2f75/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8076d8b-339a-4ada-8fdf-eb855b7d2f75/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8076d8b-339a-4ada-8fdf-eb855b7d2f75/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8076d8b-339a-4ada-8fdf-eb855b7d2f75/6-280x175.jpg\"]"
   },
   {
     "id": 190,
@@ -3229,7 +3607,9 @@ window.LISTINGS = [
     "price_value": 87000000,
     "address": "Наурызбайский р-н, Кенесары Хана 2/15 — улица Жеруйык",
     "url": "https://krisha.kz/a/show/1008830270",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4b/4bc58062-3a28-4d65-8ec6-ae0cf3b6b1f7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4bc58062-3a28-4d65-8ec6-ae0cf3b6b1f7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4bc58062-3a28-4d65-8ec6-ae0cf3b6b1f7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4bc58062-3a28-4d65-8ec6-ae0cf3b6b1f7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4bc58062-3a28-4d65-8ec6-ae0cf3b6b1f7/5-280x175.jpg\"]"
   },
   {
     "id": 191,
@@ -3246,7 +3626,9 @@ window.LISTINGS = [
     "price_value": 300000000,
     "address": "Алатауский р-н, мкр Акбулак, улица Сыздыкова 53",
     "url": "https://krisha.kz/a/show/1012453792",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dcedc409-7b8b-4467-ac1e-88e1c267b858/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcedc409-7b8b-4467-ac1e-88e1c267b858/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcedc409-7b8b-4467-ac1e-88e1c267b858/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcedc409-7b8b-4467-ac1e-88e1c267b858/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcedc409-7b8b-4467-ac1e-88e1c267b858/5-280x175.jpg\"]"
   },
   {
     "id": 192,
@@ -3263,7 +3645,9 @@ window.LISTINGS = [
     "price_value": 275000000,
     "address": "Бостандыкский р-н, 50 лет Октября — Недалеко от школы Тамос",
     "url": "https://krisha.kz/a/show/1003054458",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6a/6a018c81-d44b-4771-a481-2381b960e2a7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a018c81-d44b-4771-a481-2381b960e2a7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a018c81-d44b-4771-a481-2381b960e2a7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a018c81-d44b-4771-a481-2381b960e2a7/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a018c81-d44b-4771-a481-2381b960e2a7/6-280x175.jpg\"]"
   },
   {
     "id": 193,
@@ -3280,7 +3664,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Медеуский р-н, Переулок Иманбаевой 11 — Переулок, чуть выше областной больницы",
     "url": "https://krisha.kz/a/show/1002204286",
-    "first_seen": "2026-06-28T12:49:04"
+    "first_seen": "2026-06-28T12:49:04",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8b/8b7697dd-08dd-4e7a-a781-08525af7a0fb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b7697dd-08dd-4e7a-a781-08525af7a0fb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b7697dd-08dd-4e7a-a781-08525af7a0fb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b7697dd-08dd-4e7a-a781-08525af7a0fb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b7697dd-08dd-4e7a-a781-08525af7a0fb/5-280x175.jpg\"]"
   },
   {
     "id": 194,
@@ -3297,7 +3683,9 @@ window.LISTINGS = [
     "price_value": 120500500,
     "address": "Наурызбайский р-н, Арал — Жандосова",
     "url": "https://krisha.kz/a/show/691968161",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/29/294ea16e-2855-4763-961a-f27d1b509b56/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/294ea16e-2855-4763-961a-f27d1b509b56/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/294ea16e-2855-4763-961a-f27d1b509b56/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/294ea16e-2855-4763-961a-f27d1b509b56/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/29/294ea16e-2855-4763-961a-f27d1b509b56/8-280x175.jpg\"]"
   },
   {
     "id": 195,
@@ -3314,7 +3702,9 @@ window.LISTINGS = [
     "price_value": 60000500,
     "address": "Алмалинский р-н, Байзакова 41 — Байзакова- Макатаева",
     "url": "https://krisha.kz/a/show/1012168664",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2c/2c9d431f-60c6-459f-9201-d07ad27b8f61/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c9d431f-60c6-459f-9201-d07ad27b8f61/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c9d431f-60c6-459f-9201-d07ad27b8f61/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c9d431f-60c6-459f-9201-d07ad27b8f61/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c9d431f-60c6-459f-9201-d07ad27b8f61/6-280x175.jpg\"]"
   },
   {
     "id": 196,
@@ -3331,7 +3721,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Наурызбайский р-н, Раимбек — С. Раимбек.  ул. Раимбек",
     "url": "https://krisha.kz/a/show/1010989714",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/35/35f915a0-1a7d-4fea-8a7c-1966f907473b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35f915a0-1a7d-4fea-8a7c-1966f907473b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35f915a0-1a7d-4fea-8a7c-1966f907473b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35f915a0-1a7d-4fea-8a7c-1966f907473b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35f915a0-1a7d-4fea-8a7c-1966f907473b/5-280x175.jpg\"]"
   },
   {
     "id": 197,
@@ -3348,7 +3740,9 @@ window.LISTINGS = [
     "price_value": 100000000,
     "address": "Жетысуский р-н, Бокейханова 382",
     "url": "https://krisha.kz/a/show/1013494141",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5cecf6a6-e8b6-4925-8343-ad020259e3b1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cecf6a6-e8b6-4925-8343-ad020259e3b1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cecf6a6-e8b6-4925-8343-ad020259e3b1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cecf6a6-e8b6-4925-8343-ad020259e3b1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cecf6a6-e8b6-4925-8343-ad020259e3b1/5-280x175.jpg\"]"
   },
   {
     "id": 198,
@@ -3365,7 +3759,9 @@ window.LISTINGS = [
     "price_value": 12300000,
     "address": "Медеуский р-н",
     "url": "https://krisha.kz/a/show/1013493829",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 199,
@@ -3382,7 +3778,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Бакад — Гейт Сити",
     "url": "https://krisha.kz/a/show/1012991700",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9a/9a870032-b619-4dca-835d-8f5762b6a247/4-280x175.jpg\"]"
   },
   {
     "id": 200,
@@ -3399,7 +3797,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик)",
     "url": "https://krisha.kz/a/show/1010970608",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/49/49a59a07-d77e-41c6-99c1-e4494996afc5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/49a59a07-d77e-41c6-99c1-e4494996afc5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/49a59a07-d77e-41c6-99c1-e4494996afc5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/49a59a07-d77e-41c6-99c1-e4494996afc5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/49a59a07-d77e-41c6-99c1-e4494996afc5/5-280x175.jpg\"]"
   },
   {
     "id": 201,
@@ -3416,7 +3816,9 @@ window.LISTINGS = [
     "price_value": 13200000,
     "address": "Турксибский р-н",
     "url": "https://krisha.kz/a/show/1001832624",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4f/4f6dae0e-74b4-4059-93fe-5819131a292a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f6dae0e-74b4-4059-93fe-5819131a292a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f6dae0e-74b4-4059-93fe-5819131a292a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f6dae0e-74b4-4059-93fe-5819131a292a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f6dae0e-74b4-4059-93fe-5819131a292a/5-280x175.jpg\"]"
   },
   {
     "id": 202,
@@ -3433,7 +3835,9 @@ window.LISTINGS = [
     "price_value": 438000000,
     "address": "Медеуский р-н, мкр Горный Гигант, Карибжанова 77",
     "url": "https://krisha.kz/a/show/1012997767",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a89085c8-4539-4411-b3dc-cf5c527578c6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a89085c8-4539-4411-b3dc-cf5c527578c6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a89085c8-4539-4411-b3dc-cf5c527578c6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a89085c8-4539-4411-b3dc-cf5c527578c6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a89085c8-4539-4411-b3dc-cf5c527578c6/5-280x175.jpg\"]"
   },
   {
     "id": 203,
@@ -3450,7 +3854,9 @@ window.LISTINGS = [
     "price_value": 160000000,
     "address": "Медеуский р-н, мкр Сулусай",
     "url": "https://krisha.kz/a/show/14400892",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/95/95a39832-b1f7-44ac-9fcf-cf5e64e55aba/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/95a39832-b1f7-44ac-9fcf-cf5e64e55aba/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/95a39832-b1f7-44ac-9fcf-cf5e64e55aba/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/95a39832-b1f7-44ac-9fcf-cf5e64e55aba/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/95a39832-b1f7-44ac-9fcf-cf5e64e55aba/5-280x175.jpg\"]"
   },
   {
     "id": 204,
@@ -3467,7 +3873,9 @@ window.LISTINGS = [
     "price_value": 18500000,
     "address": "Медеуский р-н, мкр Кенсай, Ст Мичуринец 19 — Главной дороги Шокая",
     "url": "https://krisha.kz/a/show/1012804634",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f2/f279fc77-53ed-4cc5-b5dc-2c67a5f7e388/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f279fc77-53ed-4cc5-b5dc-2c67a5f7e388/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f279fc77-53ed-4cc5-b5dc-2c67a5f7e388/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f279fc77-53ed-4cc5-b5dc-2c67a5f7e388/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f279fc77-53ed-4cc5-b5dc-2c67a5f7e388/7-280x175.jpg\"]"
   },
   {
     "id": 205,
@@ -3484,7 +3892,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Алатауский р-н, мкр Туркестан, Сыганак 31 — Рыскулова Емцова",
     "url": "https://krisha.kz/a/show/1011723642",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0f/0fe29c8b-4bb9-48ad-9620-c0959ee02ba4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0fe29c8b-4bb9-48ad-9620-c0959ee02ba4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0fe29c8b-4bb9-48ad-9620-c0959ee02ba4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0fe29c8b-4bb9-48ad-9620-c0959ee02ba4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0fe29c8b-4bb9-48ad-9620-c0959ee02ba4/5-280x175.jpg\"]"
   },
   {
     "id": 206,
@@ -3501,7 +3911,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, ул Ермека уч 55",
     "url": "https://krisha.kz/a/show/1010772746",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6e/6e89cb4d-e1d9-41d9-ade1-bcbf456a2c6e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e89cb4d-e1d9-41d9-ade1-bcbf456a2c6e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e89cb4d-e1d9-41d9-ade1-bcbf456a2c6e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e89cb4d-e1d9-41d9-ade1-bcbf456a2c6e/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e89cb4d-e1d9-41d9-ade1-bcbf456a2c6e/8-280x175.jpg\"]"
   },
   {
     "id": 207,
@@ -3518,7 +3930,9 @@ window.LISTINGS = [
     "price_value": 9000000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1010936793",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9d/9d9e61fa-9472-4374-a912-aeb4d242e59a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d9e61fa-9472-4374-a912-aeb4d242e59a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d9e61fa-9472-4374-a912-aeb4d242e59a/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d9e61fa-9472-4374-a912-aeb4d242e59a/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d9e61fa-9472-4374-a912-aeb4d242e59a/8-280x175.jpg\"]"
   },
   {
     "id": 208,
@@ -3535,7 +3949,9 @@ window.LISTINGS = [
     "price_value": 115000000,
     "address": "Бостандыкский р-н, мкр Баганашыл",
     "url": "https://krisha.kz/a/show/1008721893",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/21/213a086e-8489-4a4f-8f33-0ccd87717193/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213a086e-8489-4a4f-8f33-0ccd87717193/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213a086e-8489-4a4f-8f33-0ccd87717193/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213a086e-8489-4a4f-8f33-0ccd87717193/4-280x175.jpg\"]"
   },
   {
     "id": 209,
@@ -3552,7 +3968,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Медеуский р-н, мкр Юбилейный, Бригадная — Достык Альфараби",
     "url": "https://krisha.kz/a/show/1012899880",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a4/a48cc78d-d946-436e-8125-96650c25bc3f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a48cc78d-d946-436e-8125-96650c25bc3f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a48cc78d-d946-436e-8125-96650c25bc3f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a48cc78d-d946-436e-8125-96650c25bc3f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a48cc78d-d946-436e-8125-96650c25bc3f/6-280x175.jpg\"]"
   },
   {
     "id": 210,
@@ -3569,7 +3987,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Алатауский р-н, мкр Шапагат, Тайконыр 42 — Бывший 3 градокомплекс / За Рынком \"Акбулак\" 3",
     "url": "https://krisha.kz/a/show/1010522688",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/08/08023e5f-67aa-4c42-879f-07b1b0fb6a0c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08023e5f-67aa-4c42-879f-07b1b0fb6a0c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08023e5f-67aa-4c42-879f-07b1b0fb6a0c/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08023e5f-67aa-4c42-879f-07b1b0fb6a0c/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08023e5f-67aa-4c42-879f-07b1b0fb6a0c/10-280x175.jpg\"]"
   },
   {
     "id": 211,
@@ -3586,7 +4006,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Алмалинский р-н, Исаева 5",
     "url": "https://krisha.kz/a/show/1012961990",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/02/0204f0e9-5d90-433d-9d5c-ee93139cd4ca/1-280x175.jpg\"]"
   },
   {
     "id": 212,
@@ -3603,7 +4025,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Наурызбайский р-н, Ерубаева 8/15",
     "url": "https://krisha.kz/a/show/673235212",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4a/4a77bd5c-8a26-400c-966e-36cea4aad5f5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4a/4a77bd5c-8a26-400c-966e-36cea4aad5f5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4a/4a77bd5c-8a26-400c-966e-36cea4aad5f5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4a/4a77bd5c-8a26-400c-966e-36cea4aad5f5/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4a/4a77bd5c-8a26-400c-966e-36cea4aad5f5/6-280x175.jpg\"]"
   },
   {
     "id": 213,
@@ -3620,7 +4044,9 @@ window.LISTINGS = [
     "price_value": 460000000,
     "address": "Ауэзовский р-н, мкр Достык, Улагат 1",
     "url": "https://krisha.kz/a/show/1006959610",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ba/ba717800-00ed-445c-b859-236091be8663/2-280x175.jpg\"]"
   },
   {
     "id": 214,
@@ -3637,7 +4063,9 @@ window.LISTINGS = [
     "price_value": 280000000,
     "address": "Медеуский р-н, мкр Юбилейный",
     "url": "https://krisha.kz/a/show/1012899718",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c9/c9644d94-046f-4a1a-8ec9-dcdc38261dd4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c9/c9644d94-046f-4a1a-8ec9-dcdc38261dd4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c9/c9644d94-046f-4a1a-8ec9-dcdc38261dd4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c9/c9644d94-046f-4a1a-8ec9-dcdc38261dd4/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c9/c9644d94-046f-4a1a-8ec9-dcdc38261dd4/6-280x175.jpg\"]"
   },
   {
     "id": 215,
@@ -3654,7 +4082,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Турксибский р-н",
     "url": "https://krisha.kz/a/show/1003703656",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c6/c6f31e36-6c92-403b-a3f4-ebeeab4776e1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6f31e36-6c92-403b-a3f4-ebeeab4776e1/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c6f31e36-6c92-403b-a3f4-ebeeab4776e1/6-280x175.jpg\"]"
   },
   {
     "id": 216,
@@ -3671,7 +4101,9 @@ window.LISTINGS = [
     "price_value": 900000000,
     "address": "Медеуский р-н, Кок-Тобе, Сахариева 5",
     "url": "https://krisha.kz/a/show/1013483123",
-    "first_seen": "2026-06-28T12:49:10"
+    "first_seen": "2026-06-28T12:49:10",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d4/d4e59205-5f30-4390-af57-eb0ad32e8bc9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d4e59205-5f30-4390-af57-eb0ad32e8bc9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d4e59205-5f30-4390-af57-eb0ad32e8bc9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d4e59205-5f30-4390-af57-eb0ad32e8bc9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d4/d4e59205-5f30-4390-af57-eb0ad32e8bc9/5-280x175.jpg\"]"
   },
   {
     "id": 217,
@@ -3688,7 +4120,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Алатауский р-н, мкр Заря Востока, Мкр.Шапагат ул .Тайконыр 42 — За рынком Акбулак (бывший рынок Кулагер)",
     "url": "https://krisha.kz/a/show/1006395692",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/36/36c8d4c9-8479-4ba0-a5e4-c48db8c84d7e/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36c8d4c9-8479-4ba0-a5e4-c48db8c84d7e/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36c8d4c9-8479-4ba0-a5e4-c48db8c84d7e/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36c8d4c9-8479-4ba0-a5e4-c48db8c84d7e/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36c8d4c9-8479-4ba0-a5e4-c48db8c84d7e/13-280x175.jpg\"]"
   },
   {
     "id": 218,
@@ -3705,7 +4139,9 @@ window.LISTINGS = [
     "price_value": 1900000000,
     "address": "Медеуский р-н, мкр Горный Гигант",
     "url": "https://krisha.kz/a/show/1005924981",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/82/82dc08fb-4bbf-4bf3-9b61-7617a6997acc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82dc08fb-4bbf-4bf3-9b61-7617a6997acc/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82dc08fb-4bbf-4bf3-9b61-7617a6997acc/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82dc08fb-4bbf-4bf3-9b61-7617a6997acc/7-280x175.jpg\"]"
   },
   {
     "id": 219,
@@ -3722,7 +4158,9 @@ window.LISTINGS = [
     "price_value": 3500000000,
     "address": "Медеуский р-н, Халиуллина — Напротив ЖК Грин Сити",
     "url": "https://krisha.kz/a/show/690225114",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/20/20bc30df-28d4-4882-bbf7-240e0af63f01/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/20/20bc30df-28d4-4882-bbf7-240e0af63f01/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/20/20bc30df-28d4-4882-bbf7-240e0af63f01/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/20/20bc30df-28d4-4882-bbf7-240e0af63f01/4-280x175.jpg\"]"
   },
   {
     "id": 220,
@@ -3739,7 +4177,9 @@ window.LISTINGS = [
     "price_value": 28500000,
     "address": "Медеуский р-н, мкр Коктобе 35A — Телевышка",
     "url": "https://krisha.kz/a/show/1011268076",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e8/e8815b96-c455-4764-8067-bf9e13be35be/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8815b96-c455-4764-8067-bf9e13be35be/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8815b96-c455-4764-8067-bf9e13be35be/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8815b96-c455-4764-8067-bf9e13be35be/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8815b96-c455-4764-8067-bf9e13be35be/5-280x175.jpg\"]"
   },
   {
     "id": 221,
@@ -3756,7 +4196,9 @@ window.LISTINGS = [
     "price_value": 650000000,
     "address": "Наурызбайский р-н",
     "url": "https://krisha.kz/a/show/1013381389",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/db/db3aa0cc-7149-43cb-b2dc-8dce40761ecf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db3aa0cc-7149-43cb-b2dc-8dce40761ecf/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db3aa0cc-7149-43cb-b2dc-8dce40761ecf/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db3aa0cc-7149-43cb-b2dc-8dce40761ecf/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db3aa0cc-7149-43cb-b2dc-8dce40761ecf/6-280x175.jpg\"]"
   },
   {
     "id": 222,
@@ -3773,7 +4215,9 @@ window.LISTINGS = [
     "price_value": 21500000,
     "address": "Алатауский р-н, мкр Теректы",
     "url": "https://krisha.kz/a/show/1012823110",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/6346d3b7-fca0-4730-b564-b4deca005099/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6346d3b7-fca0-4730-b564-b4deca005099/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6346d3b7-fca0-4730-b564-b4deca005099/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6346d3b7-fca0-4730-b564-b4deca005099/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6346d3b7-fca0-4730-b564-b4deca005099/5-280x175.jpg\"]"
   },
   {
     "id": 223,
@@ -3790,7 +4234,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, Садовая 22",
     "url": "https://krisha.kz/a/show/1011056148",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1d/1db13020-ff91-47a3-bd98-2b9f6db2ba4c/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1db13020-ff91-47a3-bd98-2b9f6db2ba4c/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1db13020-ff91-47a3-bd98-2b9f6db2ba4c/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1db13020-ff91-47a3-bd98-2b9f6db2ba4c/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1db13020-ff91-47a3-bd98-2b9f6db2ba4c/15-280x175.jpg\"]"
   },
   {
     "id": 224,
@@ -3807,7 +4253,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Медеуский р-н, С/т «Вымпел» 63",
     "url": "https://krisha.kz/a/show/1011866641",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/af/af8d41ab-78f5-49cc-a6b5-74bfd62dd4a7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af8d41ab-78f5-49cc-a6b5-74bfd62dd4a7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af8d41ab-78f5-49cc-a6b5-74bfd62dd4a7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af8d41ab-78f5-49cc-a6b5-74bfd62dd4a7/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af8d41ab-78f5-49cc-a6b5-74bfd62dd4a7/6-280x175.jpg\"]"
   },
   {
     "id": 225,
@@ -3824,7 +4272,9 @@ window.LISTINGS = [
     "price_value": 2900000000,
     "address": "Бостандыкский р-н",
     "url": "https://krisha.kz/a/show/1011648406",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1a/1a004ef5-8e0d-4c62-a117-78c8a057074a/3-280x175.jpg\"]"
   },
   {
     "id": 226,
@@ -3841,7 +4291,9 @@ window.LISTINGS = [
     "price_value": 98000000,
     "address": "Бостандыкский р-н, мкр Баганашыл, Приовражная 4 а — Участок расположен в ПКСТ \"Труд-2 ММ\"",
     "url": "https://krisha.kz/a/show/1011339797",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8a/8a54b70e-75ea-4906-b864-809128763200/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8a54b70e-75ea-4906-b864-809128763200/5-280x175.jpg\"]"
   },
   {
     "id": 227,
@@ -3858,7 +4310,9 @@ window.LISTINGS = [
     "price_value": 95000000,
     "address": "Медеуский р-н, мкр Кольсай — Койгелди батыр",
     "url": "https://krisha.kz/a/show/1011440602",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b0/b06c14fd-c326-42a7-9f64-daabb5481a91/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b06c14fd-c326-42a7-9f64-daabb5481a91/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b06c14fd-c326-42a7-9f64-daabb5481a91/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b06c14fd-c326-42a7-9f64-daabb5481a91/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b06c14fd-c326-42a7-9f64-daabb5481a91/5-280x175.jpg\"]"
   },
   {
     "id": 228,
@@ -3875,7 +4329,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Медеуский р-н, СХ Ак-Су 102",
     "url": "https://krisha.kz/a/show/1011988416",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7c/7cf81159-9463-46cb-8130-c0bd334d4f95/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7cf81159-9463-46cb-8130-c0bd334d4f95/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7cf81159-9463-46cb-8130-c0bd334d4f95/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7cf81159-9463-46cb-8130-c0bd334d4f95/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7cf81159-9463-46cb-8130-c0bd334d4f95/6-280x175.jpg\"]"
   },
   {
     "id": 229,
@@ -3892,7 +4348,9 @@ window.LISTINGS = [
     "price_value": 635000000,
     "address": "Наурызбайский р-н, ПДП Ж1",
     "url": "https://krisha.kz/a/show/1006030987",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8a/8a2ba27e-5c41-438d-84ce-68a3edb5432b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8a2ba27e-5c41-438d-84ce-68a3edb5432b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8a2ba27e-5c41-438d-84ce-68a3edb5432b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8a2ba27e-5c41-438d-84ce-68a3edb5432b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8a2ba27e-5c41-438d-84ce-68a3edb5432b/5-280x175.jpg\"]"
   },
   {
     "id": 230,
@@ -3909,7 +4367,9 @@ window.LISTINGS = [
     "price_value": 79000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Набережная 37 — Жандосова",
     "url": "https://krisha.kz/a/show/1004838825",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/12/129647c7-157b-42e4-b408-765cfcb7f843/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129647c7-157b-42e4-b408-765cfcb7f843/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129647c7-157b-42e4-b408-765cfcb7f843/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129647c7-157b-42e4-b408-765cfcb7f843/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129647c7-157b-42e4-b408-765cfcb7f843/5-280x175.jpg\"]"
   },
   {
     "id": 231,
@@ -3926,7 +4386,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Медеуский р-н, мкр Кольсай",
     "url": "https://krisha.kz/a/show/1013063298",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5b/5b5cf7b0-14bf-4a89-8bf4-bfac80fa01ca/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5b/5b5cf7b0-14bf-4a89-8bf4-bfac80fa01ca/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5b/5b5cf7b0-14bf-4a89-8bf4-bfac80fa01ca/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5b/5b5cf7b0-14bf-4a89-8bf4-bfac80fa01ca/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5b/5b5cf7b0-14bf-4a89-8bf4-bfac80fa01ca/5-280x175.jpg\"]"
   },
   {
     "id": 232,
@@ -3943,7 +4405,9 @@ window.LISTINGS = [
     "price_value": 79000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Набережная 37 — Жандосова",
     "url": "https://krisha.kz/a/show/1004945096",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c8/c8d33a04-1951-41ca-bcbf-6c589a970b6c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8d33a04-1951-41ca-bcbf-6c589a970b6c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8d33a04-1951-41ca-bcbf-6c589a970b6c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8d33a04-1951-41ca-bcbf-6c589a970b6c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8d33a04-1951-41ca-bcbf-6c589a970b6c/5-280x175.jpg\"]"
   },
   {
     "id": 233,
@@ -3960,7 +4424,9 @@ window.LISTINGS = [
     "price_value": 12000000,
     "address": "Алатауский р-н, мкр Карасу, Қарасу ш/а.",
     "url": "https://krisha.kz/a/show/1013491645",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5cedcf18-da3b-42b0-b52c-26598ab27f63/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cedcf18-da3b-42b0-b52c-26598ab27f63/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cedcf18-da3b-42b0-b52c-26598ab27f63/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cedcf18-da3b-42b0-b52c-26598ab27f63/4-280x175.jpg\"]"
   },
   {
     "id": 234,
@@ -3977,7 +4443,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Алатауский р-н, мкр Ожет 127Г — Новая",
     "url": "https://krisha.kz/a/show/761731038",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/255ceb01-1a60-4ff1-b14a-25714800b85d/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/255ceb01-1a60-4ff1-b14a-25714800b85d/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/255ceb01-1a60-4ff1-b14a-25714800b85d/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/255ceb01-1a60-4ff1-b14a-25714800b85d/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/255ceb01-1a60-4ff1-b14a-25714800b85d/12-280x175.jpg\"]"
   },
   {
     "id": 235,
@@ -3994,7 +4462,9 @@ window.LISTINGS = [
     "price_value": 82000000,
     "address": "Наурызбайский р-н, Унгиртас 42",
     "url": "https://krisha.kz/a/show/666706567",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9f/9fe2b55f-5efe-4fb9-b7c4-243b4e048f12/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9fe2b55f-5efe-4fb9-b7c4-243b4e048f12/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9fe2b55f-5efe-4fb9-b7c4-243b4e048f12/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9fe2b55f-5efe-4fb9-b7c4-243b4e048f12/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9fe2b55f-5efe-4fb9-b7c4-243b4e048f12/5-280x175.jpg\"]"
   },
   {
     "id": 236,
@@ -4011,7 +4481,9 @@ window.LISTINGS = [
     "price_value": 1500000000,
     "address": "Микрорайон рахат",
     "url": "https://krisha.kz/a/show/1012975125",
-    "first_seen": "2026-06-28T12:49:16"
+    "first_seen": "2026-06-28T12:49:16",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/385e1667-bfdc-4878-afba-29d7c28138f9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385e1667-bfdc-4878-afba-29d7c28138f9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385e1667-bfdc-4878-afba-29d7c28138f9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385e1667-bfdc-4878-afba-29d7c28138f9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385e1667-bfdc-4878-afba-29d7c28138f9/5-280x175.jpg\"]"
   },
   {
     "id": 237,
@@ -4028,7 +4500,9 @@ window.LISTINGS = [
     "price_value": 1300000000,
     "address": "Медеуский р-н, Оспанова 55",
     "url": "https://krisha.kz/a/show/1012975178",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e5/e5b26390-d9d1-4b4e-a251-6f66062a3aa1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5b26390-d9d1-4b4e-a251-6f66062a3aa1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5b26390-d9d1-4b4e-a251-6f66062a3aa1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5b26390-d9d1-4b4e-a251-6f66062a3aa1/4-280x175.jpg\"]"
   },
   {
     "id": 238,
@@ -4045,7 +4519,9 @@ window.LISTINGS = [
     "price_value": 127000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Сыдыкова — Кыран жигер",
     "url": "https://krisha.kz/a/show/760425577",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f0/f09d9a89-cdde-4b75-b338-645263145ee6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f09d9a89-cdde-4b75-b338-645263145ee6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f09d9a89-cdde-4b75-b338-645263145ee6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f09d9a89-cdde-4b75-b338-645263145ee6/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f09d9a89-cdde-4b75-b338-645263145ee6/8-280x175.jpg\"]"
   },
   {
     "id": 239,
@@ -4062,7 +4538,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Турксибский р-н, мкр Кайрат, Нарбота 6",
     "url": "https://krisha.kz/a/show/1010119010",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e7/e7a180f4-7928-4069-9e6b-7803d016feee/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e7a180f4-7928-4069-9e6b-7803d016feee/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e7a180f4-7928-4069-9e6b-7803d016feee/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e7a180f4-7928-4069-9e6b-7803d016feee/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e7a180f4-7928-4069-9e6b-7803d016feee/5-280x175.jpg\"]"
   },
   {
     "id": 240,
@@ -4079,7 +4557,9 @@ window.LISTINGS = [
     "price_value": 89990000,
     "address": "Турксибский р-н, мкр Нуршашкан (Колхозши) — Ул. Сункар",
     "url": "https://krisha.kz/a/show/1006644412",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/78/7882bdc5-09a7-4067-ab02-f3d891e97777/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7882bdc5-09a7-4067-ab02-f3d891e97777/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7882bdc5-09a7-4067-ab02-f3d891e97777/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7882bdc5-09a7-4067-ab02-f3d891e97777/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7882bdc5-09a7-4067-ab02-f3d891e97777/5-280x175.jpg\"]"
   },
   {
     "id": 241,
@@ -4096,7 +4576,9 @@ window.LISTINGS = [
     "price_value": 1000000000,
     "address": "Медеуский р-н, мкр Бутаковка, ул Бейсеуова",
     "url": "https://krisha.kz/a/show/1010655722",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/51/514d9733-89db-4178-aa3f-273699bb6e0c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/514d9733-89db-4178-aa3f-273699bb6e0c/2-280x175.jpg\"]"
   },
   {
     "id": 242,
@@ -4113,7 +4595,9 @@ window.LISTINGS = [
     "price_value": 5700000,
     "address": "Султан бейбарыс 21",
     "url": "https://krisha.kz/a/show/1004839324",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2f/2fa8c4fa-6132-4e6d-8c8e-47db60080187/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2fa8c4fa-6132-4e6d-8c8e-47db60080187/2-280x175.jpg\"]"
   },
   {
     "id": 243,
@@ -4130,7 +4614,9 @@ window.LISTINGS = [
     "price_value": 250000000,
     "address": "Жетысуский р-н, мкр Кемел (Первомайское)",
     "url": "https://krisha.kz/a/show/1013090905",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/92/9207de58-2683-48ea-a487-2ff3449744c6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/9207de58-2683-48ea-a487-2ff3449744c6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/9207de58-2683-48ea-a487-2ff3449744c6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/9207de58-2683-48ea-a487-2ff3449744c6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/9207de58-2683-48ea-a487-2ff3449744c6/5-280x175.jpg\"]"
   },
   {
     "id": 244,
@@ -4147,7 +4633,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Алатауский р-н, мкр Айгерим-2, Бесторе 23 — Школа",
     "url": "https://krisha.kz/a/show/1012735075",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3ab738ea-06ff-4302-aa35-216d3e6daa85/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3ab738ea-06ff-4302-aa35-216d3e6daa85/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3ab738ea-06ff-4302-aa35-216d3e6daa85/3-280x175.jpg\"]"
   },
   {
     "id": 245,
@@ -4164,7 +4652,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Медеуский р-н, Кабанбай батыра 47Г кв10",
     "url": "https://krisha.kz/a/show/1013490986",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 246,
@@ -4181,7 +4671,9 @@ window.LISTINGS = [
     "price_value": 495000000,
     "address": "Бостандыкский р-н, мкр Ерменсай",
     "url": "https://krisha.kz/a/show/1011199811",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ce/cec74f75-786b-47db-bdc5-9180ca8fbbaf/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ce/cec74f75-786b-47db-bdc5-9180ca8fbbaf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ce/cec74f75-786b-47db-bdc5-9180ca8fbbaf/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ce/cec74f75-786b-47db-bdc5-9180ca8fbbaf/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ce/cec74f75-786b-47db-bdc5-9180ca8fbbaf/5-280x175.jpg\"]"
   },
   {
     "id": 247,
@@ -4198,7 +4690,9 @@ window.LISTINGS = [
     "price_value": 800000000,
     "address": "Медеуский р-н, Улица Жамакаева 256/66",
     "url": "https://krisha.kz/a/show/1013196968",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1c/1c77fa40-f381-4719-b2e5-a28d6a5251b7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1c77fa40-f381-4719-b2e5-a28d6a5251b7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1c77fa40-f381-4719-b2e5-a28d6a5251b7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1c77fa40-f381-4719-b2e5-a28d6a5251b7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1c77fa40-f381-4719-b2e5-a28d6a5251b7/5-280x175.jpg\"]"
   },
   {
     "id": 248,
@@ -4215,7 +4709,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Медеуский р-н, мкр Горный Гигант 3345/31",
     "url": "https://krisha.kz/a/show/1011132711",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3c1951d7-9ceb-42ca-bd91-fe29985a6cfa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c1951d7-9ceb-42ca-bd91-fe29985a6cfa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c1951d7-9ceb-42ca-bd91-fe29985a6cfa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c1951d7-9ceb-42ca-bd91-fe29985a6cfa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c1951d7-9ceb-42ca-bd91-fe29985a6cfa/5-280x175.jpg\"]"
   },
   {
     "id": 249,
@@ -4232,7 +4728,9 @@ window.LISTINGS = [
     "price_value": 60000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик)",
     "url": "https://krisha.kz/a/show/675069729",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/73/73cc67c4-2e52-40b6-b7ff-c3e81fb422bc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73cc67c4-2e52-40b6-b7ff-c3e81fb422bc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73cc67c4-2e52-40b6-b7ff-c3e81fb422bc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73cc67c4-2e52-40b6-b7ff-c3e81fb422bc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73cc67c4-2e52-40b6-b7ff-c3e81fb422bc/5-280x175.jpg\"]"
   },
   {
     "id": 250,
@@ -4249,7 +4747,9 @@ window.LISTINGS = [
     "price_value": 590000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик), улица Мерген 60/21 — улица Мерген",
     "url": "https://krisha.kz/a/show/1011799567",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/6961d599-360c-4979-abc0-d1770a49260c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/6961d599-360c-4979-abc0-d1770a49260c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/6961d599-360c-4979-abc0-d1770a49260c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/6961d599-360c-4979-abc0-d1770a49260c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/6961d599-360c-4979-abc0-d1770a49260c/5-280x175.jpg\"]"
   },
   {
     "id": 251,
@@ -4266,7 +4766,9 @@ window.LISTINGS = [
     "price_value": 18500000,
     "address": "Наурызбайский р-н, мкр Карагайлы — Рядом с домами",
     "url": "https://krisha.kz/a/show/1009570869",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ef/ef86c64f-529a-47c0-9688-1c68ca81b49f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ef/ef86c64f-529a-47c0-9688-1c68ca81b49f/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ef/ef86c64f-529a-47c0-9688-1c68ca81b49f/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ef/ef86c64f-529a-47c0-9688-1c68ca81b49f/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ef/ef86c64f-529a-47c0-9688-1c68ca81b49f/14-280x175.jpg\"]"
   },
   {
     "id": 252,
@@ -4283,7 +4785,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Бостандыкский р-н, мкр Ерменсай 114",
     "url": "https://krisha.kz/a/show/1013435144",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c4/c445fe50-0a82-4c24-8b5f-612594c1ffae/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c445fe50-0a82-4c24-8b5f-612594c1ffae/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c445fe50-0a82-4c24-8b5f-612594c1ffae/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c445fe50-0a82-4c24-8b5f-612594c1ffae/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c445fe50-0a82-4c24-8b5f-612594c1ffae/5-280x175.jpg\"]"
   },
   {
     "id": 253,
@@ -4300,7 +4804,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Наурызбайский р-н, мкр Карагайлы",
     "url": "https://krisha.kz/a/show/1012539575",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/57/579928b5-4026-4f83-bcb2-f120e774465c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/579928b5-4026-4f83-bcb2-f120e774465c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/579928b5-4026-4f83-bcb2-f120e774465c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/579928b5-4026-4f83-bcb2-f120e774465c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/579928b5-4026-4f83-bcb2-f120e774465c/5-280x175.jpg\"]"
   },
   {
     "id": 254,
@@ -4317,7 +4823,9 @@ window.LISTINGS = [
     "price_value": 285000000,
     "address": "Медеуский р-н, мкр Юбилейный, Панорамный Самый Лучший Участок 93 — Султангазина",
     "url": "https://krisha.kz/a/show/692841557",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3a6d86e6-03d9-4269-8832-5aace95e8947/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a6d86e6-03d9-4269-8832-5aace95e8947/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a6d86e6-03d9-4269-8832-5aace95e8947/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a6d86e6-03d9-4269-8832-5aace95e8947/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a6d86e6-03d9-4269-8832-5aace95e8947/28-280x175.jpg\"]"
   },
   {
     "id": 255,
@@ -4334,7 +4842,9 @@ window.LISTINGS = [
     "price_value": 11875000000,
     "address": "Бостандыкский р-н, мкр Ерменсай — Арайлы",
     "url": "https://krisha.kz/a/show/1013257297",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0a/0ada34d9-af3a-41a4-bae2-8c93c44d3d60/1-280x175.jpg\"]"
   },
   {
     "id": 256,
@@ -4351,7 +4861,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Алатауский р-н, мкр Рахат, Бозок",
     "url": "https://krisha.kz/a/show/1011330690",
-    "first_seen": "2026-06-28T12:49:22"
+    "first_seen": "2026-06-28T12:49:22",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/16/16bc3393-c265-4c2a-a781-ea55ae77a179/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16bc3393-c265-4c2a-a781-ea55ae77a179/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16bc3393-c265-4c2a-a781-ea55ae77a179/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16bc3393-c265-4c2a-a781-ea55ae77a179/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16bc3393-c265-4c2a-a781-ea55ae77a179/5-280x175.jpg\"]"
   },
   {
     "id": 257,
@@ -4368,7 +4880,9 @@ window.LISTINGS = [
     "price_value": 19600000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Приречная 58",
     "url": "https://krisha.kz/a/show/1012685705",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/de/de0d0184-bda3-4c93-9548-3d0b2a947bd6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de0d0184-bda3-4c93-9548-3d0b2a947bd6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de0d0184-bda3-4c93-9548-3d0b2a947bd6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de0d0184-bda3-4c93-9548-3d0b2a947bd6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/de/de0d0184-bda3-4c93-9548-3d0b2a947bd6/5-280x175.jpg\"]"
   },
   {
     "id": 258,
@@ -4385,7 +4899,9 @@ window.LISTINGS = [
     "price_value": 680000000,
     "address": "Медеуский р-н, мкр Юбилейный",
     "url": "https://krisha.kz/a/show/689973530",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/47/47a0f8d7-bec8-4a68-b475-7213646e37a2/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47a0f8d7-bec8-4a68-b475-7213646e37a2/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47a0f8d7-bec8-4a68-b475-7213646e37a2/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47a0f8d7-bec8-4a68-b475-7213646e37a2/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47a0f8d7-bec8-4a68-b475-7213646e37a2/11-280x175.jpg\"]"
   },
   {
     "id": 259,
@@ -4402,7 +4918,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1002234538",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a57c70b8-305b-47aa-bddc-aeda50a6f436/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a57c70b8-305b-47aa-bddc-aeda50a6f436/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a57c70b8-305b-47aa-bddc-aeda50a6f436/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a57c70b8-305b-47aa-bddc-aeda50a6f436/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a57c70b8-305b-47aa-bddc-aeda50a6f436/7-280x175.jpg\"]"
   },
   {
     "id": 260,
@@ -4419,7 +4937,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ)",
     "url": "https://krisha.kz/a/show/1012288033",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/8910bd0f-96ba-4e6a-ae51-5d0dc03000a2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8910bd0f-96ba-4e6a-ae51-5d0dc03000a2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8910bd0f-96ba-4e6a-ae51-5d0dc03000a2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8910bd0f-96ba-4e6a-ae51-5d0dc03000a2/4-280x175.jpg\"]"
   },
   {
     "id": 261,
@@ -4436,7 +4956,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Наурызбайский р-н, мкр Каргалы — Арал",
     "url": "https://krisha.kz/a/show/1011679015",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/43/43bec33d-288e-40c1-a0e7-1cecdf9fca34/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43bec33d-288e-40c1-a0e7-1cecdf9fca34/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43bec33d-288e-40c1-a0e7-1cecdf9fca34/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43bec33d-288e-40c1-a0e7-1cecdf9fca34/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43bec33d-288e-40c1-a0e7-1cecdf9fca34/12-280x175.jpg\"]"
   },
   {
     "id": 262,
@@ -4453,7 +4975,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "Медеуский р-н, ул. Чокана Валиханова 83/5 — ул. Карасай батыра",
     "url": "https://krisha.kz/a/show/1006102796",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b512b8bb-faa5-4ad3-947c-8bfbf4b46d95/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b512b8bb-faa5-4ad3-947c-8bfbf4b46d95/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b512b8bb-faa5-4ad3-947c-8bfbf4b46d95/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b512b8bb-faa5-4ad3-947c-8bfbf4b46d95/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b512b8bb-faa5-4ad3-947c-8bfbf4b46d95/5-280x175.jpg\"]"
   },
   {
     "id": 263,
@@ -4470,7 +4994,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Наурызбайский р-н, мкр Таусамалы — Ул.Шаляпина-уг.ул. Ашимова",
     "url": "https://krisha.kz/a/show/760438499",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/00/00f434fa-de8a-4bec-bbed-4be85c718bc6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00f434fa-de8a-4bec-bbed-4be85c718bc6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00f434fa-de8a-4bec-bbed-4be85c718bc6/3-280x175.jpg\"]"
   },
   {
     "id": 264,
@@ -4487,7 +5013,9 @@ window.LISTINGS = [
     "price_value": 530000000,
     "address": "Медеуский р-н, Керей-жанибек хандар",
     "url": "https://krisha.kz/a/show/1011840782",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b514eaf2-732a-46f6-9f53-276b885282ac/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b514eaf2-732a-46f6-9f53-276b885282ac/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b514eaf2-732a-46f6-9f53-276b885282ac/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b514eaf2-732a-46f6-9f53-276b885282ac/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b514eaf2-732a-46f6-9f53-276b885282ac/11-280x175.jpg\"]"
   },
   {
     "id": 265,
@@ -4504,7 +5032,9 @@ window.LISTINGS = [
     "price_value": 2800000000,
     "address": "Бакад — Алатау",
     "url": "https://krisha.kz/a/show/1011902933",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/66/66eced23-af82-4b8c-a141-b3c2f3eac458/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66eced23-af82-4b8c-a141-b3c2f3eac458/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66eced23-af82-4b8c-a141-b3c2f3eac458/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66eced23-af82-4b8c-a141-b3c2f3eac458/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66eced23-af82-4b8c-a141-b3c2f3eac458/12-280x175.jpg\"]"
   },
   {
     "id": 266,
@@ -4521,7 +5051,9 @@ window.LISTINGS = [
     "price_value": 300000000,
     "address": "Турксибский р-н, Майлина 2",
     "url": "https://krisha.kz/a/show/1010947606",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/03c43424-1aec-4b73-aec6-843ba587207c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03c43424-1aec-4b73-aec6-843ba587207c/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03c43424-1aec-4b73-aec6-843ba587207c/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03c43424-1aec-4b73-aec6-843ba587207c/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03c43424-1aec-4b73-aec6-843ba587207c/8-280x175.jpg\"]"
   },
   {
     "id": 267,
@@ -4538,7 +5070,9 @@ window.LISTINGS = [
     "price_value": 19900000,
     "address": "Медеуский р-н, мкр Горный Гигант, Горный садовод",
     "url": "https://krisha.kz/a/show/689427807",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c0/c0c8aac6-dee5-4c1f-958d-5d3dba7b5127/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0c8aac6-dee5-4c1f-958d-5d3dba7b5127/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0c8aac6-dee5-4c1f-958d-5d3dba7b5127/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0c8aac6-dee5-4c1f-958d-5d3dba7b5127/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c0/c0c8aac6-dee5-4c1f-958d-5d3dba7b5127/5-280x175.jpg\"]"
   },
   {
     "id": 268,
@@ -4555,7 +5089,9 @@ window.LISTINGS = [
     "price_value": 99000000,
     "address": "Бостандыкский р-н",
     "url": "https://krisha.kz/a/show/685350024",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/00/00377670-8dcb-4ef4-963a-c27e0a182965/2-280x175.jpg\"]"
   },
   {
     "id": 269,
@@ -4572,7 +5108,9 @@ window.LISTINGS = [
     "price_value": 17000000,
     "address": "Медеуский р-н, Широкая Щель 137 — Центральная көшесі",
     "url": "https://krisha.kz/a/show/683762487",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cb/cbf2d4a3-1580-49b4-b1b2-54ab5d95b392/1-280x175.jpg\"]"
   },
   {
     "id": 270,
@@ -4589,7 +5127,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, ул. Бактыгереева 16 — Бактыгереева",
     "url": "https://krisha.kz/a/show/1009537396",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/56a52d2e-8112-4e28-83b7-35a675393e44/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56a52d2e-8112-4e28-83b7-35a675393e44/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56a52d2e-8112-4e28-83b7-35a675393e44/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56a52d2e-8112-4e28-83b7-35a675393e44/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56a52d2e-8112-4e28-83b7-35a675393e44/5-280x175.jpg\"]"
   },
   {
     "id": 271,
@@ -4606,7 +5146,9 @@ window.LISTINGS = [
     "price_value": 150000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау — Марал",
     "url": "https://krisha.kz/a/show/1012429708",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 272,
@@ -4623,7 +5165,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "Медеуский р-н, мкр Каменское плато",
     "url": "https://krisha.kz/a/show/1009731313",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9c/9c4c5b7b-b5be-46b9-bc05-36df0f7cfea5/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c4c5b7b-b5be-46b9-bc05-36df0f7cfea5/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c4c5b7b-b5be-46b9-bc05-36df0f7cfea5/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c4c5b7b-b5be-46b9-bc05-36df0f7cfea5/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c4c5b7b-b5be-46b9-bc05-36df0f7cfea5/12-280x175.jpg\"]"
   },
   {
     "id": 273,
@@ -4640,7 +5184,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Алатауский р-н, мкр Алгабас, Оракты батыр 2 — ул. Онгарсыновой",
     "url": "https://krisha.kz/a/show/1013175528",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/390db2db-1459-43cd-a091-f3e87cfc7e7d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/390db2db-1459-43cd-a091-f3e87cfc7e7d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/390db2db-1459-43cd-a091-f3e87cfc7e7d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/390db2db-1459-43cd-a091-f3e87cfc7e7d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/390db2db-1459-43cd-a091-f3e87cfc7e7d/6-280x175.jpg\"]"
   },
   {
     "id": 274,
@@ -4657,7 +5203,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Наурызбайский р-н, мкр Акжар, Акжар Тау 37",
     "url": "https://krisha.kz/a/show/1011083576",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/91/91d03076-6177-48fe-a27c-24189c6c4e19/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/91d03076-6177-48fe-a27c-24189c6c4e19/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/91d03076-6177-48fe-a27c-24189c6c4e19/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/91d03076-6177-48fe-a27c-24189c6c4e19/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/91d03076-6177-48fe-a27c-24189c6c4e19/5-280x175.jpg\"]"
   },
   {
     "id": 275,
@@ -4674,7 +5222,9 @@ window.LISTINGS = [
     "price_value": 87000000,
     "address": "Бостандыкский р-н, С/т Тан 152",
     "url": "https://krisha.kz/a/show/1010262882",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/20/20685023-168c-4953-b83e-8f78cc00d764/1-280x175.jpg\"]"
   },
   {
     "id": 276,
@@ -4691,7 +5241,9 @@ window.LISTINGS = [
     "price_value": 90000000,
     "address": "Наурызбайский р-н, мкр Шугыла — Каукен Кенжетаева,72",
     "url": "https://krisha.kz/a/show/1012334325",
-    "first_seen": "2026-06-28T12:49:27"
+    "first_seen": "2026-06-28T12:49:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c2/c2f5d01e-7c81-46f7-a285-dbe402effeeb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2f5d01e-7c81-46f7-a285-dbe402effeeb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2f5d01e-7c81-46f7-a285-dbe402effeeb/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2f5d01e-7c81-46f7-a285-dbe402effeeb/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2f5d01e-7c81-46f7-a285-dbe402effeeb/7-280x175.jpg\"]"
   },
   {
     "id": 277,
@@ -4708,7 +5260,9 @@ window.LISTINGS = [
     "price_value": 16000000,
     "address": "Наурызбайский р-н, мкр Акжар, Егинсу 3 — Храм",
     "url": "https://krisha.kz/a/show/1009415340",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/63248e6b-0fa9-43a4-9df7-1291e8674b98/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63248e6b-0fa9-43a4-9df7-1291e8674b98/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63248e6b-0fa9-43a4-9df7-1291e8674b98/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63248e6b-0fa9-43a4-9df7-1291e8674b98/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63248e6b-0fa9-43a4-9df7-1291e8674b98/7-280x175.jpg\"]"
   },
   {
     "id": 278,
@@ -4725,7 +5279,9 @@ window.LISTINGS = [
     "price_value": 370000000,
     "address": "Медеуский р-н, мкр Коктобе, Кыз Жибек 138",
     "url": "https://krisha.kz/a/show/1012983397",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/46/4626ad46-6f90-4342-bbb5-c52590e25e08/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/4626ad46-6f90-4342-bbb5-c52590e25e08/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/4626ad46-6f90-4342-bbb5-c52590e25e08/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/4626ad46-6f90-4342-bbb5-c52590e25e08/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/4626ad46-6f90-4342-bbb5-c52590e25e08/5-280x175.jpg\"]"
   },
   {
     "id": 279,
@@ -4742,7 +5298,9 @@ window.LISTINGS = [
     "price_value": 288000000,
     "address": "Бостандыкский р-н, мкр Мирас",
     "url": "https://krisha.kz/a/show/1012293546",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 280,
@@ -4759,7 +5317,9 @@ window.LISTINGS = [
     "price_value": 14500000,
     "address": "Остановка здоровья — От БАКАД 1-2 километр ориентир останова здоровье пешеход будет, не доезжая пешехода поворот на право вниз и магазин будет за ним поворот на лево как на лево повернули прямо 500 метр и поворот на право вниз будет сразу же участок видно будет по середине одна контейнер стоить тот участок будет….!",
     "url": "https://krisha.kz/a/show/1012501933",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c7/c76e822b-3179-45ec-860a-9863379d2b4c/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c76e822b-3179-45ec-860a-9863379d2b4c/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c76e822b-3179-45ec-860a-9863379d2b4c/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c76e822b-3179-45ec-860a-9863379d2b4c/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c76e822b-3179-45ec-860a-9863379d2b4c/18-280x175.jpg\"]"
   },
   {
     "id": 281,
@@ -4776,7 +5336,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Алатауский р-н, мкр Боралдай (Бурундай)",
     "url": "https://krisha.kz/a/show/1011020140",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/26/26edf6b4-1338-4bbb-9bf6-55a9b252d05b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26edf6b4-1338-4bbb-9bf6-55a9b252d05b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26edf6b4-1338-4bbb-9bf6-55a9b252d05b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26edf6b4-1338-4bbb-9bf6-55a9b252d05b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26edf6b4-1338-4bbb-9bf6-55a9b252d05b/5-280x175.jpg\"]"
   },
   {
     "id": 282,
@@ -4793,7 +5355,9 @@ window.LISTINGS = [
     "price_value": 44000000,
     "address": "Бостандыкский р-н, Олейникова",
     "url": "https://krisha.kz/a/show/1012962483",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/79/7905204c-f60e-4a6a-801f-7628567e9a1c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/7905204c-f60e-4a6a-801f-7628567e9a1c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/7905204c-f60e-4a6a-801f-7628567e9a1c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/7905204c-f60e-4a6a-801f-7628567e9a1c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/7905204c-f60e-4a6a-801f-7628567e9a1c/5-280x175.jpg\"]"
   },
   {
     "id": 283,
@@ -4810,7 +5374,9 @@ window.LISTINGS = [
     "price_value": 400000000,
     "address": "Медеуский р-н, мкр Кольсай, Ондасынова",
     "url": "https://krisha.kz/a/show/1007512553",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/64/64147591-7ced-4111-ae6e-42dda1a3bb5a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/64147591-7ced-4111-ae6e-42dda1a3bb5a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/64147591-7ced-4111-ae6e-42dda1a3bb5a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/64147591-7ced-4111-ae6e-42dda1a3bb5a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/64147591-7ced-4111-ae6e-42dda1a3bb5a/5-280x175.jpg\"]"
   },
   {
     "id": 284,
@@ -4827,7 +5393,9 @@ window.LISTINGS = [
     "price_value": 36000000,
     "address": "Турксибский р-н, Папанина — Читинская",
     "url": "https://krisha.kz/a/show/1008351834",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ad/ada47ab0-3010-44e6-91de-ab024cfa22f9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ad/ada47ab0-3010-44e6-91de-ab024cfa22f9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ad/ada47ab0-3010-44e6-91de-ab024cfa22f9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ad/ada47ab0-3010-44e6-91de-ab024cfa22f9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ad/ada47ab0-3010-44e6-91de-ab024cfa22f9/5-280x175.jpg\"]"
   },
   {
     "id": 285,
@@ -4844,7 +5412,9 @@ window.LISTINGS = [
     "price_value": 270000000,
     "address": "Наурызбайский р-н, мкр Таужолы, Дархан",
     "url": "https://krisha.kz/a/show/1013407448",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e3/e3c02574-5ec0-42c4-8f26-c4a096a817c1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3c02574-5ec0-42c4-8f26-c4a096a817c1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3c02574-5ec0-42c4-8f26-c4a096a817c1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3c02574-5ec0-42c4-8f26-c4a096a817c1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e3/e3c02574-5ec0-42c4-8f26-c4a096a817c1/5-280x175.jpg\"]"
   },
   {
     "id": 286,
@@ -4861,7 +5431,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Арал 54",
     "url": "https://krisha.kz/a/show/1011235930",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/385806de-fe42-44dc-bc22-86108f9d352e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385806de-fe42-44dc-bc22-86108f9d352e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385806de-fe42-44dc-bc22-86108f9d352e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385806de-fe42-44dc-bc22-86108f9d352e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/385806de-fe42-44dc-bc22-86108f9d352e/5-280x175.jpg\"]"
   },
   {
     "id": 287,
@@ -4878,7 +5450,9 @@ window.LISTINGS = [
     "price_value": 11000000,
     "address": "Бостандыкский р-н, мкр Ерменсай 207",
     "url": "https://krisha.kz/a/show/1010973713",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/37/37138890-8aa7-43fe-9815-319a8f6bf71a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37138890-8aa7-43fe-9815-319a8f6bf71a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37138890-8aa7-43fe-9815-319a8f6bf71a/3-280x175.jpg\"]"
   },
   {
     "id": 288,
@@ -4895,7 +5469,9 @@ window.LISTINGS = [
     "price_value": 58000000,
     "address": "Медеуский р-н, мкр Кольсай, Панорамный Участок Вид Шикарный — Бишкекская 93",
     "url": "https://krisha.kz/a/show/1008344973",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3a584612-7e61-4f80-813d-962f1d29dee8/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a584612-7e61-4f80-813d-962f1d29dee8/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a584612-7e61-4f80-813d-962f1d29dee8/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a584612-7e61-4f80-813d-962f1d29dee8/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a584612-7e61-4f80-813d-962f1d29dee8/21-280x175.jpg\"]"
   },
   {
     "id": 289,
@@ -4912,7 +5488,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Медеуский р-н, С/т Коктобе 106",
     "url": "https://krisha.kz/a/show/1009902806",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/17/1798b70b-22e5-4bac-b9e6-4037cdf0e38c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/1798b70b-22e5-4bac-b9e6-4037cdf0e38c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/1798b70b-22e5-4bac-b9e6-4037cdf0e38c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/1798b70b-22e5-4bac-b9e6-4037cdf0e38c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/1798b70b-22e5-4bac-b9e6-4037cdf0e38c/5-280x175.jpg\"]"
   },
   {
     "id": 290,
@@ -4929,7 +5507,9 @@ window.LISTINGS = [
     "price_value": 95000000,
     "address": "Наурызбайский р-н, мкр Карагайлы — Хадиша Бокеева 55/2",
     "url": "https://krisha.kz/a/show/1010555770",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4f/4fe5130c-849f-4f98-94a7-e6e83a429d66/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4fe5130c-849f-4f98-94a7-e6e83a429d66/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4fe5130c-849f-4f98-94a7-e6e83a429d66/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4fe5130c-849f-4f98-94a7-e6e83a429d66/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4fe5130c-849f-4f98-94a7-e6e83a429d66/9-280x175.jpg\"]"
   },
   {
     "id": 291,
@@ -4946,7 +5526,9 @@ window.LISTINGS = [
     "price_value": 36000000,
     "address": "Алатауский р-н, мкр Айгерим-1, Бенберина",
     "url": "https://krisha.kz/a/show/1012510410",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4bb0be0-8f2e-4f5c-b008-aa5bce4b5333/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4bb0be0-8f2e-4f5c-b008-aa5bce4b5333/2-280x175.jpg\"]"
   },
   {
     "id": 292,
@@ -4963,7 +5545,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Медеуский р-н, Полевая 49",
     "url": "https://krisha.kz/a/show/1011377896",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c8/c8b656c3-f06d-43a9-bc89-0448ea61e4a8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8b656c3-f06d-43a9-bc89-0448ea61e4a8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c8b656c3-f06d-43a9-bc89-0448ea61e4a8/3-280x175.jpg\"]"
   },
   {
     "id": 293,
@@ -4980,7 +5564,9 @@ window.LISTINGS = [
     "price_value": 5000000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1010767104",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 294,
@@ -4997,7 +5583,9 @@ window.LISTINGS = [
     "price_value": 3000000000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1013185254",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ff/ff8bd92f-8cb3-42fe-87e2-563d4f882583/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff8bd92f-8cb3-42fe-87e2-563d4f882583/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff8bd92f-8cb3-42fe-87e2-563d4f882583/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff8bd92f-8cb3-42fe-87e2-563d4f882583/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff8bd92f-8cb3-42fe-87e2-563d4f882583/6-280x175.jpg\"]"
   },
   {
     "id": 295,
@@ -5014,7 +5602,9 @@ window.LISTINGS = [
     "price_value": 510000000,
     "address": "Медеуский р-н, мкр Юбилейный",
     "url": "https://krisha.kz/a/show/1004906750",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/24/24f55e72-7bdb-4f55-8c63-ad2e599c663c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24f55e72-7bdb-4f55-8c63-ad2e599c663c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24f55e72-7bdb-4f55-8c63-ad2e599c663c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24f55e72-7bdb-4f55-8c63-ad2e599c663c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24f55e72-7bdb-4f55-8c63-ad2e599c663c/5-280x175.jpg\"]"
   },
   {
     "id": 296,
@@ -5031,7 +5621,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик), Мкр Нурлытау (Энергетик),улица Нуртазина 30/2 — Школы 190",
     "url": "https://krisha.kz/a/show/1013309152",
-    "first_seen": "2026-06-28T12:49:33"
+    "first_seen": "2026-06-28T12:49:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/5618875f-24b4-4ac2-8e0b-9f36d7fc38d8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5618875f-24b4-4ac2-8e0b-9f36d7fc38d8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5618875f-24b4-4ac2-8e0b-9f36d7fc38d8/3-280x175.jpg\"]"
   },
   {
     "id": 297,
@@ -5048,7 +5640,9 @@ window.LISTINGS = [
     "price_value": 120000000662983,
     "address": "Утеген батыра 11гк2 — Сайран",
     "url": "https://krisha.kz/a/show/1013171969",
-    "first_seen": "2026-06-28T12:49:38"
+    "first_seen": "2026-06-28T12:49:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e2/e2898c58-8684-41cb-80f4-76f7832b711c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2898c58-8684-41cb-80f4-76f7832b711c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2898c58-8684-41cb-80f4-76f7832b711c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2898c58-8684-41cb-80f4-76f7832b711c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2898c58-8684-41cb-80f4-76f7832b711c/5-280x175.jpg\"]"
   },
   {
     "id": 298,
@@ -5065,7 +5659,9 @@ window.LISTINGS = [
     "price_value": 605421000431365,
     "address": "Алмалинский р-н, Байтурсынова 2 — Макатаева",
     "url": "https://krisha.kz/a/show/1012193155",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2b33a166-cfef-492e-9c65-4fda1693b085/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b33a166-cfef-492e-9c65-4fda1693b085/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b33a166-cfef-492e-9c65-4fda1693b085/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b33a166-cfef-492e-9c65-4fda1693b085/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b33a166-cfef-492e-9c65-4fda1693b085/12-280x175.jpg\"]"
   },
   {
     "id": 299,
@@ -5082,7 +5678,9 @@ window.LISTINGS = [
     "price_value": 74999999803859,
     "address": "Алмалинский р-н, Макатаева 131 — Цокольный  этаж- полноценные окна",
     "url": "https://krisha.kz/a/show/687999503",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/24/249c47fe-09cf-40a7-be2b-6ae5ed749937/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/249c47fe-09cf-40a7-be2b-6ae5ed749937/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/249c47fe-09cf-40a7-be2b-6ae5ed749937/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/249c47fe-09cf-40a7-be2b-6ae5ed749937/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/249c47fe-09cf-40a7-be2b-6ae5ed749937/19-280x175.jpg\"]"
   },
   {
     "id": 300,
@@ -5099,7 +5697,9 @@ window.LISTINGS = [
     "price_value": 571555551270123,
     "address": "Бостандыкский р-н, Каныша Сатпаева 105 — Тургут Озала",
     "url": "https://krisha.kz/a/show/687899370",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/00/0013b181-4a75-4e12-9003-018addfa9f57/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/0013b181-4a75-4e12-9003-018addfa9f57/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/0013b181-4a75-4e12-9003-018addfa9f57/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/0013b181-4a75-4e12-9003-018addfa9f57/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/0013b181-4a75-4e12-9003-018addfa9f57/6-280x175.jpg\"]"
   },
   {
     "id": 301,
@@ -5116,7 +5716,9 @@ window.LISTINGS = [
     "price_value": 50000000746269,
     "address": "Наурызбайский р-н, мкр Шугыла 340/8 к3 — ЖК Alem City",
     "url": "https://krisha.kz/a/show/1013374788",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/eb/ebc13772-e1e1-4351-b4e5-f07ab1e9d75b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebc13772-e1e1-4351-b4e5-f07ab1e9d75b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebc13772-e1e1-4351-b4e5-f07ab1e9d75b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebc13772-e1e1-4351-b4e5-f07ab1e9d75b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebc13772-e1e1-4351-b4e5-f07ab1e9d75b/5-280x175.jpg\"]"
   },
   {
     "id": 302,
@@ -5133,7 +5735,9 @@ window.LISTINGS = [
     "price_value": 100000000260417,
     "address": "Алатауский р-н, мкр Шанырак-2, Сыганак 91/1 — Возле магазина Алиса",
     "url": "https://krisha.kz/a/show/1011585855",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/384a5293-d4e6-4754-b4a4-911ba6267e70/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/384a5293-d4e6-4754-b4a4-911ba6267e70/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/384a5293-d4e6-4754-b4a4-911ba6267e70/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/384a5293-d4e6-4754-b4a4-911ba6267e70/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/384a5293-d4e6-4754-b4a4-911ba6267e70/5-280x175.jpg\"]"
   },
   {
     "id": 303,
@@ -5150,7 +5754,9 @@ window.LISTINGS = [
     "price_value": 90000000967742,
     "address": "Наурызбайский р-н, Култобе 24/1 — Мкр. Рахат",
     "url": "https://krisha.kz/a/show/1008146930",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dca7b58f-7263-4f58-94e9-f61fb81f79fd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dca7b58f-7263-4f58-94e9-f61fb81f79fd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dca7b58f-7263-4f58-94e9-f61fb81f79fd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dca7b58f-7263-4f58-94e9-f61fb81f79fd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dca7b58f-7263-4f58-94e9-f61fb81f79fd/5-280x175.jpg\"]"
   },
   {
     "id": 304,
@@ -5167,7 +5773,9 @@ window.LISTINGS = [
     "price_value": 920000001277778,
     "address": "Турксибский р-н, мкр Кайрат, Тараз 134/11",
     "url": "https://krisha.kz/a/show/1013493843",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3b/3bcc9e3a-36b0-4414-82aa-53514d721744/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3b/3bcc9e3a-36b0-4414-82aa-53514d721744/2-280x175.jpg\"]"
   },
   {
     "id": 305,
@@ -5184,7 +5792,9 @@ window.LISTINGS = [
     "price_value": 90000000957447,
     "address": "Бостандыкский р-н, Култобе 24 — Аскарова",
     "url": "https://krisha.kz/a/show/1010846269",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d6/d6ddf5ef-8d2f-4064-b406-0a8d6b5657ba/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6ddf5ef-8d2f-4064-b406-0a8d6b5657ba/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6ddf5ef-8d2f-4064-b406-0a8d6b5657ba/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6ddf5ef-8d2f-4064-b406-0a8d6b5657ba/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6ddf5ef-8d2f-4064-b406-0a8d6b5657ba/5-280x175.jpg\"]"
   },
   {
     "id": 306,
@@ -5201,7 +5811,9 @@ window.LISTINGS = [
     "price_value": 6500000001113014,
     "address": "Алмалинский р-н, Макатаева 126/1",
     "url": "https://krisha.kz/a/show/1005732557",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9c/9c38d28b-90e3-43dd-b71f-1d86b0fb0e8e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c38d28b-90e3-43dd-b71f-1d86b0fb0e8e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c38d28b-90e3-43dd-b71f-1d86b0fb0e8e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c38d28b-90e3-43dd-b71f-1d86b0fb0e8e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9c/9c38d28b-90e3-43dd-b71f-1d86b0fb0e8e/5-280x175.jpg\"]"
   },
   {
     "id": 307,
@@ -5218,7 +5830,9 @@ window.LISTINGS = [
     "price_value": 435000001221910,
     "address": "Ауэзовский р-н, мкр Аксай-4 118а — Сайна между Жубанова и Улугбека",
     "url": "https://krisha.kz/a/show/1008620241",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/35/35445107-dd7d-40f7-87c5-6183dd56bb72/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35445107-dd7d-40f7-87c5-6183dd56bb72/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35445107-dd7d-40f7-87c5-6183dd56bb72/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35445107-dd7d-40f7-87c5-6183dd56bb72/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35445107-dd7d-40f7-87c5-6183dd56bb72/5-280x175.jpg\"]"
   },
   {
     "id": 308,
@@ -5235,7 +5849,9 @@ window.LISTINGS = [
     "price_value": 280000000509091,
     "address": "Ауэзовский р-н, мкр Аксай-3Б 36",
     "url": "https://krisha.kz/a/show/1013062889",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/04/040d870c-04ac-4376-b333-3ce2f8da1bdc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/040d870c-04ac-4376-b333-3ce2f8da1bdc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/040d870c-04ac-4376-b333-3ce2f8da1bdc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/040d870c-04ac-4376-b333-3ce2f8da1bdc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/04/040d870c-04ac-4376-b333-3ce2f8da1bdc/5-280x175.jpg\"]"
   },
   {
     "id": 309,
@@ -5252,7 +5868,9 @@ window.LISTINGS = [
     "price_value": 85000000229730,
     "address": "Алатауский р-н, Алтынкол 2",
     "url": "https://krisha.kz/a/show/1013407103",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/57/57eb301e-9223-4bfd-9584-4db3249cd60f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57eb301e-9223-4bfd-9584-4db3249cd60f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57eb301e-9223-4bfd-9584-4db3249cd60f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57eb301e-9223-4bfd-9584-4db3249cd60f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57eb301e-9223-4bfd-9584-4db3249cd60f/5-280x175.jpg\"]"
   },
   {
     "id": 310,
@@ -5269,7 +5887,9 @@ window.LISTINGS = [
     "price_value": 630000000516393,
     "address": "Турксибский р-н, Тараз 18",
     "url": "https://krisha.kz/a/show/1001833758",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/258588c7-cd27-48a4-a8ee-c6bd63520eda/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/258588c7-cd27-48a4-a8ee-c6bd63520eda/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/258588c7-cd27-48a4-a8ee-c6bd63520eda/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/258588c7-cd27-48a4-a8ee-c6bd63520eda/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/258588c7-cd27-48a4-a8ee-c6bd63520eda/5-280x175.jpg\"]"
   },
   {
     "id": 311,
@@ -5286,7 +5906,9 @@ window.LISTINGS = [
     "price_value": 820000001123288,
     "address": "Алмалинский р-н, Шевченко 90",
     "url": "https://krisha.kz/a/show/693234845",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7c/7c89d28a-c117-4197-80f0-b4d808606e7a/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7c89d28a-c117-4197-80f0-b4d808606e7a/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7c89d28a-c117-4197-80f0-b4d808606e7a/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7c89d28a-c117-4197-80f0-b4d808606e7a/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7c/7c89d28a-c117-4197-80f0-b4d808606e7a/49-280x175.jpg\"]"
   },
   {
     "id": 312,
@@ -5303,7 +5925,9 @@ window.LISTINGS = [
     "price_value": 210000000636364,
     "address": "Бостандыкский р-н, Навои 208/6 — ул. Торайгырова",
     "url": "https://krisha.kz/a/show/1011867080",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/69b6f1a9-1f01-4d30-b674-8b93e813e30b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b6f1a9-1f01-4d30-b674-8b93e813e30b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b6f1a9-1f01-4d30-b674-8b93e813e30b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b6f1a9-1f01-4d30-b674-8b93e813e30b/4-280x175.jpg\"]"
   },
   {
     "id": 313,
@@ -5320,7 +5944,9 @@ window.LISTINGS = [
     "price_value": 1350000000300702,
     "address": "Наурызбайский р-н, Самрук 23",
     "url": "https://krisha.kz/a/show/1005880741",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/78/787d4c89-684a-4703-8acc-7b543f978749/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/787d4c89-684a-4703-8acc-7b543f978749/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/787d4c89-684a-4703-8acc-7b543f978749/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/787d4c89-684a-4703-8acc-7b543f978749/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/787d4c89-684a-4703-8acc-7b543f978749/5-280x175.jpg\"]"
   },
   {
     "id": 314,
@@ -5337,7 +5963,9 @@ window.LISTINGS = [
     "price_value": 790000188095,
     "address": "Алатауский р-н, мкр Нуркент 102 — Рыскулова Момышулы",
     "url": "https://krisha.kz/a/show/1013266437",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1f/1ff53050-9139-457b-8c4c-ee54082919d3/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1ff53050-9139-457b-8c4c-ee54082919d3/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1ff53050-9139-457b-8c4c-ee54082919d3/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1ff53050-9139-457b-8c4c-ee54082919d3/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1f/1ff53050-9139-457b-8c4c-ee54082919d3/5-280x175.jpg\"]"
   },
   {
     "id": 315,
@@ -5354,7 +5982,9 @@ window.LISTINGS = [
     "price_value": 206500000350000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Толе би 22 — Ашимова",
     "url": "https://krisha.kz/a/show/1012932389",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/034dc078-4b83-49fe-8981-32b6a5398619/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/034dc078-4b83-49fe-8981-32b6a5398619/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/034dc078-4b83-49fe-8981-32b6a5398619/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/034dc078-4b83-49fe-8981-32b6a5398619/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/034dc078-4b83-49fe-8981-32b6a5398619/5-280x175.jpg\"]"
   },
   {
     "id": 316,
@@ -5371,7 +6001,9 @@ window.LISTINGS = [
     "price_value": 38500000819149,
     "address": "Алатауский р-н, мкр Аккент, Ақкент 63 95",
     "url": "https://krisha.kz/a/show/698786615",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/28802617-6626-4ffe-b6f0-9f0a4ec54e27/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28802617-6626-4ffe-b6f0-9f0a4ec54e27/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28802617-6626-4ffe-b6f0-9f0a4ec54e27/4-280x175.jpg\"]"
   },
   {
     "id": 317,
@@ -5388,7 +6020,9 @@ window.LISTINGS = [
     "price_value": 15000000001530612,
     "address": "Бостандыкский р-н, мкр Коктем-1, Тимирязева 73А — Ауэзова тимирязева",
     "url": "https://krisha.kz/a/show/1011842557",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9b/9be64bc8-dec8-46b5-a24b-3d8ca31bb800/1-280x175.jpg\"]"
   },
   {
     "id": 318,
@@ -5405,7 +6039,9 @@ window.LISTINGS = [
     "price_value": 78195000650000,
     "address": "Ауэзовский р-н, мкр Астана 1/18 — Шаляпина Саина",
     "url": "https://krisha.kz/a/show/1012553317",
-    "first_seen": "2026-06-28T12:49:39"
+    "first_seen": "2026-06-28T12:49:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b3/b33ce3dd-2475-4928-a68a-127c4bf0a70c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33ce3dd-2475-4928-a68a-127c4bf0a70c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33ce3dd-2475-4928-a68a-127c4bf0a70c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33ce3dd-2475-4928-a68a-127c4bf0a70c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b3/b33ce3dd-2475-4928-a68a-127c4bf0a70c/5-280x175.jpg\"]"
   },
   {
     "id": 319,
@@ -5422,7 +6058,9 @@ window.LISTINGS = [
     "price_value": 700000000428135,
     "address": "Наурызбайский р-н, мкр Шугыла, Сакен Жунисов 14/1",
     "url": "https://krisha.kz/a/show/1010911903",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/54/54b8f000-02ac-46c6-a3ca-0c6ea963f112/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b8f000-02ac-46c6-a3ca-0c6ea963f112/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b8f000-02ac-46c6-a3ca-0c6ea963f112/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b8f000-02ac-46c6-a3ca-0c6ea963f112/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b8f000-02ac-46c6-a3ca-0c6ea963f112/38-280x175.jpg\"]"
   },
   {
     "id": 320,
@@ -5439,7 +6077,9 @@ window.LISTINGS = [
     "price_value": 529000000401061,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Молдабекова 7/1 — ДОКУМЕНТЫ ВПОРЯДКЕ",
     "url": "https://krisha.kz/a/show/1012341638",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/10/1040afee-3328-4750-9cfb-685ca46d71da/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/1040afee-3328-4750-9cfb-685ca46d71da/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/1040afee-3328-4750-9cfb-685ca46d71da/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/1040afee-3328-4750-9cfb-685ca46d71da/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/1040afee-3328-4750-9cfb-685ca46d71da/5-280x175.jpg\"]"
   },
   {
     "id": 321,
@@ -5456,7 +6096,9 @@ window.LISTINGS = [
     "price_value": 399000000886667,
     "address": "Медеуский р-н, мкр Горный Гигант, Затаевича 23 — Жукова",
     "url": "https://krisha.kz/a/show/1002220030",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/21/213e03f4-cad0-4a24-b9e2-1d41aafd5065/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213e03f4-cad0-4a24-b9e2-1d41aafd5065/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213e03f4-cad0-4a24-b9e2-1d41aafd5065/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213e03f4-cad0-4a24-b9e2-1d41aafd5065/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/213e03f4-cad0-4a24-b9e2-1d41aafd5065/41-280x175.jpg\"]"
   },
   {
     "id": 322,
@@ -5473,7 +6115,9 @@ window.LISTINGS = [
     "price_value": 100000000364830,
     "address": "Наурызбайский р-н, мкр Калкаман-2, улица Нурпеисова 9",
     "url": "https://krisha.kz/a/show/685866649",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/651f62c4-354b-4fee-bfc1-94383d99121b/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/651f62c4-354b-4fee-bfc1-94383d99121b/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/651f62c4-354b-4fee-bfc1-94383d99121b/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/651f62c4-354b-4fee-bfc1-94383d99121b/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/651f62c4-354b-4fee-bfc1-94383d99121b/11-280x175.jpg\"]"
   },
   {
     "id": 323,
@@ -5490,7 +6134,9 @@ window.LISTINGS = [
     "price_value": 777777000859992,
     "address": "Бостандыкский р-н, Аскарова 12",
     "url": "https://krisha.kz/a/show/1011008555",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d8/d8e02bd7-d945-4824-a135-cbc3224b96a5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d8e02bd7-d945-4824-a135-cbc3224b96a5/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d8e02bd7-d945-4824-a135-cbc3224b96a5/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d8e02bd7-d945-4824-a135-cbc3224b96a5/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d8e02bd7-d945-4824-a135-cbc3224b96a5/8-280x175.jpg\"]"
   },
   {
     "id": 324,
@@ -5507,7 +6153,9 @@ window.LISTINGS = [
     "price_value": 149000000647826,
     "address": "Жетысуский р-н, Сейфулина 371",
     "url": "https://krisha.kz/a/show/1002840116",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/50/50c87e9e-7f0b-4c0d-ab55-415ee0a4b01f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50c87e9e-7f0b-4c0d-ab55-415ee0a4b01f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50c87e9e-7f0b-4c0d-ab55-415ee0a4b01f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50c87e9e-7f0b-4c0d-ab55-415ee0a4b01f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50c87e9e-7f0b-4c0d-ab55-415ee0a4b01f/5-280x175.jpg\"]"
   },
   {
     "id": 325,
@@ -5524,7 +6172,9 @@ window.LISTINGS = [
     "price_value": 45000000033683,
     "address": "Жетысуский р-н, мкр Айнабулак-1 13/3 — Северное кольцо",
     "url": "https://krisha.kz/a/show/1012759975",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4adeae2-1c11-4a53-b63a-808f81cb2bd6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4adeae2-1c11-4a53-b63a-808f81cb2bd6/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4adeae2-1c11-4a53-b63a-808f81cb2bd6/6-280x175.jpg\"]"
   },
   {
     "id": 326,
@@ -5541,7 +6191,9 @@ window.LISTINGS = [
     "price_value": 2054000001300000,
     "address": "Алмалинский р-н, Ауэзова 3а — ЖК Asem plaza",
     "url": "https://krisha.kz/a/show/1013038007",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/eb/ebd80152-276c-4cc2-baac-6ac9762d005d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebd80152-276c-4cc2-baac-6ac9762d005d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebd80152-276c-4cc2-baac-6ac9762d005d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebd80152-276c-4cc2-baac-6ac9762d005d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebd80152-276c-4cc2-baac-6ac9762d005d/5-280x175.jpg\"]"
   },
   {
     "id": 327,
@@ -5558,7 +6210,9 @@ window.LISTINGS = [
     "price_value": 830000001121622,
     "address": "Жетысуский р-н, мкр Айнабулак-1 9 — Ул.Жумабаева  уг Северное Кольцо",
     "url": "https://krisha.kz/a/show/1005445563",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b9/b93c7ec9-77ae-4871-9369-828674387314/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b93c7ec9-77ae-4871-9369-828674387314/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b93c7ec9-77ae-4871-9369-828674387314/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b93c7ec9-77ae-4871-9369-828674387314/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b93c7ec9-77ae-4871-9369-828674387314/5-280x175.jpg\"]"
   },
   {
     "id": 328,
@@ -5575,7 +6229,9 @@ window.LISTINGS = [
     "price_value": 1420000001213675,
     "address": "Медеуский р-н, Сагадата Нурмагамбетова 71 блок 8",
     "url": "https://krisha.kz/a/show/1012188206",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ee/ee430e3c-3681-410f-bb5e-95a65ee94b41/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee430e3c-3681-410f-bb5e-95a65ee94b41/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee430e3c-3681-410f-bb5e-95a65ee94b41/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee430e3c-3681-410f-bb5e-95a65ee94b41/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee430e3c-3681-410f-bb5e-95a65ee94b41/5-280x175.jpg\"]"
   },
   {
     "id": 329,
@@ -5592,7 +6248,9 @@ window.LISTINGS = [
     "price_value": 149000000573077,
     "address": "Медеуский р-н, Шукшина 71 — Аль Фараби",
     "url": "https://krisha.kz/a/show/1013164860",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/78/7848e0bf-3a7f-4558-8829-fca0ddd107a1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7848e0bf-3a7f-4558-8829-fca0ddd107a1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7848e0bf-3a7f-4558-8829-fca0ddd107a1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7848e0bf-3a7f-4558-8829-fca0ddd107a1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7848e0bf-3a7f-4558-8829-fca0ddd107a1/5-280x175.jpg\"]"
   },
   {
     "id": 330,
@@ -5609,7 +6267,9 @@ window.LISTINGS = [
     "price_value": 125000000416667,
     "address": "Алатауский р-н, мкр Коккайнар 226",
     "url": "https://krisha.kz/a/show/1012417462",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a7/a7aa613f-8ef0-407d-9964-861f61ec0166/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7aa613f-8ef0-407d-9964-861f61ec0166/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7aa613f-8ef0-407d-9964-861f61ec0166/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7aa613f-8ef0-407d-9964-861f61ec0166/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7aa613f-8ef0-407d-9964-861f61ec0166/5-280x175.jpg\"]"
   },
   {
     "id": 331,
@@ -5626,7 +6286,9 @@ window.LISTINGS = [
     "price_value": 5900000002850242,
     "address": "Бостандыкский р-н, мкр Мирас 2/27 — По Садыкова выше Аль-Фараби",
     "url": "https://krisha.kz/a/show/1012720050",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/07/07634faa-a65b-4295-8ace-67ac13698be3/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07634faa-a65b-4295-8ace-67ac13698be3/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07634faa-a65b-4295-8ace-67ac13698be3/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07634faa-a65b-4295-8ace-67ac13698be3/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/07/07634faa-a65b-4295-8ace-67ac13698be3/5-280x175.jpg\"]"
   },
   {
     "id": 332,
@@ -5643,7 +6305,9 @@ window.LISTINGS = [
     "price_value": 420000084000,
     "address": "Алатауский р-н, мкр Ожет, Бекболата 1 — Северное кольцо шоссе улица Бекболата",
     "url": "https://krisha.kz/a/show/678007203",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ff/ff4191b5-762c-4794-9c64-f5c5411d764c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff4191b5-762c-4794-9c64-f5c5411d764c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ff/ff4191b5-762c-4794-9c64-f5c5411d764c/5-280x175.jpg\"]"
   },
   {
     "id": 333,
@@ -5660,7 +6324,9 @@ window.LISTINGS = [
     "price_value": 19999000769192,
     "address": "Бостандыкский р-н, Аль-Фараби 21 — ЖК AFD PLAZA",
     "url": "https://krisha.kz/a/show/1010955452",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/70/70b6e317-d812-42a5-a0ee-982ef8f7ae2a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/70b6e317-d812-42a5-a0ee-982ef8f7ae2a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/70b6e317-d812-42a5-a0ee-982ef8f7ae2a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/70b6e317-d812-42a5-a0ee-982ef8f7ae2a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/70b6e317-d812-42a5-a0ee-982ef8f7ae2a/5-280x175.jpg\"]"
   },
   {
     "id": 334,
@@ -5677,7 +6343,9 @@ window.LISTINGS = [
     "price_value": 1680000001680000,
     "address": "Алмалинский р-н, мкр Тастак-2 273/5 — Утеген батыра",
     "url": "https://krisha.kz/a/show/1013232818",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d7/d7d39ea5-f1bd-40d4-aefb-9a76cbe90980/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d39ea5-f1bd-40d4-aefb-9a76cbe90980/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d39ea5-f1bd-40d4-aefb-9a76cbe90980/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d39ea5-f1bd-40d4-aefb-9a76cbe90980/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d39ea5-f1bd-40d4-aefb-9a76cbe90980/6-280x175.jpg\"]"
   },
   {
     "id": 335,
@@ -5694,7 +6362,9 @@ window.LISTINGS = [
     "price_value": 835000001033416,
     "address": "Бостандыкский р-н, Рыскулбекова 28/3",
     "url": "https://krisha.kz/a/show/1001517194",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e0ff14b1-c276-4534-8be1-b93403fca0ca/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0ff14b1-c276-4534-8be1-b93403fca0ca/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0ff14b1-c276-4534-8be1-b93403fca0ca/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0ff14b1-c276-4534-8be1-b93403fca0ca/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0ff14b1-c276-4534-8be1-b93403fca0ca/5-280x175.jpg\"]"
   },
   {
     "id": 336,
@@ -5711,7 +6381,9 @@ window.LISTINGS = [
     "price_value": 73000000456250,
     "address": "Турксибский р-н, Осипенко 20 — Доход с первого дня !!!",
     "url": "https://krisha.kz/a/show/1012294474",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/05/05b6c35f-9f1a-4e9f-af56-1a08dcb2b799/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/05/05b6c35f-9f1a-4e9f-af56-1a08dcb2b799/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/05/05b6c35f-9f1a-4e9f-af56-1a08dcb2b799/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/05/05b6c35f-9f1a-4e9f-af56-1a08dcb2b799/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/05/05b6c35f-9f1a-4e9f-af56-1a08dcb2b799/8-280x175.jpg\"]"
   },
   {
     "id": 337,
@@ -5728,7 +6400,9 @@ window.LISTINGS = [
     "price_value": 369000000272727,
     "address": "Алатауский р-н, мкр Улжан-2 25",
     "url": "https://krisha.kz/a/show/51117208",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fc/fcee6f90-0114-42a6-899d-8a822bd46744/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fcee6f90-0114-42a6-899d-8a822bd46744/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fcee6f90-0114-42a6-899d-8a822bd46744/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fcee6f90-0114-42a6-899d-8a822bd46744/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fcee6f90-0114-42a6-899d-8a822bd46744/11-280x175.jpg\"]"
   },
   {
     "id": 338,
@@ -5745,7 +6419,9 @@ window.LISTINGS = [
     "price_value": 18500000308333,
     "address": "Жетысуский р-н, Ермака 5а",
     "url": "https://krisha.kz/a/show/1010461161",
-    "first_seen": "2026-06-28T12:49:44"
+    "first_seen": "2026-06-28T12:49:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/15/15503fc2-4594-43de-b3b0-a930517c2ad0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15503fc2-4594-43de-b3b0-a930517c2ad0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15503fc2-4594-43de-b3b0-a930517c2ad0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15503fc2-4594-43de-b3b0-a930517c2ad0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15503fc2-4594-43de-b3b0-a930517c2ad0/5-280x175.jpg\"]"
   },
   {
     "id": 339,
@@ -5762,7 +6438,9 @@ window.LISTINGS = [
     "price_value": 69000000109524,
     "address": "Медеуский р-н, мкр Думан-2, Кульджинский тракт 30/3",
     "url": "https://krisha.kz/a/show/697743778",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/af/afaa9ed7-d50e-46f2-8b5a-6a5846c40ea4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afaa9ed7-d50e-46f2-8b5a-6a5846c40ea4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afaa9ed7-d50e-46f2-8b5a-6a5846c40ea4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afaa9ed7-d50e-46f2-8b5a-6a5846c40ea4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afaa9ed7-d50e-46f2-8b5a-6a5846c40ea4/5-280x175.jpg\"]"
   },
   {
     "id": 340,
@@ -5779,7 +6457,9 @@ window.LISTINGS = [
     "price_value": 111000000940678,
     "address": "Бостандыкский р-н, Торайгырова 25 — Саина-Торайгырова",
     "url": "https://krisha.kz/a/show/1010809636",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ca/ca3da671-e31b-4754-b05b-f50e98a47030/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca3da671-e31b-4754-b05b-f50e98a47030/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca3da671-e31b-4754-b05b-f50e98a47030/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca3da671-e31b-4754-b05b-f50e98a47030/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca3da671-e31b-4754-b05b-f50e98a47030/5-280x175.jpg\"]"
   },
   {
     "id": 341,
@@ -5796,7 +6476,9 @@ window.LISTINGS = [
     "price_value": 65000000970149,
     "address": "Ауэзовский р-н, мкр №1 68/4 — Жубанова~алтынсарина",
     "url": "https://krisha.kz/a/show/699345479",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/77/77dbd2fd-71d8-4fc0-8c70-7de1a0931af6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77dbd2fd-71d8-4fc0-8c70-7de1a0931af6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77dbd2fd-71d8-4fc0-8c70-7de1a0931af6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77dbd2fd-71d8-4fc0-8c70-7de1a0931af6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77dbd2fd-71d8-4fc0-8c70-7de1a0931af6/5-280x175.jpg\"]"
   },
   {
     "id": 342,
@@ -5813,7 +6495,9 @@ window.LISTINGS = [
     "price_value": 3700000001000000,
     "address": "Алмалинский р-н, Сейфулина 498",
     "url": "https://krisha.kz/a/show/1005674285",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/14/140f7323-a7b8-4d98-a97f-55d7f3bb5760/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/140f7323-a7b8-4d98-a97f-55d7f3bb5760/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/140f7323-a7b8-4d98-a97f-55d7f3bb5760/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/140f7323-a7b8-4d98-a97f-55d7f3bb5760/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/140f7323-a7b8-4d98-a97f-55d7f3bb5760/5-280x175.jpg\"]"
   },
   {
     "id": 343,
@@ -5830,7 +6514,9 @@ window.LISTINGS = [
     "price_value": 40000005000,
     "address": "Ауэзовский р-н, Коржын 1Б",
     "url": "https://krisha.kz/a/show/1013374627",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7d/7d1a0732-b657-4f9a-82ec-10d598341bc7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1a0732-b657-4f9a-82ec-10d598341bc7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1a0732-b657-4f9a-82ec-10d598341bc7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1a0732-b657-4f9a-82ec-10d598341bc7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d1a0732-b657-4f9a-82ec-10d598341bc7/5-280x175.jpg\"]"
   },
   {
     "id": 344,
@@ -5847,7 +6533,9 @@ window.LISTINGS = [
     "price_value": 36000000409091,
     "address": "Турксибский р-н, мкр Альмерек, Деповская 50 — Масымхана Бейсебаева",
     "url": "https://krisha.kz/a/show/1011655068",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/eb/ebfa6a96-f39e-47c4-be58-6c1ad5671339/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebfa6a96-f39e-47c4-be58-6c1ad5671339/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebfa6a96-f39e-47c4-be58-6c1ad5671339/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebfa6a96-f39e-47c4-be58-6c1ad5671339/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/eb/ebfa6a96-f39e-47c4-be58-6c1ad5671339/5-280x175.jpg\"]"
   },
   {
     "id": 345,
@@ -5864,7 +6552,9 @@ window.LISTINGS = [
     "price_value": 834000001698574,
     "address": "Бостандыкский р-н, мкр Алмагуль, Си Синхая 17",
     "url": "https://krisha.kz/a/show/1009374770",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/567a9465-0583-40b8-a50b-dc0d3823e701/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/567a9465-0583-40b8-a50b-dc0d3823e701/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/567a9465-0583-40b8-a50b-dc0d3823e701/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/567a9465-0583-40b8-a50b-dc0d3823e701/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/567a9465-0583-40b8-a50b-dc0d3823e701/5-280x175.jpg\"]"
   },
   {
     "id": 346,
@@ -5881,7 +6571,9 @@ window.LISTINGS = [
     "price_value": 1536000001600000,
     "address": "Бостандыкский р-н, мкр Алмагуль, Си синхая 17",
     "url": "https://krisha.kz/a/show/1009375300",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/604360cf-dab0-4a77-86b6-ab65fb75dcd5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/604360cf-dab0-4a77-86b6-ab65fb75dcd5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/604360cf-dab0-4a77-86b6-ab65fb75dcd5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/604360cf-dab0-4a77-86b6-ab65fb75dcd5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/604360cf-dab0-4a77-86b6-ab65fb75dcd5/5-280x175.jpg\"]"
   },
   {
     "id": 347,
@@ -5898,7 +6590,9 @@ window.LISTINGS = [
     "price_value": 465000000877358,
     "address": "Алмалинский р-н, Гоголя 176",
     "url": "https://krisha.kz/a/show/1012399402",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cf/cffc755e-e342-4961-86f2-321e5a6b0c19/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cffc755e-e342-4961-86f2-321e5a6b0c19/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cffc755e-e342-4961-86f2-321e5a6b0c19/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cffc755e-e342-4961-86f2-321e5a6b0c19/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cffc755e-e342-4961-86f2-321e5a6b0c19/5-280x175.jpg\"]"
   },
   {
     "id": 348,
@@ -5915,7 +6609,9 @@ window.LISTINGS = [
     "price_value": 350000000233333,
     "address": "Алатауский р-н, мкр Карасу, Куршим 25 — Торг.Комлекс Таншолпан",
     "url": "https://krisha.kz/a/show/1008661235",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/14/14047155-70e7-4843-903d-36844db0b1cd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14047155-70e7-4843-903d-36844db0b1cd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14047155-70e7-4843-903d-36844db0b1cd/3-280x175.jpg\"]"
   },
   {
     "id": 349,
@@ -5932,7 +6628,9 @@ window.LISTINGS = [
     "price_value": 210000000777778,
     "address": "Бостандыкский р-н, мкр Хан Тенгри, Микр Хантенгри. свежесть 108",
     "url": "https://krisha.kz/a/show/1013385487",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/0322caa0-e837-4470-90b5-2ffd85f2757d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0322caa0-e837-4470-90b5-2ffd85f2757d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0322caa0-e837-4470-90b5-2ffd85f2757d/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0322caa0-e837-4470-90b5-2ffd85f2757d/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0322caa0-e837-4470-90b5-2ffd85f2757d/9-280x175.jpg\"]"
   },
   {
     "id": 350,
@@ -5949,7 +6647,9 @@ window.LISTINGS = [
     "price_value": 750000000576923,
     "address": "Жетысуский р-н, Бедного 1а — Рыскулова - Жангельдина (Суюнбая)",
     "url": "https://krisha.kz/a/show/1011809174",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4b/4baa7b4f-89d7-45b6-98aa-908317553797/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4baa7b4f-89d7-45b6-98aa-908317553797/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4baa7b4f-89d7-45b6-98aa-908317553797/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4baa7b4f-89d7-45b6-98aa-908317553797/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4baa7b4f-89d7-45b6-98aa-908317553797/5-280x175.jpg\"]"
   },
   {
     "id": 351,
@@ -5966,7 +6666,9 @@ window.LISTINGS = [
     "price_value": 31000000659574,
     "address": "Алатауский р-н, мкр Аккент, Ақкент ш/а. 65/97",
     "url": "https://krisha.kz/a/show/1012885684",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/60016e46-e902-474f-88e2-ea570af501fd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60016e46-e902-474f-88e2-ea570af501fd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60016e46-e902-474f-88e2-ea570af501fd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60016e46-e902-474f-88e2-ea570af501fd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60016e46-e902-474f-88e2-ea570af501fd/5-280x175.jpg\"]"
   },
   {
     "id": 352,
@@ -5983,7 +6685,9 @@ window.LISTINGS = [
     "price_value": 69900000699000,
     "address": "Медеуский р-н, Каирбекова 35А — Гоголя 20",
     "url": "https://krisha.kz/a/show/760386063",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ac/ac95e793-cc43-4c48-b19d-4845d579dc8a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/ac95e793-cc43-4c48-b19d-4845d579dc8a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/ac95e793-cc43-4c48-b19d-4845d579dc8a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/ac95e793-cc43-4c48-b19d-4845d579dc8a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ac/ac95e793-cc43-4c48-b19d-4845d579dc8a/5-280x175.jpg\"]"
   },
   {
     "id": 353,
@@ -6000,7 +6704,9 @@ window.LISTINGS = [
     "price_value": 990000300000,
     "address": "Алмалинский р-н, Тургут Озала 194",
     "url": "https://krisha.kz/a/show/1013491584",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 354,
@@ -6017,7 +6723,9 @@ window.LISTINGS = [
     "price_value": 40000000274537,
     "address": "Жетысуский р-н, Бурундайская 91 — ул. Шолохова",
     "url": "https://krisha.kz/a/show/1008035113",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0b/0b701556-fa8b-4f0d-8561-1f3d4a489767/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0b701556-fa8b-4f0d-8561-1f3d4a489767/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0b701556-fa8b-4f0d-8561-1f3d4a489767/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0b701556-fa8b-4f0d-8561-1f3d4a489767/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0b701556-fa8b-4f0d-8561-1f3d4a489767/7-280x175.jpg\"]"
   },
   {
     "id": 355,
@@ -6034,7 +6742,9 @@ window.LISTINGS = [
     "price_value": 37800000994737,
     "address": "Наурызбайский р-н, бульвар 1 — О",
     "url": "https://krisha.kz/a/show/1012403899",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/26/26bf21b0-cac7-41c3-9178-62687902133c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26bf21b0-cac7-41c3-9178-62687902133c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26bf21b0-cac7-41c3-9178-62687902133c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26bf21b0-cac7-41c3-9178-62687902133c/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26bf21b0-cac7-41c3-9178-62687902133c/6-280x175.jpg\"]"
   },
   {
     "id": 356,
@@ -6051,7 +6761,9 @@ window.LISTINGS = [
     "price_value": 3700000000880952,
     "address": "Алмалинский р-н, Толе Би 73А — Толе Би - Сейфуллина",
     "url": "https://krisha.kz/a/show/1013423921",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/90/9034f4bf-d29d-4227-ae4a-377e1b2063bd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/90/9034f4bf-d29d-4227-ae4a-377e1b2063bd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/90/9034f4bf-d29d-4227-ae4a-377e1b2063bd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/90/9034f4bf-d29d-4227-ae4a-377e1b2063bd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/90/9034f4bf-d29d-4227-ae4a-377e1b2063bd/5-280x175.jpg\"]"
   },
   {
     "id": 357,
@@ -6068,7 +6780,9 @@ window.LISTINGS = [
     "price_value": 20900000130625,
     "address": "Наурызбайский р-н, мкр Шугыла, Жунусова 8/7",
     "url": "https://krisha.kz/a/show/1013285333",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2c/2c1a0b20-08d0-4ddf-85cb-983717bdf7bc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1a0b20-08d0-4ddf-85cb-983717bdf7bc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1a0b20-08d0-4ddf-85cb-983717bdf7bc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1a0b20-08d0-4ddf-85cb-983717bdf7bc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1a0b20-08d0-4ddf-85cb-983717bdf7bc/5-280x175.jpg\"]"
   },
   {
     "id": 358,
@@ -6085,7 +6799,9 @@ window.LISTINGS = [
     "price_value": 580000001100569,
     "address": "Ауэзовский р-н, Раймбекц 348/1к12блок11",
     "url": "https://krisha.kz/a/show/1012954508",
-    "first_seen": "2026-06-28T12:49:50"
+    "first_seen": "2026-06-28T12:49:50",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/67/673c169b-dbaf-4ac8-a7f2-f1cee012e96c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/673c169b-dbaf-4ac8-a7f2-f1cee012e96c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/673c169b-dbaf-4ac8-a7f2-f1cee012e96c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/673c169b-dbaf-4ac8-a7f2-f1cee012e96c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/673c169b-dbaf-4ac8-a7f2-f1cee012e96c/5-280x175.jpg\"]"
   },
   {
     "id": 359,
@@ -6102,7 +6818,9 @@ window.LISTINGS = [
     "price_value": 500000001033058,
     "address": "Ауэзовский р-н, Пропект Райымбека 348/1к15блок7",
     "url": "https://krisha.kz/a/show/1012924015",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/69b79bef-a180-4411-bb09-b8c929eeaa3d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b79bef-a180-4411-bb09-b8c929eeaa3d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b79bef-a180-4411-bb09-b8c929eeaa3d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b79bef-a180-4411-bb09-b8c929eeaa3d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69b79bef-a180-4411-bb09-b8c929eeaa3d/5-280x175.jpg\"]"
   },
   {
     "id": 360,
@@ -6119,7 +6837,9 @@ window.LISTINGS = [
     "price_value": 600000001090909,
     "address": "Алмалинский р-н, Жамбыла 172в",
     "url": "https://krisha.kz/a/show/1012780126",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/08/08296945-4529-470d-8491-9555e86cc95b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08296945-4529-470d-8491-9555e86cc95b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08296945-4529-470d-8491-9555e86cc95b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08296945-4529-470d-8491-9555e86cc95b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/08/08296945-4529-470d-8491-9555e86cc95b/5-280x175.jpg\"]"
   },
   {
     "id": 361,
@@ -6136,7 +6856,9 @@ window.LISTINGS = [
     "price_value": 49900000693056,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Aшимова 1/5 — Толе би Ашимова",
     "url": "https://krisha.kz/a/show/1003774993",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/47/47af67d8-b816-4a27-9635-db45d3dc86b0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47af67d8-b816-4a27-9635-db45d3dc86b0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47af67d8-b816-4a27-9635-db45d3dc86b0/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47af67d8-b816-4a27-9635-db45d3dc86b0/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/47/47af67d8-b816-4a27-9635-db45d3dc86b0/7-280x175.jpg\"]"
   },
   {
     "id": 362,
@@ -6153,7 +6875,9 @@ window.LISTINGS = [
     "price_value": 8600000430000,
     "address": "Алмалинский р-н, Брусиловского 167/4 — Абая Брусиловского (станция метро Сайран)",
     "url": "https://krisha.kz/a/show/1011998529",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7d/7dad8108-7622-4cbf-8a7e-5ca141b31450/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7dad8108-7622-4cbf-8a7e-5ca141b31450/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7dad8108-7622-4cbf-8a7e-5ca141b31450/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7dad8108-7622-4cbf-8a7e-5ca141b31450/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7dad8108-7622-4cbf-8a7e-5ca141b31450/5-280x175.jpg\"]"
   },
   {
     "id": 363,
@@ -6170,7 +6894,9 @@ window.LISTINGS = [
     "price_value": 1100000001157895,
     "address": "Медеуский р-н, мкр Самал-2 21 — Вдоль Аль Фараби",
     "url": "https://krisha.kz/a/show/678073600",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ca/ca4788b4-e0ba-4d62-9382-843308aab23b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca4788b4-e0ba-4d62-9382-843308aab23b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca4788b4-e0ba-4d62-9382-843308aab23b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca4788b4-e0ba-4d62-9382-843308aab23b/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ca/ca4788b4-e0ba-4d62-9382-843308aab23b/6-280x175.jpg\"]"
   },
   {
     "id": 364,
@@ -6187,7 +6913,9 @@ window.LISTINGS = [
     "price_value": 880000000967033,
     "address": "Алмалинский р-н, СЕЙФУЛЛИНА 510 — Гостиница риксос",
     "url": "https://krisha.kz/a/show/1010321704",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a6/a61ef9f2-2f9b-42c1-8365-a7eccd86de7a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a61ef9f2-2f9b-42c1-8365-a7eccd86de7a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a61ef9f2-2f9b-42c1-8365-a7eccd86de7a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a61ef9f2-2f9b-42c1-8365-a7eccd86de7a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a61ef9f2-2f9b-42c1-8365-a7eccd86de7a/5-280x175.jpg\"]"
   },
   {
     "id": 365,
@@ -6204,7 +6932,9 @@ window.LISTINGS = [
     "price_value": 3500000660377,
     "address": "Бостандыкский р-н, мкр Орбита-1 210/1 — Навои-Торайгырова",
     "url": "https://krisha.kz/a/show/1010286860",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/46/460a8ad9-b035-41b6-9d64-6539a410fcf1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/460a8ad9-b035-41b6-9d64-6539a410fcf1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/460a8ad9-b035-41b6-9d64-6539a410fcf1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/460a8ad9-b035-41b6-9d64-6539a410fcf1/4-280x175.jpg\"]"
   },
   {
     "id": 366,
@@ -6221,7 +6951,9 @@ window.LISTINGS = [
     "price_value": 123000000764450,
     "address": "Наурызбайский р-н, мкр Карагайлы 93 — Уг.Каусар",
     "url": "https://krisha.kz/a/show/1011903488",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/af/afdd3f43-376e-49ce-8c92-49b8c2cf91ff/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afdd3f43-376e-49ce-8c92-49b8c2cf91ff/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afdd3f43-376e-49ce-8c92-49b8c2cf91ff/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afdd3f43-376e-49ce-8c92-49b8c2cf91ff/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/afdd3f43-376e-49ce-8c92-49b8c2cf91ff/5-280x175.jpg\"]"
   },
   {
     "id": 367,
@@ -6238,7 +6970,9 @@ window.LISTINGS = [
     "price_value": 3800000001727273,
     "address": "Алмалинский р-н, Ади Шарипова 100 — Ул.Шевченко",
     "url": "https://krisha.kz/a/show/1012721555",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/53/532f6e6d-8c49-43d5-bf8a-902c6ec5d8a1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/532f6e6d-8c49-43d5-bf8a-902c6ec5d8a1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/532f6e6d-8c49-43d5-bf8a-902c6ec5d8a1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/532f6e6d-8c49-43d5-bf8a-902c6ec5d8a1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/532f6e6d-8c49-43d5-bf8a-902c6ec5d8a1/5-280x175.jpg\"]"
   },
   {
     "id": 368,
@@ -6255,7 +6989,9 @@ window.LISTINGS = [
     "price_value": 500000000833333,
     "address": "Ауэзовский р-н, мкр Тастак-1, Златоустовская 9 — Пр. Райымбека",
     "url": "https://krisha.kz/a/show/1006830730",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ec/ecae4da8-2640-4172-8d63-794645c1ca6d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ecae4da8-2640-4172-8d63-794645c1ca6d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ecae4da8-2640-4172-8d63-794645c1ca6d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ecae4da8-2640-4172-8d63-794645c1ca6d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ecae4da8-2640-4172-8d63-794645c1ca6d/5-280x175.jpg\"]"
   },
   {
     "id": 369,
@@ -6272,7 +7008,9 @@ window.LISTINGS = [
     "price_value": 750000001500000,
     "address": "Алатауский р-н, мкр Гажайып 11/1 — Arena Park",
     "url": "https://krisha.kz/a/show/1011927398",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c1/c1975e02-ab85-46e6-875a-eb80b750a8d2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1975e02-ab85-46e6-875a-eb80b750a8d2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1975e02-ab85-46e6-875a-eb80b750a8d2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1975e02-ab85-46e6-875a-eb80b750a8d2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1975e02-ab85-46e6-875a-eb80b750a8d2/5-280x175.jpg\"]"
   },
   {
     "id": 370,
@@ -6289,7 +7027,9 @@ window.LISTINGS = [
     "price_value": 75000000125000,
     "address": "Алатауский р-н, мкр Ожет, Шаган 12/1",
     "url": "https://krisha.kz/a/show/1012903855",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ee/ee1589c6-0aa7-4ab6-8d83-5d4a72f8e347/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee1589c6-0aa7-4ab6-8d83-5d4a72f8e347/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee1589c6-0aa7-4ab6-8d83-5d4a72f8e347/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee1589c6-0aa7-4ab6-8d83-5d4a72f8e347/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/ee1589c6-0aa7-4ab6-8d83-5d4a72f8e347/5-280x175.jpg\"]"
   },
   {
     "id": 371,
@@ -6306,7 +7046,9 @@ window.LISTINGS = [
     "price_value": 955000000454178,
     "address": "Алмалинский р-н, Васнецова 12 — Тургута Озала",
     "url": "https://krisha.kz/a/show/1012324870",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5c699739-0224-4530-9adb-f9db20832073/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c699739-0224-4530-9adb-f9db20832073/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c699739-0224-4530-9adb-f9db20832073/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c699739-0224-4530-9adb-f9db20832073/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c699739-0224-4530-9adb-f9db20832073/9-280x175.jpg\"]"
   },
   {
     "id": 372,
@@ -6323,7 +7065,9 @@ window.LISTINGS = [
     "price_value": 58000000906250,
     "address": "Ауэзовский р-н, мкр Мамыр-1 29 — ТРЦ Спутник",
     "url": "https://krisha.kz/a/show/1013404407",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/16/16b7f191-f033-4733-9eab-1e9382f0f35d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16b7f191-f033-4733-9eab-1e9382f0f35d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16b7f191-f033-4733-9eab-1e9382f0f35d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16b7f191-f033-4733-9eab-1e9382f0f35d/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/16/16b7f191-f033-4733-9eab-1e9382f0f35d/7-280x175.jpg\"]"
   },
   {
     "id": 373,
@@ -6340,7 +7084,9 @@ window.LISTINGS = [
     "price_value": 208000000554667,
     "address": "Алатауский р-н, Азаттык 11Б",
     "url": "https://krisha.kz/a/show/1012006179",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/96/96f32067-34e8-4ac5-9421-af66618e16ff/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96f32067-34e8-4ac5-9421-af66618e16ff/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96f32067-34e8-4ac5-9421-af66618e16ff/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96f32067-34e8-4ac5-9421-af66618e16ff/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96f32067-34e8-4ac5-9421-af66618e16ff/6-280x175.jpg\"]"
   },
   {
     "id": 374,
@@ -6357,7 +7103,9 @@ window.LISTINGS = [
     "price_value": 55000000755495,
     "address": "Алмалинский р-н, Шагабутдинова 125 — Кабанбай батыра",
     "url": "https://krisha.kz/a/show/1012306665",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/82/82e05cc9-8cdf-4776-8d1b-9df4c5fc2638/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82e05cc9-8cdf-4776-8d1b-9df4c5fc2638/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82e05cc9-8cdf-4776-8d1b-9df4c5fc2638/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82e05cc9-8cdf-4776-8d1b-9df4c5fc2638/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82e05cc9-8cdf-4776-8d1b-9df4c5fc2638/5-280x175.jpg\"]"
   },
   {
     "id": 375,
@@ -6374,7 +7122,9 @@ window.LISTINGS = [
     "price_value": 1750000000586265,
     "address": "Алатауский р-н, мкр Теректы 1а — Жиренкол",
     "url": "https://krisha.kz/a/show/1013163468",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4c/4cb99539-f40c-41b0-902e-128396d727af/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4cb99539-f40c-41b0-902e-128396d727af/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4cb99539-f40c-41b0-902e-128396d727af/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4cb99539-f40c-41b0-902e-128396d727af/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4cb99539-f40c-41b0-902e-128396d727af/5-280x175.jpg\"]"
   },
   {
     "id": 376,
@@ -6391,7 +7141,9 @@ window.LISTINGS = [
     "price_value": 360000000642857,
     "address": "Медеуский р-н, Бухтарминская 118",
     "url": "https://krisha.kz/a/show/1006626824",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/41/41cfac3b-4131-4f8f-b97a-ae0b23b5f9e4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41cfac3b-4131-4f8f-b97a-ae0b23b5f9e4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41cfac3b-4131-4f8f-b97a-ae0b23b5f9e4/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41cfac3b-4131-4f8f-b97a-ae0b23b5f9e4/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/41/41cfac3b-4131-4f8f-b97a-ae0b23b5f9e4/7-280x175.jpg\"]"
   },
   {
     "id": 377,
@@ -6408,7 +7160,9 @@ window.LISTINGS = [
     "price_value": 355000001014286,
     "address": "Бостандыкский р-н, Солодовникова 21д — Гагарина",
     "url": "https://krisha.kz/a/show/1007129181",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e2/e2445cb8-a8b3-4e22-806a-ed7e79aa3173/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2445cb8-a8b3-4e22-806a-ed7e79aa3173/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2445cb8-a8b3-4e22-806a-ed7e79aa3173/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2445cb8-a8b3-4e22-806a-ed7e79aa3173/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2445cb8-a8b3-4e22-806a-ed7e79aa3173/6-280x175.jpg\"]"
   },
   {
     "id": 378,
@@ -6425,7 +7179,9 @@ window.LISTINGS = [
     "price_value": 2500000001666667,
     "address": "Бостандыкский р-н, Кенесары хан 54",
     "url": "https://krisha.kz/a/show/1011764788",
-    "first_seen": "2026-06-28T12:49:56"
+    "first_seen": "2026-06-28T12:49:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/64/6416a23b-992b-4f25-87c0-259550f9c0e4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/6416a23b-992b-4f25-87c0-259550f9c0e4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/6416a23b-992b-4f25-87c0-259550f9c0e4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/6416a23b-992b-4f25-87c0-259550f9c0e4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/64/6416a23b-992b-4f25-87c0-259550f9c0e4/5-280x175.jpg\"]"
   },
   {
     "id": 379,
@@ -6442,7 +7198,9 @@ window.LISTINGS = [
     "price_value": 125000000500000,
     "address": "Жетысуский р-н, мкр Кемел (Первомайское) 64В — ул. Постышева, 64В",
     "url": "https://krisha.kz/a/show/1013359744",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b6/b66a129a-a2b2-4e79-8280-fdc5ceb8d208/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66a129a-a2b2-4e79-8280-fdc5ceb8d208/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66a129a-a2b2-4e79-8280-fdc5ceb8d208/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66a129a-a2b2-4e79-8280-fdc5ceb8d208/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66a129a-a2b2-4e79-8280-fdc5ceb8d208/5-280x175.jpg\"]"
   },
   {
     "id": 380,
@@ -6459,7 +7217,9 @@ window.LISTINGS = [
     "price_value": 3000000001530612,
     "address": "Ауэзовский р-н, мкр Таугуль, Сулейменова 26 Б — Токтабаева",
     "url": "https://krisha.kz/a/show/669746480",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/45/4591678e-1814-4569-b54d-bfc0ae359d96/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/4591678e-1814-4569-b54d-bfc0ae359d96/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/4591678e-1814-4569-b54d-bfc0ae359d96/13-280x175.jpg\"]"
   },
   {
     "id": 381,
@@ -6476,7 +7236,9 @@ window.LISTINGS = [
     "price_value": 10000000500000,
     "address": "Алатауский р-н, мкр Зердели 1/173",
     "url": "https://krisha.kz/a/show/1013031494",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b2/b2c71b85-3f71-47a3-8e5c-7c1ed2d3d03d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b2c71b85-3f71-47a3-8e5c-7c1ed2d3d03d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b2c71b85-3f71-47a3-8e5c-7c1ed2d3d03d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b2c71b85-3f71-47a3-8e5c-7c1ed2d3d03d/4-280x175.jpg\"]"
   },
   {
     "id": 382,
@@ -6493,7 +7255,9 @@ window.LISTINGS = [
     "price_value": 14900000359903,
     "address": "Алатауский р-н, мкр Ожет, Северное Кольцо 92/3 к3",
     "url": "https://krisha.kz/a/show/1011024889",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7e/7eef9c8f-589b-473d-8b57-49dc95d96a7a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7eef9c8f-589b-473d-8b57-49dc95d96a7a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7eef9c8f-589b-473d-8b57-49dc95d96a7a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7eef9c8f-589b-473d-8b57-49dc95d96a7a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7eef9c8f-589b-473d-8b57-49dc95d96a7a/5-280x175.jpg\"]"
   },
   {
     "id": 383,
@@ -6510,7 +7274,9 @@ window.LISTINGS = [
     "price_value": 410000000878885,
     "address": "Алмалинский р-н, Ауэзова 32 — Пересечение ул. Толе Би",
     "url": "https://krisha.kz/a/show/1012722285",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a7/a7f8d0cd-58ac-49d3-b60a-6514ca4c17c0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7f8d0cd-58ac-49d3-b60a-6514ca4c17c0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7f8d0cd-58ac-49d3-b60a-6514ca4c17c0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7f8d0cd-58ac-49d3-b60a-6514ca4c17c0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a7f8d0cd-58ac-49d3-b60a-6514ca4c17c0/5-280x175.jpg\"]"
   },
   {
     "id": 384,
@@ -6527,7 +7293,9 @@ window.LISTINGS = [
     "price_value": 2300000001000000,
     "address": "Турксибский р-н, Жигулёвская 5 — Бейсебаева",
     "url": "https://krisha.kz/a/show/1012427031",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9b/9b25f83d-3244-4c25-aeca-1607923e6ffb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b25f83d-3244-4c25-aeca-1607923e6ffb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b25f83d-3244-4c25-aeca-1607923e6ffb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b25f83d-3244-4c25-aeca-1607923e6ffb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b25f83d-3244-4c25-aeca-1607923e6ffb/5-280x175.jpg\"]"
   },
   {
     "id": 385,
@@ -6544,7 +7312,9 @@ window.LISTINGS = [
     "price_value": 27720000001386000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик) 1 — Аль-фараби угол Розыбакиева",
     "url": "https://krisha.kz/a/show/1013216505",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 386,
@@ -6561,7 +7331,9 @@ window.LISTINGS = [
     "price_value": 410000000729537,
     "address": "Медеуский р-н, мкр Самал-3 10 — Ритц Паласа",
     "url": "https://krisha.kz/a/show/693915009",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/19/1935088f-2e0a-4558-8856-2faab64fec30/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/1935088f-2e0a-4558-8856-2faab64fec30/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/1935088f-2e0a-4558-8856-2faab64fec30/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/1935088f-2e0a-4558-8856-2faab64fec30/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/1935088f-2e0a-4558-8856-2faab64fec30/14-280x175.jpg\"]"
   },
   {
     "id": 387,
@@ -6578,7 +7350,9 @@ window.LISTINGS = [
     "price_value": 275000000846154,
     "address": "Бостандыкский р-н, Байсеитовой 45 — За центральной библиотекой, новая площадь",
     "url": "https://krisha.kz/a/show/1011048434",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/76/76eb482e-066c-4734-b53e-40d4753e96ad/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76eb482e-066c-4734-b53e-40d4753e96ad/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76eb482e-066c-4734-b53e-40d4753e96ad/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76eb482e-066c-4734-b53e-40d4753e96ad/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76eb482e-066c-4734-b53e-40d4753e96ad/5-280x175.jpg\"]"
   },
   {
     "id": 388,
@@ -6595,7 +7369,9 @@ window.LISTINGS = [
     "price_value": 50000000191791,
     "address": "Наурызбайский р-н, мкр Шугыла 340/36 кор.7",
     "url": "https://krisha.kz/a/show/1005179873",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b8/b88c82b7-a3a0-4bfb-8848-13e1dc6872ec/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b88c82b7-a3a0-4bfb-8848-13e1dc6872ec/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b88c82b7-a3a0-4bfb-8848-13e1dc6872ec/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b88c82b7-a3a0-4bfb-8848-13e1dc6872ec/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b88c82b7-a3a0-4bfb-8848-13e1dc6872ec/5-280x175.jpg\"]"
   },
   {
     "id": 389,
@@ -6612,7 +7388,9 @@ window.LISTINGS = [
     "price_value": 4800000001509434,
     "address": "Медеуский р-н, Жангильдина 31/1 — Арыкова",
     "url": "https://krisha.kz/a/show/1012435127",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cd/cdff6ad9-6301-4059-b85a-08cceb62da25/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cdff6ad9-6301-4059-b85a-08cceb62da25/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cdff6ad9-6301-4059-b85a-08cceb62da25/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cdff6ad9-6301-4059-b85a-08cceb62da25/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cdff6ad9-6301-4059-b85a-08cceb62da25/5-280x175.jpg\"]"
   },
   {
     "id": 390,
@@ -6629,7 +7407,9 @@ window.LISTINGS = [
     "price_value": 773000000827517,
     "address": "Медеуский р-н, Калдаякова 30",
     "url": "https://krisha.kz/a/show/1008732512",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bd/bd1375c4-e832-413f-80ab-3268332a6299/2-280x175.jpg\"]"
   },
   {
     "id": 391,
@@ -6646,7 +7426,9 @@ window.LISTINGS = [
     "price_value": 964640000361424,
     "address": "Алатауский р-н, Бокеева 128 — Пр. Рыскулова",
     "url": "https://krisha.kz/a/show/1007714839",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f756eb3a-6427-4c7d-a742-86b83f47c390/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f756eb3a-6427-4c7d-a742-86b83f47c390/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f756eb3a-6427-4c7d-a742-86b83f47c390/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f756eb3a-6427-4c7d-a742-86b83f47c390/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f756eb3a-6427-4c7d-a742-86b83f47c390/5-280x175.jpg\"]"
   },
   {
     "id": 392,
@@ -6663,7 +7445,9 @@ window.LISTINGS = [
     "price_value": 980000001507692,
     "address": "Алатауский р-н, мкр Аккент 32",
     "url": "https://krisha.kz/a/show/1009480847",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/23/23f3b53f-ba7c-4086-b5f7-9bc3c42a650c/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23f3b53f-ba7c-4086-b5f7-9bc3c42a650c/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23f3b53f-ba7c-4086-b5f7-9bc3c42a650c/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23f3b53f-ba7c-4086-b5f7-9bc3c42a650c/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23f3b53f-ba7c-4086-b5f7-9bc3c42a650c/17-280x175.jpg\"]"
   },
   {
     "id": 393,
@@ -6680,7 +7464,9 @@ window.LISTINGS = [
     "price_value": 62000000154421,
     "address": "Наурызбайский р-н, мкр Шугыла 340/3б",
     "url": "https://krisha.kz/a/show/1004587465",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/83/832a4d28-eef3-4d93-a367-23a60c5b76d5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/832a4d28-eef3-4d93-a367-23a60c5b76d5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/832a4d28-eef3-4d93-a367-23a60c5b76d5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/832a4d28-eef3-4d93-a367-23a60c5b76d5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/832a4d28-eef3-4d93-a367-23a60c5b76d5/5-280x175.jpg\"]"
   },
   {
     "id": 394,
@@ -6697,7 +7483,9 @@ window.LISTINGS = [
     "price_value": 45000000789474,
     "address": "Турксибский р-н, Сейфуллина 51",
     "url": "https://krisha.kz/a/show/1012959103",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/96/96e5d2ed-9d7c-4d06-86ef-51abd3131a1d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96e5d2ed-9d7c-4d06-86ef-51abd3131a1d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96e5d2ed-9d7c-4d06-86ef-51abd3131a1d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96e5d2ed-9d7c-4d06-86ef-51abd3131a1d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/96/96e5d2ed-9d7c-4d06-86ef-51abd3131a1d/5-280x175.jpg\"]"
   },
   {
     "id": 395,
@@ -6714,7 +7502,9 @@ window.LISTINGS = [
     "price_value": 800000000574548,
     "address": "Ауэзовский р-н, Пятницкого 102 А — Саина",
     "url": "https://krisha.kz/a/show/678250996",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/56e4ad82-43ea-447a-beef-7e4b5057b02d/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56e4ad82-43ea-447a-beef-7e4b5057b02d/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56e4ad82-43ea-447a-beef-7e4b5057b02d/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56e4ad82-43ea-447a-beef-7e4b5057b02d/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/56e4ad82-43ea-447a-beef-7e4b5057b02d/20-280x175.jpg\"]"
   },
   {
     "id": 396,
@@ -6731,7 +7521,9 @@ window.LISTINGS = [
     "price_value": 3300000001299213,
     "address": "Медеуский р-н, ул. Калдаякова 54 — ул. Казыбек Би",
     "url": "https://krisha.kz/a/show/1009409509",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/21/21f92739-db26-40ba-98d0-8f326a099248/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/21f92739-db26-40ba-98d0-8f326a099248/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/21f92739-db26-40ba-98d0-8f326a099248/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/21f92739-db26-40ba-98d0-8f326a099248/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/21/21f92739-db26-40ba-98d0-8f326a099248/5-280x175.jpg\"]"
   },
   {
     "id": 397,
@@ -6748,7 +7540,9 @@ window.LISTINGS = [
     "price_value": 85000000212500,
     "address": "Алатауский р-н, мкр Алгабас 2 — Алтынкол",
     "url": "https://krisha.kz/a/show/1006153803",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cf/cf60aee5-7cca-47df-924b-940c90190c31/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf60aee5-7cca-47df-924b-940c90190c31/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf60aee5-7cca-47df-924b-940c90190c31/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf60aee5-7cca-47df-924b-940c90190c31/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf60aee5-7cca-47df-924b-940c90190c31/5-280x175.jpg\"]"
   },
   {
     "id": 398,
@@ -6765,7 +7559,9 @@ window.LISTINGS = [
     "price_value": 160000000865801,
     "address": "Бостандыкский р-н, Серкебаева 99 — Серкебаева 99",
     "url": "https://krisha.kz/a/show/1011378644",
-    "first_seen": "2026-06-28T12:50:01"
+    "first_seen": "2026-06-28T12:50:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c6/c66206ba-3f13-4cac-897b-e4e8139dacd4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c66206ba-3f13-4cac-897b-e4e8139dacd4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c66206ba-3f13-4cac-897b-e4e8139dacd4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c66206ba-3f13-4cac-897b-e4e8139dacd4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c6/c66206ba-3f13-4cac-897b-e4e8139dacd4/5-280x175.jpg\"]"
   },
   {
     "id": 399,
@@ -6782,7 +7578,9 @@ window.LISTINGS = [
     "price_value": 10000000,
     "address": "Медеуский р-н, мкр Каменское плато",
     "url": "https://krisha.kz/a/show/1012187823",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3e/3e4fdb96-fbc9-42ca-a1cd-7e01eb60d0bd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e4fdb96-fbc9-42ca-a1cd-7e01eb60d0bd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e4fdb96-fbc9-42ca-a1cd-7e01eb60d0bd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e4fdb96-fbc9-42ca-a1cd-7e01eb60d0bd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3e/3e4fdb96-fbc9-42ca-a1cd-7e01eb60d0bd/5-280x175.jpg\"]"
   },
   {
     "id": 400,
@@ -6799,7 +7597,9 @@ window.LISTINGS = [
     "price_value": 15500000,
     "address": "Наурызбайский р-н, \"Енбек\"",
     "url": "https://krisha.kz/a/show/1011695857",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/52/52e5facb-5745-4215-b0b2-514b61df488e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52e5facb-5745-4215-b0b2-514b61df488e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52e5facb-5745-4215-b0b2-514b61df488e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52e5facb-5745-4215-b0b2-514b61df488e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52e5facb-5745-4215-b0b2-514b61df488e/5-280x175.jpg\"]"
   },
   {
     "id": 401,
@@ -6816,7 +7616,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Медеуский р-н, мкр Каменское плато 4 — 4 минуты от \"Роял Тулиб\"",
     "url": "https://krisha.kz/a/show/694973816",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f6/f625f60b-c7a2-4f8a-8ee0-e36d3ddf6f35/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f625f60b-c7a2-4f8a-8ee0-e36d3ddf6f35/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f625f60b-c7a2-4f8a-8ee0-e36d3ddf6f35/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f625f60b-c7a2-4f8a-8ee0-e36d3ddf6f35/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f625f60b-c7a2-4f8a-8ee0-e36d3ddf6f35/7-280x175.jpg\"]"
   },
   {
     "id": 402,
@@ -6833,7 +7635,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Медеуский р-н, мкр Кенсай 9 — Шокай",
     "url": "https://krisha.kz/a/show/1011703948",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/76/76640ac0-7c5c-42f9-928e-9569eaf6c34f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76640ac0-7c5c-42f9-928e-9569eaf6c34f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76640ac0-7c5c-42f9-928e-9569eaf6c34f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76640ac0-7c5c-42f9-928e-9569eaf6c34f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/76640ac0-7c5c-42f9-928e-9569eaf6c34f/5-280x175.jpg\"]"
   },
   {
     "id": 403,
@@ -6850,7 +7654,9 @@ window.LISTINGS = [
     "price_value": 39500000,
     "address": "Бостандыкский р-н, мкр Баганашыл, Мкр. Баганашыл, ул. Источник 3",
     "url": "https://krisha.kz/a/show/1009168418",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e9/e9b1f79e-3ff2-4a38-90bd-f8278441cda6/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9b1f79e-3ff2-4a38-90bd-f8278441cda6/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9b1f79e-3ff2-4a38-90bd-f8278441cda6/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9b1f79e-3ff2-4a38-90bd-f8278441cda6/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9b1f79e-3ff2-4a38-90bd-f8278441cda6/12-280x175.jpg\"]"
   },
   {
     "id": 404,
@@ -6867,7 +7673,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак",
     "url": "https://krisha.kz/a/show/1012565866",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/28daf03e-d76c-4225-aec5-ad6367039bd4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28daf03e-d76c-4225-aec5-ad6367039bd4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28daf03e-d76c-4225-aec5-ad6367039bd4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28daf03e-d76c-4225-aec5-ad6367039bd4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/28daf03e-d76c-4225-aec5-ad6367039bd4/5-280x175.jpg\"]"
   },
   {
     "id": 405,
@@ -6884,7 +7692,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Садовая 22",
     "url": "https://krisha.kz/a/show/1011011660",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/57/57b557b2-782a-4cfe-bb4f-36a77e6b7c4d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57b557b2-782a-4cfe-bb4f-36a77e6b7c4d/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57b557b2-782a-4cfe-bb4f-36a77e6b7c4d/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57b557b2-782a-4cfe-bb4f-36a77e6b7c4d/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/57/57b557b2-782a-4cfe-bb4f-36a77e6b7c4d/10-280x175.jpg\"]"
   },
   {
     "id": 406,
@@ -6901,7 +7711,9 @@ window.LISTINGS = [
     "price_value": 110000000,
     "address": "Медеуский р-н, Панорамный Участок — Бишкекская 93",
     "url": "https://krisha.kz/a/show/1010111271",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/59/59db7eab-127e-4652-a8cd-f9f176d0b80f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59db7eab-127e-4652-a8cd-f9f176d0b80f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59db7eab-127e-4652-a8cd-f9f176d0b80f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59db7eab-127e-4652-a8cd-f9f176d0b80f/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59db7eab-127e-4652-a8cd-f9f176d0b80f/17-280x175.jpg\"]"
   },
   {
     "id": 407,
@@ -6918,7 +7730,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, ПК Садоводческое Товаришество Мичуринец Ерменсай, улица Центральная 55",
     "url": "https://krisha.kz/a/show/1006863025",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b6/b66c79c1-dda2-4aad-ac24-3fae97c46209/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66c79c1-dda2-4aad-ac24-3fae97c46209/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66c79c1-dda2-4aad-ac24-3fae97c46209/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66c79c1-dda2-4aad-ac24-3fae97c46209/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b66c79c1-dda2-4aad-ac24-3fae97c46209/6-280x175.jpg\"]"
   },
   {
     "id": 408,
@@ -6935,7 +7749,9 @@ window.LISTINGS = [
     "price_value": 9990000,
     "address": "Медеуский р-н, Алмалыкская 85",
     "url": "https://krisha.kz/a/show/1012613487",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f3/f3b95f79-647f-499c-b323-5de1e353fe90/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b95f79-647f-499c-b323-5de1e353fe90/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b95f79-647f-499c-b323-5de1e353fe90/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b95f79-647f-499c-b323-5de1e353fe90/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b95f79-647f-499c-b323-5de1e353fe90/5-280x175.jpg\"]"
   },
   {
     "id": 409,
@@ -6952,7 +7768,9 @@ window.LISTINGS = [
     "price_value": 18900000,
     "address": "Медеуский р-н, мкр Коктобе, Мечуренец юг 49",
     "url": "https://krisha.kz/a/show/1009883923",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ec/ec82a87c-e087-4bba-826c-c0b0edbb8089/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec82a87c-e087-4bba-826c-c0b0edbb8089/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec82a87c-e087-4bba-826c-c0b0edbb8089/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec82a87c-e087-4bba-826c-c0b0edbb8089/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec82a87c-e087-4bba-826c-c0b0edbb8089/5-280x175.jpg\"]"
   },
   {
     "id": 410,
@@ -6969,7 +7787,9 @@ window.LISTINGS = [
     "price_value": 44000000,
     "address": "Наурызбайский р-н, Вишнёвая ул. 118",
     "url": "https://krisha.kz/a/show/1011983070",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f46500a0-4edd-4162-8a27-a6df524e4e40/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f46500a0-4edd-4162-8a27-a6df524e4e40/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f46500a0-4edd-4162-8a27-a6df524e4e40/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f46500a0-4edd-4162-8a27-a6df524e4e40/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f46500a0-4edd-4162-8a27-a6df524e4e40/5-280x175.jpg\"]"
   },
   {
     "id": 411,
@@ -6986,7 +7806,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Алатауский р-н, Пкст Теплоэнергетик 125",
     "url": "https://krisha.kz/a/show/1012092665",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6c/6c89fb6a-46dc-40fd-ac74-75d9ce28e63d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c89fb6a-46dc-40fd-ac74-75d9ce28e63d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c89fb6a-46dc-40fd-ac74-75d9ce28e63d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c89fb6a-46dc-40fd-ac74-75d9ce28e63d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c89fb6a-46dc-40fd-ac74-75d9ce28e63d/5-280x175.jpg\"]"
   },
   {
     "id": 412,
@@ -7003,7 +7825,9 @@ window.LISTINGS = [
     "price_value": 49999999,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1012960517",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1e/1e525990-c9e9-4668-b191-eb087f24b612/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1e525990-c9e9-4668-b191-eb087f24b612/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1e525990-c9e9-4668-b191-eb087f24b612/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1e525990-c9e9-4668-b191-eb087f24b612/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1e/1e525990-c9e9-4668-b191-eb087f24b612/5-280x175.jpg\"]"
   },
   {
     "id": 413,
@@ -7020,7 +7844,9 @@ window.LISTINGS = [
     "price_value": 28500000,
     "address": "Медеуский р-н, СТ Транспортник 14 — Мкр.Кенсай",
     "url": "https://krisha.kz/a/show/692496002",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/2890606d-59db-4c8b-8d83-f59d788aaeef/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2890606d-59db-4c8b-8d83-f59d788aaeef/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2890606d-59db-4c8b-8d83-f59d788aaeef/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2890606d-59db-4c8b-8d83-f59d788aaeef/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2890606d-59db-4c8b-8d83-f59d788aaeef/6-280x175.jpg\"]"
   },
   {
     "id": 414,
@@ -7037,7 +7863,9 @@ window.LISTINGS = [
     "price_value": 69000000,
     "address": "Бостандыкский р-н, мкр Хан Тенгри, Энергетик 2 171 — Дулати",
     "url": "https://krisha.kz/a/show/1011782680",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4f/4f33f2f4-2956-4161-a97c-c489bee799c2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f33f2f4-2956-4161-a97c-c489bee799c2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f33f2f4-2956-4161-a97c-c489bee799c2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f33f2f4-2956-4161-a97c-c489bee799c2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4f33f2f4-2956-4161-a97c-c489bee799c2/7-280x175.jpg\"]"
   },
   {
     "id": 415,
@@ -7054,7 +7882,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Медеуский р-н, мкр Аскартау, Курортная 66",
     "url": "https://krisha.kz/a/show/1012018596",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/397d16aa-d78b-4481-9287-1e4d89245e25/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/397d16aa-d78b-4481-9287-1e4d89245e25/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/397d16aa-d78b-4481-9287-1e4d89245e25/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/397d16aa-d78b-4481-9287-1e4d89245e25/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/397d16aa-d78b-4481-9287-1e4d89245e25/5-280x175.jpg\"]"
   },
   {
     "id": 416,
@@ -7071,7 +7901,9 @@ window.LISTINGS = [
     "price_value": 17500000,
     "address": "Медеуский р-н, мкр Родники 1",
     "url": "https://krisha.kz/a/show/1012338812",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/88/8854d698-1b61-4d52-9d61-1b8f5d2db290/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8854d698-1b61-4d52-9d61-1b8f5d2db290/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8854d698-1b61-4d52-9d61-1b8f5d2db290/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8854d698-1b61-4d52-9d61-1b8f5d2db290/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8854d698-1b61-4d52-9d61-1b8f5d2db290/5-280x175.jpg\"]"
   },
   {
     "id": 417,
@@ -7088,7 +7920,9 @@ window.LISTINGS = [
     "price_value": 5500000,
     "address": "СТ Домостроитель 138",
     "url": "https://krisha.kz/a/show/1012208488",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/01/012294b6-d233-436d-97ca-45ad29f81a02/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/012294b6-d233-436d-97ca-45ad29f81a02/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/012294b6-d233-436d-97ca-45ad29f81a02/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/012294b6-d233-436d-97ca-45ad29f81a02/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/012294b6-d233-436d-97ca-45ad29f81a02/5-280x175.jpg\"]"
   },
   {
     "id": 418,
@@ -7105,7 +7939,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, 2 нагорная 45 — 2 я нагорная",
     "url": "https://krisha.kz/a/show/1010775074",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/54/54937082-927e-410e-85d1-69b4d58cd8be/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54937082-927e-410e-85d1-69b4d58cd8be/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54937082-927e-410e-85d1-69b4d58cd8be/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54937082-927e-410e-85d1-69b4d58cd8be/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54937082-927e-410e-85d1-69b4d58cd8be/7-280x175.jpg\"]"
   },
   {
     "id": 419,
@@ -7122,7 +7958,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Медеуский р-н, мкр Кенсай, Энциклопедия 48 — Магазин ардагер",
     "url": "https://krisha.kz/a/show/762297909",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6b/6bb98489-3b0e-43e4-a62c-d70bba2b4d69/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb98489-3b0e-43e4-a62c-d70bba2b4d69/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb98489-3b0e-43e4-a62c-d70bba2b4d69/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb98489-3b0e-43e4-a62c-d70bba2b4d69/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb98489-3b0e-43e4-a62c-d70bba2b4d69/11-280x175.jpg\"]"
   },
   {
     "id": 420,
@@ -7139,7 +7977,9 @@ window.LISTINGS = [
     "price_value": 25900000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик), Буран 20",
     "url": "https://krisha.kz/a/show/1006431721",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b9/b9d71fba-9f2b-4423-b1b0-e06a73bdea23/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b9d71fba-9f2b-4423-b1b0-e06a73bdea23/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b9d71fba-9f2b-4423-b1b0-e06a73bdea23/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b9d71fba-9f2b-4423-b1b0-e06a73bdea23/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b9/b9d71fba-9f2b-4423-b1b0-e06a73bdea23/5-280x175.jpg\"]"
   },
   {
     "id": 421,
@@ -7156,7 +7996,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Ол",
     "url": "https://krisha.kz/a/show/1008620115",
-    "first_seen": "2026-06-28T12:50:07"
+    "first_seen": "2026-06-28T12:50:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3f/3fbbcb1d-fe9c-4e68-b3a6-655bb825f719/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fbbcb1d-fe9c-4e68-b3a6-655bb825f719/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fbbcb1d-fe9c-4e68-b3a6-655bb825f719/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fbbcb1d-fe9c-4e68-b3a6-655bb825f719/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3fbbcb1d-fe9c-4e68-b3a6-655bb825f719/5-280x175.jpg\"]"
   },
   {
     "id": 422,
@@ -7173,7 +8015,9 @@ window.LISTINGS = [
     "price_value": 18000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак — ПКСТ Сервис 98",
     "url": "https://krisha.kz/a/show/1001680507",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f0/f0ed0ec2-ada3-4abc-bbba-7abb16b56b15/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f0ed0ec2-ada3-4abc-bbba-7abb16b56b15/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f0ed0ec2-ada3-4abc-bbba-7abb16b56b15/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f0ed0ec2-ada3-4abc-bbba-7abb16b56b15/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f0ed0ec2-ada3-4abc-bbba-7abb16b56b15/5-280x175.jpg\"]"
   },
   {
     "id": 423,
@@ -7190,7 +8034,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Наурызбайский р-н, Участок 50 — ПКСТ \"Эдельвейс\"",
     "url": "https://krisha.kz/a/show/1001969682",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6e/6eb52f86-1229-4ffb-969e-5c5475afaef5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6eb52f86-1229-4ffb-969e-5c5475afaef5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6eb52f86-1229-4ffb-969e-5c5475afaef5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6eb52f86-1229-4ffb-969e-5c5475afaef5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6eb52f86-1229-4ffb-969e-5c5475afaef5/5-280x175.jpg\"]"
   },
   {
     "id": 424,
@@ -7207,7 +8053,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Жетысуский р-н, мкр Кокжиек, Садовая 8 — Хозяйка",
     "url": "https://krisha.kz/a/show/1013420585",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 425,
@@ -7224,7 +8072,9 @@ window.LISTINGS = [
     "price_value": 22000000,
     "address": "Наурызбайский р-н, мкр Каргалы",
     "url": "https://krisha.kz/a/show/1013326252",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/06/063cfa13-0a80-460d-a1af-d1ef7ee2ebed/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/063cfa13-0a80-460d-a1af-d1ef7ee2ebed/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/063cfa13-0a80-460d-a1af-d1ef7ee2ebed/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/063cfa13-0a80-460d-a1af-d1ef7ee2ebed/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/063cfa13-0a80-460d-a1af-d1ef7ee2ebed/5-280x175.jpg\"]"
   },
   {
     "id": 426,
@@ -7241,7 +8091,9 @@ window.LISTINGS = [
     "price_value": 18000000,
     "address": "Наурызбайский р-н, мкр Каргалы 63",
     "url": "https://krisha.kz/a/show/1011483960",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a81981dd-ebac-4314-b1f6-503c61a1f476/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a81981dd-ebac-4314-b1f6-503c61a1f476/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a81981dd-ebac-4314-b1f6-503c61a1f476/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a81981dd-ebac-4314-b1f6-503c61a1f476/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a81981dd-ebac-4314-b1f6-503c61a1f476/5-280x175.jpg\"]"
   },
   {
     "id": 427,
@@ -7258,7 +8110,9 @@ window.LISTINGS = [
     "price_value": 18000000,
     "address": "Бостандыкский р-н, мкр Ерменсай 21",
     "url": "https://krisha.kz/a/show/677964918",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a828abd7-8ea8-429d-b50c-d3717c558b25/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a828abd7-8ea8-429d-b50c-d3717c558b25/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a828abd7-8ea8-429d-b50c-d3717c558b25/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a828abd7-8ea8-429d-b50c-d3717c558b25/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a828abd7-8ea8-429d-b50c-d3717c558b25/5-280x175.jpg\"]"
   },
   {
     "id": 428,
@@ -7275,7 +8129,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Медеуский р-н, мкр Каменское плато, Садоводческое товарищество Высокогорное 87",
     "url": "https://krisha.kz/a/show/1013097048",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a554227e-9f7a-4f09-99f3-eae35381aac7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a554227e-9f7a-4f09-99f3-eae35381aac7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a554227e-9f7a-4f09-99f3-eae35381aac7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a554227e-9f7a-4f09-99f3-eae35381aac7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a554227e-9f7a-4f09-99f3-eae35381aac7/5-280x175.jpg\"]"
   },
   {
     "id": 429,
@@ -7292,7 +8148,9 @@ window.LISTINGS = [
     "price_value": 8000000,
     "address": "Медеуский р-н, СТ Высокогорное 102 — Ниже трех баков",
     "url": "https://krisha.kz/a/show/1013494016",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0d/0d56294c-5d10-4fa0-baaa-f24a716d63fc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d56294c-5d10-4fa0-baaa-f24a716d63fc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d56294c-5d10-4fa0-baaa-f24a716d63fc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d56294c-5d10-4fa0-baaa-f24a716d63fc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d56294c-5d10-4fa0-baaa-f24a716d63fc/5-280x175.jpg\"]"
   },
   {
     "id": 430,
@@ -7309,7 +8167,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, ПкСад товарищество Канат уч 22 — По Джандосова напротив пос.Акжар",
     "url": "https://krisha.kz/a/show/1010782817",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 431,
@@ -7326,7 +8186,9 @@ window.LISTINGS = [
     "price_value": 10000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Мкр Кыргаулды",
     "url": "https://krisha.kz/a/show/1003746108",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/893fd210-3f90-4bf3-ac70-6e5e58f704bf/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/893fd210-3f90-4bf3-ac70-6e5e58f704bf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/893fd210-3f90-4bf3-ac70-6e5e58f704bf/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/893fd210-3f90-4bf3-ac70-6e5e58f704bf/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/893fd210-3f90-4bf3-ac70-6e5e58f704bf/5-280x175.jpg\"]"
   },
   {
     "id": 432,
@@ -7343,7 +8205,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Медеуский р-н, Железнодорожник 50 — Толе би ВОАД",
     "url": "https://krisha.kz/a/show/760031286",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/98/98a4d168-28e9-439c-bb87-31676c617e07/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98a4d168-28e9-439c-bb87-31676c617e07/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98a4d168-28e9-439c-bb87-31676c617e07/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98a4d168-28e9-439c-bb87-31676c617e07/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98a4d168-28e9-439c-bb87-31676c617e07/5-280x175.jpg\"]"
   },
   {
     "id": 433,
@@ -7360,7 +8224,9 @@ window.LISTINGS = [
     "price_value": 11000000,
     "address": "Наурызбайский р-н, Коклайсай 7",
     "url": "https://krisha.kz/a/show/685491880",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/65/65df61e3-149e-446a-9328-909d59e7cb68/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65df61e3-149e-446a-9328-909d59e7cb68/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65df61e3-149e-446a-9328-909d59e7cb68/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65df61e3-149e-446a-9328-909d59e7cb68/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/65/65df61e3-149e-446a-9328-909d59e7cb68/9-280x175.jpg\"]"
   },
   {
     "id": 434,
@@ -7377,7 +8243,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Медеуский р-н, мкр Кенсай, Мкр Кенсай ул. КНМ 5 А — Находится в 50 метрах от центральной улицы Мустофы Шокая.",
     "url": "https://krisha.kz/a/show/761137780",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dc29233c-86e5-4d7e-b902-1fd2c52320df/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc29233c-86e5-4d7e-b902-1fd2c52320df/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc29233c-86e5-4d7e-b902-1fd2c52320df/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc29233c-86e5-4d7e-b902-1fd2c52320df/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc29233c-86e5-4d7e-b902-1fd2c52320df/14-280x175.jpg\"]"
   },
   {
     "id": 435,
@@ -7394,7 +8262,9 @@ window.LISTINGS = [
     "price_value": 50000000,
     "address": "Бостандыкский р-н, мкр Ерменсай",
     "url": "https://krisha.kz/a/show/1000788247",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9b/9b3db59a-698a-4682-83be-aa174396ccc7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b3db59a-698a-4682-83be-aa174396ccc7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b3db59a-698a-4682-83be-aa174396ccc7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b3db59a-698a-4682-83be-aa174396ccc7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9b3db59a-698a-4682-83be-aa174396ccc7/5-280x175.jpg\"]"
   },
   {
     "id": 436,
@@ -7411,7 +8281,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Медеуский р-н, Мечуринец юг 48",
     "url": "https://krisha.kz/a/show/1013289266",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3c97c2c2-fedf-47b8-acff-374f56404323/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c97c2c2-fedf-47b8-acff-374f56404323/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c97c2c2-fedf-47b8-acff-374f56404323/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c97c2c2-fedf-47b8-acff-374f56404323/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c97c2c2-fedf-47b8-acff-374f56404323/5-280x175.jpg\"]"
   },
   {
     "id": 437,
@@ -7428,7 +8300,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Облсельхозуправление 8",
     "url": "https://krisha.kz/a/show/1013109097",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/25aeaf66-fbd9-41de-9319-43438a5b4190/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25aeaf66-fbd9-41de-9319-43438a5b4190/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25aeaf66-fbd9-41de-9319-43438a5b4190/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25aeaf66-fbd9-41de-9319-43438a5b4190/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25aeaf66-fbd9-41de-9319-43438a5b4190/5-280x175.jpg\"]"
   },
   {
     "id": 438,
@@ -7445,7 +8319,9 @@ window.LISTINGS = [
     "price_value": 5500000,
     "address": "Медеуский р-н, мкр Каменское плато 156",
     "url": "https://krisha.kz/a/show/1003824227",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e1b3e506-551a-4e3f-817c-47ad7d500671/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1b3e506-551a-4e3f-817c-47ad7d500671/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1b3e506-551a-4e3f-817c-47ad7d500671/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e1b3e506-551a-4e3f-817c-47ad7d500671/4-280x175.jpg\"]"
   },
   {
     "id": 439,
@@ -7462,7 +8338,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Саламат Мукашева 63 — Алмасити 5",
     "url": "https://krisha.kz/a/show/1009320773",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/08/088a2bb4-40ac-4eac-b0df-935a20d5537a/1-280x175.jpg\"]"
   },
   {
     "id": 440,
@@ -7479,7 +8357,9 @@ window.LISTINGS = [
     "price_value": 10000000,
     "address": "Медеуский р-н, мкр Бутаковка — Замантас",
     "url": "https://krisha.kz/a/show/1013489969",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 441,
@@ -7496,7 +8376,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Медеуский р-н, СТ Родники 573",
     "url": "https://krisha.kz/a/show/1011686971",
-    "first_seen": "2026-06-28T12:50:13"
+    "first_seen": "2026-06-28T12:50:13",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/82/82297019-2fcd-42b7-808c-7e1d8238c9ea/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82297019-2fcd-42b7-808c-7e1d8238c9ea/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82297019-2fcd-42b7-808c-7e1d8238c9ea/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82297019-2fcd-42b7-808c-7e1d8238c9ea/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/82297019-2fcd-42b7-808c-7e1d8238c9ea/5-280x175.jpg\"]"
   },
   {
     "id": 442,
@@ -7513,7 +8395,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Наурызбайский р-н, С/ОАлма",
     "url": "https://krisha.kz/a/show/696742688",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/19/19a1b061-6ede-445d-b2c1-08851cc41f22/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19a1b061-6ede-445d-b2c1-08851cc41f22/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19a1b061-6ede-445d-b2c1-08851cc41f22/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19a1b061-6ede-445d-b2c1-08851cc41f22/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19a1b061-6ede-445d-b2c1-08851cc41f22/5-280x175.jpg\"]"
   },
   {
     "id": 443,
@@ -7530,7 +8414,9 @@ window.LISTINGS = [
     "price_value": 9500000,
     "address": "Наурызбайский р-н, мкр Тастыбулак 37 — СТ Медик",
     "url": "https://krisha.kz/a/show/1001231809",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f8/f893632a-b928-431b-a1ce-430851e05b2e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f8/f893632a-b928-431b-a1ce-430851e05b2e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f8/f893632a-b928-431b-a1ce-430851e05b2e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f8/f893632a-b928-431b-a1ce-430851e05b2e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f8/f893632a-b928-431b-a1ce-430851e05b2e/5-280x175.jpg\"]"
   },
   {
     "id": 444,
@@ -7547,7 +8433,9 @@ window.LISTINGS = [
     "price_value": 14000000,
     "address": "6 линия 115 — Пкст пруды",
     "url": "https://krisha.kz/a/show/1006712967",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/19/19bd3bb8-fb46-468b-b8c2-e6f6a8329199/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19bd3bb8-fb46-468b-b8c2-e6f6a8329199/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19bd3bb8-fb46-468b-b8c2-e6f6a8329199/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19bd3bb8-fb46-468b-b8c2-e6f6a8329199/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19bd3bb8-fb46-468b-b8c2-e6f6a8329199/10-280x175.jpg\"]"
   },
   {
     "id": 445,
@@ -7564,7 +8452,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак",
     "url": "https://krisha.kz/a/show/1005699396",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6c/6c218e77-1e41-439a-9f69-7f769befa410/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c218e77-1e41-439a-9f69-7f769befa410/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c218e77-1e41-439a-9f69-7f769befa410/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c218e77-1e41-439a-9f69-7f769befa410/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6c218e77-1e41-439a-9f69-7f769befa410/10-280x175.jpg\"]"
   },
   {
     "id": 446,
@@ -7581,7 +8471,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Тастыбулак, Зеленая Долина 16",
     "url": "https://krisha.kz/a/show/684693987",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e6/e6049212-bb1c-4806-80c9-3be562c8f28e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6049212-bb1c-4806-80c9-3be562c8f28e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6049212-bb1c-4806-80c9-3be562c8f28e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6049212-bb1c-4806-80c9-3be562c8f28e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e6049212-bb1c-4806-80c9-3be562c8f28e/5-280x175.jpg\"]"
   },
   {
     "id": 447,
@@ -7598,7 +8490,9 @@ window.LISTINGS = [
     "price_value": 285000000,
     "address": "Медеуский р-н, мкр Юбилейный, Панорамный Участок Мкр Юбилейный — Бишкекская 91",
     "url": "https://krisha.kz/a/show/1006971934",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/54/54b00a4d-63df-4cf3-bdd8-0355bfce0e41/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b00a4d-63df-4cf3-bdd8-0355bfce0e41/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b00a4d-63df-4cf3-bdd8-0355bfce0e41/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b00a4d-63df-4cf3-bdd8-0355bfce0e41/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/54/54b00a4d-63df-4cf3-bdd8-0355bfce0e41/10-280x175.jpg\"]"
   },
   {
     "id": 448,
@@ -7615,7 +8509,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Медеуский р-н, мкр Кенсай, Дп кызыл ту 24б",
     "url": "https://krisha.kz/a/show/1012870957",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8f/8f70b23e-a9f3-4393-b665-591eb8614ea7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8f70b23e-a9f3-4393-b665-591eb8614ea7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8f70b23e-a9f3-4393-b665-591eb8614ea7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8f70b23e-a9f3-4393-b665-591eb8614ea7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8f/8f70b23e-a9f3-4393-b665-591eb8614ea7/5-280x175.jpg\"]"
   },
   {
     "id": 449,
@@ -7632,7 +8528,9 @@ window.LISTINGS = [
     "price_value": 8000000,
     "address": "Медеуский р-н, мкр Кенсай — Молодой садовод 63",
     "url": "https://krisha.kz/a/show/1010418704",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/03747eb4-6ce8-4e0a-8ee3-a60cbcf01e79/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03747eb4-6ce8-4e0a-8ee3-a60cbcf01e79/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03747eb4-6ce8-4e0a-8ee3-a60cbcf01e79/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03747eb4-6ce8-4e0a-8ee3-a60cbcf01e79/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/03747eb4-6ce8-4e0a-8ee3-a60cbcf01e79/7-280x175.jpg\"]"
   },
   {
     "id": 450,
@@ -7649,7 +8547,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Наурызбайский р-н, СТ просвещенец 19 — Жандосова - Яссауи",
     "url": "https://krisha.kz/a/show/693137618",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4a2e85f-39fc-4e0f-bf77-7f6381a18f9f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2e85f-39fc-4e0f-bf77-7f6381a18f9f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2e85f-39fc-4e0f-bf77-7f6381a18f9f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2e85f-39fc-4e0f-bf77-7f6381a18f9f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4a2e85f-39fc-4e0f-bf77-7f6381a18f9f/5-280x175.jpg\"]"
   },
   {
     "id": 451,
@@ -7666,7 +8566,9 @@ window.LISTINGS = [
     "price_value": 7990000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1012448124",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c4/c4393f54-7be8-4500-8314-3945b9f8f40f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4393f54-7be8-4500-8314-3945b9f8f40f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4393f54-7be8-4500-8314-3945b9f8f40f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4393f54-7be8-4500-8314-3945b9f8f40f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4393f54-7be8-4500-8314-3945b9f8f40f/5-280x175.jpg\"]"
   },
   {
     "id": 452,
@@ -7683,7 +8585,9 @@ window.LISTINGS = [
     "price_value": 25500000,
     "address": "Алатауский р-н, мкр Боралдай (Бурундай), Радуга 71",
     "url": "https://krisha.kz/a/show/1010616635",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/52/5216e5e0-d441-4de7-8241-ca2b6b180893/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5216e5e0-d441-4de7-8241-ca2b6b180893/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5216e5e0-d441-4de7-8241-ca2b6b180893/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5216e5e0-d441-4de7-8241-ca2b6b180893/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5216e5e0-d441-4de7-8241-ca2b6b180893/5-280x175.jpg\"]"
   },
   {
     "id": 453,
@@ -7700,7 +8604,9 @@ window.LISTINGS = [
     "price_value": 8000000,
     "address": "Медеуский р-н, мкр Каменское плато, СТ Высокогорное участок99 — Ресторан самарканд или остановка автобуса 5, рядом шлагбаум на недострой",
     "url": "https://krisha.kz/a/show/1011485322",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/22/2218c313-2203-4f74-a962-8a887bfee9e2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/22/2218c313-2203-4f74-a962-8a887bfee9e2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/22/2218c313-2203-4f74-a962-8a887bfee9e2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/22/2218c313-2203-4f74-a962-8a887bfee9e2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/22/2218c313-2203-4f74-a962-8a887bfee9e2/5-280x175.jpg\"]"
   },
   {
     "id": 454,
@@ -7717,7 +8623,9 @@ window.LISTINGS = [
     "price_value": 18000000,
     "address": "Наурызбайский р-н, мкр Таужолы",
     "url": "https://krisha.kz/a/show/1013006588",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/45/454dc56d-4adc-401e-9f54-c8b8c95d96c7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/454dc56d-4adc-401e-9f54-c8b8c95d96c7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/454dc56d-4adc-401e-9f54-c8b8c95d96c7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/454dc56d-4adc-401e-9f54-c8b8c95d96c7/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/454dc56d-4adc-401e-9f54-c8b8c95d96c7/12-280x175.jpg\"]"
   },
   {
     "id": 455,
@@ -7734,7 +8642,9 @@ window.LISTINGS = [
     "price_value": 19600000,
     "address": "Сад-общество Огоньки",
     "url": "https://krisha.kz/a/show/1013487997",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f70aa9ce-b815-4f13-9229-bab9328a1ba8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f70aa9ce-b815-4f13-9229-bab9328a1ba8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f70aa9ce-b815-4f13-9229-bab9328a1ba8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f70aa9ce-b815-4f13-9229-bab9328a1ba8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f70aa9ce-b815-4f13-9229-bab9328a1ba8/5-280x175.jpg\"]"
   },
   {
     "id": 456,
@@ -7751,7 +8661,9 @@ window.LISTINGS = [
     "price_value": 29000000,
     "address": "Наурызбайский р-н, мкр Акжар, Наука-2 9",
     "url": "https://krisha.kz/a/show/761439216",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e7/e784941b-5d24-498e-8028-f651a32f6f98/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e784941b-5d24-498e-8028-f651a32f6f98/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e784941b-5d24-498e-8028-f651a32f6f98/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e784941b-5d24-498e-8028-f651a32f6f98/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e7/e784941b-5d24-498e-8028-f651a32f6f98/5-280x175.jpg\"]"
   },
   {
     "id": 457,
@@ -7768,7 +8680,9 @@ window.LISTINGS = [
     "price_value": 45000000,
     "address": "Наурызбайский р-н, Нерудник 25 — проспект Абая",
     "url": "https://krisha.kz/a/show/1005547011",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/3929f6cc-7b8d-4d0a-a84c-0fb100876284/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3929f6cc-7b8d-4d0a-a84c-0fb100876284/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3929f6cc-7b8d-4d0a-a84c-0fb100876284/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3929f6cc-7b8d-4d0a-a84c-0fb100876284/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3929f6cc-7b8d-4d0a-a84c-0fb100876284/5-280x175.jpg\"]"
   },
   {
     "id": 458,
@@ -7785,7 +8699,9 @@ window.LISTINGS = [
     "price_value": 8000000,
     "address": "Медеуский р-н, Садоводческое товарищество КНМ 77 — Находится близ Ко́к тобе",
     "url": "https://krisha.kz/a/show/1012275725",
-    "first_seen": "2026-06-28T12:50:18"
+    "first_seen": "2026-06-28T12:50:18",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/98/981baa43-e6cd-4843-937b-7d61066b49a6/1-280x175.jpg\"]"
   },
   {
     "id": 459,
@@ -7802,7 +8718,9 @@ window.LISTINGS = [
     "price_value": 28000000,
     "address": "Медеуский р-н, Ст Мебельщик",
     "url": "https://krisha.kz/a/show/1011134490",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/32/32b6a71a-86cf-427a-9129-b266f534502c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/32/32b6a71a-86cf-427a-9129-b266f534502c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/32/32b6a71a-86cf-427a-9129-b266f534502c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/32/32b6a71a-86cf-427a-9129-b266f534502c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/32/32b6a71a-86cf-427a-9129-b266f534502c/5-280x175.jpg\"]"
   },
   {
     "id": 460,
@@ -7819,7 +8737,9 @@ window.LISTINGS = [
     "price_value": 22000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ) — Возле мечеть",
     "url": "https://krisha.kz/a/show/1001063482",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[]"
   },
   {
     "id": 461,
@@ -7836,7 +8756,9 @@ window.LISTINGS = [
     "price_value": 67000000,
     "address": "Бостандыкский р-н, Энергетик 2 97",
     "url": "https://krisha.kz/a/show/1010276909",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d3/d3185682-cf3e-4216-9629-d6658737c7b8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3185682-cf3e-4216-9629-d6658737c7b8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3185682-cf3e-4216-9629-d6658737c7b8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3185682-cf3e-4216-9629-d6658737c7b8/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3185682-cf3e-4216-9629-d6658737c7b8/8-280x175.jpg\"]"
   },
   {
     "id": 462,
@@ -7853,7 +8775,9 @@ window.LISTINGS = [
     "price_value": 4900000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1003638740",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/14/14db8c6a-b3cf-4968-ad82-bf81646f0b89/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14db8c6a-b3cf-4968-ad82-bf81646f0b89/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14db8c6a-b3cf-4968-ad82-bf81646f0b89/3-280x175.jpg\"]"
   },
   {
     "id": 463,
@@ -7870,7 +8794,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Медеуский р-н, мкр Кенсай, Мкр. Сулусай, с/т Эдельвейс 47 — С/т Эдельвейс",
     "url": "https://krisha.kz/a/show/662519785",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/03/0390a7f2-5222-4d9f-98b6-dac429cd7940/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0390a7f2-5222-4d9f-98b6-dac429cd7940/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0390a7f2-5222-4d9f-98b6-dac429cd7940/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0390a7f2-5222-4d9f-98b6-dac429cd7940/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/03/0390a7f2-5222-4d9f-98b6-dac429cd7940/5-280x175.jpg\"]"
   },
   {
     "id": 464,
@@ -7887,7 +8813,9 @@ window.LISTINGS = [
     "price_value": 33000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ) — Жасыл желек",
     "url": "https://krisha.kz/a/show/1008581312",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f6/f6b956ee-8671-4fbe-95c7-2bfb7b55fecc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6b956ee-8671-4fbe-95c7-2bfb7b55fecc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6b956ee-8671-4fbe-95c7-2bfb7b55fecc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6b956ee-8671-4fbe-95c7-2bfb7b55fecc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6b956ee-8671-4fbe-95c7-2bfb7b55fecc/5-280x175.jpg\"]"
   },
   {
     "id": 465,
@@ -7904,7 +8832,9 @@ window.LISTINGS = [
     "price_value": 9000000,
     "address": "Медеуский р-н, мкр Кенсай, С.т Вымпел 84",
     "url": "https://krisha.kz/a/show/691772224",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/df/dfcb0e0a-df75-4159-9cff-ee885dd0bf3a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcb0e0a-df75-4159-9cff-ee885dd0bf3a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfcb0e0a-df75-4159-9cff-ee885dd0bf3a/4-280x175.jpg\"]"
   },
   {
     "id": 466,
@@ -7921,7 +8851,9 @@ window.LISTINGS = [
     "price_value": 13000000,
     "address": "Медеуский р-н, мкр Кенсай механизатор 38",
     "url": "https://krisha.kz/a/show/1012881168",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ba/ba775035-b3d7-4611-8b78-9984983f3513/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ba/ba775035-b3d7-4611-8b78-9984983f3513/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ba/ba775035-b3d7-4611-8b78-9984983f3513/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ba/ba775035-b3d7-4611-8b78-9984983f3513/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ba/ba775035-b3d7-4611-8b78-9984983f3513/5-280x175.jpg\"]"
   },
   {
     "id": 467,
@@ -7938,7 +8870,9 @@ window.LISTINGS = [
     "price_value": 8500000,
     "address": "Медеуский р-н, мкр Тау Самал 20",
     "url": "https://krisha.kz/a/show/1002015899",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c3/c390861e-6341-4442-b199-20c85e2ca87e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c390861e-6341-4442-b199-20c85e2ca87e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c390861e-6341-4442-b199-20c85e2ca87e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c390861e-6341-4442-b199-20c85e2ca87e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c390861e-6341-4442-b199-20c85e2ca87e/5-280x175.jpg\"]"
   },
   {
     "id": 468,
@@ -7955,7 +8889,9 @@ window.LISTINGS = [
     "price_value": 31000000,
     "address": "Наурызбайский р-н, мкр Таусамалы, Монтажник 28 — Тоймарт",
     "url": "https://krisha.kz/a/show/1008919528",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/23/2386dde0-87c3-4dfa-a0f0-07f999da241c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/2386dde0-87c3-4dfa-a0f0-07f999da241c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/2386dde0-87c3-4dfa-a0f0-07f999da241c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/2386dde0-87c3-4dfa-a0f0-07f999da241c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/2386dde0-87c3-4dfa-a0f0-07f999da241c/5-280x175.jpg\"]"
   },
   {
     "id": 469,
@@ -7972,7 +8908,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ), Орталык",
     "url": "https://krisha.kz/a/show/1010700008",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/83/83020897-844a-42b7-8d0a-13954ff13156/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83020897-844a-42b7-8d0a-13954ff13156/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83020897-844a-42b7-8d0a-13954ff13156/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83020897-844a-42b7-8d0a-13954ff13156/4-280x175.jpg\"]"
   },
   {
     "id": 470,
@@ -7989,7 +8927,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Алматинская обл.,Карасайский р-н.,СПК «Ак Бота» 45",
     "url": "https://krisha.kz/a/show/1005341957",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0d/0d39f6d7-0193-4b10-98bf-5f34028a92bd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d39f6d7-0193-4b10-98bf-5f34028a92bd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d39f6d7-0193-4b10-98bf-5f34028a92bd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d39f6d7-0193-4b10-98bf-5f34028a92bd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d39f6d7-0193-4b10-98bf-5f34028a92bd/5-280x175.jpg\"]"
   },
   {
     "id": 471,
@@ -8006,7 +8946,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак — Джандосого Пересечения Центральная",
     "url": "https://krisha.kz/a/show/1012880193",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/24/247bb4a4-b60c-473a-a685-ad78574491b1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/247bb4a4-b60c-473a-a685-ad78574491b1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/247bb4a4-b60c-473a-a685-ad78574491b1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/247bb4a4-b60c-473a-a685-ad78574491b1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/247bb4a4-b60c-473a-a685-ad78574491b1/5-280x175.jpg\"]"
   },
   {
     "id": 472,
@@ -8023,7 +8965,9 @@ window.LISTINGS = [
     "price_value": 45000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Сервис 26 — Жандосова",
     "url": "https://krisha.kz/a/show/686718401",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a6/a652e499-aaa9-439b-b319-323f51b71fff/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a652e499-aaa9-439b-b319-323f51b71fff/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a652e499-aaa9-439b-b319-323f51b71fff/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a652e499-aaa9-439b-b319-323f51b71fff/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a6/a652e499-aaa9-439b-b319-323f51b71fff/5-280x175.jpg\"]"
   },
   {
     "id": 473,
@@ -8040,7 +8984,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ) — Жасыл желек",
     "url": "https://krisha.kz/a/show/1002476158",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/45/455d6c47-fd46-424a-a85a-82cddb4fefbc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/455d6c47-fd46-424a-a85a-82cddb4fefbc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/455d6c47-fd46-424a-a85a-82cddb4fefbc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/455d6c47-fd46-424a-a85a-82cddb4fefbc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/45/455d6c47-fd46-424a-a85a-82cddb4fefbc/5-280x175.jpg\"]"
   },
   {
     "id": 474,
@@ -8057,7 +9003,9 @@ window.LISTINGS = [
     "price_value": 12000000,
     "address": "Наурызбайский р-н, Звездочка 117",
     "url": "https://krisha.kz/a/show/1006982375",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2b40f1ee-fdca-4b57-ae83-716f52920ef6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b40f1ee-fdca-4b57-ae83-716f52920ef6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b40f1ee-fdca-4b57-ae83-716f52920ef6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b40f1ee-fdca-4b57-ae83-716f52920ef6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b40f1ee-fdca-4b57-ae83-716f52920ef6/5-280x175.jpg\"]"
   },
   {
     "id": 475,
@@ -8074,7 +9022,9 @@ window.LISTINGS = [
     "price_value": 10500000,
     "address": "Аксайское — Замок дяди Вани",
     "url": "https://krisha.kz/a/show/685695799",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6d/6d64b5ec-358b-4282-a5b4-364556ce260e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d64b5ec-358b-4282-a5b4-364556ce260e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d64b5ec-358b-4282-a5b4-364556ce260e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d64b5ec-358b-4282-a5b4-364556ce260e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6d64b5ec-358b-4282-a5b4-364556ce260e/5-280x175.jpg\"]"
   },
   {
     "id": 476,
@@ -8091,7 +9041,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "Медеуский р-н, мкр Бутаковка",
     "url": "https://krisha.kz/a/show/687629619",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c1/c1bed8e0-b235-480e-9831-8499a0a93536/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1bed8e0-b235-480e-9831-8499a0a93536/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1bed8e0-b235-480e-9831-8499a0a93536/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1bed8e0-b235-480e-9831-8499a0a93536/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c1/c1bed8e0-b235-480e-9831-8499a0a93536/5-280x175.jpg\"]"
   },
   {
     "id": 477,
@@ -8108,7 +9060,9 @@ window.LISTINGS = [
     "price_value": 27500000,
     "address": "Наурызбайский р-н, мкр Акжар 6 — Алма-1",
     "url": "https://krisha.kz/a/show/692414194",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a5bf0bc1-a3b4-4982-b863-f298cc340155/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5bf0bc1-a3b4-4982-b863-f298cc340155/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5bf0bc1-a3b4-4982-b863-f298cc340155/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5bf0bc1-a3b4-4982-b863-f298cc340155/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5bf0bc1-a3b4-4982-b863-f298cc340155/5-280x175.jpg\"]"
   },
   {
     "id": 478,
@@ -8125,7 +9079,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Медеуский р-н, Дружба-спорт 32",
     "url": "https://krisha.kz/a/show/697421868",
-    "first_seen": "2026-06-28T12:50:24"
+    "first_seen": "2026-06-28T12:50:24",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/76/7642bab3-d7cd-44e2-b95a-282907a5b197/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7642bab3-d7cd-44e2-b95a-282907a5b197/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7642bab3-d7cd-44e2-b95a-282907a5b197/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7642bab3-d7cd-44e2-b95a-282907a5b197/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7642bab3-d7cd-44e2-b95a-282907a5b197/9-280x175.jpg\"]"
   },
   {
     "id": 479,
@@ -8142,7 +9098,9 @@ window.LISTINGS = [
     "price_value": 29000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Улица Обувщик 15",
     "url": "https://krisha.kz/a/show/761495841",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b6/b65fed82-47b7-4d3c-89aa-747e7a96d9df/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b65fed82-47b7-4d3c-89aa-747e7a96d9df/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b65fed82-47b7-4d3c-89aa-747e7a96d9df/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b65fed82-47b7-4d3c-89aa-747e7a96d9df/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b65fed82-47b7-4d3c-89aa-747e7a96d9df/5-280x175.jpg\"]"
   },
   {
     "id": 480,
@@ -8159,7 +9117,9 @@ window.LISTINGS = [
     "price_value": 12500000,
     "address": "Медеуский р-н, Родники 699 — Ущелье Широкая щель",
     "url": "https://krisha.kz/a/show/1002801470",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/38442d2d-dab9-4dbd-b10c-df05305dcfd9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38442d2d-dab9-4dbd-b10c-df05305dcfd9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38442d2d-dab9-4dbd-b10c-df05305dcfd9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38442d2d-dab9-4dbd-b10c-df05305dcfd9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/38442d2d-dab9-4dbd-b10c-df05305dcfd9/5-280x175.jpg\"]"
   },
   {
     "id": 481,
@@ -8176,7 +9136,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Жетысуский р-н, Кенсай. с.т Госкино 13",
     "url": "https://krisha.kz/a/show/1012138312",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d2/d209b56a-8cdb-4bed-8ca2-66012f23b84a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d209b56a-8cdb-4bed-8ca2-66012f23b84a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d209b56a-8cdb-4bed-8ca2-66012f23b84a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d209b56a-8cdb-4bed-8ca2-66012f23b84a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d209b56a-8cdb-4bed-8ca2-66012f23b84a/5-280x175.jpg\"]"
   },
   {
     "id": 482,
@@ -8193,7 +9155,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Наурызбайский р-н, мкр Акжар, Усикова",
     "url": "https://krisha.kz/a/show/1002261874",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fe/fe3f94af-4fa8-4eee-ad26-161fe330d877/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe3f94af-4fa8-4eee-ad26-161fe330d877/2-280x175.jpg\"]"
   },
   {
     "id": 483,
@@ -8210,7 +9174,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Наурызбайский р-н, СТ Коксай",
     "url": "https://krisha.kz/a/show/1011454877",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[]"
   },
   {
     "id": 484,
@@ -8227,7 +9193,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау 16 — Солнечная 16",
     "url": "https://krisha.kz/a/show/1013476857",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1a/1a09d7d2-9fa0-4620-9891-0d78bec42946/1-280x175.jpg\"]"
   },
   {
     "id": 485,
@@ -8244,7 +9212,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Наурызбайский р-н, Горная 144 — СТ Алма улица Горная 144",
     "url": "https://krisha.kz/a/show/1005205643",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4e/4ed1408c-9f78-4ada-844c-a900720f0832/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4ed1408c-9f78-4ada-844c-a900720f0832/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4ed1408c-9f78-4ada-844c-a900720f0832/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4e/4ed1408c-9f78-4ada-844c-a900720f0832/4-280x175.jpg\"]"
   },
   {
     "id": 486,
@@ -8261,7 +9231,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1007068963",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c2/c2df18c6-a4ce-4a01-812d-ef6060498e16/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2df18c6-a4ce-4a01-812d-ef6060498e16/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2df18c6-a4ce-4a01-812d-ef6060498e16/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2df18c6-a4ce-4a01-812d-ef6060498e16/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c2/c2df18c6-a4ce-4a01-812d-ef6060498e16/5-280x175.jpg\"]"
   },
   {
     "id": 487,
@@ -8278,7 +9250,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Наурызбайский р-н, СТ Достык",
     "url": "https://krisha.kz/a/show/692718343",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6e/6e55baea-b5b7-40c4-8f8c-11434b611234/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e55baea-b5b7-40c4-8f8c-11434b611234/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e55baea-b5b7-40c4-8f8c-11434b611234/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e55baea-b5b7-40c4-8f8c-11434b611234/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6e/6e55baea-b5b7-40c4-8f8c-11434b611234/5-280x175.jpg\"]"
   },
   {
     "id": 488,
@@ -8295,7 +9269,9 @@ window.LISTINGS = [
     "price_value": 8000000,
     "address": "Медеуский р-н, ул. Геологов",
     "url": "https://krisha.kz/a/show/1012058033",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3b/3be39b3d-623a-41b0-8540-4552df38e19f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3b/3be39b3d-623a-41b0-8540-4552df38e19f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3b/3be39b3d-623a-41b0-8540-4552df38e19f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3b/3be39b3d-623a-41b0-8540-4552df38e19f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3b/3be39b3d-623a-41b0-8540-4552df38e19f/5-280x175.jpg\"]"
   },
   {
     "id": 489,
@@ -8312,7 +9288,9 @@ window.LISTINGS = [
     "price_value": 11000000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1012057673",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/df/dfee15e4-6886-493c-a788-d605ab69ee22/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfee15e4-6886-493c-a788-d605ab69ee22/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfee15e4-6886-493c-a788-d605ab69ee22/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfee15e4-6886-493c-a788-d605ab69ee22/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/df/dfee15e4-6886-493c-a788-d605ab69ee22/5-280x175.jpg\"]"
   },
   {
     "id": 490,
@@ -8329,7 +9307,9 @@ window.LISTINGS = [
     "price_value": 17000000,
     "address": "Наурызбайский р-н, мкр Акжар, Кордон 33",
     "url": "https://krisha.kz/a/show/698778715",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/51/51e83f9a-b241-4413-9310-18057b24ad2f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51e83f9a-b241-4413-9310-18057b24ad2f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51e83f9a-b241-4413-9310-18057b24ad2f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51e83f9a-b241-4413-9310-18057b24ad2f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51e83f9a-b241-4413-9310-18057b24ad2f/7-280x175.jpg\"]"
   },
   {
     "id": 491,
@@ -8346,7 +9326,9 @@ window.LISTINGS = [
     "price_value": 28000000,
     "address": "Медеуский р-н, Садоводческое товарищество Нива 21",
     "url": "https://krisha.kz/a/show/1012415247",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/10/10cfc730-1013-414c-9b0d-b3243bf7bfb4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10cfc730-1013-414c-9b0d-b3243bf7bfb4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10cfc730-1013-414c-9b0d-b3243bf7bfb4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10cfc730-1013-414c-9b0d-b3243bf7bfb4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10cfc730-1013-414c-9b0d-b3243bf7bfb4/5-280x175.jpg\"]"
   },
   {
     "id": 492,
@@ -8363,7 +9345,9 @@ window.LISTINGS = [
     "price_value": 42000000,
     "address": "Бостандыкский р-н, Сливовая — Алмарасан",
     "url": "https://krisha.kz/a/show/1000188090",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/91/9110f5f6-a18c-4a0a-bc30-2841a6b9fed6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/9110f5f6-a18c-4a0a-bc30-2841a6b9fed6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/9110f5f6-a18c-4a0a-bc30-2841a6b9fed6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/9110f5f6-a18c-4a0a-bc30-2841a6b9fed6/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/91/9110f5f6-a18c-4a0a-bc30-2841a6b9fed6/6-280x175.jpg\"]"
   },
   {
     "id": 493,
@@ -8380,7 +9364,9 @@ window.LISTINGS = [
     "price_value": 4500000,
     "address": "Медеуский р-н, мкр Кенсай 12 — Мустафа Шокай-ДП Статистик",
     "url": "https://krisha.kz/a/show/1003480627",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/14/14e9b183-f96d-4999-b33a-ed2cb46d5a18/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14e9b183-f96d-4999-b33a-ed2cb46d5a18/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14e9b183-f96d-4999-b33a-ed2cb46d5a18/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14e9b183-f96d-4999-b33a-ed2cb46d5a18/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/14/14e9b183-f96d-4999-b33a-ed2cb46d5a18/5-280x175.jpg\"]"
   },
   {
     "id": 494,
@@ -8397,7 +9383,9 @@ window.LISTINGS = [
     "price_value": 42000000,
     "address": "Алатауский р-н, мкр 13-й, Мкр 13-й — ПКСТ ТЕПЛОЭНЕРГЕТИК",
     "url": "https://krisha.kz/a/show/1011999013",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e9/e9aaaef4-4daf-460f-b3d2-c286c74cbcb6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9aaaef4-4daf-460f-b3d2-c286c74cbcb6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9aaaef4-4daf-460f-b3d2-c286c74cbcb6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9aaaef4-4daf-460f-b3d2-c286c74cbcb6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e9/e9aaaef4-4daf-460f-b3d2-c286c74cbcb6/5-280x175.jpg\"]"
   },
   {
     "id": 495,
@@ -8414,7 +9402,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Бостандыкский р-н, мкр Баганашыл участок 1-1 — СТ Алма-3, ул. Подгорная участок 1-1.",
     "url": "https://krisha.kz/a/show/1000363373",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d6/d663219e-c01f-4dc4-a0c3-d6306c59e239/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d663219e-c01f-4dc4-a0c3-d6306c59e239/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d663219e-c01f-4dc4-a0c3-d6306c59e239/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d663219e-c01f-4dc4-a0c3-d6306c59e239/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d663219e-c01f-4dc4-a0c3-d6306c59e239/25-280x175.jpg\"]"
   },
   {
     "id": 496,
@@ -8431,7 +9421,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Медеуский р-н, Садоводческое тов. Вентиляционник Участок 54 — Природный парк Котобе, дорога начинается с Коктобе",
     "url": "https://krisha.kz/a/show/1013310424",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6b/6bb53780-13b5-45eb-8620-ea9a9a37fb39/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb53780-13b5-45eb-8620-ea9a9a37fb39/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb53780-13b5-45eb-8620-ea9a9a37fb39/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb53780-13b5-45eb-8620-ea9a9a37fb39/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6b/6bb53780-13b5-45eb-8620-ea9a9a37fb39/17-280x175.jpg\"]"
   },
   {
     "id": 497,
@@ -8448,7 +9440,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "Наурызбайский р-н, Хвойная 280 — С/о Алма",
     "url": "https://krisha.kz/a/show/1007562413",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bc/bc4c2bf2-1bc0-405a-b25f-b81c4eb164cb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc4c2bf2-1bc0-405a-b25f-b81c4eb164cb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc4c2bf2-1bc0-405a-b25f-b81c4eb164cb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc4c2bf2-1bc0-405a-b25f-b81c4eb164cb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bc4c2bf2-1bc0-405a-b25f-b81c4eb164cb/5-280x175.jpg\"]"
   },
   {
     "id": 498,
@@ -8465,7 +9459,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Наурызбайский р-н, Нет 65 — Садоводческое товартщество Алма, участок 65 а",
     "url": "https://krisha.kz/a/show/1010268223",
-    "first_seen": "2026-06-28T12:50:29"
+    "first_seen": "2026-06-28T12:50:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/78/781b84c3-756d-452a-bce2-777d270df24c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/781b84c3-756d-452a-bce2-777d270df24c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/781b84c3-756d-452a-bce2-777d270df24c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/781b84c3-756d-452a-bce2-777d270df24c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/781b84c3-756d-452a-bce2-777d270df24c/5-280x175.jpg\"]"
   },
   {
     "id": 499,
@@ -8482,7 +9478,9 @@ window.LISTINGS = [
     "price_value": 265000000,
     "address": "Медеуский р-н, Митина 4",
     "url": "https://krisha.kz/a/show/1011742877",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/af/af4a5283-a682-4767-86c3-e6a736579bd4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af4a5283-a682-4767-86c3-e6a736579bd4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af4a5283-a682-4767-86c3-e6a736579bd4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af4a5283-a682-4767-86c3-e6a736579bd4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/af/af4a5283-a682-4767-86c3-e6a736579bd4/5-280x175.jpg\"]"
   },
   {
     "id": 500,
@@ -8499,7 +9497,9 @@ window.LISTINGS = [
     "price_value": 68000000,
     "address": "Медеуский р-н, Аль-Фараби 4г",
     "url": "https://krisha.kz/a/show/1012666531",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8d/8d1320c4-bac2-4874-8c46-7dacceae7efd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d1320c4-bac2-4874-8c46-7dacceae7efd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d1320c4-bac2-4874-8c46-7dacceae7efd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d1320c4-bac2-4874-8c46-7dacceae7efd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d1320c4-bac2-4874-8c46-7dacceae7efd/5-280x175.jpg\"]"
   },
   {
     "id": 501,
@@ -8516,7 +9516,9 @@ window.LISTINGS = [
     "price_value": 155000000,
     "address": "Ауэзовский р-н, Аскарова — Саина",
     "url": "https://krisha.kz/a/show/1006333827",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0f/0f85d5b5-06c0-4e97-a4ff-874fa91fcc4e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0f85d5b5-06c0-4e97-a4ff-874fa91fcc4e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0f85d5b5-06c0-4e97-a4ff-874fa91fcc4e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0f85d5b5-06c0-4e97-a4ff-874fa91fcc4e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0f/0f85d5b5-06c0-4e97-a4ff-874fa91fcc4e/5-280x175.jpg\"]"
   },
   {
     "id": 502,
@@ -8533,7 +9535,9 @@ window.LISTINGS = [
     "price_value": 154000000,
     "address": "Бостандыкский р-н, мкр Мирас, Мкр. Мирас 55",
     "url": "https://krisha.kz/a/show/1005055042",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/3191a373-55d2-4044-b213-97440cb239d2/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3191a373-55d2-4044-b213-97440cb239d2/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3191a373-55d2-4044-b213-97440cb239d2/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3191a373-55d2-4044-b213-97440cb239d2/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3191a373-55d2-4044-b213-97440cb239d2/32-280x175.jpg\"]"
   },
   {
     "id": 503,
@@ -8550,7 +9554,9 @@ window.LISTINGS = [
     "price_value": 42500000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жуалы 15",
     "url": "https://krisha.kz/a/show/1009519651",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d8/d87a5370-33b7-405a-bd7e-b160cf208724/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d87a5370-33b7-405a-bd7e-b160cf208724/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d87a5370-33b7-405a-bd7e-b160cf208724/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d87a5370-33b7-405a-bd7e-b160cf208724/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d8/d87a5370-33b7-405a-bd7e-b160cf208724/5-280x175.jpg\"]"
   },
   {
     "id": 504,
@@ -8567,7 +9573,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Наурызбайский р-н, Жунисова 12 — Жунисова и Жакыбаева",
     "url": "https://krisha.kz/a/show/1000810204",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0a/0a68242c-790f-4bf6-8525-c35529336d3f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0a/0a68242c-790f-4bf6-8525-c35529336d3f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0a/0a68242c-790f-4bf6-8525-c35529336d3f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0a/0a68242c-790f-4bf6-8525-c35529336d3f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0a/0a68242c-790f-4bf6-8525-c35529336d3f/5-280x175.jpg\"]"
   },
   {
     "id": 505,
@@ -8584,7 +9592,9 @@ window.LISTINGS = [
     "price_value": 36000000,
     "address": "Алатауский р-н, мкр Аккент, Ақкент ш/а. 32 — доспанва",
     "url": "https://krisha.kz/a/show/1013236171",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3a/3a43972d-ca8e-4380-8423-9e2e9160e433/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a43972d-ca8e-4380-8423-9e2e9160e433/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a43972d-ca8e-4380-8423-9e2e9160e433/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a43972d-ca8e-4380-8423-9e2e9160e433/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3a/3a43972d-ca8e-4380-8423-9e2e9160e433/5-280x175.jpg\"]"
   },
   {
     "id": 506,
@@ -8601,7 +9611,9 @@ window.LISTINGS = [
     "price_value": 255000000,
     "address": "Архат 20/3",
     "url": "https://krisha.kz/a/show/1013032026",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/27/27fbb434-dfa8-4940-b825-d5ade009e200/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/27fbb434-dfa8-4940-b825-d5ade009e200/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/27fbb434-dfa8-4940-b825-d5ade009e200/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/27fbb434-dfa8-4940-b825-d5ade009e200/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/27fbb434-dfa8-4940-b825-d5ade009e200/5-280x175.jpg\"]"
   },
   {
     "id": 507,
@@ -8618,7 +9630,9 @@ window.LISTINGS = [
     "price_value": 30990000,
     "address": "Ауэзовский р-н, мкр Таугуль 27 — ул Токтабаева уг.ул. Сулейменова",
     "url": "https://krisha.kz/a/show/693257444",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fa/faa2bdcf-6381-4fdd-bbbe-8b609bb784a2/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faa2bdcf-6381-4fdd-bbbe-8b609bb784a2/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faa2bdcf-6381-4fdd-bbbe-8b609bb784a2/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faa2bdcf-6381-4fdd-bbbe-8b609bb784a2/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faa2bdcf-6381-4fdd-bbbe-8b609bb784a2/27-280x175.jpg\"]"
   },
   {
     "id": 508,
@@ -8635,7 +9649,9 @@ window.LISTINGS = [
     "price_value": 35500000,
     "address": "Алатауский р-н, мкр Акбулак, 1-я улица",
     "url": "https://krisha.kz/a/show/1010256699",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/35/35a842cb-8a73-4b4c-b0cc-fd0b1865a2d0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35a842cb-8a73-4b4c-b0cc-fd0b1865a2d0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35a842cb-8a73-4b4c-b0cc-fd0b1865a2d0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35a842cb-8a73-4b4c-b0cc-fd0b1865a2d0/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/35a842cb-8a73-4b4c-b0cc-fd0b1865a2d0/10-280x175.jpg\"]"
   },
   {
     "id": 509,
@@ -8652,7 +9668,9 @@ window.LISTINGS = [
     "price_value": 48000000,
     "address": "Турксибский р-н, мкр Жулдыз-2 2/2",
     "url": "https://krisha.kz/a/show/681046437",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9e/9e0c21c3-1649-440b-bae4-802f3ab4282d/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9e/9e0c21c3-1649-440b-bae4-802f3ab4282d/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9e/9e0c21c3-1649-440b-bae4-802f3ab4282d/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9e/9e0c21c3-1649-440b-bae4-802f3ab4282d/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9e/9e0c21c3-1649-440b-bae4-802f3ab4282d/13-280x175.jpg\"]"
   },
   {
     "id": 510,
@@ -8669,7 +9687,9 @@ window.LISTINGS = [
     "price_value": 49000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Таутаган 11 — Каменская Усадьба",
     "url": "https://krisha.kz/a/show/697917924",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/6356b120-6d21-451f-a0b4-68aae30e8f68/67-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6356b120-6d21-451f-a0b4-68aae30e8f68/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6356b120-6d21-451f-a0b4-68aae30e8f68/69-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6356b120-6d21-451f-a0b4-68aae30e8f68/70-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/6356b120-6d21-451f-a0b4-68aae30e8f68/71-280x175.jpg\"]"
   },
   {
     "id": 511,
@@ -8686,7 +9706,9 @@ window.LISTINGS = [
     "price_value": 225000000,
     "address": "Бостандыкский р-н, Мкр. Мирас 128",
     "url": "https://krisha.kz/a/show/687024353",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cf/cf721496-8a4c-4751-82bf-9bffb3520d2e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf721496-8a4c-4751-82bf-9bffb3520d2e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf721496-8a4c-4751-82bf-9bffb3520d2e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf721496-8a4c-4751-82bf-9bffb3520d2e/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cf721496-8a4c-4751-82bf-9bffb3520d2e/6-280x175.jpg\"]"
   },
   {
     "id": 512,
@@ -8703,7 +9725,9 @@ window.LISTINGS = [
     "price_value": 24000000,
     "address": "Ауэзовский р-н, мкр №1, Саина 28",
     "url": "https://krisha.kz/a/show/1012662861",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6a/6a5d9de9-f23f-4dde-b075-c05ebf2150e1/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a5d9de9-f23f-4dde-b075-c05ebf2150e1/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a5d9de9-f23f-4dde-b075-c05ebf2150e1/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a5d9de9-f23f-4dde-b075-c05ebf2150e1/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a5d9de9-f23f-4dde-b075-c05ebf2150e1/24-280x175.jpg\"]"
   },
   {
     "id": 513,
@@ -8720,7 +9744,9 @@ window.LISTINGS = [
     "price_value": 29500000,
     "address": "Ауэзовский р-н, ул. Райымбека — Утеген Батыра, расположен  вдоль речки",
     "url": "https://krisha.kz/a/show/1009089118",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7e/7e6bd6ce-096f-47ca-9418-aaf39ccdd8b8/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7e6bd6ce-096f-47ca-9418-aaf39ccdd8b8/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7e6bd6ce-096f-47ca-9418-aaf39ccdd8b8/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7e6bd6ce-096f-47ca-9418-aaf39ccdd8b8/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7e/7e6bd6ce-096f-47ca-9418-aaf39ccdd8b8/15-280x175.jpg\"]"
   },
   {
     "id": 514,
@@ -8737,7 +9763,9 @@ window.LISTINGS = [
     "price_value": 55500000,
     "address": "Медеуский р-н, Есенова — Маметовой",
     "url": "https://krisha.kz/a/show/1005625159",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a0/a0637c39-3820-4d3f-8bcf-64872e5ea803/85-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0637c39-3820-4d3f-8bcf-64872e5ea803/86-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0637c39-3820-4d3f-8bcf-64872e5ea803/87-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0637c39-3820-4d3f-8bcf-64872e5ea803/88-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0637c39-3820-4d3f-8bcf-64872e5ea803/89-280x175.jpg\"]"
   },
   {
     "id": 515,
@@ -8754,7 +9782,9 @@ window.LISTINGS = [
     "price_value": 19500000,
     "address": "Алатауский р-н, мкр Ожет, Жапсарбаева — Северное кольцо",
     "url": "https://krisha.kz/a/show/1003411759",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2d/2da45672-eca7-4bd1-acf6-84770ac9ec95/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2da45672-eca7-4bd1-acf6-84770ac9ec95/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2da45672-eca7-4bd1-acf6-84770ac9ec95/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2da45672-eca7-4bd1-acf6-84770ac9ec95/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2da45672-eca7-4bd1-acf6-84770ac9ec95/8-280x175.jpg\"]"
   },
   {
     "id": 516,
@@ -8771,7 +9801,9 @@ window.LISTINGS = [
     "price_value": 20500000,
     "address": "Турксибский р-н, Тынышбаева 3",
     "url": "https://krisha.kz/a/show/691645190",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a1/a113bf0d-360e-457f-8bf9-2738f4d0b1a0/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a113bf0d-360e-457f-8bf9-2738f4d0b1a0/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a113bf0d-360e-457f-8bf9-2738f4d0b1a0/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a113bf0d-360e-457f-8bf9-2738f4d0b1a0/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a113bf0d-360e-457f-8bf9-2738f4d0b1a0/34-280x175.jpg\"]"
   },
   {
     "id": 517,
@@ -8788,7 +9820,9 @@ window.LISTINGS = [
     "price_value": 26900000,
     "address": "Бостандыкский р-н, Тимирязева 99 — Серкебаева",
     "url": "https://krisha.kz/a/show/1012934091",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2b62db37-8756-448e-bde1-020b3de6f30d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b62db37-8756-448e-bde1-020b3de6f30d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b62db37-8756-448e-bde1-020b3de6f30d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b62db37-8756-448e-bde1-020b3de6f30d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b62db37-8756-448e-bde1-020b3de6f30d/5-280x175.jpg\"]"
   },
   {
     "id": 518,
@@ -8805,7 +9839,9 @@ window.LISTINGS = [
     "price_value": 35500000,
     "address": "Алатауский р-н, мкр Акбулак, 1-я улица 59 — BAZIS ИПОТЕКА",
     "url": "https://krisha.kz/a/show/1012832411",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/18/18328a73-e9cb-422c-9fe6-6ce688889056/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/18328a73-e9cb-422c-9fe6-6ce688889056/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/18328a73-e9cb-422c-9fe6-6ce688889056/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/18328a73-e9cb-422c-9fe6-6ce688889056/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/18328a73-e9cb-422c-9fe6-6ce688889056/43-280x175.jpg\"]"
   },
   {
     "id": 519,
@@ -8822,7 +9858,9 @@ window.LISTINGS = [
     "price_value": 21000000,
     "address": "Турксибский р-н, Сейфуллина — Кассина",
     "url": "https://krisha.kz/a/show/1012654143",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2f/2f33a30e-4114-4d85-9b25-0d1452828501/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f33a30e-4114-4d85-9b25-0d1452828501/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f33a30e-4114-4d85-9b25-0d1452828501/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f33a30e-4114-4d85-9b25-0d1452828501/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2f/2f33a30e-4114-4d85-9b25-0d1452828501/5-280x175.jpg\"]"
   },
   {
     "id": 520,
@@ -8839,7 +9877,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Наурызбайский р-н, мкр Каргалы, Кенесары хана — Мкр.Каргалы",
     "url": "https://krisha.kz/a/show/1011581296",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/61/613dade7-7fa5-4052-bf71-c47c4c70e8b1/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/613dade7-7fa5-4052-bf71-c47c4c70e8b1/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/613dade7-7fa5-4052-bf71-c47c4c70e8b1/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/613dade7-7fa5-4052-bf71-c47c4c70e8b1/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/613dade7-7fa5-4052-bf71-c47c4c70e8b1/31-280x175.jpg\"]"
   },
   {
     "id": 521,
@@ -8856,7 +9896,9 @@ window.LISTINGS = [
     "price_value": 44000000,
     "address": "Алмалинский р-н, Абдуллы Розыбакиева — улица Толе би",
     "url": "https://krisha.kz/a/show/1011125818",
-    "first_seen": "2026-06-28T12:51:01"
+    "first_seen": "2026-06-28T12:51:01",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fc/fc95ae64-b81b-439f-97a0-dd9a06b1123b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fc95ae64-b81b-439f-97a0-dd9a06b1123b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fc95ae64-b81b-439f-97a0-dd9a06b1123b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fc95ae64-b81b-439f-97a0-dd9a06b1123b/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fc/fc95ae64-b81b-439f-97a0-dd9a06b1123b/6-280x175.jpg\"]"
   },
   {
     "id": 522,
@@ -8873,7 +9915,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Алатауский р-н, мкр Акбулак, Чуланова 155 — Рыскулова Момышулы",
     "url": "https://krisha.kz/a/show/1010480753",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d7/d711ccac-c84b-4fee-a3d3-3b9d4119347b/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d711ccac-c84b-4fee-a3d3-3b9d4119347b/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d711ccac-c84b-4fee-a3d3-3b9d4119347b/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d711ccac-c84b-4fee-a3d3-3b9d4119347b/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d711ccac-c84b-4fee-a3d3-3b9d4119347b/52-280x175.jpg\"]"
   },
   {
     "id": 523,
@@ -8890,7 +9934,9 @@ window.LISTINGS = [
     "price_value": 41000000,
     "address": "Ауэзовский р-н, Райымбека",
     "url": "https://krisha.kz/a/show/1010358006",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/89d9deff-219c-4863-b5fc-35eaeaa927ee/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89d9deff-219c-4863-b5fc-35eaeaa927ee/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89d9deff-219c-4863-b5fc-35eaeaa927ee/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89d9deff-219c-4863-b5fc-35eaeaa927ee/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/89d9deff-219c-4863-b5fc-35eaeaa927ee/47-280x175.jpg\"]"
   },
   {
     "id": 524,
@@ -8907,7 +9953,9 @@ window.LISTINGS = [
     "price_value": 32300000,
     "address": "Алатауский р-н, мкр Самгау, Ырысты 46/7",
     "url": "https://krisha.kz/a/show/1010240065",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/12/129ad520-b8ae-4c42-8e0f-5160958a484e/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129ad520-b8ae-4c42-8e0f-5160958a484e/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129ad520-b8ae-4c42-8e0f-5160958a484e/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129ad520-b8ae-4c42-8e0f-5160958a484e/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/129ad520-b8ae-4c42-8e0f-5160958a484e/24-280x175.jpg\"]"
   },
   {
     "id": 525,
@@ -8924,7 +9972,9 @@ window.LISTINGS = [
     "price_value": 54000000,
     "address": "Ауэзовский р-н, мкр Аксай-4 94 — ул. Саина уг ул. Жубанова ( возле мед.центра Сункар)",
     "url": "https://krisha.kz/a/show/1009843783",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bc/bcd9a879-79d9-43d2-b6e8-2c522f766bed/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcd9a879-79d9-43d2-b6e8-2c522f766bed/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcd9a879-79d9-43d2-b6e8-2c522f766bed/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcd9a879-79d9-43d2-b6e8-2c522f766bed/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bc/bcd9a879-79d9-43d2-b6e8-2c522f766bed/37-280x175.jpg\"]"
   },
   {
     "id": 526,
@@ -8941,7 +9991,9 @@ window.LISTINGS = [
     "price_value": 39000000,
     "address": "Алмалинский р-н, Макатаева 194 — Макатаева 194",
     "url": "https://krisha.kz/a/show/1005826741",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/67/67f39526-4056-4e98-baed-b61a603ad9b1/49-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67f39526-4056-4e98-baed-b61a603ad9b1/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67f39526-4056-4e98-baed-b61a603ad9b1/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67f39526-4056-4e98-baed-b61a603ad9b1/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67f39526-4056-4e98-baed-b61a603ad9b1/53-280x175.jpg\"]"
   },
   {
     "id": 527,
@@ -8958,7 +10010,9 @@ window.LISTINGS = [
     "price_value": 25999999,
     "address": "Наурызбайский р-н, мкр Шугыла, Дала",
     "url": "https://krisha.kz/a/show/1001757961",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/59/59a7baeb-43a7-41f7-953d-29ec76448080/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59a7baeb-43a7-41f7-953d-29ec76448080/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59a7baeb-43a7-41f7-953d-29ec76448080/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59a7baeb-43a7-41f7-953d-29ec76448080/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59a7baeb-43a7-41f7-953d-29ec76448080/55-280x175.jpg\"]"
   },
   {
     "id": 528,
@@ -8975,7 +10029,9 @@ window.LISTINGS = [
     "price_value": 47836080,
     "address": "Алатауский р-н, мкр Дарабоз, Бауыржана Момышулы 11/12а",
     "url": "https://krisha.kz/a/show/1009996985",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fb5fb77a-87e0-4f6c-8c07-f3c74635c0c9/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb5fb77a-87e0-4f6c-8c07-f3c74635c0c9/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb5fb77a-87e0-4f6c-8c07-f3c74635c0c9/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb5fb77a-87e0-4f6c-8c07-f3c74635c0c9/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb5fb77a-87e0-4f6c-8c07-f3c74635c0c9/9-280x175.jpg\"]"
   },
   {
     "id": 529,
@@ -8992,7 +10048,9 @@ window.LISTINGS = [
     "price_value": 357087290,
     "address": "Бостандыкский р-н, мкр Мирас, Саина 1а/1",
     "url": "https://krisha.kz/a/show/760760732",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/46/46e0e4b9-dc06-4651-9161-0a5977a1c3ec/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e0e4b9-dc06-4651-9161-0a5977a1c3ec/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e0e4b9-dc06-4651-9161-0a5977a1c3ec/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e0e4b9-dc06-4651-9161-0a5977a1c3ec/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/46/46e0e4b9-dc06-4651-9161-0a5977a1c3ec/6-280x175.jpg\"]"
   },
   {
     "id": 530,
@@ -9009,7 +10067,9 @@ window.LISTINGS = [
     "price_value": 39900000,
     "address": "Алатауский р-н, мкр Акбулак, Дарабоз 85 — По улице Мормышулы, на против \"АлматыАрена\"",
     "url": "https://krisha.kz/a/show/1008041226",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/30/30d976ec-b0d1-414e-ab63-77ce045db417/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30d976ec-b0d1-414e-ab63-77ce045db417/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30d976ec-b0d1-414e-ab63-77ce045db417/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30d976ec-b0d1-414e-ab63-77ce045db417/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30d976ec-b0d1-414e-ab63-77ce045db417/29-280x175.jpg\"]"
   },
   {
     "id": 531,
@@ -9026,7 +10086,9 @@ window.LISTINGS = [
     "price_value": 51500000,
     "address": "Бостандыкский р-н, Вахтангова 19 — Жандосова - Тимирязева",
     "url": "https://krisha.kz/a/show/1012626412",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4d/4da702d0-6d0f-4a14-ba82-5325e79b1945/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4da702d0-6d0f-4a14-ba82-5325e79b1945/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4da702d0-6d0f-4a14-ba82-5325e79b1945/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4da702d0-6d0f-4a14-ba82-5325e79b1945/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4d/4da702d0-6d0f-4a14-ba82-5325e79b1945/41-280x175.jpg\"]"
   },
   {
     "id": 532,
@@ -9043,7 +10105,9 @@ window.LISTINGS = [
     "price_value": 44000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2 — Рядом с Городской Больницей N•1",
     "url": "https://krisha.kz/a/show/1007340286",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d9/d98b60f4-dc9f-45fa-832b-ff1c2a7e4806/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d98b60f4-dc9f-45fa-832b-ff1c2a7e4806/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d98b60f4-dc9f-45fa-832b-ff1c2a7e4806/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d98b60f4-dc9f-45fa-832b-ff1c2a7e4806/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d98b60f4-dc9f-45fa-832b-ff1c2a7e4806/28-280x175.jpg\"]"
   },
   {
     "id": 533,
@@ -9060,7 +10124,9 @@ window.LISTINGS = [
     "price_value": 62500000,
     "address": "Ауэзовский р-н, мкр Аксай-5, Садвакасова 3б",
     "url": "https://krisha.kz/a/show/683326230",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f5/f5f90aea-f04d-4f90-949d-2b7b4c1d8d5a/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f5f90aea-f04d-4f90-949d-2b7b4c1d8d5a/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f5f90aea-f04d-4f90-949d-2b7b4c1d8d5a/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f5f90aea-f04d-4f90-949d-2b7b4c1d8d5a/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f5f90aea-f04d-4f90-949d-2b7b4c1d8d5a/21-280x175.jpg\"]"
   },
   {
     "id": 534,
@@ -9077,7 +10143,9 @@ window.LISTINGS = [
     "price_value": 235000000,
     "address": "Медеуский р-н, Городская 3",
     "url": "https://krisha.kz/a/show/1010328792",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/10/10630a9a-2774-4377-a9e9-e30f28590f88/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10630a9a-2774-4377-a9e9-e30f28590f88/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10630a9a-2774-4377-a9e9-e30f28590f88/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10630a9a-2774-4377-a9e9-e30f28590f88/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10630a9a-2774-4377-a9e9-e30f28590f88/24-280x175.jpg\"]"
   },
   {
     "id": 535,
@@ -9094,7 +10162,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "вдоль Капчагайской трассы",
     "url": "https://krisha.kz/a/show/682004956",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/52/52543ab0-06ae-4dc6-88c5-1dc274600930/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52543ab0-06ae-4dc6-88c5-1dc274600930/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52543ab0-06ae-4dc6-88c5-1dc274600930/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52543ab0-06ae-4dc6-88c5-1dc274600930/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/52543ab0-06ae-4dc6-88c5-1dc274600930/12-280x175.jpg\"]"
   },
   {
     "id": 536,
@@ -9111,7 +10181,9 @@ window.LISTINGS = [
     "price_value": 103000000,
     "address": "Медеуский р-н, Бекхожина — Достык/ Луганского",
     "url": "https://krisha.kz/a/show/1012920707",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/49/4945cfa1-5c9b-4f93-a493-af9f69880eb9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4945cfa1-5c9b-4f93-a493-af9f69880eb9/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4945cfa1-5c9b-4f93-a493-af9f69880eb9/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4945cfa1-5c9b-4f93-a493-af9f69880eb9/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4945cfa1-5c9b-4f93-a493-af9f69880eb9/12-280x175.jpg\"]"
   },
   {
     "id": 537,
@@ -9128,7 +10200,9 @@ window.LISTINGS = [
     "price_value": 33000000,
     "address": "Жетысуский р-н, проспект Райымбек 101 — Ташкентский",
     "url": "https://krisha.kz/a/show/1011201991",
-    "first_seen": "2026-06-28T12:51:07"
+    "first_seen": "2026-06-28T12:51:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/87/8704df0c-20b2-43c3-b9a9-5db3d7e6cae4/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/87/8704df0c-20b2-43c3-b9a9-5db3d7e6cae4/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/87/8704df0c-20b2-43c3-b9a9-5db3d7e6cae4/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/87/8704df0c-20b2-43c3-b9a9-5db3d7e6cae4/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/87/8704df0c-20b2-43c3-b9a9-5db3d7e6cae4/25-280x175.jpg\"]"
   },
   {
     "id": 538,
@@ -9145,7 +10219,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Наурызбайский р-н, мкр Акжар, Белжайлау — Абая Алатау напротив акимита",
     "url": "https://krisha.kz/a/show/1008914202",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/59/59de50c8-a4d2-46d6-98ed-5926e2fab101/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59de50c8-a4d2-46d6-98ed-5926e2fab101/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59de50c8-a4d2-46d6-98ed-5926e2fab101/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59de50c8-a4d2-46d6-98ed-5926e2fab101/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59de50c8-a4d2-46d6-98ed-5926e2fab101/10-280x175.jpg\"]"
   },
   {
     "id": 539,
@@ -9162,7 +10238,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жуалы 14",
     "url": "https://krisha.kz/a/show/1005271754",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/66/66c0b442-d0e7-4129-8e51-6eb983a7df25/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66c0b442-d0e7-4129-8e51-6eb983a7df25/49-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66c0b442-d0e7-4129-8e51-6eb983a7df25/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66c0b442-d0e7-4129-8e51-6eb983a7df25/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/66/66c0b442-d0e7-4129-8e51-6eb983a7df25/52-280x175.jpg\"]"
   },
   {
     "id": 540,
@@ -9179,7 +10257,9 @@ window.LISTINGS = [
     "price_value": 46500000,
     "address": "Бостандыкский р-н, Гагарина 196А — Гагарина-Тимирязева",
     "url": "https://krisha.kz/a/show/1004563962",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/82/8290f7ff-1853-4794-8543-b97e8a9565ec/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8290f7ff-1853-4794-8543-b97e8a9565ec/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8290f7ff-1853-4794-8543-b97e8a9565ec/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8290f7ff-1853-4794-8543-b97e8a9565ec/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/82/8290f7ff-1853-4794-8543-b97e8a9565ec/38-280x175.jpg\"]"
   },
   {
     "id": 541,
@@ -9196,7 +10276,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Бостандыкский р-н, Абая 164/2 — Срочная продажа, торг будет",
     "url": "https://krisha.kz/a/show/682422796",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/34/342a40e4-5272-427c-93af-5287678bcf61/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/342a40e4-5272-427c-93af-5287678bcf61/66-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/342a40e4-5272-427c-93af-5287678bcf61/67-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/342a40e4-5272-427c-93af-5287678bcf61/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/342a40e4-5272-427c-93af-5287678bcf61/69-280x175.jpg\"]"
   },
   {
     "id": 542,
@@ -9213,7 +10295,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Кайрат 135/11 блок 3",
     "url": "https://krisha.kz/a/show/1012987569",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/80/80de9d90-6f66-4fcb-b965-077f9ba4b531/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/80de9d90-6f66-4fcb-b965-077f9ba4b531/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/80de9d90-6f66-4fcb-b965-077f9ba4b531/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/80de9d90-6f66-4fcb-b965-077f9ba4b531/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/80de9d90-6f66-4fcb-b965-077f9ba4b531/39-280x175.jpg\"]"
   },
   {
     "id": 543,
@@ -9230,7 +10314,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Ауэзовский р-н, Симферопольская 1/1",
     "url": "https://krisha.kz/a/show/1012892274",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/61/61e916c2-e52d-4ba0-ab4d-97c11625599d/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61e916c2-e52d-4ba0-ab4d-97c11625599d/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61e916c2-e52d-4ba0-ab4d-97c11625599d/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61e916c2-e52d-4ba0-ab4d-97c11625599d/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61e916c2-e52d-4ba0-ab4d-97c11625599d/18-280x175.jpg\"]"
   },
   {
     "id": 544,
@@ -9247,7 +10333,9 @@ window.LISTINGS = [
     "price_value": 66000000,
     "address": "Бостандыкский р-н, мкр Коктем-3",
     "url": "https://krisha.kz/a/show/1010843948",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/318dd602-4032-4f3f-8b8d-bdd5bae2d141/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/318dd602-4032-4f3f-8b8d-bdd5bae2d141/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/318dd602-4032-4f3f-8b8d-bdd5bae2d141/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/318dd602-4032-4f3f-8b8d-bdd5bae2d141/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/318dd602-4032-4f3f-8b8d-bdd5bae2d141/45-280x175.jpg\"]"
   },
   {
     "id": 545,
@@ -9264,7 +10352,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Ауэзовский р-н, Райымбека 348/2 — Между Толе би и Райымбека ниже озера Сайран",
     "url": "https://krisha.kz/a/show/1010828160",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/63a1c0a8-d100-4939-9183-4f695c9b038e/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63a1c0a8-d100-4939-9183-4f695c9b038e/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63a1c0a8-d100-4939-9183-4f695c9b038e/55-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63a1c0a8-d100-4939-9183-4f695c9b038e/56-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/63a1c0a8-d100-4939-9183-4f695c9b038e/57-280x175.jpg\"]"
   },
   {
     "id": 546,
@@ -9281,7 +10371,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Бостандыкский р-н, Навои 208/8 — Торайгырова  - Навои",
     "url": "https://krisha.kz/a/show/1008228352",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2d/2dcf5041-8a07-446b-92dd-2d3360f582aa/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dcf5041-8a07-446b-92dd-2d3360f582aa/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dcf5041-8a07-446b-92dd-2d3360f582aa/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dcf5041-8a07-446b-92dd-2d3360f582aa/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dcf5041-8a07-446b-92dd-2d3360f582aa/16-280x175.jpg\"]"
   },
   {
     "id": 547,
@@ -9298,7 +10390,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алатауский р-н, мкр Зердели",
     "url": "https://krisha.kz/a/show/1007794202",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0d/0db266d3-0b79-418a-9455-91a1c2ef1f70/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0db266d3-0b79-418a-9455-91a1c2ef1f70/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0db266d3-0b79-418a-9455-91a1c2ef1f70/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0db266d3-0b79-418a-9455-91a1c2ef1f70/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0db266d3-0b79-418a-9455-91a1c2ef1f70/25-280x175.jpg\"]"
   },
   {
     "id": 548,
@@ -9315,7 +10409,9 @@ window.LISTINGS = [
     "price_value": 33500000,
     "address": "Алатауский р-н, мкр Акбулак, Суаткол 33 — Момышулы-Рыскулова",
     "url": "https://krisha.kz/a/show/1007305781",
-    "first_seen": "2026-06-28T12:51:12"
+    "first_seen": "2026-06-28T12:51:12",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cc/ccb7ba89-a626-419e-bdf6-95b89f97b638/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/ccb7ba89-a626-419e-bdf6-95b89f97b638/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/ccb7ba89-a626-419e-bdf6-95b89f97b638/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/ccb7ba89-a626-419e-bdf6-95b89f97b638/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/ccb7ba89-a626-419e-bdf6-95b89f97b638/34-280x175.jpg\"]"
   },
   {
     "id": 549,
@@ -9332,7 +10428,9 @@ window.LISTINGS = [
     "price_value": 60000000,
     "address": "Наурызбайский р-н, мкр Акжар — Толебекова-Наурыз",
     "url": "https://krisha.kz/a/show/1005177424",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cc/cc0f751d-3d8b-4ecd-b92c-bd2f3c998b22/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cc0f751d-3d8b-4ecd-b92c-bd2f3c998b22/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cc0f751d-3d8b-4ecd-b92c-bd2f3c998b22/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cc0f751d-3d8b-4ecd-b92c-bd2f3c998b22/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cc0f751d-3d8b-4ecd-b92c-bd2f3c998b22/5-280x175.jpg\"]"
   },
   {
     "id": 550,
@@ -9349,7 +10447,9 @@ window.LISTINGS = [
     "price_value": 360000000,
     "address": "Бостандыкский р-н, мкр Ерменсай — Жангир Хан, школа № 183",
     "url": "https://krisha.kz/a/show/1012628843",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/71/7180bcb2-d90d-42b3-b65c-36c45d92e174/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/7180bcb2-d90d-42b3-b65c-36c45d92e174/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/7180bcb2-d90d-42b3-b65c-36c45d92e174/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/7180bcb2-d90d-42b3-b65c-36c45d92e174/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/7180bcb2-d90d-42b3-b65c-36c45d92e174/5-280x175.jpg\"]"
   },
   {
     "id": 551,
@@ -9366,7 +10466,9 @@ window.LISTINGS = [
     "price_value": 333000000,
     "address": "Бостандыкский р-н, Ергожина 24",
     "url": "https://krisha.kz/a/show/1012374265",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/12/12a4c8bc-9f86-4b61-be10-69be3cde4105/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/12a4c8bc-9f86-4b61-be10-69be3cde4105/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/12a4c8bc-9f86-4b61-be10-69be3cde4105/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/12a4c8bc-9f86-4b61-be10-69be3cde4105/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/12a4c8bc-9f86-4b61-be10-69be3cde4105/5-280x175.jpg\"]"
   },
   {
     "id": 552,
@@ -9383,7 +10485,9 @@ window.LISTINGS = [
     "price_value": 405000000,
     "address": "Жанат 36а",
     "url": "https://krisha.kz/a/show/688647897",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/51/513dd275-5d34-4d05-aefc-0b848842ae2c/83-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/513dd275-5d34-4d05-aefc-0b848842ae2c/85-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/513dd275-5d34-4d05-aefc-0b848842ae2c/86-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/513dd275-5d34-4d05-aefc-0b848842ae2c/88-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/513dd275-5d34-4d05-aefc-0b848842ae2c/90-280x175.jpg\"]"
   },
   {
     "id": 553,
@@ -9400,7 +10504,9 @@ window.LISTINGS = [
     "price_value": 200000000,
     "address": "Алатауский р-н, мкр Заря Востока, Капчигайская 23 — Шоссейная",
     "url": "https://krisha.kz/a/show/1013417267",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2b687b60-89b8-40a6-8b17-bc576bdeb88f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b687b60-89b8-40a6-8b17-bc576bdeb88f/2-280x175.jpg\"]"
   },
   {
     "id": 554,
@@ -9417,7 +10523,9 @@ window.LISTINGS = [
     "price_value": 392000000,
     "address": "Бостандыкский р-н, мкр Ерменсай",
     "url": "https://krisha.kz/a/show/1013431711",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/18/189c89d0-e4a7-4f92-b4c2-a7c36d08d0d0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/189c89d0-e4a7-4f92-b4c2-a7c36d08d0d0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/189c89d0-e4a7-4f92-b4c2-a7c36d08d0d0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/189c89d0-e4a7-4f92-b4c2-a7c36d08d0d0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/189c89d0-e4a7-4f92-b4c2-a7c36d08d0d0/5-280x175.jpg\"]"
   },
   {
     "id": 555,
@@ -9434,7 +10542,9 @@ window.LISTINGS = [
     "price_value": 172000000,
     "address": "Турксибский р-н, Токтогула 144",
     "url": "https://krisha.kz/a/show/1006732996",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b576e948-2b15-40eb-bce1-d5d2e5baf28f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b576e948-2b15-40eb-bce1-d5d2e5baf28f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b576e948-2b15-40eb-bce1-d5d2e5baf28f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b576e948-2b15-40eb-bce1-d5d2e5baf28f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b576e948-2b15-40eb-bce1-d5d2e5baf28f/5-280x175.jpg\"]"
   },
   {
     "id": 556,
@@ -9451,7 +10561,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Алатауский р-н, мкр Карасу",
     "url": "https://krisha.kz/a/show/1011260708",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f2/f2d24570-4707-4f69-8d59-02cd63d90c0d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d24570-4707-4f69-8d59-02cd63d90c0d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d24570-4707-4f69-8d59-02cd63d90c0d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d24570-4707-4f69-8d59-02cd63d90c0d/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d24570-4707-4f69-8d59-02cd63d90c0d/6-280x175.jpg\"]"
   },
   {
     "id": 557,
@@ -9468,7 +10580,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Алатауский р-н, мкр Алгабас, Акбопе 17 — Дом находится возле мечети",
     "url": "https://krisha.kz/a/show/1011586711",
-    "first_seen": "2026-06-28T12:51:29"
+    "first_seen": "2026-06-28T12:51:29",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/34/343215b4-c35e-44a5-8165-5d8b281d5487/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/343215b4-c35e-44a5-8165-5d8b281d5487/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/343215b4-c35e-44a5-8165-5d8b281d5487/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/343215b4-c35e-44a5-8165-5d8b281d5487/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/343215b4-c35e-44a5-8165-5d8b281d5487/5-280x175.jpg\"]"
   },
   {
     "id": 558,
@@ -9485,7 +10599,9 @@ window.LISTINGS = [
     "price_value": 14800000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1012882175",
-    "first_seen": "2026-06-28T12:51:56"
+    "first_seen": "2026-06-28T12:51:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f9/f9700279-82c8-45fa-8b90-d8f8a5c0f8fc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9700279-82c8-45fa-8b90-d8f8a5c0f8fc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9700279-82c8-45fa-8b90-d8f8a5c0f8fc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9700279-82c8-45fa-8b90-d8f8a5c0f8fc/4-280x175.jpg\"]"
   },
   {
     "id": 559,
@@ -9502,7 +10618,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Татимова 41/2 — Кали Надырова",
     "url": "https://krisha.kz/a/show/1012284111",
-    "first_seen": "2026-06-28T12:51:56"
+    "first_seen": "2026-06-28T12:51:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/85/858612e5-f8a8-414d-bac7-a385d313172c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/858612e5-f8a8-414d-bac7-a385d313172c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/858612e5-f8a8-414d-bac7-a385d313172c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/858612e5-f8a8-414d-bac7-a385d313172c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/858612e5-f8a8-414d-bac7-a385d313172c/5-280x175.jpg\"]"
   },
   {
     "id": 560,
@@ -9519,7 +10637,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау 40B — Ракишева - Аскара Кунаева",
     "url": "https://krisha.kz/a/show/1012858787",
-    "first_seen": "2026-06-28T12:51:56"
+    "first_seen": "2026-06-28T12:51:56",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/37/37f77d94-1569-418c-84f6-38cca2f3f520/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37f77d94-1569-418c-84f6-38cca2f3f520/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37f77d94-1569-418c-84f6-38cca2f3f520/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37f77d94-1569-418c-84f6-38cca2f3f520/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/37/37f77d94-1569-418c-84f6-38cca2f3f520/5-280x175.jpg\"]"
   },
   {
     "id": 561,
@@ -9536,7 +10656,9 @@ window.LISTINGS = [
     "price_value": 650000000764706,
     "address": "Алмалинский р-н, Прокофьева 147",
     "url": "https://krisha.kz/a/show/1013338868",
-    "first_seen": "2026-06-28T12:52:23"
+    "first_seen": "2026-06-28T12:52:23",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/73/73460c44-f094-4c81-bdde-e4b9e0e4b569/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73460c44-f094-4c81-bdde-e4b9e0e4b569/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73460c44-f094-4c81-bdde-e4b9e0e4b569/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73460c44-f094-4c81-bdde-e4b9e0e4b569/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/73/73460c44-f094-4c81-bdde-e4b9e0e4b569/5-280x175.jpg\"]"
   },
   {
     "id": 562,
@@ -9553,7 +10675,9 @@ window.LISTINGS = [
     "price_value": 7840000002587459,
     "address": "Алмалинский р-н, Масанчи 79",
     "url": "https://krisha.kz/a/show/1010966865",
-    "first_seen": "2026-06-28T12:52:23"
+    "first_seen": "2026-06-28T12:52:23",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/34/34b0bd14-878e-4ea2-818a-8604c44378ea/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34b0bd14-878e-4ea2-818a-8604c44378ea/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34b0bd14-878e-4ea2-818a-8604c44378ea/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34b0bd14-878e-4ea2-818a-8604c44378ea/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34b0bd14-878e-4ea2-818a-8604c44378ea/5-280x175.jpg\"]"
   },
   {
     "id": 563,
@@ -9570,7 +10694,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Баганашыл 138/4 — Жангир Хана",
     "url": "https://krisha.kz/a/show/760239828",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0d/0d763823-0951-458f-bb2d-113634a6efea/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d763823-0951-458f-bb2d-113634a6efea/69-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d763823-0951-458f-bb2d-113634a6efea/70-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d763823-0951-458f-bb2d-113634a6efea/71-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0d/0d763823-0951-458f-bb2d-113634a6efea/72-280x175.jpg\"]"
   },
   {
     "id": 564,
@@ -9587,7 +10713,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Ауэзовский р-н, мкр №10 А, Жандосова — Береговой",
     "url": "https://krisha.kz/a/show/696251843",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b2/b21646f4-8fad-4f25-9298-a6e356b8eb23/46-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21646f4-8fad-4f25-9298-a6e356b8eb23/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21646f4-8fad-4f25-9298-a6e356b8eb23/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21646f4-8fad-4f25-9298-a6e356b8eb23/49-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b21646f4-8fad-4f25-9298-a6e356b8eb23/50-280x175.jpg\"]"
   },
   {
     "id": 565,
@@ -9604,7 +10732,9 @@ window.LISTINGS = [
     "price_value": 27000000,
     "address": "Бостандыкский р-н, мкр Орбита-4",
     "url": "https://krisha.kz/a/show/1013091989",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dd/dd558e4e-b065-4456-9ebb-6fe6f34a8670/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dd/dd558e4e-b065-4456-9ebb-6fe6f34a8670/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dd/dd558e4e-b065-4456-9ebb-6fe6f34a8670/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dd/dd558e4e-b065-4456-9ebb-6fe6f34a8670/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dd/dd558e4e-b065-4456-9ebb-6fe6f34a8670/32-280x175.jpg\"]"
   },
   {
     "id": 566,
@@ -9621,7 +10751,9 @@ window.LISTINGS = [
     "price_value": 52000000,
     "address": "Жетысуский р-н, мкр Кокмайса (Дорожник), Мкр Дорожник — Сев кольцо рынок Кенжехан /Арлан Садик 170",
     "url": "https://krisha.kz/a/show/1011773259",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3ce93445-8252-483f-b74f-5ebdf894a9de/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3ce93445-8252-483f-b74f-5ebdf894a9de/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3ce93445-8252-483f-b74f-5ebdf894a9de/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3ce93445-8252-483f-b74f-5ebdf894a9de/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3ce93445-8252-483f-b74f-5ebdf894a9de/35-280x175.jpg\"]"
   },
   {
     "id": 567,
@@ -9638,7 +10770,9 @@ window.LISTINGS = [
     "price_value": 74000000,
     "address": "Медеуский р-н, Омарова 25/1",
     "url": "https://krisha.kz/a/show/1011146839",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6d/6db1f42b-5a59-4d4d-b74d-416df2f72836/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6db1f42b-5a59-4d4d-b74d-416df2f72836/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6db1f42b-5a59-4d4d-b74d-416df2f72836/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6db1f42b-5a59-4d4d-b74d-416df2f72836/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6d/6db1f42b-5a59-4d4d-b74d-416df2f72836/17-280x175.jpg\"]"
   },
   {
     "id": 568,
@@ -9655,7 +10789,9 @@ window.LISTINGS = [
     "price_value": 170184000,
     "address": "Наурызбайский р-н, мкр Рахат 1/2",
     "url": "https://krisha.kz/a/show/1013394520",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ae/aeb53b55-753f-45a6-b1c6-a2bec01728bf/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb53b55-753f-45a6-b1c6-a2bec01728bf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb53b55-753f-45a6-b1c6-a2bec01728bf/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb53b55-753f-45a6-b1c6-a2bec01728bf/4-280x175.jpg\"]"
   },
   {
     "id": 569,
@@ -9672,7 +10808,9 @@ window.LISTINGS = [
     "price_value": 28500000,
     "address": "Наурызбайский р-н, мкр Шугыла — Абая - Строительная",
     "url": "https://krisha.kz/a/show/1012587473",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d2/d22cb9d2-b0ec-48b5-8bde-3bd5e141e458/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d22cb9d2-b0ec-48b5-8bde-3bd5e141e458/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d22cb9d2-b0ec-48b5-8bde-3bd5e141e458/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d22cb9d2-b0ec-48b5-8bde-3bd5e141e458/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d22cb9d2-b0ec-48b5-8bde-3bd5e141e458/16-280x175.jpg\"]"
   },
   {
     "id": 570,
@@ -9689,7 +10827,9 @@ window.LISTINGS = [
     "price_value": 71000000,
     "address": "Алмалинский р-н, Масанчи 23",
     "url": "https://krisha.kz/a/show/1009047716",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/51/51dece68-962d-4c96-a121-d1204e3d161c/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51dece68-962d-4c96-a121-d1204e3d161c/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51dece68-962d-4c96-a121-d1204e3d161c/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51dece68-962d-4c96-a121-d1204e3d161c/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/51/51dece68-962d-4c96-a121-d1204e3d161c/42-280x175.jpg\"]"
   },
   {
     "id": 571,
@@ -9706,7 +10846,9 @@ window.LISTINGS = [
     "price_value": 29990000,
     "address": "Наурызбайский р-н, Коктерек — Пересечение пр. Алатау - ул. Сабденова",
     "url": "https://krisha.kz/a/show/1007714568",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cc/cce3cfdb-fc6b-4e99-a4a6-11b3da3fd582/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cce3cfdb-fc6b-4e99-a4a6-11b3da3fd582/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cce3cfdb-fc6b-4e99-a4a6-11b3da3fd582/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cce3cfdb-fc6b-4e99-a4a6-11b3da3fd582/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cc/cce3cfdb-fc6b-4e99-a4a6-11b3da3fd582/23-280x175.jpg\"]"
   },
   {
     "id": 572,
@@ -9723,7 +10865,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Наурызбайский р-н, Алтын Орда 6г",
     "url": "https://krisha.kz/a/show/1002583844",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3d/3d2c67ff-d496-4200-b122-3e76a99fe58d/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d2c67ff-d496-4200-b122-3e76a99fe58d/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d2c67ff-d496-4200-b122-3e76a99fe58d/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d2c67ff-d496-4200-b122-3e76a99fe58d/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d2c67ff-d496-4200-b122-3e76a99fe58d/28-280x175.jpg\"]"
   },
   {
     "id": 573,
@@ -9740,7 +10884,9 @@ window.LISTINGS = [
     "price_value": 53000000,
     "address": "Бостандыкский р-н, Утепова",
     "url": "https://krisha.kz/a/show/1001766824",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d7/d7b3d8ac-5da5-4642-8676-9cfe5666d185/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7b3d8ac-5da5-4642-8676-9cfe5666d185/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7b3d8ac-5da5-4642-8676-9cfe5666d185/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7b3d8ac-5da5-4642-8676-9cfe5666d185/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7b3d8ac-5da5-4642-8676-9cfe5666d185/24-280x175.jpg\"]"
   },
   {
     "id": 574,
@@ -9757,7 +10903,9 @@ window.LISTINGS = [
     "price_value": 35500000,
     "address": "Бостандыкский р-н, Утепова 4 — Утепова - Жарокова",
     "url": "https://krisha.kz/a/show/1013502996",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/71/71a830bb-2354-4a2d-ad5b-aed84c671ac2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71a830bb-2354-4a2d-ad5b-aed84c671ac2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71a830bb-2354-4a2d-ad5b-aed84c671ac2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71a830bb-2354-4a2d-ad5b-aed84c671ac2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/71a830bb-2354-4a2d-ad5b-aed84c671ac2/5-280x175.jpg\"]"
   },
   {
     "id": 575,
@@ -9774,7 +10922,9 @@ window.LISTINGS = [
     "price_value": 56011444,
     "address": "Медеуский р-н, ​Приканальная БАК 99а",
     "url": "https://krisha.kz/a/show/1009994989",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3f/3f96128e-3543-43ce-be54-637b8e2996b7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3f96128e-3543-43ce-be54-637b8e2996b7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3f96128e-3543-43ce-be54-637b8e2996b7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3f96128e-3543-43ce-be54-637b8e2996b7/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3f/3f96128e-3543-43ce-be54-637b8e2996b7/6-280x175.jpg\"]"
   },
   {
     "id": 576,
@@ -9791,7 +10941,9 @@ window.LISTINGS = [
     "price_value": 123358000,
     "address": "Бостандыкский р-н, Кожабекова 17/2",
     "url": "https://krisha.kz/a/show/1003765406",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/88/88bb1101-ea22-45ce-82cd-60b82a4eb086/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/88bb1101-ea22-45ce-82cd-60b82a4eb086/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/88bb1101-ea22-45ce-82cd-60b82a4eb086/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/88bb1101-ea22-45ce-82cd-60b82a4eb086/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/88bb1101-ea22-45ce-82cd-60b82a4eb086/20-280x175.jpg\"]"
   },
   {
     "id": 577,
@@ -9808,7 +10960,9 @@ window.LISTINGS = [
     "price_value": 45585300,
     "address": "Турксибский р-н, Тараз 8/1",
     "url": "https://krisha.kz/a/show/1007191946",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/33/33cdf60a-b2b1-4c7d-8b94-90c81a4bfcf6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/33cdf60a-b2b1-4c7d-8b94-90c81a4bfcf6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/33cdf60a-b2b1-4c7d-8b94-90c81a4bfcf6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/33cdf60a-b2b1-4c7d-8b94-90c81a4bfcf6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/33/33cdf60a-b2b1-4c7d-8b94-90c81a4bfcf6/5-280x175.jpg\"]"
   },
   {
     "id": 578,
@@ -9825,7 +10979,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Ауэзовский р-н, мкр Таугуль 46 — Жандосова-Берегового",
     "url": "https://krisha.kz/a/show/1012677624",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9d/9d69ed89-d0d6-4212-a254-dab14c0d25f1/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d69ed89-d0d6-4212-a254-dab14c0d25f1/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d69ed89-d0d6-4212-a254-dab14c0d25f1/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d69ed89-d0d6-4212-a254-dab14c0d25f1/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9d/9d69ed89-d0d6-4212-a254-dab14c0d25f1/31-280x175.jpg\"]"
   },
   {
     "id": 579,
@@ -9842,7 +10998,9 @@ window.LISTINGS = [
     "price_value": 45000000,
     "address": "Ауэзовский р-н, мкр Тастак-1, Райымбека",
     "url": "https://krisha.kz/a/show/1011004283",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e8/e80f2a47-02e6-491c-abc9-16ea08099c6c/55-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e80f2a47-02e6-491c-abc9-16ea08099c6c/56-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e80f2a47-02e6-491c-abc9-16ea08099c6c/57-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e80f2a47-02e6-491c-abc9-16ea08099c6c/58-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e80f2a47-02e6-491c-abc9-16ea08099c6c/59-280x175.jpg\"]"
   },
   {
     "id": 580,
@@ -9859,7 +11017,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Ашимова — Райымбека",
     "url": "https://krisha.kz/a/show/1010062731",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5c1ad8dc-dd23-4f2e-b4f7-8c964a0391b3/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c1ad8dc-dd23-4f2e-b4f7-8c964a0391b3/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c1ad8dc-dd23-4f2e-b4f7-8c964a0391b3/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c1ad8dc-dd23-4f2e-b4f7-8c964a0391b3/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5c1ad8dc-dd23-4f2e-b4f7-8c964a0391b3/27-280x175.jpg\"]"
   },
   {
     "id": 581,
@@ -9876,7 +11036,9 @@ window.LISTINGS = [
     "price_value": 38500000,
     "address": "Ауэзовский р-н, Жандосова — Алтынсарина",
     "url": "https://krisha.kz/a/show/1009946437",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a3/a3a0973e-979b-44ca-9a64-ff94e19b3dd3/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3a0973e-979b-44ca-9a64-ff94e19b3dd3/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3a0973e-979b-44ca-9a64-ff94e19b3dd3/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3a0973e-979b-44ca-9a64-ff94e19b3dd3/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3a0973e-979b-44ca-9a64-ff94e19b3dd3/44-280x175.jpg\"]"
   },
   {
     "id": 582,
@@ -9893,7 +11055,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Турксибский р-н, Гёте 303/2",
     "url": "https://krisha.kz/a/show/1009633804",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e2/e2703a43-ab22-4c43-9f97-2a0cbd027ec9/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2703a43-ab22-4c43-9f97-2a0cbd027ec9/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2703a43-ab22-4c43-9f97-2a0cbd027ec9/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2703a43-ab22-4c43-9f97-2a0cbd027ec9/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2703a43-ab22-4c43-9f97-2a0cbd027ec9/25-280x175.jpg\"]"
   },
   {
     "id": 583,
@@ -9910,7 +11074,9 @@ window.LISTINGS = [
     "price_value": 54000000,
     "address": "Алмалинский р-н, Сейфуллина 469а/1 — проспект Сейфуллина",
     "url": "https://krisha.kz/a/show/1007465453",
-    "first_seen": "2026-06-28T19:34:03"
+    "first_seen": "2026-06-28T19:34:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/da/da37acf5-6dbd-4f30-a9ff-cac189c5d1fb/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da37acf5-6dbd-4f30-a9ff-cac189c5d1fb/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da37acf5-6dbd-4f30-a9ff-cac189c5d1fb/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da37acf5-6dbd-4f30-a9ff-cac189c5d1fb/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da37acf5-6dbd-4f30-a9ff-cac189c5d1fb/18-280x175.jpg\"]"
   },
   {
     "id": 584,
@@ -9927,7 +11093,9 @@ window.LISTINGS = [
     "price_value": 30500000,
     "address": "Жетысуский р-н, Райымбека 247б",
     "url": "https://krisha.kz/a/show/1007376964",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/72/729c51b5-d544-41e1-afc1-38d3d94f0901/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/729c51b5-d544-41e1-afc1-38d3d94f0901/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/729c51b5-d544-41e1-afc1-38d3d94f0901/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/729c51b5-d544-41e1-afc1-38d3d94f0901/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/72/729c51b5-d544-41e1-afc1-38d3d94f0901/15-280x175.jpg\"]"
   },
   {
     "id": 585,
@@ -9944,7 +11112,9 @@ window.LISTINGS = [
     "price_value": 19800000,
     "address": "Жетысуский р-н, мкр Кокжиек 7",
     "url": "https://krisha.kz/a/show/1006595176",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/12/126d3f3b-83d4-4a6b-ad2a-7a1a2e71e49f/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/126d3f3b-83d4-4a6b-ad2a-7a1a2e71e49f/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/126d3f3b-83d4-4a6b-ad2a-7a1a2e71e49f/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/126d3f3b-83d4-4a6b-ad2a-7a1a2e71e49f/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/12/126d3f3b-83d4-4a6b-ad2a-7a1a2e71e49f/27-280x175.jpg\"]"
   },
   {
     "id": 586,
@@ -9961,7 +11131,9 @@ window.LISTINGS = [
     "price_value": 149126400,
     "address": "Наурызбайский р-н, мкр Рахат, мкр. Рахат, ул. Култобе 1/2",
     "url": "https://krisha.kz/a/show/697335397",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/15/15dd9f30-e2a4-49a1-83ad-1a5cefb7553e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15dd9f30-e2a4-49a1-83ad-1a5cefb7553e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15dd9f30-e2a4-49a1-83ad-1a5cefb7553e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15dd9f30-e2a4-49a1-83ad-1a5cefb7553e/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/15dd9f30-e2a4-49a1-83ad-1a5cefb7553e/6-280x175.jpg\"]"
   },
   {
     "id": 587,
@@ -9978,7 +11150,9 @@ window.LISTINGS = [
     "price_value": 50127000,
     "address": "Алмалинский р-н, Шевченко 109",
     "url": "https://krisha.kz/a/show/690934971",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dc023499-6916-4703-8976-2ee6c3fc51a3/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc023499-6916-4703-8976-2ee6c3fc51a3/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc023499-6916-4703-8976-2ee6c3fc51a3/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc023499-6916-4703-8976-2ee6c3fc51a3/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc023499-6916-4703-8976-2ee6c3fc51a3/13-280x175.jpg\"]"
   },
   {
     "id": 588,
@@ -9995,7 +11169,9 @@ window.LISTINGS = [
     "price_value": 94930000,
     "address": "Алмалинский р-н, Шевченко 109",
     "url": "https://krisha.kz/a/show/683974503",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/34/34215914-beb6-4a0c-b84c-67984eda603f/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34215914-beb6-4a0c-b84c-67984eda603f/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34215914-beb6-4a0c-b84c-67984eda603f/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34215914-beb6-4a0c-b84c-67984eda603f/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/34/34215914-beb6-4a0c-b84c-67984eda603f/23-280x175.jpg\"]"
   },
   {
     "id": 589,
@@ -10012,7 +11188,9 @@ window.LISTINGS = [
     "price_value": 36900000,
     "address": "Турксибский р-н, мкр Кайрат, Тараз 1/1",
     "url": "https://krisha.kz/a/show/1009794653",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/61/6180124b-c565-4817-9f00-f2ff6f1cb089/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/6180124b-c565-4817-9f00-f2ff6f1cb089/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/6180124b-c565-4817-9f00-f2ff6f1cb089/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/6180124b-c565-4817-9f00-f2ff6f1cb089/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/6180124b-c565-4817-9f00-f2ff6f1cb089/5-280x175.jpg\"]"
   },
   {
     "id": 590,
@@ -10029,7 +11207,9 @@ window.LISTINGS = [
     "price_value": 38000000,
     "address": "Бостандыкский р-н, мкр Орбита-4 16",
     "url": "https://krisha.kz/a/show/1012496372",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/58/58bd6d50-8c1d-42f5-9b5c-958f89afe9cd/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58bd6d50-8c1d-42f5-9b5c-958f89afe9cd/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58bd6d50-8c1d-42f5-9b5c-958f89afe9cd/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58bd6d50-8c1d-42f5-9b5c-958f89afe9cd/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58bd6d50-8c1d-42f5-9b5c-958f89afe9cd/25-280x175.jpg\"]"
   },
   {
     "id": 591,
@@ -10046,7 +11226,9 @@ window.LISTINGS = [
     "price_value": 30000000,
     "address": "Алатауский р-н, ул. Фадеева, 38г 2 — Пр. Райымбека - Тлендиева",
     "url": "https://krisha.kz/a/show/1011630490",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cd/cd794c31-8c0d-42ec-a3c4-60c125305ce5/29-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cd794c31-8c0d-42ec-a3c4-60c125305ce5/30-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cd794c31-8c0d-42ec-a3c4-60c125305ce5/31-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cd794c31-8c0d-42ec-a3c4-60c125305ce5/32-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cd/cd794c31-8c0d-42ec-a3c4-60c125305ce5/33-280x175.jpg\"]"
   },
   {
     "id": 592,
@@ -10063,7 +11245,9 @@ window.LISTINGS = [
     "price_value": 52000000,
     "address": "Ауэзовский р-н, мкр Мамыр-4",
     "url": "https://krisha.kz/a/show/1010828296",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/50/50104b6e-4cc6-4f79-9ad5-00880a821da1/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50104b6e-4cc6-4f79-9ad5-00880a821da1/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50104b6e-4cc6-4f79-9ad5-00880a821da1/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50104b6e-4cc6-4f79-9ad5-00880a821da1/45-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50104b6e-4cc6-4f79-9ad5-00880a821da1/47-280x175.jpg\"]"
   },
   {
     "id": 593,
@@ -10080,7 +11264,9 @@ window.LISTINGS = [
     "price_value": 29000000,
     "address": "Алатауский р-н, мкр Коккайнар, 20-й микр жк  Камила — Новая Саина  Жк Камила",
     "url": "https://krisha.kz/a/show/1009030158",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/02/02fcd5af-0abf-4ce1-b83a-99c5b28ec915/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02fcd5af-0abf-4ce1-b83a-99c5b28ec915/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02fcd5af-0abf-4ce1-b83a-99c5b28ec915/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02fcd5af-0abf-4ce1-b83a-99c5b28ec915/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/02fcd5af-0abf-4ce1-b83a-99c5b28ec915/6-280x175.jpg\"]"
   },
   {
     "id": 594,
@@ -10097,7 +11283,9 @@ window.LISTINGS = [
     "price_value": 58000000,
     "address": "Турксибский р-н, Кульджинский тракт 153/41 — Бухтарминская",
     "url": "https://krisha.kz/a/show/691947387",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8a/8accdf89-5fc8-4ebe-bc3d-0bec5566f6ec/80-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8accdf89-5fc8-4ebe-bc3d-0bec5566f6ec/98-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8accdf89-5fc8-4ebe-bc3d-0bec5566f6ec/99-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8accdf89-5fc8-4ebe-bc3d-0bec5566f6ec/100-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8a/8accdf89-5fc8-4ebe-bc3d-0bec5566f6ec/101-280x175.jpg\"]"
   },
   {
     "id": 595,
@@ -10114,7 +11302,9 @@ window.LISTINGS = [
     "price_value": 212000000,
     "address": "Бостандыкский р-н, Радостовца 359",
     "url": "https://krisha.kz/a/show/1013426668",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/77/77794044-67ec-44f4-a951-a66bfefea2da/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77794044-67ec-44f4-a951-a66bfefea2da/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/77/77794044-67ec-44f4-a951-a66bfefea2da/3-280x175.jpg\"]"
   },
   {
     "id": 596,
@@ -10131,7 +11321,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Бостандыкский р-н, Альфараби 53В — Между Маркова и Шашкина",
     "url": "https://krisha.kz/a/show/1012613365",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/42/42ce06ea-b4e3-4736-84fe-b8d2ea3a777f/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42ce06ea-b4e3-4736-84fe-b8d2ea3a777f/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42ce06ea-b4e3-4736-84fe-b8d2ea3a777f/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42ce06ea-b4e3-4736-84fe-b8d2ea3a777f/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42ce06ea-b4e3-4736-84fe-b8d2ea3a777f/15-280x175.jpg\"]"
   },
   {
     "id": 597,
@@ -10148,7 +11340,9 @@ window.LISTINGS = [
     "price_value": 34000000,
     "address": "Алмалинский р-н, Айтиева 114 — Богенбай Батыра",
     "url": "https://krisha.kz/a/show/1011956447",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/53/53946565-49b1-46dc-8e8e-d49e44320558/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53946565-49b1-46dc-8e8e-d49e44320558/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53946565-49b1-46dc-8e8e-d49e44320558/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53946565-49b1-46dc-8e8e-d49e44320558/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53946565-49b1-46dc-8e8e-d49e44320558/17-280x175.jpg\"]"
   },
   {
     "id": 598,
@@ -10165,7 +11359,9 @@ window.LISTINGS = [
     "price_value": 31500000,
     "address": "Наурызбайский р-н, Коктерек — проспект Алатау- проспект Абая",
     "url": "https://krisha.kz/a/show/1009699122",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fa/faae4498-8a1b-43ea-ab22-5180b36f13fc/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faae4498-8a1b-43ea-ab22-5180b36f13fc/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faae4498-8a1b-43ea-ab22-5180b36f13fc/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faae4498-8a1b-43ea-ab22-5180b36f13fc/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/faae4498-8a1b-43ea-ab22-5180b36f13fc/19-280x175.jpg\"]"
   },
   {
     "id": 599,
@@ -10182,7 +11378,9 @@ window.LISTINGS = [
     "price_value": 79000000,
     "address": "Алмалинский р-н, Брусиловского 167",
     "url": "https://krisha.kz/a/show/1008408525",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ea/eac18375-9be8-424e-8dc9-b6455695c0fb/82-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ea/eac18375-9be8-424e-8dc9-b6455695c0fb/83-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ea/eac18375-9be8-424e-8dc9-b6455695c0fb/84-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ea/eac18375-9be8-424e-8dc9-b6455695c0fb/85-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ea/eac18375-9be8-424e-8dc9-b6455695c0fb/86-280x175.jpg\"]"
   },
   {
     "id": 600,
@@ -10199,7 +11397,9 @@ window.LISTINGS = [
     "price_value": 41000000,
     "address": "Алатауский р-н, мкр Дарабоз",
     "url": "https://krisha.kz/a/show/1006214086",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/52/5218d95c-27fa-46da-bc73-24747c714a34/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5218d95c-27fa-46da-bc73-24747c714a34/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5218d95c-27fa-46da-bc73-24747c714a34/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5218d95c-27fa-46da-bc73-24747c714a34/39-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/5218d95c-27fa-46da-bc73-24747c714a34/40-280x175.jpg\"]"
   },
   {
     "id": 601,
@@ -10216,7 +11416,9 @@ window.LISTINGS = [
     "price_value": 36000000,
     "address": "Наурызбайский р-н, мкр Акжар, Белжайлау 47а",
     "url": "https://krisha.kz/a/show/1005044262",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b0/b038ae4b-7e2a-470c-8b12-5f28b6f9a919/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b038ae4b-7e2a-470c-8b12-5f28b6f9a919/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b038ae4b-7e2a-470c-8b12-5f28b6f9a919/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b038ae4b-7e2a-470c-8b12-5f28b6f9a919/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b038ae4b-7e2a-470c-8b12-5f28b6f9a919/9-280x175.jpg\"]"
   },
   {
     "id": 602,
@@ -10233,7 +11435,9 @@ window.LISTINGS = [
     "price_value": 29028720,
     "address": "Наурызбайский р-н, мкр Акжар, Белжайлау 47а",
     "url": "https://krisha.kz/a/show/1000285056",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/30/30338e13-aef0-4125-9b9d-59550bff71e9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30338e13-aef0-4125-9b9d-59550bff71e9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30338e13-aef0-4125-9b9d-59550bff71e9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30338e13-aef0-4125-9b9d-59550bff71e9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/30/30338e13-aef0-4125-9b9d-59550bff71e9/5-280x175.jpg\"]"
   },
   {
     "id": 603,
@@ -10250,7 +11454,9 @@ window.LISTINGS = [
     "price_value": 82854820,
     "address": "Алатауский р-н, мкр Ботакоз 2/1",
     "url": "https://krisha.kz/a/show/695180124",
-    "first_seen": "2026-06-28T19:34:09"
+    "first_seen": "2026-06-28T19:34:09",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/17/17de6977-ca8b-4776-ab5b-0d8862154ac4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/17de6977-ca8b-4776-ab5b-0d8862154ac4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/17de6977-ca8b-4776-ab5b-0d8862154ac4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/17de6977-ca8b-4776-ab5b-0d8862154ac4/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/17/17de6977-ca8b-4776-ab5b-0d8862154ac4/6-280x175.jpg\"]"
   },
   {
     "id": 604,
@@ -10267,7 +11473,9 @@ window.LISTINGS = [
     "price_value": 160660000,
     "address": "Бостандыкский р-н, мкр Ерменсай, Ушкемпирова 42",
     "url": "https://krisha.kz/a/show/1009766194",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/38/3832d279-78ab-4e88-9971-7e6e5b9769bd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/3832d279-78ab-4e88-9971-7e6e5b9769bd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/3832d279-78ab-4e88-9971-7e6e5b9769bd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/38/3832d279-78ab-4e88-9971-7e6e5b9769bd/4-280x175.jpg\"]"
   },
   {
     "id": 605,
@@ -10284,7 +11492,9 @@ window.LISTINGS = [
     "price_value": 24464000,
     "address": "Райымбек батыра 275",
     "url": "https://krisha.kz/a/show/669078601",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9f/9f7e3f7c-75fa-44a6-8906-834202d25e44/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9f7e3f7c-75fa-44a6-8906-834202d25e44/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9f7e3f7c-75fa-44a6-8906-834202d25e44/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9f7e3f7c-75fa-44a6-8906-834202d25e44/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9f/9f7e3f7c-75fa-44a6-8906-834202d25e44/26-280x175.jpg\"]"
   },
   {
     "id": 606,
@@ -10301,7 +11511,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Бостандыкский р-н, Аль-Фараби 41/5",
     "url": "https://krisha.kz/a/show/1013064100",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/10/103df812-e527-4941-a0ba-b221083478e4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/103df812-e527-4941-a0ba-b221083478e4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/103df812-e527-4941-a0ba-b221083478e4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/103df812-e527-4941-a0ba-b221083478e4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/103df812-e527-4941-a0ba-b221083478e4/5-280x175.jpg\"]"
   },
   {
     "id": 607,
@@ -10318,7 +11530,9 @@ window.LISTINGS = [
     "price_value": 32500000,
     "address": "Бостандыкский р-н, Кенесары хана 83/4",
     "url": "https://krisha.kz/a/show/1013475571",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f0/f097b65e-a2f9-4359-beed-18715bf4921b/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f097b65e-a2f9-4359-beed-18715bf4921b/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f097b65e-a2f9-4359-beed-18715bf4921b/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f097b65e-a2f9-4359-beed-18715bf4921b/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f097b65e-a2f9-4359-beed-18715bf4921b/11-280x175.jpg\"]"
   },
   {
     "id": 608,
@@ -10335,7 +11549,9 @@ window.LISTINGS = [
     "price_value": 56000000,
     "address": "Алмалинский р-н, Исаева 158 — Между Жамбыла и Карасай батыра",
     "url": "https://krisha.kz/a/show/1010996983",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4dbd8cd-f97d-4b69-87ae-32ec6b16ae48/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4dbd8cd-f97d-4b69-87ae-32ec6b16ae48/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4dbd8cd-f97d-4b69-87ae-32ec6b16ae48/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4dbd8cd-f97d-4b69-87ae-32ec6b16ae48/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4dbd8cd-f97d-4b69-87ae-32ec6b16ae48/5-280x175.jpg\"]"
   },
   {
     "id": 609,
@@ -10352,7 +11568,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, Аль-Фараби 41/6",
     "url": "https://krisha.kz/a/show/1013063959",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a9/a9e9b2f7-9203-47c2-9ec0-21a63c34e58c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9e9b2f7-9203-47c2-9ec0-21a63c34e58c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9e9b2f7-9203-47c2-9ec0-21a63c34e58c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a9/a9e9b2f7-9203-47c2-9ec0-21a63c34e58c/4-280x175.jpg\"]"
   },
   {
     "id": 610,
@@ -10369,7 +11587,9 @@ window.LISTINGS = [
     "price_value": 46000000,
     "address": "Турксибский р-н, мкр Кайрат, Белбулак 2",
     "url": "https://krisha.kz/a/show/1011410632",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a85bf576-f8a2-483e-b1e5-974df8fcb428/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a85bf576-f8a2-483e-b1e5-974df8fcb428/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a85bf576-f8a2-483e-b1e5-974df8fcb428/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a85bf576-f8a2-483e-b1e5-974df8fcb428/28-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a85bf576-f8a2-483e-b1e5-974df8fcb428/29-280x175.jpg\"]"
   },
   {
     "id": 611,
@@ -10386,7 +11606,9 @@ window.LISTINGS = [
     "price_value": 31000000,
     "address": "Наурызбайский р-н, Жунисова",
     "url": "https://krisha.kz/a/show/1006466506",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/63/633e6285-8b33-4013-a2f7-ff0cac2fdcd6/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/633e6285-8b33-4013-a2f7-ff0cac2fdcd6/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/633e6285-8b33-4013-a2f7-ff0cac2fdcd6/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/633e6285-8b33-4013-a2f7-ff0cac2fdcd6/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/63/633e6285-8b33-4013-a2f7-ff0cac2fdcd6/17-280x175.jpg\"]"
   },
   {
     "id": 612,
@@ -10403,7 +11625,9 @@ window.LISTINGS = [
     "price_value": 47800000,
     "address": "Ауэзовский р-н, мкр Таугуль-2, Мкр Таугуль-1",
     "url": "https://krisha.kz/a/show/696199431",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b5/b509e63e-3dd5-43aa-9add-10bd3beaa9b8/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b509e63e-3dd5-43aa-9add-10bd3beaa9b8/69-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b509e63e-3dd5-43aa-9add-10bd3beaa9b8/70-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b509e63e-3dd5-43aa-9add-10bd3beaa9b8/71-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b5/b509e63e-3dd5-43aa-9add-10bd3beaa9b8/72-280x175.jpg\"]"
   },
   {
     "id": 613,
@@ -10420,7 +11644,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Медеуский р-н, мкр Думан-2",
     "url": "https://krisha.kz/a/show/689422965",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f0/f07dfa7c-84b3-4875-b21f-443f1f36aef1/41-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f07dfa7c-84b3-4875-b21f-443f1f36aef1/42-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f07dfa7c-84b3-4875-b21f-443f1f36aef1/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f07dfa7c-84b3-4875-b21f-443f1f36aef1/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f07dfa7c-84b3-4875-b21f-443f1f36aef1/45-280x175.jpg\"]"
   },
   {
     "id": 614,
@@ -10437,7 +11663,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Алатау 12а/1",
     "url": "https://krisha.kz/a/show/1013179147",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7b/7bac175c-7763-49df-b776-a3640834ffa1/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bac175c-7763-49df-b776-a3640834ffa1/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bac175c-7763-49df-b776-a3640834ffa1/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bac175c-7763-49df-b776-a3640834ffa1/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bac175c-7763-49df-b776-a3640834ffa1/18-280x175.jpg\"]"
   },
   {
     "id": 615,
@@ -10454,7 +11682,9 @@ window.LISTINGS = [
     "price_value": 33000000,
     "address": "Бостандыкский р-н, Жандосова 94/8",
     "url": "https://krisha.kz/a/show/1012926018",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/562d959d-889d-4b6f-808b-afc2264d6fb9/33-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/562d959d-889d-4b6f-808b-afc2264d6fb9/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/562d959d-889d-4b6f-808b-afc2264d6fb9/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/562d959d-889d-4b6f-808b-afc2264d6fb9/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/562d959d-889d-4b6f-808b-afc2264d6fb9/37-280x175.jpg\"]"
   },
   {
     "id": 616,
@@ -10471,7 +11701,9 @@ window.LISTINGS = [
     "price_value": 42000000,
     "address": "Алатауский р-н, мкр Акбулак — НАХОДИТСЯ ВОЗЛЕ SMALL",
     "url": "https://krisha.kz/a/show/1012284286",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b4/b4084a75-baef-4c74-97bb-b24e6292291e/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b4/b4084a75-baef-4c74-97bb-b24e6292291e/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b4/b4084a75-baef-4c74-97bb-b24e6292291e/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b4/b4084a75-baef-4c74-97bb-b24e6292291e/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b4/b4084a75-baef-4c74-97bb-b24e6292291e/19-280x175.jpg\"]"
   },
   {
     "id": 617,
@@ -10488,7 +11720,9 @@ window.LISTINGS = [
     "price_value": 24500000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жунусова 10корпус 9 — Жунусова",
     "url": "https://krisha.kz/a/show/1011538522",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/09/09f22408-384f-4fbd-a154-158d75d2db2a/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09f22408-384f-4fbd-a154-158d75d2db2a/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09f22408-384f-4fbd-a154-158d75d2db2a/53-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09f22408-384f-4fbd-a154-158d75d2db2a/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09f22408-384f-4fbd-a154-158d75d2db2a/55-280x175.jpg\"]"
   },
   {
     "id": 618,
@@ -10505,7 +11739,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Ауэзовский р-н, мкр Аксай-5, Садвакасова 3б",
     "url": "https://krisha.kz/a/show/1010637778",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e2/e2c9b857-a12c-4f79-94f7-d86cca3abeb5/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2c9b857-a12c-4f79-94f7-d86cca3abeb5/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2c9b857-a12c-4f79-94f7-d86cca3abeb5/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2c9b857-a12c-4f79-94f7-d86cca3abeb5/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e2/e2c9b857-a12c-4f79-94f7-d86cca3abeb5/39-280x175.jpg\"]"
   },
   {
     "id": 619,
@@ -10522,7 +11758,9 @@ window.LISTINGS = [
     "price_value": 49000000,
     "address": "Наурызбайский р-н, мкр Акжар, Белжайлау 47а",
     "url": "https://krisha.kz/a/show/1009003938",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f1/f1928402-c8d2-48be-afa6-6b3bfb3f3bc6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f1/f1928402-c8d2-48be-afa6-6b3bfb3f3bc6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f1/f1928402-c8d2-48be-afa6-6b3bfb3f3bc6/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f1/f1928402-c8d2-48be-afa6-6b3bfb3f3bc6/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f1/f1928402-c8d2-48be-afa6-6b3bfb3f3bc6/7-280x175.jpg\"]"
   },
   {
     "id": 620,
@@ -10539,7 +11777,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Жуалы — Вид на закат!!! Ул Толе би",
     "url": "https://krisha.kz/a/show/1007012044",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ee/eeceea2e-a03d-407d-9168-72a476b3a3c8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eeceea2e-a03d-407d-9168-72a476b3a3c8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eeceea2e-a03d-407d-9168-72a476b3a3c8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eeceea2e-a03d-407d-9168-72a476b3a3c8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eeceea2e-a03d-407d-9168-72a476b3a3c8/5-280x175.jpg\"]"
   },
   {
     "id": 621,
@@ -10556,7 +11796,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Бостандыкский р-н, Кенесары Хан 54 — Аскарова, Парк Президента",
     "url": "https://krisha.kz/a/show/1013414726",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/44/44659708-8e4f-4101-b874-c938d429573a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44659708-8e4f-4101-b874-c938d429573a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44659708-8e4f-4101-b874-c938d429573a/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44659708-8e4f-4101-b874-c938d429573a/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/44659708-8e4f-4101-b874-c938d429573a/10-280x175.jpg\"]"
   },
   {
     "id": 622,
@@ -10573,7 +11815,9 @@ window.LISTINGS = [
     "price_value": 122000000,
     "address": "Алмалинский р-н, Шевченко 88",
     "url": "https://krisha.kz/a/show/1000713949",
-    "first_seen": "2026-06-28T19:34:15"
+    "first_seen": "2026-06-28T19:34:15",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/aa/aa1b6f47-22a3-4ec4-884f-fd1c4393a9fc/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa1b6f47-22a3-4ec4-884f-fd1c4393a9fc/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa1b6f47-22a3-4ec4-884f-fd1c4393a9fc/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa1b6f47-22a3-4ec4-884f-fd1c4393a9fc/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa1b6f47-22a3-4ec4-884f-fd1c4393a9fc/12-280x175.jpg\"]"
   },
   {
     "id": 623,
@@ -10590,7 +11834,9 @@ window.LISTINGS = [
     "price_value": 273718800,
     "address": "Бостандыкский р-н, мкр Мирас, Саина 1а/1",
     "url": "https://krisha.kz/a/show/760760727",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/3194b089-aa2c-409c-95d6-c7bab55f39ce/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3194b089-aa2c-409c-95d6-c7bab55f39ce/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3194b089-aa2c-409c-95d6-c7bab55f39ce/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3194b089-aa2c-409c-95d6-c7bab55f39ce/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/3194b089-aa2c-409c-95d6-c7bab55f39ce/6-280x175.jpg\"]"
   },
   {
     "id": 624,
@@ -10607,7 +11853,9 @@ window.LISTINGS = [
     "price_value": 67596000,
     "address": "Алатауский р-н, Бауыржана Момышулы 11/14а",
     "url": "https://krisha.kz/a/show/699388993",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2c/2c069d06-6052-495b-a631-4cd5f8d01cac/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c069d06-6052-495b-a631-4cd5f8d01cac/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c069d06-6052-495b-a631-4cd5f8d01cac/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c069d06-6052-495b-a631-4cd5f8d01cac/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c069d06-6052-495b-a631-4cd5f8d01cac/6-280x175.jpg\"]"
   },
   {
     "id": 625,
@@ -10624,7 +11872,9 @@ window.LISTINGS = [
     "price_value": 60200000,
     "address": "Бостандыкский р-н, Гагарина 277/7 — 4YOU",
     "url": "https://krisha.kz/a/show/1009529135",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/aa/aa7c8849-b120-4bde-bb71-c9406d2e76c0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa7c8849-b120-4bde-bb71-c9406d2e76c0/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa7c8849-b120-4bde-bb71-c9406d2e76c0/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa7c8849-b120-4bde-bb71-c9406d2e76c0/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/aa/aa7c8849-b120-4bde-bb71-c9406d2e76c0/8-280x175.jpg\"]"
   },
   {
     "id": 626,
@@ -10641,7 +11891,9 @@ window.LISTINGS = [
     "price_value": 41832400,
     "address": "Бостандыкский р-н, ул. Радостовца 165/1",
     "url": "https://krisha.kz/a/show/1012037147",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b6/b687b61a-f11b-41d8-b069-3e53915f62cd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b687b61a-f11b-41d8-b069-3e53915f62cd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b687b61a-f11b-41d8-b069-3e53915f62cd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b687b61a-f11b-41d8-b069-3e53915f62cd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b6/b687b61a-f11b-41d8-b069-3e53915f62cd/5-280x175.jpg\"]"
   },
   {
     "id": 627,
@@ -10658,7 +11910,9 @@ window.LISTINGS = [
     "price_value": 45000000,
     "address": "Турксибский р-н, Майлина 54",
     "url": "https://krisha.kz/a/show/1011481230",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1b/1b8dc420-9caa-40e7-900c-02c57f4ca973/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b8dc420-9caa-40e7-900c-02c57f4ca973/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b8dc420-9caa-40e7-900c-02c57f4ca973/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b8dc420-9caa-40e7-900c-02c57f4ca973/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1b/1b8dc420-9caa-40e7-900c-02c57f4ca973/13-280x175.jpg\"]"
   },
   {
     "id": 628,
@@ -10675,7 +11929,9 @@ window.LISTINGS = [
     "price_value": 34000000,
     "address": "Алатауский р-н, мкр Алгабас, Омарова 1",
     "url": "https://krisha.kz/a/show/1010713770",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/40/406ed92c-d71f-4efa-aa25-ed3f5344e9e4/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/40/406ed92c-d71f-4efa-aa25-ed3f5344e9e4/66-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/40/406ed92c-d71f-4efa-aa25-ed3f5344e9e4/67-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/40/406ed92c-d71f-4efa-aa25-ed3f5344e9e4/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/40/406ed92c-d71f-4efa-aa25-ed3f5344e9e4/69-280x175.jpg\"]"
   },
   {
     "id": 629,
@@ -10692,7 +11948,9 @@ window.LISTINGS = [
     "price_value": 83000000,
     "address": "Наурызбайский р-н, мкр Шугыла, Мкр. Шугыла",
     "url": "https://krisha.kz/a/show/1010355484",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/00/00486893-0147-4900-a6e1-0602c29a797e/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00486893-0147-4900-a6e1-0602c29a797e/40-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00486893-0147-4900-a6e1-0602c29a797e/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00486893-0147-4900-a6e1-0602c29a797e/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00486893-0147-4900-a6e1-0602c29a797e/45-280x175.jpg\"]"
   },
   {
     "id": 630,
@@ -10709,7 +11967,9 @@ window.LISTINGS = [
     "price_value": 95000000,
     "address": "Бостандыкский р-н, мкр Керемет",
     "url": "https://krisha.kz/a/show/697506825",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8c/8ce7495d-9464-4dd3-bd67-b5ed7c3cc2a4/103-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ce7495d-9464-4dd3-bd67-b5ed7c3cc2a4/104-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ce7495d-9464-4dd3-bd67-b5ed7c3cc2a4/105-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ce7495d-9464-4dd3-bd67-b5ed7c3cc2a4/106-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8ce7495d-9464-4dd3-bd67-b5ed7c3cc2a4/107-280x175.jpg\"]"
   },
   {
     "id": 631,
@@ -10726,7 +11986,9 @@ window.LISTINGS = [
     "price_value": 24000000,
     "address": "Алмалинский р-н, Желтоксан — Маметова",
     "url": "https://krisha.kz/a/show/1012001469",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d2/d274d722-0328-4a31-952b-b562e5868f59/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d274d722-0328-4a31-952b-b562e5868f59/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d274d722-0328-4a31-952b-b562e5868f59/26-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d274d722-0328-4a31-952b-b562e5868f59/27-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d2/d274d722-0328-4a31-952b-b562e5868f59/28-280x175.jpg\"]"
   },
   {
     "id": 632,
@@ -10743,7 +12005,9 @@ window.LISTINGS = [
     "price_value": 33500000,
     "address": "Алатауский р-н, мкр Алгабас, Мкр.20 — ул Сайна",
     "url": "https://krisha.kz/a/show/761636727",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/2842314c-3862-40ce-83c7-323754f7ef18/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2842314c-3862-40ce-83c7-323754f7ef18/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2842314c-3862-40ce-83c7-323754f7ef18/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2842314c-3862-40ce-83c7-323754f7ef18/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2842314c-3862-40ce-83c7-323754f7ef18/26-280x175.jpg\"]"
   },
   {
     "id": 633,
@@ -10760,7 +12024,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Ауэзовский р-н, мкр Тастак-1 2 — САЙРАН ИПОТЕКА",
     "url": "https://krisha.kz/a/show/1011563336",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/39cf9812-ecf1-4f68-87ba-3d04ffa4a803/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39cf9812-ecf1-4f68-87ba-3d04ffa4a803/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39cf9812-ecf1-4f68-87ba-3d04ffa4a803/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39cf9812-ecf1-4f68-87ba-3d04ffa4a803/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39cf9812-ecf1-4f68-87ba-3d04ffa4a803/5-280x175.jpg\"]"
   },
   {
     "id": 634,
@@ -10777,7 +12043,9 @@ window.LISTINGS = [
     "price_value": 29900000,
     "address": "Алатауский р-н, Рыскулова — Под Евродвухкомнатную сделана",
     "url": "https://krisha.kz/a/show/1010802199",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/35/3591c077-8354-47b9-bb12-32b2941f62f6/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/3591c077-8354-47b9-bb12-32b2941f62f6/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/3591c077-8354-47b9-bb12-32b2941f62f6/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/3591c077-8354-47b9-bb12-32b2941f62f6/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/35/3591c077-8354-47b9-bb12-32b2941f62f6/18-280x175.jpg\"]"
   },
   {
     "id": 635,
@@ -10794,7 +12062,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Бостандыкский р-н, мкр Коктем-2 — Тимирязева",
     "url": "https://krisha.kz/a/show/1010167894",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a5/a5b202de-5d8d-4eb1-a17f-1e507fd50f5f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5b202de-5d8d-4eb1-a17f-1e507fd50f5f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5b202de-5d8d-4eb1-a17f-1e507fd50f5f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5b202de-5d8d-4eb1-a17f-1e507fd50f5f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a5/a5b202de-5d8d-4eb1-a17f-1e507fd50f5f/5-280x175.jpg\"]"
   },
   {
     "id": 636,
@@ -10811,7 +12081,9 @@ window.LISTINGS = [
     "price_value": 40000000,
     "address": "Ауэзовский р-н, мкр №10 13 — ул. Шаляпина - Берегового",
     "url": "https://krisha.kz/a/show/1008235889",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/98/98770655-52b5-4fe2-b514-c071737b1b12/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98770655-52b5-4fe2-b514-c071737b1b12/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98770655-52b5-4fe2-b514-c071737b1b12/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98770655-52b5-4fe2-b514-c071737b1b12/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/98/98770655-52b5-4fe2-b514-c071737b1b12/16-280x175.jpg\"]"
   },
   {
     "id": 637,
@@ -10828,7 +12100,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Алатауский р-н, мкр Теректы, Устрит5/3 29",
     "url": "https://krisha.kz/a/show/1005049113",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ab/abd6d0f5-a41b-472e-bf94-2e5650ea2509/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ab/abd6d0f5-a41b-472e-bf94-2e5650ea2509/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ab/abd6d0f5-a41b-472e-bf94-2e5650ea2509/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ab/abd6d0f5-a41b-472e-bf94-2e5650ea2509/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ab/abd6d0f5-a41b-472e-bf94-2e5650ea2509/15-280x175.jpg\"]"
   },
   {
     "id": 638,
@@ -10845,7 +12119,9 @@ window.LISTINGS = [
     "price_value": 70587000,
     "address": "Медеуский р-н, ​Приканальная БАК 99а",
     "url": "https://krisha.kz/a/show/1009995074",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/99/998327da-51dc-4cc2-96e4-c0bed2d6f267/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/998327da-51dc-4cc2-96e4-c0bed2d6f267/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/998327da-51dc-4cc2-96e4-c0bed2d6f267/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/998327da-51dc-4cc2-96e4-c0bed2d6f267/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/99/998327da-51dc-4cc2-96e4-c0bed2d6f267/5-280x175.jpg\"]"
   },
   {
     "id": 639,
@@ -10862,7 +12138,9 @@ window.LISTINGS = [
     "price_value": 74951588,
     "address": "Медеуский р-н, ​Приканальная БАК 99а",
     "url": "https://krisha.kz/a/show/1009995027",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d5/d50061c7-3a81-4432-a155-19ead6fe352f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d5/d50061c7-3a81-4432-a155-19ead6fe352f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d5/d50061c7-3a81-4432-a155-19ead6fe352f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d5/d50061c7-3a81-4432-a155-19ead6fe352f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d5/d50061c7-3a81-4432-a155-19ead6fe352f/6-280x175.jpg\"]"
   },
   {
     "id": 640,
@@ -10879,7 +12157,9 @@ window.LISTINGS = [
     "price_value": 68000000,
     "address": "Ауэзовский р-н, Навои 74",
     "url": "https://krisha.kz/a/show/1006856239",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9b/9bdef16f-dae2-462f-8a69-0e3af9ba647d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9bdef16f-dae2-462f-8a69-0e3af9ba647d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9bdef16f-dae2-462f-8a69-0e3af9ba647d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9bdef16f-dae2-462f-8a69-0e3af9ba647d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9b/9bdef16f-dae2-462f-8a69-0e3af9ba647d/5-280x175.jpg\"]"
   },
   {
     "id": 641,
@@ -10896,7 +12176,9 @@ window.LISTINGS = [
     "price_value": 62000000,
     "address": "Бостандыкский р-н, Абая 160 — Абая, Сатпаева, Туркебаева, Тургутозала.",
     "url": "https://krisha.kz/a/show/1011050547",
-    "first_seen": "2026-06-28T19:34:21"
+    "first_seen": "2026-06-28T19:34:21",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e8/e85cc8ae-08df-475c-98d9-aae38e624d77/120-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e85cc8ae-08df-475c-98d9-aae38e624d77/121-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e85cc8ae-08df-475c-98d9-aae38e624d77/122-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e85cc8ae-08df-475c-98d9-aae38e624d77/123-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e85cc8ae-08df-475c-98d9-aae38e624d77/124-280x175.jpg\"]"
   },
   {
     "id": 642,
@@ -10913,7 +12195,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Бостандыкский р-н, Каныша Сатпаева 90а/1 — ПАКАЗ В ЛЮБОЕ ВРЕМЯ",
     "url": "https://krisha.kz/a/show/1006538152",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/59/59373902-a76a-4afc-ba5a-ec0c6a60f108/49-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59373902-a76a-4afc-ba5a-ec0c6a60f108/50-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59373902-a76a-4afc-ba5a-ec0c6a60f108/51-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59373902-a76a-4afc-ba5a-ec0c6a60f108/52-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/59/59373902-a76a-4afc-ba5a-ec0c6a60f108/53-280x175.jpg\"]"
   },
   {
     "id": 643,
@@ -10930,7 +12214,9 @@ window.LISTINGS = [
     "price_value": 15990000,
     "address": "Жана Куат 41",
     "url": "https://krisha.kz/a/show/760528659",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cf/cfc7a9b6-0c57-45e7-9b61-9794034947d7/34-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cfc7a9b6-0c57-45e7-9b61-9794034947d7/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cfc7a9b6-0c57-45e7-9b61-9794034947d7/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cfc7a9b6-0c57-45e7-9b61-9794034947d7/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cf/cfc7a9b6-0c57-45e7-9b61-9794034947d7/38-280x175.jpg\"]"
   },
   {
     "id": 644,
@@ -10947,7 +12233,9 @@ window.LISTINGS = [
     "price_value": 53000000,
     "address": "Жетысуский р-н, мкр Кулагер — Серикова",
     "url": "https://krisha.kz/a/show/691810784",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bb/bb96ffd5-6d22-4efe-bbe9-7d9b4c68cd63/43-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bb96ffd5-6d22-4efe-bbe9-7d9b4c68cd63/44-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bb96ffd5-6d22-4efe-bbe9-7d9b4c68cd63/47-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bb96ffd5-6d22-4efe-bbe9-7d9b4c68cd63/48-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bb/bb96ffd5-6d22-4efe-bbe9-7d9b4c68cd63/49-280x175.jpg\"]"
   },
   {
     "id": 645,
@@ -10964,7 +12252,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Бостандыкский р-н, Ермек Серкебаев 91 — Ермек Серкебаев-Березовского",
     "url": "https://krisha.kz/a/show/1008876378",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dc7c436e-c344-479c-baeb-57bfda38c093/54-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7c436e-c344-479c-baeb-57bfda38c093/55-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7c436e-c344-479c-baeb-57bfda38c093/57-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7c436e-c344-479c-baeb-57bfda38c093/59-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7c436e-c344-479c-baeb-57bfda38c093/60-280x175.jpg\"]"
   },
   {
     "id": 646,
@@ -10981,7 +12271,9 @@ window.LISTINGS = [
     "price_value": 69000000,
     "address": "Бостандыкский р-н, Егизбаева 9/1",
     "url": "https://krisha.kz/a/show/1012849254",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/600eb0ce-9c23-4286-be5d-392974ef3b53/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/600eb0ce-9c23-4286-be5d-392974ef3b53/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/600eb0ce-9c23-4286-be5d-392974ef3b53/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/600eb0ce-9c23-4286-be5d-392974ef3b53/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/600eb0ce-9c23-4286-be5d-392974ef3b53/5-280x175.jpg\"]"
   },
   {
     "id": 647,
@@ -10998,7 +12290,9 @@ window.LISTINGS = [
     "price_value": 31000000,
     "address": "Бостандыкский р-н, мкр Алмагуль, Си-Синхая — ул. Жарокова",
     "url": "https://krisha.kz/a/show/1012510318",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/25/25301fa7-cd7d-4c53-9fec-a183116f5b3c/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25301fa7-cd7d-4c53-9fec-a183116f5b3c/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25301fa7-cd7d-4c53-9fec-a183116f5b3c/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25301fa7-cd7d-4c53-9fec-a183116f5b3c/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/25/25301fa7-cd7d-4c53-9fec-a183116f5b3c/16-280x175.jpg\"]"
   },
   {
     "id": 648,
@@ -11015,7 +12309,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Турксибский р-н, мкр Кайрат, Сыбызгы 100 — Рядом жетису базары",
     "url": "https://krisha.kz/a/show/1010765381",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fb6b0e3d-96ea-4792-b909-2f7b6f5b2bd6/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb6b0e3d-96ea-4792-b909-2f7b6f5b2bd6/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb6b0e3d-96ea-4792-b909-2f7b6f5b2bd6/14-280x175.jpg\"]"
   },
   {
     "id": 649,
@@ -11032,7 +12328,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алмалинский р-н, Толе би — Розыбакиева",
     "url": "https://krisha.kz/a/show/1010558740",
-    "first_seen": "2026-06-28T19:34:27"
+    "first_seen": "2026-06-28T19:34:27",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f5/f573976f-4bba-447f-b10f-173f24cc0b36/35-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f573976f-4bba-447f-b10f-173f24cc0b36/36-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f573976f-4bba-447f-b10f-173f24cc0b36/37-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f573976f-4bba-447f-b10f-173f24cc0b36/38-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f5/f573976f-4bba-447f-b10f-173f24cc0b36/39-280x175.jpg\"]"
   },
   {
     "id": 650,
@@ -11049,7 +12347,9 @@ window.LISTINGS = [
     "price_value": 265000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау — 8 улица",
     "url": "https://krisha.kz/a/show/1012937742",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fe/fe203648-26df-428d-8be0-1d1c6b6b2d9b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe203648-26df-428d-8be0-1d1c6b6b2d9b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe203648-26df-428d-8be0-1d1c6b6b2d9b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe203648-26df-428d-8be0-1d1c6b6b2d9b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fe/fe203648-26df-428d-8be0-1d1c6b6b2d9b/5-280x175.jpg\"]"
   },
   {
     "id": 651,
@@ -11066,7 +12366,9 @@ window.LISTINGS = [
     "price_value": 249999950,
     "address": "Бостандыкский р-н, мкр Мирас 24",
     "url": "https://krisha.kz/a/show/1013334820",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b8/b8448515-b397-40fb-bf06-158dff1b7c70/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b8448515-b397-40fb-bf06-158dff1b7c70/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b8448515-b397-40fb-bf06-158dff1b7c70/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b8448515-b397-40fb-bf06-158dff1b7c70/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b8/b8448515-b397-40fb-bf06-158dff1b7c70/5-280x175.jpg\"]"
   },
   {
     "id": 652,
@@ -11083,7 +12385,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Наурызбайский р-н, мкр Каргалы 135 — Аскарова Саина",
     "url": "https://krisha.kz/a/show/1002360158",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fb/fb80d07c-ab9b-4ae1-b3d5-50e39f213c3a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb80d07c-ab9b-4ae1-b3d5-50e39f213c3a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb80d07c-ab9b-4ae1-b3d5-50e39f213c3a/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb80d07c-ab9b-4ae1-b3d5-50e39f213c3a/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fb/fb80d07c-ab9b-4ae1-b3d5-50e39f213c3a/18-280x175.jpg\"]"
   },
   {
     "id": 653,
@@ -11100,7 +12404,9 @@ window.LISTINGS = [
     "price_value": 46500000,
     "address": "Ұлан 507 — Достык 59",
     "url": "https://krisha.kz/a/show/1013502877",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/da/da92b5b5-cb15-4bd4-9a60-7b7ebcd298a4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da92b5b5-cb15-4bd4-9a60-7b7ebcd298a4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da92b5b5-cb15-4bd4-9a60-7b7ebcd298a4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da92b5b5-cb15-4bd4-9a60-7b7ebcd298a4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/da/da92b5b5-cb15-4bd4-9a60-7b7ebcd298a4/5-280x175.jpg\"]"
   },
   {
     "id": 654,
@@ -11117,7 +12423,9 @@ window.LISTINGS = [
     "price_value": 59000000,
     "address": "Алатауский р-н, мкр Карасу — Черёмушки 1, дом  11",
     "url": "https://krisha.kz/a/show/761228827",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8e/8ea4cc30-64a6-4b18-bf86-e75676a3b334/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8ea4cc30-64a6-4b18-bf86-e75676a3b334/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8ea4cc30-64a6-4b18-bf86-e75676a3b334/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8ea4cc30-64a6-4b18-bf86-e75676a3b334/13-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8ea4cc30-64a6-4b18-bf86-e75676a3b334/14-280x175.jpg\"]"
   },
   {
     "id": 655,
@@ -11134,7 +12442,9 @@ window.LISTINGS = [
     "price_value": 1150000000,
     "address": "Медеуский р-н, мкр Юбилейный",
     "url": "https://krisha.kz/a/show/662173640",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c3/c30322f3-ca66-4359-872c-f736d2cdce40/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c30322f3-ca66-4359-872c-f736d2cdce40/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c30322f3-ca66-4359-872c-f736d2cdce40/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c30322f3-ca66-4359-872c-f736d2cdce40/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c30322f3-ca66-4359-872c-f736d2cdce40/22-280x175.jpg\"]"
   },
   {
     "id": 656,
@@ -11151,7 +12461,9 @@ window.LISTINGS = [
     "price_value": 820000000,
     "address": "Бостандыкский р-н, мкр Мирас — Садыкова",
     "url": "https://krisha.kz/a/show/1012619208",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d6/d6fa86b0-f633-4c18-8348-7cf611cfd3d4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6fa86b0-f633-4c18-8348-7cf611cfd3d4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6fa86b0-f633-4c18-8348-7cf611cfd3d4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6fa86b0-f633-4c18-8348-7cf611cfd3d4/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d6/d6fa86b0-f633-4c18-8348-7cf611cfd3d4/6-280x175.jpg\"]"
   },
   {
     "id": 657,
@@ -11168,7 +12480,9 @@ window.LISTINGS = [
     "price_value": 175000000,
     "address": "Медеуский р-н, Азербаева 89",
     "url": "https://krisha.kz/a/show/1009854531",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/02/0245aace-9554-42d6-8249-0d9750ab580c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/0245aace-9554-42d6-8249-0d9750ab580c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/0245aace-9554-42d6-8249-0d9750ab580c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/0245aace-9554-42d6-8249-0d9750ab580c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/02/0245aace-9554-42d6-8249-0d9750ab580c/5-280x175.jpg\"]"
   },
   {
     "id": 658,
@@ -11185,7 +12499,9 @@ window.LISTINGS = [
     "price_value": 800000555,
     "address": "Наурызбайский р-н, Байгазы 20А",
     "url": "https://krisha.kz/a/show/1006093234",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a7/a77f8ac3-4111-415c-9147-9dc7319f9914/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a77f8ac3-4111-415c-9147-9dc7319f9914/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a77f8ac3-4111-415c-9147-9dc7319f9914/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a77f8ac3-4111-415c-9147-9dc7319f9914/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a7/a77f8ac3-4111-415c-9147-9dc7319f9914/6-280x175.jpg\"]"
   },
   {
     "id": 659,
@@ -11202,7 +12518,9 @@ window.LISTINGS = [
     "price_value": 110000000,
     "address": "Алатауский р-н, мкр Айгерим-1, ул Бенберина 137",
     "url": "https://krisha.kz/a/show/1002549360",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d3/d3c5935c-c44a-4507-998c-a9abcf0daf4e/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c5935c-c44a-4507-998c-a9abcf0daf4e/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c5935c-c44a-4507-998c-a9abcf0daf4e/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c5935c-c44a-4507-998c-a9abcf0daf4e/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d3/d3c5935c-c44a-4507-998c-a9abcf0daf4e/21-280x175.jpg\"]"
   },
   {
     "id": 660,
@@ -11219,7 +12537,9 @@ window.LISTINGS = [
     "price_value": 59000000,
     "address": "Турксибский р-н, Халтурина 7 — Угол Физули",
     "url": "https://krisha.kz/a/show/1012130287",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/49/490247d0-5c4f-4743-bf12-4fb26dc752cc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/490247d0-5c4f-4743-bf12-4fb26dc752cc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/490247d0-5c4f-4743-bf12-4fb26dc752cc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/490247d0-5c4f-4743-bf12-4fb26dc752cc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/490247d0-5c4f-4743-bf12-4fb26dc752cc/5-280x175.jpg\"]"
   },
   {
     "id": 661,
@@ -11236,7 +12556,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алатауский р-н, мкр Алгабас Кара Жорга18/3 — Возле футбольного поля",
     "url": "https://krisha.kz/a/show/1012920054",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/84/84f6a052-21d0-48d2-a379-4e9c098010bd/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/84/84f6a052-21d0-48d2-a379-4e9c098010bd/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/84/84f6a052-21d0-48d2-a379-4e9c098010bd/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/84/84f6a052-21d0-48d2-a379-4e9c098010bd/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/84/84f6a052-21d0-48d2-a379-4e9c098010bd/5-280x175.jpg\"]"
   },
   {
     "id": 662,
@@ -11253,7 +12575,9 @@ window.LISTINGS = [
     "price_value": 460000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик) 201",
     "url": "https://krisha.kz/a/show/1004202351",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4f/4feaefaa-cd80-4d47-b480-74fe1c056524/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4feaefaa-cd80-4d47-b480-74fe1c056524/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4feaefaa-cd80-4d47-b480-74fe1c056524/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4feaefaa-cd80-4d47-b480-74fe1c056524/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4f/4feaefaa-cd80-4d47-b480-74fe1c056524/5-280x175.jpg\"]"
   },
   {
     "id": 663,
@@ -11270,7 +12594,9 @@ window.LISTINGS = [
     "price_value": 43500000,
     "address": "Первомайские пруды 94 — 6 линия",
     "url": "https://krisha.kz/a/show/696347542",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ee/eed013f1-3734-4c19-97b6-3369db09483b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eed013f1-3734-4c19-97b6-3369db09483b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eed013f1-3734-4c19-97b6-3369db09483b/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eed013f1-3734-4c19-97b6-3369db09483b/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eed013f1-3734-4c19-97b6-3369db09483b/10-280x175.jpg\"]"
   },
   {
     "id": 664,
@@ -11287,7 +12613,9 @@ window.LISTINGS = [
     "price_value": 269000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау — Школы Тamos",
     "url": "https://krisha.kz/a/show/1013478922",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c3/c3119e57-0e2b-4ebb-ac5d-613d518a6a82/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3119e57-0e2b-4ebb-ac5d-613d518a6a82/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3119e57-0e2b-4ebb-ac5d-613d518a6a82/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3119e57-0e2b-4ebb-ac5d-613d518a6a82/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3119e57-0e2b-4ebb-ac5d-613d518a6a82/5-280x175.jpg\"]"
   },
   {
     "id": 665,
@@ -11304,7 +12632,9 @@ window.LISTINGS = [
     "price_value": 58000000,
     "address": "Алатауский р-н, мкр Мадениет, Шубартау",
     "url": "https://krisha.kz/a/show/694350838",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/06/06bde7af-0109-4f97-82de-06a208641902/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06bde7af-0109-4f97-82de-06a208641902/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06bde7af-0109-4f97-82de-06a208641902/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06bde7af-0109-4f97-82de-06a208641902/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/06bde7af-0109-4f97-82de-06a208641902/5-280x175.jpg\"]"
   },
   {
     "id": 666,
@@ -11321,7 +12651,9 @@ window.LISTINGS = [
     "price_value": 99000000,
     "address": "Медеуский р-н, Украинская",
     "url": "https://krisha.kz/a/show/1010175131",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4b/4b8a5f96-7310-4f3d-b1df-cf1aa2cc8354/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4b8a5f96-7310-4f3d-b1df-cf1aa2cc8354/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4b8a5f96-7310-4f3d-b1df-cf1aa2cc8354/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4b8a5f96-7310-4f3d-b1df-cf1aa2cc8354/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4b/4b8a5f96-7310-4f3d-b1df-cf1aa2cc8354/5-280x175.jpg\"]"
   },
   {
     "id": 667,
@@ -11338,7 +12670,9 @@ window.LISTINGS = [
     "price_value": 117500000,
     "address": "Наурызбайский р-н, мкр Таужолы, Коксай 23",
     "url": "https://krisha.kz/a/show/1004193447",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/53/53690813-5428-4b2c-bdcf-1bdaee3df791/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53690813-5428-4b2c-bdcf-1bdaee3df791/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53690813-5428-4b2c-bdcf-1bdaee3df791/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53690813-5428-4b2c-bdcf-1bdaee3df791/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/53690813-5428-4b2c-bdcf-1bdaee3df791/5-280x175.jpg\"]"
   },
   {
     "id": 668,
@@ -11355,7 +12689,9 @@ window.LISTINGS = [
     "price_value": 65000000,
     "address": "Алатауский р-н, мкр Айгерим-2 138",
     "url": "https://krisha.kz/a/show/1010808778",
-    "first_seen": "2026-06-28T19:34:33"
+    "first_seen": "2026-06-28T19:34:33",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/95/9583fb20-0e29-438e-8f0e-b97bfcc8fe59/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/9583fb20-0e29-438e-8f0e-b97bfcc8fe59/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/9583fb20-0e29-438e-8f0e-b97bfcc8fe59/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/9583fb20-0e29-438e-8f0e-b97bfcc8fe59/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/95/9583fb20-0e29-438e-8f0e-b97bfcc8fe59/21-280x175.jpg\"]"
   },
   {
     "id": 669,
@@ -11372,7 +12708,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Алатауский р-н, мкр Заря Востока, Амангельды 45 — Пересечение Гвардейская и Амангельди",
     "url": "https://krisha.kz/a/show/1013329356",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/79/79f19104-9ada-4496-b35c-8f0a70ee2859/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/79f19104-9ada-4496-b35c-8f0a70ee2859/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/79f19104-9ada-4496-b35c-8f0a70ee2859/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/79f19104-9ada-4496-b35c-8f0a70ee2859/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/79/79f19104-9ada-4496-b35c-8f0a70ee2859/12-280x175.jpg\"]"
   },
   {
     "id": 670,
@@ -11389,7 +12727,9 @@ window.LISTINGS = [
     "price_value": 115000000,
     "address": "Алатауский р-н, мкр Теректы, Нарсай 50",
     "url": "https://krisha.kz/a/show/1012856147",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/281d01ef-9c2f-433c-89a4-518045fe0006/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/281d01ef-9c2f-433c-89a4-518045fe0006/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/281d01ef-9c2f-433c-89a4-518045fe0006/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/281d01ef-9c2f-433c-89a4-518045fe0006/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/281d01ef-9c2f-433c-89a4-518045fe0006/5-280x175.jpg\"]"
   },
   {
     "id": 671,
@@ -11406,7 +12746,9 @@ window.LISTINGS = [
     "price_value": 169000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Кабылбаева 129а — Ашимова уг. ул. Абая",
     "url": "https://krisha.kz/a/show/1008616188",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c8/c85e1286-89fb-43d7-9712-4c3feb198853/65-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c85e1286-89fb-43d7-9712-4c3feb198853/66-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c85e1286-89fb-43d7-9712-4c3feb198853/67-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c85e1286-89fb-43d7-9712-4c3feb198853/68-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c8/c85e1286-89fb-43d7-9712-4c3feb198853/69-280x175.jpg\"]"
   },
   {
     "id": 672,
@@ -11423,7 +12765,9 @@ window.LISTINGS = [
     "price_value": 130000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау — Утегенова",
     "url": "https://krisha.kz/a/show/1010584828",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7f/7f974d1f-c1b1-4ab7-8aa0-e913b2edceed/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f974d1f-c1b1-4ab7-8aa0-e913b2edceed/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f974d1f-c1b1-4ab7-8aa0-e913b2edceed/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f974d1f-c1b1-4ab7-8aa0-e913b2edceed/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7f/7f974d1f-c1b1-4ab7-8aa0-e913b2edceed/8-280x175.jpg\"]"
   },
   {
     "id": 673,
@@ -11440,7 +12784,9 @@ window.LISTINGS = [
     "price_value": 1100000000,
     "address": "Бостандыкский р-н, мкр Архат",
     "url": "https://krisha.kz/a/show/1005277972",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8d/8d2a5bb6-6cac-438f-ae39-7647e343f5ca/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d2a5bb6-6cac-438f-ae39-7647e343f5ca/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d2a5bb6-6cac-438f-ae39-7647e343f5ca/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d2a5bb6-6cac-438f-ae39-7647e343f5ca/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8d/8d2a5bb6-6cac-438f-ae39-7647e343f5ca/5-280x175.jpg\"]"
   },
   {
     "id": 674,
@@ -11457,7 +12803,9 @@ window.LISTINGS = [
     "price_value": 3900000000,
     "address": "Бостандыкский р-н, мкр Баганашыл — Восточная",
     "url": "https://krisha.kz/a/show/1007757974",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2d/2dfb952b-4f91-4e20-9b86-e5132c799247/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dfb952b-4f91-4e20-9b86-e5132c799247/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dfb952b-4f91-4e20-9b86-e5132c799247/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dfb952b-4f91-4e20-9b86-e5132c799247/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2dfb952b-4f91-4e20-9b86-e5132c799247/7-280x175.jpg\"]"
   },
   {
     "id": 675,
@@ -11474,7 +12822,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Наурызбайский р-н, Клубничная 14 — Возле Алтын орды",
     "url": "https://krisha.kz/a/show/1010552406",
-    "first_seen": "2026-06-28T19:34:39"
+    "first_seen": "2026-06-28T19:34:39",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/01/0158701d-41c3-4829-b445-fda90ea229d1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0158701d-41c3-4829-b445-fda90ea229d1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0158701d-41c3-4829-b445-fda90ea229d1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0158701d-41c3-4829-b445-fda90ea229d1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/01/0158701d-41c3-4829-b445-fda90ea229d1/5-280x175.jpg\"]"
   },
   {
     "id": 676,
@@ -11491,7 +12841,9 @@ window.LISTINGS = [
     "price_value": 61000000,
     "address": "Наурызбайский р-н, мкр Акжар, Килыбай Медеубеков 34",
     "url": "https://krisha.kz/a/show/1013271660",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a8/a8f6fe94-95e5-4b45-90c7-42c353359a87/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a8f6fe94-95e5-4b45-90c7-42c353359a87/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a8f6fe94-95e5-4b45-90c7-42c353359a87/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a8f6fe94-95e5-4b45-90c7-42c353359a87/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a8/a8f6fe94-95e5-4b45-90c7-42c353359a87/5-280x175.jpg\"]"
   },
   {
     "id": 677,
@@ -11508,7 +12860,9 @@ window.LISTINGS = [
     "price_value": 71500000,
     "address": "Медеуский р-н, Крайняя 17",
     "url": "https://krisha.kz/a/show/1012522169",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/5c/5cf44a44-a49f-4061-ad0d-8357be0a263d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cf44a44-a49f-4061-ad0d-8357be0a263d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cf44a44-a49f-4061-ad0d-8357be0a263d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cf44a44-a49f-4061-ad0d-8357be0a263d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/5c/5cf44a44-a49f-4061-ad0d-8357be0a263d/5-280x175.jpg\"]"
   },
   {
     "id": 678,
@@ -11525,7 +12879,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Алатауский р-н, мкр Мадениет, Тасболат 42",
     "url": "https://krisha.kz/a/show/1008997526",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f0/f008db70-6cc7-4941-82db-8a6c775ee748/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f008db70-6cc7-4941-82db-8a6c775ee748/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f008db70-6cc7-4941-82db-8a6c775ee748/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f008db70-6cc7-4941-82db-8a6c775ee748/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f0/f008db70-6cc7-4941-82db-8a6c775ee748/10-280x175.jpg\"]"
   },
   {
     "id": 679,
@@ -11542,7 +12898,9 @@ window.LISTINGS = [
     "price_value": 250000000,
     "address": "Бостандыкский р-н, Байшешек 34",
     "url": "https://krisha.kz/a/show/1008803988",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/93/9369ec70-9e94-4ab0-8831-b5ab34e19446/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/93/9369ec70-9e94-4ab0-8831-b5ab34e19446/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/93/9369ec70-9e94-4ab0-8831-b5ab34e19446/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/93/9369ec70-9e94-4ab0-8831-b5ab34e19446/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/93/9369ec70-9e94-4ab0-8831-b5ab34e19446/5-280x175.jpg\"]"
   },
   {
     "id": 680,
@@ -11559,7 +12917,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Алатауский р-н, мкр Томирис, Шынкожа",
     "url": "https://krisha.kz/a/show/1012936527",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/43/43038511-be29-4ea1-80a8-96b3e53e7845/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43038511-be29-4ea1-80a8-96b3e53e7845/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43038511-be29-4ea1-80a8-96b3e53e7845/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43038511-be29-4ea1-80a8-96b3e53e7845/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/43/43038511-be29-4ea1-80a8-96b3e53e7845/7-280x175.jpg\"]"
   },
   {
     "id": 681,
@@ -11576,7 +12936,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Турксибский р-н, Волочаевская 409",
     "url": "https://krisha.kz/a/show/1008287065",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e5/e5317e6f-1a3c-4c85-8e4f-b8bf9db3f2f9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5317e6f-1a3c-4c85-8e4f-b8bf9db3f2f9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5317e6f-1a3c-4c85-8e4f-b8bf9db3f2f9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5317e6f-1a3c-4c85-8e4f-b8bf9db3f2f9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5317e6f-1a3c-4c85-8e4f-b8bf9db3f2f9/5-280x175.jpg\"]"
   },
   {
     "id": 682,
@@ -11593,7 +12955,9 @@ window.LISTINGS = [
     "price_value": 255000000,
     "address": "Медеуский р-н, ул. Мустафы Шокая 1/1",
     "url": "https://krisha.kz/a/show/1011992936",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dc7ae58a-2cd5-42b1-a19c-c8f0c55f05fc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7ae58a-2cd5-42b1-a19c-c8f0c55f05fc/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7ae58a-2cd5-42b1-a19c-c8f0c55f05fc/14-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7ae58a-2cd5-42b1-a19c-c8f0c55f05fc/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc7ae58a-2cd5-42b1-a19c-c8f0c55f05fc/16-280x175.jpg\"]"
   },
   {
     "id": 683,
@@ -11610,7 +12974,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Турксибский р-н, Арктическая ул. 129/13 — Акан Сери Жумабаева",
     "url": "https://krisha.kz/a/show/1011753448",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/81/812d4d38-519e-492c-be74-b97560162143/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/81/812d4d38-519e-492c-be74-b97560162143/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/81/812d4d38-519e-492c-be74-b97560162143/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/81/812d4d38-519e-492c-be74-b97560162143/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/81/812d4d38-519e-492c-be74-b97560162143/5-280x175.jpg\"]"
   },
   {
     "id": 684,
@@ -11627,7 +12993,9 @@ window.LISTINGS = [
     "price_value": 110000000,
     "address": "Наурызбайский р-н, мкр Таусамалы 121 — Рахымбай ханалы 121",
     "url": "https://krisha.kz/a/show/1009232890",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a1/a145dc8f-6bfb-41dd-9a5d-cab20318f7f6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a145dc8f-6bfb-41dd-9a5d-cab20318f7f6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a145dc8f-6bfb-41dd-9a5d-cab20318f7f6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a145dc8f-6bfb-41dd-9a5d-cab20318f7f6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a1/a145dc8f-6bfb-41dd-9a5d-cab20318f7f6/5-280x175.jpg\"]"
   },
   {
     "id": 685,
@@ -11644,7 +13012,9 @@ window.LISTINGS = [
     "price_value": 19500000,
     "address": "Наурызбайский р-н, мкр Тастыбулак, Шетен 109",
     "url": "https://krisha.kz/a/show/1013305450",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c3/c3cc6f84-ff1f-4d6a-97b0-3c95f503b2fa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3cc6f84-ff1f-4d6a-97b0-3c95f503b2fa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3cc6f84-ff1f-4d6a-97b0-3c95f503b2fa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3cc6f84-ff1f-4d6a-97b0-3c95f503b2fa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c3cc6f84-ff1f-4d6a-97b0-3c95f503b2fa/5-280x175.jpg\"]"
   },
   {
     "id": 686,
@@ -11661,7 +13031,9 @@ window.LISTINGS = [
     "price_value": 149900000,
     "address": "Алатауский р-н, мкр Акбулак 9/1 — Шарипханова",
     "url": "https://krisha.kz/a/show/1005864101",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a3/a390a8e7-0ad4-4dc8-af3c-f55a23b74cb8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a390a8e7-0ad4-4dc8-af3c-f55a23b74cb8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a390a8e7-0ad4-4dc8-af3c-f55a23b74cb8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a390a8e7-0ad4-4dc8-af3c-f55a23b74cb8/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a390a8e7-0ad4-4dc8-af3c-f55a23b74cb8/6-280x175.jpg\"]"
   },
   {
     "id": 687,
@@ -11678,7 +13050,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Наурызбайский р-н, Бақыт 53 — Яссауи",
     "url": "https://krisha.kz/a/show/25276074",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/10/10ad91f8-c7ec-4363-99ca-6520766c5b33/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10ad91f8-c7ec-4363-99ca-6520766c5b33/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10ad91f8-c7ec-4363-99ca-6520766c5b33/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10ad91f8-c7ec-4363-99ca-6520766c5b33/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/10/10ad91f8-c7ec-4363-99ca-6520766c5b33/26-280x175.jpg\"]"
   },
   {
     "id": 688,
@@ -11695,7 +13069,9 @@ window.LISTINGS = [
     "price_value": 370000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик)",
     "url": "https://krisha.kz/a/show/1009915577",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a3/a3b092f0-7c3c-4f2f-ae8a-bf1941758b87/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3b092f0-7c3c-4f2f-ae8a-bf1941758b87/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3b092f0-7c3c-4f2f-ae8a-bf1941758b87/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3b092f0-7c3c-4f2f-ae8a-bf1941758b87/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a3/a3b092f0-7c3c-4f2f-ae8a-bf1941758b87/6-280x175.jpg\"]"
   },
   {
     "id": 689,
@@ -11712,7 +13088,9 @@ window.LISTINGS = [
     "price_value": 69000000,
     "address": "Жетысуский р-н, мкр Айнабулак-3 — Хожамьярова 81Д",
     "url": "https://krisha.kz/a/show/1011716568",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d7/d7d32bdf-1348-4fe0-a8c2-630d33d76ad0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d32bdf-1348-4fe0-a8c2-630d33d76ad0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d32bdf-1348-4fe0-a8c2-630d33d76ad0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d32bdf-1348-4fe0-a8c2-630d33d76ad0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7d32bdf-1348-4fe0-a8c2-630d33d76ad0/5-280x175.jpg\"]"
   },
   {
     "id": 690,
@@ -11729,7 +13107,9 @@ window.LISTINGS = [
     "price_value": 98000000,
     "address": "Наурызбайский р-н, мкр Акжар — Акжар тай",
     "url": "https://krisha.kz/a/show/1013166844",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e181b0a9-ed74-47ad-8260-14576833dc3f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e181b0a9-ed74-47ad-8260-14576833dc3f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e181b0a9-ed74-47ad-8260-14576833dc3f/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e181b0a9-ed74-47ad-8260-14576833dc3f/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e181b0a9-ed74-47ad-8260-14576833dc3f/7-280x175.jpg\"]"
   },
   {
     "id": 691,
@@ -11746,7 +13126,9 @@ window.LISTINGS = [
     "price_value": 118000000,
     "address": "Алатауский р-н, мкр Алгабас",
     "url": "https://krisha.kz/a/show/1013498368",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/70/707c1d6f-9f39-4b33-9009-f09aa56eb8b4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/707c1d6f-9f39-4b33-9009-f09aa56eb8b4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/707c1d6f-9f39-4b33-9009-f09aa56eb8b4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/707c1d6f-9f39-4b33-9009-f09aa56eb8b4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/70/707c1d6f-9f39-4b33-9009-f09aa56eb8b4/5-280x175.jpg\"]"
   },
   {
     "id": 692,
@@ -11763,7 +13145,9 @@ window.LISTINGS = [
     "price_value": 250000000,
     "address": "Бостандыкский р-н, мкр Ерменсай 114Е",
     "url": "https://krisha.kz/a/show/1013476267",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1c/1cc6c3a7-285a-460c-ae07-3aafe5780846/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1cc6c3a7-285a-460c-ae07-3aafe5780846/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1cc6c3a7-285a-460c-ae07-3aafe5780846/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1cc6c3a7-285a-460c-ae07-3aafe5780846/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1c/1cc6c3a7-285a-460c-ae07-3aafe5780846/5-280x175.jpg\"]"
   },
   {
     "id": 693,
@@ -11780,7 +13164,9 @@ window.LISTINGS = [
     "price_value": 58000000,
     "address": "Алатауский р-н, мкр Рахат 6 — Жанкент",
     "url": "https://krisha.kz/a/show/1013148079",
-    "first_seen": "2026-06-28T19:34:45"
+    "first_seen": "2026-06-28T19:34:45",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c3/c377912b-0bc0-4132-86b8-5a9d7a82713f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c377912b-0bc0-4132-86b8-5a9d7a82713f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c377912b-0bc0-4132-86b8-5a9d7a82713f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c3/c377912b-0bc0-4132-86b8-5a9d7a82713f/4-280x175.jpg\"]"
   },
   {
     "id": 694,
@@ -11797,7 +13183,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Медеуский р-н, мкр Каменское плато, Минбыт 28 — Каменское   плато",
     "url": "https://krisha.kz/a/show/1010820314",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d9/d9e88377-b529-463b-abc3-aea377d7178d/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d9e88377-b529-463b-abc3-aea377d7178d/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d9e88377-b529-463b-abc3-aea377d7178d/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d9e88377-b529-463b-abc3-aea377d7178d/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d9/d9e88377-b529-463b-abc3-aea377d7178d/5-280x175.jpg\"]"
   },
   {
     "id": 695,
@@ -11814,7 +13202,9 @@ window.LISTINGS = [
     "price_value": 280500000,
     "address": "Медеуский р-н, Аль фараби — Ремизовка",
     "url": "https://krisha.kz/a/show/663373633",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/690832f7-37c8-491d-8b47-5a3c5cc2d705/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/690832f7-37c8-491d-8b47-5a3c5cc2d705/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/690832f7-37c8-491d-8b47-5a3c5cc2d705/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/690832f7-37c8-491d-8b47-5a3c5cc2d705/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/690832f7-37c8-491d-8b47-5a3c5cc2d705/12-280x175.jpg\"]"
   },
   {
     "id": 696,
@@ -11831,7 +13221,9 @@ window.LISTINGS = [
     "price_value": 78000000,
     "address": "Медеуский р-н, мкр Думан-1 37 — Акжаиык",
     "url": "https://krisha.kz/a/show/674423147",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e0/e0d4b2bf-07cc-40ee-91f0-505811724297/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0d4b2bf-07cc-40ee-91f0-505811724297/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0d4b2bf-07cc-40ee-91f0-505811724297/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0d4b2bf-07cc-40ee-91f0-505811724297/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e0/e0d4b2bf-07cc-40ee-91f0-505811724297/5-280x175.jpg\"]"
   },
   {
     "id": 697,
@@ -11848,7 +13240,9 @@ window.LISTINGS = [
     "price_value": 385000000,
     "address": "Бостандыкский р-н, мкр Баганашыл, Подгорная 24",
     "url": "https://krisha.kz/a/show/761657285",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a4/a447898b-df06-4f75-a3ac-20eab878c210/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a447898b-df06-4f75-a3ac-20eab878c210/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a447898b-df06-4f75-a3ac-20eab878c210/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a447898b-df06-4f75-a3ac-20eab878c210/18-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a4/a447898b-df06-4f75-a3ac-20eab878c210/19-280x175.jpg\"]"
   },
   {
     "id": 698,
@@ -11865,7 +13259,9 @@ window.LISTINGS = [
     "price_value": 350000000,
     "address": "Медеуский р-н, Курмангалиева 40",
     "url": "https://krisha.kz/a/show/1012888632",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f9/f9e28d0a-9665-49b6-aa92-03ec679f30fb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9e28d0a-9665-49b6-aa92-03ec679f30fb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9e28d0a-9665-49b6-aa92-03ec679f30fb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9e28d0a-9665-49b6-aa92-03ec679f30fb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f9/f9e28d0a-9665-49b6-aa92-03ec679f30fb/5-280x175.jpg\"]"
   },
   {
     "id": 699,
@@ -11882,7 +13278,9 @@ window.LISTINGS = [
     "price_value": 90000000,
     "address": "Алатауский р-н, Серикбаева",
     "url": "https://krisha.kz/a/show/1012641260",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8e/8e467a9b-d66a-4f1f-814f-12f95bd5d928/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8e467a9b-d66a-4f1f-814f-12f95bd5d928/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8e467a9b-d66a-4f1f-814f-12f95bd5d928/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8e467a9b-d66a-4f1f-814f-12f95bd5d928/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8e/8e467a9b-d66a-4f1f-814f-12f95bd5d928/5-280x175.jpg\"]"
   },
   {
     "id": 700,
@@ -11899,7 +13297,9 @@ window.LISTINGS = [
     "price_value": 220000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау — 14 улица",
     "url": "https://krisha.kz/a/show/1012746386",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/315b3dd4-b865-4a8a-9d5c-413efeed7ba0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b3dd4-b865-4a8a-9d5c-413efeed7ba0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b3dd4-b865-4a8a-9d5c-413efeed7ba0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b3dd4-b865-4a8a-9d5c-413efeed7ba0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b3dd4-b865-4a8a-9d5c-413efeed7ba0/5-280x175.jpg\"]"
   },
   {
     "id": 701,
@@ -11916,7 +13316,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Наурызбайский р-н, Театральная 28",
     "url": "https://krisha.kz/a/show/1012773452",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/09/09c6af91-8c26-469d-a60b-0ce651547069/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09c6af91-8c26-469d-a60b-0ce651547069/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09c6af91-8c26-469d-a60b-0ce651547069/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09c6af91-8c26-469d-a60b-0ce651547069/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/09c6af91-8c26-469d-a60b-0ce651547069/7-280x175.jpg\"]"
   },
   {
     "id": 702,
@@ -11933,7 +13335,9 @@ window.LISTINGS = [
     "price_value": 235000000,
     "address": "Ауэзовский р-н, Жазира 16 — Мкр. Школьный",
     "url": "https://krisha.kz/a/show/1012664299",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dcd4d264-1913-4072-9680-77c0fdd3070f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcd4d264-1913-4072-9680-77c0fdd3070f/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcd4d264-1913-4072-9680-77c0fdd3070f/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcd4d264-1913-4072-9680-77c0fdd3070f/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dcd4d264-1913-4072-9680-77c0fdd3070f/17-280x175.jpg\"]"
   },
   {
     "id": 703,
@@ -11950,7 +13354,9 @@ window.LISTINGS = [
     "price_value": 179000000,
     "address": "Ауэзовский р-н, мкр Алмас — Шаляпина - Яссауи",
     "url": "https://krisha.kz/a/show/762021042",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6f/6f2ad0d1-90ea-4b91-9a4f-4eb89deb7160/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f2ad0d1-90ea-4b91-9a4f-4eb89deb7160/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f2ad0d1-90ea-4b91-9a4f-4eb89deb7160/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f2ad0d1-90ea-4b91-9a4f-4eb89deb7160/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f2ad0d1-90ea-4b91-9a4f-4eb89deb7160/5-280x175.jpg\"]"
   },
   {
     "id": 704,
@@ -11967,7 +13373,9 @@ window.LISTINGS = [
     "price_value": 395000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик) 14 — Мунар",
     "url": "https://krisha.kz/a/show/1009712093",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2e/2e6150d0-232c-4ed3-974a-873311426a98/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6150d0-232c-4ed3-974a-873311426a98/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6150d0-232c-4ed3-974a-873311426a98/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6150d0-232c-4ed3-974a-873311426a98/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6150d0-232c-4ed3-974a-873311426a98/5-280x175.jpg\"]"
   },
   {
     "id": 705,
@@ -11984,7 +13392,9 @@ window.LISTINGS = [
     "price_value": 140000000,
     "address": "Наурызбайский р-н, мкр Таусамалы — Жандосова - Яссауи",
     "url": "https://krisha.kz/a/show/683837425",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/15/1558444c-10d1-4cd1-a7d5-a55b58087c99/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/1558444c-10d1-4cd1-a7d5-a55b58087c99/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/1558444c-10d1-4cd1-a7d5-a55b58087c99/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/1558444c-10d1-4cd1-a7d5-a55b58087c99/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/15/1558444c-10d1-4cd1-a7d5-a55b58087c99/5-280x175.jpg\"]"
   },
   {
     "id": 706,
@@ -12001,7 +13411,9 @@ window.LISTINGS = [
     "price_value": 1089000000,
     "address": "Бостандыкский р-н, мкр Мирас — Аскарова",
     "url": "https://krisha.kz/a/show/1003785076",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6a/6a0bc5af-938a-4803-aec3-6eb7f5b09657/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a0bc5af-938a-4803-aec3-6eb7f5b09657/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a0bc5af-938a-4803-aec3-6eb7f5b09657/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a0bc5af-938a-4803-aec3-6eb7f5b09657/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6a/6a0bc5af-938a-4803-aec3-6eb7f5b09657/11-280x175.jpg\"]"
   },
   {
     "id": 707,
@@ -12018,7 +13430,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Наурызбайский р-н, мкр Акжар",
     "url": "https://krisha.kz/a/show/696657545",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c5/c548d096-8e09-4da3-9d37-1c65a2df98b5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c548d096-8e09-4da3-9d37-1c65a2df98b5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c548d096-8e09-4da3-9d37-1c65a2df98b5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c548d096-8e09-4da3-9d37-1c65a2df98b5/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c548d096-8e09-4da3-9d37-1c65a2df98b5/6-280x175.jpg\"]"
   },
   {
     "id": 708,
@@ -12035,7 +13449,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Медеуский р-н, мкр Думан-1 8 — Алакол",
     "url": "https://krisha.kz/a/show/1012368580",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/69ce817a-8cb4-42d0-ae00-9afc87ccc11c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69ce817a-8cb4-42d0-ae00-9afc87ccc11c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69ce817a-8cb4-42d0-ae00-9afc87ccc11c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69ce817a-8cb4-42d0-ae00-9afc87ccc11c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69ce817a-8cb4-42d0-ae00-9afc87ccc11c/5-280x175.jpg\"]"
   },
   {
     "id": 709,
@@ -12052,7 +13468,9 @@ window.LISTINGS = [
     "price_value": 115000000,
     "address": "Наурызбайский р-н, Айтматова 18 — Аксайская улица",
     "url": "https://krisha.kz/a/show/674190589",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/85/8506d3c9-e43e-4ca6-b09e-c00660403c5d/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8506d3c9-e43e-4ca6-b09e-c00660403c5d/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8506d3c9-e43e-4ca6-b09e-c00660403c5d/23-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8506d3c9-e43e-4ca6-b09e-c00660403c5d/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8506d3c9-e43e-4ca6-b09e-c00660403c5d/30-280x175.jpg\"]"
   },
   {
     "id": 710,
@@ -12069,7 +13487,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Медеуский р-н, мкр Думан-1, Ақмешіт 78/4 — Возле горы",
     "url": "https://krisha.kz/a/show/694753966",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/78/7879f283-0e24-4304-9927-dc8db3901cad/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7879f283-0e24-4304-9927-dc8db3901cad/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7879f283-0e24-4304-9927-dc8db3901cad/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7879f283-0e24-4304-9927-dc8db3901cad/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/78/7879f283-0e24-4304-9927-dc8db3901cad/5-280x175.jpg\"]"
   },
   {
     "id": 711,
@@ -12086,7 +13506,9 @@ window.LISTINGS = [
     "price_value": 1000000000,
     "address": "Медеуский р-н, мкр Горный Гигант, Машхур жусупа 22",
     "url": "https://krisha.kz/a/show/1010272998",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/6099a9e7-bded-47e9-b7bd-c545a34114b0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6099a9e7-bded-47e9-b7bd-c545a34114b0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6099a9e7-bded-47e9-b7bd-c545a34114b0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6099a9e7-bded-47e9-b7bd-c545a34114b0/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/6099a9e7-bded-47e9-b7bd-c545a34114b0/5-280x175.jpg\"]"
   },
   {
     "id": 712,
@@ -12103,7 +13525,9 @@ window.LISTINGS = [
     "price_value": 400000000,
     "address": "Медеуский р-н, мкр Горный Гигант, Шубарколь 24",
     "url": "https://krisha.kz/a/show/1010271901",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2e/2e6f9088-e605-4e9b-9f6a-eae71cf928ff/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6f9088-e605-4e9b-9f6a-eae71cf928ff/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6f9088-e605-4e9b-9f6a-eae71cf928ff/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6f9088-e605-4e9b-9f6a-eae71cf928ff/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e6f9088-e605-4e9b-9f6a-eae71cf928ff/5-280x175.jpg\"]"
   },
   {
     "id": 713,
@@ -12120,7 +13544,9 @@ window.LISTINGS = [
     "price_value": 550000000,
     "address": "Медеуский р-н, мкр Юбилейный 105/11",
     "url": "https://krisha.kz/a/show/1012605648",
-    "first_seen": "2026-06-28T19:34:51"
+    "first_seen": "2026-06-28T19:34:51",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/31b5f412-56d8-4c72-952c-b5a864de0bc7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31b5f412-56d8-4c72-952c-b5a864de0bc7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31b5f412-56d8-4c72-952c-b5a864de0bc7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31b5f412-56d8-4c72-952c-b5a864de0bc7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/31b5f412-56d8-4c72-952c-b5a864de0bc7/5-280x175.jpg\"]"
   },
   {
     "id": 714,
@@ -12137,7 +13563,9 @@ window.LISTINGS = [
     "price_value": 210000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик) 174/2",
     "url": "https://krisha.kz/a/show/1013187607",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8c/8cdca0a2-da0e-4555-b283-9e6d30f1e581/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8cdca0a2-da0e-4555-b283-9e6d30f1e581/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8cdca0a2-da0e-4555-b283-9e6d30f1e581/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8cdca0a2-da0e-4555-b283-9e6d30f1e581/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8c/8cdca0a2-da0e-4555-b283-9e6d30f1e581/5-280x175.jpg\"]"
   },
   {
     "id": 715,
@@ -12154,7 +13582,9 @@ window.LISTINGS = [
     "price_value": 305000000,
     "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик), Мкр Нурлытау (Энергетик), Кунжарык 69",
     "url": "https://krisha.kz/a/show/1010273757",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/be/bed16f8d-8b79-47f9-8e51-be9ab2f9ad07/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/bed16f8d-8b79-47f9-8e51-be9ab2f9ad07/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/bed16f8d-8b79-47f9-8e51-be9ab2f9ad07/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/bed16f8d-8b79-47f9-8e51-be9ab2f9ad07/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/bed16f8d-8b79-47f9-8e51-be9ab2f9ad07/5-280x175.jpg\"]"
   },
   {
     "id": 716,
@@ -12171,7 +13601,9 @@ window.LISTINGS = [
     "price_value": 750000000,
     "address": "Медеуский р-н, мкр Горный Гигант, Машхур жусупа 16",
     "url": "https://krisha.kz/a/show/1010220803",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/dc/dc516742-6b78-48fd-a959-515d04f9433b/77-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc516742-6b78-48fd-a959-515d04f9433b/78-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc516742-6b78-48fd-a959-515d04f9433b/79-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc516742-6b78-48fd-a959-515d04f9433b/80-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/dc/dc516742-6b78-48fd-a959-515d04f9433b/81-280x175.jpg\"]"
   },
   {
     "id": 717,
@@ -12188,7 +13620,9 @@ window.LISTINGS = [
     "price_value": 212000000,
     "address": "Наурызбайский р-н, мкр Карагайлы, Сейдбббекова 8",
     "url": "https://krisha.kz/a/show/1012310333",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/52/528b799f-8305-4731-a3dd-9d5ceb44327b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/528b799f-8305-4731-a3dd-9d5ceb44327b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/528b799f-8305-4731-a3dd-9d5ceb44327b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/528b799f-8305-4731-a3dd-9d5ceb44327b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/52/528b799f-8305-4731-a3dd-9d5ceb44327b/5-280x175.jpg\"]"
   },
   {
     "id": 718,
@@ -12205,7 +13639,9 @@ window.LISTINGS = [
     "price_value": 24900000,
     "address": "Турксибский р-н, ул. Всеволода Гаршина 31",
     "url": "https://krisha.kz/a/show/1011910145",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/80/801d6614-882e-4c48-8275-fe85fd486218/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/801d6614-882e-4c48-8275-fe85fd486218/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/801d6614-882e-4c48-8275-fe85fd486218/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/801d6614-882e-4c48-8275-fe85fd486218/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/80/801d6614-882e-4c48-8275-fe85fd486218/5-280x175.jpg\"]"
   },
   {
     "id": 719,
@@ -12222,7 +13658,9 @@ window.LISTINGS = [
     "price_value": 78000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2, Жакана Аханова 20",
     "url": "https://krisha.kz/a/show/1013359499",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/0b/0bb88814-9228-43e8-8c4b-c8881afb8e3a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb88814-9228-43e8-8c4b-c8881afb8e3a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb88814-9228-43e8-8c4b-c8881afb8e3a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb88814-9228-43e8-8c4b-c8881afb8e3a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/0b/0bb88814-9228-43e8-8c4b-c8881afb8e3a/5-280x175.jpg\"]"
   },
   {
     "id": 720,
@@ -12239,7 +13677,9 @@ window.LISTINGS = [
     "price_value": 62000000,
     "address": "Ауэзовский р-н, мкр Достык — Тауке хана-Паклиевского",
     "url": "https://krisha.kz/a/show/1013282948",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/69/69edcb5d-4c25-4d9d-9ac5-6f416c3e0b5a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69edcb5d-4c25-4d9d-9ac5-6f416c3e0b5a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69edcb5d-4c25-4d9d-9ac5-6f416c3e0b5a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69edcb5d-4c25-4d9d-9ac5-6f416c3e0b5a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/69/69edcb5d-4c25-4d9d-9ac5-6f416c3e0b5a/5-280x175.jpg\"]"
   },
   {
     "id": 721,
@@ -12256,7 +13696,9 @@ window.LISTINGS = [
     "price_value": 220000000,
     "address": "Наурызбайский р-н, мкр Курамыс, Сейдимбек 14",
     "url": "https://krisha.kz/a/show/1013326989",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f6/f6686dac-a1a2-4602-b02f-1b639168d031/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6686dac-a1a2-4602-b02f-1b639168d031/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6686dac-a1a2-4602-b02f-1b639168d031/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6686dac-a1a2-4602-b02f-1b639168d031/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f6/f6686dac-a1a2-4602-b02f-1b639168d031/5-280x175.jpg\"]"
   },
   {
     "id": 722,
@@ -12273,7 +13715,9 @@ window.LISTINGS = [
     "price_value": 43000000,
     "address": "Алатауский р-н, мкр Алгабас — Серикбаева Лермонтова",
     "url": "https://krisha.kz/a/show/1013284269",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7d/7d3d1f5b-d261-4b70-82ed-5d8a97f17304/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d3d1f5b-d261-4b70-82ed-5d8a97f17304/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d3d1f5b-d261-4b70-82ed-5d8a97f17304/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d3d1f5b-d261-4b70-82ed-5d8a97f17304/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7d/7d3d1f5b-d261-4b70-82ed-5d8a97f17304/5-280x175.jpg\"]"
   },
   {
     "id": 723,
@@ -12290,7 +13734,9 @@ window.LISTINGS = [
     "price_value": 55000000,
     "address": "Черёмушка",
     "url": "https://krisha.kz/a/show/1013496296",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/44/4472c055-3333-457d-933a-51c884d87d6b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/4472c055-3333-457d-933a-51c884d87d6b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/4472c055-3333-457d-933a-51c884d87d6b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/4472c055-3333-457d-933a-51c884d87d6b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/44/4472c055-3333-457d-933a-51c884d87d6b/5-280x175.jpg\"]"
   },
   {
     "id": 724,
@@ -12307,7 +13753,9 @@ window.LISTINGS = [
     "price_value": 125000000,
     "address": "Медеуский р-н, Аяз би",
     "url": "https://krisha.kz/a/show/1012910767",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/56/5679c3c6-fab8-439e-b391-53221d635b03/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5679c3c6-fab8-439e-b391-53221d635b03/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5679c3c6-fab8-439e-b391-53221d635b03/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5679c3c6-fab8-439e-b391-53221d635b03/7-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/56/5679c3c6-fab8-439e-b391-53221d635b03/8-280x175.jpg\"]"
   },
   {
     "id": 725,
@@ -12324,7 +13772,9 @@ window.LISTINGS = [
     "price_value": 60000000,
     "address": "Алатауский р-н, мкр Теректы, Квартал 2 18",
     "url": "https://krisha.kz/a/show/1011926947",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ae/aeb939dd-ac7d-4eee-b70e-c0da599895ce/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb939dd-ac7d-4eee-b70e-c0da599895ce/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb939dd-ac7d-4eee-b70e-c0da599895ce/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb939dd-ac7d-4eee-b70e-c0da599895ce/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ae/aeb939dd-ac7d-4eee-b70e-c0da599895ce/5-280x175.jpg\"]"
   },
   {
     "id": 726,
@@ -12341,7 +13791,9 @@ window.LISTINGS = [
     "price_value": 57000000,
     "address": "Турксибский р-н, мкр Альмерек, Достык 31А",
     "url": "https://krisha.kz/a/show/1009656449",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f7/f702ad72-02e0-4654-b117-bc8763497fa8/15-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f702ad72-02e0-4654-b117-bc8763497fa8/16-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f702ad72-02e0-4654-b117-bc8763497fa8/17-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f702ad72-02e0-4654-b117-bc8763497fa8/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f7/f702ad72-02e0-4654-b117-bc8763497fa8/21-280x175.jpg\"]"
   },
   {
     "id": 727,
@@ -12358,7 +13810,9 @@ window.LISTINGS = [
     "price_value": 32000000,
     "address": "Алмалинский р-н, мкр Тастак-2, Ислама каримова 133A",
     "url": "https://krisha.kz/a/show/1003118471",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/06/065df7cb-1392-49b4-bb92-5c5c281a662a/19-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/065df7cb-1392-49b4-bb92-5c5c281a662a/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/065df7cb-1392-49b4-bb92-5c5c281a662a/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/065df7cb-1392-49b4-bb92-5c5c281a662a/22-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/06/065df7cb-1392-49b4-bb92-5c5c281a662a/23-280x175.jpg\"]"
   },
   {
     "id": 728,
@@ -12375,7 +13829,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Жетысуский р-н, Сельская 29",
     "url": "https://krisha.kz/a/show/1006902557",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c7/c7914135-3ad9-4fae-b3b4-041a98dd1ff3/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7914135-3ad9-4fae-b3b4-041a98dd1ff3/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7914135-3ad9-4fae-b3b4-041a98dd1ff3/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7914135-3ad9-4fae-b3b4-041a98dd1ff3/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c7/c7914135-3ad9-4fae-b3b4-041a98dd1ff3/5-280x175.jpg\"]"
   },
   {
     "id": 729,
@@ -12392,7 +13848,9 @@ window.LISTINGS = [
     "price_value": 245000000,
     "address": "Ауэзовский р-н, мкр Таугуль-3",
     "url": "https://krisha.kz/a/show/1012728581",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/db/db90d64c-27ac-4bab-82cd-4f387f23559f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db90d64c-27ac-4bab-82cd-4f387f23559f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db90d64c-27ac-4bab-82cd-4f387f23559f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db90d64c-27ac-4bab-82cd-4f387f23559f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/db90d64c-27ac-4bab-82cd-4f387f23559f/5-280x175.jpg\"]"
   },
   {
     "id": 730,
@@ -12409,7 +13867,9 @@ window.LISTINGS = [
     "price_value": 40500000,
     "address": "Медеуский р-н, мкр Тау Самал, Ладушкина 103",
     "url": "https://krisha.kz/a/show/1005726873",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/896ff0e6-4468-4388-82e5-28985f3a36b7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/896ff0e6-4468-4388-82e5-28985f3a36b7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/896ff0e6-4468-4388-82e5-28985f3a36b7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/896ff0e6-4468-4388-82e5-28985f3a36b7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/896ff0e6-4468-4388-82e5-28985f3a36b7/5-280x175.jpg\"]"
   },
   {
     "id": 731,
@@ -12426,7 +13886,9 @@ window.LISTINGS = [
     "price_value": 260000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау",
     "url": "https://krisha.kz/a/show/1013213210",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/18/1854bab8-e11b-4435-957c-3d038da28ce3/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/1854bab8-e11b-4435-957c-3d038da28ce3/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/1854bab8-e11b-4435-957c-3d038da28ce3/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/1854bab8-e11b-4435-957c-3d038da28ce3/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/18/1854bab8-e11b-4435-957c-3d038da28ce3/5-280x175.jpg\"]"
   },
   {
     "id": 732,
@@ -12443,7 +13905,9 @@ window.LISTINGS = [
     "price_value": 116000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2 — Жакаева 155",
     "url": "https://krisha.kz/a/show/1013495529",
-    "first_seen": "2026-06-28T19:34:57"
+    "first_seen": "2026-06-28T19:34:57",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6c/6cec3f59-ac5a-4e92-ba08-2dd907337d41/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6cec3f59-ac5a-4e92-ba08-2dd907337d41/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6cec3f59-ac5a-4e92-ba08-2dd907337d41/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6cec3f59-ac5a-4e92-ba08-2dd907337d41/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6c/6cec3f59-ac5a-4e92-ba08-2dd907337d41/5-280x175.jpg\"]"
   },
   {
     "id": 733,
@@ -12460,7 +13924,9 @@ window.LISTINGS = [
     "price_value": 85000000,
     "address": "Наурызбайский р-н, мкр Калкаман-2 — Горячая цена",
     "url": "https://krisha.kz/a/show/1013448357",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/23/23980cc1-ff55-4698-bf82-1957e1dfb513/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23980cc1-ff55-4698-bf82-1957e1dfb513/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23980cc1-ff55-4698-bf82-1957e1dfb513/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23980cc1-ff55-4698-bf82-1957e1dfb513/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/23/23980cc1-ff55-4698-bf82-1957e1dfb513/5-280x175.jpg\"]"
   },
   {
     "id": 734,
@@ -12477,7 +13943,9 @@ window.LISTINGS = [
     "price_value": 600000000,
     "address": "Медеуский р-н, ПК Горный Гигант 2606",
     "url": "https://krisha.kz/a/show/1013483192",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6f/6f0f29d6-368d-4218-8784-adcca6d7c72e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f0f29d6-368d-4218-8784-adcca6d7c72e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f0f29d6-368d-4218-8784-adcca6d7c72e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f0f29d6-368d-4218-8784-adcca6d7c72e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f0f29d6-368d-4218-8784-adcca6d7c72e/5-280x175.jpg\"]"
   },
   {
     "id": 735,
@@ -12494,7 +13962,9 @@ window.LISTINGS = [
     "price_value": 57300000,
     "address": "Наурызбайский р-н, мкр Акжар 82 — Даулеткерей",
     "url": "https://krisha.kz/a/show/1012173764",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/50/50eaa765-b977-49c7-9aed-cedb6ce32d2e/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50eaa765-b977-49c7-9aed-cedb6ce32d2e/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50eaa765-b977-49c7-9aed-cedb6ce32d2e/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50eaa765-b977-49c7-9aed-cedb6ce32d2e/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/50/50eaa765-b977-49c7-9aed-cedb6ce32d2e/5-280x175.jpg\"]"
   },
   {
     "id": 736,
@@ -12511,7 +13981,9 @@ window.LISTINGS = [
     "price_value": 1500000,
     "address": "Наурызбайский р-н, мкр Карагайлы — Платина",
     "url": "https://krisha.kz/a/show/1013370771",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e1/e19e7d59-6a0f-4ee6-8789-05789afe392f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e1/e19e7d59-6a0f-4ee6-8789-05789afe392f/2-280x175.jpg\"]"
   },
   {
     "id": 737,
@@ -12528,7 +14000,9 @@ window.LISTINGS = [
     "price_value": 80000000,
     "address": "Медеуский р-н, Солнечная",
     "url": "https://krisha.kz/a/show/695951945",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/4c/4c8de6fd-f430-494c-bf3f-ff6be4979f62/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4c8de6fd-f430-494c-bf3f-ff6be4979f62/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4c8de6fd-f430-494c-bf3f-ff6be4979f62/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/4c/4c8de6fd-f430-494c-bf3f-ff6be4979f62/5-280x175.jpg\"]"
   },
   {
     "id": 738,
@@ -12545,7 +14019,9 @@ window.LISTINGS = [
     "price_value": 1155000000,
     "address": "Медеуский р-н, Керей-Жанибек Хандар",
     "url": "https://krisha.kz/a/show/1007403326",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f4/f4ccd18d-3480-4289-bf22-2c94244bd287/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4ccd18d-3480-4289-bf22-2c94244bd287/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4ccd18d-3480-4289-bf22-2c94244bd287/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4ccd18d-3480-4289-bf22-2c94244bd287/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f4/f4ccd18d-3480-4289-bf22-2c94244bd287/5-280x175.jpg\"]"
   },
   {
     "id": 739,
@@ -12562,7 +14038,9 @@ window.LISTINGS = [
     "price_value": 66000000,
     "address": "Наурызбайский р-н, мкр Таужолы — Щедрость",
     "url": "https://krisha.kz/a/show/1011955733",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/8b/8b3fbe86-f639-4999-88f4-268f2dbb5a15/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b3fbe86-f639-4999-88f4-268f2dbb5a15/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/8b/8b3fbe86-f639-4999-88f4-268f2dbb5a15/3-280x175.jpg\"]"
   },
   {
     "id": 740,
@@ -12579,7 +14057,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Наурызбайский р-н, мкр Тастыбулак — Жандосова -Даулеткерея",
     "url": "https://krisha.kz/a/show/1012600561",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/04/042e71b8-5e8c-45d5-9c6b-9f4489aca44a/1-280x175.jpg\"]"
   },
   {
     "id": 741,
@@ -12596,7 +14076,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Медеуский р-н, мкр Каменское плато — ул. Улар 46",
     "url": "https://krisha.kz/a/show/1000952384",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/42/4235f861-fc04-48a9-af6d-0269a185d218/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4235f861-fc04-48a9-af6d-0269a185d218/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4235f861-fc04-48a9-af6d-0269a185d218/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4235f861-fc04-48a9-af6d-0269a185d218/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/4235f861-fc04-48a9-af6d-0269a185d218/5-280x175.jpg\"]"
   },
   {
     "id": 742,
@@ -12613,7 +14095,9 @@ window.LISTINGS = [
     "price_value": 150000000,
     "address": "Медеуский р-н",
     "url": "https://krisha.kz/a/show/1012584012",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 743,
@@ -12630,7 +14114,9 @@ window.LISTINGS = [
     "price_value": 28000000,
     "address": "Алматы",
     "url": "https://krisha.kz/a/show/1012719573",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7b/7bf45e19-d7db-4a70-84f3-8e407a5381d1/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bf45e19-d7db-4a70-84f3-8e407a5381d1/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bf45e19-d7db-4a70-84f3-8e407a5381d1/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bf45e19-d7db-4a70-84f3-8e407a5381d1/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/7b/7bf45e19-d7db-4a70-84f3-8e407a5381d1/5-280x175.jpg\"]"
   },
   {
     "id": 744,
@@ -12647,7 +14133,9 @@ window.LISTINGS = [
     "price_value": 120000000,
     "address": "Бостандыкский р-н, Айманова 246 — Напротив роддома на Басенова",
     "url": "https://krisha.kz/a/show/1011393288",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b2/b28b42c2-c975-4922-9367-76bf8863c1b0/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b28b42c2-c975-4922-9367-76bf8863c1b0/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b28b42c2-c975-4922-9367-76bf8863c1b0/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b2/b28b42c2-c975-4922-9367-76bf8863c1b0/4-280x175.jpg\"]"
   },
   {
     "id": 745,
@@ -12664,7 +14152,9 @@ window.LISTINGS = [
     "price_value": 164999999,
     "address": "Медеуский р-н, Таттимбета 228",
     "url": "https://krisha.kz/a/show/691302134",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/26/26e05719-5ba5-4cdd-9b50-e8a32dd8b4ce/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/26/26e05719-5ba5-4cdd-9b50-e8a32dd8b4ce/3-280x175.jpg\"]"
   },
   {
     "id": 746,
@@ -12681,7 +14171,9 @@ window.LISTINGS = [
     "price_value": 185000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау",
     "url": "https://krisha.kz/a/show/1012905701",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/42/42c15b87-056e-43fb-9513-eb043a9e4e90/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42c15b87-056e-43fb-9513-eb043a9e4e90/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42c15b87-056e-43fb-9513-eb043a9e4e90/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42c15b87-056e-43fb-9513-eb043a9e4e90/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/42/42c15b87-056e-43fb-9513-eb043a9e4e90/5-280x175.jpg\"]"
   },
   {
     "id": 747,
@@ -12698,7 +14190,9 @@ window.LISTINGS = [
     "price_value": 38800000,
     "address": "Наурызбайский р-н, мкр Таужолы",
     "url": "https://krisha.kz/a/show/1000604095",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e5/e5383d8a-3944-44c8-a880-f1272b36a1f5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5383d8a-3944-44c8-a880-f1272b36a1f5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5383d8a-3944-44c8-a880-f1272b36a1f5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5383d8a-3944-44c8-a880-f1272b36a1f5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e5/e5383d8a-3944-44c8-a880-f1272b36a1f5/5-280x175.jpg\"]"
   },
   {
     "id": 748,
@@ -12715,7 +14209,9 @@ window.LISTINGS = [
     "price_value": 70000000,
     "address": "Жетысуский р-н, мкр Кемел (Первомайское) 54",
     "url": "https://krisha.kz/a/show/666694592",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/67/67a249da-b31f-4f88-92a6-339e80e074b8/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67a249da-b31f-4f88-92a6-339e80e074b8/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67a249da-b31f-4f88-92a6-339e80e074b8/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67a249da-b31f-4f88-92a6-339e80e074b8/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/67/67a249da-b31f-4f88-92a6-339e80e074b8/5-280x175.jpg\"]"
   },
   {
     "id": 749,
@@ -12732,7 +14228,9 @@ window.LISTINGS = [
     "price_value": 4000000,
     "address": "За мостом Байсерке — Город Алатау , от Алматы 10 минут на машине",
     "url": "https://krisha.kz/a/show/1012130841",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ee/eed20bc7-e18e-4329-b0ab-a8fffba6906b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ee/eed20bc7-e18e-4329-b0ab-a8fffba6906b/4-280x175.jpg\"]"
   },
   {
     "id": 750,
@@ -12749,7 +14247,9 @@ window.LISTINGS = [
     "price_value": 15500000,
     "address": "Турксибский р-н, мкр Альмерек — Мәңгілік Ел и Қасым хана",
     "url": "https://krisha.kz/a/show/1007214104",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 751,
@@ -12766,7 +14266,9 @@ window.LISTINGS = [
     "price_value": 75000000,
     "address": "Бостандыкский р-н, мкр Нур Алатау, Марал 9 9",
     "url": "https://krisha.kz/a/show/1008490645",
-    "first_seen": "2026-06-28T19:35:03"
+    "first_seen": "2026-06-28T19:35:03",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3cd400db-70cf-4e8c-9537-c219ca639bd7/1-280x175.jpg\"]"
   },
   {
     "id": 752,
@@ -12783,7 +14285,9 @@ window.LISTINGS = [
     "price_value": 21000000954545,
     "address": "Алмалинский р-н, Бруссиловского 167 — Шакарима",
     "url": "https://krisha.kz/a/show/1013000774",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/60/60d6d608-4314-43bc-91f3-b573cb0f4adc/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60d6d608-4314-43bc-91f3-b573cb0f4adc/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60d6d608-4314-43bc-91f3-b573cb0f4adc/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60d6d608-4314-43bc-91f3-b573cb0f4adc/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/60/60d6d608-4314-43bc-91f3-b573cb0f4adc/5-280x175.jpg\"]"
   },
   {
     "id": 753,
@@ -12800,7 +14304,9 @@ window.LISTINGS = [
     "price_value": 17800000247222,
     "address": "Турксибский р-н, Суюнбая 251/1 1 — Суюнбая Хмельницкого",
     "url": "https://krisha.kz/a/show/1013338601",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c4/c4373a60-8865-4d6a-804f-964a0f4da9e9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4373a60-8865-4d6a-804f-964a0f4da9e9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4373a60-8865-4d6a-804f-964a0f4da9e9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4373a60-8865-4d6a-804f-964a0f4da9e9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c4/c4373a60-8865-4d6a-804f-964a0f4da9e9/5-280x175.jpg\"]"
   },
   {
     "id": 754,
@@ -12817,7 +14323,9 @@ window.LISTINGS = [
     "price_value": 47000000505376,
     "address": "Турксибский р-н, Бухтарминская 153/28",
     "url": "https://krisha.kz/a/show/1013358525",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/00/00895eb8-6105-4c37-b6fc-b36e91b742ad/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00895eb8-6105-4c37-b6fc-b36e91b742ad/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00895eb8-6105-4c37-b6fc-b36e91b742ad/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00895eb8-6105-4c37-b6fc-b36e91b742ad/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/00/00895eb8-6105-4c37-b6fc-b36e91b742ad/5-280x175.jpg\"]"
   },
   {
     "id": 755,
@@ -12834,7 +14342,9 @@ window.LISTINGS = [
     "price_value": 17500000001346154,
     "address": "Розыбакиева 156 — Сатпаева",
     "url": "https://krisha.kz/a/show/1012730946",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/49/4906c04d-1683-4382-872f-d7576649cbf4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4906c04d-1683-4382-872f-d7576649cbf4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4906c04d-1683-4382-872f-d7576649cbf4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4906c04d-1683-4382-872f-d7576649cbf4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/49/4906c04d-1683-4382-872f-d7576649cbf4/5-280x175.jpg\"]"
   },
   {
     "id": 756,
@@ -12851,7 +14361,9 @@ window.LISTINGS = [
     "price_value": 200000000900901,
     "address": "Бостандыкский р-н, мкр Керемет 1",
     "url": "https://krisha.kz/a/show/1011573357",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/b0/b0ed9a00-7f8d-4b4d-8f2f-646139392dea/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b0ed9a00-7f8d-4b4d-8f2f-646139392dea/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b0ed9a00-7f8d-4b4d-8f2f-646139392dea/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b0ed9a00-7f8d-4b4d-8f2f-646139392dea/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/b0/b0ed9a00-7f8d-4b4d-8f2f-646139392dea/5-280x175.jpg\"]"
   },
   {
     "id": 757,
@@ -12868,7 +14380,9 @@ window.LISTINGS = [
     "price_value": 70500000885678,
     "address": "Бостандыкский р-н, Шолом-Алейхема 22/1 — Альфараби - Маркова",
     "url": "https://krisha.kz/a/show/1003803067",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/58/58d82936-e970-41af-89a6-0a9f266d9c51/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58d82936-e970-41af-89a6-0a9f266d9c51/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58d82936-e970-41af-89a6-0a9f266d9c51/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58d82936-e970-41af-89a6-0a9f266d9c51/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/58/58d82936-e970-41af-89a6-0a9f266d9c51/10-280x175.jpg\"]"
   },
   {
     "id": 758,
@@ -12885,7 +14399,9 @@ window.LISTINGS = [
     "price_value": 470000001021739,
     "address": "Бостандыкский р-н, мкр Коктем-1, Маркова 39 — Тимирязева",
     "url": "https://krisha.kz/a/show/1012941018",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/53/5384303a-9054-440d-8674-633ef0d71a52/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/5384303a-9054-440d-8674-633ef0d71a52/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/5384303a-9054-440d-8674-633ef0d71a52/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/5384303a-9054-440d-8674-633ef0d71a52/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/5384303a-9054-440d-8674-633ef0d71a52/5-280x175.jpg\"]"
   },
   {
     "id": 759,
@@ -12902,7 +14418,9 @@ window.LISTINGS = [
     "price_value": 27000000675000,
     "address": "Алмалинский р-н, Казыбек би 125",
     "url": "https://krisha.kz/a/show/1012861228",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/3955ce26-4a26-4f3a-bbd8-952a303d8726/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3955ce26-4a26-4f3a-bbd8-952a303d8726/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3955ce26-4a26-4f3a-bbd8-952a303d8726/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3955ce26-4a26-4f3a-bbd8-952a303d8726/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/3955ce26-4a26-4f3a-bbd8-952a303d8726/5-280x175.jpg\"]"
   },
   {
     "id": 760,
@@ -12919,7 +14437,9 @@ window.LISTINGS = [
     "price_value": 6200000001240000,
     "address": "Медеуский р-н, мкр Каменское плато 1",
     "url": "https://krisha.kz/a/show/678226397",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/76/7633fa80-bb5b-4ba9-9285-22e57b61f511/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7633fa80-bb5b-4ba9-9285-22e57b61f511/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7633fa80-bb5b-4ba9-9285-22e57b61f511/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7633fa80-bb5b-4ba9-9285-22e57b61f511/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/76/7633fa80-bb5b-4ba9-9285-22e57b61f511/5-280x175.jpg\"]"
   },
   {
     "id": 761,
@@ -12936,7 +14456,9 @@ window.LISTINGS = [
     "price_value": 1420000001213675,
     "address": "Медеуский р-н, Саадат Нурмагаментова 71 — RAMS GARDEN",
     "url": "https://krisha.kz/a/show/1013367390",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/31/315b01db-2772-43e8-84a2-3d07cedf4a8c/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b01db-2772-43e8-84a2-3d07cedf4a8c/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b01db-2772-43e8-84a2-3d07cedf4a8c/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b01db-2772-43e8-84a2-3d07cedf4a8c/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/31/315b01db-2772-43e8-84a2-3d07cedf4a8c/5-280x175.jpg\"]"
   },
   {
     "id": 762,
@@ -12953,7 +14475,9 @@ window.LISTINGS = [
     "price_value": 1310000000770588,
     "address": "Ауэзовский р-н, мкр Таугуль-1 72а",
     "url": "https://krisha.kz/a/show/1005237384",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/1d/1d9a4ccb-a386-4894-a54b-b1e21d809d6b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d9a4ccb-a386-4894-a54b-b1e21d809d6b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d9a4ccb-a386-4894-a54b-b1e21d809d6b/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d9a4ccb-a386-4894-a54b-b1e21d809d6b/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/1d/1d9a4ccb-a386-4894-a54b-b1e21d809d6b/8-280x175.jpg\"]"
   },
   {
     "id": 763,
@@ -12970,7 +14494,9 @@ window.LISTINGS = [
     "price_value": 140000000400000,
     "address": "Алатауский р-н, мкр Коккайнар, Аркалык 84",
     "url": "https://krisha.kz/a/show/1009938425",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/cb/cb97d425-c57f-47bd-afa0-d723966891d5/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cb97d425-c57f-47bd-afa0-d723966891d5/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cb97d425-c57f-47bd-afa0-d723966891d5/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cb97d425-c57f-47bd-afa0-d723966891d5/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/cb/cb97d425-c57f-47bd-afa0-d723966891d5/5-280x175.jpg\"]"
   },
   {
     "id": 764,
@@ -12987,7 +14513,9 @@ window.LISTINGS = [
     "price_value": 3274500001374108,
     "address": "Медеуский р-н, мкр Коктобе, улица Сагадата Нурмагамбетова 138/2",
     "url": "https://krisha.kz/a/show/1006654418",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2e/2e1f971b-3d60-40e4-a602-b5593c48caa7/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e1f971b-3d60-40e4-a602-b5593c48caa7/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e1f971b-3d60-40e4-a602-b5593c48caa7/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e1f971b-3d60-40e4-a602-b5593c48caa7/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e1f971b-3d60-40e4-a602-b5593c48caa7/5-280x175.jpg\"]"
   },
   {
     "id": 765,
@@ -13004,7 +14532,9 @@ window.LISTINGS = [
     "price_value": 36000000720000,
     "address": "Наурызбайский р-н, мкр Шугыла, Мкр Шугыла, Алма Сити 2/13",
     "url": "https://krisha.kz/a/show/1013479761",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/bd/bd42bf12-c659-4a2f-acb1-c2fa881694ea/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd42bf12-c659-4a2f-acb1-c2fa881694ea/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd42bf12-c659-4a2f-acb1-c2fa881694ea/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd42bf12-c659-4a2f-acb1-c2fa881694ea/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/bd/bd42bf12-c659-4a2f-acb1-c2fa881694ea/5-280x175.jpg\"]"
   },
   {
     "id": 766,
@@ -13021,7 +14551,9 @@ window.LISTINGS = [
     "price_value": 3400000002537313,
     "address": "Жетысуский р-н, Суюнбая 15 В — Райымбека",
     "url": "https://krisha.kz/a/show/1012192317",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d7/d7a69bb6-269c-49a4-aa62-b18bbd137cd6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7a69bb6-269c-49a4-aa62-b18bbd137cd6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7a69bb6-269c-49a4-aa62-b18bbd137cd6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7a69bb6-269c-49a4-aa62-b18bbd137cd6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d7/d7a69bb6-269c-49a4-aa62-b18bbd137cd6/5-280x175.jpg\"]"
   },
   {
     "id": 767,
@@ -13038,7 +14570,9 @@ window.LISTINGS = [
     "price_value": 70000000005384615,
     "address": "Наурызбайский р-н, мкр Шугыла 340/40",
     "url": "https://krisha.kz/a/show/1009513935",
-    "first_seen": "2026-06-28T19:35:32"
+    "first_seen": "2026-06-28T19:35:32",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 768,
@@ -13055,7 +14589,9 @@ window.LISTINGS = [
     "price_value": 30000000638298,
     "address": "Ауэзовский р-н, мкр Аксай-5 25",
     "url": "https://krisha.kz/a/show/1013478351",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2d/2db84c8f-6c40-4e92-9b21-b0a4a146b156/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2db84c8f-6c40-4e92-9b21-b0a4a146b156/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2db84c8f-6c40-4e92-9b21-b0a4a146b156/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2db84c8f-6c40-4e92-9b21-b0a4a146b156/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2d/2db84c8f-6c40-4e92-9b21-b0a4a146b156/5-280x175.jpg\"]"
   },
   {
     "id": 769,
@@ -13072,7 +14608,9 @@ window.LISTINGS = [
     "price_value": 35000000573770,
     "address": "Бостандыкский р-н, Назарбаева 301",
     "url": "https://krisha.kz/a/show/1008883204",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/83/83810c97-65a9-41de-b3ea-9ba052491e7a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83810c97-65a9-41de-b3ea-9ba052491e7a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83810c97-65a9-41de-b3ea-9ba052491e7a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83810c97-65a9-41de-b3ea-9ba052491e7a/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/83/83810c97-65a9-41de-b3ea-9ba052491e7a/7-280x175.jpg\"]"
   },
   {
     "id": 770,
@@ -13089,7 +14627,9 @@ window.LISTINGS = [
     "price_value": 1350000000307657,
     "address": "Наурызбайский р-н, Самурык 23",
     "url": "https://krisha.kz/a/show/688795356",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/c5/c5ba2e3d-2f7e-4e59-9a89-abe0f039e82a/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c5ba2e3d-2f7e-4e59-9a89-abe0f039e82a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c5ba2e3d-2f7e-4e59-9a89-abe0f039e82a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c5ba2e3d-2f7e-4e59-9a89-abe0f039e82a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/c5/c5ba2e3d-2f7e-4e59-9a89-abe0f039e82a/5-280x175.jpg\"]"
   },
   {
     "id": 771,
@@ -13106,7 +14646,9 @@ window.LISTINGS = [
     "price_value": 3500000001400000,
     "address": "Наурызбайский р-н, Кенесары хана 122",
     "url": "https://krisha.kz/a/show/1013039249",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 772,
@@ -13123,7 +14665,9 @@ window.LISTINGS = [
     "price_value": 25000000384615,
     "address": "Алмалинский р-н, Варламова 1/3",
     "url": "https://krisha.kz/a/show/1013341478",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/09/099917ce-38c4-42af-a901-a6f0b79843ec/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/099917ce-38c4-42af-a901-a6f0b79843ec/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/099917ce-38c4-42af-a901-a6f0b79843ec/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/099917ce-38c4-42af-a901-a6f0b79843ec/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/09/099917ce-38c4-42af-a901-a6f0b79843ec/5-280x175.jpg\"]"
   },
   {
     "id": 773,
@@ -13140,7 +14684,9 @@ window.LISTINGS = [
     "price_value": 640000000773881,
     "address": "Турксибский р-н, Майлина 73",
     "url": "https://krisha.kz/a/show/1011159919",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/db/dbe7f723-b6d5-4d5f-9fc6-fa8cc7ca71a9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbe7f723-b6d5-4d5f-9fc6-fa8cc7ca71a9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbe7f723-b6d5-4d5f-9fc6-fa8cc7ca71a9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbe7f723-b6d5-4d5f-9fc6-fa8cc7ca71a9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/db/dbe7f723-b6d5-4d5f-9fc6-fa8cc7ca71a9/5-280x175.jpg\"]"
   },
   {
     "id": 774,
@@ -13157,7 +14703,9 @@ window.LISTINGS = [
     "price_value": 20000000002105263,
     "address": "Медеуский р-н, Пр. Достык 210",
     "url": "https://krisha.kz/a/show/1011458799",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/899e0bd8-40aa-4163-9d72-a1cee40adad7/1-280x175.jpg\"]"
   },
   {
     "id": 775,
@@ -13174,7 +14722,9 @@ window.LISTINGS = [
     "price_value": 24000000001333333,
     "address": "Толе би 63",
     "url": "https://krisha.kz/a/show/1011751439",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/7d/7dc6de46-b6d6-44db-83f1-789b1b7a34ab/1-280x175.jpg\"]"
   },
   {
     "id": 776,
@@ -13191,7 +14741,9 @@ window.LISTINGS = [
     "price_value": 55000000352564,
     "address": "Наурызбайский р-н, мкр Шугыла 340/37 — ул. Улыкбека угол ул. Бульвар",
     "url": "https://krisha.kz/a/show/1010232500",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f3/f3b21645-ff07-40ed-a667-dfb83f7ca58a/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b21645-ff07-40ed-a667-dfb83f7ca58a/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b21645-ff07-40ed-a667-dfb83f7ca58a/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b21645-ff07-40ed-a667-dfb83f7ca58a/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f3/f3b21645-ff07-40ed-a667-dfb83f7ca58a/6-280x175.jpg\"]"
   },
   {
     "id": 777,
@@ -13208,7 +14760,9 @@ window.LISTINGS = [
     "price_value": 13000000250000,
     "address": "Алатауский р-н, Ырысты 46/7",
     "url": "https://krisha.kz/a/show/1013454038",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/36/36ead6fe-c8a8-4306-aa56-b906c43b3359/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36ead6fe-c8a8-4306-aa56-b906c43b3359/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36ead6fe-c8a8-4306-aa56-b906c43b3359/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36ead6fe-c8a8-4306-aa56-b906c43b3359/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/36/36ead6fe-c8a8-4306-aa56-b906c43b3359/5-280x175.jpg\"]"
   },
   {
     "id": 778,
@@ -13225,7 +14779,9 @@ window.LISTINGS = [
     "price_value": 88000000956522,
     "address": "Алатауский р-н, Северное Кольцо 92/13",
     "url": "https://krisha.kz/a/show/1010497141",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/d1/d14f92a0-5677-422e-a0ed-ccf0fc5a901b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d14f92a0-5677-422e-a0ed-ccf0fc5a901b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d14f92a0-5677-422e-a0ed-ccf0fc5a901b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d14f92a0-5677-422e-a0ed-ccf0fc5a901b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/d1/d14f92a0-5677-422e-a0ed-ccf0fc5a901b/5-280x175.jpg\"]"
   },
   {
     "id": 779,
@@ -13242,7 +14798,9 @@ window.LISTINGS = [
     "price_value": 98370000450000,
     "address": "Алмалинский р-н, Маметова 47 — Желтоксан",
     "url": "https://krisha.kz/a/show/1013495269",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/19/19765208-b7f6-419f-9b01-2a869eddf759/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19765208-b7f6-419f-9b01-2a869eddf759/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/19/19765208-b7f6-419f-9b01-2a869eddf759/3-280x175.jpg\"]"
   },
   {
     "id": 780,
@@ -13259,7 +14817,9 @@ window.LISTINGS = [
     "price_value": 1500000001034483,
     "address": "Ауэзовский р-н, Шаймерденова 32",
     "url": "https://krisha.kz/a/show/1013494844",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2e/2e2fcbae-dabb-43ea-b2d4-2a88c97fa3aa/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e2fcbae-dabb-43ea-b2d4-2a88c97fa3aa/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e2fcbae-dabb-43ea-b2d4-2a88c97fa3aa/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e2fcbae-dabb-43ea-b2d4-2a88c97fa3aa/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2e/2e2fcbae-dabb-43ea-b2d4-2a88c97fa3aa/5-280x175.jpg\"]"
   },
   {
     "id": 781,
@@ -13276,7 +14836,9 @@ window.LISTINGS = [
     "price_value": 28500000662791,
     "address": "Алатауский р-н, мкр 20-й, Мкр 20-й 46 к3",
     "url": "https://krisha.kz/a/show/1010496924",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/6f/6f45fccf-16ef-489f-946e-2521af8a8fac/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f45fccf-16ef-489f-946e-2521af8a8fac/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f45fccf-16ef-489f-946e-2521af8a8fac/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f45fccf-16ef-489f-946e-2521af8a8fac/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/6f/6f45fccf-16ef-489f-946e-2521af8a8fac/5-280x175.jpg\"]"
   },
   {
     "id": 782,
@@ -13293,7 +14855,9 @@ window.LISTINGS = [
     "price_value": 549000001098000,
     "address": "Бостандыкский р-н, Журавлева 28",
     "url": "https://krisha.kz/a/show/1003644462",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/89/8932a3e9-f291-4ee6-99ef-54946d3fe89d/20-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8932a3e9-f291-4ee6-99ef-54946d3fe89d/21-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8932a3e9-f291-4ee6-99ef-54946d3fe89d/24-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8932a3e9-f291-4ee6-99ef-54946d3fe89d/25-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/89/8932a3e9-f291-4ee6-99ef-54946d3fe89d/26-280x175.jpg\"]"
   },
   {
     "id": 783,
@@ -13310,7 +14874,9 @@ window.LISTINGS = [
     "price_value": 1490000001986667,
     "address": "Толе Би 274",
     "url": "https://krisha.kz/a/show/1012251036",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/71/710c663e-0f93-4d64-b0e7-fbc3609c0312/8-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/710c663e-0f93-4d64-b0e7-fbc3609c0312/9-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/710c663e-0f93-4d64-b0e7-fbc3609c0312/10-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/710c663e-0f93-4d64-b0e7-fbc3609c0312/11-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/71/710c663e-0f93-4d64-b0e7-fbc3609c0312/12-280x175.jpg\"]"
   },
   {
     "id": 784,
@@ -13327,7 +14893,9 @@ window.LISTINGS = [
     "price_value": 23500000903846,
     "address": "Бостандыкский р-н, Пр. Абая 150/230 — ЖК Гаухартас",
     "url": "https://krisha.kz/a/show/1013323755",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/a0/a0a0314c-1960-4ad0-a039-fb2aa9e4c7a6/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0a0314c-1960-4ad0-a039-fb2aa9e4c7a6/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0a0314c-1960-4ad0-a039-fb2aa9e4c7a6/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0a0314c-1960-4ad0-a039-fb2aa9e4c7a6/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/a0/a0a0314c-1960-4ad0-a039-fb2aa9e4c7a6/5-280x175.jpg\"]"
   },
   {
     "id": 785,
@@ -13344,7 +14912,9 @@ window.LISTINGS = [
     "price_value": 59000000923318,
     "address": "Алатауский р-н, мкр Акбулак, Байтерекова 51 — Almaty arena",
     "url": "https://krisha.kz/a/show/1011630193",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/ec/ec6c9c22-4345-4c65-82d6-043ee8abc25f/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec6c9c22-4345-4c65-82d6-043ee8abc25f/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec6c9c22-4345-4c65-82d6-043ee8abc25f/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec6c9c22-4345-4c65-82d6-043ee8abc25f/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/ec/ec6c9c22-4345-4c65-82d6-043ee8abc25f/5-280x175.jpg\"]"
   },
   {
     "id": 786,
@@ -13361,7 +14931,9 @@ window.LISTINGS = [
     "price_value": 590000001475000,
     "address": "Бостандыкский р-н, Розыбакиев 117 — Розыбакиев Жандосов",
     "url": "https://krisha.kz/a/show/1012329192",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/28/2880d748-1fd9-4d52-bda6-be71301deeff/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2880d748-1fd9-4d52-bda6-be71301deeff/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2880d748-1fd9-4d52-bda6-be71301deeff/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2880d748-1fd9-4d52-bda6-be71301deeff/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/28/2880d748-1fd9-4d52-bda6-be71301deeff/5-280x175.jpg\"]"
   },
   {
     "id": 787,
@@ -13378,7 +14950,9 @@ window.LISTINGS = [
     "price_value": 120000000342857,
     "address": "Алмалинский р-н, Айтеке Би 200",
     "url": "https://krisha.kz/a/show/1003315712",
-    "first_seen": "2026-06-28T19:35:38"
+    "first_seen": "2026-06-28T19:35:38",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/24/24e04694-ee66-4ab1-b13e-d7733507daa4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24e04694-ee66-4ab1-b13e-d7733507daa4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24e04694-ee66-4ab1-b13e-d7733507daa4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24e04694-ee66-4ab1-b13e-d7733507daa4/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/24/24e04694-ee66-4ab1-b13e-d7733507daa4/5-280x175.jpg\"]"
   },
   {
     "id": 788,
@@ -13395,7 +14969,9 @@ window.LISTINGS = [
     "price_value": 195000000735849,
     "address": "Алатауский р-н, Райымбека 467А — Саина-Ташкентская",
     "url": "https://krisha.kz/a/show/1011133765",
-    "first_seen": "2026-06-28T19:35:44"
+    "first_seen": "2026-06-28T19:35:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/92/92a1ae57-e9aa-4bd8-8304-cd2d3e067a81/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92a1ae57-e9aa-4bd8-8304-cd2d3e067a81/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92a1ae57-e9aa-4bd8-8304-cd2d3e067a81/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92a1ae57-e9aa-4bd8-8304-cd2d3e067a81/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/92/92a1ae57-e9aa-4bd8-8304-cd2d3e067a81/5-280x175.jpg\"]"
   },
   {
     "id": 789,
@@ -13412,7 +14988,9 @@ window.LISTINGS = [
     "price_value": 12000000120000,
     "address": "Наурызбайский р-н, Каргалы 55",
     "url": "https://krisha.kz/a/show/1009318376",
-    "first_seen": "2026-06-28T19:35:44"
+    "first_seen": "2026-06-28T19:35:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e4/e446a3d5-9acc-42f7-844f-711d6b2d9332/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e446a3d5-9acc-42f7-844f-711d6b2d9332/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e446a3d5-9acc-42f7-844f-711d6b2d9332/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e446a3d5-9acc-42f7-844f-711d6b2d9332/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e4/e446a3d5-9acc-42f7-844f-711d6b2d9332/5-280x175.jpg\"]"
   },
   {
     "id": 790,
@@ -13429,7 +15007,9 @@ window.LISTINGS = [
     "price_value": 9500000213483,
     "address": "Медеуский р-н, Атагельды Исмаилова улица 58/3 — Жилой комплекс Ashyq Tobe, рядом с Aport Mall East",
     "url": "https://krisha.kz/a/show/1013064689",
-    "first_seen": "2026-06-28T19:35:44"
+    "first_seen": "2026-06-28T19:35:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/88/8875bb85-599c-4280-bc38-cbe622c59f33/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8875bb85-599c-4280-bc38-cbe622c59f33/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8875bb85-599c-4280-bc38-cbe622c59f33/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8875bb85-599c-4280-bc38-cbe622c59f33/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/88/8875bb85-599c-4280-bc38-cbe622c59f33/5-280x175.jpg\"]"
   },
   {
     "id": 791,
@@ -13446,7 +15026,9 @@ window.LISTINGS = [
     "price_value": 15000000428571,
     "address": "Медеуский р-н, Кульджинский тракт 16/11 — Развилка",
     "url": "https://krisha.kz/a/show/1013494308",
-    "first_seen": "2026-06-28T19:35:44"
+    "first_seen": "2026-06-28T19:35:44",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/53/533d6dc9-e4ac-4d22-a5f5-7480ba6a8a3b/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/533d6dc9-e4ac-4d22-a5f5-7480ba6a8a3b/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/533d6dc9-e4ac-4d22-a5f5-7480ba6a8a3b/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/533d6dc9-e4ac-4d22-a5f5-7480ba6a8a3b/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/53/533d6dc9-e4ac-4d22-a5f5-7480ba6a8a3b/5-280x175.jpg\"]"
   },
   {
     "id": 792,
@@ -13463,7 +15045,9 @@ window.LISTINGS = [
     "price_value": 23000000,
     "address": "Бостандыкский р-н, С/т Ремизовка 28 — Рядом с коттеджным  городком Асем Тау",
     "url": "https://krisha.kz/a/show/1001340710",
-    "first_seen": "2026-06-28T19:36:02"
+    "first_seen": "2026-06-28T19:36:02",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3d/3d4b2d04-2030-45bc-b2c3-5305c43322e4/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d4b2d04-2030-45bc-b2c3-5305c43322e4/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d4b2d04-2030-45bc-b2c3-5305c43322e4/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d4b2d04-2030-45bc-b2c3-5305c43322e4/6-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3d/3d4b2d04-2030-45bc-b2c3-5305c43322e4/7-280x175.jpg\"]"
   },
   {
     "id": 793,
@@ -13480,7 +15064,9 @@ window.LISTINGS = [
     "price_value": 25000000,
     "address": "15 линия",
     "url": "https://krisha.kz/a/show/1006768492",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e8/e8e0546b-57e4-44fa-a6a6-e3844ff6fd75/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8e0546b-57e4-44fa-a6a6-e3844ff6fd75/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8e0546b-57e4-44fa-a6a6-e3844ff6fd75/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8e0546b-57e4-44fa-a6a6-e3844ff6fd75/12-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e8/e8e0546b-57e4-44fa-a6a6-e3844ff6fd75/13-280x175.jpg\"]"
   },
   {
     "id": 794,
@@ -13497,7 +15083,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Медеуский р-н, мкр Кенсай, Мкр Кенсай. Горводопровод 7 — Мустафа Шокай",
     "url": "https://krisha.kz/a/show/1012901484",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 795,
@@ -13514,7 +15102,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Медеуский р-н, мкр Каменское плато",
     "url": "https://krisha.kz/a/show/1008645141",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/9a/9a805347-ab31-4daa-9aa4-d0415151aa41/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9a/9a805347-ab31-4daa-9aa4-d0415151aa41/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9a/9a805347-ab31-4daa-9aa4-d0415151aa41/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9a/9a805347-ab31-4daa-9aa4-d0415151aa41/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/9a/9a805347-ab31-4daa-9aa4-d0415151aa41/5-280x175.jpg\"]"
   },
   {
     "id": 796,
@@ -13531,7 +15121,9 @@ window.LISTINGS = [
     "price_value": 37000000,
     "address": "Медеуский р-н, мкр Кенсай 22",
     "url": "https://krisha.kz/a/show/1011602280",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2c/2cea9276-eb56-4e9d-90de-4bafd33c77b2/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2cea9276-eb56-4e9d-90de-4bafd33c77b2/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2cea9276-eb56-4e9d-90de-4bafd33c77b2/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2cea9276-eb56-4e9d-90de-4bafd33c77b2/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2cea9276-eb56-4e9d-90de-4bafd33c77b2/5-280x175.jpg\"]"
   },
   {
     "id": 797,
@@ -13548,7 +15140,9 @@ window.LISTINGS = [
     "price_value": 5500000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/1002984525",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/e6/e619b2c9-7bdf-4e65-bfe8-5bf6cf4d0fbf/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e619b2c9-7bdf-4e65-bfe8-5bf6cf4d0fbf/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/e6/e619b2c9-7bdf-4e65-bfe8-5bf6cf4d0fbf/3-280x175.jpg\"]"
   },
   {
     "id": 798,
@@ -13565,7 +15159,9 @@ window.LISTINGS = [
     "price_value": 13000000,
     "address": "Медеуский р-н, мкр Кенсай",
     "url": "https://krisha.kz/a/show/683762110",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/61/61b32bef-75cb-4eec-8482-989d58b70274/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61b32bef-75cb-4eec-8482-989d58b70274/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61b32bef-75cb-4eec-8482-989d58b70274/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61b32bef-75cb-4eec-8482-989d58b70274/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/61/61b32bef-75cb-4eec-8482-989d58b70274/5-280x175.jpg\"]"
   },
   {
     "id": 799,
@@ -13582,7 +15178,9 @@ window.LISTINGS = [
     "price_value": 1000000,
     "address": "Медеуский р-н, Садоводческое товарищество Сантехник 1",
     "url": "https://krisha.kz/a/show/1011999419",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/27/2769aaa5-4bd7-4ae4-adee-dacd62a4eaf9/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/2769aaa5-4bd7-4ae4-adee-dacd62a4eaf9/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/2769aaa5-4bd7-4ae4-adee-dacd62a4eaf9/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/2769aaa5-4bd7-4ae4-adee-dacd62a4eaf9/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/27/2769aaa5-4bd7-4ae4-adee-dacd62a4eaf9/5-280x175.jpg\"]"
   },
   {
     "id": 800,
@@ -13599,7 +15197,9 @@ window.LISTINGS = [
     "price_value": 20000000,
     "address": "Медеуский р-н, мкр Каменское плато, С/т Домостроитель 261",
     "url": "https://krisha.kz/a/show/1012918793",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/be/be6d8568-9e20-4950-8e6e-387afc537e87/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/be6d8568-9e20-4950-8e6e-387afc537e87/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/be6d8568-9e20-4950-8e6e-387afc537e87/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/be6d8568-9e20-4950-8e6e-387afc537e87/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/be/be6d8568-9e20-4950-8e6e-387afc537e87/5-280x175.jpg\"]"
   },
   {
     "id": 801,
@@ -13616,7 +15216,9 @@ window.LISTINGS = [
     "price_value": 35000000,
     "address": "Бостандыкский р-н, мкр Ерменсай, ул. Садовая 20",
     "url": "https://krisha.kz/a/show/1012898468",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/3c/3c66a915-5da1-4953-a15f-610c16169cdb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c66a915-5da1-4953-a15f-610c16169cdb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/3c/3c66a915-5da1-4953-a15f-610c16169cdb/3-280x175.jpg\"]"
   },
   {
     "id": 802,
@@ -13633,7 +15235,9 @@ window.LISTINGS = [
     "price_value": 33000000,
     "address": "Наурызбайский р-н, Мира 45",
     "url": "https://krisha.kz/a/show/1002229225",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/f2/f2d0d60b-2a2e-4f8a-b420-a40a59acfbcb/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d0d60b-2a2e-4f8a-b420-a40a59acfbcb/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d0d60b-2a2e-4f8a-b420-a40a59acfbcb/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d0d60b-2a2e-4f8a-b420-a40a59acfbcb/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/f2/f2d0d60b-2a2e-4f8a-b420-a40a59acfbcb/5-280x175.jpg\"]"
   },
   {
     "id": 803,
@@ -13650,7 +15254,9 @@ window.LISTINGS = [
     "price_value": 33500000,
     "address": "Наурызбайский р-н, мкр Тастыбулак 27",
     "url": "https://krisha.kz/a/show/1002960597",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "черновая",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/39/39714eb8-2ca0-4a03-82a4-c8b6b0b75524/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39714eb8-2ca0-4a03-82a4-c8b6b0b75524/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39714eb8-2ca0-4a03-82a4-c8b6b0b75524/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39714eb8-2ca0-4a03-82a4-c8b6b0b75524/5-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/39/39714eb8-2ca0-4a03-82a4-c8b6b0b75524/6-280x175.jpg\"]"
   },
   {
     "id": 804,
@@ -13667,7 +15273,9 @@ window.LISTINGS = [
     "price_value": 15000000,
     "address": "Алатауский р-н, Центральная улица",
     "url": "https://krisha.kz/a/show/1010967527",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/fa/fa6b1bfc-3c82-4d29-985e-a5bac22d8617/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/fa/fa6b1bfc-3c82-4d29-985e-a5bac22d8617/2-280x175.jpg\"]"
   },
   {
     "id": 805,
@@ -13684,7 +15292,9 @@ window.LISTINGS = [
     "price_value": 32500000,
     "address": "Наурызбайский р-н, мкр Акжар, Ст. Весна-65 159",
     "url": "https://krisha.kz/a/show/1013498509",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 806,
@@ -13701,7 +15311,9 @@ window.LISTINGS = [
     "price_value": 7000000,
     "address": "Мичурина 73 — Енбекшиказахский район с.о. рахатский, село кайназар , участок 73",
     "url": "https://krisha.kz/a/show/1013498155",
-    "first_seen": "2026-06-28T19:36:07"
+    "first_seen": "2026-06-28T19:36:07",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 807,
@@ -13718,7 +15330,9 @@ window.LISTINGS = [
     "price_value": 26000000,
     "address": "Медеуский р-н, мкр Алатау (ИЯФ), Гульдер 79в",
     "url": "https://krisha.kz/a/show/1013302300",
-    "first_seen": "2026-06-28T19:36:13"
+    "first_seen": "2026-06-28T19:36:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2c/2c1e49a9-a590-42d5-acc8-64f2ecc18016/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1e49a9-a590-42d5-acc8-64f2ecc18016/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1e49a9-a590-42d5-acc8-64f2ecc18016/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1e49a9-a590-42d5-acc8-64f2ecc18016/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2c/2c1e49a9-a590-42d5-acc8-64f2ecc18016/5-280x175.jpg\"]"
   },
   {
     "id": 808,
@@ -13735,7 +15349,9 @@ window.LISTINGS = [
     "price_value": 305000000,
     "address": "Наурызбайский р-н, Мамыр — улица мамыр выше Абая",
     "url": "https://krisha.kz/a/show/1004867544",
-    "first_seen": "2026-06-28T19:36:13"
+    "first_seen": "2026-06-28T19:36:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/85/8588fccb-5fc7-4519-a720-46664b3a1305/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8588fccb-5fc7-4519-a720-46664b3a1305/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8588fccb-5fc7-4519-a720-46664b3a1305/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8588fccb-5fc7-4519-a720-46664b3a1305/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/85/8588fccb-5fc7-4519-a720-46664b3a1305/5-280x175.jpg\"]"
   },
   {
     "id": 809,
@@ -13752,7 +15368,9 @@ window.LISTINGS = [
     "price_value": 12000000,
     "address": "Пкст ардагер-ветеран 76 — 36 улица",
     "url": "https://krisha.kz/a/show/1012896369",
-    "first_seen": "2026-06-28T19:36:13"
+    "first_seen": "2026-06-28T19:36:13",
+    "condition": "ремонт",
+    "photos": "[\"https://krisha-photos.kcdn.online/webp/2b/2b8e07b2-8a1a-4707-a635-0b946f9b1e46/1-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b8e07b2-8a1a-4707-a635-0b946f9b1e46/2-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b8e07b2-8a1a-4707-a635-0b946f9b1e46/3-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b8e07b2-8a1a-4707-a635-0b946f9b1e46/4-280x175.jpg\", \"https://krisha-photos.kcdn.online/webp/2b/2b8e07b2-8a1a-4707-a635-0b946f9b1e46/5-280x175.jpg\"]"
   },
   {
     "id": 810,
@@ -13769,7 +15387,9 @@ window.LISTINGS = [
     "price_value": 10000000,
     "address": "Медеуский р-н, мкр Бутаковка — Замантас",
     "url": "https://krisha.kz/a/show/1013496055",
-    "first_seen": "2026-06-28T19:36:13"
+    "first_seen": "2026-06-28T19:36:13",
+    "condition": "",
+    "photos": "[]"
   },
   {
     "id": 811,
@@ -13786,7 +15406,8217 @@ window.LISTINGS = [
     "price_value": 7500000,
     "address": "Медеуский р-н, Центральная",
     "url": "https://krisha.kz/a/show/1013494495",
-    "first_seen": "2026-06-28T19:36:13"
+    "first_seen": "2026-06-28T19:36:13",
+    "condition": "",
+    "photos": "[]"
+  },
+  {
+    "id": 812,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 51.81,
+    "floor": null,
+    "total_floors": null,
+    "district": "пос. Гульдала",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 51.81 м²",
+    "price_text": "от 23 055 450₸",
+    "price_value": 23055450,
+    "address": "пос. Гульдала",
+    "url": "https://krisha.kz/a/show/1008940815",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 813,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 74.6,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 74.6 м²",
+    "price_text": "от 48 490 000₸",
+    "price_value": 48490000,
+    "address": "Наурызбайский р-н, мкр Таусамалы, Жандосова 70Б",
+    "url": "https://krisha.kz/a/show/682828219",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 814,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 63.82,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 63.82 м²",
+    "price_text": "от 24 889 800₸",
+    "price_value": 24889800,
+    "address": "​Промзона территория 216",
+    "url": "https://krisha.kz/a/show/1010545428",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 815,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 52.74,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 52.74 м²",
+    "price_text": "от 41 031 720₸",
+    "price_value": 41031720,
+    "address": "Турксибский р-н, Тараз 8/1",
+    "url": "https://krisha.kz/a/show/694704252",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 816,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 45.0,
+    "floor": 5,
+    "total_floors": 9,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 45 м² · 5/9 этаж",
+    "price_text": "45 500 000₸",
+    "price_value": 45500000,
+    "address": "Ауэзовский р-н, Навои 58/4",
+    "url": "https://krisha.kz/a/show/1012911865",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 817,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 92.0,
+    "floor": 4,
+    "total_floors": 9,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 92 м² · 4/9 этаж",
+    "price_text": "68 900 000₸",
+    "price_value": 68900000,
+    "address": "Алмалинский р-н, Богенбай батыра 279",
+    "url": "https://krisha.kz/a/show/1011813834",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 818,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 68.0,
+    "floor": 3,
+    "total_floors": 7,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 68 м² · 3/7 этаж",
+    "price_text": "122 000 000₸",
+    "price_value": 122000000,
+    "address": "Медеуский р-н, Митина 4",
+    "url": "https://krisha.kz/a/show/1013043093",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 819,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 60.4,
+    "floor": 2,
+    "total_floors": 5,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 60.4 м² · 2/5 этаж",
+    "price_text": "28 800 000₸",
+    "price_value": 28800000,
+    "address": "Жетысуский р-н, мкр Кокжиек, Геологов 10б",
+    "url": "https://krisha.kz/a/show/1013267190",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 820,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 80.0,
+    "floor": 1,
+    "total_floors": 4,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 80 м² · 1/4 этаж",
+    "price_text": "65 000 000₸",
+    "price_value": 65000000,
+    "address": "Бостандыкский р-н, Байтурсынова 98-1",
+    "url": "https://krisha.kz/a/show/1013014152",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 821,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 52.0,
+    "floor": 10,
+    "total_floors": 10,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 52 м² · 10/10 этаж",
+    "price_text": "43 500 000₸",
+    "price_value": 43500000,
+    "address": "Бостандыкский р-н, Мкр. Керемет 6",
+    "url": "https://krisha.kz/a/show/760192677",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 822,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 75.8,
+    "floor": 6,
+    "total_floors": 9,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 75.8 м² · 6/9 этаж",
+    "price_text": "39 990 000₸",
+    "price_value": 39990000,
+    "address": "Турксибский р-н, мкр Жас Канат, мкр. Жас Канат 1/31",
+    "url": "https://krisha.kz/a/show/1013602670",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 823,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 5,
+    "area": 160.0,
+    "floor": 3,
+    "total_floors": 6,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "5-комнатная квартира · 160 м² · 3/6 этаж",
+    "price_text": "280 000 000₸",
+    "price_value": 280000000,
+    "address": "Бостандыкский р-н, мкр Мирас 31",
+    "url": "https://krisha.kz/a/show/1012329360",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 824,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 125.0,
+    "floor": 11,
+    "total_floors": 12,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 125 м² · 11/12 этаж",
+    "price_text": "237 000 000₸",
+    "price_value": 237000000,
+    "address": "Бостандыкский р-н, Радостовца 359",
+    "url": "https://krisha.kz/a/show/1012452796",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 825,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 86.8,
+    "floor": 4,
+    "total_floors": 8,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 86.8 м² · 4/8 этаж",
+    "price_text": "69 500 000₸",
+    "price_value": 69500000,
+    "address": "Медеуский р-н, Омаровой 39",
+    "url": "https://krisha.kz/a/show/1003614267",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 826,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.66,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 65.66 м²",
+    "price_text": "от 35 456 400₸",
+    "price_value": 35456400,
+    "address": "Алатауский р-н, мкр Аккент 90/3",
+    "url": "https://krisha.kz/a/show/1008768027",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 827,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 59.0,
+    "floor": 4,
+    "total_floors": 5,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 59 м² · 4/5 этаж",
+    "price_text": "38 500 000₸",
+    "price_value": 38500000,
+    "address": "Алмалинский р-н, Гагарина 12",
+    "url": "https://krisha.kz/a/show/1013443962",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 828,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.0,
+    "floor": 4,
+    "total_floors": 5,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 65 м² · 4/5 этаж",
+    "price_text": "59 900 000₸",
+    "price_value": 59900000,
+    "address": "Бостандыкский р-н, Назарбаева 235 — Аль-Фараби",
+    "url": "https://krisha.kz/a/show/1012592624",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 829,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 6,
+    "area": 140.0,
+    "floor": 1,
+    "total_floors": 3,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "6-комнатная квартира · 140 м² · 1/3 этаж",
+    "price_text": "69 000 000₸",
+    "price_value": 69000000,
+    "address": "Бостандыкский р-н, 16 улица 5",
+    "url": "https://krisha.kz/a/show/1010997793",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 830,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 115.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 115 м²",
+    "price_text": "от 191 705 000₸",
+    "price_value": 191705000,
+    "address": "Бостандыкский р-н, Кожабекова 17/2",
+    "url": "https://krisha.kz/a/show/1008497889",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 831,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 68.06,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 68.06 м²",
+    "price_text": "от 66 854 922₸",
+    "price_value": 66854922,
+    "address": "Медеуский р-н, ​Приканальная БАК 99а",
+    "url": "https://krisha.kz/a/show/1009994990",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 832,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 65.5 м²",
+    "price_text": "от 30 000 000₸",
+    "price_value": 30000000,
+    "address": "вдоль Капчагайской трассы",
+    "url": "https://krisha.kz/a/show/682004958",
+    "first_seen": "2026-07-03T23:33:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 833,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 87.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 87.3 м²",
+    "price_text": "от 61 110 000₸",
+    "price_value": 61110000,
+    "address": "Ауэзовский р-н, мкр Жетысу-3 55А",
+    "url": "https://krisha.kz/a/show/1003290035",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 834,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 121.0,
+    "floor": 14,
+    "total_floors": 18,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 121 м² · 14/18 этаж",
+    "price_text": "140 000 000₸",
+    "price_value": 140000000,
+    "address": "Бостандыкский р-н, Розыбакиева 237",
+    "url": "https://krisha.kz/a/show/1012652900",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 835,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 57.0,
+    "floor": 14,
+    "total_floors": 15,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 57 м² · 14/15 этаж",
+    "price_text": "55 000 000₸",
+    "price_value": 55000000,
+    "address": "Бостандыкский р-н, Жандосова 94/8",
+    "url": "https://krisha.kz/a/show/1010258078",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 836,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 40.0,
+    "floor": 2,
+    "total_floors": 9,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 40 м² · 2/9 этаж",
+    "price_text": "28 200 000₸",
+    "price_value": 28200000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Алатау 12а/1",
+    "url": "https://krisha.kz/a/show/1013515016",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 837,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 74.0,
+    "floor": 2,
+    "total_floors": 4,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 74 м² · 2/4 этаж",
+    "price_text": "69 000 000₸",
+    "price_value": 69000000,
+    "address": "Ауэзовский р-н, мкр Аксай-5 25к1",
+    "url": "https://krisha.kz/a/show/1013078702",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 838,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 100.0,
+    "floor": 3,
+    "total_floors": 14,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 100 м² · 3/14 этаж",
+    "price_text": "72 000 000₸",
+    "price_value": 72000000,
+    "address": "Бостандыкский р-н, Торайгырова 25",
+    "url": "https://krisha.kz/a/show/1010251968",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 839,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 63.0,
+    "floor": 3,
+    "total_floors": 5,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 63 м² · 3/5 этаж",
+    "price_text": "47 000 000₸",
+    "price_value": 47000000,
+    "address": "Бостандыкский р-н, мкр Орбита-2 12",
+    "url": "https://krisha.kz/a/show/1009275798",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 840,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 175.0,
+    "floor": 13,
+    "total_floors": 18,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 175 м² · 13/18 этаж",
+    "price_text": "150 000 000₸",
+    "price_value": 150000000,
+    "address": "Медеуский р-н, мкр Самал-2, Достык 97 — Пр.Аль-Фараби",
+    "url": "https://krisha.kz/a/show/1011110570",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 841,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 56.79,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 56.79 м²",
+    "price_text": "от 52 651 834₸",
+    "price_value": 52651834,
+    "address": "Турксибский р-н, Тараз 8/1",
+    "url": "https://krisha.kz/a/show/694704254",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 842,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 39.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 39.5 м²",
+    "price_text": "от 20 500 000₸",
+    "price_value": 20500000,
+    "address": "вдоль Капчагайской трассы",
+    "url": "https://krisha.kz/a/show/682004961",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 843,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 105.0,
+    "floor": 14,
+    "total_floors": 20,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 105 м² · 14/20 этаж",
+    "price_text": "120 000 000₸",
+    "price_value": 120000000,
+    "address": "Бостандыкский р-н, Гагарина 310",
+    "url": "https://krisha.kz/a/show/1013663796",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 844,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 75.21,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 75.21 м²",
+    "price_text": "от 59 415 900₸",
+    "price_value": 59415900,
+    "address": "Турксибский р-н, Тараз 8/1",
+    "url": "https://krisha.kz/a/show/694704256",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 845,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 35.78,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 35.78 м²",
+    "price_text": "от 26 835 000₸",
+    "price_value": 26835000,
+    "address": "Алатауский р-н, мкр Теректы, Райымбек 535/2",
+    "url": "https://krisha.kz/a/show/1009979080",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 846,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 69.56,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 69.56 м²",
+    "price_text": "от 50 732 791₸",
+    "price_value": 50732791,
+    "address": "Алатауский р-н, мкр Теректы, Райымбек 535/2",
+    "url": "https://krisha.kz/a/show/1009980698",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 847,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 102.0,
+    "floor": 14,
+    "total_floors": 25,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 102 м² · 14/25 этаж",
+    "price_text": "87 500 000₸",
+    "price_value": 87500000,
+    "address": "Бостандыкский р-н, Кекилбайулы 270",
+    "url": "https://krisha.kz/a/show/1012900340",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 848,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 122.0,
+    "floor": 1,
+    "total_floors": 14,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 122 м² · 1/14 этаж",
+    "price_text": "81 900 000₸",
+    "price_value": 81900000,
+    "address": "Бостандыкский р-н, Масанчи 98б — Абая",
+    "url": "https://krisha.kz/a/show/1001103580",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 849,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 59.61,
+    "floor": 1,
+    "total_floors": 5,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 59.61 м² · 1/5 этаж",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Алатауский р-н, мкр 20-й, 20-й микрорайон",
+    "url": "https://krisha.kz/a/show/1013134549",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 850,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 41.0,
+    "floor": 3,
+    "total_floors": 4,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 41 м² · 3/4 этаж",
+    "price_text": "34 000 000₸",
+    "price_value": 34000000,
+    "address": "Бостандыкский р-н, Розыбакиева 125/1 — Жандосова",
+    "url": "https://krisha.kz/a/show/1013570714",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 851,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 46.0,
+    "floor": 4,
+    "total_floors": 4,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 46 м² · 4/4 этаж",
+    "price_text": "33 000 000₸",
+    "price_value": 33000000,
+    "address": "Ауэзовский р-н, мкр №9 69/3 — Саина Жандосова",
+    "url": "https://krisha.kz/a/show/1012715679",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 852,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 172.0,
+    "floor": 7,
+    "total_floors": 33,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 172 м² · 7/33 этаж",
+    "price_text": "152 000 000₸",
+    "price_value": 152000000,
+    "address": "Бостандыкский р-н, Аль-фараби 15/1",
+    "url": "https://krisha.kz/a/show/1010113421",
+    "first_seen": "2026-07-03T23:33:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 853,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 40.0,
+    "floor": 9,
+    "total_floors": 9,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 40 м² · 9/9 этаж",
+    "price_text": "28 000 000₸",
+    "price_value": 28000000,
+    "address": "Ауэзовский р-н, мкр Жетысу-1 30 — Абая/Момышұлы",
+    "url": "https://krisha.kz/a/show/1013601158",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 854,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 82.18,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 82.18 м²",
+    "price_text": "от 57 279 460₸",
+    "price_value": 57279460,
+    "address": "Алатауский р-н, мкр Ботакоз 2/1",
+    "url": "https://krisha.kz/a/show/695180125",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 855,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 138.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "4-комнатная квартира · 138 м²",
+    "price_text": "от 230 046 000₸",
+    "price_value": 230046000,
+    "address": "Бостандыкский р-н, Кожабекова 17/2",
+    "url": "https://krisha.kz/a/show/1008497891",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 856,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 110.0,
+    "floor": 4,
+    "total_floors": 12,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 110 м² · 4/12 этаж",
+    "price_text": "125 000 000₸",
+    "price_value": 125000000,
+    "address": "Бостандыкский р-н, просп. Назарбаева 223блок4А",
+    "url": "https://krisha.kz/a/show/1012328216",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 857,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 106.0,
+    "floor": 5,
+    "total_floors": 6,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 106 м² · 5/6 этаж",
+    "price_text": "58 500 000₸",
+    "price_value": 58500000,
+    "address": "Турксибский р-н, Кайрат микрорайон 716/16",
+    "url": "https://krisha.kz/a/show/1013276042",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 858,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 36.0,
+    "floor": 5,
+    "total_floors": 6,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 36 м² · 5/6 этаж",
+    "price_text": "27 900 000₸",
+    "price_value": 27900000,
+    "address": "Турксибский р-н, Кайрат микрорайон 716/16",
+    "url": "https://krisha.kz/a/show/1013276085",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 859,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 55.9,
+    "floor": 5,
+    "total_floors": 9,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 55.9 м² · 5/9 этаж",
+    "price_text": "40 500 000₸",
+    "price_value": 40500000,
+    "address": "Ауэзовский р-н, мкр Жетысу-3 — Абая Момышулы",
+    "url": "https://krisha.kz/a/show/1011826269",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 860,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 106.0,
+    "floor": 3,
+    "total_floors": 4,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 106 м² · 3/4 этаж",
+    "price_text": "92 000 000₸",
+    "price_value": 92000000,
+    "address": "Наурызбайский р-н, ​Герольда Бельгера 6",
+    "url": "https://krisha.kz/a/show/1011427604",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 861,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 76.0,
+    "floor": 5,
+    "total_floors": 5,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 76 м² · 5/5 этаж",
+    "price_text": "39 000 000₸",
+    "price_value": 39000000,
+    "address": "Турксибский р-н, Молдагалиева 18а",
+    "url": "https://krisha.kz/a/show/1010102962",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 862,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 88.0,
+    "floor": 3,
+    "total_floors": 6,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 88 м² · 3/6 этаж",
+    "price_text": "48 500 000₸",
+    "price_value": 48500000,
+    "address": "Турксибский р-н, Кайрат микрорайон 716/16",
+    "url": "https://krisha.kz/a/show/1013275997",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 863,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 103.0,
+    "floor": 5,
+    "total_floors": 7,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 103 м² · 5/7 этаж",
+    "price_text": "250 000 000₸",
+    "price_value": 250000000,
+    "address": "Медеуский р-н, Талгат Бигелдинов",
+    "url": "https://krisha.kz/a/show/1012577254",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 864,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 50.4,
+    "floor": 10,
+    "total_floors": 13,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 50.4 м² · 10/13 этаж",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Ауэзовский р-н, микрорайон Астана, 1/19 1/19 — Джандосова",
+    "url": "https://krisha.kz/a/show/1013592096",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 865,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 96.8,
+    "floor": 2,
+    "total_floors": 13,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 96.8 м² · 2/13 этаж",
+    "price_text": "68 000 000₸",
+    "price_value": 68000000,
+    "address": "Алмалинский р-н, Муратбаева 16",
+    "url": "https://krisha.kz/a/show/1008322797",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 866,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 216.0,
+    "floor": 1,
+    "total_floors": 3,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 216 м² · 1/3 этаж",
+    "price_text": "220 000 000₸",
+    "price_value": 220000000,
+    "address": "Медеуский р-н, мкр Горный Гигант, Тайманова 222/6",
+    "url": "https://krisha.kz/a/show/1013154680",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 867,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 48.93,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 48.93 м²",
+    "price_text": "от 42 610 890₸",
+    "price_value": 42610890,
+    "address": "Турксибский р-н, Тараз 8/1",
+    "url": "https://krisha.kz/a/show/694704253",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 868,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 45.65,
+    "floor": null,
+    "total_floors": null,
+    "district": "пос. Гульдала",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 45.65 м²",
+    "price_text": "от 20 314 250₸",
+    "price_value": 20314250,
+    "address": "пос. Гульдала",
+    "url": "https://krisha.kz/a/show/1005244478",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 869,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 28.92,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 28.92 м²",
+    "price_text": "от 28 094 412₸",
+    "price_value": 28094412,
+    "address": "Турксибский р-н, Кайрат микрорайон 716/16",
+    "url": "https://krisha.kz/a/show/1009998935",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 870,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 83.75,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 83.75 м²",
+    "price_text": "от 58 625 000₸",
+    "price_value": 58625000,
+    "address": "Алатауский р-н, Бауыржана Момышулы 11/14а",
+    "url": "https://krisha.kz/a/show/1009983427",
+    "first_seen": "2026-07-03T23:34:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 871,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 132.6,
+    "floor": 6,
+    "total_floors": 9,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 132.6 м² · 6/9 этаж",
+    "price_text": "180 000 000₸",
+    "price_value": 180000000,
+    "address": "Медеуский р-н, Достык 250 — Омаровой",
+    "url": "https://krisha.kz/a/show/1009710115",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 872,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 60.0,
+    "floor": 3,
+    "total_floors": 4,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 60 м² · 3/4 этаж",
+    "price_text": "44 000 000₸",
+    "price_value": 44000000,
+    "address": "Ауэзовский р-н, мкр №1 48 — Улыкбек Алтынсарина",
+    "url": "https://krisha.kz/a/show/1012776382",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 873,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 66.3,
+    "floor": 13,
+    "total_floors": 13,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 66.3 м² · 13/13 этаж",
+    "price_text": "69 000 000₸",
+    "price_value": 69000000,
+    "address": "Алмалинский р-н, Муратбаева 46 — Макатаева",
+    "url": "https://krisha.kz/a/show/1013134637",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 874,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 40.0,
+    "floor": 1,
+    "total_floors": 9,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 40 м² · 1/9 этаж",
+    "price_text": "27 500 000₸",
+    "price_value": 27500000,
+    "address": "Алмалинский р-н, Туркебаева",
+    "url": "https://krisha.kz/a/show/1012012481",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 875,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 95.0,
+    "floor": 9,
+    "total_floors": 10,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 95 м² · 9/10 этаж",
+    "price_text": "81 420 000₸",
+    "price_value": 81420000,
+    "address": "Алмалинский р-н, Нурмакова 148 — угол ул. Карасай батыра",
+    "url": "https://krisha.kz/a/show/1012339896",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 876,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 89.0,
+    "floor": 4,
+    "total_floors": 16,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 89 м² · 4/16 этаж",
+    "price_text": "73 000 000₸",
+    "price_value": 73000000,
+    "address": "Бостандыкский р-н, Абая 150/230 блок11 — Каримова",
+    "url": "https://krisha.kz/a/show/697997698",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 877,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 78.0,
+    "floor": 2,
+    "total_floors": 9,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 78 м² · 2/9 этаж",
+    "price_text": "74 000 000₸",
+    "price_value": 74000000,
+    "address": "Бостандыкский р-н, ул. Каныша Сатпаева 90А/1",
+    "url": "https://krisha.kz/a/show/1011928171",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 878,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 45.0,
+    "floor": 4,
+    "total_floors": 16,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 45 м² · 4/16 этаж",
+    "price_text": "39 900 000₸",
+    "price_value": 39900000,
+    "address": "Медеуский р-н, Кунаева 15/1",
+    "url": "https://krisha.kz/a/show/1013527529",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 879,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 65.08,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 65.08 м²",
+    "price_text": "от 25 381 200₸",
+    "price_value": 25381200,
+    "address": "​Промзона территория 216",
+    "url": "https://krisha.kz/a/show/1010545429",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 880,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 5,
+    "area": 190.0,
+    "floor": 9,
+    "total_floors": 9,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "5-комнатная квартира · 190 м² · 9/9 этаж",
+    "price_text": "220 000 000₸",
+    "price_value": 220000000,
+    "address": "Медеуский р-н, Достык 250 — Омаровой",
+    "url": "https://krisha.kz/a/show/1011941583",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 881,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 46.9,
+    "floor": 4,
+    "total_floors": 5,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 46.9 м² · 4/5 этаж",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Алатауский р-н, мкр Коккайнар, 20-й микрорайон 46 к19",
+    "url": "https://krisha.kz/a/show/1013663545",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 882,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 70.63,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 70.63 м²",
+    "price_text": "от 57 086 360₸",
+    "price_value": 57086360,
+    "address": "Наурызбайский р-н, мкр Акжар, Белжайлау 47а",
+    "url": "https://krisha.kz/a/show/1000286080",
+    "first_seen": "2026-07-03T23:34:08",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 883,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 85.18,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 85.18 м²",
+    "price_text": "от 74 106 600₸",
+    "price_value": 74106600,
+    "address": "Бостандыкский р-н, Радостовца 165/1",
+    "url": "https://krisha.kz/a/show/1012037149",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 884,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 5,
+    "area": 276.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "5-комнатная квартира · 276.2 м²",
+    "price_text": "от 160 196 000₸",
+    "price_value": 160196000,
+    "address": "Бостандыкский р-н, мкр Ерменсай, Ушкемпирова 42",
+    "url": "https://krisha.kz/a/show/667684924",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 885,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 150.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 150.2 м²",
+    "price_text": "от 377 152 200₸",
+    "price_value": 377152200,
+    "address": "Бостандыкский р-н, мкр Мирас, Саина 1а/1",
+    "url": "https://krisha.kz/a/show/760760735",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 886,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 53.55,
+    "floor": null,
+    "total_floors": null,
+    "district": "пос. Гульдала",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 53.55 м²",
+    "price_text": "от 23 829 750₸",
+    "price_value": 23829750,
+    "address": "пос. Гульдала",
+    "url": "https://krisha.kz/a/show/1000459793",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 887,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.0,
+    "floor": 9,
+    "total_floors": 10,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 65 м² · 9/10 этаж",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Ауэзовский р-н, мкр Аксай-1А 27Б — Толе би Момышулы",
+    "url": "https://krisha.kz/a/show/1013270465",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 888,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 75.98,
+    "floor": null,
+    "total_floors": null,
+    "district": "пос. Гульдала",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 75.98 м²",
+    "price_text": "от 33 811 100₸",
+    "price_value": 33811100,
+    "address": "пос. Гульдала",
+    "url": "https://krisha.kz/a/show/1000459795",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 889,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 56.0,
+    "floor": 4,
+    "total_floors": 5,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 56 м² · 4/5 этаж",
+    "price_text": "35 000 000₸",
+    "price_value": 35000000,
+    "address": "Турксибский р-н, Сарыарка 72",
+    "url": "https://krisha.kz/a/show/1013190880",
+    "first_seen": "2026-07-03T23:34:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 890,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 34.0,
+    "floor": 4,
+    "total_floors": 5,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 34 м² · 4/5 этаж",
+    "price_text": "29 500 000₸",
+    "price_value": 29500000,
+    "address": "Ауэзовский р-н, мкр Мамыр-2 11 — Шаляпина Саина",
+    "url": "https://krisha.kz/a/show/1010927792",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 891,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.0,
+    "floor": 2,
+    "total_floors": 12,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 65 м² · 2/12 этаж",
+    "price_text": "39 000 000₸",
+    "price_value": 39000000,
+    "address": "Алатауский р-н, мкр Алгабас 1/3",
+    "url": "https://krisha.kz/a/show/1011906107",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 892,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 61.4,
+    "floor": 2,
+    "total_floors": 12,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 61.4 м² · 2/12 этаж",
+    "price_text": "48 000 000₸",
+    "price_value": 48000000,
+    "address": "Алатауский р-н, мкр Шапагат, Пр.Райымбека — Тлендиева",
+    "url": "https://krisha.kz/a/show/1002690260",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 893,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 157.0,
+    "floor": 6,
+    "total_floors": 9,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 157 м² · 6/9 этаж",
+    "price_text": "120 888 888₸",
+    "price_value": 120888888,
+    "address": "Алмалинский р-н, Богенбай батыра 279 — Ул.Айманова уг.ул. Богенбай Батыра",
+    "url": "https://krisha.kz/a/show/1009577120",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 894,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 74.0,
+    "floor": 3,
+    "total_floors": 5,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 74 м² · 3/5 этаж",
+    "price_text": "64 000 000₸",
+    "price_value": 64000000,
+    "address": "Бостандыкский р-н, Хусаинова 292 — Малахова",
+    "url": "https://krisha.kz/a/show/1012947698",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 895,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 75.0,
+    "floor": 10,
+    "total_floors": 12,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 75 м² · 10/12 этаж",
+    "price_text": "76 000 000₸",
+    "price_value": 76000000,
+    "address": "Бостандыкский р-н, Егизбаева 7/21 — BI GROUP",
+    "url": "https://krisha.kz/a/show/1010732055",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 896,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 118.0,
+    "floor": 6,
+    "total_floors": 9,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 118 м² · 6/9 этаж",
+    "price_text": "140 000 000₸",
+    "price_value": 140000000,
+    "address": "Медеуский р-н, Хаджи Мукана 49 — Мендекулова",
+    "url": "https://krisha.kz/a/show/1013120222",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 897,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 60.0,
+    "floor": 4,
+    "total_floors": 6,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 60 м² · 4/6 этаж",
+    "price_text": "27 500 000₸",
+    "price_value": 27500000,
+    "address": "Жетысуский р-н, мкр Кокжиек",
+    "url": "https://krisha.kz/a/show/1012429868",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 898,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 75.0,
+    "floor": 15,
+    "total_floors": 16,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 75 м² · 15/16 этаж",
+    "price_text": "86 000 000₸",
+    "price_value": 86000000,
+    "address": "Бостандыкский р-н, Аль-Фараби",
+    "url": "https://krisha.kz/a/show/1012706343",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 899,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 65.0,
+    "floor": 8,
+    "total_floors": 9,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 65 м² · 8/9 этаж",
+    "price_text": "55 000 000₸",
+    "price_value": 55000000,
+    "address": "Медеуский р-н, мкр Думан-2, Мкрн Думан-2 63 — Халиуллина",
+    "url": "https://krisha.kz/a/show/1013306195",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 900,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 136.0,
+    "floor": 10,
+    "total_floors": 10,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 136 м² · 10/10 этаж",
+    "price_text": "210 000 000₸",
+    "price_value": 210000000,
+    "address": "Алмалинский р-н, Шевченко 96 — ТА САМАЯ КВАРТИРА, ОДИН ИЗ ЛУЧШИХ ВИДОВ ГОРОДА",
+    "url": "https://krisha.kz/a/show/1013512469",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 901,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 68.12,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 68.12 м²",
+    "price_text": "от 47 343 400₸",
+    "price_value": 47343400,
+    "address": "Турксибский р-н, Кайрат микрорайон 716/16",
+    "url": "https://krisha.kz/a/show/694706346",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 902,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 57.95,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 57.95 м²",
+    "price_text": "от 81 130 000₸",
+    "price_value": 81130000,
+    "address": "Алмалинский р-н, Шевченко 109",
+    "url": "https://krisha.kz/a/show/1000752773",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 903,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 65.21,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 65.21 м²",
+    "price_text": "от 38 799 950₸",
+    "price_value": 38799950,
+    "address": "Жетысуский р-н, Райымбека 241",
+    "url": "https://krisha.kz/a/show/688265083",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 904,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 30.41,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 30.41 м²",
+    "price_text": "от 34 324 816₸",
+    "price_value": 34324816,
+    "address": "Медеуский р-н, ​Приканальная БАК 99а",
+    "url": "https://krisha.kz/a/show/1009994958",
+    "first_seen": "2026-07-03T23:34:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 905,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 130.1,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "новостройка",
+    "title": "4-комнатная квартира · 130.1 м²",
+    "price_text": "от 84 565 000₸",
+    "price_value": 84565000,
+    "address": "Наурызбайский р-н, мкр Таусамалы, Жандосова 70Б",
+    "url": "https://krisha.kz/a/show/1008570541",
+    "first_seen": "2026-07-03T23:34:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 906,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 63.0,
+    "floor": 5,
+    "total_floors": 5,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 63 м² · 5/5 этаж",
+    "price_text": "51 000 000₸",
+    "price_value": 51000000,
+    "address": "Алмалинский р-н, Казбекби 172 — Нурмакова",
+    "url": "https://krisha.kz/a/show/697611335",
+    "first_seen": "2026-07-03T23:34:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 907,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 42.2,
+    "floor": 9,
+    "total_floors": 16,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 42.2 м² · 9/16 этаж",
+    "price_text": "38 800 000₸",
+    "price_value": 38800000,
+    "address": "Бостандыкский р-н, Каныша Сатпаева 90/59",
+    "url": "https://krisha.kz/a/show/1009156994",
+    "first_seen": "2026-07-03T23:34:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 908,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 450.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 450 м² · 8 сот.",
+    "price_text": "420 000 000₸",
+    "price_value": 420000000,
+    "address": "Наурызбайский р-н, мкр Акжар 18.А",
+    "url": "https://krisha.kz/a/show/761430054",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 909,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 60.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 60 м² ·",
+    "price_text": "18 000 000₸",
+    "price_value": 18000000,
+    "address": "Медеуский р-н, мкр Каменское плато, Ст Минбыт 30",
+    "url": "https://krisha.kz/a/show/1013234527",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 910,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 175.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 175 м² · 8.5 сот.",
+    "price_text": "125 000 000₸",
+    "price_value": 125000000,
+    "address": "Медеуский р-н, мкр Алатау (ИЯФ), Ерке Сылкым 10",
+    "url": "https://krisha.kz/a/show/1002656238",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 911,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 99.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 99.5 м² · 3.77 сот.",
+    "price_text": "30 000 000₸",
+    "price_value": 30000000,
+    "address": "Глазунова 7кв 2 — Роща Баума.БАК. /Глазунова/Крамского ,",
+    "url": "https://krisha.kz/a/show/1011341911",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 912,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 240 м² · 6 сот.",
+    "price_text": "80 000 000₸",
+    "price_value": 80000000,
+    "address": "Алтынемел — Жандосова",
+    "url": "https://krisha.kz/a/show/1008745494",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 913,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 1,
+    "area": 125.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 1 комната · 125 м² · 6 сот.",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Наурызбайский р-н, мкр Таусамалы — Находится возле магазина Азия",
+    "url": "https://krisha.kz/a/show/1009902547",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 914,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 62.8,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 62.8 м² · 6 сот.",
+    "price_text": "42 000 000₸",
+    "price_value": 42000000,
+    "address": "Жетысуский р-н, мкр Кемел (Первомайское)",
+    "url": "https://krisha.kz/a/show/693037116",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 915,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 252.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 252 м² · 7 сот.",
+    "price_text": "270 000 000₸",
+    "price_value": 270000000,
+    "address": "Бостандыкский р-н, улица Сапарлы Жол 7А",
+    "url": "https://krisha.kz/a/show/1011075181",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 916,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 290.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 290.3 м² ·",
+    "price_text": "250 000 000₸",
+    "price_value": 250000000,
+    "address": "Турксибский р-н, Свободная 47 — Лучшее предложение",
+    "url": "https://krisha.kz/a/show/1013268138",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 917,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 639.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 639 м² · 12 сот.",
+    "price_text": "310 000 000₸",
+    "price_value": 310000000,
+    "address": "Бостандыкский р-н, мкр Баганашыл — Тан",
+    "url": "https://krisha.kz/a/show/1009725782",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 918,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 143.7,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 143.7 м² · 3.8 сот.",
+    "price_text": "62 000 000₸",
+    "price_value": 62000000,
+    "address": "Турксибский р-н, Казакпаева 10/1",
+    "url": "https://krisha.kz/a/show/1011309081",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 919,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 273.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 273.3 м² · 7.5 сот.",
+    "price_text": "85 000 000₸",
+    "price_value": 85000000,
+    "address": "Алатауский р-н, мкр Акбулак 2а",
+    "url": "https://krisha.kz/a/show/1010882285",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 920,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 300 м² · 9 сот.",
+    "price_text": "110 000 000₸",
+    "price_value": 110000000,
+    "address": "Алатауский р-н, мкр Шанырак-1, Утемисова 193 — Главная трасса Утемисова",
+    "url": "https://krisha.kz/a/show/1008555911",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 921,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 200 м² ·",
+    "price_text": "120 000 000₸",
+    "price_value": 120000000,
+    "address": "Алатауский р-н, мкр Мадениет 16 — Магазин Nesibe",
+    "url": "https://krisha.kz/a/show/1008791376",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 922,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 120 м² · 10.5 сот.",
+    "price_text": "180 000 000₸",
+    "price_value": 180000000,
+    "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик), Салтанат 8/2",
+    "url": "https://krisha.kz/a/show/761059912",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 923,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 10,
+    "area": 600.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 10 комнат · 600 м² · 11 сот.",
+    "price_text": "550 000 000₸",
+    "price_value": 550000000,
+    "address": "Медеуский р-н, Улар 51а — Возле санаторий ветеранов ВОВ",
+    "url": "https://krisha.kz/a/show/1003561169",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 924,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 172.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 172 м² · 18 сот.",
+    "price_text": "250 000 000₸",
+    "price_value": 250000000,
+    "address": "Медеуский р-н, ул. Конил Толкыны 40А",
+    "url": "https://krisha.kz/a/show/1012390011",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 925,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 110.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 110 м² · 4.5 сот.",
+    "price_text": "47 500 000₸",
+    "price_value": 47500000,
+    "address": "Турксибский р-н, мкр Жас Канат, Топчеева 2/22",
+    "url": "https://krisha.kz/a/show/1013484195",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 926,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 380.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 380 м² · 23 сот.",
+    "price_text": "380 000 000₸",
+    "price_value": 380000000,
+    "address": "Думан — Мечеть Зейнетулла ата",
+    "url": "https://krisha.kz/a/show/1013404858",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 927,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 150.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 150 м² · 6.07 сот.",
+    "price_text": "63 000 000₸",
+    "price_value": 63000000,
+    "address": "Алатауский р-н, мкр Алгабас, Мухитдинова 21 — Қожабекова мен Оңғарсынова",
+    "url": "https://krisha.kz/a/show/1012755998",
+    "first_seen": "2026-07-03T23:34:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 928,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 8,
+    "area": 439.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 8 комнат · 439 м² · 9 сот.",
+    "price_text": "230 000 000₸",
+    "price_value": 230000000,
+    "address": "Медеуский р-н, мкр Тау Самал — Ул. Алгыс 12, 500 метров от гостиницы «Royal Tulip», 122 метра до «Теренкура»",
+    "url": "https://krisha.kz/a/show/1012314599",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 929,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 184.7,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 184.7 м² · 3.19 сот.",
+    "price_text": "60 000 000₸",
+    "price_value": 60000000,
+    "address": "Турксибский р-н, мкр Алтай-1, Кубеева 7 — Майлина",
+    "url": "https://krisha.kz/a/show/1012073596",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 930,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 188.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 188 м² · 10 сот.",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Алатауский р-н, мкр Шапагат — Айнакол",
+    "url": "https://krisha.kz/a/show/1010406268",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 931,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 450.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "новостройка",
+    "title": "Отдельный дом · 7 комнат · 450 м² · 10 сот.",
+    "price_text": "240 000 000₸",
+    "price_value": 240000000,
+    "address": "Наурызбайский р-н, мкр Шугыла, улица Торгап 87 — Жк Примьера",
+    "url": "https://krisha.kz/a/show/1000754386",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 932,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 90.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 90 м² · 8 сот.",
+    "price_text": "35 000 000₸",
+    "price_value": 35000000,
+    "address": "Здоровье 41",
+    "url": "https://krisha.kz/a/show/1013118365",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 933,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 48.1,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 48.1 м² · 3.65 сот.",
+    "price_text": "80 000 000₸",
+    "price_value": 80000000,
+    "address": "Медеуский р-н, мкр Горный Гигант 39 — Затаевича и Манаева",
+    "url": "https://krisha.kz/a/show/684640805",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 934,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 105.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 105 м² · 6 сот.",
+    "price_text": "70 000 000₸",
+    "price_value": 70000000,
+    "address": "Медеуский р-н, мкр Алатау (ИЯФ), Капшагай 25",
+    "url": "https://krisha.kz/a/show/1013663216",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 935,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 70.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 70 м² · 6 сот.",
+    "price_text": "51 000 000₸",
+    "price_value": 51000000,
+    "address": "Алатауский р-н, мкр Самгау, Ул.Лесная 14 — Ул.Ырысты (Емцова)",
+    "url": "https://krisha.kz/a/show/698732541",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 936,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 155.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 155 м² · 6 сот.",
+    "price_text": "150 000 000₸",
+    "price_value": 150000000,
+    "address": "Медеуский р-н, Алатауская трасса 33ж — Городок «Тенгри Парк» Байконыс 16а",
+    "url": "https://krisha.kz/a/show/1011364689",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 937,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 230.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 230 м² · 8 сот.",
+    "price_text": "340 000 000₸",
+    "price_value": 340000000,
+    "address": "Медеуский р-н, мкр Горный Гигант — Ахмедъярова",
+    "url": "https://krisha.kz/a/show/1010357888",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 938,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 141.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 141 м² · 6 сот.",
+    "price_text": "70 000 000₸",
+    "price_value": 70000000,
+    "address": "Наурызбайский р-н, Кайнар 33 — Наш дом -- 33А, ул. Кайнар",
+    "url": "https://krisha.kz/a/show/1013505998",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 939,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 300 м² · 9 сот.",
+    "price_text": "159 000 000₸",
+    "price_value": 159000000,
+    "address": "Наурызбайский р-н, ул. Алтын Зан 114/3",
+    "url": "https://krisha.kz/a/show/1012074307",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 940,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 280.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 280 м² · 9 сот.",
+    "price_text": "215 000 000₸",
+    "price_value": 215000000,
+    "address": "Медеуский р-н, мкр Алатау (ИЯФ), Ибрагимова 11а — Центр",
+    "url": "https://krisha.kz/a/show/697641881",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 941,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 200 м² · 6 сот.",
+    "price_text": "70 000 000₸",
+    "price_value": 70000000,
+    "address": "Наурызбайский р-н, мкр Акжар 17 — Толебекова",
+    "url": "https://krisha.kz/a/show/1012889296",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 942,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 111.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 111.2 м² · 8 сот.",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Бостандыкский р-н, Сторожевая",
+    "url": "https://krisha.kz/a/show/1013013769",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 943,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 240 м² · 8.8 сот.",
+    "price_text": "175 000 000₸",
+    "price_value": 175000000,
+    "address": "Наурызбайский р-н, мкр Калкаман-2, Хрищатого 28 — Рынок «Таусамалы»",
+    "url": "https://krisha.kz/a/show/1011608030",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 944,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 193.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 193 м² · 10 сот.",
+    "price_text": "230 000 000₸",
+    "price_value": 230000000,
+    "address": "Алатауский р-н, мкр Акбулак, Мкр Акбулак ул Сергазина 4",
+    "url": "https://krisha.kz/a/show/1013600580",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 945,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 302.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 302 м² · 4.2 сот.",
+    "price_text": "135 000 000₸",
+    "price_value": 135000000,
+    "address": "Турксибский р-н, Стасова 49 — Молдагалиева",
+    "url": "https://krisha.kz/a/show/1008533611",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 946,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 8,
+    "area": 250.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 8 комнат · 250 м² · 6 сот.",
+    "price_text": "160 000 000₸",
+    "price_value": 160000000,
+    "address": "Жетысуский р-н, Матросова 39 — Бондаренко",
+    "url": "https://krisha.kz/a/show/1001435629",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 947,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 324.9,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 324.9 м² · 6.47 сот.",
+    "price_text": "185 000 000₸",
+    "price_value": 185000000,
+    "address": "Жетысуский р-н, Нусупбекова 200 — Район Суюнбая/Баянаульской",
+    "url": "https://krisha.kz/a/show/1000448274",
+    "first_seen": "2026-07-03T23:34:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 948,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 316.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 316 м² · 7.1 сот.",
+    "price_text": "159 000 000₸",
+    "price_value": 159000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау, Токжайлау — Дулати.Снижение цены только до конца месяца!!!",
+    "url": "https://krisha.kz/a/show/1011680511",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 949,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 190.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 190 м² · 10 сот.",
+    "price_text": "125 000 000₸",
+    "price_value": 125000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы — Сейитбекова",
+    "url": "https://krisha.kz/a/show/697617889",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 950,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 188.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 188 м² · 8 сот.",
+    "price_text": "90 000 000₸",
+    "price_value": 90000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 35 — Козыбасы",
+    "url": "https://krisha.kz/a/show/1010615677",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 951,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 240 м² · 6 сот.",
+    "price_text": "135 000 000₸",
+    "price_value": 135000000,
+    "address": "Турксибский р-н, мкр Кайрат 53 — Даулеткерея",
+    "url": "https://krisha.kz/a/show/1009117782",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 952,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 240 м² ·",
+    "price_text": "24 999 999₸",
+    "price_value": 24999999,
+    "address": "Кожабекова 1 — ОБМЕН С ВАШЕЙ ДОПЛАТОЙ",
+    "url": "https://krisha.kz/a/show/1013295805",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 953,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 110.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 110 м² ·",
+    "price_text": "63 000 000₸",
+    "price_value": 63000000,
+    "address": "Наурызбайский р-н, мкр Таужолы, Усикова",
+    "url": "https://krisha.kz/a/show/1010747143",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 954,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 61.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 61 м² · 6 сот.",
+    "price_text": "55 999 999₸",
+    "price_value": 55999999,
+    "address": "Турксибский р-н, Потанина — Янки Купала",
+    "url": "https://krisha.kz/a/show/1009752016",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 955,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 150.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 150 м² · 5 сот.",
+    "price_text": "50 000 000₸",
+    "price_value": 50000000,
+    "address": "Медеуский р-н, Татибекова",
+    "url": "https://krisha.kz/a/show/692435016",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 956,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 9,
+    "area": 467.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 9 комнат · 467.5 м² · 13 сот.",
+    "price_text": "215 400 000₸",
+    "price_value": 215400000,
+    "address": "Пальгова 20",
+    "url": "https://krisha.kz/a/show/661203497",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 957,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 210.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 210 м² · 6.2 сот.",
+    "price_text": "185 000 000₸",
+    "price_value": 185000000,
+    "address": "Наурызбайский р-н, мкр Шугыла",
+    "url": "https://krisha.kz/a/show/1010916522",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 958,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 200 м² · 8 сот.",
+    "price_text": "160 000 000₸",
+    "price_value": 160000000,
+    "address": "Наурызбайский р-н, мкр Таужолы 3398",
+    "url": "https://krisha.kz/a/show/1009096595",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 959,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 224.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 224 м² ·",
+    "price_text": "127 000 000₸",
+    "price_value": 127000000,
+    "address": "Алатауский р-н, мкр Алгабас, Кара жорга 17",
+    "url": "https://krisha.kz/a/show/1005977435",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 960,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 182.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 182 м² · 5.3 сот.",
+    "price_text": "35 500 000₸",
+    "price_value": 35500000,
+    "address": "Алатауский р-н, мкр Алгабас, Алғабас ш/а.",
+    "url": "https://krisha.kz/a/show/1013151084",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 961,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 180.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 180 м² · 6 сот.",
+    "price_text": "122 000 000₸",
+    "price_value": 122000000,
+    "address": "Жетысуский р-н, Баймагамбетова",
+    "url": "https://krisha.kz/a/show/1013662526",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 962,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 8,
+    "area": 320.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 8 комнат · 320 м² · 8.5 сот.",
+    "price_text": "135 000 000₸",
+    "price_value": 135000000,
+    "address": "Самал 18",
+    "url": "https://krisha.kz/a/show/1011066925",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 963,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 126.4,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 126.4 м² · 7.37 сот.",
+    "price_text": "82 000 000₸",
+    "price_value": 82000000,
+    "address": "Алатауский р-н, мкр Айгерим-1 — Ахременко-Азизбекова",
+    "url": "https://krisha.kz/a/show/1013661874",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 964,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 87.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 87.3 м² ·",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Алатауский р-н, мкр Шанырак-1, Жас казах 77",
+    "url": "https://krisha.kz/a/show/1012961150",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 965,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 291.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 291 м² · 9.5 сот.",
+    "price_text": "165 000 000₸",
+    "price_value": 165000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау, Б.Болтириковой 4 — Академия КНБ",
+    "url": "https://krisha.kz/a/show/694468013",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 966,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 200 м² · 10 сот.",
+    "price_text": "129 999 999₸",
+    "price_value": 129999999,
+    "address": "Наурызбайский р-н, мкр Курамыс 44 — Акшатыр",
+    "url": "https://krisha.kz/a/show/1009765709",
+    "first_seen": "2026-07-03T23:34:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 967,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 124.9,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 124.9 м² · 8 сот.",
+    "price_text": "80 000 000₸",
+    "price_value": 80000000,
+    "address": "Наурызбайский р-н, мкр Акжар",
+    "url": "https://krisha.kz/a/show/1008911682",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 968,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 100 м² ·",
+    "price_text": "26 000 000₸",
+    "price_value": 26000000,
+    "address": "Алатауский р-н, мкр Алгабас, Мырзашокы 4",
+    "url": "https://krisha.kz/a/show/1012897800",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 969,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 300 м² · 11 сот.",
+    "price_text": "330 000 000₸",
+    "price_value": 330000000,
+    "address": "Бостандыкский р-н, Мусабаева 3 — Посольский городок, Мирас, Солнечная Долина",
+    "url": "https://krisha.kz/a/show/1010459525",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 970,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 280.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 280 м² · 6 сот.",
+    "price_text": "100 000 000₸",
+    "price_value": 100000000,
+    "address": "Алатауский р-н, мкр Алгабас, Сафи Отебаева 39",
+    "url": "https://krisha.kz/a/show/690976376",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 971,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 380.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 380 м² · 7 сот.",
+    "price_text": "320 000 000₸",
+    "price_value": 320000000,
+    "address": "Медеуский р-н, Кармысова 86 а",
+    "url": "https://krisha.kz/a/show/1000777923",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 972,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 120 м² · 2.8 сот.",
+    "price_text": "45 000 000₸",
+    "price_value": 45000000,
+    "address": "Турксибский р-н, Свердлова — Гете",
+    "url": "https://krisha.kz/a/show/685834071",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 973,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 2,
+    "area": 53.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 2 комнаты · 53 м² · 4.5 сот.",
+    "price_text": "21 000 000₸",
+    "price_value": 21000000,
+    "address": "Медеуский р-н, мкр Кенсай, С/т Вымпел 104 — Шокая 304, 400м от поворота",
+    "url": "https://krisha.kz/a/show/1011051190",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 974,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 180.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 180 м² · 3 сот.",
+    "price_text": "142 000 000₸",
+    "price_value": 142000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 1300 — улица Мечеть, \"Adem Village\"",
+    "url": "https://krisha.kz/a/show/1012086373",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 975,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 8,
+    "area": 1048.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 8 комнат · 1048 м² · 80 сот.",
+    "price_text": "4 500 000 000₸",
+    "price_value": 4500000000,
+    "address": "Бостандыкский р-н, мкр Архат",
+    "url": "https://krisha.kz/a/show/1009446953",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 976,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 537.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 537 м² · 7.8 сот.",
+    "price_text": "290 000 000₸",
+    "price_value": 290000000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Мкр Таусамалы — Между абая и шаляпина",
+    "url": "https://krisha.kz/a/show/1012427152",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 977,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 176.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 176.5 м² · 10.5 сот.",
+    "price_text": "65 000 000₸",
+    "price_value": 65000000,
+    "address": "Жетысуский р-н, мкр Кемел (Первомайское), Мкр Кемел (Первомайское) Есим хана 56",
+    "url": "https://krisha.kz/a/show/1011994111",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 978,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 300 м² · 23 сот.",
+    "price_text": "165 000 000₸",
+    "price_value": 165000000,
+    "address": "Наурызбайский р-н, мкр Акжар",
+    "url": "https://krisha.kz/a/show/677447429",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 979,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 300 м² · 12 сот.",
+    "price_text": "380 000 000₸",
+    "price_value": 380000000,
+    "address": "Бостандыкский р-н, Байшешек 41",
+    "url": "https://krisha.kz/a/show/1010548752",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 980,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 432.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 432 м² · 12.5 сот.",
+    "price_text": "320 000 000₸",
+    "price_value": 320000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау — Сразу после Казахфильма",
+    "url": "https://krisha.kz/a/show/1012796164",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 981,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 200 м² ·",
+    "price_text": "120 000 000₸",
+    "price_value": 120000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 73/3 — Татимова",
+    "url": "https://krisha.kz/a/show/689734826",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 982,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 184.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 184 м² · 6.4 сот.",
+    "price_text": "149 000 000₸",
+    "price_value": 149000000,
+    "address": "Ауэзовский р-н, мкр Дубок (Шабыт), Атамекен 85",
+    "url": "https://krisha.kz/a/show/1013115523",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 983,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 3,
+    "area": 80.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 3 комнаты · 80 м² · 10 сот.",
+    "price_text": "45 000 000₸",
+    "price_value": 45000000,
+    "address": "Алатауский р-н, мкр Алгабас — Рядом улица Борили байрак",
+    "url": "https://krisha.kz/a/show/1012030897",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 984,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 8,
+    "area": 230.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 8 комнат · 230 м² · 23 сот.",
+    "price_text": "530 000 000₸",
+    "price_value": 530000000,
+    "address": "Медеуский р-н, Керей-жанибек Хандар",
+    "url": "https://krisha.kz/a/show/1011830671",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 985,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 238.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 238 м² · 10 сот.",
+    "price_text": "220 000 000₸",
+    "price_value": 220000000,
+    "address": "Медеуский р-н, Жантобе 65/8 — Оспанова",
+    "url": "https://krisha.kz/a/show/1013094679",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 986,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 135.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 135 м² · 10 сот.",
+    "price_text": "59 000 000₸",
+    "price_value": 59000000,
+    "address": "Алатауский р-н, мкр Алгабас, Мкр Алгабас, Маржан 1",
+    "url": "https://krisha.kz/a/show/1007630857",
+    "first_seen": "2026-07-03T23:34:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 987,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 172.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 172 м² · 4 сот.",
+    "price_text": "49 500 000₸",
+    "price_value": 49500000,
+    "address": "Алатауский р-н, мкр Мадениет, Сүйінші 20/1",
+    "url": "https://krisha.kz/a/show/1009410962",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 988,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 370.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 370 м² · 8 сот.",
+    "price_text": "130 000 000₸",
+    "price_value": 130000000,
+    "address": "Медеуский р-н, мкр Алатау (ИЯФ) 28 — Ибрагимова",
+    "url": "https://krisha.kz/a/show/1012723962",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 989,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 105.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 105 м² · 4 сот.",
+    "price_text": "52 000 000₸",
+    "price_value": 52000000,
+    "address": "Наурызбайский р-н, мкр Акжар",
+    "url": "https://krisha.kz/a/show/1011447378",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 990,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 400.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 400 м² · 7.8 сот.",
+    "price_text": "393 000 000₸",
+    "price_value": 393000000,
+    "address": "Медеуский р-н, мкр Тау Самал, Оспанова 122 — За Royal Tulip",
+    "url": "https://krisha.kz/a/show/1001485835",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 991,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 240 м² · 10 сот.",
+    "price_text": "63 000 000₸",
+    "price_value": 63000000,
+    "address": "Алмалинский р-н, Жамбыла 28",
+    "url": "https://krisha.kz/a/show/1013660690",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 992,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 140.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 140 м² · 4 сот.",
+    "price_text": "55 000 000₸",
+    "price_value": 55000000,
+    "address": "Алатауский р-н, мкр Мадениет, Айғыржал 12",
+    "url": "https://krisha.kz/a/show/1006358143",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 993,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 380.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 380 м² · 10 сот.",
+    "price_text": "380 000 000₸",
+    "price_value": 380000000,
+    "address": "Наурызбайский р-н, мкр Калкаман-2",
+    "url": "https://krisha.kz/a/show/1013373242",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 994,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 200 м² · 6 сот.",
+    "price_text": "380 000 000₸",
+    "price_value": 380000000,
+    "address": "Медеуский р-н, мкр Горный Гигант 82 — Манаева",
+    "url": "https://krisha.kz/a/show/1007591781",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 995,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 340.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 340 м² · 8 сот.",
+    "price_text": "90 000 000₸",
+    "price_value": 90000000,
+    "address": "Алатауский р-н, мкр Рахат, Байқұт 43 — Аруана",
+    "url": "https://krisha.kz/a/show/1009678115",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 996,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 2,
+    "area": 85.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 2 комнаты · 85 м² · 5 сот.",
+    "price_text": "48 000 000₸",
+    "price_value": 48000000,
+    "address": "Баржыкпаева 33",
+    "url": "https://krisha.kz/a/show/1013113096",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 997,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 2,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 2 комнаты · 120 м² ·",
+    "price_text": "52 000 000₸",
+    "price_value": 52000000,
+    "address": "Медеуский р-н, мкр Кенсай 13",
+    "url": "https://krisha.kz/a/show/1012289720",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 998,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 180.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 180 м² · 6 сот.",
+    "price_text": "70 000 000₸",
+    "price_value": 70000000,
+    "address": "Наурызбайский р-н, мкр Шугыла — улица Абая - Акимат и ЦОН Наурызбайский - Школа №2 - Поликлиника",
+    "url": "https://krisha.kz/a/show/1010904709",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 999,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 190.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 190 м² · 5.7 сот.",
+    "price_text": "133 000 000₸",
+    "price_value": 133000000,
+    "address": "Наурызбайский р-н, мкр Калкаман-2, Ашимова — Абая - станция метро Калкаман - Almaty International School -  школа 206 - НИШ",
+    "url": "https://krisha.kz/a/show/1011945647",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1000,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 220.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 220 м² · 11 сот.",
+    "price_text": "190 000 000₸",
+    "price_value": 190000000,
+    "address": "Медеуский р-н, Одесская",
+    "url": "https://krisha.kz/a/show/695540310",
+    "first_seen": "2026-07-03T23:34:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1001,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 150.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 150 м² ·",
+    "price_text": "39 000 000₸",
+    "price_value": 39000000,
+    "address": "Алатауский р-н, 1 я Линия   Водник 21 а — Уг  Дачная   Центральная",
+    "url": "https://krisha.kz/a/show/1004901057",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1002,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 4,
+    "area": 176.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 4 комнаты · 176 м² · 10 сот.",
+    "price_text": "199 000 000₸",
+    "price_value": 199000000,
+    "address": "Медеуский р-н, мкр Коктобе, Камар сулу",
+    "url": "https://krisha.kz/a/show/1012917217",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1003,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 70.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 70 м² ·",
+    "price_text": "52 000 000₸",
+    "price_value": 52000000,
+    "address": "Алатауский р-н, мкр Шанырак-1 Акжол 50 — Ашекеева",
+    "url": "https://krisha.kz/a/show/1013391634",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1004,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 7,
+    "area": 800.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 7 комнат · 800 м² · 11 сот.",
+    "price_text": "285 000 000₸",
+    "price_value": 285000000,
+    "address": "Ауэзовский р-н, мкр Мамыр-4, Мкр Мамыр-4 Абая. Момышулы 16 — Абая Момышулы",
+    "url": "https://krisha.kz/a/show/1012415059",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1005,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 6,
+    "area": 330.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 6 комнат · 330 м² · 4.5 сот.",
+    "price_text": "460 000 000₸",
+    "price_value": 460000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау, Казыбек Тауасарлы 25 — Аль-Фараби Розыбакиева",
+    "url": "https://krisha.kz/a/show/1009415004",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1006,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 240.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 240 м² · 6 сот.",
+    "price_text": "360 000 000₸",
+    "price_value": 360000000,
+    "address": "Медеуский р-н, мкр Коктобе, Кыз Жибек-Омарова",
+    "url": "https://krisha.kz/a/show/689168877",
+    "first_seen": "2026-07-03T23:34:46",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1007,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 2.5 соток",
+    "price_text": "7 000 000₸",
+    "price_value": 7000000,
+    "address": "Алатауский р-н, мкр Теректы, Орталык 40",
+    "url": "https://krisha.kz/a/show/1013161465",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1008,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Наурызбайский р-н, Раимбека — Булакты",
+    "url": "https://krisha.kz/a/show/1013539955",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1009,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "50 000 000₸",
+    "price_value": 50000000,
+    "address": "Алатауский р-н, мкр Акбулак — Сайна рыскулова",
+    "url": "https://krisha.kz/a/show/1013609477",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1010,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "130 000 000₸",
+    "price_value": 130000000,
+    "address": "Наурызбайский р-н, мкр Калкаман-2, Рымжанова 7",
+    "url": "https://krisha.kz/a/show/1012695520",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1011,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 600 соток",
+    "price_text": "4 400 000 000₸",
+    "price_value": 4400000000,
+    "address": "Бостандыкский р-н, Жансая 37",
+    "url": "https://krisha.kz/a/show/1013084825",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1012,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 200 соток",
+    "price_text": "2 000 000 000₸",
+    "price_value": 2000000000,
+    "address": "Бостандыкский р-н, Жансая 29",
+    "url": "https://krisha.kz/a/show/1013116989",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1013,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Участок · 15 соток",
+    "price_text": "115 000 000₸",
+    "price_value": 115000000,
+    "address": "Турксибский р-н, Майлина 2",
+    "url": "https://krisha.kz/a/show/1006699515",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1014,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 20 соток",
+    "price_text": "501 000 000₸",
+    "price_value": 501000000,
+    "address": "Медеуский р-н, Сахариева 81",
+    "url": "https://krisha.kz/a/show/694225205",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1015,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "45 000 000₸",
+    "price_value": 45000000,
+    "address": "Медеуский р-н, Курортная 77",
+    "url": "https://krisha.kz/a/show/676022904",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1016,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "30 000 000₸",
+    "price_value": 30000000,
+    "address": "Жетысуский р-н, мкр Кемел (Первомайское) ул. Интернациональная 22",
+    "url": "https://krisha.kz/a/show/695094763",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1017,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 9.12 соток",
+    "price_text": "118 000 000₸",
+    "price_value": 118000000,
+    "address": "Наурызбайский р-н, мкр Таусамалы",
+    "url": "https://krisha.kz/a/show/1000456465",
+    "first_seen": "2026-07-03T23:34:52",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1018,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Участок · 18 соток",
+    "price_text": "550 000 000₸",
+    "price_value": 550000000,
+    "address": "Ауэзовский р-н, Жандосова — Ул. Шаймерденова",
+    "url": "https://krisha.kz/a/show/1011468462",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1019,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "112 000 000₸",
+    "price_value": 112000000,
+    "address": "Бостандыкский р-н, мкр Ерменсай — Жангирхана",
+    "url": "https://krisha.kz/a/show/1010651177",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1020,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "42 000 000₸",
+    "price_value": 42000000,
+    "address": "Бостандыкский р-н, мкр Баганашыл, Мкр Баганашыл, ул. Источник 3",
+    "url": "https://krisha.kz/a/show/1011830805",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1021,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "29 000 000₸",
+    "price_value": 29000000,
+    "address": "Турксибский р-н, Кульджинский тракт — Участок 1657",
+    "url": "https://krisha.kz/a/show/1011898798",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1022,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "20 000 000₸",
+    "price_value": 20000000,
+    "address": "Медеуский р-н, С/т Сад, уч.23",
+    "url": "https://krisha.kz/a/show/1009495319",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1023,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 13.22 сотки",
+    "price_text": "93 000 000₸",
+    "price_value": 93000000,
+    "address": "Медеуский р-н, Жантобе 55А",
+    "url": "https://krisha.kz/a/show/1002951419",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1024,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 42 сотки",
+    "price_text": "1 600 000 000₸",
+    "price_value": 1600000000,
+    "address": "Просп. Райымбека — Торетай",
+    "url": "https://krisha.kz/a/show/1008511387",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1025,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 30 соток",
+    "price_text": "680 000 000₸",
+    "price_value": 680000000,
+    "address": "Медеуский р-н, мкр Юбилейный — Европолис",
+    "url": "https://krisha.kz/a/show/1011196405",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1026,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "90 000 000₸",
+    "price_value": 90000000,
+    "address": "Алатауский р-н, мкр Мадениет",
+    "url": "https://krisha.kz/a/show/1013240741",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1027,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "6 000 000₸",
+    "price_value": 6000000,
+    "address": "Аймаутова 170 — Нуринский с.о",
+    "url": "https://krisha.kz/a/show/1013660847",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1028,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Турксибский р-н, мкр Кайрат 29/2 — Даулеткерея",
+    "url": "https://krisha.kz/a/show/1012194671",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1029,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 45 га",
+    "price_text": "3 500 000 000₸",
+    "price_value": 3500000000,
+    "address": "Терминал — БАКАД",
+    "url": "https://krisha.kz/a/show/1004320986",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1030,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Участок · 5.5 соток",
+    "price_text": "14 999 999₸",
+    "price_value": 14999999,
+    "address": "Турксибский р-н, мкр Маяк — Набережная Бухтарминская",
+    "url": "https://krisha.kz/a/show/1008016820",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1031,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 10 соток",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Медеуский р-н, мкр Кольсай 87 — Койгелди Батыр",
+    "url": "https://krisha.kz/a/show/1011667844",
+    "first_seen": "2026-07-03T23:34:58",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1032,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Участок · 9.2 сотки",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Ауэзовский р-н, мкр Достык 153",
+    "url": "https://krisha.kz/a/show/1011953682",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1033,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Участок · 9.5 соток",
+    "price_text": "56 000 000₸",
+    "price_value": 56000000,
+    "address": "Ауэзовский р-н, мкр Достык, Аймусин 9 9 — Мкрн Достык , Аймусин д.9.",
+    "url": "https://krisha.kz/a/show/1006387739",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1034,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Участок · 88 соток",
+    "price_text": "650 000 000₸",
+    "price_value": 650000000,
+    "address": "Жетысуский р-н, мкр Кулагер",
+    "url": "https://krisha.kz/a/show/1007738414",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1035,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 1 га",
+    "price_text": "170 000 000₸",
+    "price_value": 170000000,
+    "address": "Медеуский р-н, мкр Горный Гигант",
+    "url": "https://krisha.kz/a/show/1001553741",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1036,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 50 соток",
+    "price_text": "587 000 000₸",
+    "price_value": 587000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау",
+    "url": "https://krisha.kz/a/show/1013649711",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1037,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 18 соток",
+    "price_text": "190 000 000₸",
+    "price_value": 190000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау — Diamond Hills",
+    "url": "https://krisha.kz/a/show/1011771472",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1038,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 24 га",
+    "price_text": "115 000 000₸",
+    "price_value": 115000000,
+    "address": "Гейт Сити — БАКАД",
+    "url": "https://krisha.kz/a/show/1013399150",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1039,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "48 000 000₸",
+    "price_value": 48000000,
+    "address": "Алатауский р-н, мкр Ожет, Жиенбаева 21",
+    "url": "https://krisha.kz/a/show/1013646806",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1040,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Участок · 7 соток",
+    "price_text": "130 000 000₸",
+    "price_value": 130000000,
+    "address": "Ауэзовский р-н, мкр Таугуль-3 4",
+    "url": "https://krisha.kz/a/show/680509711",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1041,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 18 га",
+    "price_text": "200 000 000₸",
+    "price_value": 200000000,
+    "address": "Алматы",
+    "url": "https://krisha.kz/a/show/1013649877",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1042,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "32 000 000₸",
+    "price_value": 32000000,
+    "address": "Чукубасова",
+    "url": "https://krisha.kz/a/show/1007579469",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1043,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "12 000 000₸",
+    "price_value": 12000000,
+    "address": "Наурызбайский р-н, С/Т Алма — Сливовая",
+    "url": "https://krisha.kz/a/show/1013484384",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1044,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 50 соток",
+    "price_text": "36 000 000₸",
+    "price_value": 36000000,
+    "address": "Наурызбайский р-н, Коксай — Коксай",
+    "url": "https://krisha.kz/a/show/1013633000",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1045,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "32 000 000₸",
+    "price_value": 32000000,
+    "address": "Алатауский р-н, мкр Мадениет, Орнек",
+    "url": "https://krisha.kz/a/show/1009638462",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1046,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Медеуский р-н, Жантобе 6",
+    "url": "https://krisha.kz/a/show/1006508212",
+    "first_seen": "2026-07-03T23:35:04",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1047,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "47 000 000₸",
+    "price_value": 47000000,
+    "address": "Алатауский р-н, Жиенбаева 11",
+    "url": "https://krisha.kz/a/show/1013286507",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1048,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Участок · 216 соток",
+    "price_text": "2 500 000 000₸",
+    "price_value": 2500000000,
+    "address": "Турксибский р-н, Ангарская",
+    "url": "https://krisha.kz/a/show/1013521162",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1049,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Молдагулова — Алатауская трасса",
+    "url": "https://krisha.kz/a/show/1008135040",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1050,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 13 соток",
+    "price_text": "130 000 000₸",
+    "price_value": 130000000,
+    "address": "Медеуский р-н, Хмелева — Радлова",
+    "url": "https://krisha.kz/a/show/1011837703",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1051,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 3 га",
+    "price_text": "550 000 000₸",
+    "price_value": 550000000,
+    "address": "Наурызбайский р-н, Аксайский медик 175",
+    "url": "https://krisha.kz/a/show/670814420",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1052,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "172 000 000₸",
+    "price_value": 172000000,
+    "address": "Бостандыкский р-н, мкр Мирас",
+    "url": "https://krisha.kz/a/show/1013645044",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1053,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 5.21 сотка",
+    "price_text": "13 562 000₸",
+    "price_value": 13562000,
+    "address": "Алматы",
+    "url": "https://krisha.kz/a/show/1008504765",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1054,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 5.53 сотки",
+    "price_text": "14 939 000₸",
+    "price_value": 14939000,
+    "address": "Алматы",
+    "url": "https://krisha.kz/a/show/1008504443",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1055,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 11 соток",
+    "price_text": "170 000 000₸",
+    "price_value": 170000000,
+    "address": "Медеуский р-н, мкр Коктобе 21 — Басбатыр",
+    "url": "https://krisha.kz/a/show/1012892542",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1056,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 12 соток",
+    "price_text": "115 000 000₸",
+    "price_value": 115000000,
+    "address": "Наурызбайский р-н, мкр Таусамалы, ул Сагдиева 69 — Жандосова-Ашимова",
+    "url": "https://krisha.kz/a/show/1013550316",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1057,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Участок · 6 соток",
+    "price_text": "6 800 000₸",
+    "price_value": 6800000,
+    "address": "Алатауский р-н, мкр Мадениет — Коктоган",
+    "url": "https://krisha.kz/a/show/1013246258",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1058,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 13 га",
+    "price_text": "170 000 000₸",
+    "price_value": 170000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы",
+    "url": "https://krisha.kz/a/show/1013149106",
+    "first_seen": "2026-07-03T23:35:10",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1059,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 367 соток",
+    "price_text": "700 000 000₸",
+    "price_value": 700000000,
+    "address": "Медеуский р-н, мкр Кольсай, Билезик",
+    "url": "https://krisha.kz/a/show/1013372592",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1060,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Участок · 8.58 соток",
+    "price_text": "85 000 000₸",
+    "price_value": 85000000,
+    "address": "Медеуский р-н, мкр Аскартау — СТ Дружба спорт",
+    "url": "https://krisha.kz/a/show/1009701647",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1061,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 7 соток",
+    "price_text": "450 000 000₸",
+    "price_value": 450000000,
+    "address": "Бостандыкский р-н, мкр Коктем-1, Пчеловодная 4",
+    "url": "https://krisha.kz/a/show/1013520636",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1062,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Участок · 8 соток",
+    "price_text": "28 000 000₸",
+    "price_value": 28000000,
+    "address": "Алматы",
+    "url": "https://krisha.kz/a/show/1001345600",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1063,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 35 соток",
+    "price_text": "1 300 000 000₸",
+    "price_value": 1300000000,
+    "address": "Бостандыкский р-н, Тлендиева 345 — Ниже жандосова выше сатпаева",
+    "url": "https://krisha.kz/a/show/58008786",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1064,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Участок · 15 соток",
+    "price_text": "66 500 000₸",
+    "price_value": 66500000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 29 — Ивана Щеголихина",
+    "url": "https://krisha.kz/a/show/760123442",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1065,
+    "deal_type": "продажа",
+    "category": "участки",
+    "rooms": null,
+    "area": null,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Участок · 6.2 сотки",
+    "price_text": "165 000 000₸",
+    "price_value": 165000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау — Атабек/ Ораза Абишева",
+    "url": "https://krisha.kz/a/show/1013602314",
+    "first_seen": "2026-07-03T23:35:16",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1066,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 75.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 75 м²",
+    "price_text": "76 000 000₸за всё1 013 333₸за м²",
+    "price_value": 760000001013333,
+    "address": "Бостандыкский р-н, мкр Казахфильм 41А",
+    "url": "https://krisha.kz/a/show/1012948749",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1067,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 927.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, сельское хозяйство, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 927 м²",
+    "price_text": "650 000 000₸за всё701 187₸за м²",
+    "price_value": 650000000701187,
+    "address": "8 микрорайон 58А — Шаляпина Матазалке",
+    "url": "https://krisha.kz/a/show/1010352808",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1068,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование · 120 м²",
+    "price_text": "174 000 000₸за всё1 450 000₸за м²",
+    "price_value": 1740000001450000,
+    "address": "Алмалинский р-н, Сейфуллина 498 — Богенбай Батыра",
+    "url": "https://krisha.kz/a/show/1006428838",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1069,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 537.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование, развлечения · 537.5 м²",
+    "price_text": "445 000 000₸за всё827 907₸за м²",
+    "price_value": 445000000827907,
+    "address": "Медеуский р-н, мкр Горный Гигант, Назарбаева 248 — Кажымукана",
+    "url": "https://krisha.kz/a/show/1012173829",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1070,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 139.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения · 139 м²",
+    "price_text": "23 630 000₸за всё170 000₸за м²",
+    "price_value": 23630000170000,
+    "address": "Алатауский р-н, мкр Самгау, Ырысты 46/13",
+    "url": "https://krisha.kz/a/show/1013601990",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1071,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 125.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "новостройка",
+    "title": "Свободное назначение · 125 м²",
+    "price_text": "27 000 000₸за всё216 000₸за м²",
+    "price_value": 27000000216000,
+    "address": "Наурызбайский р-н, мкр Шугыла, ЖК Шугыла сити 340/4 — Возле Наурызбайского акимата и ЦОНа",
+    "url": "https://krisha.kz/a/show/1012685752",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1072,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 680.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 680 м²",
+    "price_text": "1 250 000 000₸за всё1 838 235₸за м²",
+    "price_value": 12500000001838235,
+    "address": "Бостандыкский р-н, Сатпаева 30/3",
+    "url": "https://krisha.kz/a/show/1008487229",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1073,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 106.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, сельское хозяйство, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 106 м²",
+    "price_text": "190 000 000₸за всё1 792 453₸за м²",
+    "price_value": 1900000001792453,
+    "address": "Бостандыкский р-н, Сатпаева 30/3",
+    "url": "https://krisha.kz/a/show/1008236240",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1074,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 210.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 210 м²",
+    "price_text": "378 000 000₸за всё1 800 000₸за м²",
+    "price_value": 3780000001800000,
+    "address": "Бостандыкский р-н, Сатпаева 30/3",
+    "url": "https://krisha.kz/a/show/1008230536",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1075,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 175.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 175 м²",
+    "price_text": "315 000 000₸за всё1 800 000₸за м²",
+    "price_value": 3150000001800000,
+    "address": "Бостандыкский р-н, Сатпаева 30/8",
+    "url": "https://krisha.kz/a/show/1013317812",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1076,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 190.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 190 м²",
+    "price_text": "342 000 000₸за всё1 800 000₸за м²",
+    "price_value": 3420000001800000,
+    "address": "Бостандыкский р-н, Сатпаева 30/8",
+    "url": "https://krisha.kz/a/show/1013318035",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1077,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 80.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, медцентры и аптеки, образование, развлечения · 80 м²",
+    "price_text": "105 000 000₸за всё1 312 500₸за м²",
+    "price_value": 1050000001312500,
+    "address": "Бостандыкский р-н, Каныша Сатпаева 5а",
+    "url": "https://krisha.kz/a/show/1011153377",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1078,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 400.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 400 м²",
+    "price_text": "235 000 000₸за всё587 500₸за м²",
+    "price_value": 235000000587500,
+    "address": "Наурызбайский р-н, мкр Шугыла 340/39",
+    "url": "https://krisha.kz/a/show/1013317725",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1079,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 800.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Азс, автосервисы и автомойки, бани, гостиницы и зоны отдыха · 800 м²",
+    "price_text": "550 000 000₸за всё687 500₸за м²",
+    "price_value": 550000000687500,
+    "address": "Турксибский р-н, Суюнбая 653",
+    "url": "https://krisha.kz/a/show/1007085193",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1080,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 439.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы · 439.5 м²",
+    "price_text": "410 000 000₸за всё932 878₸за м²",
+    "price_value": 410000000932878,
+    "address": "Медеуский р-н, Достык 308е",
+    "url": "https://krisha.kz/a/show/1009592856",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1081,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 160.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения · 160 м²",
+    "price_text": "50 000 000₸за всё312 500₸за м²",
+    "price_value": 50000000312500,
+    "address": "Турксибский р-н, Суюнбая 263/1",
+    "url": "https://krisha.kz/a/show/1012413550",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1082,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 235.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы · 235 м²",
+    "price_text": "305 500 000₸за всё1 300 000₸за м²",
+    "price_value": 3055000001300000,
+    "address": "Бостандыкский р-н, Аль-Фари Би 19",
+    "url": "https://krisha.kz/a/show/1006293899",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1083,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 64.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Офисы · 64 м²",
+    "price_text": "59 900 000₸за всё935 938₸за м²",
+    "price_value": 59900000935938,
+    "address": "Ауэзовский р-н, Жандосова 47",
+    "url": "https://krisha.kz/a/show/1013010136",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1084,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 64.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, медцентры и аптеки, образование, развлечения · 64.3 м²",
+    "price_text": "88 000 000₸за всё1 368 585₸за м²",
+    "price_value": 880000001368585,
+    "address": "Алатауский р-н, мкр Нуркент 102",
+    "url": "https://krisha.kz/a/show/1010081167",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1085,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 54.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Медцентры и аптеки · 54 м²",
+    "price_text": "88 000 000₸за всё1 629 630₸за м²",
+    "price_value": 880000001629630,
+    "address": "Медеуский р-н, мкр Самал-1 23",
+    "url": "https://krisha.kz/a/show/1002006668",
+    "first_seen": "2026-07-03T23:35:21",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1086,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 158.7,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 158.7 м²",
+    "price_text": "115 000 000₸за всё724 638₸за м²",
+    "price_value": 115000000724638,
+    "address": "Бостандыкский р-н, Жандосова 94А",
+    "url": "https://krisha.kz/a/show/694679045",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1087,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 107.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, салоны красоты, образование, развлечения · 107.5 м²",
+    "price_text": "79 000 000₸за всё734 884₸за м²",
+    "price_value": 79000000734884,
+    "address": "Бостандыкский р-н, Солодовникова 21 — Сатпаева/Гагарина",
+    "url": "https://krisha.kz/a/show/1013152133",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1088,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 92.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Азс, автосервисы и автомойки · 92 м²",
+    "price_text": "1 500 000₸за всё16 304₸за м²",
+    "price_value": 150000016304,
+    "address": "Турксибский р-н, Шолохова 29",
+    "url": "https://krisha.kz/a/show/1012225383",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1089,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 160.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, магазины и бутики · 160 м²",
+    "price_text": "110 000 000₸за всё687 500₸за м²",
+    "price_value": 110000000687500,
+    "address": "Алатауский р-н, Сухэ батора 1",
+    "url": "https://krisha.kz/a/show/1001991050",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1090,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 343.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, развлечения · 343.5 м²",
+    "price_text": "300 000 000₸за всё873 362₸за м²",
+    "price_value": 300000000873362,
+    "address": "Бостандыкский р-н, Сулейменова 208 — Рыскулбекова",
+    "url": "https://krisha.kz/a/show/1005811523",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1091,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 63.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 63 м²",
+    "price_text": "65 000 000₸за всё1 031 746₸за м²",
+    "price_value": 650000001031746,
+    "address": "Турксибский р-н, Станкевича 9/11 — Шолохова",
+    "url": "https://krisha.kz/a/show/1012832557",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1092,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 2442.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы · 2442 м²",
+    "price_text": "1 800 000 000₸за всё737 101₸за м²",
+    "price_value": 1800000000737101,
+    "address": "Турксибский р-н, Ул,Майлина 85",
+    "url": "https://krisha.kz/a/show/1009603460",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1093,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1000.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 1000 м²",
+    "price_text": "690 000 000₸за всё690 000₸за м²",
+    "price_value": 690000000690000,
+    "address": "Турксибский р-н, мкр Жас Канат 7а",
+    "url": "https://krisha.kz/a/show/1000436343",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1094,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 965.6,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Азс, автосервисы и автомойки · 965.6 м²",
+    "price_text": "670 000 000₸за всё693 869₸за м²",
+    "price_value": 670000000693869,
+    "address": "Жетысуский р-н, Бродского 137",
+    "url": "https://krisha.kz/a/show/1007828007",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1095,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 117.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Магазины и бутики · 117 м²",
+    "price_text": "43 000 000₸за всё367 521₸за м²",
+    "price_value": 43000000367521,
+    "address": "Ауэзовский р-н, мкр Жетысу-2 27а — Абая Саина",
+    "url": "https://krisha.kz/a/show/1012909926",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1096,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 99.7,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, медцентры и аптеки, образование, развлечения · 99.7 м²",
+    "price_text": "93 000 000₸за всё932 798₸за м²",
+    "price_value": 93000000932798,
+    "address": "Бостандыкский р-н, Си Синхай 17",
+    "url": "https://krisha.kz/a/show/1013371016",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1097,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 92.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, склады, образование · 92 м²",
+    "price_text": "38 000 000₸за всё413 043₸за м²",
+    "price_value": 38000000413043,
+    "address": "Жетысуский р-н, Рыскулова 52 — Жансугурова",
+    "url": "https://krisha.kz/a/show/1011391624",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1098,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 116.7,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 116.7 м²",
+    "price_text": "45 000 000₸за всё385 604₸за м²",
+    "price_value": 45000000385604,
+    "address": "Ауэзовский р-н, Райымбека 522/1 — Саина",
+    "url": "https://krisha.kz/a/show/1012475383",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1099,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 337.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, медцентры и аптеки, образование, развлечения · 337 м²",
+    "price_text": "179 000 000₸за всё531 157₸за м²",
+    "price_value": 179000000531157,
+    "address": "Алмалинский р-н, Кожамкулова 273 — Курмангазы",
+    "url": "https://krisha.kz/a/show/1012634200",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1100,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1545.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Офисы, магазины и бутики, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 1545 м²",
+    "price_text": "950 000 000₸за всё614 887₸за м²",
+    "price_value": 950000000614887,
+    "address": "Алатауский р-н, мкр Шанырак-1 67 — Отемисулы",
+    "url": "https://krisha.kz/a/show/695125604",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1101,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 50.8,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, медцентры и аптеки, образование, развлечения · 50.8 м²",
+    "price_text": "24 550 000₸за всё483 268₸за м²",
+    "price_value": 24550000483268,
+    "address": "Бостандыкский р-н, мкр Нур Алатау 40 — Какимбека салыкова",
+    "url": "https://krisha.kz/a/show/1012738931",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1102,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1545.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Магазины и бутики, общепит, бани, гостиницы и зоны отдыха, развлечения · 1545 м²",
+    "price_text": "950 000 000₸за всё614 887₸за м²",
+    "price_value": 950000000614887,
+    "address": "Алатауский р-н, Утемисова 67",
+    "url": "https://krisha.kz/a/show/1013306713",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1103,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1400.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 1400 м²",
+    "price_text": "190 000 000₸за всё135 714₸за м²",
+    "price_value": 190000000135714,
+    "address": "Алатауский р-н, Северное кольцо 72",
+    "url": "https://krisha.kz/a/show/14276427",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1104,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 60.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Магазины и бутики · 60 м²",
+    "price_text": "85 000 000₸за всё1 416 667₸за м²",
+    "price_value": 850000001416667,
+    "address": "Ауэзовский р-н, мкр №1 74",
+    "url": "https://krisha.kz/a/show/1011679809",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1105,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 4800.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Образование · 4800 м²",
+    "price_text": "4 000 000 000₸за всё833 333₸за м²",
+    "price_value": 4000000000833333,
+    "address": "Алмалинский р-н, Клочкова 28 — Готовая база для создания современной частной школы или образовательного кампуса в центре Алматы",
+    "url": "https://krisha.kz/a/show/1012735579",
+    "first_seen": "2026-07-03T23:35:27",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1106,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 337.1,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 337.1 м²",
+    "price_text": "290 000 000₸за всё860 279₸за м²",
+    "price_value": 290000000860279,
+    "address": "Алмалинский р-н, Масанчи 23/7 — Гоголя",
+    "url": "https://krisha.kz/a/show/697078313",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1107,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 837.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 837 м²",
+    "price_text": "700 000 000₸за всё836 320₸за м²",
+    "price_value": 700000000836320,
+    "address": "Жетысуский р-н, Торекулова 93",
+    "url": "https://krisha.kz/a/show/1010855127",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1108,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 682.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, салоны красоты, медцентры и аптеки · 682 м²",
+    "price_text": "759 000 000₸за всё1 112 903₸за м²",
+    "price_value": 7590000001112903,
+    "address": "Алмалинский р-н, Масанчи 23/2 — Гоголя",
+    "url": "https://krisha.kz/a/show/1005678763",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1109,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1050.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Бани, гостиницы и зоны отдыха · 1050 м²",
+    "price_text": "270 000 000₸за всё257 143₸за м²",
+    "price_value": 270000000257143,
+    "address": "Акжол 122 — Алтын орда",
+    "url": "https://krisha.kz/a/show/1013376813",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1110,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 85.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 85 м²",
+    "price_text": "52 000 000₸за всё611 765₸за м²",
+    "price_value": 52000000611765,
+    "address": "Наурызбайский р-н, мкр Шугыла 340/35",
+    "url": "https://krisha.kz/a/show/1003665733",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1111,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 120 м²",
+    "price_text": "55 000 000₸за всё458 333₸за м²",
+    "price_value": 55000000458333,
+    "address": "Жетысуский р-н, Северное кольцо шоссе 23 — ТЦ Алатау, барахолка",
+    "url": "https://krisha.kz/a/show/1008979461",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1112,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 205.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "новостройка",
+    "title": "Свободное назначение · 205 м²",
+    "price_text": "240 000 000₸за всё1 170 732₸за м²",
+    "price_value": 2400000001170732,
+    "address": "Медеуский р-н, мкр Думан-1, ул Халилулина , ЖК Арман сити 140 — Мк Думан , район Халык арена",
+    "url": "https://krisha.kz/a/show/1012430045",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1113,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 110000.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Сельское хозяйство · 110000 м²",
+    "price_text": "300 000 000₸за всё2 727₸за м²",
+    "price_value": 3000000002727,
+    "address": "Медеу к",
+    "url": "https://krisha.kz/a/show/1013565496",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1114,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 3500.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, общепит, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 3500 м²",
+    "price_text": "2 500 000 000₸за всё714 286₸за м²",
+    "price_value": 2500000000714286,
+    "address": "Турксибский р-н, Молдагалиевв 25",
+    "url": "https://krisha.kz/a/show/1012326501",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1115,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1592.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, магазины и бутики, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 1592 м²",
+    "price_text": "2 900 000 000₸за всё1 821 608₸за м²",
+    "price_value": 29000000001821608,
+    "address": "Алмалинский р-н, Сейфулина 533",
+    "url": "https://krisha.kz/a/show/1012419514",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1116,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 1300 м²",
+    "price_text": "1 700 000 000₸за всё1 307 692₸за м²",
+    "price_value": 17000000001307692,
+    "address": "Бостандыкский р-н, Розыбакиева 156",
+    "url": "https://krisha.kz/a/show/1013385642",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1117,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 1300 м²",
+    "price_text": "1 700 000 000₸за всё1 307 692₸за м²",
+    "price_value": 17000000001307692,
+    "address": "Бостандыкский р-н, Розыбакиева 156",
+    "url": "https://krisha.kz/a/show/1012955765",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1118,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 1300 м²",
+    "price_text": "1 700 000 000₸за всё1 307 692₸за м²",
+    "price_value": 17000000001307692,
+    "address": "Бостандыкский р-н, Розыбакиева 156 — Розыбакиева уг кл Сатпаева",
+    "url": "https://krisha.kz/a/show/1009011597",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1119,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения · 1300 м²",
+    "price_text": "1 700 000 000₸за всё1 307 692₸за м²",
+    "price_value": 17000000001307692,
+    "address": "Бостандыкский р-н, Розыбакиева 156 — Сатпаева Розыбакиева",
+    "url": "https://krisha.kz/a/show/1009206944",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1120,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 113.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Офисы · 113 м²",
+    "price_text": "158 000 000₸за всё1 398 230₸за м²",
+    "price_value": 1580000001398230,
+    "address": "Бостандыкский р-н, Пр. Аль Фараби д.13 — Желтоксан",
+    "url": "https://krisha.kz/a/show/1013160988",
+    "first_seen": "2026-07-03T23:35:33",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1121,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1392.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, общепит, медцентры и аптеки, образование · 1392 м²",
+    "price_text": "760 000 000₸за всё545 977₸за м²",
+    "price_value": 760000000545977,
+    "address": "Ауэзовский р-н, Пятницкого 102а",
+    "url": "https://krisha.kz/a/show/1011749481",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1122,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 52.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 52.2 м²",
+    "price_text": "52 022 222₸за всё996 594₸за м²",
+    "price_value": 52022222996594,
+    "address": "Алмалинский р-н, Нурмакова 51 — Казыбек би",
+    "url": "https://krisha.kz/a/show/699107208",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1123,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 5000.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, бани, гостиницы и зоны отдыха, медцентры и аптеки, развлечения · 5000 м²",
+    "price_text": "2 200 000 000₸за всё440 000₸за м²",
+    "price_value": 2200000000440000,
+    "address": "Наурызбайский р-н, мкр Калкаман-1 136",
+    "url": "https://krisha.kz/a/show/762061633",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1124,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 60.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Медцентры и аптеки · 60 м²",
+    "price_text": "39 500 000₸за всё658 333₸за м²",
+    "price_value": 39500000658333,
+    "address": "Алатауский р-н, мкр Ожет, Бекболата 100а",
+    "url": "https://krisha.kz/a/show/1004755014",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1125,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 26.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты · 26 м²",
+    "price_text": "16 800 000₸за всё646 154₸за м²",
+    "price_value": 16800000646154,
+    "address": "Алмалинский р-н, мкр Тастак-2, Карасай батыр 326 — Варламова",
+    "url": "https://krisha.kz/a/show/691564151",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1126,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 4164.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 4164 м²",
+    "price_text": "4 800 000 000₸за всё1 152 738₸за м²",
+    "price_value": 48000000001152738,
+    "address": "Алатауский р-н, Северное кольцо 122",
+    "url": "https://krisha.kz/a/show/1012217663",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1127,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 20.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 20 м²",
+    "price_text": "10 000 000₸за всё500 000₸за м²",
+    "price_value": 10000000500000,
+    "address": "Медеуский р-н, Жургенева 7/13",
+    "url": "https://krisha.kz/a/show/1013205458",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1128,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 200.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, склады, бани, гостиницы и зоны отдыха · 200 м²",
+    "price_text": "50 000 000₸за всё250 000₸за м²",
+    "price_value": 50000000250000,
+    "address": "Ауэзовский р-н, мкр Аксай-1 522/1 — Райымбека 522/1",
+    "url": "https://krisha.kz/a/show/1013508625",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1129,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 40.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Офисы · 40 м²",
+    "price_text": "48 000 000₸за всё1 200 000₸за м²",
+    "price_value": 480000001200000,
+    "address": "Бостандыкский р-н, Сатпаева 30А",
+    "url": "https://krisha.kz/a/show/1008009614",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1130,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 1000.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, склады · 1000 м²",
+    "price_text": "120 000 000₸за всё120 000₸за м²",
+    "price_value": 120000000120000,
+    "address": "Алатауский р-н, мкр Алгабас, Бесбатыр 2 — Фариза Онгарсынова",
+    "url": "https://krisha.kz/a/show/1006399788",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1131,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 7.1,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Склады · 7.1 м²",
+    "price_text": "3 500 000₸за всё492 958₸за м²",
+    "price_value": 3500000492958,
+    "address": "Ауэзовский р-н, мкр Сайран, Утеген Батыра 11д, корпус 8 — Толе Би",
+    "url": "https://krisha.kz/a/show/1013650644",
+    "first_seen": "2026-07-03T23:35:39",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1132,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 210.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Салоны красоты · 210 м²",
+    "price_text": "230 000 000₸за всё1 095 238₸за м²",
+    "price_value": 2300000001095238,
+    "address": "Бостандыкский р-н, Навои 210 — Торайгырова",
+    "url": "https://krisha.kz/a/show/1011934745",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1133,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 504.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Магазины и бутики, общепит · 504 м²",
+    "price_text": "408 000 000₸за всё809 524₸за м²",
+    "price_value": 408000000809524,
+    "address": "Алатауский р-н, мкр Шанырак-2, Жанқожа батыра 213",
+    "url": "https://krisha.kz/a/show/1011606877",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1134,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 350.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Офисы, магазины и бутики, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 350 м²",
+    "price_text": "210 000 000₸за всё600 000₸за м²",
+    "price_value": 210000000600000,
+    "address": "Медеуский р-н, Барибаева 17",
+    "url": "https://krisha.kz/a/show/1006786179",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1135,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 500.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 500 м²",
+    "price_text": "349 000 000₸за всё698 000₸за м²",
+    "price_value": 349000000698000,
+    "address": "Бостандыкский р-н, Манаса 55 — Жандосова  прям на углу Манаса",
+    "url": "https://krisha.kz/a/show/1009780818",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1136,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 150.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 150 м²",
+    "price_text": "97 000 000₸за всё646 667₸за м²",
+    "price_value": 97000000646667,
+    "address": "Туркестан 115",
+    "url": "https://krisha.kz/a/show/1005862485",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1137,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 152.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Турксибский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение · 152 м²",
+    "price_text": "97 000 000₸за всё638 158₸за м²",
+    "price_value": 97000000638158,
+    "address": "Турксибский р-н, Туркестан 115",
+    "url": "https://krisha.kz/a/show/1010404607",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1138,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 3300.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, сельское хозяйство, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения · 3300 м²",
+    "price_text": "4 200 000 000₸за всё1 272 727₸за м²",
+    "price_value": 42000000001272727,
+    "address": "Серкебаева 81 — Гагарина/Байкадамова ( вдоль Гагарина)",
+    "url": "https://krisha.kz/a/show/1009043797",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1139,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 123.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование, развлечения · 123.3 м²",
+    "price_text": "130 000 000₸за всё1 054 339₸за м²",
+    "price_value": 1300000001054339,
+    "address": "Алмалинский р-н, Сейфуллина 469а — Маметовой",
+    "url": "https://krisha.kz/a/show/698481225",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1140,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование · 50 м²",
+    "price_text": "73 000 000₸за всё1 460 000₸за м²",
+    "price_value": 730000001460000,
+    "address": "Бостандыкский р-н, Жандосова 94а",
+    "url": "https://krisha.kz/a/show/1008799151",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1141,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 117.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "новостройка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения · 117 м²",
+    "price_text": "115 000 000₸за всё982 906₸за м²",
+    "price_value": 115000000982906,
+    "address": "Алатауский р-н, мкр 20-й, Саина жк каспи 17 — Саина Монкеби",
+    "url": "https://krisha.kz/a/show/1013604061",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1142,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 10.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Магазины и бутики · 10 м²",
+    "price_text": "1 500 000₸за всё150 000₸за м²",
+    "price_value": 1500000150000,
+    "address": "Ауэзовский р-н, мкр №8 15а — Абая/Утеген батыра",
+    "url": "https://krisha.kz/a/show/1010543635",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1143,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 332.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование, развлечения · 332 м²",
+    "price_text": "350 000 000₸за всё1 054 217₸за м²",
+    "price_value": 3500000001054217,
+    "address": "Бостандыкский р-н, Аль Фараби 53В",
+    "url": "https://krisha.kz/a/show/1005187781",
+    "first_seen": "2026-07-03T23:35:45",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1144,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 100 м² · 6 сот.",
+    "price_text": "19 900 000₸",
+    "price_value": 19900000,
+    "address": "Алатауский р-н, ПКСТ Теплоэнергетик 31",
+    "url": "https://krisha.kz/a/show/1011577274",
+    "first_seen": "2026-07-03T23:35:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1145,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 80.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 80 м² ·",
+    "price_text": "14 600 000₸",
+    "price_value": 14600000,
+    "address": "Наурызбайский р-н, мкр Акжар, СТ Енбек — Наурызбайский район Алматы",
+    "url": "https://krisha.kz/a/show/1013211369",
+    "first_seen": "2026-07-03T23:35:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1146,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 33.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 33 м² · 7 сот.",
+    "price_text": "27 000 000₸",
+    "price_value": 27000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы, ул. 75 лет Победы",
+    "url": "https://krisha.kz/a/show/1013651704",
+    "first_seen": "2026-07-03T23:35:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1147,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 124.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 124 м² · 6 сот.",
+    "price_text": "25 500 000₸",
+    "price_value": 25500000,
+    "address": "Наурызбайский р-н, Тастыбулак м-н, ст радуга 8 — Ст радуга",
+    "url": "https://krisha.kz/a/show/1006625013",
+    "first_seen": "2026-07-03T23:35:51",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1148,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 45.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 45 м² · 12 сот.",
+    "price_text": "10 500 000₸",
+    "price_value": 10500000,
+    "address": "Медеуский р-н, мкр Кенсай",
+    "url": "https://krisha.kz/a/show/1011025963",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1149,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 25.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 25 м² · 12 сот.",
+    "price_text": "7 500 000₸",
+    "price_value": 7500000,
+    "address": "Медеуский р-н, мкр Кенсай — С.т. госкино",
+    "url": "https://krisha.kz/a/show/698148377",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1150,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 102.4,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 102.4 м² · 8.32 сот.",
+    "price_text": "28 500 000₸",
+    "price_value": 28500000,
+    "address": "Медеуский р-н, мкр Кенсай, Транспортник",
+    "url": "https://krisha.kz/a/show/1013101037",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1151,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 70.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 70 м² · 5 сот.",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Монтажная 13",
+    "url": "https://krisha.kz/a/show/1004624024",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1152,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 51.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "новостройка",
+    "title": "Дача · 3 комнаты · 51 м² · 6 сот.",
+    "price_text": "27 000 000₸",
+    "price_value": 27000000,
+    "address": "Бостандыкский р-н, мкр Ерменсай 382 — Рядом ЖК Сакура",
+    "url": "https://krisha.kz/a/show/1007896040",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1153,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 35.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 35 м² · 10 сот.",
+    "price_text": "13 500 000₸",
+    "price_value": 13500000,
+    "address": "Медеуский р-н, мкр Кенсай 73 — Водохранилище остановка",
+    "url": "https://krisha.kz/a/show/1000365490",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1154,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 90.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 90 м² · 8 сот.",
+    "price_text": "37 000 000₸",
+    "price_value": 37000000,
+    "address": "Медеуский р-н, мкр Коктобе",
+    "url": "https://krisha.kz/a/show/697495004",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1155,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 65.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 65 м² · 3.5 сот.",
+    "price_text": "8 500 000₸",
+    "price_value": 8500000,
+    "address": "Медеуский р-н, мкр Коктобе 17",
+    "url": "https://krisha.kz/a/show/687565551",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1156,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 45.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 45 м² · 6 сот.",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Наурызбайский р-н, мкр Тастыбулак 69 — С/х Аксайский Медик",
+    "url": "https://krisha.kz/a/show/1005892879",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1157,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 100 м² · 6 сот.",
+    "price_text": "52 000 000₸",
+    "price_value": 52000000,
+    "address": "Наурызбайский р-н, мкр Акжар, Весна-1 48",
+    "url": "https://krisha.kz/a/show/1011227184",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1158,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 75.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 75.2 м² · 6 сот.",
+    "price_text": "16 500 000₸",
+    "price_value": 16500000,
+    "address": "Алатауский р-н, мкр Алгабас, Теплоэнергетик 53 — Центральная улица",
+    "url": "https://krisha.kz/a/show/698495066",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1159,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 50 м² · 8 сот.",
+    "price_text": "8 500 000₸",
+    "price_value": 8500000,
+    "address": "Медеуский р-н, мкр Кенсай",
+    "url": "https://krisha.kz/a/show/1012049288",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1160,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 44.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 44 м² ·",
+    "price_text": "23 000 000₸",
+    "price_value": 23000000,
+    "address": "Алатауский р-н, Акбулак 70 — Садоводство Радуга",
+    "url": "https://krisha.kz/a/show/1010794883",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1161,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 80.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 80 м² · 9.5 сот.",
+    "price_text": "26 500 000₸",
+    "price_value": 26500000,
+    "address": "Алатауский р-н, мкр Алгабас, ПКСТ Теплоэнергетик 118 Б — Неже улицы Монке би вниз по Онгасыровой",
+    "url": "https://krisha.kz/a/show/1005202915",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1162,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 6,
+    "area": 188.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 6 комнат · 188 м² · 6 сот.",
+    "price_text": "45 000 000₸",
+    "price_value": 45000000,
+    "address": "Алатауский р-н, мкр 71-й разъезд, Турдиева 94 — ТЭЦ-2 Мөңке би уг. Фариза Оңғарсынова",
+    "url": "https://krisha.kz/a/show/693084961",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1163,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 30.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 30 м² · 5.6 сот.",
+    "price_text": "10 000 000₸",
+    "price_value": 10000000,
+    "address": "Медеуский р-н, Садоводческое товарищество Минбыт 18",
+    "url": "https://krisha.kz/a/show/1011062662",
+    "first_seen": "2026-07-03T23:35:57",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1164,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 25.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 25 м² · 9.4 сот.",
+    "price_text": "12 000 000₸",
+    "price_value": 12000000,
+    "address": "Медеуский р-н, мкр Кенсай",
+    "url": "https://krisha.kz/a/show/1007502814",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1165,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 5,
+    "area": 140.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 5 комнат · 140 м² · 13 сот.",
+    "price_text": "39 000 000₸",
+    "price_value": 39000000,
+    "address": "Алатау Байконыр 147 — Пос.Жандосово",
+    "url": "https://krisha.kz/a/show/696065147",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1166,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 100 м² · 7.24 сот.",
+    "price_text": "62 000 000₸",
+    "price_value": 62000000,
+    "address": "Наурызбайский р-н, Арычная 18",
+    "url": "https://krisha.kz/a/show/1000665857",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1167,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 50 м² ·",
+    "price_text": "6 000 000₸",
+    "price_value": 6000000,
+    "address": "Медеуский р-н, мкр Кенсай",
+    "url": "https://krisha.kz/a/show/1011068711",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1168,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 26.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 26.3 м² · 10 сот.",
+    "price_text": "10 000 000₸",
+    "price_value": 10000000,
+    "address": "Медеуский р-н, СТ статистик 60 — Мустафа Шокая",
+    "url": "https://krisha.kz/a/show/1002444851",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1169,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 33.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 33 м² · 7 сот.",
+    "price_text": "27 000 000₸",
+    "price_value": 27000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы, 75 лет Победы",
+    "url": "https://krisha.kz/a/show/1013651398",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1170,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 10.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 10 м² · 6 сот.",
+    "price_text": "10 000 000₸",
+    "price_value": 10000000,
+    "address": "Медеуский р-н, мкр Бутаковка — Замантас",
+    "url": "https://krisha.kz/a/show/1013650730",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1171,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 75.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 75 м² · 6 сот.",
+    "price_text": "35 000 000₸",
+    "price_value": 35000000,
+    "address": "Наурызбайский р-н, Сливовая 434 — Товарищеское общество Алма",
+    "url": "https://krisha.kz/a/show/691325856",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1172,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 25.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 25 м² · 6 сот.",
+    "price_text": "43 000 000₸",
+    "price_value": 43000000,
+    "address": "Наурызбайский р-н, Озёрная 41 — проспект Абая",
+    "url": "https://krisha.kz/a/show/1013649588",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1173,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 175.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 175 м² · 12 сот.",
+    "price_text": "55 000 000₸",
+    "price_value": 55000000,
+    "address": "Наурызбайский р-н, мкр Таужолы 32-33 — Садовое общество «Самал АДК»",
+    "url": "https://krisha.kz/a/show/691020428",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1174,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 25.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 25 м² · 6.5 сот.",
+    "price_text": "8 000 000₸",
+    "price_value": 8000000,
+    "address": "Медеуский р-н, мкр Каменское плато",
+    "url": "https://krisha.kz/a/show/699294325",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1175,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 87.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 87 м² · 6 сот.",
+    "price_text": "39 000 000₸",
+    "price_value": 39000000,
+    "address": "Наурызбайский р-н, мкр Тастыбулак",
+    "url": "https://krisha.kz/a/show/696199830",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1176,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 30.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 30 м² · 4 сот.",
+    "price_text": "7 500 000₸",
+    "price_value": 7500000,
+    "address": "Медеуский р-н, мкр Каменское плато",
+    "url": "https://krisha.kz/a/show/1013447619",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1177,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 70.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 70 м² · 6 сот.",
+    "price_text": "22 000 000₸",
+    "price_value": 22000000,
+    "address": "Наурызбайский р-н, мкр Акжар, Долан 2 2",
+    "url": "https://krisha.kz/a/show/1008412392",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1178,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 77.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 77 м² · 7 сот.",
+    "price_text": "43 000 000₸",
+    "price_value": 43000000,
+    "address": "Наурызбайский р-н, мкр Акжар, СТ Весна 290 — За экопостом, налево, вдоль речки, слева",
+    "url": "https://krisha.kz/a/show/1003721251",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1179,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 95.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 95 м² · 5.7 сот.",
+    "price_text": "38 000 000₸",
+    "price_value": 38000000,
+    "address": "Наурызбайский р-н, мкр Таужолы 243",
+    "url": "https://krisha.kz/a/show/1013645704",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1180,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 15.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 15 м² · 6 сот.",
+    "price_text": "9 500 000₸",
+    "price_value": 9500000,
+    "address": "Наурызбайский р-н, Ст Цветная металлургия 22",
+    "url": "https://krisha.kz/a/show/1012170871",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1181,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 63.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 63 м² · 7.5 сот.",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Монтажная 31 — Монтажная",
+    "url": "https://krisha.kz/a/show/760229496",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1182,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 65.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 65 м² · 7.2 сот.",
+    "price_text": "35 000 000₸",
+    "price_value": 35000000,
+    "address": "ПКС Заря 2007 96 — Пос. Раимбек",
+    "url": "https://krisha.kz/a/show/1012561762",
+    "first_seen": "2026-07-03T23:36:03",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1183,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 43.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 43 м² · 7 сот.",
+    "price_text": "6 500 000₸",
+    "price_value": 6500000,
+    "address": "6 линия 10 — С. Нургиса Тлендиева Алматинская область",
+    "url": "https://krisha.kz/a/show/1013048704",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1184,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 20.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 20 м² · 6 сот.",
+    "price_text": "12 000 000₸",
+    "price_value": 12000000,
+    "address": "Медеуский р-н, СТ Домостроитель",
+    "url": "https://krisha.kz/a/show/1000348806",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1185,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 120.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 120 м² · 6 сот.",
+    "price_text": "23 000 000₸",
+    "price_value": 23000000,
+    "address": "Жаналык ауылында 237",
+    "url": "https://krisha.kz/a/show/1003281603",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1186,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 50 м² · 5 сот.",
+    "price_text": "14 000 000₸",
+    "price_value": 14000000,
+    "address": "Линия 2 участок 14 — Между Комсомолом и Чапая",
+    "url": "https://krisha.kz/a/show/1009516526",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1187,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 6,
+    "area": 250.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 6 комнат · 250 м² ·",
+    "price_text": "69 000 000₸",
+    "price_value": 69000000,
+    "address": "Медеуский р-н, мкр Бутаковка, Замартас",
+    "url": "https://krisha.kz/a/show/1013251077",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1188,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 7,
+    "area": 140.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 7 комнат · 140 м² · 8 сот.",
+    "price_text": "50 900 000₸",
+    "price_value": 50900000,
+    "address": "Медеуский р-н, мкр Каменское плато, СТ Домостроитель 217",
+    "url": "https://krisha.kz/a/show/1004427107",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1189,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 52.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 52 м² · 10 сот.",
+    "price_text": "8 000 000₸",
+    "price_value": 8000000,
+    "address": "Медеуский р-н, мкр Коктобе, С/Т . Механизатор 36",
+    "url": "https://krisha.kz/a/show/1013444335",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1190,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 35.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 35 м² ·",
+    "price_text": "36 000 000₸",
+    "price_value": 36000000,
+    "address": "Медеуский р-н, мкр Каменское плато — СТ Монтажник 21",
+    "url": "https://krisha.kz/a/show/684938489",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1191,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 35.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 35 м² · 4 сот.",
+    "price_text": "22 000 000₸",
+    "price_value": 22000000,
+    "address": "Медеуский р-н, мкр Каменское плато, Мкр Каменское плато, с/о Здоровье 63",
+    "url": "https://krisha.kz/a/show/1004084638",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1192,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 95.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 95 м² · 6 сот.",
+    "price_text": "59 999 999₸",
+    "price_value": 59999999,
+    "address": "Наурызбайский р-н, мкр Карагайлы",
+    "url": "https://krisha.kz/a/show/1002821046",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1193,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 45.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 45 м² ·",
+    "price_text": "14 000 000₸",
+    "price_value": 14000000,
+    "address": "Медеуский р-н, мкр Кенсай — СТ \"Родники\"",
+    "url": "https://krisha.kz/a/show/1011644949",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1194,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 78.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 78 м² ·",
+    "price_text": "70 000 000₸",
+    "price_value": 70000000,
+    "address": "Бостандыкский р-н, мкр Нурлытау (Энергетик)",
+    "url": "https://krisha.kz/a/show/1012989866",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1195,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 40.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 40 м² · 6 сот.",
+    "price_text": "20 000 000₸",
+    "price_value": 20000000,
+    "address": "Наурызбайский р-н, мкр Таужолы 68",
+    "url": "https://krisha.kz/a/show/1012642466",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1196,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 15.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 15 м² · 5 сот.",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Бостандыкский р-н, Сливовая 385",
+    "url": "https://krisha.kz/a/show/1012187604",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1197,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 100 м² · 8.23 сот.",
+    "price_text": "80 000 000₸",
+    "price_value": 80000000,
+    "address": "Наурызбайский р-н, мкр Акжар, Мкр Абая 26 — Абая",
+    "url": "https://krisha.kz/a/show/1000599816",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1198,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 42.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 42 м² · 6 сот.",
+    "price_text": "65 000 000₸",
+    "price_value": 65000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 82 — Какишева",
+    "url": "https://krisha.kz/a/show/687137296",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1199,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 50 м² · 8 сот.",
+    "price_text": "1 800 000₸",
+    "price_value": 1800000,
+    "address": "Наурызбайский р-н, мкр Акжар 152 — Аксайский ущелье",
+    "url": "https://krisha.kz/a/show/1001697371",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1200,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 100 м² · 12 сот.",
+    "price_text": "27 500 000₸",
+    "price_value": 27500000,
+    "address": "Алатауский р-н, мкр Рахат — Рядом Рахат дача Алма",
+    "url": "https://krisha.kz/a/show/1008523197",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1201,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 65.4,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 65.4 м² · 8 сот.",
+    "price_text": "20 000 000₸",
+    "price_value": 20000000,
+    "address": "ПКСТ Энергостроитель центральная 19 — Пкст энергостроитель",
+    "url": "https://krisha.kz/a/show/1003827541",
+    "first_seen": "2026-07-03T23:36:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1202,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 70.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 70 м² · 7 сот.",
+    "price_text": "35 000 000₸",
+    "price_value": 35000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы, ул. СТ Алмалы 16 — Возле дома 23",
+    "url": "https://krisha.kz/a/show/1013630409",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1203,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 50.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 50 м² ·",
+    "price_text": "20 000 000₸",
+    "price_value": 20000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы, СТ Сандугаш 18",
+    "url": "https://krisha.kz/a/show/1005222089",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1204,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 10.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 10 м² · 8 сот.",
+    "price_text": "5 500 000₸",
+    "price_value": 5500000,
+    "address": "Медеуский р-н, Геологов 30 — Шокая",
+    "url": "https://krisha.kz/a/show/1008398737",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1205,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 56.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 56 м² · 8 сот.",
+    "price_text": "40 000 000₸",
+    "price_value": 40000000,
+    "address": "Наурызбайский р-н, мкр Тастыбулак — Наука",
+    "url": "https://krisha.kz/a/show/694868670",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1206,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 145.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 145 м² · 11.3 сот.",
+    "price_text": "32 000 000₸",
+    "price_value": 32000000,
+    "address": "Медеуский р-н, мкр Алатау (ИЯФ) — ПИТ Алатау",
+    "url": "https://krisha.kz/a/show/1006210227",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1207,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 35.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 35 м² · 6 сот.",
+    "price_text": "21 000 000₸",
+    "price_value": 21000000,
+    "address": "Наурызбайский р-н, Пищевик 159 — СТ Пищевик 123",
+    "url": "https://krisha.kz/a/show/1012215442",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1208,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 1,
+    "area": 10.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "Дача · 1 комната · 10.2 м² ·",
+    "price_text": "14 500 000₸",
+    "price_value": 14500000,
+    "address": "Ауэзовский р-н, Садовая",
+    "url": "https://krisha.kz/a/show/1013237152",
+    "first_seen": "2026-07-03T23:36:14",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1209,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 10,
+    "area": 450.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 10 комнат · 450 м² · 6.7 сот.",
+    "price_text": "200 000 000₸",
+    "price_value": 200000000,
+    "address": "Наурызбайский р-н, мкр Каргалы, Кооператор 120 — Нажимеденова",
+    "url": "https://krisha.kz/a/show/685854606",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1210,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 67.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 67.3 м² · 6 сот.",
+    "price_text": "63 000 000₸",
+    "price_value": 63000000,
+    "address": "Бостандыкский р-н, мкр Ерменсай, Курортная",
+    "url": "https://krisha.kz/a/show/1002005093",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1211,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 66.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 66 м² · 6 сот.",
+    "price_text": "15 000 000₸",
+    "price_value": 15000000,
+    "address": "Наурызбайский р-н, мкр Таужолы 14 — Садовое товарищество Пищевик",
+    "url": "https://krisha.kz/a/show/1012668914",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1212,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 84.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 84 м² ·",
+    "price_text": "30 000 000₸",
+    "price_value": 30000000,
+    "address": "Аксай 19",
+    "url": "https://krisha.kz/a/show/1010833428",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1213,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 30.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 30 м² · 6 сот.",
+    "price_text": "20 000 000₸",
+    "price_value": 20000000,
+    "address": "Медеуский р-н, Шокая",
+    "url": "https://krisha.kz/a/show/1002786803",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1214,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 80.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 80 м² ·",
+    "price_text": "32 000 000₸",
+    "price_value": 32000000,
+    "address": "Наурызбайский р-н, мкр Карагайлы 660",
+    "url": "https://krisha.kz/a/show/1011493117",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1215,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 84.8,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 84.8 м² · 6 сот.",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Медеуский р-н, Ст Коктобе 48",
+    "url": "https://krisha.kz/a/show/1011937138",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1216,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 4,
+    "area": 150.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "не указан",
+    "building_type": "вторичка",
+    "title": "Дача · 4 комнаты · 150 м² · 6 сот.",
+    "price_text": "25 000 000₸",
+    "price_value": 25000000,
+    "address": "Нұрлы Жол ауылы",
+    "url": "https://krisha.kz/a/show/1012691081",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1217,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 3,
+    "area": 90.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 3 комнаты · 90 м² · 15 сот.",
+    "price_text": "57 000 000₸",
+    "price_value": 57000000,
+    "address": "Наурызбайский р-н, Горная 305",
+    "url": "https://krisha.kz/a/show/698266736",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1218,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 45.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 45 м² · 11.06 сот.",
+    "price_text": "50 000 000₸",
+    "price_value": 50000000,
+    "address": "Медеуский р-н, мкр Коктобе 112 — Жамал Омаровой",
+    "url": "https://krisha.kz/a/show/692086252",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1219,
+    "deal_type": "продажа",
+    "category": "дачи",
+    "rooms": 2,
+    "area": 100.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "Дача · 2 комнаты · 100 м² · 6 сот.",
+    "price_text": "150 000 000₸",
+    "price_value": 150000000,
+    "address": "Наурызбайский р-н, мкр Тастыбулак, Европейская 167 — Рядом Алексей Хегайя",
+    "url": "https://krisha.kz/a/show/1013027220",
+    "first_seen": "2026-07-03T23:36:15",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1220,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 36.3,
+    "floor": null,
+    "total_floors": null,
+    "district": "п. Бесагаш",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 36.3 м²",
+    "price_text": "от 17 787 000₸",
+    "price_value": 17787000,
+    "address": "п. Бесагаш, Райымбек батыра 275",
+    "url": "https://krisha.kz/a/show/673332516",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1221,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 37.85,
+    "floor": null,
+    "total_floors": null,
+    "district": "пос. Гульдала",
+    "building_type": "новостройка",
+    "title": "1-комнатная квартира · 37.85 м²",
+    "price_text": "от 17 411 000₸",
+    "price_value": 17411000,
+    "address": "пос. Гульдала",
+    "url": "https://krisha.kz/a/show/1000459786",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1222,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 50.46,
+    "floor": null,
+    "total_floors": null,
+    "district": "Медеуский",
+    "building_type": "новостройка",
+    "title": "2-комнатная квартира · 50.46 м²",
+    "price_text": "от 49 657 029₸",
+    "price_value": 49657029,
+    "address": "Медеуский р-н, ​Приканальная БАК 99а",
+    "url": "https://krisha.kz/a/show/1009994991",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1223,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 114.8,
+    "floor": null,
+    "total_floors": null,
+    "district": "Ауэзовский",
+    "building_type": "новостройка",
+    "title": "3-комнатная квартира · 114.8 м²",
+    "price_text": "от 80 360 000₸",
+    "price_value": 80360000,
+    "address": "Ауэзовский р-н, мкр Жетысу-3 55А",
+    "url": "https://krisha.kz/a/show/1003290037",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1224,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 5,
+    "area": 392.2,
+    "floor": null,
+    "total_floors": null,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "5-комнатная квартира · 392.2 м²",
+    "price_text": "225 000 000₸",
+    "price_value": 225000000,
+    "address": "Наурызбайский р-н, мкр Каргалы, Рыскулбекова 19",
+    "url": "https://krisha.kz/a/show/1010161401",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1225,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 54.1,
+    "floor": 2,
+    "total_floors": 3,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 54.1 м² · 2/3 этаж",
+    "price_text": "65 000 000₸",
+    "price_value": 65000000,
+    "address": "Бостандыкский р-н, мкр Нур Алатау, мкр. Нур Алатау 134",
+    "url": "https://krisha.kz/a/show/1013645723",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1226,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 163.0,
+    "floor": 2,
+    "total_floors": 3,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 163 м² · 2/3 этаж",
+    "price_text": "255 000 000₸",
+    "price_value": 255000000,
+    "address": "Бостандыкский р-н, мкр Мирас, Мкр. Мирас 33",
+    "url": "https://krisha.kz/a/show/1013276990",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1227,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 41.0,
+    "floor": 1,
+    "total_floors": 5,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 41 м² · 1/5 этаж",
+    "price_text": "37 000 000₸",
+    "price_value": 37000000,
+    "address": "Бостандыкский р-н, Жарокова 217 Б — Тимирязева /жарокова",
+    "url": "https://krisha.kz/a/show/1012548252",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1228,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 36.0,
+    "floor": 6,
+    "total_floors": 6,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 36 м² · 6/6 этаж",
+    "price_text": "19 600 000₸",
+    "price_value": 19600000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Жунисова",
+    "url": "https://krisha.kz/a/show/1012844349",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1229,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 44.1,
+    "floor": 9,
+    "total_floors": 9,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 44.1 м² · 9/9 этаж",
+    "price_text": "24 000 000₸",
+    "price_value": 24000000,
+    "address": "Алатауский р-н, мкр Зердели 1/160",
+    "url": "https://krisha.kz/a/show/1008029221",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1230,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 40.5,
+    "floor": null,
+    "total_floors": null,
+    "district": "Алатауский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 40.5 м²",
+    "price_text": "24 500 000₸",
+    "price_value": 24500000,
+    "address": "Алатауский р-н, мкр Нуркент 5",
+    "url": "https://krisha.kz/a/show/1013111771",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1231,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 170.0,
+    "floor": 2,
+    "total_floors": 3,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 170 м² · 2/3 этаж",
+    "price_text": "92 000 000₸",
+    "price_value": 92000000,
+    "address": "Медеуский р-н, мкр Думан-1, Бурабай 54 — Бурабай-сабыра рахимова",
+    "url": "https://krisha.kz/a/show/692396664",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1232,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 11.0,
+    "floor": 2,
+    "total_floors": 4,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 11 м² · 2/4 этаж",
+    "price_text": "9 700 000₸",
+    "price_value": 9700000,
+    "address": "Ауэзовский р-н, Мкр. Таугуль-1 6/2",
+    "url": "https://krisha.kz/a/show/1011376736",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1233,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 5,
+    "area": 226.0,
+    "floor": 9,
+    "total_floors": 10,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "5-комнатная квартира · 226 м² · 9/10 этаж",
+    "price_text": "142 000 000₸",
+    "price_value": 142000000,
+    "address": "Бостандыкский р-н, Аль-Фараби 47",
+    "url": "https://krisha.kz/a/show/1013443649",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1234,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 1,
+    "area": 36.6,
+    "floor": 9,
+    "total_floors": 9,
+    "district": "Жетысуский",
+    "building_type": "вторичка",
+    "title": "1-комнатная квартира · 36.6 м² · 9/9 этаж",
+    "price_text": "24 000 000₸",
+    "price_value": 24000000,
+    "address": "Жетысуский р-н, Чаплыгина 1/1 — Трц Максима",
+    "url": "https://krisha.kz/a/show/1011245908",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1235,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 97.3,
+    "floor": 14,
+    "total_floors": 16,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 97.3 м² · 14/16 этаж",
+    "price_text": "39 500 000₸",
+    "price_value": 39500000,
+    "address": "Наурызбайский р-н, мкр Шугыла, Жуалы",
+    "url": "https://krisha.kz/a/show/684664456",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1236,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 57.0,
+    "floor": 4,
+    "total_floors": 7,
+    "district": "Алмалинский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 57 м² · 4/7 этаж",
+    "price_text": "41 999 990₸",
+    "price_value": 41999990,
+    "address": "Алмалинский р-н, Толе би 160",
+    "url": "https://krisha.kz/a/show/1013533126",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1237,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 68.6,
+    "floor": 7,
+    "total_floors": 9,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 68.6 м² · 7/9 этаж",
+    "price_text": "44 500 000₸",
+    "price_value": 44500000,
+    "address": "Ауэзовский р-н, мкр Аксай-4, Аксай 4",
+    "url": "https://krisha.kz/a/show/1013219350",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1238,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 3,
+    "area": 120.0,
+    "floor": 4,
+    "total_floors": 7,
+    "district": "Медеуский",
+    "building_type": "вторичка",
+    "title": "3-комнатная квартира · 120 м² · 4/7 этаж",
+    "price_text": "127 000 000₸",
+    "price_value": 127000000,
+    "address": "Медеуский р-н, мкр Горный Гигант, Жамакаева 254/2 — Каппарова, 6",
+    "url": "https://krisha.kz/a/show/1008838937",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1239,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 4,
+    "area": 92.0,
+    "floor": 7,
+    "total_floors": 13,
+    "district": "Ауэзовский",
+    "building_type": "вторичка",
+    "title": "4-комнатная квартира · 92 м² · 7/13 этаж",
+    "price_text": "85 000 000₸",
+    "price_value": 85000000,
+    "address": "Ауэзовский р-н, мкр Астана, Микрорайон Астана, 1/19 3 — Саина Джандосова",
+    "url": "https://krisha.kz/a/show/1013276599",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1240,
+    "deal_type": "продажа",
+    "category": "квартиры",
+    "rooms": 2,
+    "area": 66.8,
+    "floor": 1,
+    "total_floors": 10,
+    "district": "Наурызбайский",
+    "building_type": "вторичка",
+    "title": "2-комнатная квартира · 66.8 м² · 1/10 этаж",
+    "price_text": "60 000 000₸",
+    "price_value": 60000000,
+    "address": "Наурызбайский р-н, мкр Каргалы, Кенесары хана 54/24 корпус 1",
+    "url": "https://krisha.kz/a/show/1008452638",
+    "first_seen": "2026-07-03T23:38:09",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1241,
+    "deal_type": "продажа",
+    "category": "дома",
+    "rooms": 5,
+    "area": 148.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Отдельный дом · 5 комнат · 148 м² · 3.8 сот.",
+    "price_text": "95 000 000₸",
+    "price_value": 95000000,
+    "address": "Бостандыкский р-н, Набережная 47/1 — Мкр. Нурлы-тау (Энергетик) Выше Президентского парка, 5 минут от Аль-Фараби",
+    "url": "https://krisha.kz/a/show/695345226",
+    "first_seen": "2026-07-03T23:38:38",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1242,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 138.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, склады, салоны красоты, медцентры и аптеки, образование · 138 м²",
+    "price_text": "140 000 000₸за всё1 014 493₸за м²",
+    "price_value": 1400000001014493,
+    "address": "Бостандыкский р-н, Торайгырова 25 — Напротив 3 орбиты",
+    "url": "https://krisha.kz/a/show/1013383755",
+    "first_seen": "2026-07-03T23:39:41",
+    "condition": null,
+    "photos": null
+  },
+  {
+    "id": 1243,
+    "deal_type": "продажа",
+    "category": "коммерческая",
+    "rooms": null,
+    "area": 20.0,
+    "floor": null,
+    "total_floors": null,
+    "district": "Бостандыкский",
+    "building_type": "вторичка",
+    "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, медцентры и аптеки, образование, развлечения · 20 м²",
+    "price_text": "9 999 000₸за всё499 950₸за м²",
+    "price_value": 9999000499950,
+    "address": "Бостандыкский р-н, мкр Нур Алатау, Какимбека Салыкова 40",
+    "url": "https://krisha.kz/a/show/1012830197",
+    "first_seen": "2026-07-03T23:39:41",
+    "condition": null,
+    "photos": null
   }
 ];
-window.LISTINGS_BUILT_AT = "2026-06-28 19:36";
+window.LISTINGS_BUILT_AT = "2026-07-03 23:40";
