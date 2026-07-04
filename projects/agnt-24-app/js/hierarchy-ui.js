@@ -30,6 +30,7 @@ const InviteFlow = {
         document.getElementById('inviteTitle').textContent = 'Приглашение недействительно';
         document.getElementById('inviteError').style.display = 'block';
         document.getElementById('inviteError').textContent = 'Ссылка уже использована или устарела';
+        document.getElementById('inviteToLogin').style.display = '';
         return;
       }
       this._invite = inv;
@@ -39,11 +40,17 @@ const InviteFlow = {
       document.getElementById('inviteForm').style.display = '';
     } catch (err) {
       document.getElementById('inviteTitle').textContent = 'Приглашение не найдено';
+      document.getElementById('inviteToLogin').style.display = '';
       console.error('checkUrl invite', err);
     }
   },
 
   bind() {
+    document.getElementById('inviteToLogin')?.addEventListener('click', () => {
+      history.replaceState(null, '', location.pathname); // убираем ?invite= без перезагрузки
+      Auth.showAgentLogin();
+    });
+
     document.getElementById('inviteSubmit')?.addEventListener('click', async () => {
       const name  = document.getElementById('inviteName').value.trim();
       const phone = document.getElementById('invitePhone').value.trim();
