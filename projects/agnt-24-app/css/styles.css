@@ -1421,6 +1421,33 @@ html, body {
 .agency-badge.test   { background: rgba(245,180,0,.15); color: #a67600; }
 .agency-badge.active  { background: rgba(21,150,107,.12); color: var(--green); }
 .agency-badge.suspended { background: rgba(220,68,70,.1); color: #dc4446; }
+.agency-card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 6px; }
+.agency-delete-btn {
+  font-size: 12px; font-weight: 600; color: #dc4446; background: rgba(220,68,70,.08);
+  border: none; border-radius: 8px; padding: 4px 12px; cursor: pointer;
+}
+.agency-delete-btn:active { background: rgba(220,68,70,.18); }
+
+/* Диалог подтверждения удаления */
+.confirm-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center; z-index: 9999;
+}
+.confirm-modal {
+  background: white; border-radius: 18px; padding: 24px 20px;
+  width: calc(100% - 48px); max-width: 320px; text-align: center;
+}
+.confirm-title { font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.confirm-msg { font-size: 13px; color: var(--ink2); line-height: 1.5; margin-bottom: 20px; }
+.confirm-actions { display: flex; gap: 10px; }
+.confirm-cancel-btn {
+  flex: 1; padding: 12px; border: 1.5px solid var(--border); border-radius: 12px;
+  font-size: 15px; font-weight: 600; color: var(--ink); background: var(--s2); cursor: pointer;
+}
+.confirm-delete-btn {
+  flex: 1; padding: 12px; border: none; border-radius: 12px;
+  font-size: 15px; font-weight: 700; color: white; background: #dc4446; cursor: pointer;
+}
 
 .kpi-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .kpi-tile {

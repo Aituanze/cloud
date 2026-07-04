@@ -181,6 +181,11 @@ const Sb = {
     return data || [];
   },
 
+  async deleteAgency(agencyId) {
+    const { error } = await _db.from('agencies').delete().eq('id', agencyId);
+    if (error) throw error;
+  },
+
   async getAllProfiles() {
     // Для superadmin — вся иерархия сразу, дальше группируем на клиенте
     const { data } = await _db.from('profiles').select('id, agency_id, role, mop_id, name, hired_at, deposits_manual, volume_manual');

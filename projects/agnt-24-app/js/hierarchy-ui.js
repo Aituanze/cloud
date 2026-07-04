@@ -179,9 +179,44 @@ const HierarchyUI = {
         <div class="agency-card-name">${a.name}</div>
         <div class="agency-card-sub">${director ? director.name : 'Руководитель ещё не зарегистрирован'}</div>
         <div class="agency-card-sub">МОПов: ${mopCount} · Агентов: ${agentCount}</div>
-        <span class="agency-badge ${a.subscription_status}">${subLabel}</span>
+        <div class="agency-card-footer">
+          <span class="agency-badge ${a.subscription_status}">${subLabel}</span>
+          <button class="agency-delete-btn" data-id="${a.id}" data-name="${a.name.replace(/"/g, '&quot;')}">Удалить</button>
+        </div>
       </div>`;
     }).join('');
+    list.querySelectorAll('.agency-delete-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        this._confirmDelete(btn.dataset.id, btn.dataset.name);
+      });
+    });
+  },
+
+  _confirmDelete(agencyId, agencyName) {
+    const overlay = document.createElement('div');
+    overlay.className = 'confirm-overlay';
+    overlay.innerHTML = `
+      <div class="confirm-modal">
+        <div class="confirm-title">Удалить агентство?</div>
+        <div class="confirm-msg">«${agencyName}» будет удалено без возможности восстановления.</div>
+        <div class="confirm-actions">
+          <button class="confirm-cancel-btn">Отмена</button>
+          <button class="confirm-delete-btn">Удалить</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.querySelector('.confirm-cancel-btn').addEventListener('click', () => overlay.remove());
+    overlay.querySelector('.confirm-delete-btn').addEventListener('click', async () => {
+      overlay.remove();
+      try {
+        await Sb.deleteAgency(agencyId);
+        App._toast('Агентство удалено');
+        this.openAgencies();
+      } catch (err) {
+        App._toast('Нельзя удалить: ' + (err.message || 'есть связанные данные'));
+      }
+    });
   },
 
   async _submitNewAgency() {
