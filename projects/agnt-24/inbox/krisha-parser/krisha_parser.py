@@ -158,6 +158,10 @@ def init_db(db_path: str = DB_PATH) -> None:
             conn.execute("ALTER TABLE listings ADD COLUMN condition TEXT")
         if "photos" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN photos TEXT")
+        if "seller_type" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN seller_type TEXT")
+        if "seller_agency" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN seller_agency TEXT")
 
 
 def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
@@ -288,6 +292,41 @@ def parse_condition(html: str) -> Optional[str]:
     return None
 
 
+def _extract_json_object(html: str, marker: str) -> Optional[dict]:
+    """Вырезает JSON-объект, начинающийся с marker (например '"seller":{'), считая
+    вложенные фигурные скобки, и парсит его. Regex не подходит — внутри seller
+    может быть вложенный объект agency."""
+    idx = html.find(marker)
+    if idx == -1:
+        return None
+    start = idx + len(marker) - 1  # позиция открывающей '{'
+    depth = 0
+    for i in range(start, len(html)):
+        if html[i] == "{":
+            depth += 1
+        elif html[i] == "}":
+            depth -= 1
+            if depth == 0:
+                try:
+                    return json.loads(html[start:i + 1])
+                except json.JSONDecodeError:
+                    return None
+    return None
+
+
+def parse_seller(html: str) -> tuple[Optional[str], Optional[str]]:
+    """Извлекает тип продавца со страницы объявления: 'owner' (хозяин) или
+    'specialist'/'company' (агент/агентство) из встроенного в HTML JSON
+    ({"seller":{"type":"owner",...}} или {..."type":"specialist","agency":{"name":"..."}})."""
+    obj = _extract_json_object(html, '"seller":{')
+    if not obj:
+        return None, None
+    seller_type = obj.get("type")
+    agency = obj.get("agency")
+    agency_name = agency.get("name") if isinstance(agency, dict) else None
+    return seller_type, agency_name
+
+
 # --- Фото — только ссылки на CDN krisha, без скачивания и хранения у себя ---
 # krisha раздаёт фото объявлений через krisha-photos.kcdn.online в нескольких
 # готовых размерах (никакой защиты от хотлинка, cache-control: max-age=7 дней).
@@ -387,6 +426,62 @@ def enrich_details(db_path: str = DB_PATH, limit: Optional[int] = None,
                 updated_cond, updated_photos, processed, gone)
     return {"checked": processed, "updated_condition": updated_cond,
             "updated_photos": updated_photos, "gone": gone}
+
+
+def enrich_seller_type(db_path: str = DB_PATH, limit: Optional[int] = None,
+                        delay: float = REQUEST_DELAY_SEC) -> dict:
+    """Проверяет тип продавца (owner/specialist/company) на detail-странице для
+    объявлений, у которых seller_type ещё не заполнен.
+
+    Нужно для чистки старых записей: das[who]=1 в SEARCH_URLS отсекает агентские
+    объявления только при парсинге НОВЫХ объявлений (с 2026-07-04), но не трогает
+    то, что уже лежит в базе с прошлых прогонов без фильтра. build_app_data.py
+    должен использовать seller_type, чтобы не показывать агентские объявления
+    под видом хозяйских.
+    """
+    init_db(db_path)
+    with sqlite3.connect(db_path) as conn:
+        q = "SELECT id, url FROM listings WHERE seller_type IS NULL AND url IS NOT NULL"
+        if limit:
+            q += f" LIMIT {int(limit)}"
+        rows = conn.execute(q).fetchall()
+
+    processed = 0
+    owners = 0
+    agencies = 0
+    gone = 0
+    blocks = 0
+    for row_id, url in rows:
+        html, status = fetch_with_status(url)
+        if status == 404:
+            gone += 1
+            processed += 1
+            with sqlite3.connect(db_path) as conn:
+                conn.execute("UPDATE listings SET seller_type = ? WHERE id = ?", ("gone", row_id))
+            time.sleep(delay)
+            continue
+        if not html:
+            blocks += 1
+            if blocks >= 3:
+                logger.warning("Похоже на блокировку (не 404) — останавливаю enrich_seller_type досрочно.")
+                break
+            continue
+        seller_type, agency_name = parse_seller(html)
+        with sqlite3.connect(db_path) as conn:
+            conn.execute(
+                "UPDATE listings SET seller_type = ?, seller_agency = ? WHERE id = ?",
+                (seller_type or "unknown", agency_name, row_id),
+            )
+        processed += 1
+        if seller_type == "owner":
+            owners += 1
+        elif seller_type:
+            agencies += 1
+        time.sleep(delay)
+
+    logger.info("Продавец: хозяин у %s, агент/агентство у %s из %s проверенных (%s снято с публикации).",
+                owners, agencies, processed, gone)
+    return {"checked": processed, "owners": owners, "agencies": agencies, "gone": gone}
 
 
 def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
@@ -506,9 +601,18 @@ if __name__ == "__main__":
     import sys
 
     flag = "--enrich-details" if "--enrich-details" in sys.argv else (
-        "--enrich-condition" if "--enrich-condition" in sys.argv else None
-    )
-    if flag:
+        "--enrich-condition" if "--enrich-condition" in sys.argv else (
+        "--enrich-seller" if "--enrich-seller" in sys.argv else None
+    ))
+    if flag == "--enrich-seller":
+        limit = None
+        idx = sys.argv.index(flag)
+        if idx + 1 < len(sys.argv) and sys.argv[idx + 1].isdigit():
+            limit = int(sys.argv[idx + 1])
+        stats = enrich_seller_type(limit=limit)
+        print(f"Продавец: хозяин у {stats['owners']}, агент/агентство у {stats['agencies']} "
+              f"из {stats['checked']} проверенных")
+    elif flag:
         limit = None
         idx = sys.argv.index(flag)
         if idx + 1 < len(sys.argv) and sys.argv[idx + 1].isdigit():

@@ -38,6 +38,7 @@ build/
 *.sqlite
 *.csv
 pipeline_log.txt
+*_log.txt
 
 # Claude Code internal (не нужно в репо)
 .claude/

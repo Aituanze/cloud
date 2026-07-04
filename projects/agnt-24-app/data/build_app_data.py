@@ -107,18 +107,26 @@ db = sqlite3.connect(DB_PATH)
 db.row_factory = sqlite3.Row
 cur = db.cursor()
 cols_now = [r[1] for r in db.execute("PRAGMA table_info(listings)")]
-cond_col   = 'condition' if 'condition' in cols_now else "NULL as condition"
-photos_col = 'photos'    if 'photos'    in cols_now else "NULL as photos"
+cond_col   = 'condition'   if 'condition'   in cols_now else "NULL as condition"
+photos_col = 'photos'      if 'photos'      in cols_now else "NULL as photos"
+has_seller_col = 'seller_type' in cols_now
+seller_col = 'seller_type' if has_seller_col else "NULL as seller_type"
+# seller_type != 'owner' (специалист/агентство/застройщик) — не показываем как
+# "от хозяина"; пока поле не проверено (seller_type IS NULL — старые записи до
+# фикса das[who]=1, ждут прогона --enrich-seller) тоже придерживаем объявление,
+# чтобы не показать агентское под видом хозяйского.
+seller_filter = "AND seller_type = 'owner'" if has_seller_col else ""
 cur.execute(f"""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
            district, building_type, price_text, price_value, address, url, first_seen,
-           {cond_col}, {photos_col}
+           {cond_col}, {photos_col}, {seller_col}
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
       AND district != 'Не указан'
       AND price_value IS NOT NULL
       AND price_value > 0
+      {seller_filter}
     ORDER BY id
 """)
 rows = cur.fetchall()
@@ -165,7 +173,7 @@ for i, row in enumerate(rows):
         'floor':        row['floor'],
         'floors':       row['total_floors'],
         'buildingType': building,
-        'sellerType':   'owner',
+        'sellerType':   row['seller_type'] or 'owner',
         'status':       'active',
         'ownerPhone':   ARCHIVE_PHONES[i % len(ARCHIVE_PHONES)],
         'claimedBy':    None,
