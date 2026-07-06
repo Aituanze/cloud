@@ -12,16 +12,6 @@ const Auth = {
     document.getElementById('tabBar').classList.add('hidden');
   },
 
-  showAgencySetup() {
-    document.querySelectorAll('.screen').forEach(s => {
-      s.classList.remove('active');
-      s.classList.add('slide-below');
-    });
-    document.getElementById('screen-agency-setup').classList.remove('slide-below');
-    document.getElementById('screen-agency-setup').classList.add('active');
-    document.getElementById('tabBar').classList.add('hidden');
-  },
-
   showPhoneOTP(onSuccess) {
     this._otpSuccessCb = onSuccess;
     document.getElementById('otpPhoneStep').style.display = '';
@@ -75,78 +65,6 @@ const Auth = {
     // ── Покупатель: к ленте без авторизации ──
     document.getElementById('authBuyerBtn').addEventListener('click', () => {
       BuyerFeed.show();
-    });
-
-    // ── Регистрация агентства теперь только через superadmin (create_agency + invite) ──
-    document.getElementById('setupToLogin')?.addEventListener('click', () => this.showAgentLogin());
-
-    document.getElementById('setupSubmit').addEventListener('click', async () => {
-      const agencyName = document.getElementById('setupAgencyName').value.trim();
-      const adminName  = document.getElementById('setupAdminName').value.trim();
-      const email      = document.getElementById('setupEmail').value.trim();
-      const password   = document.getElementById('setupPassword').value;
-      document.getElementById('setupError').style.display = 'none';
-
-      if (!agencyName || !adminName || !email || password.length < 6) {
-        this._showError('setupError', 'Заполните все поля (пароль мин. 6 символов)'); return;
-      }
-      const btn = document.getElementById('setupSubmit');
-      btn.textContent = 'Создаём...'; btn.disabled = true;
-
-      // Попробуем войти — вдруг аккаунт уже есть
-      let uid;
-      const { data: tryLogin } = await Sb.auth.signInWithPassword({ email, password });
-      if (tryLogin?.user) {
-        uid = tryLogin.user.id;
-      } else {
-        const { data: signUpData, error: signUpError } = await Sb.auth.signUp({ email, password });
-        if (signUpError) {
-          this._showError('setupError', signUpError.message);
-          btn.textContent = 'Создать агентство'; btn.disabled = false;
-          return;
-        }
-        uid = signUpData.user?.id;
-        // Если сессии нет — email-подтверждение ещё не выключено, логинимся вручную
-        if (!signUpData.session) {
-          const { data: si, error: siErr } = await Sb.auth.signInWithPassword({ email, password });
-          if (siErr || !si?.user) {
-            this._showError('setupError', 'Включи «Confirm email» OFF в Supabase → Auth → Providers → Email');
-            btn.textContent = 'Создать агентство'; btn.disabled = false;
-            return;
-          }
-          uid = si.user.id;
-        }
-      }
-
-      // Проверим — нет ли уже профиля у этого пользователя
-      const existing = await Sb.getProfile(uid);
-      if (existing) {
-        // Уже есть профиль — просто входим
-        location.reload();
-        return;
-      }
-
-      // id генерируем на клиенте, чтобы не читать строку обратно через .select()
-      // (RLS-политика чтения agencies ещё не пропустит новую строку — профиль-связка появится ниже)
-      const agencyId = crypto.randomUUID();
-      const { error: agencyError } = await Sb.db
-        .from('agencies').insert({ id: agencyId, name: agencyName });
-      if (agencyError) {
-        this._showError('setupError', 'Ошибка БД: ' + agencyError.message);
-        btn.textContent = 'Создать агентство'; btn.disabled = false;
-        return;
-      }
-
-      const { error: profErr } = await Sb.db.from('profiles').insert({
-        id: uid, agency_id: agencyId, role: 'admin', name: adminName,
-      });
-      if (profErr) {
-        this._showError('setupError', 'Ошибка профиля: ' + profErr.message);
-        btn.textContent = 'Создать агентство'; btn.disabled = false;
-        return;
-      }
-
-      location.reload();
     });
 
     // ── OTP: отправить код ────────────────────
