@@ -145,6 +145,12 @@ for i, row in enumerate(rows):
     if not dist_id:
         continue  # пропускаем неизвестные районы
 
+    # Талгарский район показываем только по 6 посёлкам (владелец явно попросил
+    # 2026-07-07) — сам город Талгар (объявления без microdistrict, просто
+    # улицы Талгара) в счётчики/выдачу не включаем.
+    if dist_id == 'talgar' and not row['microdistrict']:
+        continue
+
     type_id  = TYPE_MAP.get(row['category'] or '', 'apt')
     mode     = DEAL_MAP.get(row['deal_type'] or '', 'sale')
     bg, scene = photo_bg(row['category'], row['price_value'], i)
