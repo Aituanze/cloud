@@ -465,103 +465,134 @@ const App = {
     });
   },
 
-  renderFilterContent() {
-    const base = LISTINGS.filter(l => {
+  // Faceted-счётчики: чип каждой группы считается по всем остальным уже
+  // выбранным фильтрам (кроме своей же группы) — иначе цифры "врут", если
+  // пользователь уже что-то выбрал в другой группе.
+  _facetBase(excludeGroup) {
+    return LISTINGS.filter(l => {
       if (l.district !== this.state.district) return false;
       if (l.type !== this.state.type) return false;
       const isArch = this.state.mode === 'archive';
       if (isArch && l.mode !== 'archive') return false;
       if (!isArch && l.mode === 'archive') return false;
       if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return false;
+      if (excludeGroup !== 'bt' && this.state.btFilter.length && !this.state.btFilter.includes(l.buildingType)) return false;
+      if (excludeGroup !== 'rooms' && this.state.roomsFilter.length && l.type === 'apt') {
+        const r = l.rooms === 0 ? 'studio' : String(l.rooms || '');
+        const rKey = l.rooms >= 5 ? '5+' : r;
+        if (!this.state.roomsFilter.includes(rKey) && !(l.rooms >= 5 && this.state.roomsFilter.includes('5+'))) return false;
+      }
+      if (excludeGroup !== 'cond' && this.state.conditionFilter.length && !this.state.conditionFilter.includes(l.condition)) return false;
+      if (excludeGroup !== 'year' && this.state.yearFilter.length && !this.state.yearFilter.includes(yearBucket(l.yearBuilt))) return false;
       return true;
     });
+  },
 
-    // Новых за выбранный период (24ч с 8 утра / 3 дня / неделя)
+  renderFilterContent() {
+    // Новых за выбранный период — среди того, что реально попадёт в выдачу
+    // при текущей комбинации всех фильтров.
     const cutoffMs = this.timeCutoffMs(this.state.timeFilter);
-    this._filterNewCount = base.filter(l => l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs).length;
+    this._filterNewCount = this.getFilteredListings()
+      .filter(l => l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs).length;
 
-    // Building types
+    // Building types — считаем без учёта своего же фильтра, но с учётом
+    // комнатности/состояния/года, которые уже выбраны.
+    const btBase = this._facetBase('bt');
     const btCounts = {};
-    base.forEach(l => {
+    btBase.forEach(l => {
       if (l.buildingType) btCounts[l.buildingType] = (btCounts[l.buildingType] || 0) + 1;
     });
 
     // Rooms (only for apt)
+    const roomsBase = this._facetBase('rooms');
     const roomCounts = {};
     if (this.state.type === 'apt') {
-      base.forEach(l => {
+      roomsBase.forEach(l => {
         const r = l.rooms === 0 ? 'studio' : (l.rooms >= 5 ? '5+' : String(l.rooms || ''));
         if (r) roomCounts[r] = (roomCounts[r] || 0) + 1;
       });
     }
 
     // Condition (состояние)
+    const condBase = this._facetBase('cond');
     const condCounts = {};
-    base.forEach(l => {
+    condBase.forEach(l => {
       if (l.condition) condCounts[l.condition] = (condCounts[l.condition] || 0) + 1;
     });
 
-    // Год постройки — тоже только для того, что реально показано в этом районе/типе сейчас
+    // Год постройки
+    const yearBase = this._facetBase('year');
     const yearCounts = {};
-    base.forEach(l => {
+    yearBase.forEach(l => {
       const b = yearBucket(l.yearBuilt);
       if (b) yearCounts[b] = (yearCounts[b] || 0) + 1;
     });
 
     let html = '';
 
-    if (Object.keys(btCounts).length) {
+    // Ключи чипов = у кого есть реальный count СЕЙЧАС, ПЛЮС уже выбранные
+    // значения (даже если из-за других фильтров их count просел до 0) —
+    // иначе активный чип пользователя пропадёт из вида и его нельзя снять.
+    const btKeys = new Set([...Object.keys(btCounts), ...this.state.btFilter]);
+    if (btKeys.size) {
       html += `<div class="filt-section">
         <div class="filt-section-label">Тип дома</div>
         <div class="filt-chips" data-group="bt">
-          ${Object.entries(btCounts).map(([bt, n]) =>
-            `<div class="filt-chip${this.state.btFilter.includes(bt) ? ' on':''}" data-val="${bt}">
+          ${[...btKeys].map(bt => {
+            const n = btCounts[bt] || 0;
+            return `<div class="filt-chip${this.state.btFilter.includes(bt) ? ' on':''}" data-val="${bt}">
               ${bt}<span class="fc-sub">${n} ${pluralObj(n)}</span>
-            </div>`
-          ).join('')}
+            </div>`;
+          }).join('')}
         </div>
       </div>`;
     }
 
-    if (Object.keys(roomCounts).length) {
-      const roomOrder = ['1','2','3','4','5+','studio'];
-      const roomLabels = { studio: 'Студия' };
+    const roomOrder = ['1','2','3','4','5+','studio'];
+    const roomLabels = { studio: 'Студия' };
+    const roomKeys = roomOrder.filter(r => roomCounts[r] || this.state.roomsFilter.includes(r));
+    if (roomKeys.length) {
       html += `<div class="filt-section">
         <div class="filt-section-label">Комнатность</div>
         <div class="filt-chips" data-group="rooms">
-          ${roomOrder.filter(r => roomCounts[r]).map(r =>
-            `<div class="filt-chip${this.state.roomsFilter.includes(r) ? ' on':''}" data-val="${r}">
-              ${roomLabels[r] || r}<span class="fc-sub">${roomCounts[r]}</span>
-            </div>`
-          ).join('')}
+          ${roomKeys.map(r => {
+            const n = roomCounts[r] || 0;
+            return `<div class="filt-chip${this.state.roomsFilter.includes(r) ? ' on':''}" data-val="${r}">
+              ${roomLabels[r] || r}<span class="fc-sub">${n}</span>
+            </div>`;
+          }).join('')}
         </div>
       </div>`;
     }
 
-    if (Object.keys(condCounts).length) {
-      const condOrder = ['чистовая', 'черновая', 'ремонт'];
-      const condLabels = { 'чистовая': 'Чистовая', 'черновая': 'Черновая', 'ремонт': 'Требует ремонта' };
+    const condOrder = ['чистовая', 'черновая', 'ремонт'];
+    const condLabels = { 'чистовая': 'Чистовая', 'черновая': 'Черновая', 'ремонт': 'Требует ремонта' };
+    const condKeys = condOrder.filter(c => condCounts[c] || this.state.conditionFilter.includes(c));
+    if (condKeys.length) {
       html += `<div class="filt-section">
         <div class="filt-section-label">Состояние</div>
         <div class="filt-chips" data-group="cond">
-          ${condOrder.filter(c => condCounts[c]).map(c =>
-            `<div class="filt-chip${this.state.conditionFilter.includes(c) ? ' on':''}" data-val="${c}">
-              ${condLabels[c]}<span class="fc-sub">${condCounts[c]}</span>
-            </div>`
-          ).join('')}
+          ${condKeys.map(c => {
+            const n = condCounts[c] || 0;
+            return `<div class="filt-chip${this.state.conditionFilter.includes(c) ? ' on':''}" data-val="${c}">
+              ${condLabels[c]}<span class="fc-sub">${n}</span>
+            </div>`;
+          }).join('')}
         </div>
       </div>`;
     }
 
-    if (Object.keys(yearCounts).length) {
+    const yearKeys = YEAR_BUCKET_ORDER.filter(b => yearCounts[b] || this.state.yearFilter.includes(b));
+    if (yearKeys.length) {
       html += `<div class="filt-section">
         <div class="filt-section-label">Год постройки</div>
         <div class="filt-chips" data-group="year">
-          ${YEAR_BUCKET_ORDER.filter(b => yearCounts[b]).map(b =>
-            `<div class="filt-chip${this.state.yearFilter.includes(b) ? ' on':''}" data-val="${b}">
-              ${YEAR_BUCKET_LABELS[b]}<span class="fc-sub">${yearCounts[b]}</span>
-            </div>`
-          ).join('')}
+          ${yearKeys.map(b => {
+            const n = yearCounts[b] || 0;
+            return `<div class="filt-chip${this.state.yearFilter.includes(b) ? ' on':''}" data-val="${b}">
+              ${YEAR_BUCKET_LABELS[b]}<span class="fc-sub">${n}</span>
+            </div>`;
+          }).join('')}
         </div>
       </div>`;
     }
@@ -569,7 +600,8 @@ const App = {
     document.getElementById('filtScroll').innerHTML = html;
     this.updateFilterCount();
 
-    // Bind chips
+    // Bind chips — при любом клике полностью пересчитываем и перерисовываем
+    // экран, чтобы счётчики ВСЕХ групп сразу отражали новую комбинацию фильтров.
     document.querySelectorAll('#filtScroll .filt-chip').forEach(chip => {
       chip.addEventListener('click', () => {
         const group = chip.closest('[data-group]').dataset.group;
@@ -580,8 +612,7 @@ const App = {
                             : this.state.roomsFilter;
         const i = targetFilter.indexOf(val);
         if (i >= 0) targetFilter.splice(i,1); else targetFilter.push(val);
-        chip.classList.toggle('on');
-        this.updateFilterCount();
+        this.renderFilterContent();
       });
     });
   },
