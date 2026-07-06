@@ -639,7 +639,10 @@ const App = {
 
   openFeed(fromScreen) {
     const listings = this.getFilteredListings();
-    if (!listings.length) return;
+    if (!listings.length) {
+      this._toast('Ничего не найдено — попробуйте другие фильтры');
+      return;
+    }
 
     this.state.feedPrev = fromScreen || (this.state.district ? 'screen-filter' : 'screen-map');
 
