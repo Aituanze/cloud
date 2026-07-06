@@ -143,11 +143,7 @@ const App = {
     // Считаем объекты по районам динамически из LISTINGS
     const distCounts = {};
     LISTINGS.forEach(l => {
-      const lIsArch = l.mode === 'archive';
-      if (isArch && !lIsArch) return;
-      if (!isArch && lIsArch) return;
-      if (mode === 'rent' && l.dealType !== 'rent') return;
-      if (mode === 'sale' && l.dealType === 'rent') return;
+      if (!this._matchesMode(l)) return;
       if (l.type !== this.state.type) return;
       distCounts[l.district] = (distCounts[l.district] || 0) + 1;
     });
@@ -269,10 +265,18 @@ const App = {
     if (countEl) countEl.textContent = `${listings.length} ${pluralObj(listings.length)}`;
   },
 
+  // Единая проверка "Продажа/Аренда/Архив" — l.mode хранит ровно одно из
+  // 'sale'/'rent'/'archive' (см. build_app_data.py), поэтому режим экрана
+  // должен сравниваться напрямую с ним же, а не с несуществующим l.dealType.
+  _matchesMode(l) {
+    if (this.state.mode === 'archive') return l.mode === 'archive';
+    if (this.state.mode === 'rent') return l.mode === 'rent';
+    return l.mode === 'sale';
+  },
+
   getFilteredListings() {
     return LISTINGS.filter(l => {
-      if (this.state.mode === 'archive' && l.mode !== 'archive') return false;
-      if (this.state.mode !== 'archive' && l.mode === 'archive') return false;
+      if (!this._matchesMode(l)) return false;
       if (this.state.district && l.district !== this.state.district) return false;
       if (l.type !== this.state.type) return false;
       if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return false;
@@ -366,8 +370,7 @@ const App = {
     const counts = {}, newCounts = {}, claimedCounts = {};
     LISTINGS.forEach(l => {
       if (l.district !== this.state.district) return;
-      if (mode === 'archive' && l.mode !== 'archive') return;
-      if (mode !== 'archive' && l.mode === 'archive') return;
+      if (!this._matchesMode(l)) return;
       counts[l.type] = (counts[l.type] || 0) + 1;
       if (l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs) {
         newCounts[l.type] = (newCounts[l.type] || 0) + 1;
@@ -472,9 +475,7 @@ const App = {
     return LISTINGS.filter(l => {
       if (l.district !== this.state.district) return false;
       if (l.type !== this.state.type) return false;
-      const isArch = this.state.mode === 'archive';
-      if (isArch && l.mode !== 'archive') return false;
-      if (!isArch && l.mode === 'archive') return false;
+      if (!this._matchesMode(l)) return false;
       if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return false;
       if (excludeGroup !== 'bt' && this.state.btFilter.length && !this.state.btFilter.includes(l.buildingType)) return false;
       if (excludeGroup !== 'rooms' && this.state.roomsFilter.length && l.type === 'apt') {
