@@ -111,6 +111,7 @@ cond_col   = 'condition'   if 'condition'   in cols_now else "NULL as condition"
 photos_col = 'photos'      if 'photos'      in cols_now else "NULL as photos"
 has_seller_col = 'seller_type' in cols_now
 seller_col = 'seller_type' if has_seller_col else "NULL as seller_type"
+year_col = 'year_built' if 'year_built' in cols_now else "NULL as year_built"
 # seller_type != 'owner' (специалист/агентство/застройщик) — не показываем как
 # "от хозяина"; пока поле не проверено (seller_type IS NULL — старые записи до
 # фикса das[who]=1, ждут прогона --enrich-seller) тоже придерживаем объявление,
@@ -119,7 +120,7 @@ seller_filter = "AND seller_type = 'owner'" if has_seller_col else ""
 cur.execute(f"""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
            district, building_type, price_text, price_value, address, url, first_seen,
-           {cond_col}, {photos_col}, {seller_col}
+           {cond_col}, {photos_col}, {seller_col}, {year_col}
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
@@ -169,6 +170,7 @@ for i, row in enumerate(rows):
         'area':         float(row['area']) if row['area'] else None,
         'material':     mat,
         'condition':    row['condition'] or None,
+        'yearBuilt':    row['year_built'] if row['year_built'] and row['year_built'] > 0 else None,
         'photos':       photos,
         'floor':        row['floor'],
         'floors':       row['total_floors'],

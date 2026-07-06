@@ -11,6 +11,7 @@ const App = {
     btFilter:  [],
     roomsFilter: [],
     conditionFilter: [],
+    yearFilter: [],
     priceFrom: 0,
     priceTo:   200000000,
     feedPrev:  'screen-map',
@@ -223,6 +224,7 @@ const App = {
         this.state.btFilter  = [];
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
+        this.state.yearFilter = [];
         this.renderMap();
         this.updateFindCount();
         setTimeout(() => this.openDistrict(id), 140);
@@ -281,6 +283,7 @@ const App = {
         if (!this.state.roomsFilter.includes(rKey) && !(l.rooms >= 5 && this.state.roomsFilter.includes('5+'))) return false;
       }
       if (this.state.conditionFilter.length && !this.state.conditionFilter.includes(l.condition)) return false;
+      if (this.state.yearFilter.length && !this.state.yearFilter.includes(yearBucket(l.yearBuilt))) return false;
       return true;
     });
   },
@@ -411,6 +414,7 @@ const App = {
         this.state.btFilter = [];
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
+        this.state.yearFilter = [];
         this.openFilter();
       });
     });
@@ -423,6 +427,7 @@ const App = {
         this.state.btFilter = [];
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
+        this.state.yearFilter = [];
         this.openFeed('screen-district');
       });
     });
@@ -495,6 +500,13 @@ const App = {
       if (l.condition) condCounts[l.condition] = (condCounts[l.condition] || 0) + 1;
     });
 
+    // Год постройки — тоже только для того, что реально показано в этом районе/типе сейчас
+    const yearCounts = {};
+    base.forEach(l => {
+      const b = yearBucket(l.yearBuilt);
+      if (b) yearCounts[b] = (yearCounts[b] || 0) + 1;
+    });
+
     let html = '';
 
     if (Object.keys(btCounts).length) {
@@ -540,6 +552,19 @@ const App = {
       </div>`;
     }
 
+    if (Object.keys(yearCounts).length) {
+      html += `<div class="filt-section">
+        <div class="filt-section-label">Год постройки</div>
+        <div class="filt-chips" data-group="year">
+          ${YEAR_BUCKET_ORDER.filter(b => yearCounts[b]).map(b =>
+            `<div class="filt-chip${this.state.yearFilter.includes(b) ? ' on':''}" data-val="${b}">
+              ${YEAR_BUCKET_LABELS[b]}<span class="fc-sub">${yearCounts[b]}</span>
+            </div>`
+          ).join('')}
+        </div>
+      </div>`;
+    }
+
     document.getElementById('filtScroll').innerHTML = html;
     this.updateFilterCount();
 
@@ -550,6 +575,7 @@ const App = {
         const val   = chip.dataset.val;
         const targetFilter = group === 'bt' ? this.state.btFilter
                             : group === 'cond' ? this.state.conditionFilter
+                            : group === 'year' ? this.state.yearFilter
                             : this.state.roomsFilter;
         const i = targetFilter.indexOf(val);
         if (i >= 0) targetFilter.splice(i,1); else targetFilter.push(val);
@@ -1212,6 +1238,17 @@ function formatClaimedAt(raw) {
 
 function currentAgentName() {
   return (window._agentProfile && window._agentProfile.name) || 'Вы';
+}
+
+const YEAR_BUCKET_ORDER = ['old', '2000s', '2010s', 'new'];
+const YEAR_BUCKET_LABELS = { old: 'до 2000', '2000s': '2000–2009', '2010s': '2010–2019', new: '2020+' };
+
+function yearBucket(yearBuilt) {
+  if (!yearBuilt) return null;
+  if (yearBuilt < 2000) return 'old';
+  if (yearBuilt < 2010) return '2000s';
+  if (yearBuilt < 2020) return '2010s';
+  return 'new';
 }
 
 function pluralObj(n) {

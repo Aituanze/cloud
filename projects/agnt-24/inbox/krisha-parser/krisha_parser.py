@@ -162,6 +162,8 @@ def init_db(db_path: str = DB_PATH) -> None:
             conn.execute("ALTER TABLE listings ADD COLUMN seller_type TEXT")
         if "seller_agency" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN seller_agency TEXT")
+        if "year_built" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN year_built INTEGER")
 
 
 def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
@@ -292,6 +294,20 @@ def parse_condition(html: str) -> Optional[str]:
     return None
 
 
+# --- Год постройки — тоже только с detail-страницы, атрибут общий для
+# квартир и домов (у квартиры это год постройки её ЖК/дома, не самой квартиры).
+YEAR_DATA_NAME = "house.year"
+
+
+def parse_year(html: str) -> Optional[int]:
+    """Извлекает год постройки со страницы объявления."""
+    m = re.search(
+        r'data-name="%s"[\s\S]{0,300}?offer__advert-short-info">(\d{4})<' % re.escape(YEAR_DATA_NAME),
+        html,
+    )
+    return int(m.group(1)) if m else None
+
+
 def _extract_json_object(html: str, marker: str) -> Optional[dict]:
     """Вырезает JSON-объект, начинающийся с marker (например '"seller":{'), считая
     вложенные фигурные скобки, и парсит его. Regex не подходит — внутри seller
@@ -372,14 +388,13 @@ def fetch_with_status(url: str) -> tuple[Optional[str], Optional[int]]:
 
 def enrich_details(db_path: str = DB_PATH, limit: Optional[int] = None,
                     delay: float = REQUEST_DELAY_SEC) -> dict:
-    """Догружает condition и photos с detail-страниц — один запрос на объявление
-    закрывает оба поля, т.к. оба берутся с одной и той же страницы.
+    """Догружает condition, photos и year_built с detail-страниц — один запрос на
+    объявление закрывает все три поля, т.к. все берутся с одной и той же страницы.
 
-    Отдельный шаг от run(): по запросу на каждое объявление, поэтому
-    дороже и рискованнее по капче — запускать вручную, не в общем cron.
-    Строки, где photos уже заполнены (включая '[]'), повторно не трогаем.
-    404 (объявление снято) — это ожидаемо для старых объявлений и не
-    считается признаком блокировки.
+    Отдельный шаг от run(): по запросу на объявление, поэтому дороже и рискованнее
+    по капче — запускать вручную, не в общем cron. Строки, где photos уже заполнены
+    (включая '[]'), повторно не трогаем. 404 (объявление снято) — это ожидаемо для
+    старых объявлений и не считается признаком блокировки.
     """
     init_db(db_path)
     with sqlite3.connect(db_path) as conn:
@@ -391,6 +406,7 @@ def enrich_details(db_path: str = DB_PATH, limit: Optional[int] = None,
     processed = 0
     updated_cond = 0
     updated_photos = 0
+    updated_year = 0
     gone = 0
     blocks = 0
     for row_id, url in rows:
@@ -410,21 +426,24 @@ def enrich_details(db_path: str = DB_PATH, limit: Optional[int] = None,
             continue
         cond = parse_condition(html)
         photos = parse_photos(html)
+        year = parse_year(html)
         with sqlite3.connect(db_path) as conn:
             conn.execute(
-                "UPDATE listings SET condition = ?, photos = ? WHERE id = ?",
-                (cond or "", json.dumps(photos, ensure_ascii=False), row_id),
+                "UPDATE listings SET condition = ?, photos = ?, year_built = ? WHERE id = ?",
+                (cond or "", json.dumps(photos, ensure_ascii=False), year, row_id),
             )
         processed += 1
         if cond:
             updated_cond += 1
         if photos:
             updated_photos += 1
+        if year:
+            updated_year += 1
         time.sleep(delay)
 
-    logger.info("Детали: condition у %s, фото у %s из %s проверенных (%s снято с публикации).",
-                updated_cond, updated_photos, processed, gone)
-    return {"checked": processed, "updated_condition": updated_cond,
+    logger.info("Детали: condition у %s, фото у %s, год постройки у %s из %s проверенных (%s снято с публикации).",
+                updated_cond, updated_photos, updated_year, processed, gone)
+    return {"checked": processed, "updated_condition": updated_cond, "updated_year": updated_year,
             "updated_photos": updated_photos, "gone": gone}
 
 
@@ -482,6 +501,55 @@ def enrich_seller_type(db_path: str = DB_PATH, limit: Optional[int] = None,
     logger.info("Продавец: хозяин у %s, агент/агентство у %s из %s проверенных (%s снято с публикации).",
                 owners, agencies, processed, gone)
     return {"checked": processed, "owners": owners, "agencies": agencies, "gone": gone}
+
+
+def enrich_year_built(db_path: str = DB_PATH, limit: Optional[int] = None,
+                       delay: float = REQUEST_DELAY_SEC) -> dict:
+    """Догружает year_built (год постройки) для старых записей, собранных ДО того,
+    как появилось это поле — enrich_details() трогает им только новые строки
+    (photos IS NULL), тут отдельный проход по всей базе.
+
+    Объявления без атрибута "Год постройки" на detail-странице (участки, часть
+    коммерческой недвижимости) и снятые с публикации (404) помечаются year_built = -1
+    (проверено, данных нет) — чтобы не пере-сканировать их при повторных запусках.
+    """
+    init_db(db_path)
+    with sqlite3.connect(db_path) as conn:
+        q = "SELECT id, url FROM listings WHERE year_built IS NULL AND url IS NOT NULL"
+        if limit:
+            q += f" LIMIT {int(limit)}"
+        rows = conn.execute(q).fetchall()
+
+    processed = 0
+    found = 0
+    gone = 0
+    blocks = 0
+    for row_id, url in rows:
+        html, status = fetch_with_status(url)
+        if status == 404:
+            gone += 1
+            processed += 1
+            with sqlite3.connect(db_path) as conn:
+                conn.execute("UPDATE listings SET year_built = -1 WHERE id = ?", (row_id,))
+            time.sleep(delay)
+            continue
+        if not html:
+            blocks += 1
+            if blocks >= 3:
+                logger.warning("Похоже на блокировку (не 404) — останавливаю enrich_year_built досрочно.")
+                break
+            continue
+        year = parse_year(html)
+        with sqlite3.connect(db_path) as conn:
+            conn.execute("UPDATE listings SET year_built = ? WHERE id = ?", (year if year else -1, row_id))
+        processed += 1
+        if year:
+            found += 1
+        time.sleep(delay)
+
+    logger.info("Год постройки: найден у %s из %s проверенных (%s снято с публикации).",
+                found, processed, gone)
+    return {"checked": processed, "found": found, "gone": gone}
 
 
 def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
@@ -602,8 +670,9 @@ if __name__ == "__main__":
 
     flag = "--enrich-details" if "--enrich-details" in sys.argv else (
         "--enrich-condition" if "--enrich-condition" in sys.argv else (
-        "--enrich-seller" if "--enrich-seller" in sys.argv else None
-    ))
+        "--enrich-seller" if "--enrich-seller" in sys.argv else (
+        "--enrich-year" if "--enrich-year" in sys.argv else None
+    )))
     if flag == "--enrich-seller":
         limit = None
         idx = sys.argv.index(flag)
@@ -612,6 +681,13 @@ if __name__ == "__main__":
         stats = enrich_seller_type(limit=limit)
         print(f"Продавец: хозяин у {stats['owners']}, агент/агентство у {stats['agencies']} "
               f"из {stats['checked']} проверенных")
+    elif flag == "--enrich-year":
+        limit = None
+        idx = sys.argv.index(flag)
+        if idx + 1 < len(sys.argv) and sys.argv[idx + 1].isdigit():
+            limit = int(sys.argv[idx + 1])
+        stats = enrich_year_built(limit=limit)
+        print(f"Год постройки: найден у {stats['found']} из {stats['checked']} проверенных")
     elif flag:
         limit = None
         idx = sys.argv.index(flag)
