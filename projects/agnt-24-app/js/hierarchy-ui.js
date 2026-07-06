@@ -266,25 +266,39 @@ const HierarchyUI = {
       Sb.getAgencyProperties(me.agency_id),
     ]);
 
-    kpiEl.innerHTML = this._kpiHtml(properties);
+    // Leaderboard: ранг считаем по валу в рамках зоны видимости (у директора — вся
+    // агентура, у МОПа — только его агенты), по образцу лидербордов в IRM365/Plecto.
+    const scopeAgents = me.role === 'admin'
+      ? profiles.filter(p => p.role === 'agent')
+      : profiles.filter(p => p.role === 'agent' && p.mop_id === me.id);
+    const ranked = [...scopeAgents].sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
+    const rankOf = new Map(ranked.map((p, i) => [p.id, i + 1]));
+    const teamAvg = scopeAgents.length ? {
+      count: scopeAgents.length,
+      avgVolume: Math.round(scopeAgents.reduce((s, p) => s + (p.volume_manual || 0), 0) / scopeAgents.length),
+      avgDeposits: Math.round(scopeAgents.reduce((s, p) => s + (p.deposits_manual || 0), 0) / scopeAgents.length),
+    } : null;
+
+    kpiEl.innerHTML = this._kpiHtml(properties, teamAvg);
 
     if (me.role === 'admin') {
       const mops = profiles.filter(p => p.role === 'mop');
       const orphanAgents = profiles.filter(p => p.role === 'agent' && !p.mop_id);
       let html = '';
       mops.forEach(mop => {
-        const agents = profiles.filter(p => p.role === 'agent' && p.mop_id === mop.id);
+        const agents = profiles.filter(p => p.role === 'agent' && p.mop_id === mop.id)
+          .sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
         html += `<div class="kpi-section-title">МОП: ${mop.name} (${agents.length})</div>`;
-        html += agents.map(a => this._memberRowHtml(a)).join('') || '<div class="prop-empty">Нет агентов</div>';
+        html += agents.map(a => this._memberRowHtml(a, rankOf.get(a.id))).join('') || '<div class="prop-empty">Нет агентов</div>';
       });
       if (orphanAgents.length) {
+        const sortedOrphans = [...orphanAgents].sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
         html += `<div class="kpi-section-title">Без МОПа</div>`;
-        html += orphanAgents.map(a => this._memberRowHtml(a)).join('');
+        html += sortedOrphans.map(a => this._memberRowHtml(a, rankOf.get(a.id))).join('');
       }
       listEl.innerHTML = html || '<div class="prop-empty">Пока нет команды — пригласите МОПа</div>';
     } else {
-      const agents = profiles.filter(p => p.role === 'agent' && p.mop_id === me.id);
-      listEl.innerHTML = agents.map(a => this._memberRowHtml(a)).join('') || '<div class="prop-empty">Пока нет агентов — пригласите</div>';
+      listEl.innerHTML = ranked.map(a => this._memberRowHtml(a, rankOf.get(a.id))).join('') || '<div class="prop-empty">Пока нет агентов — пригласите</div>';
     }
 
     listEl.querySelectorAll('.team-member-row').forEach(row => {
@@ -292,7 +306,7 @@ const HierarchyUI = {
     });
   },
 
-  _kpiHtml(properties) {
+  _kpiHtml(properties, teamAvg) {
     const now = Date.now();
     const day = 24 * 60 * 60 * 1000;
     const countSince = ms => properties.filter(p => now - new Date(p.created_at).getTime() < ms).length;
@@ -303,6 +317,13 @@ const HierarchyUI = {
     const typeTiles = Object.entries(byType).map(([t, n]) =>
       `<div class="kpi-tile"><div class="kpi-tile-num">${n}</div><div class="kpi-tile-lbl">${TYPE_LABELS[t] || t}</div></div>`
     ).join('');
+
+    const avgSection = teamAvg ? `
+      <div class="kpi-section-title">Средние показатели по агенту</div>
+      <div class="kpi-row">
+        <div class="kpi-tile"><div class="kpi-tile-num">${teamAvg.avgVolume.toLocaleString('ru')} ₸</div><div class="kpi-tile-lbl">средний вал (${teamAvg.count} чел.)</div></div>
+        <div class="kpi-tile"><div class="kpi-tile-num">${teamAvg.avgDeposits}</div><div class="kpi-tile-lbl">средние задатки</div></div>
+      </div>` : '';
 
     return `
       <div class="kpi-section-title">Объекты по категориям</div>
@@ -317,10 +338,11 @@ const HierarchyUI = {
       <div class="kpi-row">
         <div class="kpi-tile"><div class="kpi-tile-num">${processed}</div><div class="kpi-tile-lbl">из ${properties.length}</div></div>
         <div class="kpi-tile"><div class="kpi-tile-num">—</div><div class="kpi-tile-lbl">дисциплина (скоро: Face ID)</div></div>
-      </div>`;
+      </div>
+      ${avgSection}`;
   },
 
-  _memberRowHtml(p) {
+  _memberRowHtml(p, rank) {
     const DAY_MS = 24 * 60 * 60 * 1000;
     const stints = [];
     if (p.hired_at) {
@@ -329,7 +351,10 @@ const HierarchyUI = {
     }
     stints.push(`задатков: ${p.deposits_manual || 0}`);
     stints.push(`вал: ${(p.volume_manual || 0).toLocaleString('ru')} ₸`);
+    const medals = { 1: '🥇', 2: '🥈', 3: '🥉' };
+    const rankBadge = rank ? `<div class="team-member-rank">${medals[rank] || '#' + rank}</div>` : '';
     return `<div class="team-member-row" data-id="${p.id}">
+      ${rankBadge}
       <div class="colleague-avatar">${(p.name || '?')[0].toUpperCase()}</div>
       <div class="team-member-body">
         <div class="team-member-name">${p.name || 'Без имени'}</div>

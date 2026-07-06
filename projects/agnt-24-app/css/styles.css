@@ -1465,6 +1465,10 @@ html, body {
   background: white; border: 1px solid var(--border); border-radius: 14px;
   padding: 12px 14px; margin-bottom: 8px; cursor: pointer;
 }
+.team-member-rank {
+  font-size: 15px; font-weight: 800; color: var(--ink3);
+  width: 22px; text-align: center; flex-shrink: 0;
+}
 .team-member-body { flex: 1; min-width: 0; }
 .team-member-name { font-size: 14px; font-weight: 700; color: var(--ink); }
 .team-member-sub { font-size: 11px; color: var(--ink2); margin-top: 2px; }
