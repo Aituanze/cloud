@@ -75,6 +75,41 @@ SEARCH_URLS = [
     f"https://krisha.kz/prodazha/uchastkov/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
     f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
     f"https://krisha.kz/prodazha/dachi/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
+
+    # Остальные 5 посёлков Талгарского района, явно попросил владелец
+    # (2026-07-07) — алиасы сверены с dropdown'ом на странице /talgar/:
+    # Туздыбастау (Калинино), Бельбулак (Мичурино), Бирлик, Талдыбулак,
+    # Гульдала. Каждый бакетируется в район "Талгарский" +
+    # свой посёлок в microdistrict (SETTLEMENT_MICRODISTRICT_OVERRIDE).
+    f"https://krisha.kz/prodazha/kvartiry/tuzdybastau-kalinino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/tuzdybastau-kalinino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/tuzdybastau-kalinino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/tuzdybastau-kalinino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/tuzdybastau-kalinino/?{OWNER_ONLY_FILTER}",
+
+    f"https://krisha.kz/prodazha/kvartiry/belbulak-michurino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/belbulak-michurino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/belbulak-michurino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/belbulak-michurino/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/belbulak-michurino/?{OWNER_ONLY_FILTER}",
+
+    f"https://krisha.kz/prodazha/kvartiry/birlik/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/birlik/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/birlik/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/birlik/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/birlik/?{OWNER_ONLY_FILTER}",
+
+    f"https://krisha.kz/prodazha/kvartiry/taldybulak/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/taldybulak/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/taldybulak/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/taldybulak/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/taldybulak/?{OWNER_ONLY_FILTER}",
+
+    f"https://krisha.kz/prodazha/kvartiry/guldala/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/guldala/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/guldala/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/guldala/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/guldala/?{OWNER_ONLY_FILTER}",
 ]
 
 # Населённые пункты за пределами районов Алматы, для которых район
@@ -82,6 +117,11 @@ SEARCH_URLS = [
 SETTLEMENT_DISTRICT_OVERRIDE = {
     "talgar": "Талгарский",
     "besagash-dzerzhinskoe": "Талгарский",
+    "tuzdybastau-kalinino": "Талгарский",
+    "belbulak-michurino": "Талгарский",
+    "birlik": "Талгарский",
+    "taldybulak": "Талгарский",
+    "guldala": "Талгарский",
 }
 
 MAX_PAGES = 5
@@ -142,19 +182,32 @@ ALMATY_DISTRICTS = [
 MICRODISTRICT_RE = re.compile(r"мкр\.?\s+(\w+(?:-[\wа-яёА-ЯЁ]+)?(?:\s+[А-ЯЁа-яё]+)?)")
 
 # Талгарский район не делится на микрорайоны — делится на посёлки/сёла вокруг
-# Талгара (не сам город Талгар — туда специально не углубляемся). Список — то,
-# что реально встречается в адресах наших объявлений + Бесагаш (явно попросил
-# владелец), сверено с канонiческими алиасами krisha.kz для Алматинской области.
-# "ң"/"н" — обе написания одного слова (Кеңдала/Кендала) нормализуются перед сверкой.
+# Талгара (не сам город Талгар — туда специально не углубляемся). Список —
+# ровно те 6 посёлков, что явно попросил владелец (2026-07-07), сверено с
+# канонiческими алиасами krisha.kz для Алматинской области (dropdown на
+# странице поиска /talgar/): Бельбулак → "Бельбулак (Мичурино)",
+# Туздыбастау → "Туздыбастау (Калинино)" — короткие бытовые названия.
+# "ң"/"н" — обе написания одного слова нормализуются перед сверкой.
 TALGAR_SETTLEMENTS = [
     "Бесагаш",
-    "Кендала",
-    "Актас",
+    "Туздыбастау",
+    "Бельбулак",
+    "Бирлик",
     "Талдыбулак",
-    "Алмалык",
-    "Панфилово",
-    "Отеген батыр",
+    "Гульдала",
 ]
+
+# Для объявлений, собранных по персональной ссылке посёлка (не по тексту
+# адреса — там не всегда упоминается название посёлка), microdistrict
+# проставляется напрямую по URL-сегменту — надёжнее, чем угадывать по адресу.
+SETTLEMENT_MICRODISTRICT_OVERRIDE = {
+    "besagash-dzerzhinskoe": "Бесагаш",
+    "tuzdybastau-kalinino":  "Туздыбастау",
+    "belbulak-michurino":    "Бельбулак",
+    "birlik":                "Бирлик",
+    "taldybulak":            "Талдыбулак",
+    "guldala":               "Гульдала",
+}
 
 
 def parse_microdistrict(address: str, district: str) -> Optional[str]:
@@ -316,6 +369,17 @@ def parse_district(address: str) -> str:
     for seg in address.split(","):
         seg = seg.strip()
         if re.match(r"^(пос\.|п\.|г\.|с\.|село|город)\s", seg, re.IGNORECASE):
+            # Общегородской поиск "Алматы" на krisha.kz иногда возвращает и
+            # пригородные объявления Талгарского района (сам адрес — просто
+            # "пос. Гульдала"/"п. Бесагаш, ..." без "Талгарский р-н" в тексте).
+            # Если название совпадает с одним из наших посёлков — это точно
+            # Талгарский, а не отдельный неизвестный населённый пункт;
+            # иначе build_app_data.py тихо дропает такую строку (нет в
+            # DISTRICT_MAP), хотя объект реально существует.
+            without_prefix = re.sub(r"^(пос\.|п\.|г\.|с\.|село|город)\s+", "", seg, flags=re.IGNORECASE)
+            norm = without_prefix.replace("ң", "н").replace("Ң", "Н").lower()
+            if any(name.replace("ң", "н").lower() in norm for name in TALGAR_SETTLEMENTS):
+                return "Талгарский"
             return seg
     return "не указан"
 
@@ -618,7 +682,13 @@ def enrich_year_built(db_path: str = DB_PATH, limit: Optional[int] = None,
     return {"checked": processed, "found": found, "gone": gone}
 
 
-def parse_page(html: str, deal_type: str, category: str, district_override: Optional[str] = None) -> list[Listing]:
+def parse_page(
+    html: str,
+    deal_type: str,
+    category: str,
+    district_override: Optional[str] = None,
+    microdistrict_override: Optional[str] = None,
+) -> list[Listing]:
     soup = BeautifulSoup(html, "html.parser")
     listings: list[Listing] = []
     for card in soup.select(SEL_CARD):
@@ -631,6 +701,10 @@ def parse_page(html: str, deal_type: str, category: str, district_override: Opti
         address = _text(card.select_one(SEL_ADDRESS))
         floor, total_floors = parse_floor(title)
         district = district_override or parse_district(address)
+        # Персональная ссылка посёлка (см. SETTLEMENT_MICRODISTRICT_OVERRIDE) —
+        # надёжнее текстового совпадения по адресу, т.к. посёлок не всегда
+        # упоминается в самом адресе карточки.
+        microdistrict = microdistrict_override or parse_microdistrict(address, district)
         listings.append(
             Listing(
                 deal_type=deal_type,
@@ -646,7 +720,7 @@ def parse_page(html: str, deal_type: str, category: str, district_override: Opti
                 price_value=parse_price(price_text),
                 address=address,
                 url=url,
-                microdistrict=parse_microdistrict(address, district),
+                microdistrict=microdistrict,
             )
         )
     return listings
@@ -708,6 +782,10 @@ def run() -> dict:
             (d for slug, d in SETTLEMENT_DISTRICT_OVERRIDE.items() if f"/{slug}/" in search_url),
             None,
         )
+        microdistrict_override = next(
+            (m for slug, m in SETTLEMENT_MICRODISTRICT_OVERRIDE.items() if f"/{slug}/" in search_url),
+            None,
+        )
         logger.info("Источник: %s/%s — %s", deal_type or "?", category or "?", search_url)
         for page in range(1, MAX_PAGES + 1):
             sep = "&" if "?" in search_url else "?"
@@ -718,7 +796,7 @@ def run() -> dict:
             if not html:
                 break
 
-            listings = parse_page(html, deal_type, category, district_override)
+            listings = parse_page(html, deal_type, category, district_override, microdistrict_override)
             if not listings:
                 logger.info("Объявления не найдены — последняя страница или изменилась вёрстка.")
                 break
