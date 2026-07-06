@@ -985,6 +985,11 @@ html, body {
 /* ══════════════════════════════════════════
    AUTH SCREENS
 ══════════════════════════════════════════ */
+/* screen-phone-otp — единственный .screen, который открывается ПОВЕРХ уже
+   активного экрана (Auth.showPhoneOTP() намеренно не прячет screen-buyer-feed
+   под собой), а не заменяет его. Без явного z-index более поздний в DOM
+   screen-buyer-feed перекрывал OTP-экран (порядок в DOM решает при auto z-index). */
+#screen-phone-otp { z-index: 1; }
 .auth-screen {
   background: var(--bg);
   display: flex; flex-direction: column;
