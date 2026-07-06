@@ -472,6 +472,7 @@ const App = {
       const isArch = this.state.mode === 'archive';
       if (isArch && l.mode !== 'archive') return false;
       if (!isArch && l.mode === 'archive') return false;
+      if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return false;
       return true;
     });
 
