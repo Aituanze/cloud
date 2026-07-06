@@ -371,7 +371,6 @@ const App = {
   openDistrict(districtId) {
     this.state.district = districtId;
     const d = DISTRICTS.find(x => x.id === districtId);
-    const total = this.state.mode === 'archive' ? d.arch : d.count;
 
     document.getElementById('dsName').textContent = d.name;
     this.renderDistrictGrid();
@@ -390,7 +389,6 @@ const App = {
 
   renderDistrictGrid() {
     const grid = document.getElementById('typeGrid');
-    const d = DISTRICTS.find(x => x.id === this.state.district);
     const cutoffMs = this.timeCutoffMs(this.state.timeFilter);
     const mode = this.state.mode;
 
@@ -809,15 +807,6 @@ const App = {
         localStorage.setItem('24s_saved', JSON.stringify(this.state.saved));
       });
     });
-
-    // Counter sync on scroll
-    wrapper.addEventListener('scroll', () => {
-      const h = wrapper.clientHeight;
-      const idx = Math.round(wrapper.scrollTop / h);
-      wrapper.querySelectorAll('.fc-counter').forEach((el, i) => {
-        el.textContent = `${i+1} / ${listings.length}`;
-      });
-    }, { passive: true });
   },
 
   buildCard(l, index, total) {
@@ -1499,38 +1488,43 @@ const LIVE_SYNC_INTERVAL_MS = 120000; // 2 минуты
 async function pollForFreshListings() {
   try {
     const res = await fetch('data/listings.js?t=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) return;
-    const text = await res.text();
-    const listingsMatch  = text.match(/const LISTINGS=(\[.*\]);/s);
-    const districtsMatch = text.match(/const DISTRICTS=(\[.*?\]);/s);
-    if (!listingsMatch) return;
+    if (res.ok) {
+      const text = await res.text();
+      const listingsMatch  = text.match(/const LISTINGS=(\[.*\]);/s);
+      const districtsMatch = text.match(/const DISTRICTS=(\[.*?\]);/s);
 
-    const freshListings  = JSON.parse(listingsMatch[1]);
-    const freshDistricts = districtsMatch ? JSON.parse(districtsMatch[1]) : null;
-    if (freshListings.length === LISTINGS.length) return; // ничего не изменилось
+      if (listingsMatch) {
+        const freshListings  = JSON.parse(listingsMatch[1]);
+        const freshDistricts = districtsMatch ? JSON.parse(districtsMatch[1]) : null;
 
-    // Мутируем массивы на месте — они объявлены const в listings.js,
-    // переприсвоить биндинг нельзя, но содержимое можно.
-    LISTINGS.length = 0;
-    LISTINGS.push(...freshListings);
-    if (freshDistricts) {
-      DISTRICTS.length = 0;
-      DISTRICTS.push(...freshDistricts);
-    }
+        if (freshListings.length !== LISTINGS.length) {
+          // Мутируем массивы на месте — они объявлены const в listings.js,
+          // переприсвоить биндинг нельзя, но содержимое можно.
+          LISTINGS.length = 0;
+          LISTINGS.push(...freshListings);
+          if (freshDistricts) {
+            DISTRICTS.length = 0;
+            DISTRICTS.push(...freshDistricts);
+          }
 
-    App.precomputeAvgPrices();
-    App.renderMap();
-    if (document.getElementById('screen-district').classList.contains('active')) {
-      App.renderDistrictGrid();
-    }
-    if (document.getElementById('screen-filter').classList.contains('active')) {
-      App.renderFilterContent();
+          App.precomputeAvgPrices();
+          App.renderMap();
+          if (document.getElementById('screen-district').classList.contains('active')) {
+            App.renderDistrictGrid();
+          }
+          if (document.getElementById('screen-filter').classList.contains('active')) {
+            App.renderFilterContent();
+          }
+        }
+      }
     }
   } catch (e) {
     // тихо игнорируем — обновим на следующем тике
   }
   // Реальные claims агентства держим свежими тем же интервалом — чтобы
   // красная/зелёная лампочка не отставала от того, что взяли коллеги.
+  // (важно: это должно выполняться на КАЖДОМ тике, независимо от того,
+  // изменилось ли число объявлений — claim коллеги не трогает listings.js)
   if (window._agentProfile) App._loadAgencyClaims();
 }
 
