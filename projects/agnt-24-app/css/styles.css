@@ -674,38 +674,6 @@ html, body {
 }
 .call-circle.orange { background: #e07b2a; }
 
-/* Colleague card */
-.colleague-row {
-  display: flex; align-items: center; gap: 8px;
-  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.14);
-  border-radius: 9px; padding: 7px 10px; margin-bottom: 8px;
-}
-.col-info { flex: 1; }
-.col-lbl { font-size: 7px; color: rgba(190,180,165,.65); font-weight: 500; margin-bottom: 1px; }
-.col-name { font-size: 11px; font-weight: 700; color: white; }
-
-/* В базу button */
-.fix-btn {
-  width: 100%; height: 38px; border-radius: 11px;
-  display: flex; align-items: center; justify-content: center; gap: 6px;
-  font-size: 11px; font-weight: 800; color: white; cursor: pointer;
-  border: none; font-family: 'Inter', sans-serif;
-  transition: opacity .15s, transform .1s;
-}
-.fix-btn:active { opacity: .85; transform: scale(.98); }
-.fix-btn.free  { background: linear-gradient(135deg, #2d6be4, #4a8be8); box-shadow: 0 3px 14px rgba(45,107,228,.45); }
-.fix-btn.mine  { background: linear-gradient(135deg, #15966b, #1bb380); box-shadow: 0 3px 14px rgba(21,150,107,.45); }
-.fix-btn.taken { background: rgba(70,60,50,.55); box-shadow: none; color: rgba(200,185,165,.6); cursor: default; }
-
-/* Swipe hint */
-.swipe-hint {
-  position: absolute; bottom: calc(var(--safe-bot) + 6px); left: 50%; transform: translateX(-50%);
-  z-index: 100; display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: .4;
-}
-.swipe-arrow { animation: bounce 2s ease-in-out infinite; }
-@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
-.swipe-txt { font-size: 7px; font-weight: 600; color: white; }
-
 /* ── ROOM SCENE (SVG) ── */
 .room-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 
@@ -1250,7 +1218,6 @@ html, body {
   border: none; cursor: pointer; font-family: 'Inter', sans-serif;
   text-decoration: none; display: inline-flex; align-items: center;
 }
-.sr-arrow { color: var(--ink3); }
 
 /* ══════════════════════════════════════════
    SCREEN: EDIT LISTING
