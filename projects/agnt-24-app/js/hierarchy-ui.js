@@ -266,12 +266,16 @@ const HierarchyUI = {
       Sb.getAgencyProperties(me.agency_id),
     ]);
 
-    // Leaderboard: ранг считаем по валу в рамках зоны видимости (у директора — вся
-    // агентура, у МОПа — только его агенты), по образцу лидербордов в IRM365/Plecto.
+    // Leaderboard: составной скор из вала И задатков (по 50%, нормированы к максимуму
+    // в зоне видимости — у директора вся агентура, у МОПа только его агенты), по
+    // образцу весовой модели скоринга в IRM365.
     const scopeAgents = me.role === 'admin'
       ? profiles.filter(p => p.role === 'agent')
       : profiles.filter(p => p.role === 'agent' && p.mop_id === me.id);
-    const ranked = [...scopeAgents].sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
+    const maxVolume = Math.max(1, ...scopeAgents.map(p => p.volume_manual || 0));
+    const maxDeposits = Math.max(1, ...scopeAgents.map(p => p.deposits_manual || 0));
+    const scoreOf = p => 0.5 * ((p.volume_manual || 0) / maxVolume) + 0.5 * ((p.deposits_manual || 0) / maxDeposits);
+    const ranked = [...scopeAgents].sort((a, b) => scoreOf(b) - scoreOf(a));
     const rankOf = new Map(ranked.map((p, i) => [p.id, i + 1]));
     const teamAvg = scopeAgents.length ? {
       count: scopeAgents.length,
@@ -287,12 +291,12 @@ const HierarchyUI = {
       let html = '';
       mops.forEach(mop => {
         const agents = profiles.filter(p => p.role === 'agent' && p.mop_id === mop.id)
-          .sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
+          .sort((a, b) => scoreOf(b) - scoreOf(a));
         html += `<div class="kpi-section-title">МОП: ${mop.name} (${agents.length})</div>`;
         html += agents.map(a => this._memberRowHtml(a, rankOf.get(a.id))).join('') || '<div class="prop-empty">Нет агентов</div>';
       });
       if (orphanAgents.length) {
-        const sortedOrphans = [...orphanAgents].sort((a, b) => (b.volume_manual || 0) - (a.volume_manual || 0));
+        const sortedOrphans = [...orphanAgents].sort((a, b) => scoreOf(b) - scoreOf(a));
         html += `<div class="kpi-section-title">Без МОПа</div>`;
         html += sortedOrphans.map(a => this._memberRowHtml(a, rankOf.get(a.id))).join('');
       }
