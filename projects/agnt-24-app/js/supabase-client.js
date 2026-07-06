@@ -47,6 +47,19 @@ const Sb = {
     return data || [];
   },
 
+  // Какие krisha-объявления уже взяты «В базу» кем-либо в агентстве — чтобы
+  // показать реальную (не только локальную) красную/зелёную лампочку и не
+  // дать второму агенту задублировать объект коллеги.
+  async getAgencyClaimedKrishaIds(agencyId) {
+    const { data } = await _db
+      .from('properties')
+      .select('source_krisha_id, agent_id, profiles(name)')
+      .eq('agency_id', agencyId)
+      .not('source_krisha_id', 'is', null)
+      .neq('status', 'archived');
+    return data || [];
+  },
+
   async getAgentProperties(agentId) {
     const { data } = await _db
       .from('properties')

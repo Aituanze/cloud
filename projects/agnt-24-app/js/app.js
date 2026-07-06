@@ -3,6 +3,11 @@
 ───────────────────────────────────────── */
 
 const App = {
+  // Кто в агентстве уже взял «В базу» какой krisha-объект — { [krishaId]: {agentId, agentName} }.
+  // Реальные данные из Supabase (все агенты видят claims друг друга — RLS "Agent read own agency"),
+  // а не только localStorage этого телефона. См. _loadAgencyClaims().
+  _agencyClaims: {},
+
   state: {
     mode:      'sale',
     district:  null,
@@ -275,6 +280,27 @@ const App = {
     return l.mode === 'sale';
   },
 
+  // Подтягивает реальные claims агентства (кто уже взял какой krisha-объект
+  // «В базу») из Supabase — источник правды для красной/зелёной лампочки и
+  // баннера «занято коллегой», вместо localStorage одного телефона.
+  async _loadAgencyClaims() {
+    if (!window._agentProfile) return;
+    try {
+      const rows = await Sb.getAgencyClaimedKrishaIds(window._agentProfile.agency_id);
+      const map = {};
+      rows.forEach(r => {
+        if (!r.source_krisha_id) return;
+        map[r.source_krisha_id] = { agentId: r.agent_id, agentName: r.profiles?.name || 'Коллега' };
+      });
+      this._agencyClaims = map;
+      // Перерисуем то, что уже открыто на экране, если данные подъехали позже рендера
+      if (document.getElementById('screen-district')?.classList.contains('active')) this.renderDistrictGrid();
+      if (document.getElementById('screen-feed')?.classList.contains('active')) this.renderFeed(this.getFilteredListings());
+    } catch (err) {
+      console.error('_loadAgencyClaims failed', err);
+    }
+  },
+
   getFilteredListings() {
     return LISTINGS.filter(l => {
       if (!this._matchesMode(l)) return false;
@@ -377,7 +403,9 @@ const App = {
       if (l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs) {
         newCounts[l.type] = (newCounts[l.type] || 0) + 1;
       }
-      if (isOwner && this.state.claimed[l.id]) {
+      // Реальные claims агентства (Supabase) — не только этого телефона, иначе
+      // лампочка врёт про то, что уже взяли коллеги на других устройствах.
+      if (isOwner && (this._agencyClaims[l.id] || this.state.claimed[l.id])) {
         claimedCounts[l.type] = (claimedCounts[l.type] || 0) + 1;
       }
     });
@@ -697,6 +725,17 @@ const App = {
             Sb.upsertProperty({ id: removed.supabaseId, status: 'archived' }).catch(console.error);
           }
         } else {
+          // Защита от гонки: коллега мог занять объект долями секунды раньше,
+          // чем эта кнопка перерисовалась (_agencyClaims обновляется по polling).
+          const myId = window._agentProfile?.id;
+          const existing = this._agencyClaims[id];
+          if (existing && existing.agentId !== myId) {
+            this._toast(`Уже занято: ${existing.agentName || 'коллега'}`);
+            btn.className = 'fc-fix-btn taken';
+            btn.disabled = true;
+            btn.textContent = 'В базу — занято коллегой';
+            return;
+          }
           const counter = parseInt(localStorage.getItem('24s_serial') || '0') + 1;
           localStorage.setItem('24s_serial', String(counter));
           const serial = `МО-${String(counter).padStart(4, '0')}`;
@@ -730,8 +769,12 @@ const App = {
 
   buildCard(l, index, total) {
     const isArch = l.mode === 'archive';
-    const isMine = !!this.state.claimed[l.id];
-    const isTaken = l.claimedBy && !isMine;
+    const myId = window._agentProfile?.id;
+    const realClaim = this._agencyClaims[l.id]; // {agentId, agentName} — реальный claim в агентстве (Supabase)
+    const isMine = !!(realClaim && myId && realClaim.agentId === myId) || !!this.state.claimed[l.id];
+    const takenByColleague = !!(realClaim && !isMine);
+    // Синтетический демо-баннер архива — только пока нет реальных данных о claim
+    const isTaken = takenByColleague || (isArch && !realClaim && l.claimedBy && !isMine);
 
     const pm2 = l.area ? Math.round(l.price / l.area) : null;
     const diff = this.marketDiff(l);
@@ -753,7 +796,16 @@ const App = {
     // Owner contact bottom — для всех объектов от Хозяина
     let ownerBottom = '';
     if (l.ownerPhone) {
-      if (isArch && isTaken) {
+      if (takenByColleague) {
+        // Реальный claim коллеги в агентстве (Supabase) — не демо-данные
+        const name = realClaim.agentName || 'Коллега';
+        ownerBottom = `
+          <div class="fc-realtor-row" style="background:#f7f5f1;padding:10px;border-radius:14px;border:1px solid #e8e5de;">
+            <div class="fc-avatar" style="background:#8a8f98;width:30px;height:30px;font-size:11px">${name[0].toUpperCase()}</div>
+            <div><div class="fc-rl-name" style="font-size:12px">${name}</div><div class="fc-rl-sub">Закреплено за риэлтором агентства</div></div>
+          </div>
+          <button class="fc-fix-btn taken" data-listing="${l.id}" disabled>В базу — занято коллегой</button>`;
+      } else if (isArch && isTaken) {
         const c = l.claimedBy;
         const ratingStr = c.rating ? ` <span class="fc-rl-rating">★ ${c.rating.toFixed(1)}</span>` : '';
         ownerBottom = `
@@ -1047,7 +1099,16 @@ const App = {
         localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
       }
     } catch (err) {
-      console.error('Sync claim → Supabase failed', err);
+      // 23505 = нарушение uq_properties_agency_krisha (supabase/prevent_duplicate_claims.sql) —
+      // коллега успел взять этот же krisha-объект первым в гонке. Откатываем локально.
+      if (err?.code === '23505' && !claim.supabaseId) {
+        delete this.state.claimed[listingId];
+        localStorage.setItem('24s_claimed', JSON.stringify(this.state.claimed));
+        this._toast('Уже занято коллегой — убрано из вашей базы');
+        this._loadAgencyClaims();
+      } else {
+        console.error('Sync claim → Supabase failed', err);
+      }
     }
   },
 
@@ -1393,6 +1454,9 @@ async function pollForFreshListings() {
   } catch (e) {
     // тихо игнорируем — обновим на следующем тике
   }
+  // Реальные claims агентства держим свежими тем же интервалом — чтобы
+  // красная/зелёная лампочка не отставала от того, что взяли коллеги.
+  if (window._agentProfile) App._loadAgencyClaims();
 }
 
 // ── BOOT ─────────────────────────────────
@@ -1416,6 +1480,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AgentProperties.init(agentProfile);
     AgentCrm.init(agentProfile);
     TransferUI.init();
+    App._loadAgencyClaims();
   } else {
     const buyerProfile = await Sb.getBuyerProfile(session.user.id);
     if (buyerProfile) {
