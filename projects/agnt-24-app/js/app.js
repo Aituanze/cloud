@@ -17,6 +17,7 @@ const App = {
     roomsFilter: [],
     conditionFilter: [],
     yearFilter: [],
+    microdistrictFilter: [],
     priceFrom: 0,
     priceTo:   200000000,
     feedPrev:  'screen-map',
@@ -227,6 +228,7 @@ const App = {
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
         this.state.yearFilter = [];
+        this.state.microdistrictFilter = [];
         this.renderMap();
         this.updateFindCount();
         setTimeout(() => this.openDistrict(id), 140);
@@ -315,6 +317,7 @@ const App = {
       }
       if (this.state.conditionFilter.length && !this.state.conditionFilter.includes(l.condition)) return false;
       if (this.state.yearFilter.length && !this.state.yearFilter.includes(yearBucket(l.yearBuilt))) return false;
+      if (this.state.microdistrictFilter.length && !this.state.microdistrictFilter.includes(l.microdistrict)) return false;
       return true;
     });
   },
@@ -448,6 +451,7 @@ const App = {
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
         this.state.yearFilter = [];
+        this.state.microdistrictFilter = [];
         this.openFilter();
       });
     });
@@ -461,6 +465,7 @@ const App = {
         this.state.roomsFilter = [];
         this.state.conditionFilter = [];
         this.state.yearFilter = [];
+        this.state.microdistrictFilter = [];
         this.openFeed('screen-district');
       });
     });
@@ -515,6 +520,7 @@ const App = {
       }
       if (excludeGroup !== 'cond' && this.state.conditionFilter.length && !this.state.conditionFilter.includes(l.condition)) return false;
       if (excludeGroup !== 'year' && this.state.yearFilter.length && !this.state.yearFilter.includes(yearBucket(l.yearBuilt))) return false;
+      if (excludeGroup !== 'micro' && this.state.microdistrictFilter.length && !this.state.microdistrictFilter.includes(l.microdistrict)) return false;
       return true;
     });
   },
@@ -557,6 +563,15 @@ const App = {
     yearBase.forEach(l => {
       const b = yearBucket(l.yearBuilt);
       if (b) yearCounts[b] = (yearCounts[b] || 0) + 1;
+    });
+
+    // Микрорайон (8 р-нов Алматы) / Посёлок (Талгарский) — из адреса на krisha.kz,
+    // см. parse_microdistrict() в парсере. Талгарский делится не на микрорайоны,
+    // а на посёлки вокруг Талгара (без углубления в сам город Талгар).
+    const microBase = this._facetBase('micro');
+    const microCounts = {};
+    microBase.forEach(l => {
+      if (l.microdistrict) microCounts[l.microdistrict] = (microCounts[l.microdistrict] || 0) + 1;
     });
 
     let html = '';
@@ -628,6 +643,23 @@ const App = {
       </div>`;
     }
 
+    const microLabel = this.state.district === 'talgar' ? 'Посёлок' : 'Микрорайон';
+    const microKeys = new Set([...Object.keys(microCounts), ...this.state.microdistrictFilter]);
+    if (microKeys.size) {
+      const orderedMicroKeys = [...microKeys].sort((a, b) => (microCounts[b] || 0) - (microCounts[a] || 0));
+      html += `<div class="filt-section">
+        <div class="filt-section-label">${microLabel}</div>
+        <div class="filt-chips" data-group="micro">
+          ${orderedMicroKeys.map(m => {
+            const n = microCounts[m] || 0;
+            return `<div class="filt-chip${this.state.microdistrictFilter.includes(m) ? ' on':''}" data-val="${m}">
+              ${m}<span class="fc-sub">${n}</span>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`;
+    }
+
     document.getElementById('filtScroll').innerHTML = html;
     this.updateFilterCount();
 
@@ -640,6 +672,7 @@ const App = {
         const targetFilter = group === 'bt' ? this.state.btFilter
                             : group === 'cond' ? this.state.conditionFilter
                             : group === 'year' ? this.state.yearFilter
+                            : group === 'micro' ? this.state.microdistrictFilter
                             : this.state.roomsFilter;
         const i = targetFilter.indexOf(val);
         if (i >= 0) targetFilter.splice(i,1); else targetFilter.push(val);

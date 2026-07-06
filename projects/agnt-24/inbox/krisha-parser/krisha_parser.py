@@ -53,7 +53,36 @@ SEARCH_URLS = [
     f"https://krisha.kz/prodazha/uchastkov/almaty/?{OWNER_ONLY_FILTER}",                 # участки
     f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/almaty/?{OWNER_ONLY_FILTER}",  # коммерческая
     f"https://krisha.kz/prodazha/dachi/almaty/?{OWNER_ONLY_FILTER}",                     # дачи
+
+    # Талгар — отдельный населённый пункт в krisha.kz (не район Алматы, а
+    # пригород/город Алматинской области), поэтому свои ссылки на сегмент
+    # /talgar/, а не фильтр внутри /almaty/. Адреса объявлений там не содержат
+    # "р-н" — район присваивается settlement-override'ом в run(), см.
+    # SETTLEMENT_DISTRICT_OVERRIDE ниже.
+    f"https://krisha.kz/prodazha/kvartiry/talgar/?{OWNER_ONLY_FILTER}",                  # квартиры (Талгар)
+    f"https://krisha.kz/prodazha/doma/talgar/?{OWNER_ONLY_FILTER}",                      # дома (Талгар)
+    f"https://krisha.kz/prodazha/uchastkov/talgar/?{OWNER_ONLY_FILTER}",                 # участки (Талгар)
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/talgar/?{OWNER_ONLY_FILTER}",  # коммерческая (Талгар)
+    f"https://krisha.kz/prodazha/dachi/talgar/?{OWNER_ONLY_FILTER}",                     # дачи (Талгар)
+
+    # Бесагаш — посёлок Алматинской области рядом с Талгаром (алиас на
+    # krisha.kz "besagash-dzerzhinskoe", не просто "besagash" — сверено
+    # по канонiческому списку населённых пунктов на странице поиска).
+    # Бакетируется в тот же район "Талгарский", отдельно помечается как
+    # посёлок "Бесагаш" в microdistrict, см. parse_microdistrict().
+    f"https://krisha.kz/prodazha/kvartiry/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/doma/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/uchastkov/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
+    f"https://krisha.kz/prodazha/dachi/besagash-dzerzhinskoe/?{OWNER_ONLY_FILTER}",
 ]
+
+# Населённые пункты за пределами районов Алматы, для которых район
+# определяется по сегменту URL, а не по тексту адреса (там просто нет "р-н").
+SETTLEMENT_DISTRICT_OVERRIDE = {
+    "talgar": "Талгарский",
+    "besagash-dzerzhinskoe": "Талгарский",
+}
 
 MAX_PAGES = 5
 REQUEST_DELAY_SEC = 5  # пауза между страницами, чтобы не перегружать сайт
@@ -106,6 +135,39 @@ ALMATY_DISTRICTS = [
     "Турксибский",
 ]
 
+# Микрорайон/жилмассив внутри районов Алматы — в адресе идёт как "мкр X" сразу
+# после "<Район> р-н, ". Захватываем слово, опционально с "-N"/"-й" (Шанырак-2,
+# Айгерим-1, 20-й) и опциональным вторым словом (Заря Востока, 6-й градокомплекс),
+# останавливаясь перед номером дома/запятой.
+MICRODISTRICT_RE = re.compile(r"мкр\.?\s+(\w+(?:-[\wа-яёА-ЯЁ]+)?(?:\s+[А-ЯЁа-яё]+)?)")
+
+# Талгарский район не делится на микрорайоны — делится на посёлки/сёла вокруг
+# Талгара (не сам город Талгар — туда специально не углубляемся). Список — то,
+# что реально встречается в адресах наших объявлений + Бесагаш (явно попросил
+# владелец), сверено с канонiческими алиасами krisha.kz для Алматинской области.
+# "ң"/"н" — обе написания одного слова (Кеңдала/Кендала) нормализуются перед сверкой.
+TALGAR_SETTLEMENTS = [
+    "Бесагаш",
+    "Кендала",
+    "Актас",
+    "Талдыбулак",
+    "Алмалык",
+    "Панфилово",
+    "Отеген батыр",
+]
+
+
+def parse_microdistrict(address: str, district: str) -> Optional[str]:
+    """Извлекает микрорайон (8 р-нов Алматы) или посёлок (Талгарский) из адреса."""
+    if district == "Талгарский":
+        norm = address.replace("ң", "н").replace("Ң", "Н").lower()
+        for name in TALGAR_SETTLEMENTS:
+            if name.replace("ң", "н").lower() in norm:
+                return name
+        return None
+    m = MICRODISTRICT_RE.search(address)
+    return m.group(1).strip() if m else None
+
 
 @dataclass
 class Listing:
@@ -122,6 +184,7 @@ class Listing:
     price_value: Optional[int]
     address: str
     url: str
+    microdistrict: Optional[str] = None
 
 
 def init_db(db_path: str = DB_PATH) -> None:
@@ -162,6 +225,8 @@ def init_db(db_path: str = DB_PATH) -> None:
             conn.execute("ALTER TABLE listings ADD COLUMN seller_type TEXT")
         if "seller_agency" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN seller_agency TEXT")
+        if "microdistrict" not in cols_now:
+            conn.execute("ALTER TABLE listings ADD COLUMN microdistrict TEXT")
         if "year_built" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN year_built INTEGER")
 
@@ -180,14 +245,15 @@ def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
                 INSERT INTO listings (
                     deal_type, category, rooms, area, floor, total_floors,
                     district, building_type, title, price_text, price_value,
-                    address, url, first_seen
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    address, url, first_seen, microdistrict
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     listing.deal_type, listing.category, listing.rooms, listing.area,
                     listing.floor, listing.total_floors, listing.district,
                     listing.building_type, listing.title, listing.price_text,
                     listing.price_value, listing.address, listing.url, first_seen,
+                    listing.microdistrict,
                 ),
             )
             return True
@@ -552,7 +618,7 @@ def enrich_year_built(db_path: str = DB_PATH, limit: Optional[int] = None,
     return {"checked": processed, "found": found, "gone": gone}
 
 
-def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
+def parse_page(html: str, deal_type: str, category: str, district_override: Optional[str] = None) -> list[Listing]:
     soup = BeautifulSoup(html, "html.parser")
     listings: list[Listing] = []
     for card in soup.select(SEL_CARD):
@@ -564,6 +630,7 @@ def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
         price_text = _text(card.select_one(SEL_PRICE))
         address = _text(card.select_one(SEL_ADDRESS))
         floor, total_floors = parse_floor(title)
+        district = district_override or parse_district(address)
         listings.append(
             Listing(
                 deal_type=deal_type,
@@ -572,13 +639,14 @@ def parse_page(html: str, deal_type: str, category: str) -> list[Listing]:
                 area=parse_area(title),
                 floor=floor,
                 total_floors=total_floors,
-                district=parse_district(address),
+                district=district,
                 building_type=parse_building_type(address, price_text),
                 title=title,
                 price_text=price_text,
                 price_value=parse_price(price_text),
                 address=address,
                 url=url,
+                microdistrict=parse_microdistrict(address, district),
             )
         )
     return listings
@@ -636,6 +704,10 @@ def run() -> dict:
 
     for search_url in SEARCH_URLS:
         deal_type, category = parse_category_deal(search_url)
+        district_override = next(
+            (d for slug, d in SETTLEMENT_DISTRICT_OVERRIDE.items() if f"/{slug}/" in search_url),
+            None,
+        )
         logger.info("Источник: %s/%s — %s", deal_type or "?", category or "?", search_url)
         for page in range(1, MAX_PAGES + 1):
             sep = "&" if "?" in search_url else "?"
@@ -646,7 +718,7 @@ def run() -> dict:
             if not html:
                 break
 
-            listings = parse_page(html, deal_type, category)
+            listings = parse_page(html, deal_type, category, district_override)
             if not listings:
                 logger.info("Объявления не найдены — последняя страница или изменилась вёрстка.")
                 break

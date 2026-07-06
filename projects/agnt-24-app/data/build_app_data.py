@@ -23,6 +23,7 @@ DISTRICT_MAP = {
     'Турксибский':    'turk',
     'Медеуский':      'mede',
     'Ауэзовский':     'auez',
+    'Талгарский':     'talgar',  # пригород (Алматинская область), не р-н города — см. krisha_parser SETTLEMENT_DISTRICT_OVERRIDE
 }
 TYPE_MAP = {
     'квартиры':      'apt',
@@ -112,6 +113,7 @@ photos_col = 'photos'      if 'photos'      in cols_now else "NULL as photos"
 has_seller_col = 'seller_type' in cols_now
 seller_col = 'seller_type' if has_seller_col else "NULL as seller_type"
 year_col = 'year_built' if 'year_built' in cols_now else "NULL as year_built"
+micro_col = 'microdistrict' if 'microdistrict' in cols_now else "NULL as microdistrict"
 # seller_type != 'owner' (специалист/агентство/застройщик) — не показываем как
 # "от хозяина"; пока поле не проверено (seller_type IS NULL — старые записи до
 # фикса das[who]=1, ждут прогона --enrich-seller) тоже придерживаем объявление,
@@ -120,7 +122,7 @@ seller_filter = "AND seller_type = 'owner'" if has_seller_col else ""
 cur.execute(f"""
     SELECT id, deal_type, category, rooms, area, floor, total_floors,
            district, building_type, price_text, price_value, address, url, first_seen,
-           {cond_col}, {photos_col}, {seller_col}, {year_col}
+           {cond_col}, {photos_col}, {seller_col}, {year_col}, {micro_col}
     FROM listings
     WHERE district IS NOT NULL
       AND district != ''
@@ -171,6 +173,7 @@ for i, row in enumerate(rows):
         'material':     mat,
         'condition':    row['condition'] or None,
         'yearBuilt':    row['year_built'] if row['year_built'] and row['year_built'] > 0 else None,
+        'microdistrict': row['microdistrict'] or None,
         'photos':       photos,
         'floor':        row['floor'],
         'floors':       row['total_floors'],
@@ -229,6 +232,10 @@ DISTRICT_META = {
     'auez': {'name': 'Ауэзовский',    'color': '#c060a0', 'cx': 106, 'cy': 118, 'r': 14},
     'alat': {'name': 'Алатауский',    'color': '#3b7dd8', 'cx': 100, 'cy': 162, 'r': 20},
     'turk': {'name': 'Турксибский',   'color': '#14b89c', 'cx': 42,  'cy': 162, 'r': 15},
+    # Талгар — пригород восточнее города (не р-н Алматы, отдельный н.п. Алматинской
+    # области), на карте — ещё левее Медеуского/Жетысуского (viewBox расширен влево
+    # в index.html специально под этот пузырь).
+    'talgar': {'name': 'Талгарский',  'color': '#a0522d', 'cx': -8,  'cy': 95,  'r': 16},
 }
 districts_js = []
 for did, meta in DISTRICT_META.items():

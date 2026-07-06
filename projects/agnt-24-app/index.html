@@ -64,7 +64,7 @@
 
     <!-- MAP SVG (south-up: mountains at top) -->
     <div class="map-area">
-      <svg id="mapSvg" viewBox="0 0 152 190" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif" preserveAspectRatio="xMidYMid meet">
+      <svg id="mapSvg" viewBox="-24 0 176 190" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif" preserveAspectRatio="xMidYMid meet">
         <defs>
           <linearGradient id="skyg" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#c8dff0"/>
@@ -88,15 +88,15 @@
         </defs>
 
         <!-- Background -->
-        <rect width="152" height="190" fill="#fafaf8"/>
+        <rect x="-24" width="176" height="190" fill="#fafaf8"/>
 
         <!-- Sky -->
-        <rect width="152" height="52" fill="url(#skyg)"/>
+        <rect x="-24" width="176" height="52" fill="url(#skyg)"/>
 
         <!-- Mountains at top (Заилийский Алатау = south, shown at top) -->
-        <polygon points="0,42 8,24 18,32 30,14 44,22 58,10 70,18 82,6 96,15 110,4 122,13 135,7 145,14 152,10 152,48 0,48" fill="rgba(185,210,230,0.32)"/>
-        <polygon points="0,46 6,33 16,40 28,26 40,34 52,20 65,28 77,16 90,23 103,12 115,20 126,15 138,22 148,17 152,20 152,50 0,50" fill="rgba(165,195,218,0.40)"/>
-        <polygon points="0,50 5,40 14,46 24,35 36,42 48,30 60,38 72,27 85,34 98,24 110,31 120,25 132,33 142,28 152,32 152,54 0,54" fill="rgba(145,180,208,0.48)"/>
+        <polygon points="-24,42 8,24 18,32 30,14 44,22 58,10 70,18 82,6 96,15 110,4 122,13 135,7 145,14 152,10 152,48 -24,48" fill="rgba(185,210,230,0.32)"/>
+        <polygon points="-24,46 6,33 16,40 28,26 40,34 52,20 65,28 77,16 90,23 103,12 115,20 126,15 138,22 148,17 152,20 152,50 -24,50" fill="rgba(165,195,218,0.40)"/>
+        <polygon points="-24,50 5,40 14,46 24,35 36,42 48,30 60,38 72,27 85,34 98,24 110,31 120,25 132,33 142,28 152,32 152,54 -24,54" fill="rgba(145,180,208,0.48)"/>
         <!-- Snow caps -->
         <polygon points="58,10 62,8 66,10 64,15 60,15" fill="rgba(230,242,252,0.8)"/>
         <polygon points="80,6 84,4 88,6 86,12 82,12"   fill="rgba(230,242,252,0.85)"/>
@@ -105,19 +105,19 @@
 
         <!-- Street grid -->
         <g stroke="#eae7e0" stroke-width="0.55">
-          <line x1="0" y1="62" x2="152" y2="62"/><line x1="0" y1="80" x2="152" y2="80"/>
-          <line x1="0" y1="98" x2="152" y2="98"/><line x1="0" y1="116" x2="152" y2="116"/>
-          <line x1="0" y1="134" x2="152" y2="134"/><line x1="0" y1="152" x2="152" y2="152"/>
-          <line x1="0" y1="170" x2="152" y2="170"/>
+          <line x1="-24" y1="62" x2="152" y2="62"/><line x1="-24" y1="80" x2="152" y2="80"/>
+          <line x1="-24" y1="98" x2="152" y2="98"/><line x1="-24" y1="116" x2="152" y2="116"/>
+          <line x1="-24" y1="134" x2="152" y2="134"/><line x1="-24" y1="152" x2="152" y2="152"/>
+          <line x1="-24" y1="170" x2="152" y2="170"/>
           <line x1="19" y1="56" x2="19" y2="190"/><line x1="38" y1="56" x2="38" y2="190"/>
           <line x1="57" y1="56" x2="57" y2="190"/><line x1="76" y1="56" x2="76" y2="190"/>
           <line x1="95" y1="56" x2="95" y2="190"/><line x1="114" y1="56" x2="114" y2="190"/>
           <line x1="133" y1="56" x2="133" y2="190"/>
         </g>
         <!-- Major avenues -->
-        <line x1="0" y1="88" x2="152" y2="88" stroke="#ddd9d0" stroke-width="1.8"/>
-        <line x1="0" y1="118" x2="152" y2="118" stroke="#ddd9d0" stroke-width="1.5"/>
-        <line x1="0" y1="150" x2="152" y2="150" stroke="#ddd9d0" stroke-width="1.5"/>
+        <line x1="-24" y1="88" x2="152" y2="88" stroke="#ddd9d0" stroke-width="1.8"/>
+        <line x1="-24" y1="118" x2="152" y2="118" stroke="#ddd9d0" stroke-width="1.5"/>
+        <line x1="-24" y1="150" x2="152" y2="150" stroke="#ddd9d0" stroke-width="1.5"/>
         <line x1="108" y1="56" x2="108" y2="190" stroke="#ddd9d0" stroke-width="1.8"/>
         <line x1="70" y1="56" x2="70" y2="190" stroke="#ddd9d0" stroke-width="1.4"/>
 
@@ -199,6 +199,15 @@
           <circle cx="42" cy="162" r="15" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
           <text x="42" y="158.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
           <text x="42" y="167" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Турксибский</text>
+        </g>
+
+        <!-- ТАЛГАРСКИЙ (пригород восточнее города — за пределами Алматы, ещё левее Медеуского) -->
+        <g class="bubble-g" data-district="talgar" cursor="pointer">
+          <circle cx="-8" cy="95" r="16" fill="#A0522D" fill-opacity="0.1"/>
+          <circle cx="-8" cy="95" r="16" fill="#A0522D" class="bubble-main" filter="url(#bub-shadow)"/>
+          <circle cx="-8" cy="95" r="16" fill="url(#sphere-shine)" class="bubble-shine" pointer-events="none"/>
+          <text x="-8" y="91.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">0</text>
+          <text x="-8" y="100" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Талгарский</text>
         </g>
 
         <!-- Compass: горы=верх(Ю), восток=лево(←), запад=право(→) -->
