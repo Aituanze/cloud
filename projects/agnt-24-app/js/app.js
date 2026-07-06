@@ -790,6 +790,26 @@ const App = {
       });
     });
 
+    // Save / bookmark ("Сохранённые" на экране «Моя База»)
+    wrapper.querySelectorAll('.fc-bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const id = btn.dataset.listing;
+        if (!id) return;
+        const svg = btn.querySelector('svg');
+        if (this.state.saved[id]) {
+          delete this.state.saved[id];
+          btn.classList.remove('on');
+          svg.setAttribute('fill', 'none');
+        } else {
+          this.state.saved[id] = { savedAt: new Date().toISOString() };
+          btn.classList.add('on');
+          svg.setAttribute('fill', 'white');
+        }
+        localStorage.setItem('24s_saved', JSON.stringify(this.state.saved));
+      });
+    });
+
     // Counter sync on scroll
     wrapper.addEventListener('scroll', () => {
       const h = wrapper.clientHeight;
@@ -890,6 +910,9 @@ const App = {
       <!-- Photo -->
       <div class="fc-photo" style="${firstPhoto ? '' : `background:${l.photoBg}`}${isArch ? ';filter:saturate(.25) brightness(.9)' : ''}">
         ${firstPhoto ? `<img class="fc-photo-img" src="${firstPhoto}" loading="lazy" alt="">` : roomScene(l.scene)}
+        <button class="fc-bookmark-btn${this.state.saved[l.id] ? ' on' : ''}" data-listing="${l.id}" aria-label="Сохранить">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="${this.state.saved[l.id] ? 'white' : 'none'}" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+        </button>
       </div>
       <!-- Content -->
       <div class="fc-content">

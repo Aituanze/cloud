@@ -428,6 +428,14 @@ html, body {
 }
 .fc-photo svg { position: absolute; inset: 0; }
 .fc-photo-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.fc-bookmark-btn {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 34px; height: 34px; border-radius: 50%; border: none;
+  background: rgba(20,20,30,.45); display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.fc-bookmark-btn.on { background: var(--blue); }
+.fc-bookmark-btn svg { position: static; }
 
 /* ── Content section ── */
 .fc-content {
