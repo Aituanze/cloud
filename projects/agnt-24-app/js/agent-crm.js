@@ -142,7 +142,13 @@ const AgentCrm = {
     document.querySelectorAll('.stage-btn').forEach(btn => {
       btn.addEventListener('click', async () => {
         if (btn.classList.contains('active')) return;
-        await Sb.updateLeadStage(lead.id, btn.dataset.stage, null);
+        try {
+          await Sb.updateLeadStage(lead.id, btn.dataset.stage, null);
+        } catch (err) {
+          console.error('updateLeadStage failed', err);
+          App._toast('Не удалось сменить этап: ' + (err.message || 'ошибка сети'));
+          return; // не трогаем lead.stage и не перерисовываем — реальный этап не изменился
+        }
         lead.stage = btn.dataset.stage;
         this._renderBoard();
         this._openDetail(lead);

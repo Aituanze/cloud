@@ -250,14 +250,16 @@ const Sb = {
 
   async updateLeadStage(leadId, stageTo, note) {
     const { data: lead } = await _db.from('leads').select('stage').eq('id', leadId).single();
-    await _db.from('leads')
+    const { error: updErr } = await _db.from('leads')
       .update({ stage: stageTo, updated_at: new Date().toISOString() })
       .eq('id', leadId);
-    await _db.from('lead_events').insert({
+    if (updErr) throw updErr;
+    const { error: evErr } = await _db.from('lead_events').insert({
       lead_id:    leadId,
       stage_from: lead?.stage || null,
       stage_to:   stageTo,
       note:       note || null,
     });
+    if (evErr) throw evErr;
   },
 };
