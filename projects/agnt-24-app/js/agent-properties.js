@@ -23,9 +23,12 @@ const AgentProperties = {
       .addEventListener('click', () => this._save(true));
     document.getElementById('pePhotoInput')
       .addEventListener('change', e => this._onPhotoPick(e));
-    document.querySelectorAll('.pe-chip')
+    // Скоуп #peTypeChips обязателен — тот же класс .pe-chip используют
+    // несвязанные чипы подписки при создании агентства (#anSubChips в
+    // hierarchy-ui.js); без скоупа клик там сбрасывал .on здесь и наоборот.
+    document.querySelectorAll('#peTypeChips .pe-chip')
       .forEach(c => c.addEventListener('click', () => {
-        document.querySelectorAll('.pe-chip').forEach(x => x.classList.remove('on'));
+        document.querySelectorAll('#peTypeChips .pe-chip').forEach(x => x.classList.remove('on'));
         c.classList.add('on');
       }));
   },
@@ -111,7 +114,7 @@ const AgentProperties = {
     document.getElementById('peOwnerPhone').value = prop?.owner_phone || '';
 
     const currentType = prop?.type || 'apt';
-    document.querySelectorAll('.pe-chip').forEach(c =>
+    document.querySelectorAll('#peTypeChips .pe-chip').forEach(c =>
       c.classList.toggle('on', c.dataset.val === currentType));
 
     const transferBtn = document.getElementById('peTransferBtn');
@@ -172,7 +175,7 @@ const AgentProperties = {
       }
 
       const floorRaw   = document.getElementById('peFloor').value.split('/').map(s => parseInt(s.trim()));
-      const type       = document.querySelector('.pe-chip.on')?.dataset.val || 'apt';
+      const type       = document.querySelector('#peTypeChips .pe-chip.on')?.dataset.val || 'apt';
       const price      = parseInt(document.getElementById('pePrice').value) || 0;
       const priceLabel = price >= 1000000
         ? `${(price / 1000000).toLocaleString('ru', { maximumFractionDigits: 1 })} млн`
@@ -203,6 +206,9 @@ const AgentProperties = {
       await Sb.upsertProperty(payload);
       slideBack();
       await this.renderList();
+    } catch (err) {
+      console.error('AgentProperties._save failed', err);
+      App._toast('Не удалось сохранить: ' + (err.message || 'ошибка сети'));
     } finally {
       pubBtn.textContent = 'Опубликовать'; pubBtn.disabled = false;
       saveBtn.disabled = false;
