@@ -145,6 +145,7 @@ const App = {
     LISTINGS.forEach(l => {
       if (!this._matchesMode(l)) return;
       if (l.type !== this.state.type) return;
+      if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return;
       distCounts[l.district] = (distCounts[l.district] || 0) + 1;
     });
 
@@ -371,6 +372,7 @@ const App = {
     LISTINGS.forEach(l => {
       if (l.district !== this.state.district) return;
       if (!this._matchesMode(l)) return;
+      if (l.price < this.state.priceFrom || l.price > this.state.priceTo) return;
       counts[l.type] = (counts[l.type] || 0) + 1;
       if (l.firstSeen && new Date(l.firstSeen).getTime() > cutoffMs) {
         newCounts[l.type] = (newCounts[l.type] || 0) + 1;
