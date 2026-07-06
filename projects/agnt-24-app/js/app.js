@@ -1228,13 +1228,26 @@ const App = {
     if (cards[0]) cards[0].onclick = () => { this.state.activeSeg = 'claimed'; this.switchTab('base'); };
     if (cards[1]) cards[1].onclick = () => { this.state.activeSeg = 'saved';   this.switchTab('base'); };
 
+    const avatarEl  = document.querySelector('.profile-avatar');
+    const nameEl    = document.querySelector('.profile-name');
+    const companyEl = document.querySelector('.profile-company');
+    const subBadge  = document.querySelector('.sub-badge');
+    const headerRow = document.querySelector('.profile-row');
+
     if (window._agentProfile) {
       const p = window._agentProfile;
       const initial = (p.name || 'А')[0].toUpperCase();
-      const avatarEl = document.querySelector('.profile-avatar');
-      const nameEl   = document.querySelector('.profile-name');
       if (avatarEl) avatarEl.textContent = initial;
       if (nameEl)   nameEl.textContent   = p.name || 'Агент';
+      if (subBadge) subBadge.style.display = '';
+      if (headerRow) { headerRow.onclick = null; headerRow.style.cursor = ''; }
+    } else {
+      // Гость: не показываем чужое имя/фейковую подписку — честно предлагаем войти
+      if (avatarEl)  avatarEl.textContent = '?';
+      if (nameEl)    nameEl.textContent   = 'Войти как агент';
+      if (companyEl) companyEl.textContent = 'agnt.24 · Алматы';
+      if (subBadge)  subBadge.style.display = 'none';
+      if (headerRow) { headerRow.onclick = () => Auth.showAgentLogin(); headerRow.style.cursor = 'pointer'; }
     }
 
     this.renderRatingCard();
@@ -1320,7 +1333,13 @@ function slideBack(fromId, toId) {
   if (from) { from.classList.remove('active'); from.classList.add('slide-below'); }
   to.classList.remove('slide-below', 'slide-above'); to.classList.add('active');
   const tb = document.getElementById('tabBar');
-  if (last?.tabBarVisible) tb.classList.remove('hidden'); else if (toId) {} // manual caller handles tabBar
+  if (toId) {
+    // явный toId — вызывающий код сам управляет видимостью tab bar
+  } else if (last?.tabBarVisible) {
+    tb.classList.remove('hidden');
+  } else {
+    tb.classList.add('hidden');
+  }
   _suppressPop = true;
   history.back();
 }
