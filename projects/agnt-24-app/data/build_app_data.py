@@ -133,6 +133,17 @@ cur.execute(f"""
     ORDER BY id
 """)
 rows = cur.fetchall()
+
+has_price_history = db.execute(
+    "SELECT name FROM sqlite_master WHERE type='table' AND name='price_history'"
+).fetchone() is not None
+price_history_map = {}
+if has_price_history:
+    for listing_id, price in db.execute(
+        "SELECT listing_id, price FROM price_history ORDER BY listing_id, recorded_at"
+    ):
+        price_history_map.setdefault(listing_id, []).append(price)
+
 db.close()
 
 # ── КОНВЕРТИРУЕМ АКТИВНЫЕ ────────────────
@@ -173,6 +184,7 @@ for i, row in enumerate(rows):
         'type':         type_id,
         'price':        row['price_value'],
         'priceLabel':   price_label(row['price_value']),
+        'priceHistory': price_history_map.get(row['id'], []),
         'address':      addr,
         'rooms':        row['rooms'],
         'area':         float(row['area']) if row['area'] else None,

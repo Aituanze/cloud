@@ -282,6 +282,16 @@ def init_db(db_path: str = DB_PATH) -> None:
             conn.execute("ALTER TABLE listings ADD COLUMN microdistrict TEXT")
         if "year_built" not in cols_now:
             conn.execute("ALTER TABLE listings ADD COLUMN year_built INTEGER")
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS price_history (
+                id          INTEGER PRIMARY KEY AUTOINCREMENT,
+                listing_id  INTEGER NOT NULL REFERENCES listings(id),
+                price       INTEGER NOT NULL,
+                recorded_at TEXT NOT NULL
+            )
+            """
+        )
 
 
 def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
@@ -289,11 +299,16 @@ def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
 
     Дубли по URL не добавляются — остаётся только самое первое объявление и его
     дата первого появления (first_seen), по которой считается «новинка за 24 часа».
+    Цену при этом отслеживаем на каждом прогоне (страница поиска и так отдаёт
+    актуальную цену для уже известных объявлений — раньше она просто
+    отбрасывалась): при изменении обновляем price_value/price_text в listings
+    и пишем снапшот в price_history (для спарклайна динамики цены в приложении).
     """
     first_seen = datetime.now().isoformat(timespec="seconds")
+    now = datetime.now().isoformat(timespec="seconds")
     with sqlite3.connect(db_path) as conn:
         try:
-            conn.execute(
+            cur = conn.execute(
                 """
                 INSERT INTO listings (
                     deal_type, category, rooms, area, floor, total_floors,
@@ -309,9 +324,27 @@ def save_listing(listing: Listing, db_path: str = DB_PATH) -> bool:
                     listing.microdistrict,
                 ),
             )
+            if listing.price_value is not None:
+                conn.execute(
+                    "INSERT INTO price_history (listing_id, price, recorded_at) VALUES (?, ?, ?)",
+                    (cur.lastrowid, listing.price_value, now),
+                )
             return True
         except sqlite3.IntegrityError:
-            return False  # уже есть (по url) — дубль, пропускаем
+            if listing.price_value is not None:
+                row = conn.execute(
+                    "SELECT id, price_value FROM listings WHERE url = ?", (listing.url,)
+                ).fetchone()
+                if row and row[1] != listing.price_value:
+                    conn.execute(
+                        "UPDATE listings SET price_value = ?, price_text = ? WHERE id = ?",
+                        (listing.price_value, listing.price_text, row[0]),
+                    )
+                    conn.execute(
+                        "INSERT INTO price_history (listing_id, price, recorded_at) VALUES (?, ?, ?)",
+                        (row[0], listing.price_value, now),
+                    )
+            return False  # уже есть (по url) — дубль, пропускаем (цена выше уже обновлена при изменении)
 
 
 def _text(node) -> str:

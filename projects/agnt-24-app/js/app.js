@@ -900,6 +900,7 @@ const App = {
           <div class="fc-price">${l.priceLabel} <span class="fc-cur">₸</span></div>
           ${pm2 ? `<div class="fc-pm2">${pm2.toLocaleString('ru')} ₸/м²</div>` : ''}
           ${diff !== null ? `<div class="fc-market ${diffClass}">${diffLabel}</div>` : ''}
+          ${sparkline(l.priceHistory)}
         </div>
         <div class="fc-status-row">
           ${isNew ? `<div class="fc-chip-new">НОВОЕ</div>` : ''}
@@ -1455,6 +1456,27 @@ function pluralObj(n) {
 
 function iconPhone() {
   return `<svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>`;
+}
+
+// Мини-график динамики цены объявления (история из price_history пайплайна).
+// history — массив цен в хронологическом порядке, минимум 2 точки.
+function sparkline(history) {
+  if (!history || history.length < 2) return '';
+  const w = 44, h = 16, pad = 2;
+  const min = Math.min(...history), max = Math.max(...history);
+  const range = max - min || 1;
+  const stepX = (w - pad * 2) / (history.length - 1);
+  const points = history.map((p, i) => {
+    const x = pad + i * stepX;
+    const y = h - pad - ((p - min) / range) * (h - pad * 2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(' ');
+  const rising = history[history.length - 1] > history[0];
+  const falling = history[history.length - 1] < history[0];
+  const color = falling ? '#15966b' : rising ? '#c0392b' : '#8a8f98'; // дешевле = зелёным (выгодно покупателю)
+  return `<svg class="fc-sparkline" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" title="История цены">
+    <polyline points="${points}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
 }
 
 function typeIcon(typeId) {

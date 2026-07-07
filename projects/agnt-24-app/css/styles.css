@@ -413,6 +413,7 @@ html, body {
 }
 .fc-market.below { background: rgba(21,150,107,.12); color: #15966b; }
 .fc-market.above { background: rgba(220,68,70,.1);   color: #dc4446; }
+.fc-sparkline     { flex-shrink: 0; vertical-align: middle; }
 .fc-status-row   { display: flex; align-items: center; gap: 8px; }
 .fc-chip-new {
   background: #1a1831; color: white;
