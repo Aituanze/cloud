@@ -756,6 +756,16 @@ const App = {
             Sb.upsertProperty({ id: removed.supabaseId, status: 'archived' }).catch(console.error);
           }
         } else {
+          // Кнопка видна всем (карта/лента работают без авторизации) — но без
+          // профиля агента _syncClaimToSupabase() молча ничего не пишет в БД,
+          // а UI при этом врал бы "✓ Вы взяли в работу". Без входа объект
+          // никогда не появится в «Мои объекты» — блокируем на входе, а не
+          // даём ложный успех.
+          if (!window._agentProfile) {
+            this._toast('Войдите как агент, чтобы объект попал в «Мои объекты»');
+            Auth.showAgentLogin();
+            return;
+          }
           // Защита от гонки: коллега мог занять объект долями секунды раньше,
           // чем эта кнопка перерисовалась (_agencyClaims обновляется по polling).
           const myId = window._agentProfile?.id;
@@ -1098,6 +1108,13 @@ const App = {
     if (ed.photos.length >= 3 && ed.desc && ed.desc.length > 20 && ed.price) {
       AgentRating.recordCompletedListing(listingId);
     }
+    if (!window._agentProfile) {
+      // Объект сохранён только локально (claim и сам не мог быть создан без
+      // входа после фикса выше, но старые локальные claim'ы из-за прежнего
+      // бага могли остаться без supabaseId) — не врём "Сохранено ✓".
+      this._toast('Сохранено локально — войдите как агент, чтобы объект попал в «Мои объекты»');
+      return;
+    }
     this._syncClaimToSupabase(listingId);
     this._toast('Сохранено ✓');
   },
@@ -1153,8 +1170,21 @@ const App = {
         this._loadAgencyClaims();
       } else {
         console.error('Sync claim → Supabase failed', err);
+        this._toast('Не удалось сохранить объект в базу — попробуйте ещё раз');
       }
     }
+  },
+
+  // Claim'ы, сделанные ДО фикса выше (когда кнопка "В базу" ещё не требовала
+  // входа) — остались только в localStorage без supabaseId и никогда не
+  // попадали в «Мои объекты». Досылаем их в Supabase сразу после входа.
+  _syncPendingClaims() {
+    Object.keys(this.state.claimed).forEach(id => {
+      const claim = this.state.claimed[id];
+      if (claim && typeof claim === 'object' && !claim.supabaseId) {
+        this._syncClaimToSupabase(id);
+      }
+    });
   },
 
   _setChip(groupId, val) {
@@ -1550,6 +1580,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AgentCrm.init(agentProfile);
     TransferUI.init();
     App._loadAgencyClaims();
+    App._syncPendingClaims();
   } else {
     const buyerProfile = await Sb.getBuyerProfile(session.user.id);
     if (buyerProfile) {
