@@ -262,4 +262,28 @@ const Sb = {
     });
     if (evErr) throw evErr;
   },
+
+  // ── Push-уведомления (Web Push) ─────────────────────────────────────
+
+  async savePushSubscription(profileId, { endpoint, p256dh, auth }) {
+    const { error } = await _db
+      .from('push_subscriptions')
+      .upsert({ profile_id: profileId, endpoint, p256dh, auth }, { onConflict: 'endpoint' });
+    if (error) throw error;
+  },
+
+  async removePushSubscription(endpoint) {
+    const { error } = await _db.from('push_subscriptions').delete().eq('endpoint', endpoint);
+    if (error) throw error;
+  },
+
+  // Просит Edge Function send-push разослать уведомление агенту. Best-effort:
+  // функция может быть ещё не задеплоена — вызывающий код не должен падать
+  // из-за этого (см. buyer-feed.js._revealContact).
+  async triggerPush(profileId, { title, body, url, tag }) {
+    const { error } = await _db.functions.invoke('send-push', {
+      body: { profile_id: profileId, title, body, url, tag },
+    });
+    if (error) throw error;
+  },
 };

@@ -950,6 +950,8 @@ html, body {
 .sr-ico   { width: 32px; height: 32px; border-radius: 9px; display: flex; align-items: center; justify-content: center; }
 .sr-label { font-size: 13px; font-weight: 600; color: var(--ink); }
 .sr-arrow { color: var(--ink3); }
+.sr-status { font-size: 11.5px; font-weight: 600; color: var(--ink3); }
+.sr-status.on { color: var(--green); }
 
 /* ══════════════════════════════════════════
    AUTH SCREENS
