@@ -23,6 +23,24 @@ const AgentCrm = {
     localStorage.setItem(`24s_fu_${id}`, d.toISOString()); return d;
   },
 
+  // ── «не звонили N дней» ──────────────────
+  _daysSinceContact(lead) {
+    const notes = this._getNotes(lead.id);
+    const lastTs = notes.length ? notes[0].ts : lead.created_at; // notes.unshift — [0] самая свежая
+    return Math.floor((Date.now() - new Date(lastTs).getTime()) / 86400000);
+  },
+  _isStale(lead) {
+    if (lead.stage === 'deal' || lead.stage === 'lost') return false;
+    return this._daysSinceContact(lead) >= 3;
+  },
+  _pluralDays(n) {
+    const mod10 = n % 10, mod100 = n % 100;
+    if (mod100 >= 11 && mod100 <= 14) return 'дней';
+    if (mod10 === 1) return 'день';
+    if (mod10 >= 2 && mod10 <= 4) return 'дня';
+    return 'дней';
+  },
+
   init(profile) {
     this._profile = profile;
     document.getElementById('leadDetailBack')
@@ -47,7 +65,14 @@ const AgentCrm = {
   _renderBoard() {
     const board = document.getElementById('crmBoard');
     board.innerHTML = STAGES.map(s => {
-      const leads = this._leads.filter(l => l.stage === s.id);
+      const leads = this._leads
+        .filter(l => l.stage === s.id)
+        .sort((a, b) => {
+          const aStale = this._isStale(a), bStale = this._isStale(b);
+          if (aStale !== bStale) return aStale ? -1 : 1;
+          if (aStale) return this._daysSinceContact(b) - this._daysSinceContact(a);
+          return new Date(b.created_at) - new Date(a.created_at);
+        });
       return `<div class="crm-col" data-stage="${s.id}">
         <div class="crm-col-title" style="color:${s.color}">
           ${s.label}<span class="crm-col-count">${leads.length}</span>
@@ -62,16 +87,27 @@ const AgentCrm = {
         if (lead) this._openDetail(lead);
       });
     });
+    board.querySelectorAll('.lead-card-call').forEach(btn => {
+      btn.addEventListener('click', e => e.stopPropagation());
+    });
   },
 
   _cardHTML(l) {
     const addr  = l.properties?.address || '—';
     const phone = l.buyer_phone || l.buyer_profiles?.phone || '—';
     const time  = new Date(l.created_at).toLocaleDateString('ru', { day:'numeric', month:'short' });
-    return `<div class="lead-card" data-id="${l.id}">
+    const stale = this._isStale(l);
+    const warnHtml = stale
+      ? `<div class="lead-card-warn">
+           <span>⚠️ Не звонили ${this._daysSinceContact(l)} ${this._pluralDays(this._daysSinceContact(l))}</span>
+           <a class="lead-card-call" href="tel:${phone.replace(/\D/g,'')}">📞</a>
+         </div>`
+      : '';
+    return `<div class="lead-card${stale ? ' stale' : ''}" data-id="${l.id}">
       <div class="lead-card-addr">${addr}</div>
       <div class="lead-card-phone">${phone}</div>
       <div class="lead-card-time">${time}</div>
+      ${warnHtml}
     </div>`;
   },
 
