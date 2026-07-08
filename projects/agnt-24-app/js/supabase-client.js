@@ -235,7 +235,9 @@ const Sb = {
   async getAgencyProperties(agencyId) {
     const { data } = await _db
       .from('properties')
-      .select('id, type, exclusivity, status, created_at')
+      // agent_id нужен, чтобы HierarchyUI.openTeam() мог отфильтровать KPI-плитки
+      // под своих агентов для роли 'mop' (не только для 'admin').
+      .select('id, type, exclusivity, status, created_at, agent_id')
       .eq('agency_id', agencyId);
     return data || [];
   },

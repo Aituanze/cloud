@@ -283,7 +283,15 @@ const HierarchyUI = {
       avgDeposits: Math.round(scopeAgents.reduce((s, p) => s + (p.deposits_manual || 0), 0) / scopeAgents.length),
     } : null;
 
-    kpiEl.innerHTML = this._kpiHtml(properties, teamAvg);
+    // KPI-плитки (категории/новые/обработано) — та же зона видимости, что и
+    // список/рейтинг выше: у директора вся агентура, у МОПа только его агенты.
+    // Раньше плитки всегда брали properties агентства целиком — МОП видел те
+    // же цифры, что и директор, хотя список под ними уже был скоуплен верно.
+    const scopeProperties = me.role === 'admin'
+      ? properties
+      : properties.filter(p => scopeAgents.some(a => a.id === p.agent_id));
+
+    kpiEl.innerHTML = this._kpiHtml(scopeProperties, teamAvg);
 
     if (me.role === 'admin') {
       const mops = profiles.filter(p => p.role === 'mop');
