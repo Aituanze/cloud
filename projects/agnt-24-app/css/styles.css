@@ -111,13 +111,10 @@ html, body {
 }
 .map-area svg { width: 100%; height: 100%; display: block; }
 
-/* Bubble interactions */
+/* District badge interactions */
 .bubble-g { cursor: pointer; }
-.bubble-g:active .bubble-main { opacity: .85; }
-.bubble-g:active .bubble-photo { opacity: .8; }
-.bubble-main { transition: r .2s; }
-.bubble-photo { transition: filter .25s, opacity .2s; }
-.bubble-photo.archived { filter: grayscale(.75) brightness(1.15); opacity: .55; }
+.bubble-g:active .badge-bg { opacity: .8; }
+.badge-bg { fill: white; transition: opacity .2s, stroke .2s; }
 
 /* BOTTOM PANEL */
 .map-bottom {

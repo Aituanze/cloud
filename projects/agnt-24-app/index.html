@@ -70,158 +70,91 @@
     <div class="map-area">
       <svg id="mapSvg" viewBox="-24 0 176 190" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif" preserveAspectRatio="xMidYMid meet">
         <defs>
-          <linearGradient id="skyg" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#c8dff0"/>
-            <stop offset="100%" stop-color="#e8f3f9" stop-opacity="0"/>
-          </linearGradient>
-          <!-- 3D sphere highlight — shared, objectBoundingBox = works for all sizes -->
-          <radialGradient id="sphere-shine" cx="36%" cy="26%" r="64%" gradientUnits="objectBoundingBox">
-            <stop offset="0%"   stop-color="rgba(255,255,255,0.72)"/>
-            <stop offset="26%"  stop-color="rgba(255,255,255,0.14)"/>
-            <stop offset="100%" stop-color="rgba(0,0,0,0.30)"/>
-          </radialGradient>
-          <!-- Archive mode — muted -->
-          <radialGradient id="sphere-arch" cx="36%" cy="26%" r="64%" gradientUnits="objectBoundingBox">
-            <stop offset="0%"   stop-color="rgba(255,255,255,0.38)"/>
-            <stop offset="100%" stop-color="rgba(0,0,0,0.06)"/>
-          </radialGradient>
-          <!-- Drop shadow for active bubbles -->
+          <!-- Drop shadow for badges -->
           <filter id="bub-shadow" x="-45%" y="-45%" width="190%" height="210%">
             <feDropShadow dx="0" dy="3.5" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.22"/>
           </filter>
+          <!-- Дымка снизу для читаемости подсказки поверх фонового фото -->
+          <linearGradient id="bottom-haze" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(250,250,248,0)"/>
+            <stop offset="100%" stop-color="rgba(250,250,248,0.88)"/>
+          </linearGradient>
         </defs>
 
-        <!-- Background -->
-        <rect x="-24" width="176" height="190" fill="#fafaf8"/>
+        <!-- Единая сцена "город в миниатюре" — фон вместо нарисованных гор/улиц -->
+        <clipPath id="clip-map-scene"><rect x="-24" y="0" width="176" height="190"/></clipPath>
+        <image href="images/map-city-scene.jpg" x="-24" y="0" width="176" height="190"
+          clip-path="url(#clip-map-scene)" preserveAspectRatio="xMidYMid slice"/>
+        <!-- лёгкая дымка снизу — читаемость подсказки "Нажми район" поверх фото -->
+        <rect x="-24" y="160" width="176" height="30" fill="url(#bottom-haze)"/>
 
-        <!-- Sky -->
-        <rect x="-24" width="176" height="52" fill="url(#skyg)"/>
-
-        <!-- Mountains at top (Заилийский Алатау = south, shown at top) -->
-        <polygon points="-24,42 8,24 18,32 30,14 44,22 58,10 70,18 82,6 96,15 110,4 122,13 135,7 145,14 152,10 152,48 -24,48" fill="rgba(185,210,230,0.32)"/>
-        <polygon points="-24,46 6,33 16,40 28,26 40,34 52,20 65,28 77,16 90,23 103,12 115,20 126,15 138,22 148,17 152,20 152,50 -24,50" fill="rgba(165,195,218,0.40)"/>
-        <polygon points="-24,50 5,40 14,46 24,35 36,42 48,30 60,38 72,27 85,34 98,24 110,31 120,25 132,33 142,28 152,32 152,54 -24,54" fill="rgba(145,180,208,0.48)"/>
-        <!-- Snow caps -->
-        <polygon points="58,10 62,8 66,10 64,15 60,15" fill="rgba(230,242,252,0.8)"/>
-        <polygon points="80,6 84,4 88,6 86,12 82,12"   fill="rgba(230,242,252,0.85)"/>
-        <polygon points="108,4 112,2 116,5 114,11 110,11" fill="rgba(230,242,252,0.82)"/>
-        <text x="76" y="53" text-anchor="middle" font-size="5" fill="rgba(120,160,195,0.65)" font-weight="500" letter-spacing="0.7">Заилийский Алатау</text>
-
-        <!-- Street grid -->
-        <g stroke="#eae7e0" stroke-width="0.55">
-          <line x1="-24" y1="62" x2="152" y2="62"/><line x1="-24" y1="80" x2="152" y2="80"/>
-          <line x1="-24" y1="98" x2="152" y2="98"/><line x1="-24" y1="116" x2="152" y2="116"/>
-          <line x1="-24" y1="134" x2="152" y2="134"/><line x1="-24" y1="152" x2="152" y2="152"/>
-          <line x1="-24" y1="170" x2="152" y2="170"/>
-          <line x1="19" y1="56" x2="19" y2="190"/><line x1="38" y1="56" x2="38" y2="190"/>
-          <line x1="57" y1="56" x2="57" y2="190"/><line x1="76" y1="56" x2="76" y2="190"/>
-          <line x1="95" y1="56" x2="95" y2="190"/><line x1="114" y1="56" x2="114" y2="190"/>
-          <line x1="133" y1="56" x2="133" y2="190"/>
-        </g>
-        <!-- Major avenues -->
-        <line x1="-24" y1="88" x2="152" y2="88" stroke="#ddd9d0" stroke-width="1.8"/>
-        <line x1="-24" y1="118" x2="152" y2="118" stroke="#ddd9d0" stroke-width="1.5"/>
-        <line x1="-24" y1="150" x2="152" y2="150" stroke="#ddd9d0" stroke-width="1.5"/>
-        <line x1="108" y1="56" x2="108" y2="190" stroke="#ddd9d0" stroke-width="1.8"/>
-        <line x1="70" y1="56" x2="70" y2="190" stroke="#ddd9d0" stroke-width="1.4"/>
-
-        <!-- City boundary -->
-        <path d="M8,58 Q38,55 76,57 Q115,55 142,63 Q150,82 148,115 Q150,145 144,165 Q128,185 76,186 Q28,185 10,165 Q4,142 5,112 Q4,80 8,58 Z"
-          fill="none" stroke="rgba(175,168,155,0.16)" stroke-width="1.2" stroke-dasharray="5,7"/>
-
-        <!-- ── DISTRICT BUBBLES — 3D SPHERES ── -->
+        <!-- ── РАЙОНЫ — БЕЙДЖИ-СЧЁТЧИКИ (не пузыри, не фото) ── -->
         <!-- Ориентация жителя Алматы: Горы=верх(юг) · Восток=лево · Запад=право · Север=низ -->
         <!-- Порядок В→З (лево→право): меде → жет/турк → алма(центр) → ауэз/бост → наур → алат -->
 
         <!-- МЕДЕУСКИЙ (юго-восток = верх-лево) -->
         <g class="bubble-g" data-district="mede" cursor="pointer">
-          <clipPath id="clip-mede"><circle cx="38" cy="70" r="18"/></clipPath>
-          <image class="bubble-photo" href="images/districts/mede.jpg" x="20" y="52" width="36" height="36" clip-path="url(#clip-mede)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="38" cy="70" r="18" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="38" cy="70" r="18" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="38" y="66.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">37</text>
-          <text x="38" y="76" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Медеуский</text>
+          <rect class="badge-bg" x="21" y="61" width="34" height="17" rx="6" filter="url(#bub-shadow)"/>
+          <text x="38" y="71.5" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">37</text>
+          <text x="38" y="76.5" text-anchor="middle" font-size="4" font-weight="600" class="bubble-name">Медеуский</text>
         </g>
 
         <!-- БОСТАНДЫКСКИЙ (юг, центр-право) -->
         <g class="bubble-g" data-district="bost" cursor="pointer">
-          <clipPath id="clip-bost"><circle cx="90" cy="78" r="22"/></clipPath>
-          <image class="bubble-photo" href="images/districts/bost.jpg" x="68" y="56" width="44" height="44" clip-path="url(#clip-bost)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="90" cy="78" r="22" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="90" cy="78" r="22" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="90" y="74" text-anchor="middle" font-size="14" font-weight="900" fill="white" class="bubble-count">59</text>
-          <text x="90" y="83.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Бостандыкский</text>
+          <rect class="badge-bg" x="71" y="69" width="38" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="90" y="80" text-anchor="middle" font-size="10" font-weight="900" class="bubble-count">59</text>
+          <text x="90" y="85.5" text-anchor="middle" font-size="4" font-weight="600" class="bubble-name">Бостандыкский</text>
         </g>
 
         <!-- НАУРЫЗБАЙСКИЙ (юго-запад = верх-право) -->
         <g class="bubble-g" data-district="naur" cursor="pointer">
-          <clipPath id="clip-naur"><circle cx="130" cy="94" r="18"/></clipPath>
-          <image class="bubble-photo" href="images/districts/naur.jpg" x="112" y="76" width="36" height="36" clip-path="url(#clip-naur)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="130" cy="94" r="18" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="130" cy="94" r="18" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="130" y="90.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">41</text>
-          <text x="130" y="100" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Наурызбайский</text>
+          <rect class="badge-bg" x="109" y="85" width="42" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="130" y="96" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">41</text>
+          <text x="130" y="101.5" text-anchor="middle" font-size="3.6" font-weight="600" class="bubble-name">Наурызбайский</text>
         </g>
 
         <!-- ЖЕТЫСУСКИЙ (восток = лево) -->
         <g class="bubble-g" data-district="zhet" cursor="pointer">
-          <clipPath id="clip-zhet"><circle cx="22" cy="128" r="21"/></clipPath>
-          <image class="bubble-photo" href="images/districts/zhet.jpg" x="1" y="107" width="42" height="42" clip-path="url(#clip-zhet)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="22" cy="128" r="21" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="22" cy="128" r="21" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="22" y="124.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="22" y="133.5" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Жетысуский</text>
+          <rect class="badge-bg" x="4" y="119" width="36" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="22" y="130" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">48</text>
+          <text x="22" y="135.5" text-anchor="middle" font-size="4" font-weight="600" class="bubble-name">Жетысуский</text>
         </g>
 
         <!-- АЛМАЛИНСКИЙ (исторический центр) -->
         <g class="bubble-g" data-district="alma" cursor="pointer">
-          <clipPath id="clip-alma"><circle cx="68" cy="118" r="24"/></clipPath>
-          <image class="bubble-photo" href="images/districts/alma.jpg" x="44" y="94" width="48" height="48" clip-path="url(#clip-alma)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="68" cy="118" r="24" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="68" cy="118" r="24" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="68" y="114" text-anchor="middle" font-size="16" font-weight="900" fill="white" class="bubble-count">63</text>
-          <text x="68" y="124" text-anchor="middle" font-size="4.2" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алмалинский</text>
+          <rect class="badge-bg" x="49" y="109" width="38" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="68" y="120" text-anchor="middle" font-size="10" font-weight="900" class="bubble-count">63</text>
+          <text x="68" y="125.5" text-anchor="middle" font-size="4" font-weight="600" class="bubble-name">Алмалинский</text>
         </g>
 
         <!-- АУЭЗОВСКИЙ (запад = право) -->
         <g class="bubble-g" data-district="auez" cursor="pointer">
-          <clipPath id="clip-auez"><circle cx="106" cy="118" r="14"/></clipPath>
-          <image class="bubble-photo" href="images/districts/auez.jpg" x="92" y="104" width="28" height="28" clip-path="url(#clip-auez)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="106" cy="118" r="14" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="106" cy="118" r="14" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="106" y="115" text-anchor="middle" font-size="9" font-weight="900" fill="white" class="bubble-count">48</text>
-          <text x="106" y="122.5" text-anchor="middle" font-size="3.6" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Ауэзовский</text>
+          <rect class="badge-bg" x="88" y="109" width="36" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="106" y="120" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">48</text>
+          <text x="106" y="125.5" text-anchor="middle" font-size="3.8" font-weight="600" class="bubble-name">Ауэзовский</text>
         </g>
 
         <!-- АЛАТАУСКИЙ (северо-запад = низ-право) -->
         <g class="bubble-g" data-district="alat" cursor="pointer">
-          <clipPath id="clip-alat"><circle cx="100" cy="162" r="20"/></clipPath>
-          <image class="bubble-photo" href="images/districts/alat.jpg" x="80" y="142" width="40" height="40" clip-path="url(#clip-alat)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="100" cy="162" r="20" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="100" cy="162" r="20" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="100" y="158.5" text-anchor="middle" font-size="13" font-weight="900" fill="white" class="bubble-count">45</text>
-          <text x="100" y="168" text-anchor="middle" font-size="4" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Алатауский</text>
+          <rect class="badge-bg" x="81" y="153" width="38" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="100" y="164" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">45</text>
+          <text x="100" y="169.5" text-anchor="middle" font-size="4" font-weight="600" class="bubble-name">Алатауский</text>
         </g>
 
         <!-- ТУРКСИБСКИЙ (северо-восток = низ-лево) -->
         <g class="bubble-g" data-district="turk" cursor="pointer">
-          <clipPath id="clip-turk"><circle cx="42" cy="162" r="15"/></clipPath>
-          <image class="bubble-photo" href="images/districts/turk.jpg" x="27" y="147" width="30" height="30" clip-path="url(#clip-turk)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="42" cy="162" r="15" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="42" cy="162" r="15" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="42" y="158.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">26</text>
-          <text x="42" y="167" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Турксибский</text>
+          <rect class="badge-bg" x="24" y="153" width="36" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="42" y="164" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">26</text>
+          <text x="42" y="169.5" text-anchor="middle" font-size="3.8" font-weight="600" class="bubble-name">Турксибский</text>
         </g>
 
         <!-- ТАЛГАРСКИЙ (пригород восточнее города — за пределами Алматы, ещё левее Медеуского) -->
-        <!-- Landmark: Halyk Arena (по явной просьбе владельца) -->
+        <!-- Landmark: Halyk Arena (по явной просьбе владельца) — на общем фоне не виден отдельно,
+             обозначен только бейджем на своей compass-корректной позиции. -->
         <g class="bubble-g" data-district="talgar" cursor="pointer">
-          <clipPath id="clip-talgar"><circle cx="-8" cy="95" r="16"/></clipPath>
-          <image class="bubble-photo" href="images/districts/talgar.jpg" x="-24" y="79" width="32" height="32" clip-path="url(#clip-talgar)" preserveAspectRatio="xMidYMid slice"/>
-          <circle cx="-8" cy="95" r="16" fill="rgba(10,12,26,0.32)" class="bubble-scrim" pointer-events="none"/>
-          <circle cx="-8" cy="95" r="16" fill="none" class="bubble-main" filter="url(#bub-shadow)"/>
-          <text x="-8" y="91.5" text-anchor="middle" font-size="11" font-weight="900" fill="white" class="bubble-count">0</text>
-          <text x="-8" y="100" text-anchor="middle" font-size="3.8" fill="rgba(255,255,255,.92)" font-weight="600" class="bubble-name">Талгарский</text>
+          <rect class="badge-bg" x="-25" y="86" width="34" height="18" rx="6" filter="url(#bub-shadow)"/>
+          <text x="-8" y="97" text-anchor="middle" font-size="9" font-weight="900" class="bubble-count">0</text>
+          <text x="-8" y="102.5" text-anchor="middle" font-size="3.8" font-weight="600" class="bubble-name">Талгарский</text>
         </g>
 
         <!-- Compass: горы=верх(Ю), восток=лево(←), запад=право(→) -->

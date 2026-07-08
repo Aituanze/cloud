@@ -159,51 +159,32 @@ const App = {
       const g = svg.querySelector(`[data-district="${d.id}"]`);
       if (!g) return;
       const count = distCounts[d.id] || 0;
-      const mainCircle = g.querySelector('.bubble-main');
-      const photo      = g.querySelector('.bubble-photo');
+      const badge      = g.querySelector('.badge-bg');
       const countText  = g.querySelector('.bubble-count');
+      const nameText   = g.querySelector('.bubble-name');
       const isSelected = this.state.district === d.id;
 
-      // Район теперь — фото достопримечательности (bubble-photo), не заливка
-      // цветом d.color. Круг bubble-main остался как рамка: тень в обычном
-      // режиме, пунктирная обводка d.color в архиве — сам fill всегда none,
-      // иначе он бы полностью закрыл фото. Архив приглушает фото классом
-      // .archived (CSS grayscale+opacity) вместо белой заливки поверх снимка.
-      mainCircle.setAttribute('fill', 'none');
+      // Район — белый бейдж-счётчик поверх единого фонового фото города
+      // (не отдельная картинка на район). Архив приглушает бейдж пунктирной
+      // обводкой d.color (как раньше у пузырей), обычный режим подсвечивает
+      // выбранный район той же обводкой сплошной линией.
       if (isArch) {
-        mainCircle.setAttribute('stroke', d.color);
-        mainCircle.setAttribute('stroke-width', '2.5');
-        mainCircle.setAttribute('stroke-dasharray', '4,3');
-        mainCircle.removeAttribute('filter');
-        if (photo) photo.classList.add('archived');
+        badge.setAttribute('fill', 'rgba(255,255,255,0.85)');
+        badge.setAttribute('stroke', d.color);
+        badge.setAttribute('stroke-width', '2');
+        badge.setAttribute('stroke-dasharray', '4,3');
+        countText.setAttribute('fill', d.color);
+        nameText.setAttribute('fill', '#9fa6b2');
       } else {
-        mainCircle.setAttribute('filter', isSelected ? 'none' : 'url(#bub-shadow)');
-        mainCircle.setAttribute('stroke', isSelected ? 'white' : 'none');
-        mainCircle.setAttribute('stroke-width', isSelected ? '3' : '0');
-        mainCircle.removeAttribute('stroke-dasharray');
-        if (photo) photo.classList.remove('archived');
+        badge.setAttribute('fill', 'white');
+        badge.setAttribute('stroke', isSelected ? d.color : 'none');
+        badge.setAttribute('stroke-width', isSelected ? '2.5' : '0');
+        badge.removeAttribute('stroke-dasharray');
+        countText.setAttribute('fill', d.color);
+        nameText.setAttribute('fill', '#6b7483');
       }
-      g.querySelector('.bubble-count').setAttribute('fill', 'white');
-      g.querySelector('.bubble-name').setAttribute('fill', 'rgba(255,255,255,0.92)');
 
       if (countText) countText.textContent = count;
-
-      let ring = g.querySelector('.sel-ring');
-      if (isSelected && !isArch) {
-        if (!ring) {
-          ring = document.createElementNS('http://www.w3.org/2000/svg','circle');
-          ring.setAttribute('class','sel-ring');
-          ring.setAttribute('fill','none');
-          ring.setAttribute('stroke', d.color);
-          ring.setAttribute('stroke-width','2');
-          ring.setAttribute('opacity','.35');
-          g.insertBefore(ring, g.firstChild);
-        }
-        const cx = mainCircle.getAttribute('cx');
-        const cy = mainCircle.getAttribute('cy');
-        const r  = parseFloat(mainCircle.getAttribute('r'));
-        ring.setAttribute('cx', cx); ring.setAttribute('cy', cy); ring.setAttribute('r', r + 7);
-      } else if (ring) { ring.remove(); }
     });
 
     const liveDot = document.querySelector('.live-dot');
