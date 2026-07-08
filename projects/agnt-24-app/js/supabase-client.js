@@ -135,10 +135,14 @@ const Sb = {
   },
 
   async getAgencyAgents(agencyId, excludeId) {
+    // role='agent' — «Передать коллеге» это перенос между агентами (с
+    // подтверждением МОП/админом), без фильтра в списке коллег появлялись
+    // и сами МОП/руководитель как получатели объекта.
     const { data } = await _db
       .from('profiles')
       .select('id, name, role')
       .eq('agency_id', agencyId)
+      .eq('role', 'agent')
       .neq('id', excludeId);
     return data || [];
   },
