@@ -110,5 +110,13 @@ const Auth = {
     // ── Уведомления (push) ────────────────────
     const notifRow = document.getElementById('notifSettingsRow');
     if (notifRow) notifRow.addEventListener('click', () => Push.toggle());
+
+    // ── Строки-заглушки (фича не реализована) — были кликабельны по виду
+    // (стрелка-шеврон), но без единого обработчика вообще, тап не делал
+    // ничего и не сообщал об этом пользователю.
+    ['subSettingsRow', 'myProfileRow'].forEach(id => {
+      const row = document.getElementById(id);
+      if (row) row.addEventListener('click', () => App._toast('Скоро'));
+    });
   },
 };
