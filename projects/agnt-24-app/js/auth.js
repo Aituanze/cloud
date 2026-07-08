@@ -106,5 +106,9 @@ const Auth = {
     // ── Выйти (экран профиля) ─────────────────
     const signOutRow = document.querySelector('.sr-signout');
     if (signOutRow) signOutRow.addEventListener('click', () => this.signOut());
+
+    // ── Уведомления (push) ────────────────────
+    const notifRow = document.getElementById('notifSettingsRow');
+    if (notifRow) notifRow.addEventListener('click', () => Push.toggle());
   },
 };

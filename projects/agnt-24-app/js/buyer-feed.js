@@ -115,6 +115,14 @@ const BuyerFeed = {
     if (this._user) {
       try {
         await Sb.createLead(propId, agentId, this._user.id, phone || this._user.phone || null);
+        // Push — best-effort: функция может быть ещё не задеплоена в Supabase,
+        // создание лида не должно падать из-за этого.
+        Sb.triggerPush(agentId, {
+          title: 'Новый лид agnt.24',
+          body: 'Покупатель посмотрел контакт по вашему объекту',
+          url: './index.html',
+          tag: `lead-${propId}`,
+        }).catch(() => {});
       } catch (e) {
         // лид уже существует — OK
       }

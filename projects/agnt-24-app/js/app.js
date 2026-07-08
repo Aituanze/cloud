@@ -1587,6 +1587,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   HierarchyUI.init();
   App.init(); // Карта всегда работает без авторизации
   setInterval(pollForFreshListings, LIVE_SYNC_INTERVAL_MS);
+  if (Push.isSupported()) Push._registerSW().catch(() => {});
 
   // Приглашение по ссылке (?invite=) — показываем форму регистрации до всего остального
   if (await InviteFlow.checkUrl()) return;
@@ -1603,6 +1604,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     TransferUI.init();
     App._loadAgencyClaims();
     App._syncPendingClaims();
+    Push.refreshStatusUI();
   } else {
     const buyerProfile = await Sb.getBuyerProfile(session.user.id);
     if (buyerProfile) {
