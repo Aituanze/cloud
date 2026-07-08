@@ -160,30 +160,31 @@ const App = {
       if (!g) return;
       const count = distCounts[d.id] || 0;
       const mainCircle = g.querySelector('.bubble-main');
+      const photo      = g.querySelector('.bubble-photo');
       const countText  = g.querySelector('.bubble-count');
       const isSelected = this.state.district === d.id;
 
-      const shineCircle = g.querySelector('.bubble-shine');
-
+      // Район теперь — фото достопримечательности (bubble-photo), не заливка
+      // цветом d.color. Круг bubble-main остался как рамка: тень в обычном
+      // режиме, пунктирная обводка d.color в архиве — сам fill всегда none,
+      // иначе он бы полностью закрыл фото. Архив приглушает фото классом
+      // .archived (CSS grayscale+opacity) вместо белой заливки поверх снимка.
+      mainCircle.setAttribute('fill', 'none');
       if (isArch) {
-        mainCircle.setAttribute('fill', 'rgba(255,255,255,0.9)');
         mainCircle.setAttribute('stroke', d.color);
         mainCircle.setAttribute('stroke-width', '2.5');
         mainCircle.setAttribute('stroke-dasharray', '4,3');
         mainCircle.removeAttribute('filter');
-        if (shineCircle) shineCircle.setAttribute('fill', 'url(#sphere-arch)');
-        g.querySelector('.bubble-count').setAttribute('fill', d.color);
-        g.querySelector('.bubble-name').setAttribute('fill', '#9fa6b2');
+        if (photo) photo.classList.add('archived');
       } else {
-        mainCircle.setAttribute('fill', d.color);
         mainCircle.setAttribute('filter', isSelected ? 'none' : 'url(#bub-shadow)');
         mainCircle.setAttribute('stroke', isSelected ? 'white' : 'none');
         mainCircle.setAttribute('stroke-width', isSelected ? '3' : '0');
         mainCircle.removeAttribute('stroke-dasharray');
-        if (shineCircle) shineCircle.setAttribute('fill', 'url(#sphere-shine)');
-        g.querySelector('.bubble-count').setAttribute('fill', 'white');
-        g.querySelector('.bubble-name').setAttribute('fill', 'rgba(255,255,255,0.92)');
+        if (photo) photo.classList.remove('archived');
       }
+      g.querySelector('.bubble-count').setAttribute('fill', 'white');
+      g.querySelector('.bubble-name').setAttribute('fill', 'rgba(255,255,255,0.92)');
 
       if (countText) countText.textContent = count;
 

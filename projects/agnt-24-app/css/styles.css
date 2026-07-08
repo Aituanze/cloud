@@ -114,7 +114,10 @@ html, body {
 /* Bubble interactions */
 .bubble-g { cursor: pointer; }
 .bubble-g:active .bubble-main { opacity: .85; }
+.bubble-g:active .bubble-photo { opacity: .8; }
 .bubble-main { transition: r .2s; }
+.bubble-photo { transition: filter .25s, opacity .2s; }
+.bubble-photo.archived { filter: grayscale(.75) brightness(1.15); opacity: .55; }
 
 /* BOTTOM PANEL */
 .map-bottom {
