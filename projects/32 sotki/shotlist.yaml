@@ -1,13 +1,13 @@
 title: "32 sotki"
 aspect: "9:16"
 clips:
-  - file: "rough_cut_32sotki.mp4"
+  - file: "main_dynamic.mp4"
     in: 0.0
-    out: 95.73
+    out: 95.78
 intro:
-  file: "analog.MOV"
+  file: "intro_tracked.mp4"
   in: 0.0
-  out: 4.0
+  out: 4.95
 voiceover:
   file: "audio/voiceover_dmitry.mp3"
 captions:
