@@ -1,0 +1,24 @@
+title: "32 sotki"
+aspect: "9:16"
+clips:
+  - file: "rough_cut_32sotki.mp4"
+    in: 0.0
+    out: 95.73
+intro:
+  file: "analog.MOV"
+  in: 0.0
+  out: 4.0
+voiceover:
+  file: "audio/voiceover_dmitry.mp3"
+captions:
+  style: "karaoke"
+  source: "whisper"
+endcard:
+  image: "territory.jpeg"
+  duration: 5
+  points:
+    - "32 сотки в престижном районе Алматы"
+    - "Выход к реке Есентай"
+    - "Все центральные коммуникации"
+    - "Высокий инвестиционный потенциал"
+branding: null
